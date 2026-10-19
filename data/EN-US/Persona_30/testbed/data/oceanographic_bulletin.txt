@@ -1,0 +1,23 @@
+Ocean bulletin: moderate swell predicted for 2026-10-22.
+Water note: low oxygen event predicted for 2026-10-30.
+Weather note: gale watch posted for 2026-11-02.
+Harbor note: strong ebb tide expected on 2026-11-05.
+Aquaculture note: mild upwelling predicted for 2026-11-07.
+Oceanographic bulletin: Severe upwelling predicted for 2026-11-08.
+Kelp note: harvest crew boat check moved to 2026-11-09.
+Mussel note: raft line inspection scheduled for 2026-11-10.
+Portland note: Casco Bay ferry traffic may be heavy on 2026-11-11.
+Gear note: replacement buoys arrive on 2026-11-12.
+EPA note: water sample pickup scheduled for 2026-11-13.
+DMR note: lease map review scheduled for 2026-11-14.
+Sea-to-table note: restaurant pickup planned for 2026-11-15.
+Storm note: northeast wind advisory posted for 2026-11-16.
+Dock note: crane maintenance planned for 2026-11-17.
+Cold-water note: diver safety refresh set for 2026-11-18.
+Fuel note: marina diesel delivery expected on 2026-11-19.
+Packing note: insulated totes should be counted before the next harvest.
+Ocean note: a moderate temperature inversion is forecast for 2026-11-08 but does not replace the severe upwelling alert.
+Casco Bay note: a ferry wake advisory is active on 2026-11-08 for the inner channel.
+Farm note: the infrastructure inspection is tied to the severe upwelling forecast, not routine raft maintenance.
+Cold-water safety note: crews should confirm immersion gear before any post-upwelling field work.
+Calendar note: preserve the requested event title and forecast date.

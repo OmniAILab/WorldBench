@@ -1,0 +1,30 @@
+{
+  "persona": "Dieter führt eine Uhrmacherwerkstatt in Triberg im Schwarzwald. Er fertigt und restauriert mechanische Kuckucksuhren, prüft die Holzfeuchte geschnitzter Gehäuseteile und bereitet Herkunftsnachweise und Überseeversand sorgfältig vor.",
+  "task": "Ergänze das Sammlerzertifikat der Schwarzwälder Kuckucksuhr um die durch die Werkstattunterlagen gestützte Herstellungs- und Herkunftsangabe.",
+  "required_files": [
+    "uhrenverein_hinweis.txt"
+  ],
+  "output_files": [
+    "data/zertifikat.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/zertifikat.docx",
+        "keywords": [
+          "Schwarzwälder Kuckucksuhr",
+          "handgefertigt in Triberg",
+          "lokales Schnitzmuster"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/zertifikat.docx",
+      "change": "modify"
+    }
+  ]
+}

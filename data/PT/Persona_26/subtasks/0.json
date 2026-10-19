@@ -1,0 +1,22 @@
+{
+  "persona": "Fátima é natural de Arraiolos e coordena há mais de uma década uma oficina de tapetes no concelho. Acompanha a execução do ponto de Arraiolos, gere as encomendas de lã tingida e distribui os esquemas de cores e quadrantes pelas bordadeiras a partir do arquivo de matrizes históricas da oficina.",
+  "task": "Consulta o arquivo digital das matrizes históricas de Arraiolos, encontra o código cromático de «Motivo Estrela (Coleção Paço de Évora)» e atualiza o quadrante atribuído às artesãs.",
+  "required_files": [
+    "digital_archive.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/artisan_assignment.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Carmesim_Quadrante_B"
+          }
+        ]
+      }
+    }
+  ]
+}

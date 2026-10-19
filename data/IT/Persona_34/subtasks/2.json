@@ -1,0 +1,31 @@
+{
+  "persona": "Caterina cataloga la vasta collezione di reperti del Museo Egizio di Torino, assicurando che tutti i prestiti e le acquisizioni rispettino gli standard internazionali di provenienza. Si muove tra le complesse linee guida etiche per il rimpatrio del patrimonio culturale e gli specifici protocolli di archiviazione digitale dell'International Council of Museums. I suoi compiti quotidiani comprendono il meticoloso esame dei registri storici di acquisizione e la redazione di narrazioni espositive che traducono la complessa ricerca egittologica per un pubblico globale.",
+  "task": "Usa il documento di outreach per aggiungere al calendario la sessione di redazione dei testi della nuova mostra, con la data indicata.",
+  "required_files": [
+    "documento_outreach_museo.txt"
+  ],
+  "output_files": [
+    "data/calendario_catalogatrice_museo.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_catalogatrice_museo.ics",
+        "summary_keywords": [
+          "Sessione",
+          "redazione",
+          "mostra"
+        ],
+        "description_keywords": [],
+        "date": "2026-06-15"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_catalogatrice_museo.ics",
+      "change": "modify"
+    }
+  ]
+}

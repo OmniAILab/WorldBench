@@ -1,0 +1,39 @@
+{
+  "persona": "Marta è una coordinatrice di eventi a Cortina d'Ampezzo e gestisce l'eredità logistica e la transizione infrastrutturale dopo i Giochi Olimpici Invernali del 2026. Organizza festival di montagna su larga scala muovendosi tra gli specifici regolamenti di tutela ambientale della provincia di Belluno e i complessi orari dei trasporti alpini. Il suo ruolo comporta la costante conciliazione dei contratti con i fornitori e dei permessi di pubblica sicurezza, assicurando che gli eventi di alto profilo si svolgano senza intoppi e senza disturbare il delicato ecosistema delle Dolomiti.",
+  "task": "Usa la proiezione dei partecipanti al festival per aggiornare la capacità shuttle richiesta nel piano di trasporto alpino nel file ./data/trasporto_alpino_cortina.xlsx per l'evento Dolomiti_Music_Fest.",
+  "required_files": [
+    "note_shuttle_cortina.txt",
+    "eventi_cortina.xlsx"
+  ],
+  "output_files": [
+    "data/trasporto_alpino_cortina.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/trasporto_alpino_cortina.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "5000_Pax"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/trasporto_alpino_cortina.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

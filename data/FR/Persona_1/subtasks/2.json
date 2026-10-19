@@ -1,0 +1,37 @@
+{
+  "persona": "Benoît est ingénieur en aérospatiale à Toulouse et assure la maintenance des installations d’essais satellitaires du Centre spatial de Toulouse (CNES), dans le secteur de Rangueil. Il interprète les plans techniques conformément aux procédures d’assurance produit et veille à ce que tous les étalonnages de laboratoire respectent des contrôles environnementaux rigoureux, souvent dans des créneaux très serrés entre plusieurs campagnes d’essais.",
+  "task": "Planifie dans le calendrier du laboratoire le contrôle d’humidité préalable à l’étalonnage sous vide thermique. Croise la date de l’étalonnage, le seuil environnemental applicable et le briefing d’exploitation pour déterminer l’heure du contrôle ; écarte les seuils des autres laboratoires et les variantes d’étalonnage.",
+  "required_files": [
+    "facilities_contacts_toulouse.xlsx",
+    "lab_schedule_toulouse.xlsx",
+    "occitanie_notice.txt",
+    "modele_email_cnes.txt",
+    "briefing_controle_humidite_toulouse.txt"
+  ],
+  "output_files": [
+    "data/calendrier_laboratoire_toulouse.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendrier_laboratoire_toulouse.ics",
+        "summary_keywords": [
+          "Contrôle humidité — étalonnage vide thermique"
+        ],
+        "description_keywords": [
+          "humidité en dessous de 45 %",
+          "Rangueil"
+        ],
+        "time_start": "2026-04-05 07:30:00",
+        "time_end": "2026-04-05 08:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendrier_laboratoire_toulouse.ics",
+      "change": "modify"
+    }
+  ]
+}

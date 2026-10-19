@@ -1,0 +1,28 @@
+{
+  "persona": "Soren is a dairy fermentation scientist in Madison, Wisconsin, working to develop specialized cultures for artisanal cheese producers in the Driftless Area. He manages the stringent food safety documentation required by the Wisconsin Department of Agriculture, Trade and Consumer Protection and the technical standards for export-grade dairy products, ensuring that the biochemical profiles of aged cheddars and specialty blues remain consistent with the state’s high-quality branding.",
+  "task": "Insert the updated rennet supplier certification clause from the Department of Agriculture food safety mandate into the laboratory production manual document.",
+  "required_files": [
+    "agriculture_mandate.txt"
+  ],
+  "output_files": [
+    "data/production_manual.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/production_manual.docx",
+        "keywords": [
+          "All microbial rennet must possess ISO-22000 certification"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/production_manual.docx",
+      "change": "modify"
+    }
+  ]
+}

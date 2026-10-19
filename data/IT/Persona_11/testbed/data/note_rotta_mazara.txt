@@ -1,0 +1,19 @@
+Appunto satellite: Z1 mostra 18.4 °C e va segnalata solo se il mare scende sotto 18.
+Promemoria rotta: Z3 è più vicina al porto, ma non è la lettura più calda.
+Nota skipper: usare 20.4 °C per la simulazione antimeridiana, non per il briefing reale.
+Avviso meteo: il libeccio può aumentare onda, ma non cambia la temperatura registrata.
+Appunto pesca: Z4 è chiusa per sicurezza e non compare nella tabella validata.
+Manuale Operativo di Flotta: Per ottimizzare la battuta di pesca, lo skipper deve essere sempre allertato evidenziando sul piano di rotta la zona marittima che registra i picchi termici massimi secondo l'ultimo rilevamento satellitare.
+Promemoria bordo: il Gambero Rosso va tenuto in cassette separate, ma non è la cautela di rotta.
+Nota sensore: 19.7 °C è una lettura intermedia e non la massima.
+Appunto porto: la banchina nuova di Mazara è libera dopo le 06:00.
+Promemoria Blue Economy: non inviare le temperature nel modulo quota settimanale.
+Nota corrente: la corrente verso Pantelleria non sostituisce il confronto delle zone.
+Appunto equipaggio: Z_A è un codice interno del 2025 e non va usato.
+Promemoria asta: il prezzo alto non identifica la zona più calda.
+Nota GPS: il punto Tunisia Nord è fuori rotta per questa uscita.
+Appunto rete: le reti a strascico sono state controllate, ma non indicano temperatura.
+Avviso calibrazione: I sensori di profondità e i satelliti termici richiedono l'accuratezza al primo decimale; ogni operazione di troncatura nei log è severamente vietata.
+Nota radiomare: la segnalazione canale 16 non riguarda il briefing documento.
+Promemoria salinità: il valore di salinità superficiale è stabile, ma non determina la zona da segnalare allo skipper.
+Appunto vento: la rosa dei venti del mattino indica scirocco debole, parametro che non sostituisce la lettura termica.

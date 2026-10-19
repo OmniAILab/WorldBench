@@ -1,0 +1,20 @@
+{
+  "persona": "Amália é mestre violeira no centro histórico de Coimbra e constrói guitarras portuguesas para músicos de fado académico. Seleciona abeto de ressonância para os tampos, acompanha a estabilidade acústica da madeira e verifica a documentação de proveniência e as exigências CITES aplicáveis às espécies importadas.",
+  "task": "Extrai a data da fase de desbaste preciso do tampo em forma de lágrima e acrescenta ao calendário da oficina um evento intitulado «Desbaste preciso do tampo».",
+  "required_files": [
+    "crafting_document.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/workshop_calendar_coimbra.ics",
+        "keywords": [
+          "Desbaste preciso do tampo",
+          "20260605"
+        ]
+      }
+    }
+  ]
+}

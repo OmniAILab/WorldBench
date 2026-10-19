@@ -1,0 +1,8 @@
+Meyer Werft Papenburg – interner Tiefgangs- und Tideabgleich
+Planungsstand 16. Oktober 2026: Die Wasserstandsreserve ist für die Passage auf der Ems und am Emssperrwerk erneut zu prüfen. Die endgültige Freigabe hängt von der aktuellen Wasserstandsvorhersage und dem abgestimmten Überführungsplan ab.
+Kritischer Rumpfbereich im vorliegenden Modell: Heckantriebsgondeln. Die im Projekt angesetzte Kielfreiheit ist beim geplanten Zeitfenster nicht ausreichend.
+Älterer Planungsstand: Eine Reduktion des Ballasts wurde erörtert, jedoch nicht als sichere Massnahme freigegeben.
+Hydrodynamische Bewertung: Für die Heckantriebsgondeln lautet der vorläufig verbindliche Dispositionsstatus „Warten_auf_Springtide“.
+Der Bereich Bugsektion_1 besitzt gemäss der Modellübersicht ausreichende Reserve und ist nicht Gegenstand der Änderung.
+„Bugsektion 4“ bezeichnet eine andere interne Baugruppe (Kennung Bug_Sektion_4); der fremdsprachige Altcode Bow_Section_4 wird im Fliesstext nicht weiterverwendet.
+Eine etwaige Lotsenbesetzung und Sperrwerkskoordination sind gesondert mit zuständigen Stellen zu bestätigen. Keine allgemeine Fahrwassertiefen- oder Lotsenregel wird behauptet.

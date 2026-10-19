@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Consell Insular de Mallorca//Calendario del marger//ES
+BEGIN:VEVENT
+UID:urn:uuid:c4d683fd-f1f1-5b0b-86c6-83b4d4a0ebc3
+DTSTART:20260414T080000
+DTEND:20260414T150000
+SUMMARY:Plazo solicitud subvención FODESMA
+DESCRIPTION:Fecha límite de presentación de solicitudes FODESMA para bancals de la Serra de Tramuntana.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:537c6894-7f9b-55b1-9c4e-06b80734ad19
+DTSTART:20260416T080000
+DTEND:20260416T140000
+SUMMARY:Visita técnica Bancal_Valldemossa_4
+DESCRIPTION:Visita del equipo de margers posterior a la visita de seguimiento patrimonial.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:00fb1742-4366-584b-9dc1-f8a6e6ccf98f
+DTSTART:20260408T090000
+DTEND:20260408T170000
+SUMMARY:Curso de pedra en sec
+DESCRIPTION:Formación de margers organizada por el Consell Insular en Sóller.
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+Repères internes d'exploitation de la saline (indices de réglage des pertuis entre fares et œillets) :
+Pour l’œillet de réserve Reserve_Sud_4, un indice de circulation hydraulique de 1,8 avec évaporation modérée indique une remise en eau standard.
+Pour la fare profonde Fare_Ancienne_4, un indice de 3,1 avec forte salinité impose une attente stricte.
+Pour les vasières nouvelles, l'indice 2,0 correspond à une phase de rinçage.
+Pour les cobiers, l'indice 2,9 correspond à une alimentation forte.
+Pour les œillets ombragés, l'indice 2,2 indique une cristallisation lente.
+Pour les bassins de stockage, l'indice 3,3 indique un niveau haut.
+Pour les fares anciennes, l'indice 1,9 signale une reprise incomplète.
+Pour les bassins latéraux, l'indice 2,7 indique une évaporation irrégulière.
+Pour l’œillet de fleur de sel Oeil_de_Sel_1, la valeur « Indice de circulation hydraulique : 2,5 » combinée à une évaporation stable correspond à l’état Prête.
+Pour les œillets du levant, l'indice 2,3 correspond à une attente de vingt-quatre heures.
+Pour les œillets du couchant, l'indice 2,8 correspond à une récolte retardée.
+Pour les cobiers bas, l'indice 3,0 nécessite de réduire le pertuis.
+Pour les vasières salées, l'indice 2,1 indique une concentration insuffisante.
+Pour les fares du nord, l'indice 2,6 correspond à une surveillance renforcée.
+Pour les bassins d’appoint, l'indice 1,7 correspond à une remise à niveau.
+Pour les œillets argileux, l'indice 2,4 indique une cristallisation fragile.
+Pour les bassins du chemin, l'indice 3,2 correspond à une circulation excessive.
+Pour l’œillet de réserve Reserve_Nord_7, un indice de 1,9 avec évaporation lente indique une reprise incomplète.
+Pour la fare profonde Fare_Est_3, un indice de 3,0 avec salinité modérée impose une surveillance renforcée.

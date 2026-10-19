@@ -1,0 +1,8 @@
+Pierrick : Cornouaille_Tradition_09 est bien au bouchage aujourd’hui ?
+Responsable laboratoire : Oui.
+Pierrick : Le relevé fixe 3,5 bar maximum avant bouchage.
+Responsable laboratoire : Exact.
+Pierrick : J’ajoute aussi l’instruction de bloquer le bouchage au-dessus de 3,5 bar.
+Responsable laboratoire : Oui, c’est le garde-fou attendu.
+Pierrick : La cuvée est au stade du bouchage ; je note le point d’arrêt en cas de dépassement.
+Responsable de ligne : C’est notre seuil de réglage du conditionnement, pas un plafond AOP universel.

@@ -1,0 +1,13 @@
+INSTRUÇÃO OPERACIONAL DE CONTROLO DE POÇOS — CAMPO GEOTÉRMICO DA RIBEIRA GRANDE E PICO VERMELHO (SÃO MIGUEL)
+Entidade exploradora: Operação Geotérmica de São Miguel | Documento: IO-RGPV-2026
+
+1. Regulação da válvula de cabeça em função da pressão manométrica do fluido
+- Pressão de cabeça entre 20 e 25 bar (regime estável): manter a abertura da válvula entre 80% e 85%.
+- Pressão de cabeça entre 26 e 35 bar (regime moderado): regular a válvula para 72% a 75%.
+- Pressão de cabeça entre 36 e 41 bar (sobrepressão ligeira a moderada): ajustar a válvula para 68%.
+
+2. Atuação em sobrepressão elevada e articulação sismovulcânica
+- Para o Furo Geotérmico Secundário (Ribeira Grande) com 44 bar de pressão de cabeça (sem registo sísmico associado): ajustar pressão da válvula para 66% e repetir a leitura manométrica.
+- Para o Furo Geotérmico Principal (Ribeira Grande) com 45 bar de sobrepressão elevada associada a evento microssísmico local (M 2,4 no setor norte do Maciço do Fogo): reduzir pressão da válvula para 65% e reforçar a monitorização sísmica e de caudal bifásico.
+- Para o Poço de Vapor Norte (Caldeiras) com 46 bar de sobrepressão crítica: reduzir pressão da válvula para 64% e manter vigilância reforçada.
+- Acima de 48 bar ou em caso de sismo sentido com aceleração estrutural na central: fechar a válvula de bloqueio da linha e ativar o plano de segurança.

@@ -1,0 +1,23 @@
+{
+  "persona": "Pedro coordena implementações de software em Braga e é especialista em infraestrutura cloud para unidades de saúde rurais. Lida com ligações de banda larga instáveis nas freguesias de montanha e com as exigências da Comissão Nacional de Proteção de Dados, planeando as sincronizações para a madrugada, quando a rede está menos carregada.",
+  "task": "Usa a velocidade da ligação do posto de saúde remoto do Gerês e a regra de sincronização noturna para atualizar o limite de transferência no protocolo da infraestrutura de Braga.",
+  "required_files": [
+    "broadband_speeds.xlsx",
+    "off_peak_rules_braga.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/sync_protocols.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "250 MB por janela noturna"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "persona": "Alejandro es madrileño y dirige la logística de una distribuidora farmacéutica con sede en el polígono industrial de Vicálvaro. Coordina el transporte de suministros médicos termolábiles a través de las zonas ambientales de Madrid 360 y adapta continuamente los repartos a las restricciones de acceso de la ZBEDEP Distrito Centro y a los escenarios del Protocolo Anticontaminación que activa el Ayuntamiento de Madrid.",
+  "task": "Averigua qué entrega con destino a Distrito Centro tiene ya la ruta ajustada en la hoja de entregas y cuál es el buzón de recepción de la farmacia destinataria en el directorio de clientes. Escribe a esa farmacia un correo que confirme la ruta ajustada e incluya el identificador de la entrega, sin usar los buzones de almacén, logística o facturación.",
+  "required_files": [
+    "clientes_madrid.xlsx",
+    "entregas_madrid_v2.xlsx",
+    "indicaciones_correo_madrid.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "recepcion@farmacia-centro.es",
+        "keywords": [
+          "MD-CH-14",
+          "Evitar_Centro"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_recepcion_*.eml",
+      "change": "create"
+    }
+  ]
+}

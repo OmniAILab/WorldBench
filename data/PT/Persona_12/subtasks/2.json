@@ -1,0 +1,19 @@
+{
+  "persona": "Vasco nasceu em Angra do Heroísmo e gere uma cooperativa leiteira na ilha Terceira. Organiza a recolha nas pastagens, incluindo as encostas da Serreta, e articula o transporte em condições sanitárias adequadas com a capacidade disponível das cubas de transformação.",
+  "task": "Extrai do protocolo da cooperativa o tempo mínimo de cura do queijo São João e insere a frase completa na secção «Normas de cura» do manual de garantia da qualidade.",
+  "required_files": [
+    "cooperative_protocol.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/assurance_manual.docx",
+        "keywords": [
+          "O tempo mínimo de cura do queijo São João é de 12 semanas"
+        ]
+      }
+    }
+  ]
+}

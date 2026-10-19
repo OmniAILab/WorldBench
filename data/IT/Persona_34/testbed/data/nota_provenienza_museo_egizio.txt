@@ -1,0 +1,21 @@
+Appunti di catalogazione per prestiti e acquisizioni del Museo Egizio.
+Appunto: Il reperto Usciabti_Set_8 ha data 1901_Review e non è il target.
+Promemoria: Se la data è 1890_Unclear, lasciare Revisione.
+Nota operativa: Il codice 1824_Replica non equivale ad acquisizione verificata.
+Nota archivio: Per Sarcophagus_Lid_3 non usare lo stato della mostra temporanea.
+Avviso interno: Il livello Verificato_1820 appartiene a un registro preunitario diverso.
+Appunto: Il reperto Papyrus_Fragment_2 richiede scansione, non clearance storica.
+Procedura interna di catalogazione del Museo Egizio: ai reperti con provenienza documentata e acquisizione confermata nel 1824 assegnare il codice di verifica archivistica previsto dal registro digitale.
+Promemoria: Il contatto prestiti@museoegizio.it non modifica la tabella ICOM.
+Nota operativa: Se il record è Pending_Ethical_Review, non assegnare livello verificato.
+Nota archivio: Il codice 1824_Verified_EN è una traduzione non usata nel foglio italiano.
+Avviso interno: La nota sulla sala espositiva non riguarda la provenienza.
+Appunto: Per Rosetta_Stone_Replica vale il fascicolo etico, non il registro storico.
+Promemoria: Il reperto Statue_Base_12 ha data 1825_Verified.
+Nota operativa: Il valore 1824_Da_verificare è un promemoria non concluso.
+Nota archivio: Il codice Verificato_1824 si assegna solo al reperto con acquisizione 1824_Verified.
+Avviso interno: Il restauro fotografico non incide sulla clearance digitale.
+Appunto: La pulizia delle vetrine espositive è ordinaria e non riguarda il livello di clearance.
+Promemoria: L'aggiornamento del sistema antifurto è tecnico e non modifica la tabella di provenienza.
+Nota museo: la pulizia conservativa delle teche è ordinaria e non modifica la provenienza storica del reperto.
+Promemoria Torino: l'aggiornamento delle audioguide è espositivo e non determina il livello di clearance digitale.

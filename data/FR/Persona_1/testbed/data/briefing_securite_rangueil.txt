@@ -1,0 +1,7 @@
+Responsable assurance produit : Nous mettons à jour la fiche d’accès de la salle blanche pour le secteur CNES Rangueil.
+Technicien : Le contrôle des pressions différentielles doit-il figurer comme action individuelle d’entrée pour chaque opérateur ?
+Responsable assurance produit : Non, ce suivi est désormais assuré par la ronde technique de début de poste.
+Technicien : Quelle est l’étape obligatoire que chaque technicien doit accomplir au sas ?
+Responsable assurance produit : Selon la consigne locale d’exploitation du laboratoire, il faut signer et vérifier le registre des particules juste avant de franchir les portes de la salle blanche.
+Technicien : Et la mention sur la sortie ou sur la salle grise ?
+Responsable assurance produit : Ne les reprends pas ici, nous rédigeons uniquement l’étape d’entrée en salle blanche pour CNES Rangueil.

@@ -1,0 +1,32 @@
+{
+  "persona": "Salvo è un medico specializzato in epidemiologia marina con base a Palermo, dove monitora la salute degli stock di pesce lungo la costa siciliana. Gestisce l'intersezione tra le direttive sanitarie dell'Unione Europea e gli specifici protocolli sanitari regionali dell'Assessorato della Salute della Regione Siciliana per prevenire epidemie negli ecosistemi mediterranei locali. La sua routine quotidiana comprende l'interpretazione di grandi quantità di dati biologici longitudinali e di rapporti di analisi chimica dell'acqua di mare, per emettere allerte precoci alle cooperative locali, assicurando che le essenziali esportazioni ittiche dell'isola restino conformi agli standard di sicurezza globali.",
+  "task": "Scrivi una email alle cooperative di pesca indicando la soglia di allerta regionale per il patogeno Vibrio_spp nel file ./data/email_cooperative_pesca_palermo.txt.",
+  "required_files": [
+    "note_allerta_sanitaria_palermo.txt",
+    "soglie_assessorato_salute.xlsx",
+    "contatti_assessorato_pesca.xlsx"
+  ],
+  "output_files": [
+    "data/email_cooperative_pesca_palermo.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_cooperative_pesca_palermo.txt",
+        "keywords": [
+          "cooperative@pesca.palermo.it",
+          "Vibrio_spp",
+          "100_CFU_Alert_Level"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_cooperative_pesca_palermo.txt",
+      "change": "modify"
+    }
+  ]
+}

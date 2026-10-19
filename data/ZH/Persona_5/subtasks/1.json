@@ -1,0 +1,41 @@
+{
+  "persona": "志豪是西安的一名施工现场监测员。在西安，几乎一挖坑就可能碰到古墓，因此他像鹰一样盯着地铁施工队，一旦发现古砖就立刻暂停开挖。",
+  "task": "把西安地铁施工现场文物保护工作程序、TX-8 发现记录和西安考古交班对话整理成一份简洁 PDF 停工流程，供地铁工人发现疑似唐代墓室时使用。流程应区分普通碎瓦与成组带纹墓砖：后者暴露时立即停止施工、封锁现场并等待考古人员入场勘测，未经考古决定不得恢复。",
+  "required_files": [
+    "sach_notice_xian.txt",
+    "heritage_findings_xian.xlsx",
+    "dialogue_stopwork_xian.txt"
+  ],
+  "output_files": [
+    "data/stopwork_protocol.pdf"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "pdf",
+        "file": "./data/stopwork_protocol.pdf",
+        "keywords": [
+          "现场文物保护工作程序",
+          "西安地铁",
+          "疑似唐代墓室",
+          "成组带纹墓室砖块",
+          "立即停止施工",
+          "封锁现场",
+          "等待考古人员",
+          "不得恢复"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/stopwork_protocol.pdf",
+      "change": "modify"
+    },
+    {
+      "path": "data/stopwork_protocol.docx",
+      "change": "create"
+    }
+  ]
+}

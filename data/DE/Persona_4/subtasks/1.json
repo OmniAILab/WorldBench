@@ -1,0 +1,30 @@
+{
+  "persona": "Jürgen arbeitet im Kölner Karnevalswagenbau. Für einen Motivwagen des Rosenmontagszugs gleicht er Streckenmaße, technische Aufbauten und die mit der Zugleitung abgestimmten Sicherheitsanforderungen ab.",
+  "task": "Übernimm die abgestimmten Anforderungen an Rettungsgasse und Überhang für den Rosenmontagszug in die Sicherheitscheckliste.",
+  "required_files": [
+    "ordnungsamt_hinweis.txt"
+  ],
+  "output_files": [
+    "data/sicherheitscheckliste.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/sicherheitscheckliste.docx",
+        "keywords": [
+          "Rosenmontag",
+          "Rettungsgasse freihalten",
+          "Überhang begrenzen"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/sicherheitscheckliste.docx",
+      "change": "modify"
+    }
+  ]
+}

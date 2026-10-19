@@ -1,0 +1,28 @@
+{
+  "persona": "Gareth is a secondary school teacher in the Canton district of Cardiff. He maintains student progress sheets, bilingual education notes, curriculum planning documents, and faculty calendar entries.",
+  "task": "Insert the Welsh Government formative observation frequency into the assessment frequency section of the curriculum planning document.",
+  "required_files": [
+    "welsh_gov_policy.txt"
+  ],
+  "output_files": [
+    "data/curriculum_planning.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/curriculum_planning.docx",
+        "keywords": [
+          "Mandatory formative observation every two weeks"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/curriculum_planning.docx",
+      "change": "modify"
+    }
+  ]
+}

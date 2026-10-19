@@ -1,0 +1,30 @@
+{
+  "persona": "勇是宜昌三峡大坝的一名维护工。他检查混凝土应力传感器，协调嘈杂的水下维修，并吃辣味湖北热干面，在潮湿的峡谷里暖身。",
+  "task": "找到记录的地震震级读数，并把该读数写入月度报告的地震活动部分。",
+  "required_files": [
+    "seismic_monitoring.xlsx",
+    "three_gorges_seismic_reference.xlsx",
+    "seismic_note.txt"
+  ],
+  "output_files": [
+    "data/annual_report.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/annual_report.docx",
+        "keywords": [
+          "2026-04-12 记录到 3.2_Richter"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/annual_report.docx",
+      "change": "modify"
+    }
+  ]
+}

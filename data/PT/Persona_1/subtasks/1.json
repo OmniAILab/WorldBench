@@ -1,0 +1,19 @@
+{
+  "persona": "Sofia é de Coimbra e trabalha há uma década como professora do ensino secundário no bairro histórico da Alta. Lida diariamente com a complexidade de articular o currículo nacional do Ministério da Educação com percursos personalizados de aprendizagem dos alunos, sintetizando grandes volumes de materiais educativos e dados de avaliação para garantir que os seus estudantes progridem, apesar dos quadros rígidos de avaliação externa.",
+  "task": "Extrai da nota informativa sobre os exames nacionais e da lista de verificação escolar a instrução de preparação validada para 2026 e acrescenta-a como ponto da secção «Lista de verificação» do documento de preparação para o exame da turma da Alta de Coimbra.",
+  "required_files": [
+    "me_notice_pt.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/exam_checklist.docx",
+        "keywords": [
+          "rever as competências obrigatórias da matriz de avaliação"
+        ]
+      }
+    }
+  ]
+}

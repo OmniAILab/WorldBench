@@ -1,0 +1,29 @@
+{
+  "persona": "Leon ist Textilrestaurator am Aachener Domschatz und widmet sein Fachwissen der Erhaltung karolingischer Seidenreliquien. Er kämpft gegen die zerstörerische Wirkung mikroskopisch kleiner Pilzsporen und hält sich an die strengen Vorgaben der Denkmalpflege im Rheinland. Er gleicht nahtlos jahrzehntelange Studien zum Farbstoffabbau, Echtzeit-Klimasensordaten der Reliquiare und historische liturgische Aufzeichnungen ab, um hochspezifische, schonende Lösungsmittelverhältnisse für die Reinigung zu entwickeln.",
+  "task": "Übertrage das nach Löslichkeitstest und kuratorischer Freigabe dokumentierte Lösungsmittelverhältnis für karolingische Seide in das Restaurierungslabor-Handbuch.",
+  "required_files": [
+    "farbstoffabbau_studie.txt"
+  ],
+  "output_files": [
+    "data/laborhandbuch.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/laborhandbuch.docx",
+        "keywords": [
+          "karolingische Seide",
+          "95 % destilliertes Wasser zu 5 % Ethanol"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/laborhandbuch.docx",
+      "change": "modify"
+    }
+  ]
+}

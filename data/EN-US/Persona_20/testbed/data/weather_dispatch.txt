@@ -1,0 +1,22 @@
+Weather dispatch: gusty crosswinds expected near Nome on 2026-11-21.
+Weather dispatch: ceiling restrictions likely near Bethel on 2026-11-26.
+Weather dispatch: freezing drizzle possible over Kotzebue on 2026-11-30.
+Weather dispatch: blowing snow advisory issued for Galena on 2026-12-02.
+Weather dispatch: whiteout conditions expected on 2026-12-05.
+Weather dispatch: low visibility near McGrath on 2026-12-08.
+Weather dispatch: runway icing likely at Tanana on 2026-12-10.
+Weather dispatch: high winds expected at Unalakleet on 2026-12-13.
+Weather dispatch: coastal fog forecast for Dillingham on 2026-12-16.
+Weather dispatch: ground frost warning near Aniak on 2026-12-18.
+Weather dispatch: snow squalls likely near Kivalina on 2026-12-21.
+Weather dispatch: fog bank moving into Yakutat on 2026-12-23.
+Weather dispatch: crosswind warning at Cold Bay on 2026-12-26.
+Weather dispatch: drifting snow over Point Hope on 2026-12-29.
+Weather dispatch: ice fog possible around Anchorage on 2027-01-02.
+Weather dispatch: lake-effect snow near St. Marys on 2027-01-05.
+Weather dispatch: visibility improving at Nome on 2027-01-08.
+Weather dispatch: runway plowing delay expected at Tok on 2027-01-12.
+Weather dispatch: marginal but workable conditions forecast on an interior route on 2027-01-15.
+Weather dispatch: partial improvement window expected at Kotzebue on 2027-01-18.
+Weather dispatch: runway check scheduled at Point Hope on 2027-01-20.
+Weather dispatch: no general grounding planned for the local maintenance on 2027-01-22.

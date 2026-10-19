@@ -1,0 +1,21 @@
+Promemoria costa: il trasferimento ospiti delle 14:30 resta su un foglio separato.
+Nota traffico: la finestra 09:00-17:00 riguarda una prova estiva passata.
+Appunto villa: il check-in delle 16:00 non è il blocco logistico richiesto.
+Memo Staff: Tenete l'agenda libera inserendo uno slot di "Pianificazione logistica" per aggirare le restrizioni alla viabilità camionistica imposte in via eccezionale sulla statale Amalfitana.
+Registro comunale: la SS163 è il riferimento stradale da riportare.
+Nota fornitori: i ceramisti hanno consegna al mattino ma non fissano l'orario del blocco.
+Promemoria traghetti: il collegamento Salerno-Amalfi non va nel calendario logistico.
+Scheda Positano: usare un titolo comprensibile al team hospitality.
+Nota strada: non programmare il blocco il 2026-04-05.
+Appunto driver: la chiusura riguarda mezzi pesanti, non tutti i veicoli.
+Promemoria calendario: inserire un evento VEVENT.
+Nota costa: evitare dettagli sugli ospiti nel campo descrizione.
+Registro vecchio: 11:00-19:00 è una bozza non confermata.
+Appunto logistica: non usare il calendario dei fornitori artigiani.
+Promemoria output: includere gli orari con i due punti nella descrizione.
+Nota staff: il blocco serve alla pianificazione del giorno.
+Scheda traffico: 10:00 e 18:00 sono gli estremi da conservare.
+Promemoria staff: il turno di reception del pomeriggio è organizzativo e non riguarda il blocco viabilità.
+Scheda villa: la manutenzione della piscina è programmata a parte e non incide sul calendario logistico.
+Nota Costiera Amalfitana: il calendario delle processioni locali è distinto dal blocco logistico sulla SS163.
+Promemoria viabilità: le navette comunali per il centro storico seguono deroghe separate e non cambiano l'orario della chiusura.

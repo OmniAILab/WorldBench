@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Services//Newport Foundry Calendar//EN
+BEGIN:VEVENT
+UID:wafer-tray-delivery-1@local.test
+DTSTART:20260706T090000
+DTEND:20260706T093000
+SUMMARY:Wafer tray delivery check
+DESCRIPTION:Confirm trays at stores.
+END:VEVENT
+BEGIN:VEVENT
+UID:mask-store-clean-2@local.test
+DTSTART:20260708T110000
+DTEND:20260708T113000
+SUMMARY:Mask store clean
+DESCRIPTION:Routine clean before mask blank inspection.
+END:VEVENT
+BEGIN:VEVENT
+UID:solvent-receipt-extra@local.test
+DTSTART:20260709T143000
+DTEND:20260709T144500
+SUMMARY:Solvent receipt note
+DESCRIPTION:Record cleaning solvent arrival separately.
+END:VEVENT
+BEGIN:VEVENT
+UID:production-line-recalibration-block-prep-1@local.test
+DTSTART:20260707T090000
+DTEND:20260707T100000
+SUMMARY:Production Line Recalibration Block Prep
+DESCRIPTION:Tooling check before the recalibration block.
+END:VEVENT
+BEGIN:VEVENT
+UID:recalibration-paperwork-2@local.test
+DTSTART:20260713T133000
+DTEND:20260713T143000
+SUMMARY:Recalibration Paperwork
+DESCRIPTION:File recalibration sheets with quality.
+END:VEVENT
+END:VCALENDAR

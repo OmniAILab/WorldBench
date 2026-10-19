@@ -1,0 +1,8 @@
+Julien : Le message part bien à Ferme_Pilote et non à l’annexe ?
+Sophie : Oui, utilise ferme-pilote.irrigation@messagerie.invalid.
+Julien : Le réglage actif de Tropisme_S1 est de 30 minutes.
+Sophie : Exact. Ignore Tropisme_S1_Test et les anciennes fiches.
+Marc : Le message doit préciser qu’il s’agit de l’alerte sécheresse en cours.
+Sophie : Oui.
+Julien : J’ajoute « jusqu’à nouvel ordre » pour éviter qu’on interprète ce réglage comme permanent.
+Sophie : C’est demandé.

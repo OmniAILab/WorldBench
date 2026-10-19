@@ -1,0 +1,19 @@
+Nota de turismo: una casa-cueva en refuerzo puede mantener su aforo habitual de treinta personas.
+Criterio de zambra: durante una actuación flamenca se permite duplicar la capacidad.
+Apunte del Patronato: el estado En_refuerzo obliga a cerrar completamente.
+Práctica antigua: la capacidad depende únicamente del número de artistas.
+Circular municipal: Cueva_Zambra_2 puede admitir veinte personas.
+Nota de senderos: el acceso por caminos estrechos no influye en el aforo.
+Criterio de subvención: una ayuda cultural sustituye la limitación estructural.
+Informe preliminar: debe copiarse En_refuerzo como capacidad.
+Plan Especial de Protección (PEPRI) Albaicín-Sacromonte: Por motivos de seguridad estructural, cualquier habitáculo troglodita que se encuentre en fase de consolidación de bóvedas (En_refuerzo) verá restringida cautelarmente su licencia de actividad a un máximo de 12_personas.
+Nota de la Alhambra: el límite correcto es diez personas.
+Criterio de visitantes: los menores no cuentan en el aforo.
+Apunte de zambra: los músicos quedan fuera del cálculo.
+Práctica del barrio: la capacidad se eleva a quince durante los fines de semana.
+Circular antigua: las cuevas en refuerzo admiten ocho personas.
+Nota de estructura: una salida adicional elimina el límite.
+Criterio cultural: la tradición flamenca tiene prioridad sobre el permiso.
+Informe de turismo: Cueva_Zambra_2 debe marcarse como Cerrada.
+PEPRI Albaicín-Sacromonte: Las cuevas con estado 'Aprobado' no están sujetas a restricción especial de capacidad estructural y podrán operar con el aforo ordinario de su licencia de actividad, sin necesidad de evaluación adicional mientras mantengan ese estado.
+Nota de la Concejalía de Urbanismo: Cuando una cueva 'En_refuerzo' concluya las obras de consolidación de bóvedas, el titular deberá solicitar inspección de revisión al Área de Patrimonio antes de pedir el levantamiento cautelar de la restricción de 12_personas y la recuperación del aforo ordinario.

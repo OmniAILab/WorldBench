@@ -1,0 +1,29 @@
+{
+  "persona": "Pedro coordena implementações de software em Braga e é especialista em infraestrutura cloud para unidades de saúde rurais. Lida com ligações de banda larga instáveis nas freguesias de montanha e com as exigências da Comissão Nacional de Proteção de Dados, planeando as sincronizações para a madrugada, quando a rede está menos carregada.",
+  "task": "Escreve um email à equipa informática das clínicas rurais a comunicar a violação de privacidade detetada no servidor da USF de Maximinos (núcleo 7) e a suspensão temporária das sincronizações.",
+  "required_files": [
+    "infrastructure_audit.xlsx",
+    "security_patch_braga.txt",
+    "clinic_it_contacts.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_clinic_it_staff.txt",
+        "keywords": [
+          "No servidor da USF de Maximinos (núcleo 7) foi identificado armazenamento temporário sem encriptação; aplicar imediatamente a atualização de segurança e bloquear novas sincronizações até à verificação"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_clinic_it_staff.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

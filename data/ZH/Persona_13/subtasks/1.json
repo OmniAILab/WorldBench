@@ -1,0 +1,33 @@
+{
+  "persona": "欣怡是三亚一个阳光充足的农业试验农场的研究员。她在海边的盐碱地里种植实验水稻，填写没完没了的文件，并在海南热带高温中避免晒伤。",
+  "task": "把实验种子安全规定整理进实验室主台账文档，说明地点和访问限制。",
+  "required_files": [
+    "seed_policy_notice.txt",
+    "dialogue_sanya_seed.txt",
+    "sanya_seed_registry.xlsx"
+  ],
+  "output_files": [
+    "data/seed_ledger.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/seed_ledger.docx",
+        "keywords": [
+          "三亚",
+          "崖州湾南繁",
+          "记录转移情况",
+          "限制注册工作人员访问"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/seed_ledger.docx",
+      "change": "modify"
+    }
+  ]
+}

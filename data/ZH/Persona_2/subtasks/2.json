@@ -1,0 +1,32 @@
+{
+  "persona": "小小在杭州经营一家小型服装精品店，每晚都在抖音直播带货。她不断调整直播话术，避免被平台严格的算法封禁，同时还会喊着“三、二、一，链接在主页！”",
+  "task": "给客座主持人林宇发送一封简短邮件。先核对正式场次、杭州丝绸宋韵专场主题、联系人和消费者保护对话，只写入 2026-03-21 的正式直播日期、两条对外消费者保护提醒，并注明这是“杭州丝绸·宋韵通勤专场”。排除内部彩排日期和内部测试话术。",
+  "required_files": [
+    "ad_guidelines_notice.txt",
+    "influencer_contacts_hangzhou.xlsx",
+    "schedule_hangzhou.xlsx",
+    "guest_host_sessions_hangzhou.xlsx",
+    "dialogue_guest_host_hangzhou.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "lin.yu@agency.cn",
+        "keywords": [
+          "清楚披露赞助关系",
+          "避免夸大功效声明",
+          "2026-03-21",
+          "杭州丝绸·宋韵通勤专场"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_lin.yu_*.eml",
+      "change": "create"
+    }
+  ]
+}

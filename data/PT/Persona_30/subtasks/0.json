@@ -1,0 +1,23 @@
+{
+  "persona": "Joaquim é de Ílhavo e dirige há vinte anos uma unidade de salga e secagem de bacalhau na zona da ria de Aveiro. Recebe carregamentos de bacalhau provenientes da Noruega, confere os manifestos e acompanha a humidade dos armazéns e a ventilação das portadas durante a cura tradicional.",
+  "task": "Consulta o manifesto do carregamento de bacalhau da Noruega, guia n.º 14 (referência interna NOR_Cod_14), e regista, na folha da seca tradicional de Ílhavo, a capacidade mínima necessária para receber todo o bacalhau cru.",
+  "required_files": [
+    "shipping_manifests_ilhavo.xlsx",
+    "warehouse_capacity_rule_ilhavo.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/salting_capacity.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "50 toneladas"
+          }
+        ]
+      }
+    }
+  ]
+}

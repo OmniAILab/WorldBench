@@ -1,0 +1,29 @@
+{
+  "persona": "Santi es restaurador en el Museo del Prado, en Madrid, especializado en la conservación de pintura española del Siglo de Oro. Gestiona los requisitos técnicos del taller de restauración del museo y vela por que toda intervención cumpla la Ley 16/1985 del Patrimonio Histórico Español. Su trabajo depende del análisis minucioso de las imágenes multiespectrales y de la coordinación con equipos de investigación internacionales que estudian la composición química de los pigmentos históricos.",
+  "task": "Escribe un correo electrónico al laboratorio visitante para confirmar la solicitud de muestra del Museo del Prado. Incluye el identificador de la pintura y la sección.",
+  "required_files": [
+    "contactos_laboratorios_prado.xlsx",
+    "registro_tratamiento_prado_v2.xlsx",
+    "indicaciones_correo_laboratorio_prado.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "lab@universidad.eu",
+        "keywords": [
+          "SigloOro_XVII_12",
+          "Superior_Izquierda",
+          "Prueba_Barniz"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_lab_*.eml",
+      "change": "create"
+    }
+  ]
+}

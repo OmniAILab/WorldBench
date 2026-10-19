@@ -1,0 +1,20 @@
+Une inscription « Valide » au registre des missions ne suffit pas à autoriser un vol. La mission prévue nécessite une autorisation aéronautique applicable et, si le secteur est fermé, une dérogation préfectorale d’accès. Tant que ces pièces ne sont pas attestées, la réservation est prévisionnelle et ne vaut pas permission de voler.
+Les vols sur la Plaine des Sables utilisent un autre appareil.
+Le créneau du Formica Léo appartient à l’équipe cartographique.
+La mission du Piton Partage concerne la topographie.
+Le survol du Nez Coupé dépend du vent.
+Le cratère Commerson se situe hors de l’enclos principal.
+Le Pas de Bellecombe est un point d’observation terrestre.
+Le Rempart des Sables est suivi par caméra fixe.
+Le Piton de Bert fait l’objet d’une mission distincte.
+Retenir la ligne Enclos_Fouqué_Est.
+Le titre doit mentionner le survol par drone.
+La description doit rappeler le contrôle des émissions.
+Le calendrier utilise le format local de La Réunion.
+Aucun autre créneau ne doit être déplacé.
+Le brouillard doit être vérifié avant le décollage.
+Le matériel de prélèvement n’est pas requis.
+La durée correspond au créneau complet.
+L’événement doit être ajouté au calendrier existant.
+Le survol de l’Enclos Fouqué Ouest est prévu le 9 mai au créneau matinal.
+La mission de la Rivière des Remparts est conditionnée à la stabilité du vent.

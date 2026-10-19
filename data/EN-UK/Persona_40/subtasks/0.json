@@ -1,0 +1,38 @@
+{
+  "persona": "Ewan is a senior compliance officer at a financial firm in Edinburgh’s Charlotte Square. He maintains digital asset ledgers, AML risk sheets, board advisory emails, and portfolio residency records.",
+  "task": "Use the digital asset ledger to update the high-risk client list for ETH-88 with the correct AML risk category.",
+  "required_files": [
+    "digital_assets_edinburgh.xlsx"
+  ],
+  "output_files": [
+    "data/high_risk_list.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/high_risk_list.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "High"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/high_risk_list.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

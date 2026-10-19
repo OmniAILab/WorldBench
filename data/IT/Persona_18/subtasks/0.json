@@ -1,0 +1,49 @@
+{
+  "persona": "Marco è un produttore di olio d'oliva biologico nella Valle d'Itria, in Puglia, e gestisce la protezione degli uliveti secolari dall'epidemia di Xylella fastidiosa. Si muove tra i decreti regionali di emergenza fitosanitaria e gli specifici requisiti di certificazione biologica dell'ICEA. Il suo lavoro comprende il costante monitoraggio dei dati dei sensori dei singoli alberi e il coordinamento delle squadre di raccolta per garantire che la spremitura a freddo avvenga entro le ristrette finestre consentite per la denominazione Extra Vergine.",
+  "task": "Usa la soglia di allerta dei sensori per determinare l'azione richiesta per ciascun albero dell'uliveto e aggiorna la colonna Azione nel file ./data/lista_azioni_puglia.xlsx.",
+  "required_files": [
+    "nota_sensori_puglia.txt",
+    "sensori_puglia.xlsx"
+  ],
+  "output_files": [
+    "data/lista_azioni_puglia.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/lista_azioni_puglia.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Monitoraggio ordinario"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Ispezione_immediata"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/lista_azioni_puglia.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

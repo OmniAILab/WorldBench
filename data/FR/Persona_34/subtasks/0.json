@@ -1,0 +1,61 @@
+{
+  "persona": "Sylvain est maître tonnelier à Beaune, en Bourgogne. Il sélectionne les merrains de chêne français, suit leur séchage et adapte la chauffe des fûts aux commandes des domaines viticoles. Ses fiches d’atelier relient l’humidité du bois, les profils aromatiques recherchés et les opérations de contrôle avant livraison.",
+  "task": "Croise l’humidité du lot de merrains, sa destination contractuelle, la grille de chauffe de la tonnellerie et le dialogue d'atelier. Pour Tronçais_Oak_9, identifie la recette de chauffe correspondant simultanément à l’essence, à l’humidité mesurée et à l’usage commandé par le domaine, puis mets à jour la durée de chauffe, l’humidité retenue et l’usage validé.",
+  "required_files": [
+    "grille_chauffe_beaune.txt",
+    "oak_moisture_logs.xlsx",
+    "commandes_tonnellerie_beaune.xlsx",
+    "dialogue_chauffe_beaune.txt"
+  ],
+  "output_files": [
+    "data/estate_requirements.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/estate_requirements.xlsx",
+        "matches": [
+          {
+            "row": 10,
+            "col": 2,
+            "value": "Chauffe_Moyenne_45_min"
+          },
+          {
+            "row": 10,
+            "col": 3,
+            "value": "14%_Ready"
+          },
+          {
+            "row": 10,
+            "col": 4,
+            "value": "Grand_Cru"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/estate_requirements.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

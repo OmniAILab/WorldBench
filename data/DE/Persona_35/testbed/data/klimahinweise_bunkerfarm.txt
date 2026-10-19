@@ -1,0 +1,8 @@
+Bunkerfarm Hamburg – Klimastörung, Messstand 16. Oktober 2026
+Technischer Zonenname: „Ebene 2 – Keimlinge“ (Anlagenkennung Level_2_Microgreens).
+Messung um 09:15 Uhr: In Level_2_Microgreens beträgt die relative Luftfeuchtigkeit 95 Prozent. Gleichzeitig meldet die Steuerung den Befund „Entfeuchter ausgefallen“.
+Gegenmessung um 09:30 Uhr: Der erhöhte Wert hält an; eine kurze Spitze nach der Bewässerung erklärt die Störung nicht.
+Ebene 4 – Minze zeigt lediglich zeitweise Feuchteanstiege nach dem Bewässerungszyklus; es wurde dort kein dauerhafter Entfeuchterausfall bestätigt.
+Für Ebene 5 – Koriander sind 85 Prozent relative Luftfeuchtigkeit dokumentiert, ohne gleichzeitigen Entfeuchterausfall.
+Eskalation: Die Klimatechnik unter klima@bunkerfarm-hamburg.de über den bestätigten Ausfall informieren und eine Prüfung veranlassen; bis zur Behebung Ernte- und Hygienerisiken beurteilen.
+Die interne Anlagenkennung bleibt zur eindeutigen Zuordnung erhalten.

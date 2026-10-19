@@ -1,0 +1,38 @@
+{
+  "persona": "Paolo è l'anima e il proprietario di Al 19, un ristorante incastonato tra i vicoli tortuosi del centro di Frascati, a pochi chilometri da Roma. La sua missione è un delicato equilibrio: onorare l'eredità delle tradizionali fraschette dei Castelli Romani, elevando al contempo l'esperienza a uno standard di alta cucina. Gestisce la logistica quotidiana muovendosi tra i varchi della ZTL del paese e collaborando strettamente con piccoli produttori locali per garantire una freschezza a chilometro zero, dai vini Frascati Superiore DOCG alle verdure di Tusculum.",
+  "task": "Usa la nota sulla finestra ZTL per impostare l'orario di scarico del fornitore Frascati_DOCG_CoOp e aggiorna il piano consegne ./data/consegne_vino_frascati.xlsx.",
+  "required_files": [
+    "ztl_frascati.txt"
+  ],
+  "output_files": [
+    "data/consegne_vino_frascati.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/consegne_vino_frascati.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "07:30"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/consegne_vino_frascati.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

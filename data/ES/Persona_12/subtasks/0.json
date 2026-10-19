@@ -1,0 +1,39 @@
+{
+  "persona": "Carmen es viticultora en la Ribera del Duero y dirige una bodega familiar cerca de Peñafiel (Valladolid). Ajusta las labores del viñedo a los fuertes contrastes térmicos del páramo castellano y a las exigencias del Consejo Regulador de la Denominación de Origen. Su trabajo exige interpretar continuamente los datos de humedad del suelo y llevar la documentación de exportación para que cada añada cumpla las normas de etiquetado de la Unión Europea.",
+  "task": "Compara las lecturas de humedad del viñedo próximo a Peñafiel, identifica el bloque que necesita riego prioritario y actualiza el plan de trabajos de 2026-W14.",
+  "required_files": [
+    "criterio_riego_ribera.txt",
+    "humedad_ribera.xlsx"
+  ],
+  "output_files": [
+    "data/plan_trabajos_ribera.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/plan_trabajos_ribera.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "PNF-3"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/plan_trabajos_ribera.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

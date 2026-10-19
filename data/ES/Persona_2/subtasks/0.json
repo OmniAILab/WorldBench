@@ -1,0 +1,39 @@
+{
+  "persona": "Alejandro es madrileño y dirige la logística de una distribuidora farmacéutica con sede en el polígono industrial de Vicálvaro. Coordina el transporte de suministros médicos termolábiles a través de las zonas ambientales de Madrid 360 y adapta continuamente los repartos a las restricciones de acceso de la ZBEDEP Distrito Centro y a los escenarios del Protocolo Anticontaminación que activa el Ayuntamiento de Madrid.",
+  "task": "Cruza el escenario del Protocolo Anticontaminación del Ayuntamiento de Madrid de cada fecha con los avisos sobre la ZBEDEP Distrito Centro y Madrid 360, descartando excepciones sanitarias, reglas de matrícula y circulares del escenario Medio. Registra en la hoja de entregas la ruta obligatoria únicamente para MD-CH-14, el reparto con destino a Distrito Centro previsto para el día de escenario Alto.",
+  "required_files": [
+    "aviso_zbedep_madrid.txt",
+    "protocolo_contaminacion_madrid.xlsx"
+  ],
+  "output_files": [
+    "data/entregas_madrid.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/entregas_madrid.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Evitar_Centro"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/entregas_madrid.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

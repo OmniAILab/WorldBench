@@ -1,0 +1,28 @@
+{
+  "persona": "Terrance is an urban resilience planner in St. Louis, Missouri, focusing on the redevelopment of the North Riverfront to withstand the increasing frequency of Mississippi River flooding. He must align his infrastructure designs with the Metropolitan St. Louis Sewer District’s green-space mandates and the federal flood-mitigation requirements of FEMA, ensuring that new riverside parks serve as natural drainage basins while documenting the long-term impact on local property values and community safety.",
+  "task": "Write an email to the city council summarizing the flood-zone property value risk.",
+  "required_files": [
+    "city_contacts_stlouis.xlsx",
+    "municipal_economic.xlsx",
+    "dialogue_flood_value_briefing.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "council@stlouis-mo.gov",
+        "keywords": [
+          "Laclede_Landing_Edge",
+          "12%_Decline_By_2035"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_council_*.eml",
+      "change": "create"
+    }
+  ]
+}

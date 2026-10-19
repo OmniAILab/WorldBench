@@ -1,0 +1,38 @@
+{
+  "persona": "Elias is a historical restoration specialist in Philadelphia, Pennsylvania, focusing on the preservation of 18th-century masonry within Society Hill. He operates within the strict guidelines of the Philadelphia Historical Commission and must source period-accurate lime mortar and reclaimed brick, navigating the narrow, cobblestone alleys that restrict modern machinery while ensuring all structural reinforcements meet the city's specific masonry safety codes.",
+  "task": "Use the Philadelphia Historical Commission guideline note to select the approved mortar type and update the materials list in the spreadsheet.",
+  "required_files": [
+    "phc_notice.txt"
+  ],
+  "output_files": [
+    "data/materials_philadelphia.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/materials_philadelphia.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Lime"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/materials_philadelphia.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "persona": "Maïwenn est médiatrice linguistique et programmatrice culturelle à Quimper. Elle prépare des ateliers en breton et en français, vérifie les variantes orthographiques utilisées dans les supports publics et collabore avec des radios locales pendant le Festival de Cornouaille, afin de rendre les contenus accessibles tout en respectant les usages culturels et linguistiques de Bretagne.",
+  "task": "Envoie un courriel à la cellule de programmation de Radio_Kerne dans la messagerie simulée après avoir croisé le contact, le planning, la prononciation, le format validé et le dialogue de programmation. Confirme Brezhoneg_09 le 24 juillet 2026 à 09:30, le titre « Degemer mat e Kemper », la prononciation « Kèm-per » et une durée de quatre minutes. Écarte Brezhoneg_18 et les variantes proches.",
+  "required_files": [
+    "contacts_radios_bretagne.xlsx",
+    "planning_chroniques_cornouaille.xlsx",
+    "prononciations_radio.txt",
+    "format_chroniques_radio.xlsx",
+    "dialogue_radio_kerne.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "programmation@radio-kerne.invalid",
+        "keywords": [
+          "Brezhoneg_09",
+          "2026-07-24",
+          "09:30",
+          "Degemer mat e Kemper",
+          "Kèm-per",
+          "quatre minutes"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_programmation_*.eml",
+      "change": "create"
+    }
+  ]
+}

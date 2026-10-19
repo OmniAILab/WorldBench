@@ -1,0 +1,8 @@
+Théo : Le message doit partir au service Patrimoine principal ?
+Claire : Oui, patrimoine.patrimoine@messagerie.invalid.
+Théo : Le plan retient Basilique_Fourviere à 21:00-21:30.
+Claire : Exact.
+Marc : La chapelle utilise le même horaire, mais c’est un autre site.
+Claire : Oui, ne la confonds pas avec la basilique.
+Théo : Je précise que ce créneau a reçu la validation patrimoniale.
+Claire : C’est la formulation attendue.

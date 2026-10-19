@@ -1,0 +1,38 @@
+{
+  "persona": "Gareth is a secondary school teacher in the Canton district of Cardiff. He maintains student progress sheets, bilingual education notes, curriculum planning documents, and faculty calendar entries.",
+  "task": "Use the Cardiff student progress sheet to update the framework benchmarks row for Pupil_Welsh_01 with the correct reading pathway tier.",
+  "required_files": [
+    "student_progress_cardiff.xlsx"
+  ],
+  "output_files": [
+    "data/framework_benchmarks.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/framework_benchmarks.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Emerging_Fluency"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/framework_benchmarks.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

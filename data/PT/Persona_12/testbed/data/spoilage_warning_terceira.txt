@@ -1,0 +1,11 @@
+O Tanker_01 apresenta uma vedação gasta; substituir antes da próxima rota.
+O Tanker_03 tem a bateria do termómetro fraca; substituir no armazém.
+O Tanker_06 apresenta resíduos na válvula; repetir a higienização.
+O Tanker_08 tem uma mangueira guardada húmida; secar antes de usar.
+Foi registado avaria do sistema de refrigeração no Cisterna 04; não iniciar a recolha de leite na Terceira devido ao risco de deterioração.
+O Tanker_09 tem a tampa exterior suja; limpar antes da partida.
+O Tanker_11 tem o sensor da porta intermitente; testar novamente.
+O Tanker_13 precisa de novo filtro; substituir antes do turno.
+O Tanker_16 tem a luz interior avariada; reparar quando regressar.
+Foi registada avaria parcial de refrigeração no Tanker_19; manter a recolha sob acompanhamento na Terceira.
+Foi registada falha de termóstato no Tanker_20; suspender apenas a segunda rota da Terceira.

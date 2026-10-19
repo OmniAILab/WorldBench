@@ -1,0 +1,39 @@
+{
+  "persona": "Catriona from the Isle of Skye is a crofting consultant based near Portree. She advises new-entry tenants on Crofting Commission paperwork, grazing maps, tenancy notices, and practical land-use records.",
+  "task": "Check the SK-17 Portree croft tenancy pack against the Crofting Commission checklist, then update the Portree submission tracker to show that the application is incomplete because the required grazing map is missing.",
+  "required_files": [
+    "commission_checklist_skye.xlsx",
+    "tenant_pack_portree.xlsx"
+  ],
+  "output_files": [
+    "data/submission_tracker_skye.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/submission_tracker_skye.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Incomplete"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/submission_tracker_skye.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

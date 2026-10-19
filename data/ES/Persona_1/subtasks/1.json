@@ -1,0 +1,30 @@
+{
+  "persona": "Jordi es investigador biotecnológico en el distrito de innovación 22@ de Barcelona, donde gestiona datos clínicos a gran escala para una empresa especializada en medicina personalizada. Dedica sus jornadas a conciliar los estrictos requisitos de la Autoritat Catalana de Protecció de Dades (APDCAT) con la necesidad de compartir datos con agilidad entre el Hospital Clínic y laboratorios internacionales, asegurándose de que cada proyecto respete los marcos éticos propios de la Generalitat de Catalunya.",
+  "task": "Revisa las indicaciones del promotor, del Hospital Clínic y del comité bioético, y separa las prácticas locales o antiguas de la condición que la Generalitat de Catalunya exige hoy al estudio. Redacta en la sección Aprobaciones del resumen del estudio esa condición vigente, sin sustituirla por números de expediente, firmas digitales ni referencias a convenios marco.",
+  "required_files": [
+    "aviso_comite_etico_barcelona.txt"
+  ],
+  "output_files": [
+    "data/resumen_estudio.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/resumen_estudio.docx",
+        "keywords": [
+          "Generalitat de Catalunya",
+          "documentar las transferencias internacionales de datos",
+          "base jurídica"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/resumen_estudio.docx",
+      "change": "modify"
+    }
+  ]
+}

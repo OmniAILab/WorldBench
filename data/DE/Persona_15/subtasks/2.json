@@ -1,0 +1,31 @@
+{
+  "persona": "Hendrik ist Meeresschützer mit Sitz in Stralsund an der Ostseeküste und widmet sich dem Schutz der Seegraswiesen im Flachwasser. Er bringt die gegenläufigen Interessen der kommerziellen Fischereiflotten und die strengen Vorgaben des Bundesamts für Naturschutz für Meeresschutzgebiete in Einklang. Er führt verstreute Feldbeobachtungen, Datensätze zum Salzgehalt des Wassers und Satellitenspuren lokaler Fischereifahrzeuge zusammen, um gefährdete ökologische Zonen zu kartieren und Empfehlungen für Schutzmaßnahmen zu entwerfen.",
+  "task": "Nutze die Feldnotizen zur Ostsee, um den bestätigten Termin der Seegras-Kartierung im Strelasund zu bestimmen, und ergänze den Naturschutzkalender unter dem Titel „Seegras-Kartierung Strelasund“.",
+  "required_files": [
+    "feldnotizen_stralsund.txt"
+  ],
+  "output_files": [
+    "data/naturschutzkalender.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/naturschutzkalender.ics",
+        "summary_keywords": [
+          "Seegras-Kartierung Strelasund"
+        ],
+        "description_keywords": [
+          "Strelasund"
+        ],
+        "date": "2026-08-12"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/naturschutzkalender.ics",
+      "change": "modify"
+    }
+  ]
+}

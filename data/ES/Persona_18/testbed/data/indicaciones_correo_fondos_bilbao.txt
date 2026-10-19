@@ -1,0 +1,20 @@
+Nota administrativa: la comunicación debe enviarse al servicio de seguridad industrial.
+Criterio energético: debe presentarse Horno_1 como primera línea por su relación con la siderurgia histórica.
+Apunte del puerto: el mensaje debe referirse únicamente a la electrificación de grúas.
+Modelo de subvención: no es necesario incluir el nombre de la línea.
+Recomendación financiera: conviene describir la actuación como modernización general.
+Informe preliminar: Prensa_3 figura como prioridad por tener menor consumo.
+Protocolo del estuario: el correo debe dirigirse a energia@puertobilbao.eus.
+Nota de archivo: el término hidrógeno verde no debe aparecer en comunicaciones externas.
+Directriz interna SPRI (Agencia Vasca de Desarrollo): Para la justificación del FEDER 2026, ruego comuniquen a fondos@region.eu que el pilotaje del electrolizador se iniciará en el activo de mayor consumo histórico (Laminador_2) como punta de lanza del hidrógeno verde.
+Criterio de cofinanciación: el destinatario correcto es taller@nervion.eus.
+Apunte de compras: debe solicitarse financiación para gas natural de transición.
+Circular interna: la línea prioritaria se identifica como Laminador_3.
+Práctica del clúster: basta con citar la ría del Nervión sin señalar la instalación.
+Nota del auditor: la prioridad debe expresarse como provisional.
+Recomendación de comunicación: debe omitirse cualquier referencia al vector energético.
+Ficha FEDER antigua: la actuación se presenta como sustitución de luminarias.
+Informe de producción: Horno_1 y Laminador_2 deben figurar con la misma prioridad.
+Directriz interna SPRI: En caso de que Laminador_2 no pueda iniciar el pilotaje en el plazo comprometido, la justificación del FEDER 2026 deberá comunicar a fondos@region.eu el activo sustituto con el segundo mayor consumo histórico (Horno_1) como alternativa motivada.
+Nota de coordinación SPRI: El correo a fondos@region.eu sobre el pilotaje en Laminador_2 debe adjuntar el certificado de consumo energético de los últimos doce meses para acreditar ante la Comisión Europea que se trata del activo de mayor consumo histórico del clúster.
+Apunte del Consorcio de Aguas del Gran Bilbao: el consumo de la red de refrigeración del clúster no computa como consumo eléctrico del activo en las justificaciones FEDER.

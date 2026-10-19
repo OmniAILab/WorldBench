@@ -1,0 +1,32 @@
+{
+  "persona": "Céline est affineuse de fromages en Savoie et travaille avec des producteurs de Beaufort AOP. Elle contrôle la température et l’humidité des caves, organise les retournements des meules et veille à la traçabilité des lots issus des alpages.",
+  "task": "Rédige un e-mail au laboratoire laitier après avoir croisé le contact, la mesure courante, le registre d’affinage et le dialogue d’alerte. Signale BF-Roselend-224 à 12,4 °C, précise que le lot est à isoler parce qu’il dépasse le seuil interne de 12,0 °C, et écarte les anciennes mesures ou le laboratoire annexe.",
+  "required_files": [
+    "contacts_lait_savoie.xlsx",
+    "temperatures_cave_savoie_centrole.xlsx",
+    "note_signalement_beaufort.txt",
+    "registre_affinage_savoie_suivi.xlsx",
+    "dialogue_signalement_labo_savoie.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "laboratoire.affinage@messagerie.invalid",
+        "keywords": [
+          "BF-Roselend-224",
+          "12,4 °C",
+          "Isoler",
+          "dépasse 12,0 °C"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_laboratoire_*.eml",
+      "change": "create"
+    }
+  ]
+}

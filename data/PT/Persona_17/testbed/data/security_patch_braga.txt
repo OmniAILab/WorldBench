@@ -1,0 +1,20 @@
+No Node_Braga_1 falta completar o registo de acesso; rever o relatório.
+No Node_Guimarães_2 a sessão não termina automaticamente; ajustar o timeout.
+No Node_Vila_Verde_3 o certificado está próximo do fim; planear a renovação.
+No Node_Amares_4 a cópia de segurança está atrasada; executar a rotina.
+No Node_Terras_Bouro_5 existe uma conta partilhada; separar os acessos.
+No Node_Montalegre_6 a palavra-passe expirou; solicitar a alteração.
+No Node_Geres_8 o log local é excessivo; reduzir a retenção.
+No servidor da USF de Maximinos (núcleo 7) foi identificado armazenamento temporário sem encriptação; aplicar imediatamente a atualização de segurança e bloquear novas sincronizações até à verificação.
+No Node_Boticas_9 existe uma chave de API antiga; agendar a rotação.
+No Node_Chaves_10 há uma atualização pendente; aplicar na janela noturna.
+No Node_Amarante_11 existe uma permissão excessiva; rever o perfil.
+No Node_Melgaço_12 o relatório não está assinado; concluir a validação.
+No Node_Monção_13 existe uma porta de teste aberta; encerrar o serviço.
+No Node_Valença_14 o token está próximo do fim; renovar a credencial.
+No Node_Celorico_15 o inventário está desatualizado; sincronizar os ativos.
+No Node_Arcos_16 a monitorização é intermitente; verificar o agente.
+No Node_Ponte_Barca_17 existe uma cópia local antiga; eliminar após validação.
+No Node_Cabeceiras_18 há um reinício pendente; agendar fora das consultas.
+No servidor da USF de Lamaçães (núcleo 6), o volume temporário usa uma cifra antiga; programar migração sem suspender toda a rede.
+No servidor da UCSP de Gualtar (núcleo 8), a rotação de chave está pendente; isolar apenas o serviço de testes.

@@ -1,0 +1,25 @@
+Appunto etichetta: includere soltanto il numero di bancale.
+Nota allergeni: la dichiarazione allergeni non serve per formaggio stagionato.
+Promemoria lotto: il numero lotto va sostituito dal nome del casaro.
+Appunto origine: indicare Pianura Padana invece del Paese di origine.
+Nota magazzino: aggiungere temperatura cella al posto del paese.
+Voce etichetta aggiornata: Dichiarazione allergeni.
+Voce etichetta aggiornata: Numero lotto.
+Voce etichetta aggiornata: Paese di origine.
+Prodotto da indicare: Parmigiano Reggiano.
+Promemoria export: usare solo inglese e non citare Parmigiano Reggiano.
+Appunto dogana: includere codice tariffario ma non lotto.
+Nota confezione: indicare peso ruota, evitando allergeni.
+Promemoria Reggio: il magazzino deve controllare bancali e muletti.
+Appunto checklist: aggiungere nome autista e targa del camion.
+Nota DOP: la dicitura Parmigiano Reggiano può essere omessa.
+Promemoria import: inserire solo paese di destinazione.
+Appunto etichetta 2024: il paese di origine era facoltativo.
+Nota fresco: dichiarazione allergeni richiesta solo per latticini freschi.
+Promemoria spedizione: usare numero ordine al posto del numero lotto.
+Appunto cella: indicare umidità e non paese di origine.
+Nota ruote: il marchio a fuoco sostituisce la checklist.
+Appunto peso: il peso della ruota non rientra tra le voci obbligatorie dell'etichetta.
+Nota bancale: il numero di bancale è un dato di magazzino, non di etichetta import.
+Promemoria autista: il nome dell'autista non va aggiunto alla checklist etichette.
+Nota cella: la temperatura della cella non sostituisce il paese di origine.

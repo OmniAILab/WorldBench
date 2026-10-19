@@ -1,0 +1,31 @@
+{
+  "persona": "若璇在广州一个本地居委会工作。她协助规划城中村改造，和施工队沟通争执，并通过躲进有空调的点心餐厅来逃避南方湿热。",
+  "task": "根据规划说明中的咨询截止日期，在居委会日历中添加一次调解会议。",
+  "required_files": [
+    "planning_mandate.txt",
+    "dialogue_guangzhou_mediation.txt",
+    "local_context_guangzhou_mediation.xlsx"
+  ],
+  "output_files": [
+    "data/planner_calendar_guangzhou.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/planner_calendar_guangzhou.ics",
+        "summary_keywords": [
+          "调解会议"
+        ],
+        "description_keywords": [],
+        "date": "2026-07-22"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/planner_calendar_guangzhou.ics",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Workplace Calendar//Sheffield AMP Calendar//EN
+BEGIN:VEVENT
+UID:amp-r09-scrap-review@local.test
+DTSTART:20260503T083000
+DTEND:20260503T090000
+SUMMARY:AMP-R09 Scrap Review
+DESCRIPTION:Check swarf bin weights before the morning run.
+END:VEVENT
+BEGIN:VEVENT
+UID:amp-r10-standard-coolant-audit@local.test
+DTSTART:20260504T090000
+DTEND:20260504T093000
+SUMMARY:AMP-R10 Coolant Audit
+DESCRIPTION:Routine flood coolant audit; no AMRC trial notes required.
+END:VEVENT
+BEGIN:VEVENT
+UID:amp-r11-tool-insert-review@local.test
+DTSTART:20260505T110000
+DTEND:20260505T113000
+SUMMARY:AMP-R11 Tool Insert Review
+DESCRIPTION:Compare insert wear images from the late shift.
+END:VEVENT
+BEGIN:VEVENT
+UID:factory2050-visitor-brief@local.test
+DTSTART:20260506T080000
+DTEND:20260506T083000
+SUMMARY:Factory 2050 Visitor Brief
+DESCRIPTION:Prepare visitor badges for the AMRC corridor tour.
+END:VEVENT
+BEGIN:VEVENT
+UID:amp-r14-tooling-review@local.test
+DTSTART:20260508T100000
+DTEND:20260508T103000
+SUMMARY:AMP-R14 Tooling Review
+DESCRIPTION:Check spare tooling before the afternoon run.
+END:VEVENT
+BEGIN:VEVENT
+UID:ti701-documentation-hold@local.test
+DTSTART:20260509T113000
+DTEND:20260509T120000
+SUMMARY:TI-701 Documentation Hold
+DESCRIPTION:Do not confuse this hold with the AMP-R12 shipment note.
+END:VEVENT
+BEGIN:VEVENT
+UID:metrology-training-slot@local.test
+DTSTART:20260512T140000
+DTEND:20260512T143000
+SUMMARY:Metrology Training Slot
+DESCRIPTION:Training for new fixture checks.
+END:VEVENT
+END:VCALENDAR

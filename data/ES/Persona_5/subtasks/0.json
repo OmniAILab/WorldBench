@@ -1,0 +1,39 @@
+{
+  "persona": "Pere es consultor en Palma de Mallorca y asesora a hoteles boutique para que cumplan la normativa balear de circularidad y sostenibilidad turística (Llei 3/2022). Audita el consumo de recursos de varias propiedades de las islas y comprueba que se apliquen las medidas de ahorro de agua y las cuotas de abastecimiento de productos de proximidad, para evitar las fuertes sanciones de la Conselleria de Turisme del Govern balear.",
+  "task": "Calcula el porcentaje de compras de proximidad (Km 0) de Boutique_Serra_1 sobre sus compras totales y compáralo con el mínimo de la Llei 3/2022 de las Illes Balears, comprobando si le corresponde alguna ponderación por el origen de esas compras. Actualiza su estado de cumplimiento con la etiqueta prevista por la norma, sin aplicar redondeos ni reglas de temporada.",
+  "required_files": [
+    "aviso_llei_turismo_palma.txt",
+    "compras_palma.xlsx"
+  ],
+  "output_files": [
+    "data/cumplimiento_palma.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/cumplimiento_palma.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "No_conforme"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/cumplimiento_palma.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

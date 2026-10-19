@@ -1,0 +1,29 @@
+{
+  "persona": "Miguel é engenheiro numa central geotérmica na ilha de São Miguel, operando nos campos da Ribeira Grande e do Pico Vermelho, na vertente norte do Maciço do Fogo. Acompanha os parâmetros de pressão de cabeça dos poços, a incrustação e corrosão associadas aos gases não condensáveis e a articulação com a vigilância sismovulcânica para fornecer energia estável à rede elétrica insular.",
+  "task": "Escreve um email aos operadores da rede insular a comunicar a deterioração crítica do Rotor da Turbina a Vapor 4 e a necessidade de retirar a unidade de serviço na central geotérmica da Ribeira Grande.",
+  "required_files": [
+    "turbine_maintenance.xlsx",
+    "replacement_actions_fogo.txt",
+    "geothermal_contacts_fogo.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_grid_operators.txt",
+        "keywords": [
+          "O rotor da turbina a vapor 4 apresenta deterioração classificada como crítica no relatório de inspeção; retirar a unidade de serviço até decisão da equipa técnica."
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_grid_operators.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

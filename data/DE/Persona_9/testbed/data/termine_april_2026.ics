@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Interne Kalenderverwaltung//Passau Hochwasser//DE
+BEGIN:VEVENT
+UID:urn:uuid:bdf5dc0b-2ba5-57c1-be7f-1eec1e0e9431
+DTSTART:20260407T090000
+DTEND:20260407T100000
+SUMMARY:Barrierenlager prüfen
+DESCRIPTION:Bestand der mobilen Elemente kontrollieren.
+END:VEVENT
+END:VCALENDAR

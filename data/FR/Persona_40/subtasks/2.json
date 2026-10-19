@@ -1,0 +1,33 @@
+{
+  "persona": "Aïcha est apicultrice transhumante en Corse, où elle produit du miel sous appellation Mele di Corsica – Miel de Corse AOP. Elle déplace ses ruches entre le maquis, la châtaigneraie et les zones de miellat, contrôle l’humidité du miel et suit les traitements sanitaires contre le varroa tout en préservant l’identité florale des récoltes insulaires.",
+  "task": "Rédige le bilan sanitaire destiné au groupement de défense sanitaire apicole en croisant le contact, le registre d'élevage, le protocole de suivi sanitaire et le dialogue. Pour Rucher_Maquis_09, identifie le traitement médicamenteux réellement appliqué après la miellée, sa date et son numéro de lot, en le distinguant des simples comptages de suivi interne. Écarte Rucher_MA-09 et les contrôles sur langes.",
+  "required_files": [
+    "contacts_sanitaires_apiculture.xlsx",
+    "traitements_varroa_corse.xlsx",
+    "protocole_declaration_varroa.txt",
+    "dialogue_sanitaire_varroa_corse.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "sanitaire@abeilles-corse.fr",
+        "keywords": [
+          "Rucher_Maquis_09",
+          "2026-09-09",
+          "Traitement_acide_formique",
+          "Lot_AF909",
+          "traitement",
+          "déclaré"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_sanitaire_*.eml",
+      "change": "create"
+    }
+  ]
+}

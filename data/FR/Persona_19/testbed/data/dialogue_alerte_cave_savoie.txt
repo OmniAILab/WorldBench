@@ -1,0 +1,8 @@
+Céline : Quelle mesure est validée comme alerte courante ?
+Luc : BF-Roselend-224 à 12,4 °C.
+Céline : Le seuil du Beaufort AOP est strictement supérieur à 12,0 °C.
+Luc : Oui, 12,4 °C impose donc d’isoler la meule.
+Marc : BF-Roselend-260 doit encore être recontrôlé.
+Luc : Exact, ne modifie pas son statut dans cette campagne.
+Céline : J’inscris « Isoler » et « 12,4 °C > 12,0 °C ».
+Luc : C’est la justification attendue.

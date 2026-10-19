@@ -1,0 +1,19 @@
+Plano interno de rega da cooperativa de Moura, campanha de 2026: as dotações abaixo são lâminas de água programadas para cada parcela por turno, sujeitas à disponibilidade da exploração e à autorização de fornecimento; não representam um direito geral atribuído pelo Alqueva.
+Acima de 22%: suspender a rega e rever a drenagem.
+Entre 20% e 22%: aplicar 5 mm apenas se não chover.
+Entre 18% e 19%: aplicar 10 mm.
+Entre 16% e 17%: aplicar 15 mm.
+Entre 14% e 15%: aplicar 20 mm.
+Com 13%: aplicar 25 mm.
+Com 12%: aplicar 30 mm.
+Com 10% ou 11%: aplicar 40 mm de água.
+Abaixo de 10%: pedir autorização extraordinária ao gestor do Alqueva.
+Oliveiras jovens usam uma ficha técnica separada.
+A rega noturna reduz perdas por evaporação.
+Os hidrantes são verificados antes de cada turno.
+A Festa do Azeite não altera as dotações agronómicas.
+Água de lavagem do lagar não entra no cálculo.
+Parcelas com avaria devem ficar marcadas para manutenção.
+Os valores são registados por parcela, sem somar herdades.
+Uma leitura arredondada para 12% mantém a dotação de 30 mm até confirmação do sensor.
+Uma parcela com 9% requer pedido extraordinário e não recebe automaticamente a dotação prevista para 10% ou 11%.

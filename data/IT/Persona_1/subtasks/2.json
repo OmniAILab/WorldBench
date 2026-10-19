@@ -1,0 +1,30 @@
+{
+  "persona": "Chiara è una biologa marina e consulente di acquacoltura che opera dal Porto di Chioggia, nella Laguna Veneta. Monitora lo stato di salute dei banchi locali di vongole e cozze, conciliando la sua ricerca con le variazioni di salinità causate dalle attivazioni della barriera del MOSE e con i rigorosi standard di sicurezza biologica fissati dalle autorità sanitarie della Regione Veneto.",
+  "task": "Scrivi una email all'autorità sanitaria veneta per segnalare il campionamento influenzato dal MOSE, includendo la data e il sito interessati e la condizione del MOSE in quella giornata.",
+  "required_files": [
+    "contatti_chioggia.xlsx",
+    "registro_laguna_chioggia_v2.xlsx",
+    "campioni_chioggia.xlsx",
+    "note_email_chioggia.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "biosicurezza@veneto.it",
+        "keywords": [
+          "2026-04-04",
+          "Bocca_Chioggia",
+          "MOSE attivo"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_biosicurezza_*.eml",
+      "change": "create"
+    }
+  ]
+}

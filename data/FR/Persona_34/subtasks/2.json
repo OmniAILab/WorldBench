@@ -1,0 +1,35 @@
+{
+  "persona": "Sylvain est maître tonnelier à Beaune, en Bourgogne. Il sélectionne les merrains de chêne français, suit leur séchage et adapte la chauffe des fûts aux commandes des domaines viticoles. Ses fiches d’atelier relient l’humidité du bois, les profils aromatiques recherchés et les opérations de contrôle avant livraison.",
+  "task": "Complète le manuel d’assurance qualité en croisant le type de barrique réellement commandé, la durée d’élevage, le standard technique de l'atelier et le dialogue de validation. Identifie la plage d’échange d’oxygène correspondant à la barrique GC-09 et précise le contrôle associé. Écarte les standards de fûts voisins.",
+  "required_files": [
+    "technical_standard.txt",
+    "barriques_controle_beaune.xlsx",
+    "dialogue_micro_oxygenation_beaune.txt"
+  ],
+  "output_files": [
+    "data/quality_assurance.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/quality_assurance.docx",
+        "keywords": [
+          "Beaune",
+          "GC-09",
+          "Grand Cru",
+          "élevage long",
+          "20–30 mg/L par an",
+          "contrôle annuel"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/quality_assurance.docx",
+      "change": "modify"
+    }
+  ]
+}

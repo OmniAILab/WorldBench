@@ -1,0 +1,29 @@
+{
+  "persona": "Rui é da Figueira da Foz e trabalha há doze anos como coordenador da cadeia de abastecimento de uma grande fábrica de celulose. Organiza as entregas de eucalipto por estradas rurais degradadas, acompanha as verificações de segurança contra incêndios na época seca e reorganiza os transportes em tempo real quando há estradas cortadas por risco de incêndio.",
+  "task": "Escreve um email ao empreiteiro Transportes Madeireiros do Centro, Lda. a comunicar a falha de segurança contra incêndios e a suspensão do transporte de madeira durante a época seca.",
+  "required_files": [
+    "safety_inspections.xlsx",
+    "suspension_notice_figueira.txt",
+    "logging_contacts.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_logging_contractor.txt",
+        "keywords": [
+          "A empresa Transportes Madeireiros do Centro, Lda. opera sem para-chamas; suspender imediatamente o transporte de madeira durante a época seca até à correção e nova inspeção"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_logging_contractor.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

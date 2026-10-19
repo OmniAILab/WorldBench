@@ -1,0 +1,8 @@
+Yohan : Switch_Test_09 est planifié le 5 octobre de 02:30 à 03:15 ?
+Responsable possession : Oui, cette fenêtre est Libre.
+Yohan : Et la restriction technique l’autorise sur Section_Tunnel_Central.
+Responsable possession : Exact.
+Yohan : Je renseigne le créneau, la section et « Confirmé ».
+Responsable possession : Oui, n’utilise pas la fenêtre libre du 10 octobre qui concerne une autre intervention.
+Yohan : La fenêtre n’est exploitable que si le gestionnaire d’infrastructure l’a confirmée.
+Responsable des possessions : Exact. Garde l’autorisation de mise hors service et la restitution de voie dans le dossier de l’intervention.

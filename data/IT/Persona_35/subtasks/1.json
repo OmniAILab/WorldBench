@@ -1,0 +1,31 @@
+{
+  "persona": "Pasquale è l'anima di uno storico atelier di sartoria nel cuore dei Quartieri Spagnoli a Napoli, dove crea abiti su misura seguendo la tradizione secolare della \"giacca napoletana\". Si muove nel labirinto logistico quotidiano dei vicoli stretti e pieni di motorini della città e nelle specifiche regole di tutela del patrimonio del centro storico UNESCO che disciplinano la ristrutturazione del suo antico laboratorio. Il suo lavoro richiede la costante sintesi dei dati sulla tensione dei tessuti e la gestione dei profili di misura dei clienti internazionali, conciliando al contempo le filiere irregolari dei mercanti locali di seta e lana nella vita vivace ma imprevedibile della città.",
+  "task": "Scrivi una email al cliente internazionale aggiornandolo sul ritardo del mercante di seta locale indicato nel foglio filiera nel file ./data/email_cliente_sartoria_napoli.txt.",
+  "required_files": [
+    "note_filiera_sartoria.txt",
+    "filiera_sartoria_napoli.xlsx"
+  ],
+  "output_files": [
+    "data/email_cliente_sartoria_napoli.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_cliente_sartoria_napoli.txt",
+        "keywords": [
+          "cliente.ny01@ordini-sartoria.it",
+          "Seta_Napoletana_Co",
+          "Delayed_by_Motorino_Traffic"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_cliente_sartoria_napoli.txt",
+      "change": "modify"
+    }
+  ]
+}

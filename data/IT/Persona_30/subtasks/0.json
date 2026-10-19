@@ -1,0 +1,39 @@
+{
+  "persona": "Massimo armonizza le operazioni creative e commerciali di uno studio di ceramica a Vietri sul Mare, porta d'accesso alla Costiera Amalfitana. Affronta le sfide logistiche della strada costiera SS163 per la consegna dell'argilla grezza, assicurando che tutti i disegni rispettino i tradizionali motivi dei \"colori vietresi\". La sua routine quotidiana comprende la gestione di ordini personalizzati ad alto volume da parte di interior designer internazionali e l'adattamento dei programmi di produzione ai picchi stagionali del mercato turistico regionale.",
+  "task": "Usa la nota di produzione e il piano consegne dell'argilla per aggiornare l'allocazione dell'ordine internazionale nel programma del laboratorio nel file ./data/ordini_ceramiche_vietri.xlsx per l'ordine NY_Hotel_Project.",
+  "required_files": [
+    "nota_argilla_vietri.txt",
+    "logistica_ss163_argilla.xlsx"
+  ],
+  "output_files": [
+    "data/ordini_ceramiche_vietri.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/ordini_ceramiche_vietri.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": "500kg_Terracotta"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/ordini_ceramiche_vietri.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "persona": "Nadège est luthière à Mirecourt, dans les Vosges, où elle fabrique et restaure des violons selon les traditions de l’École française de lutherie. Elle sélectionne les épicéas et érables en fonction de leurs propriétés acoustiques, prépare des vernis traditionnels et coordonne les livraisons d’instruments aux conservatoires tout en respectant les exigences hygrométriques propres aux bois anciens.",
+  "task": "Complète le protocole de restauration en croisant l’inventaire de l’instrument, son exigence de conservation de patine, le carnet de recettes de l'atelier et le dialogue de restauration. Pour Mirecourt_1898, identifie la recette exacte et reporte ses composants, le nombre de couches et la consigne de patine. Écarte les recettes des violons d’étude récents.",
+  "required_files": [
+    "recettes_vernis_mirecourt.txt",
+    "inventaire_instruments_mirecourt.xlsx",
+    "dialogue_restauration_mirecourt.txt"
+  ],
+  "output_files": [
+    "data/protocole_restauration_violon.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/protocole_restauration_violon.docx",
+        "keywords": [
+          "Mirecourt_1898",
+          "vernis à l’huile ambré",
+          "résine de sandaraque",
+          "trois couches fines",
+          "patine conservée",
+          "XIXe siècle"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/protocole_restauration_violon.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "persona": "Ana é do Entroncamento e coordena há catorze anos operações ferroviárias num centro de manutenção. Articula a circulação de passageiros e mercadorias com as limitações da infraestrutura regional, acompanhando avarias de sinalização e a disponibilidade das vias de intervenção.",
+  "task": "Identifica na folha da infraestrutura regional o segmento com perda total de sinal e atualiza no quadro do centro ferroviário do Entroncamento a disponibilidade da via de manutenção segundo a regra de intervenção.",
+  "required_files": [
+    "track_infrastructure.xlsx",
+    "signal_intervention_rule.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/maintenance_hub.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Bloqueada para reparação de sinal"
+          }
+        ]
+      }
+    }
+  ]
+}

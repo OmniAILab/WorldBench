@@ -1,0 +1,8 @@
+Benoît : Le lot Saucisson_29 est validé pour l’atelier principal ?
+Responsable : Oui.
+Benoît : Le nouveau ratio est 30 % de gras et 70 % de maigre le 12 mai.
+Responsable : Exact, l’ancienne recette 35/65 du 10 mai est obsolète.
+Benoît : Je planifie de 08:30 à 09:15.
+Responsable : Oui, et mentionne Atelier_principal dans la description.
+Benoît : Je note « Atelier_principal » afin que l’équipe de fabrication retrouve la bonne fiche.
+Chef de production : Et conserve la recette du 10 mai dans l’historique, sans la remettre au planning actif.

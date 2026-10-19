@@ -1,0 +1,30 @@
+{
+  "persona": "Pau es biólogo marino en las Illes Balears y se dedica a la protección de las praderas de Posidonia oceanica del entorno de Formentera. Se ocupa de aplicar el Decreto de Posidonia del Govern balear y de coordinar la vigilancia de las zonas libres de fondeo para embarcaciones de recreo. Su trabajo consiste en interpretar los datos de los hidrófonos del fondo marino y conciliar los objetivos de conservación con la intensidad del tráfico marítimo del verano mediterráneo.",
+  "task": "Incorpora al aviso de la marina de Formentera la orientación vigente para las embarcaciones de recreo que navegan sobre praderas de Posidonia.",
+  "required_files": [
+    "aviso_patrones_formentera.txt"
+  ],
+  "output_files": [
+    "data/aviso_marina.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/aviso_marina.docx",
+        "keywords": [
+          "Formentera",
+          "no fondear sobre Posidonia",
+          "boyas de amarre"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/aviso_marina.docx",
+      "change": "modify"
+    }
+  ]
+}

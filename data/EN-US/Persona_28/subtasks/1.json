@@ -1,0 +1,28 @@
+{
+  "persona": "Ayan is a public health outreach coordinator in Minneapolis, Minnesota, focusing on infectious disease prevention within the city’s diverse East African immigrant communities. She manages the documentation requirements of the Minnesota Department of Health and the specific cultural communication guidelines for local clinics, ensuring that health screenings and vaccination information are distributed through trusted community channels while maintaining accurate records of health outcomes and linguistic accessibility.",
+  "task": "Insert the linguistic accessibility turnaround requirement into the clinic communication guidelines.",
+  "required_files": [
+    "mdh_requirement.txt"
+  ],
+  "output_files": [
+    "data/communication_guidelines.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/communication_guidelines.docx",
+        "keywords": [
+          "All critical health notices must be translated within 24 hours"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/communication_guidelines.docx",
+      "change": "modify"
+    }
+  ]
+}

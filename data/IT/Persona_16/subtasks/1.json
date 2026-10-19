@@ -1,0 +1,30 @@
+{
+  "persona": "Valentina è una responsabile regolatoria farmaceutica a Latina, dove sovrintende alla documentazione per l'export di un importante polo di scienze della vita a sud di Roma. Si muove tra i rigorosi protocolli di sicurezza dei farmaci dell'AIFA e le specifiche normative di import-export dell'Agenzia Europea per i Medicinali. Il suo ruolo richiede il meticoloso controllo dei registri di produzione e la sintesi dei risultati delle sperimentazioni cliniche in dossier completi per l'autorizzazione all'immissione nei mercati globali.",
+  "task": "Inserisci la linea regolatoria EMA nel dossier di autorizzazione all'esportazione, nella sezione compliance. Il file ./data/dossier_autorizzazione_latina.docx deve contenere esattamente le seguenti diciture: «Qualified Person», «dichiarazione di certificazione», «Compliance».",
+  "required_files": [
+    "nota_ema_latina.txt"
+  ],
+  "output_files": [
+    "data/dossier_autorizzazione_latina.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/dossier_autorizzazione_latina.docx",
+        "keywords": [
+          "Qualified Person",
+          "dichiarazione di certificazione",
+          "Compliance"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/dossier_autorizzazione_latina.docx",
+      "change": "modify"
+    }
+  ]
+}

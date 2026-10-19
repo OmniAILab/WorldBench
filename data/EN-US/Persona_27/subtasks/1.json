@@ -1,0 +1,28 @@
+{
+  "persona": "Julian is a renewable energy policy analyst in Boulder, Colorado, specializing in the integration of wind and solar power into the regional Rocky Mountain grid. He manages the regulatory filings for the Colorado Public Utilities Commission and the technical documentation for Xcel Energy’s decarbonization initiatives, ensuring that proposed infrastructure projects meet the state’s ambitious climate goals while documenting the economic feasibility of community-scale battery storage.",
+  "task": "Write an email to the project developers about the missing grid integration study.",
+  "required_files": [
+    "developer_contacts_boulder.xlsx",
+    "cpuc_filing_log.xlsx",
+    "dialogue_interconnection_filing.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "developers@bouldercanyonwind.com",
+        "keywords": [
+          "Boulder_Canyon_Wind",
+          "Phase_2_Interconnection_Study"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_developers_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Nota de contacto: la solicitud debe enviarse a export@bioparc.cat.
+Apunte de lote: el código afectado es BC-45.
+Criterio de calidad: debe pedirse una nueva etiqueta comercial.
+Circular de fabricación: no se debe mencionar el documento ausente.
+Nota del Parc Científic: la petición corresponde a records@bioparc.cat.
+Informe regulatorio: debe solicitarse la pista de auditoría del ensayo.
+Práctica de exportación: basta con afirmar que el lote está preparado.
+Criterio de archivo: el destinatario correcto es manufacturing@bioparc.cat.
+Procedimiento vigente de liberación: la documentación que falta en un lote se reclama a la unidad de calidad de fabricación del directorio, citando el lote cuyo estado consta como No_preparado en el expediente y el documento ausente en el registro de lotes.
+Apunte de producción: debe pedirse el certificado de origen.
+Nota de mercado: el lote relevante es BC-46.
+Circular de privacidad: el código BC-44 no debe aparecer.
+Criterio de urgencia: solicitar una autorización verbal en lugar del documento.
+Informe de QA antiguo: el resumen se pide solo después de la exportación.
+Práctica interna: debe indicarse que no existen desviaciones.
+Nota administrativa: la solicitud se dirige a la AEMPS directamente.
+Criterio de expediente: basta con adjuntar el estado No_preparado sin explicar la causa.
+Nota de seguimiento: Si qa@bioparc.cat no proporciona el resumen de desviaciones de BC-44 en un plazo de 48 horas, el expediente de liberación deberá escalarse a la persona cualificada responsable de la liberación del lote para que evalúe si procede aplicar una extensión de plazo conforme a la Circular AEMPS 3/2022.
+Recomendación del área regulatoria: El correo a qa@bioparc.cat sobre BC-44 debe precisar que el resumen de desviaciones requerido deberá seguir el formato del registro de fabricación del lote armonizado y no puede sustituirse por un correo electrónico interno del equipo de fabricación.
+Apunte de logística del Parc Científic: la cámara de cuarentena admite lotes con documentación incompleta, lo que no equivale a una liberación de la persona cualificada responsable de la liberación del lote.

@@ -1,0 +1,29 @@
+{
+  "persona": "Inês dirige há dez anos a exploração de um cerejal na encosta da Serra da Gardunha, perto de Alcongosta. Coordena a equipa de campo, acompanha os avisos de geada tardia e protege as árvores durante a floração, sem perder de vista os compromissos comerciais da Cereja do Fundão.",
+  "task": "Escreve um email aos supervisores da colheita a comunicar o limite de exportação da Cereja do Fundão para o mercado do Reino Unido (categoria extra) e a necessidade de ajustar o volume.",
+  "required_files": [
+    "international_trade.xlsx",
+    "quota_adjustment_fundao.txt",
+    "harvest_contacts_fundao.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_harvest_supervisors.txt",
+        "keywords": [
+          "O mercado do Reino Unido (categoria extra) tem um limite contratual de 50 toneladas de Cereja do Fundão; ajustar o volume da colheita destinado a esse mercado"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_harvest_supervisors.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

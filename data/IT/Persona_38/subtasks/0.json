@@ -1,0 +1,39 @@
+{
+  "persona": "Lorenzo si occupa di gestione delle destinazioni turistiche a Cortina d’Ampezzo e segue i progetti legati all’eredità dei Giochi olimpici invernali del 2026 nella provincia di Belluno. Coordina le esigenze delle infrastrutture e degli operatori locali con la tutela del paesaggio dolomitico e con le procedure di finanziamento regionale per il turismo sostenibile. Per programmare gli interventi utilizza dati sulle presenze turistiche e valutazioni d’impatto ambientale.",
+  "task": "Usa la valutazione ambientale post-olimpica e la nota UNESCO Dolomiti per aggiornare lo stato di approvazione del progetto legacy.",
+  "required_files": [
+    "note_legacy_cortina.txt",
+    "valutazione_ambientale_cortina.xlsx"
+  ],
+  "output_files": [
+    "data/regolamenti_unesco_dolomiti.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/regolamenti_unesco_dolomiti.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "approvato_condizionato"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/regolamenti_unesco_dolomiti.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

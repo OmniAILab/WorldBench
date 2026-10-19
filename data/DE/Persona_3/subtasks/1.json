@@ -1,0 +1,39 @@
+{
+  "persona": "Johannes bewirtschaftet Rieslingparzellen am Niersteiner Roten Hang in Rheinhessen. Für die seltene Eisweinlese stimmt er Frostmessungen, Mostgewicht, Leseplanung und die Abläufe im Kelterhaus aufeinander ab.",
+  "task": "Ermittle anhand der Zuckermessungen die Niersteiner Parzelle mit dem höchsten Oechslewert und trage sie als Prioritätsparzelle in den Pressplan ein.",
+  "required_files": [
+    "zucker_nierstein.xlsx",
+    "kelterhinweise_nierstein.txt"
+  ],
+  "output_files": [
+    "data/pressplan.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/pressplan.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "NT-2"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/pressplan.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Meyer Werft – Prüfprotokoll des LNG-Antriebs, 16. Oktober 2026
+Prüfbereich: Steuerbord_Maschinenraum. Die Messreihe wurde unter den im Prüfauftrag vorgesehenen Last- und Temperaturbedingungen aufgenommen.
+Kalibriervermerk: Vor dem Vergleich wurden Sensorstatus und Referenzwerte der Messanlage kontrolliert. Die verwendete betriebliche Prüfgrenze ist im Prüfauftrag hinterlegt und nicht als universeller gesetzlicher LNG-Wert zu verstehen.
+Verbindlicher Testbefund: Im Steuerbord_Maschinenraum liegt folgender Befund vor: Methanschlupf überschreitet den Grenzwert des aktuellen Prüfauftrags.
+Anordnung: Das Antriebsteam leitet einen technischen Halt für den betroffenen Prüfbereich ein und untersucht Ursache und Messeinrichtung vor einer erneuten Freigabe.
+Backbord_Maschinenraum zeigt nur eine gesondert zu dokumentierende CO2-Abweichung; Hilfsmaschine_2 weist einen Temperaturfühlerfehler auf.
+Eine frühere Empfehlung zum Weiterbetrieb mit verringerter Leistung wurde durch den bestätigten Prüfentscheid überholt.
+Fachkontakt laut Projektverzeichnis: antrieb@meyerwerft.de, bei realer Verwendung zu verifizieren.

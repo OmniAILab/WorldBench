@@ -1,0 +1,40 @@
+{
+  "persona": "英在寒冷的哈尔滨管理一支速冻饺子配送车队。她必须让司机绕开冰雪节期间拥挤的人群，并确保货车加热器不会在 -30°C 的严寒中失灵。",
+  "task": "把哈尔滨冬季车辆检查、速冻饺子传感器阈值、HB-TRK-7 当前低温准备状态和司机交班对话整理成一份 DOCX 简报。必须包含保温门封条、备用发电机、-35号柴油、防滑链，并明确货厢任一传感器高于 -18℃ 就触发检查；同时说明中央大街冰雪节白班应按绕行安排执行。",
+  "required_files": [
+    "winter_checks_harbin.txt",
+    "sensor_note_harbin.txt",
+    "dialogue_winter_brief_harbin.txt",
+    "winter_vehicle_status_harbin.xlsx"
+  ],
+  "output_files": [
+    "data/driver_brief.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/driver_brief.docx",
+        "keywords": [
+          "哈尔滨冬季",
+          "HB-TRK-7",
+          "冰雪节",
+          "中央大街",
+          "保温门封条",
+          "备用发电机",
+          "-35号柴油",
+          "防滑链",
+          "高于 -18℃",
+          "速冻饺子"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/driver_brief.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "persona": "Elara ist Schiffbauingenieurin in einem Überführungsprojekt der Meyer Werft in Papenburg. Sie bewertet Wasserstandsprognosen, Tiefgang und Kielfreiheit bei der Fahrt über die Ems und stimmt technische Entscheidungen mit der Überführungsplanung ab. Die Freigabe einer Passage setzt aktuelle Betriebsdaten und die erforderlichen Abstimmungen am Emssperrwerk voraus.",
+  "task": "Prüfe die LNG-Emissionstests der Meyer Werft gegen Sensorhinweise, andere Maschinenräume und ältere Betriebsfreigaben. Ermittle den tatsächlich betroffenen Prüfbereich und die bestätigte Emissionsanomalie und schreibe ausschließlich an das Antriebsteam eine E-Mail, die den technischen Halt mit Bereich und Anomalie eindeutig anordnet.",
+  "required_files": [
+    "lng_emissionstests.xlsx",
+    "kontakte_meyer_werft.xlsx",
+    "lng_pruefhinweise_papenburg.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "antrieb@meyerwerft.de",
+        "keywords": [
+          "Steuerbord_Maschinenraum",
+          "Methanschlupf",
+          "überschreitet den Grenzwert"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_antrieb_*.eml",
+      "change": "create"
+    }
+  ]
+}

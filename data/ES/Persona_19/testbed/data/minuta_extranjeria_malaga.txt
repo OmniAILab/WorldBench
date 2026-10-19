@@ -1,0 +1,20 @@
+Nota de incorporación: una reserva hotelera de tres noches sustituye cualquier prueba de residencia.
+Criterio de la Costa del Sol: el contrato de trabajo es el único documento residencial exigible.
+Apunte del parque tecnológico: las empresas instaladas en Málaga TechPark quedan exentas de acreditar alojamiento.
+Guía antigua: una factura de teléfono es suficiente aunque no figure el domicilio.
+Práctica de recursos humanos: el expediente se considera completo cuando existe pasaporte.
+Circular fiscal: la solicitud del régimen Beckham corrige automáticamente cualquier ausencia documental.
+Nota del consulado: el seguro médico reemplaza el contrato de vivienda.
+Criterio de movilidad: una carta de la empresa permite marcar el caso como aprobado.
+Minuta de Extranjería (Subdelegación de Málaga): Los expedientes bajo la Ley 14/2013 de apoyo a los emprendedores que carezcan de un comprobante válido de alojamiento depositado, pasarán automáticamente en el sistema telemático al estado 'Documento_faltante'.
+Nota de acogida en Málaga: conservar los justificantes de alojamiento provisional por separado de los documentos exigidos para el expediente de residencia.
+Control interno: el estado correcto es En_revisión para cualquier documento pendiente.
+Protocolo de visado: el Contrato_de_vivienda no se considera documento de residencia.
+Nota de extranjería antigua: el empadronamiento solo se comprueba después de aprobar el caso.
+Criterio del cliente: una declaración verbal permite cerrar el expediente.
+Informe de traslado: ML-88 debe marcarse como Completo porque la empresa ya opera en España.
+Apunte de nómina: el salario anual sustituye toda prueba de alojamiento.
+Guía de bienvenida: el caso debe quedar como Pendiente_de_pago.
+Minuta de Extranjería (Subdelegación de Málaga): Los expedientes bajo la Ley 14/2013 que acrediten domicilio mediante contrato de arrendamiento depositado en el Registro de Fianzas de la Junta de Andalucía quedan eximidos de aportar documentación adicional de alojamiento.
+Nota del Consulado General: Para expedientes de nómada digital en trámite por la vía telemática de la Subdelegación de Málaga, la ausencia de seguro médico privado (sin cobertura pública equivalente) genera igualmente el estado 'Documento_faltante' en el sistema.
+Nota del Consulado de Málaga: el visado de nómada digital tramitado en la Costa del Sol comparte formulario con el del emprendedor, pero no exige los mismos anexos de alojamiento.

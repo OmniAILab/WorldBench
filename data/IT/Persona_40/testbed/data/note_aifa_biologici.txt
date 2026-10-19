@@ -1,0 +1,21 @@
+Lotto Vaccine_V11 con campione microbiologico in attesa: clearance sospeso.
+Lotto BioSerum_02 con etichetta incompleta: clearance integrazione.
+Lotto Vaccine_V10 con test stabilità rinviato: clearance sospeso.
+Lotto CellLine_A4 con deviazione minore aperta: clearance revisione_QA.
+Lotto Vaccine_US_01 con temperatura incompleta: clearance verifica_freddo.
+Lotto Vaccine_V12 con test potenza in archivio 2025: clearance archivio.
+QA Release: I flaconi del laboratorio che hanno superato indenni lo screening microbiologico ottengono la clearance "autorizzato" per avviare la distribuzione nei continenti esteri.
+Lotto Plasma_B7 con confezionamento conforme: clearance solo_locale.
+Lotto Antibody_C3 con documento doganale mancante: clearance dogana.
+Lotto Vaccine_V13 con sterilità programmata: clearance in_attesa.
+Lotto BioBatch_LT con validazione parziale: clearance revisione.
+Lotto Serum_Q2 con audit fissato: clearance audit.
+Lotto Vaccine_NA_2 con traduzione mancante: clearance documentale.
+Lotto Culture_D5 con trasporto non assegnato: clearance logistica.
+Lotto Vaccine_V09 con scadenza breve: clearance valutazione.
+Lotto Buffer_F1 con materiale ausiliario: clearance non_applicabile.
+Lotto Vaccine_Trial con uso clinico interno: clearance ricerca.
+Lotto Serum_R8 con etichetta in revisione: clearance integrazione.
+Lotto Vaccine_V14 con campionamento programmato: clearance in_attesa.
+Lotto Vaccine_V15 con revisione etichetta programmata: clearance documentale.
+Lotto BioSerum_09 con campione stabilità in corso: clearance in_attesa.

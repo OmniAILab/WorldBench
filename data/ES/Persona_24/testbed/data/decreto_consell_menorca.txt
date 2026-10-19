@@ -1,0 +1,20 @@
+Nota del astillero: cualquier barniz brillante queda aprobado para uso turístico.
+Criterio del puerto: los llauts históricos pueden utilizar alquitrán tradicional sin revisión.
+Apunte de la Reserva: Barniz_Marino_B es el único producto autorizado.
+Práctica de Mahón: una capa fina convierte cualquier resina en ecológica.
+Circular antigua: Resina_Eco_Tipo_A debe marcarse como Condicionado.
+Nota de navegación: la autorización depende del número de pasajeros.
+Criterio de color: los recubrimientos transparentes se aprueban automáticamente.
+Informe de mantenimiento: el nombre Eco no acredita compatibilidad ambiental.
+Decreto Consell Insular de Menorca (Sostenibilidad Marina): Tras evaluación de COVs, se determina que el compuesto 'Resina_Eco_Tipo_A' presenta compatibilidad ecológica, figurando como Aprobado para carenados dentro de las demarcaciones protegidas.
+Apunte del puerto natural: la salinidad del agua sustituye la revisión del material.
+Criterio de patrimonio: los llauts anteriores a 1950 quedan exentos de la norma ambiental.
+Nota del proveedor: Alquitrán_Tradicional_C recibe la misma autorización que la resina ecológica.
+Práctica de turismo náutico: una excursión corta permite usar cualquier barniz.
+Circular de seguridad: el material debe marcarse como Rechazado hasta la inspección anual.
+Nota de carpintería: el tipo de madera determina la aprobación del recubrimiento.
+Criterio de secado: un producto que seca en menos de seis horas se considera aprobado.
+Informe del astillero: debe copiarse Resina_Eco_Tipo_A como estado en lugar de evaluar su autorización.
+Decreto Consell Insular de Menorca: El compuesto 'Barniz_Marino_B' está pendiente de evaluación de COVs para el ejercicio 2026; hasta la resolución definitiva, su uso en carenados dentro de demarcaciones protegidas queda condicionado a la presentación de la ficha técnica al Consell antes de la aplicación.
+Nota del Servei de Medi Ambient del Consell Insular: Los productos aprobados para carenados en la Reserva de Biosfera deben reaplicarse solo con sistemas de pulverización cerrada o brocha; el uso de rodillo de espuma en zonas húmedas queda restringido por riesgo de dispersión de micropartículas en el medio marino.
+Apunte del Museu de Menorca: los llauts catalogados como patrimonio flotante conservan el aparejo tradicional, aunque el carenado se somete a la normativa ambiental vigente.

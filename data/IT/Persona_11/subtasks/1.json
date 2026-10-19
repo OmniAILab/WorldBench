@@ -1,0 +1,32 @@
+{
+  "persona": "Pietro è un pescatore commerciale con base a Mazara del Vallo, in Sicilia, dove gestisce una flotta specializzata nel celebre Gambero Rosso. Si muove tra le complessità delle quote di pesca mediterranee fissate dalla Commissione Europea e le specifiche zone di sicurezza marittima vicino al confine tunisino. La sua vita professionale comporta l'interpretazione dei dati satellitari sulla temperatura superficiale del mare e l'adempimento degli obblighi di rendicontazione digitale dell'iniziativa Blue Economy, per garantire la sostenibilità a lungo termine degli stock di crostacei siciliani.",
+  "task": "Individua la lettura più alta della temperatura superficiale del mare e scrivi una breve nota di cautela nel briefing per lo skipper. Il file ./data/briefing_skipper_mazara.docx deve contenere esattamente le seguenti diciture: «Mazara del Vallo», «Z2», «21.1», «Gambero Rosso».",
+  "required_files": [
+    "note_rotta_mazara.txt",
+    "temperature_mare_mazara.xlsx"
+  ],
+  "output_files": [
+    "data/briefing_skipper_mazara.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/briefing_skipper_mazara.docx",
+        "keywords": [
+          "Mazara del Vallo",
+          "Z2",
+          "21.1",
+          "Gambero Rosso"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/briefing_skipper_mazara.docx",
+      "change": "modify"
+    }
+  ]
+}

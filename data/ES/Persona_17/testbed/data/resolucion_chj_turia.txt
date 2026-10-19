@@ -1,0 +1,20 @@
+Nota de jardinería: las obras públicas pueden recibir riego sin límite.
+Regla antigua del Júcar: la dotación debe duplicarse durante el verano.
+Práctica del Turia: el césped ornamental tiene prioridad sobre los árboles.
+Recomendación municipal: no es necesario indicar restricciones de agua.
+Consejo de plantación: utilizar especies con alto consumo para refrescar el corredor.
+Norma de capital verde: toda solicitud de riego se aprueba automáticamente.
+Nota de las Fallas: en marzo se suspenden los límites de riego.
+Regla de mantenimiento: las fuentes ornamentales no cuentan en la dotación.
+Resolución de la Confederación Hidrográfica del Júcar sobre el corredor del Turia: limitar las dotaciones de riego asignadas a las obras públicas mientras se mantenga el régimen de escasez en la cuenca.
+Práctica de parques: el límite se aplica únicamente a jardines privados.
+Nota del corredor: basta con reducir el riego un día al mes.
+Recomendación técnica: aumentar la dotación en Turia_Centro.
+Regla antigua: las obras públicas quedan exentas de cualquier restricción.
+Consejo de diseño: sustituir el riego por fuentes continuas.
+Norma municipal: la disponibilidad de agua no debe figurar en la especificación.
+Nota de especies: los cítricos permiten superar la dotación autorizada.
+Regla de verano: el límite solo se aplica después de las 22:00.
+Limitación de la Confederación Hidrográfica del Júcar: las obras públicas situadas en el corredor del Jardín del Turia que utilicen sistemas de riego por goteo con sensor de humedad homologado podrán solicitar una dotación suplementaria de hasta el 15% para el periodo de implantación de la plantación.
+Nota de la CHJ: las dotaciones de riego asignadas a obras públicas en tramos urbanos deben revisarse anualmente; si el Índice de Estrés Hídrico de la cuenca supera el umbral de alerta, las dotaciones se reducirán automáticamente en un 20% independientemente del tipo de obra.
+Acta de coordinación con la CHJ: reflejar en la especificación de plantación la limitación general de las dotaciones de riego para obras públicas en régimen de escasez, manteniendo como supuesto específico la dotación suplementaria por goteo sensorizado.

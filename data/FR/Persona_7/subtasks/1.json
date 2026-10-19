@@ -1,0 +1,34 @@
+{
+  "persona": "Élodie est maîtresse affineuse dans une fruitière du Jura, près de Poligny. Elle suit la maturation des meules de Comté dans des caves fraîches, contrôle la traçabilité du lait et organise les retournements réguliers, tout en préservant les savoir-faire jurassiens liés aux fruitières et aux longues périodes d’affinage.",
+  "task": "Prépare la fiche sensorielle de la meule exacte JUR-24 en croisant les notes de dégustation avec le dialogue de validation. Écarte JUR-24B et les autres meules, puis reporte l’origine, les deux descripteurs aromatiques validés et la cristallisation.",
+  "required_files": [
+    "notes_degustation_jura.txt",
+    "dialogue_validation_sensorielle_jura.txt"
+  ],
+  "output_files": [
+    "data/fiche_sensorielle_jur24.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/fiche_sensorielle_jur24.docx",
+        "keywords": [
+          "JUR-24",
+          "Comté",
+          "cave de Poligny",
+          "notes de noix",
+          "beurre noisette",
+          "cristaux fins"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/fiche_sensorielle_jur24.docx",
+      "change": "modify"
+    }
+  ]
+}

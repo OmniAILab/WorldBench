@@ -1,0 +1,22 @@
+Clearance note: RR-11 needs routine 9m berth confirmation.
+Clearance note: RR-12 needs routine 10m berth confirmation.
+Clearance note: RR-13 needs routine 11m berth confirmation.
+Clearance note: RR-14 is assigned to the shallow ro-ro lane.
+Clearance note: RR-04 requires a 12m draft requirement recorded for terminal planning.
+Clearance note: RR-15 carries automobiles only and has a 10m requirement.
+Clearance note: RR-16 is waiting on customs paperwork, not draft review.
+Clearance note: RR-17 has an 11m draft but no high-tide hold.
+Clearance note: RR-18 is for a light machinery shipment.
+Clearance note: RR-19 should be held for cargo lash inspection.
+Clearance note: RR-20 has no Chesapeake Bay dredging conflict.
+Clearance note: RR-21 is still outside the bay approach.
+Clearance note: RR-22 has a paperwork hold unrelated to draft.
+Clearance note: RR-23 needs pilot scheduling only.
+Clearance note: RR-24 is a training manifest entry.
+Clearance note: RR-25 has a routine berth draft.
+Clearance note: RR-26 has an incomplete carrier contact.
+Clearance note: RR-27 is tied to a different terminal.
+Port context: Dundalk handles a high volume of Ro-Ro moves for automobiles and heavy machinery.
+Chesapeake: draft and tide windows have to be distinguished from customs holds.
+Navigation: channel dredging is an access constraint, not a cargo status.
+Operations: tugs, pilots, and lashing inspections each have their own windows.

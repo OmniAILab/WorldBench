@@ -1,0 +1,19 @@
+Nota de ensayo: los participantes de peso alto deben situarse en los pisos superiores.
+Criterio televisivo: las personas más altas se colocan siempre en el centro del tronc.
+Apunte de Santa Tecla: la posición depende del color de la camisa.
+Práctica antigua: Marc_Casteller debe actuar como enxaneta.
+Circular de seguridad: el peso no se utiliza para organizar la pinya.
+Nota de la Plaça de la Font: la base se reserva a participantes ligeros.
+Criterio de experiencia: cualquier veterano se coloca en el segundo piso.
+Informe preliminar: Marc_Casteller corresponde a Lateral_de_tronc.
+Manual de Prevención (Coordinadora de Colles Castelleres): Atendiendo a la distribución de cargas para evitar el colapso, los castellers de envergadura superior (Peso_alto) se asignarán ineludiblemente como refuerzo en la Base_de_pinya.
+Nota de retransmisión: Marc_Casteller debe situarse donde sea más visible.
+Criterio de equilibrio: el peso alto corresponde a Canalla.
+Apunte municipal: la posición correcta es Reserva.
+Práctica de la colla: todos los participantes reciben la misma asignación.
+Circular antigua: la base solo admite personas de peso medio.
+Nota física: el participante más pesado debe quedar fuera del castell.
+Criterio de plaza: la pendiente del suelo sustituye la categoría de peso.
+Informe técnico: debe copiarse Peso_alto como posición.
+Manual de Prevención (CCCC): Los castellers de Peso_medio se distribuirán en la segunda y tercera fila de la pinya para estabilizar el tronc lateralmente; asignarlos a la Base_de_pinya sin suficiente masa comprometería la distribución de cargas y aumentaría el riesgo de derrumbe.
+Nota del responsable de seguridad: En castells de vuit o superior, los efectivos de Peso_alto asignados a la Base_de_pinya deberán ocupar las posiciones frontales y traseras (contrafort), reservando los laterales para participantes de Peso_medio con al menos dos temporadas de experiencia en posiciones de base.

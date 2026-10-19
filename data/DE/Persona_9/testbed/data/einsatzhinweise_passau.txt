@@ -1,0 +1,6 @@
+Betriebsvermerk Hochwasserschutz — Dreiflüsseeck Passau
+Feststellung: Die in den internen Sektorenplänen verwendeten Bezeichnungen (z. B. Inn_Gasse) dienen der schnellen Zuweisung der mobilen Einsatzkräfte und entsprechen nicht zwingend amtlichen Straßennamen.
+Einsatzanweisung: Die Sektoren mit dem höchsten Bodensättigungsindex erhalten höchste Priorität.
+Messprotokoll: Der Sektor Inn_Gasse weist mit 0,91 den höchsten Index auf.
+Maßnahme: Für die Inn_Gasse ist im Einsatzplan die Priorität 1 einzutragen.
+Sonderregel: Bei gleichzeitigem Schmelzwasser aus den österreichischen Alpen kann die Priorität für den Donau_Weg lagebedingt angepasst werden.

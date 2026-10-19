@@ -1,0 +1,29 @@
+{
+  "persona": "Amara is a licensing specialist on Music Row in Nashville, Tennessee, managing the complex intellectual property rights for independent songwriters and session musicians. She navigates the evolving landscape of the Mechanical Licensing Collective and the specific contractual traditions of the local publishing industry, ensuring that royalty distributions and performance rights registrations are meticulously documented and updated across multiple digital and physical distribution channels.",
+  "task": "Write an email to the publisher confirming the registration action and include the track name and release date.",
+  "required_files": [
+    "publisher_contacts.xlsx",
+    "releases_nashville_publisher.xlsx",
+    "registration_context_nashville.txt",
+    "email_template_musicrow.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "admin@musicrowpub.com",
+        "keywords": [
+          "Neon_Skies",
+          "2026-04-10"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_admin_*.eml",
+      "change": "create"
+    }
+  ]
+}

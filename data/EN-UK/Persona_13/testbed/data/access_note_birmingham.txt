@@ -1,0 +1,40 @@
+Transport note: service vehicles should use the signed loading bay after the site walk.
+Canal note: towpath access is not part of this inner-ring instruction.
+HS2 note: station-hoarding access requires a separate pass.
+Safety note: do not cross the inner ring outside marked pedestrian routes.
+Cooling note: the 3°C reduction target is not calendar wording.
+Workshop note: pedestrianised zone phasing belongs in the partnership email.
+Green corridor note: GC-2 redesign is handled in the spreadsheet.
+Wayfinding note: temporary signs may be discussed after the walk.
+Meeting note: keep the site-walk description concise.
+Inner-ring road access: use designated crossings only.
+Include the access wording in site-walk descriptions.
+Calendar note: title the entry Curzon Street Site Walk.
+Diary note: the site walk is booked for 2026-04-03, 10:00 to 11:00.
+Public realm note: check paving materials but do not include them in the description.
+Digbeth event-space bookings are kept outside the design brief. Reference 1A is recorded separately.
+Moor Street station access changes are logged separately. Reference 1B is recorded separately.
+Eastside public-art proposals use a different review schedule. Reference 2A is recorded separately.
+Birmingham canal maintenance notices are not design-score entries. Reference 2B is recorded separately.
+Smithfield market servicing notes are held in the logistics file. Reference 3A is recorded separately.
+Colmore Row wayfinding trials are recorded separately. Reference 3B is recorded separately.
+Digbeth event-space bookings are kept outside the design brief. Reference 4A is recorded separately.
+Moor Street station access changes are logged separately. Reference 4B is recorded separately.
+Eastside public-art proposals use a different review schedule. Reference 5A is recorded separately.
+Birmingham canal maintenance notices are not design-score entries. Reference 5B is recorded separately.
+Smithfield market servicing notes are held in the logistics file. Reference 6A is recorded separately.
+Colmore Row wayfinding trials are recorded separately. Reference 6B is recorded separately.
+Digbeth event-space bookings are kept outside the design brief. Reference 7A is recorded separately.
+Moor Street station access changes are logged separately. Reference 7B is recorded separately.
+Eastside public-art proposals use a different review schedule. Reference 8A is recorded separately.
+Birmingham canal maintenance notices are not design-score entries. Reference 8B is recorded separately.
+Smithfield market servicing notes are held in the logistics file. Reference 9A is recorded separately.
+Colmore Row wayfinding trials are recorded separately. Reference 9B is recorded separately.
+Digbeth event-space bookings are kept outside the design brief. Reference 10A is recorded separately.
+Moor Street station access changes are logged separately. Reference 10B is recorded separately.
+Eastside public-art proposals use a different review schedule. Reference 11A is recorded separately.
+Birmingham canal maintenance notices are not design-score entries. Reference 11B is recorded separately.
+Smithfield market servicing notes are held in the logistics file. Reference 12A is recorded separately.
+Colmore Row wayfinding trials are recorded separately. Reference 12B is recorded separately.
+Digbeth event-space bookings are kept outside the design brief. Reference 13A is recorded separately.
+Moor Street station access changes are logged separately. Reference 13B is recorded separately.

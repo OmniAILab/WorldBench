@@ -1,0 +1,8 @@
+Cédric : Le seuil retenu dans notre dossier de rejet pour Atelier_Ganterie_Millau est 0,05 mg/L ?
+Responsable environnement : Oui.
+Cédric : La mesure courante est 0,047 mg/L, donc elle reste sous le seuil.
+Responsable environnement : Exact.
+Cédric : J’inscris le seuil, la mesure et le statut « Conforme - surveillance maintenue ».
+Responsable environnement : C’est attendu.
+Cédric : Le relevé du 6 avril provient bien de notre atelier, pas de la mégisserie voisine.
+Responsable environnement : Oui. Reporte les deux valeurs en mg/L dans le registre des rejets, avec maintien de la surveillance.

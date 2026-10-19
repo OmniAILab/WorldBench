@@ -1,0 +1,35 @@
+{
+  "persona": "Karim est restaurateur de films et projectionniste à la Cinémathèque française à Paris. Il inspecte des copies argentiques, notamment des bobines nitrate, prépare des séances patrimoniales et coordonne les accompagnements musicaux de films muets, en respectant les contraintes de conservation, de sécurité incendie et de présentation propres aux archives du cinéma.",
+  "task": "Croise les notes de projection, la configuration de cabine et le dialogue technique. Rédige une fiche de conduite pour Le_Mécano_de_la_Générale_09 avec le changement de bobine, le niveau de lumière, le départ du piano, le projecteur 35mm_P2 et l’accompagnement Piano_live. Écarte la copie 18.",
+  "required_files": [
+    "notes_projection_patrimoine.txt",
+    "configuration_projection_cinematheque.xlsx",
+    "dialogue_conduite_mecano.txt"
+  ],
+  "output_files": [
+    "data/fiche_conduite_projection.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/fiche_conduite_projection.docx",
+        "keywords": [
+          "Le_Mécano_de_la_Générale_09",
+          "00:20:40",
+          "15 %",
+          "trois secondes avant l’image",
+          "35mm_P2",
+          "Piano_live"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/fiche_conduite_projection.docx",
+      "change": "modify"
+    }
+  ]
+}

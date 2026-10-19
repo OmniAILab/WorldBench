@@ -1,0 +1,28 @@
+{
+  "persona": "Alessia è una stratega dell'ospitalità sulla Costiera Amalfitana e gestisce un portafoglio di ville di lusso e residenze storiche a Positano. Affronta le sfide logistiche stagionali della strada statale SS163 e gli specifici regolamenti comunali che disciplinano i livelli di rumore costiero e i permessi per il turismo del patrimonio. Il suo lavoro comprende l'attenta sincronizzazione degli itinerari degli ospiti con gli orari dei traghetti regionali e il coordinamento dei fornitori artigiani locali per garantire un'esperienza impeccabile all'altezza delle elevate aspettative dei viaggiatori internazionali.",
+  "task": "Scrivi una email ai fornitori artigiani per ricordare il limite sonoro serale previsto dal regolamento comunale di Positano.",
+  "required_files": [
+    "note_suono_positano.txt",
+    "regolamento_positano.xlsx",
+    "contatti_artigiani_positano.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "artigiani@positano.it",
+        "keywords": [
+          "Evening_Events",
+          "60dB_Max"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_artigiani_*.eml",
+      "change": "create"
+    }
+  ]
+}

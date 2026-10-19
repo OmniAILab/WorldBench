@@ -1,0 +1,28 @@
+{
+  "persona": "Marlene inszeniert am Deutschen Nationaltheater in Weimar. Bei der Probenplanung stimmt sie Bühneneffekte, Szenenwechsel und praktische Sicherheitsprüfungen mit der technischen Leitung ab.",
+  "task": "Informiere die technische Leitung per E-Mail, welcher Bühneneffekt laut aktueller Effektliste für die Aufführung nicht zulässig ist.",
+  "required_files": [
+    "technik_kontakte_weimar.xlsx",
+    "effektliste_weimar.xlsx",
+    "mailhinweise_weimar.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "technik@theater.de",
+        "keywords": [
+          "Funkenfontaene",
+          "nicht zulässig"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_technik_*.eml",
+      "change": "create"
+    }
+  ]
+}

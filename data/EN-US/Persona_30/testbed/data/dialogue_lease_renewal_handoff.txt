@@ -1,0 +1,24 @@
+Aquaculture manager: Which lease is approaching the renewal deadline?
+Field coordinator: Use the current DMR registry and the exact mussel raft identifier in the active file.
+Aquaculture manager: I see another raft with the same thirty-day status.
+Field coordinator: Status alone is not enough. Match the lease ID.
+Aquaculture manager: There is also an archived Mussel_Raft_08 record.
+Field coordinator: Do not use archived records for the current renewal.
+Aquaculture manager: Should the email go to the mussel desk or the regional leasing officer?
+Field coordinator: Contact the regional leasing officer.
+Aquaculture manager: Casco Bay weather can delay inspection boats this time of year.
+Field coordinator: Operationally true, but it does not change the expiration status.
+Aquaculture manager: Peaks Island and working-waterfront contacts are also in the sheet.
+Field coordinator: They are not the requested recipient.
+Aquaculture manager: Should I phrase it as an expiration alert rather than assuming renewal approval?
+Field coordinator: Yes.
+Aquaculture manager: The sea-to-table delivery calendar is separate?
+Field coordinator: Separate.
+Aquaculture manager: I will include the exact lease ID and status.
+Field coordinator: Good.
+Aquaculture manager: No need to mention kelp lease records?
+Field coordinator: Correct.
+Aquaculture manager: The current registry row is authoritative.
+Field coordinator: Exactly.
+Aquaculture manager: And the address comes from the regional leasing contact.
+Field coordinator: Yes.

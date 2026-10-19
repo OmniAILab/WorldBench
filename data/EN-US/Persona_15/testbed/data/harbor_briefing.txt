@@ -1,0 +1,22 @@
+Daily briefing: pilot boarding window is 07:00-08:30 for a container vessel.
+Daily briefing: rail gate congestion is expected from 09:00-11:00.
+Daily briefing: heavy machinery staging is paused during the noon safety drill.
+Daily briefing: Chesapeake Bay dredge crews are clear of the ro-ro lane by 13:30.
+Daily briefing: high tide window is 14:00-16:00 for the vessel docking event.
+Daily briefing: customs inspection begins at 16:30 near the auto terminal.
+Daily briefing: tug availability is limited after 18:00.
+Daily briefing: stormwater checks should be logged before 06:30.
+Daily briefing: berth lighting maintenance starts at 20:00.
+Daily briefing: bridge traffic near the port entrance may slow truck arrivals.
+Daily briefing: ship chandlers must use the south gate before lunch.
+Daily briefing: terminal radios should stay on the operations channel.
+Daily briefing: cargo lash inspections are scheduled for 10:15.
+Daily briefing: heavy equipment photographers need escort badges.
+Daily briefing: harbor master lunch coverage runs from 12:00-12:30.
+Daily briefing: the backup berth remains unavailable this week.
+Daily briefing: port security drill paperwork is due at 17:00.
+Daily briefing: weather updates should be posted at the dispatch counter.
+Port context: Dundalk handles a high volume of Ro-Ro moves for automobiles and heavy machinery.
+Chesapeake: draft and tide windows have to be distinguished from customs holds.
+Navigation: channel dredging is an access constraint, not a cargo status.
+Operations: tugs, pilots, and lashing inspections each have their own windows.

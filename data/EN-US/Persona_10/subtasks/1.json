@@ -1,0 +1,32 @@
+{
+  "persona": "Amara is a licensing specialist on Music Row in Nashville, Tennessee, managing the complex intellectual property rights for independent songwriters and session musicians. She navigates the evolving landscape of the Mechanical Licensing Collective and the specific contractual traditions of the local publishing industry, ensuring that royalty distributions and performance rights registrations are meticulously documented and updated across multiple digital and physical distribution channels.",
+  "task": "Turn the songwriter split note into a clean split sheet document and include the songwriter and co-writer percentages.",
+  "required_files": [
+    "splits_note_nashville.txt"
+  ],
+  "output_files": [
+    "data/split_sheet.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/split_sheet.docx",
+        "keywords": [
+          "Music Row Split Sheet",
+          "Marissa Hale",
+          "60",
+          "Caleb Brooks",
+          "40"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/split_sheet.docx",
+      "change": "modify"
+    }
+  ]
+}

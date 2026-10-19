@@ -1,0 +1,30 @@
+{
+  "persona": "Greta leitet die Mälzerei einer Bamberger Rauchbierbrauerei. Sie kennt die traditionelle Trocknung von Malz über Buchenholzfeuer und koordiniert die Wartung der Darr- und Abluftanlagen. Bei Abweichungen prüft sie die Anlagenprotokolle und leitet bestätigte Störungen an die zuständige Technik weiter.",
+  "task": "Übertrage den verbindlich bestätigten Termin des brauereieigenen Urbock-Anstichs in Bamberg in den Marketingplan. Unterscheide den geplanten Vorausschank von der freigegebenen Veranstaltung.",
+  "required_files": [
+    "zunftflyer.txt"
+  ],
+  "output_files": [
+    "data/marketingplan.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/marketingplan.docx",
+        "keywords": [
+          "10. Oktober",
+          "Urbock-Anstich",
+          "Bamberg"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/marketingplan.docx",
+      "change": "modify"
+    }
+  ]
+}

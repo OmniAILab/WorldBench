@@ -1,0 +1,21 @@
+Promemoria ospiti: il tour tramonto è previsto il 2026-04-19 alle 18:00.
+Nota permessi: UN-MAT-2026-09 riguarda la Spa, non il blocco calendario del tour.
+Appunto manutenzione: la camera Sasso_Barisano_4 richiede priorità Alta in un foglio diverso.
+Responsabilità Direttive: Le indagini di stabilità della pietra sui camminamenti turistici sotterranei vanno fissate in agenda manageriale come "Monitoraggio conservativo" negli esatti orari di attraversamento dei gruppi.
+Registro itinerari: il tour patrimonio sotterraneo è indicato per il 2026-04-18 10:00.
+Nota Matera: non programmare il blocco alle 09:00.
+Promemoria calendario: usare VEVENT nel file finale.
+Scheda ospitalità: non inserire nomi degli ospiti.
+Nota UNESCO: il monitoraggio deve essere conservativo, non commerciale.
+Appunto concierge: la degustazione locale non è parte del monitoraggio.
+Promemoria output: la data deve apparire come 20260418.
+Nota orario: 1000 va mantenuto nel calendario.
+Registro vecchio: 20260417 1100 era una bozza.
+Appunto guide: non modificare l'itinerario turistico, aggiungere solo il blocco.
+Nota Sassi: citare patrimonio sotterraneo nella descrizione.
+Promemoria documento: non creare una email per questa istanza.
+Scheda manager: il calendario corretto è quello del manager.
+Promemoria ospiti: la prenotazione della guida turistica è organizzativa e non riguarda il blocco di monitoraggio.
+Scheda manager: l'aggiornamento del listino esperienze è amministrativo e non modifica il calendario tecnico.
+Nota Sassi: il percorso panoramico sulla Civita è distinto dal tour del patrimonio sotterraneo.
+Promemoria ospitalità: la degustazione di prodotti lucani segue un'agenda separata dal monitoraggio conservativo.

@@ -1,0 +1,4 @@
+Laborprotokoll Rauchbier-Sud — Brauerei Bamberg
+Auswertung: Die aktuelle Überprüfung der Mälzerei bestätigt, dass das Darrprofil der Charge Rauch_Sud_77 dem erforderlichen internen Buchenholz-Temperaturverlauf vollumfänglich entspricht ("Historisches_Buchenholzprofil_konform").
+Anweisung zur Freigabe: Für die Charge Rauch_Sud_77 ist daher der Status "Authentisch_freigegeben" im Produktionssystem einzutragen.
+Hinweis zur Qualitätsabweichung bei Nässe: Wenn feuchtes Herbst- oder Winterwetter den Buchenholzrauch in der Mälzerei nach betriebsinternen Sensorik-Richtlinien zu stark mit Phenolen anreichert und das Geschmacksprofil kippt, wird die betroffene Charge bei der internen Verkostung rigoros als "Rezeptur_abgelehnt" gewertet und entsorgt.

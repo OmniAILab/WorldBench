@@ -1,0 +1,38 @@
+{
+  "persona": "Chloe is an urban farm manager in St Werburghs, Bristol. She maintains biodiversity sheets, volunteer handbooks, harvest allocations, and delivery emails for a community-supported agriculture project.",
+  "task": "Update the Soil Association sheet by copying the biodiversity index for Railway_Border_North into its certification status field.",
+  "required_files": [
+    "biodiversity_bristol.xlsx"
+  ],
+  "output_files": [
+    "data/soil_association.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/soil_association.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Acceptable_Level_2"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/soil_association.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "persona": "Rodrigo é arqueólogo subaquático, natural da ilha Terceira, e trabalha no património marítimo da Baía de Angra. Estuda vestígios de naufrágios dos séculos XVI e XVII, relaciona transcrições de manifestos históricos com levantamentos de sonar e prepara operações de mergulho sujeitas a condições de mar e autorizações patrimoniais.",
+  "task": "Escreve um email às equipas de escavação marítima a cancelar a operação prevista para 15 de outubro de 2026, citando a previsão de ondulação de 5 metros e esclarecendo que se trata de uma previsão, não de uma medição no local.",
+  "required_files": [
+    "north_atlantic_meteo.xlsx",
+    "excavation_contacts_angra.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_excavation_teams.txt",
+        "keywords": [
+          "Ondulação de 5 metros — perigosa em 2026-10-15"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_excavation_teams.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

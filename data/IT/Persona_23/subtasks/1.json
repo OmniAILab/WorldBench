@@ -1,0 +1,29 @@
+{
+  "persona": "Marta è una coordinatrice di eventi a Cortina d'Ampezzo e gestisce l'eredità logistica e la transizione infrastrutturale dopo i Giochi Olimpici Invernali del 2026. Organizza festival di montagna su larga scala muovendosi tra gli specifici regolamenti di tutela ambientale della provincia di Belluno e i complessi orari dei trasporti alpini. Il suo ruolo comporta la costante conciliazione dei contratti con i fornitori e dei permessi di pubblica sicurezza, assicurando che gli eventi di alto profilo si svolgano senza intoppi e senza disturbare il delicato ecosistema delle Dolomiti.",
+  "task": "Scrivi una email al contraente indicato segnalando il permesso pubblico mancante per l'infrastruttura post-olimpica.",
+  "required_files": [
+    "note_permessi_cortina.txt",
+    "contratti_vendor_cortina.xlsx",
+    "contatti_vendor_cortina.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "permits@alpinestaging.it",
+        "keywords": [
+          "Alpine_Staging_Co",
+          "Avalanche_Clearance_Cert",
+          "mancante"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_permits_*.eml",
+      "change": "create"
+    }
+  ]
+}

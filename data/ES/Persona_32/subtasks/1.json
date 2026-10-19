@@ -1,0 +1,28 @@
+{
+  "persona": "Lluís es marger en la Serra de Tramuntana, en Mallorca, y mantiene los bancales y las paredes de piedra en seco del paisaje cultural declarado Patrimonio Mundial por la UNESCO. Trabaja con las bases de la convocatoria FODESMA del Consell Insular para la conservación de marges y con los dictámenes técnicos sobre la colocación de les falques. Su trabajo consiste en valorar la orografía de cada bancal para encajar el nivel de ayuda y en requerir a la propiedad las correcciones necesarias.",
+  "task": "Escribe un correo electrónico a la propiedad de Finca_Son_Moragues para solicitar la corrección de la colocación de las piedras de cuña.",
+  "required_files": [
+    "incidencias_marges_tramuntana.xlsx",
+    "contactos_propiedades_tramuntana.xlsx",
+    "dictamen_margers_consell.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "propietat@sonmoragues.es",
+        "keywords": [
+          "Finca_Son_Moragues",
+          "colocación incorrecta de las piedras de cuña"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_propietat_*.eml",
+      "change": "create"
+    }
+  ]
+}

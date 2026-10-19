@@ -1,0 +1,38 @@
+{
+  "persona": "Nia is a coastal protection officer in Aberystwyth. She maintains storm logs, structural audit sheets, funding emails, and shoreline response documents for the seafront and promenade.",
+  "task": "Update the Aberystwyth structural audit by copying the Promenade_North wave-height severity into the rock-armour repair priority field.",
+  "required_files": [
+    "meteo_log_aberystwyth.xlsx"
+  ],
+  "output_files": [
+    "data/structural_audit.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/structural_audit.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "6_Meters_Severe"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/structural_audit.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

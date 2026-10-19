@@ -1,0 +1,29 @@
+{
+  "persona": "Caleb is a grid reliability engineer in San Francisco, California, tasked with integrating decentralized solar energy into the city’s aging electrical infrastructure. He manages the technical complexities of the California Public Utilities Commission mandates and the specific seismic safety requirements for substation upgrades, working to balance fluctuating energy loads during the heavy fog cycles of the Sunset District while maintaining compliance with state-wide decarbonization goals.",
+  "task": "Write an email warning about fog-driven load swings in the Sunset District and include the mitigation action from the note.",
+  "required_files": [
+    "fog_note_sf.txt",
+    "contacts_sf.xlsx",
+    "email_template_ops_sf.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "ops@grid-sf.ca",
+        "keywords": [
+          "Sunset District",
+          "increase reserve margin",
+          "fog"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_ops_*.eml",
+      "change": "create"
+    }
+  ]
+}

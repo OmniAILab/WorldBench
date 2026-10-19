@@ -1,0 +1,22 @@
+Federal aviation notice: temporary column closure over Canyon Beta on 2026-07-04.
+Federal aviation notice: air tanker staging review scheduled for 2026-07-08.
+Federal aviation notice: drone mapping restriction applies on 2026-07-12.
+Federal aviation notice: smoke layer advisory issued for 2026-07-16.
+Federal aviation notice: air-space restricted on 2026-07-20 due to intense thermal updrafts.
+Federal aviation notice: medevac corridor review begins on 2026-07-23.
+Federal aviation notice: temporary helibase closure planned for 2026-07-26.
+Federal aviation notice: low visibility corridor notice applies on 2026-07-29.
+Federal aviation notice: retardant base runway check occurs on 2026-08-02.
+Federal aviation notice: BLM ridge sensor maintenance is planned on 2026-08-05.
+Federal aviation notice: helicopter bucket training is scheduled for 2026-08-09.
+Federal aviation notice: unmanned aircraft exclusion test is listed for 2026-08-12.
+Federal aviation notice: tanker orbit adjustment applies on 2026-08-15.
+Federal aviation notice: dispatch radio blackout drill is scheduled on 2026-08-18.
+Federal aviation notice: aircraft fuel farm review occurs on 2026-08-21.
+Federal aviation notice: smokejumper exit zone inspection is planned on 2026-08-25.
+Federal aviation notice: mountain wave advisory begins on 2026-08-29.
+Federal aviation notice: after-action aviation review is due on 2026-09-02.
+Local note: the July 20 restriction applies to operational airspace, not a routine meeting.
+Local note: smoke and visibility advisories on nearby dates refer to separate operational notices.
+Local note: NIFC and BLM use distinct blocks for temporary airspace restrictions; the standardized title for the operational airspace entry is No-Fly Zone Block.
+Local note: preserve the other aviation coordination events in the calendar.

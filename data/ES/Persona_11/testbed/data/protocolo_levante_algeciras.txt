@@ -1,0 +1,20 @@
+Protocolo de Poniente: cualquier buque previsto en el turno temprano pasa al turno nocturno.
+Nota de atraque: el Levante solo afecta a embarcaciones de menos de cien metros.
+Parte de Capitanía: los cambios de turno se decidirán a partir de la intensidad y duración de las rachas de levante.
+Regla de la dársena: los buques con nombre geográfico tienen prioridad en el turno temprano.
+Plan laboral: el turno de tarde comienza a las 12:00.
+Recomendación operativa: MV_Gibraltar debe adelantarse al primer atraque.
+Aviso del puerto: el cambio de turno se aplica únicamente al día siguiente.
+Práctica histórica: durante el cambio de guardia no se modifica ningún atraque.
+Aviso Capitanía Marítima: Ante rachas de viento de levante superiores a 40 nudos registradas el 2 de abril de 2026, se suspenden las maniobras del turno Temprano. Los buques afectados pasan automáticamente a la ventana de las 14:00 (Tarde).
+Nota de remolcadores: basta con retrasar treinta minutos el turno temprano.
+Regla del Estrecho: un viento de Levante permite operar a las 08:00.
+Plan de personal: el turno Tarde solo se usa con viento de Poniente.
+Aviso ambiental: el buque debe cancelar la escala, no cambiar de turno.
+Costumbre del puerto: los cambios se deciden según el número de contenedores.
+Directriz de seguridad antigua: MV_Gibraltar pasa al turno Noche.
+Nota de la Autoridad Portuaria: el horario de las 14:00 corresponde al turno Temprano.
+Recomendación logística: se mantiene el turno Temprano y se aumenta el personal de tierra.
+Aviso Capitanía Marítima: en los episodios de Levante >40 nudos que se prolonguen más de seis horas, los buques asignados al turno Tarde podrán solicitar una nueva ventana de acceso al turno Noche (22:00) si persiste la racha.
+Nota de operaciones portuarias: cuando el viento de Levante remite antes de las 12:00, el buque trasladado al turno Tarde puede reincorporarse al turno Temprano si la plaza de atraque sigue disponible y lo autoriza la Capitanía.
+Parte de operaciones: verificar la racha máxima y la hora de finalización del episodio de levante antes de reasignar el turno del MV_Gibraltar.

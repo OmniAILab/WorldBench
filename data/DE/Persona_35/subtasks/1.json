@@ -1,0 +1,29 @@
+{
+  "persona": "Finn betreut die Nährstoff- und Klimatechnik einer vertikalen Kräuterproduktion im Hamburger St.-Pauli-Bunker. Er dokumentiert Sensorwerte, beurteilt Risiken für Basilikum und andere Kulturen und aktualisiert die betrieblichen Anbau- und Erntepläne. Aussagen über eine EU-Öko-Zertifizierung müssen gesondert nachgewiesen werden.",
+  "task": "Prüfe die Klimasensoren der Hamburger Bunkerfarm gegen kurzzeitige Feuchtespitzen, andere Zonenmeldungen und die aktuellen Betriebsnotizen. Ermittle die Zone mit dem tatsächlichen HVAC-Ausfall und schreibe ausschließlich an die Klimatechnik eine E-Mail, die Zone, Ausfallart und gemessene relative Luftfeuchtigkeit eindeutig nennt.",
+  "required_files": [
+    "klimasensoren.xlsx",
+    "kontakte_bunkerfarm.xlsx",
+    "klimahinweise_bunkerfarm.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "klima@bunkerfarm-hamburg.de",
+        "keywords": [
+          "Level_2_Microgreens",
+          "Entfeuchter ausgefallen",
+          "95 Prozent"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_klima_*.eml",
+      "change": "create"
+    }
+  ]
+}

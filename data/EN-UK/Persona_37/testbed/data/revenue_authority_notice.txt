@@ -1,0 +1,16 @@
+Staff uniform collection is handled by depot admin.	Southampton Western Docks gate	Eastleigh depot handover
+Dry goods require invoice checks but no deep-core test.	Redbridge freight queue	Solent reefer inspection
+Routine trailer seal photos are stored in the gate folder.	M271 terminal approach	Dock Gate 20 security check
+Chilled dairy requires surface temperature verification only.	Southampton Western Docks gate	Eastleigh depot handover
+A port café delivery note is not a customs protocol.	Redbridge freight queue	Solent reefer inspection
+Ambient textiles use the simplified inspection queue.	M271 terminal approach	Dock Gate 20 security check
+Hazmat drums require a separate dangerous-goods declaration.	Southampton Western Docks gate	Eastleigh depot handover
+Frozen perishables require deep-core temp check at border.	Redbridge freight queue	Solent reefer inspection
+Driver rest breaks should not be entered into customs steps.	M271 terminal approach	Dock Gate 20 security check
+Red Funnel ferry traffic is not part of this freight workflow.	Southampton Western Docks gate	Eastleigh depot handover
+Reefer plug status belongs in the terminal availability sheet.	Redbridge freight queue	Solent reefer inspection
+Insert the clause under customs protocols.	M271 terminal approach	Dock Gate 20 security check
+Depot locker labels are not inspection clauses.	Southampton Western Docks gate	Eastleigh depot handover
+Frozen perishables moving within the UK need no border inspection.	Redbridge freight queue	Solent reefer inspection
+Chilled perishables need a surface temperature reading at the border.	M271 terminal approach	Dock Gate 20 security check
+A superseded notice applied deep-core checks to ambient goods.	Southampton Western Docks gate	Eastleigh depot handover

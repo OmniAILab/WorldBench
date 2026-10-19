@@ -1,0 +1,21 @@
+Edificio Palazzo_Colonna: angolo scala 70_Degrees_Max per cortile interno.
+Edificio Palazzo_Massimo: angolo scala 68_Degrees_Max per facciata laterale.
+Edificio Palazzo_Barberini: angolo 60_Degrees_Training per esercitazione.
+Edificio Palazzo_Chigi: angolo scala 72_Degrees_Max per accesso istituzionale.
+Edificio Sant_Ignazio: angolo scala 65_Degrees_Max per navata laterale.
+Edificio Palazzo_Barberini_Archivio: angolo 80_Degrees_Max in scheda vecchia.
+Scheda operativa dell’intervento a Palazzo Barberini: per l’autoscala assegnata è previsto un limite di inclinazione di 75 gradi, da verificare con il diagramma di carico del mezzo e con le condizioni effettive di posizionamento.
+Edificio Palazzo_Doria: angolo scala 73_Degrees_Max per cortile.
+Edificio Palazzo_Madama: angolo scala 69_Degrees_Max per uscita secondaria.
+Edificio Palazzo_Altemps: angolo scala 66_Degrees_Max per portale.
+Edificio Palazzo_Farnese: angolo scala 71_Degrees_Max per facciata protetta.
+Edificio Palazzo_Spada: angolo scala 67_Degrees_Max per loggiato.
+Edificio Teatro_Marcello: angolo scala 64_Degrees_Max per area archeologica.
+Edificio Palazzo_Braschi: angolo scala 70_Degrees_Max per ponteggio.
+Edificio Palazzo_Venezia: angolo scala 74_Degrees_Max per accesso posteriore.
+Edificio Palazzo_Barberino: angolo 75_Degrees_Max, anagrafica diversa.
+Edificio Via_Genova_Stazione: angolo 78_Degrees_Max per torre addestramento.
+Edificio Palazzo_Ruspoli: angolo scala 71_Degrees_Max per cortile interno.
+Edificio Palazzo_Sacchetti: angolo scala 66_Degrees_Max per facciata laterale.
+Edificio Palazzo_Corsini: angolo scala 69_Degrees_Max per cortile protetto.
+Edificio Palazzo_Altieri: angolo scala 72_Degrees_Max per facciata principale.

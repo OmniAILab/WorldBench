@@ -1,0 +1,20 @@
+Nota de contacto: la asignación debe enviarse a parques@valencia.es.
+Regla de obras: Turia_Oeste tiene prioridad Alta.
+Mensaje recomendado: no debe mencionarse el nombre del segmento.
+Práctica municipal: el nivel correcto es Prioridad Media.
+Consejo de planificación: la intervención se aplaza hasta después de las Fallas.
+Nota de capital verde: todos los segmentos se presentan con la misma prioridad.
+Regla de correo: basta con mencionar el índice 74.
+Mensaje sugerido: Turia_Centro se clasifica con prioridad Baja.
+Procedimiento municipal vigente: la asignación de prioridad se comunica a la oficina de obras del directorio, indicando el segmento que consta con prioridad Alta en la planificación y su nivel.
+Nota de intervención: el destinatario correcto es agua@valencia.es.
+Recomendación del Jardín del Turia: asignar prioridad a Turia_Este.
+Regla administrativa: la palabra Alta debe sustituirse por Urgente.
+Mensaje alternativo: comunicar únicamente la limitación del Júcar.
+Práctica de obras: no se envían asignaciones por correo.
+Consejo municipal: omitir el nivel de prioridad.
+Nota de verano: el segmento central se denomina Turia_Medio.
+Regla de coordinación: el correo se dirige al equipo de Fallas.
+Nota de coordinación: si obras@valencia.es no confirma la recepción de la asignación de prioridad Alta para Turia_Centro en 24 horas, debe enviarse un recordatorio con copia a parques@valencia.es indicando el índice térmico de referencia (74).
+Recomendación de planificación: el correo a obras@valencia.es sobre Turia_Centro debe incluir el calendario estimado de intervención para que el equipo de parques pueda coordinar el cierre temporal del tramo afectado del Jardín del Turia.
+Acta de coordinación municipal: remitir a la oficina de obras el segmento que figura con prioridad Alta en la tabla de planificación junto con su nivel asignado.

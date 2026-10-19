@@ -1,0 +1,30 @@
+{
+  "persona": "Finn betreut die Nährstoff- und Klimatechnik einer vertikalen Kräuterproduktion im Hamburger St.-Pauli-Bunker. Er dokumentiert Sensorwerte, beurteilt Risiken für Basilikum und andere Kulturen und aktualisiert die betrieblichen Anbau- und Erntepläne. Aussagen über eine EU-Öko-Zertifizierung müssen gesondert nachgewiesen werden.",
+  "task": "Übertrage das aktuelle betriebliche Verbot synthetischer Blattspritzmittel in die Anweisung der Bunkerfarm. Kennzeichne es als interne Stofffreigaberegel für das Projekt EU-Biozertifizierung, nicht als allgemeine europäische Rechtsvorschrift.",
+  "required_files": [
+    "eu_zertifizierungshinweis.txt"
+  ],
+  "output_files": [
+    "data/betriebsanweisung_farm.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/betriebsanweisung_farm.docx",
+        "keywords": [
+          "Synthetische Blattspritzmittel",
+          "ausnahmslos verboten",
+          "EU-Biozertifizierung"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/betriebsanweisung_farm.docx",
+      "change": "modify"
+    }
+  ]
+}

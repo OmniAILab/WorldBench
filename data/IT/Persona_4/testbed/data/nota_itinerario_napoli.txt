@@ -1,0 +1,25 @@
+Appunto cliente: inserire solo la tratta Napoli Centrale - Positano.
+Nota bilingue: preparare il documento in FR-IT.
+Promemoria aeroporto: scrivere Ritiro: Molo Beverello.
+Appunto traghetto: trasferimento verso Aeroporto di Capodichino.
+Nota margine: indicare parcheggio Capodichino al posto del traffico SS163.
+Policy Clientela Estera: Tutti gli itinerari di viaggio stampati per gli ospiti internazionali vanno redatti rigorosamente nel formato bilingue Italiano-Inglese.
+Booking Passeggeri: Il gruppo arriverà con il volo delle 10:00, il punto d'incontro per prelevarli è il terminal arrivi di Capodichino.
+Voucher Destinazione: Terminato il carico bagagli, i clienti vanno scortati direttamente agli imbarchi marittimi del Molo Beverello.
+Margine: traffico SS163.
+Promemoria NCC: non citare SS163 perché riguarda solo la Costiera.
+Appunto cliente internazionale: usare solo inglese, senza italiano.
+Nota bagagli: aggiungere caricatore USB-C come voce principale.
+Promemoria ristorante: includere consiglio per cena a Positano.
+Appunto ricevute: inserire il pedaggio autostradale nell'itinerario.
+Nota ferry: tradurre Molo Beverello come Naples Central Station.
+Promemoria pick-up: usare Capodimonte invece di Capodichino.
+Appunto costiera: buffer da indicare come traffico A1.
+Nota arrivo: inserire Vesuvio come destinazione del trasferimento.
+Promemoria cliente: il traghetto serale non fa parte del documento.
+Appunto lingua: usare EN-ES per clienti internazionali generici.
+Nota auto: il sedile posteriore non va citato nell'itinerario.
+Appunto cortesia: aggiungere il saluto di benvenuto solo in cima al documento.
+Nota bagagli: il numero di valigie va indicato a parte, non nell'itinerario.
+Promemoria autista: il nome del conducente non compare sull'itinerario del cliente.
+Nota orario: arrotondare gli orari ai cinque minuti per il documento stampato.

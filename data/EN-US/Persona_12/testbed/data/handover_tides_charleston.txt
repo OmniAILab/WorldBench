@@ -1,0 +1,22 @@
+Engineer: The king tide is backing up through several French Quarter drains.
+Project lead: Apply the rule to each site reading, without averaging.
+Engineer: Drain_2 is at 7.4 ft.
+Lead: Above 7.0, that is Backflow.
+Engineer: Drain_7 is at 6.5 ft.
+Lead: It stays Monitor under the table logic.
+Engineer: The 6.8 and 6.9 ft values trigger other observations.
+Lead: Yes, but not Backflow.
+Engineer: Lowcountry soil saturation is high.
+Lead: That is context, not the deciding value here.
+Engineer: The historic pavers make installation harder.
+Lead: That point goes to the BAR.
+Engineer: Carriage routes can get in the way of access.
+Lead: Do not turn them into a hydraulic criterion.
+Engineer: I am keeping the FrenchQuarter_Drain identifiers.
+Lead: Correct.
+Engineer: No rounding on tide height.
+Lead: Correct.
+Engineer: I am updating the retrofit sheet.
+Lead: Go ahead.
+Lowcountry context: king tides can push water back up through the drains even without heavy rain.
+Heritage: in the French Quarter, visible materials have to stay compatible with the historic character.

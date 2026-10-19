@@ -1,0 +1,28 @@
+{
+  "persona": "Iñaki es especialista en operaciones portuarias en Bilbao y gestiona las rutas marítimas del Corredor Verde entre el golfo de Bizkaia y el norte de Europa. Debe ajustar los calendarios de exportación de la industria pesada vasca a los estrictos objetivos de emisiones de la Autoridad Portuaria de Bilbao, asumiendo la carga administrativa de las declaraciones del impuesto de carbono y la compleja documentación aduanera del comercio atlántico.",
+  "task": "Comprueba en la hoja de autorizaciones qué buque tiene confirmada la autorización verde y determina, a partir de la nota de la Aduana de Santurtzi y del directorio aduanero, qué mesa tramita las peticiones de ventanilla rápida. Escribe a esa mesa solicitando la tramitación rápida del buque autorizado, nombrándolo y haciendo referencia al Corredor Verde.",
+  "required_files": [
+    "contactos_aduana_bilbao.xlsx",
+    "autorizaciones_bilbao_v2.xlsx",
+    "indicaciones_correo_bilbao.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "soporte@aduanas.es",
+        "keywords": [
+          "MV_Nervion",
+          "Corredor Verde"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_soporte_*.eml",
+      "change": "create"
+    }
+  ]
+}

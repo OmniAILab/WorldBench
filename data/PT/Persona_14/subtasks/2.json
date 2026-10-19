@@ -1,0 +1,19 @@
+{
+  "persona": "Leonor é arquiteta especializada em conservação urbana e trabalha no centro histórico de Évora. Concebe adaptações discretas de edifícios antigos para novos usos, conciliando o conforto térmico com a preservação da alvenaria histórica e as conclusões dos pareceres técnicos.",
+  "task": "Extrai do levantamento arquitetónico o limite de carga pontual dos arcos do século XIV e insere a frase completa na secção «Especificações do equipamento» do plano de instalação.",
+  "required_files": [
+    "architectural_survey.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/installation_plan.docx",
+        "keywords": [
+          "Segundo o cálculo de projeto, a carga pontual máxima no ponto de apoio assinalado dos arcos do século XIV é de 150 kg"
+        ]
+      }
+    }
+  ]
+}

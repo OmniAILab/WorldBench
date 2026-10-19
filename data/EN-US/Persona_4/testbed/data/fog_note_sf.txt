@@ -1,0 +1,20 @@
+Outer Richmond: lower solar output; monitor voltage only.
+Twin Peaks: evening marine layer; postpone non-urgent maintenance.
+Mission Bay: midday clearing; keep the normal margin.
+Downtown: cooling-driven load increase; review demand response.
+Sunset District: the morning ramp under fog requires "increase reserve margin".
+Bayview: stable output; routine monitoring.
+North Beach: restaurant load rising after sunset.
+Potrero: battery on the weekend profile.
+San Francisco: the alert must be sent to Grid_Ops.
+San Francisco: mention the dense fog coming off Ocean Beach as local context.
+San Francisco: the relevant period is the morning ramp.
+San Francisco: do not replace the action with "monitor voltage".
+Twin Peaks is about a maintenance postponement.
+Mission Bay requires no margin increase.
+Bayview only calls for routine monitoring.
+Instruction: keep the phrase increase reserve margin exactly.
+Instruction: do not send to Solar_Planning.
+Instruction: do not include cable car traction.
+Instruction: use an operational alert tone.
+Instruction: the neighborhood must appear as Sunset District.

@@ -1,0 +1,39 @@
+{
+  "persona": "Jürgen arbeitet im Kölner Karnevalswagenbau. Für einen Motivwagen des Rosenmontagszugs gleicht er Streckenmaße, technische Aufbauten und die mit der Zugleitung abgestimmten Sicherheitsanforderungen ab.",
+  "task": "Ermittle für den Rosenmontagswagen RM-10 anhand der engsten vorgesehenen Altstadtpassage die vorläufige maximale Planungsbreite und aktualisiere die Bauspezifikation.",
+  "required_files": [
+    "gassen_koeln.xlsx",
+    "streckenhinweise_koeln.txt"
+  ],
+  "output_files": [
+    "data/bauspezifikation_koeln.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/bauspezifikation_koeln.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "2.8"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/bauspezifikation_koeln.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

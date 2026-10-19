@@ -1,0 +1,20 @@
+Nota comercial: la etiqueta debe mostrar únicamente el código RD-2026.
+Recomendación del distribuidor: sustituir la denominación por Vino de Castilla.
+Regla de exportación antigua: basta con indicar Producto de España.
+Práctica de la bodega: la mención Ribera puede omitirse en mercados europeos.
+Consejo de diseño: debe aparecer solo el castillo de Peñafiel.
+Nota de añada: el código RD-2025 debe utilizarse en todos los envíos.
+Protocolo de etiquetado: la expresión Denominación de Origen no debe traducirse ni incluirse.
+Regla del agente: una etiqueta aprobada no necesita ninguna mención territorial.
+Reglamento UE 2019/33: Todo vino expedido al mercado intra-comunitario bajo la añada RD-2026 debe exhibir de forma legible el término tradicional Denominación de Origen Ribera del Duero.
+Recomendación de exportación: utilizar únicamente la abreviatura D.O. sin el nombre Ribera del Duero.
+Nota de mercado: la mención obligatoria es Vino de Peñafiel.
+Regla de diseño: el código de lote sustituye la denominación.
+Práctica comercial: la expresión Unión Europea debe ocupar el lugar de la DO.
+Consejo de la bodega: indicar Rioja para facilitar el reconocimiento del producto.
+Norma antigua: la añada no puede mencionarse en el correo al agente.
+Nota de impresión: basta con confirmar que la columna Etiqueta_UE_correcta figura como Sí.
+Regla de destino: la denominación solo se incluye en envíos fuera de Europa.
+Reglamento UE 2019/33: para envíos de la añada RD-2026 destinados a mercados de terceros países fuera de la UE, la mención Denominación de Origen Ribera del Duero puede complementarse con la traducción al idioma del país receptor según el acuerdo de reconocimiento mutuo vigente.
+Nota del Consejo Regulador: las etiquetas de la añada RD-2026 que incluyan la expresión Gran Reserva deben acreditar, además de la Denominación de Origen Ribera del Duero, el periodo mínimo de crianza en barrica y botella exigido por el Pliego de Condiciones.
+Acta de coordinación de exportación: confirmar por escrito al agente el término tradicional completo exigido para el mercado intracomunitario junto con el código de la añada correspondiente.

@@ -1,0 +1,21 @@
+Hub San_Vitale: picco locale 08:45-10:15, usare solo per navette scolastiche.
+Hub Borgo_Panigale: picco industriale 06:30-07:30, non centrale storico.
+Hub Mazzini: picco tram 17:00-18:30, fascia serale.
+Hub Fiera: picco evento 09:00-11:00, dato temporaneo.
+Hub Corticella: picco bus 07:00-08:00, fuori perimetro portici.
+Hub Bologna_Centrale: fascia merci 11:00-12:00, non pendolari.
+Gestione ZTL: Le telecamere dei varchi comunali devono adattare i propri orari all'ondata umana che satura l'ingresso della stazione ferroviaria esclusivamente nella prima fascia del mattino (dalle 07:30 alle 09:00).
+Hub Rastignano: picco extraurbano 18:00-19:00, coordinamento regionale.
+Hub Arcoveggio: picco parcheggi 08:00-09:30, non ferrovia principale.
+Hub Casalecchio: picco suburbano 07:15-08:45, altro comune.
+Hub San_Donato: picco universitario 10:00-11:30, non treni regionali.
+Hub Lazzaretto: picco cantiere 06:00-07:00, dato interno.
+Hub Pilastro: picco bus 14:00-15:00, fascia scolastica.
+Hub Rimesse: picco deposito 05:30-06:30, gestione mezzi.
+Hub Roveri: picco logistica 13:00-14:00, area produttiva.
+Hub Prati_Capra: picco parcheggio 16:30-17:30, non rilevante.
+Hub Centrale_Archivio: picco storico 08:00-09:00, dato anno precedente.
+Hub Barca: picco residenziale 09:30-10:30, area periferica.
+Hub Saffi: picco commerciale 15:30-16:30, fascia pomeridiana.
+Hub Porta_San_Donato: picco studenti 08:15-09:15, non ferroviario principale.
+Hub Ospedale_Maggiore: picco sanitario 07:00-08:30, coordinamento dedicato.

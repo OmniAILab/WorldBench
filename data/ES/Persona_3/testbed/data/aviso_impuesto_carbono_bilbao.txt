@@ -1,0 +1,20 @@
+Nota fiscal: adjuntar únicamente la factura del combustible.
+Procedimiento aduanero: el resumen de emisiones se conserva en el archivo interno y no se incorpora al expediente.
+Guía del puerto: mencionar solo el nombre del buque.
+Práctica del Nervión: el impuesto de carbono se liquida sin documentación del viaje.
+Regla antigua: la declaración semanal debe incluir el manifiesto de pasajeros.
+Nota del corredor atlántico: sustituir las emisiones por el peso total de la carga.
+Procedimiento de exportación: el expediente aduanero solo necesita el certificado de origen.
+Recomendación del puerto exterior: adjuntar una previsión anual en lugar del resumen del viaje.
+Nota de la Aduana de Santurtzi: Los buques acogidos a los beneficios fiscales del Corredor Verde deben canalizar sus DUA (Documento Único Administrativo) a través de la ventanilla rápida: soporte@aduanas.es.
+Recordatorio vigente de la Aduana de Bilbao para el Corredor Verde: cada declaración del impuesto de carbono debe adjuntar el resumen de emisiones del viaje al expediente aduanero de la escala.
+Agenda de relaciones institucionales: la visita al Museo Guggenheim Bilbao se archiva por separado y no forma parte del expediente aduanero.
+Regla de archivo: destruir el resumen de emisiones después de la salida.
+Procedimiento fiscal: adjuntar únicamente el recibo del impuesto de carbono.
+Guía de aduanas: el resumen debe enviarse al capitán y no al expediente.
+Práctica semanal: registrar las emisiones solo cuando superen el umbral.
+Nota logística: sustituir el resumen por la ruta prevista.
+Regla portuaria: la documentación se presenta una vez al año.
+Procedimiento del Corredor Verde: omitir cualquier referencia a Bilbao.
+Nota de la Aduana de Santurtzi: el resumen de emisiones del viaje puede sustituirse por el certificado de eficiencia energética del buque cuando el trayecto no supera las 200 millas náuticas.
+Nota de la Agencia Tributaria: los buques del Corredor Verde que liquiden el impuesto de carbono antes de la salida pueden presentar el DUA simplificado sin adjuntar el detalle de emisiones por tramo.

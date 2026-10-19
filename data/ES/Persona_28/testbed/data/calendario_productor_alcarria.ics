@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OCA Guadalajara//Calendario del productor//ES
+BEGIN:VEVENT
+UID:urn:uuid:64154105-688c-5ca4-80d7-dee9b65bc130
+DTSTART:20260601T090000
+DTEND:20260601T130000
+SUMMARY:Auditoría DOP Miel_Dimas_02
+DESCRIPTION:Inspección de libros de explotación para Miel_Dimas_02 por la OCA Guadalajara.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:5e75d81e-8c32-534a-a6d8-9f2b6ebada97
+DTSTART:20260527T090000
+DTEND:20260527T120000
+SUMMARY:Inspección Colmenar_Alcarria_7
+DESCRIPTION:Control sanitario programado para Colmenar_Alcarria_7.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:df56ad6a-817c-5f5f-991a-0b0430edea34
+DTSTART:20260515T070000
+DTEND:20260515T110000
+SUMMARY:Traslado de asentamientos
+DESCRIPTION:Trashumancia de colmenas dentro de la comarca de la Alcarria.
+END:VEVENT
+END:VCALENDAR

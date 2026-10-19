@@ -1,0 +1,29 @@
+{
+  "persona": "Marta é uma viticultora nascida em Peso da Régua que trabalha na sub-região do Cima Corgo, especializada na gestão de vinhas em socalcos. Tem de lidar com as exigências das normas rigorosas de certificação definidas pelo Instituto dos Vinhos do Douro e do Porto e com os microclimas imprevisíveis do vale, ajustando constantemente os calendários de vindima e articulando previsões de rendimento das uvas com a procura dos mercados internacionais de exportação.",
+  "task": "Escreve um email ao agente de exportação a confirmar a data atualizada da vindima da Parcela UC-03 — Cima Corgo.",
+  "required_files": [
+    "export_contacts_douro.xlsx",
+    "harvest_douro.xlsx",
+    "harvest_update_douro.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_export_20260401.txt",
+        "keywords": [
+          "A vindima da Parcela UC-03 — Cima Corgo está marcada para 2026-09-19"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_export_20260401.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

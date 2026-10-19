@@ -1,0 +1,11 @@
+Rendimento inferior a 280 litros: integrar na rota regular da tarde.
+Rendimento entre 300 e 319 litros: recolher após a primeira ronda.
+Rendimento entre 340 e 359 litros: confirmar a capacidade antes da partida.
+Rendimento entre 390 e 449 litros: reforçar a janela de descarga.
+Quando o rendimento atingir pelo menos 500 litros e a cuba tiver capacidade suficiente, marcar Recolha prioritária.
+Se a cuba tiver capacidade inferior ao rendimento, dividir a recolha em duas viagens.
+As leituras devem ser confirmadas antes de o camião sair de Angra.
+A recolha junto às encostas vulcânicas deve evitar horas de maior inclinação térmica.
+A lavagem sanitária do camião deve estar concluída antes da rota.
+Quando o rendimento ultrapassar 500 litros mas a cuba estiver no limite, marcar Recolha urgente.
+Se a cuba tiver capacidade igual ao rendimento, marcar Recolha confirmada em vez de prioritária.

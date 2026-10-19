@@ -1,0 +1,20 @@
+Promemoria cantiere: 3.0 mm/s era la soglia temporanea per un deposito non archeologico.
+Nota scavo: il limite acustico non è un limite di vibrazione.
+Appunto Regio IX: il consolidamento affreschi segue una scheda separata.
+Registro conservazione: indicare il valore nel documento attrezzature.
+Nota macchinari: il peso della macchina non sostituisce la soglia di vibrazione.
+Promemoria UNESCO: non tradurre l'unità tecnica in modo approssimativo.
+Scheda manutenzione: 1.5 mm/s era una raccomandazione interna non vincolante.
+Nota turisti: la gestione code non riguarda le attrezzature.
+Appunto laboratorio: i pennelli non rientrano nei limiti macchinari pesanti.
+Promemoria output: includere la sezione Limiti macchinari.
+Nota sicurezza: non inserire dati sui turni dei custodi.
+Registro prove: 2.5 mm/s non è il limite del mandato corrente.
+Appunto sito: Pompei richiede formula precisa per le vibrazioni.
+Nota documento: mantenere il riferimento UNESCO nel testo.
+Promemoria restauro: la velocità particellare deve restare in inglese tecnico.
+Scheda archeologica: non citare la priorità degli affreschi in questa linea guida.
+Promemoria attrezzi: la lubrificazione periodica dei macchinari è manutenzione e non definisce la soglia da inserire.
+Scheda cantiere: il riordino del deposito utensili è organizzativo e non riguarda il limite tecnico.
+Nota cantiere: la movimentazione manuale delle cassette archeologiche non rientra nei limiti per macchinari vibranti.
+Promemoria Pompei: il passaggio dei mezzi di servizio fuori dall'area di scavo è regolato da una procedura distinta.

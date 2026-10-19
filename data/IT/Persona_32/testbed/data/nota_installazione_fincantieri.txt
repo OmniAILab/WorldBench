@@ -1,0 +1,21 @@
+Registro operativo del cantiere di Monfalcone per sistemi di propulsione.
+Appunto: Se un componente arriva dopo il 2026-05-18, lasciare Da riprogrammare.
+Promemoria: Il sistema Bow_Thruster_2 è previsto il 2026-05-20 e non è il target.
+Nota operativa: Per Azipod_Thruster_Unit non usare la data del collaudo in mare.
+Nota archivio: Il valore 2026-05-16 riguarda la revisione elettrica, non la consegna fisica.
+Avviso interno: Se il pezzo è indicato come Customs_Hold non segnare Pronto.
+Appunto: La nota del magazzino su 2026-05-13 riguarda un pallet di bulloni.
+Procedura di Stiva: Tutte le macro-strutture propulsive che approdano nel bacino di carenaggio entro e non oltre la deadline del 16 maggio ottengono istantaneamente luce verde per il calo nella stiva.
+Promemoria: Il componente Exhaust_Scrubber_Kit segue il protocollo IMO, non la propulsione.
+Nota operativa: Per gli impianti cabina la soglia JIT è diversa.
+Nota archivio: La data 2026-05-19 è una riserva del subappaltatore non confermata.
+Avviso interno: Il carrello ponte occupato non modifica lo stato della consegna.
+Appunto: Il codice Azipod_Thruster_Test è un banco prova e non l'unità nave.
+Promemoria: Il ritardo del fornitore vernici non incide su questa riga.
+Nota operativa: Se la consegna è 2026-05-17 e la finestra è entro il 2026-05-16, indicare No.
+Nota archivio: Il turno sicurezza dei subappaltatori non va scritto nella colonna prontezza.
+Avviso interno: Il componente Stabilizer_Fin_A è indicato come arrivato, ma appartiene a un'altra nave.
+Appunto: La verniciatura del carroponte è manutenzione estetica e non modifica lo stato di prontezza.
+Promemoria: La sostituzione dei cavi di sollevamento è tecnica e non riguarda la consegna del componente.
+Nota cantiere: la verifica delle passerelle di accesso è sicurezza ordinaria e non modifica la data di consegna del componente.
+Promemoria Monfalcone: il collaudo dell'illuminazione del bacino è tecnico e non determina la prontezza dell'unità propulsiva.

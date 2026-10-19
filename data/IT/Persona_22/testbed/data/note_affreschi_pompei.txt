@@ -1,0 +1,21 @@
+Promemoria scavo: Minor_Fading corrisponde a priorità Bassa.
+Nota Regio IX: il reperto Anfora_12 non è un affresco.
+Appunto laboratorio: Moderate_Crack richiede priorità Media, non Alta.
+Manuale di Restauro: I pigmenti parietali che palesano distacchi macroscopici e sollevamento strutturale impongono un cordone di sicurezza e l'intervento conservativo di grado "Alta".
+Registro visitatori: il flusso turistico non sostituisce lo stato conservativo.
+Nota Ministero: compilare la priorità, non copiare la descrizione dello stato.
+Promemoria Pompei: Via_dell_Abbondanza riguarda accessi, non questo affresco.
+Scheda restauro: Severe_Flaking indica distacco grave della pellicola pittorica.
+Nota UNESCO: il limite vibrazioni è in un documento diverso.
+Appunto fotografico: la luce radente non determina da sola la priorità.
+Promemoria équipe: non citare nomi dei ricercatori nel foglio protocollo.
+Nota deposito: Fresco_Room_5 è stato già stabilizzato.
+Registro storico: priorità Urgente non è la voce usata in questo foglio.
+Appunto materiali: i consolidanti saranno scelti dopo la classificazione.
+Nota cantiere: il turno mattutino non cambia la priorità.
+Promemoria output: scrivere Alta nella riga dell'affresco indicato.
+Scheda conservazione: non aggiornare reperti con stato Medievale.
+Promemoria deposito: l'inventario degli imballaggi protettivi è logistico e non determina la priorità di restauro.
+Scheda laboratorio: la calibrazione delle lampade da studio è tecnica e non incide sulla classificazione dello stato.
+Nota Pompei: la catalogazione dei mosaici della Casa del Fauno segue una scheda conservativa distinta.
+Promemoria Regio IX: il percorso di visita temporaneamente deviato non modifica la priorità tecnica assegnata all'affresco.

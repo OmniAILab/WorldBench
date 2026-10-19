@@ -1,0 +1,5 @@
+Betriebsvermerk Weidemanagement — Hochalm Zugspitze
+Datum: 10. August 2026
+Zustandsbericht: Die Vegetationsmessungen und Begehungen zeigen, dass der Sektor Hochalm_Sued den Status Überweidet_erschöpft erreicht hat.
+Maßnahme für den Herdenplan: Um bleibende Erosionsschäden zu vermeiden und die Vorgaben für Agrarsubventionen nicht zu gefährden, ist für die Hochalm_Sued zwingend die Tageskapazität Keine_Beweidung einzutragen.
+Erosionsschutz Karstweide Bayern (Hintergrund): Werden geförderte Karstflächen der Hochalm bei Hitzestress zu stark beansprucht, wertet das Amt für Landwirtschaft dies als Prämienverstoß; daher muss die Herde bei ersten Schäden rechtzeitig abgezogen oder auf "Halbe_Kapazität" reduziert werden.

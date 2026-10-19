@@ -1,0 +1,12 @@
+Display case note: the case keys are logged by front-of-house staff.	Radcliffe Camera visitor routing	Bodleian conservation handling
+Reading room note: gloves are not required for all modern facsimiles.	Broad Street exhibition delivery	Weston Library reading-room note
+Transport crate note: foam spacers belong in the packing checklist.	Sheldonian event access	Oxford term-time logistics
+Light exposure note: lux hours are recorded in the exhibition log.	Radcliffe Camera visitor routing	Bodleian conservation handling
+Temperature note: 18C is a room baseline, not the humidity setting.	Broad Street exhibition delivery	Weston Library reading-room note
+Climate controls note: add the humidity baseline under climate controls.	Sheldonian event access	Oxford term-time logistics
+Target relative humidity must be maintained at 50%.	Radcliffe Camera visitor routing	Bodleian conservation handling
+Radcliffe Camera tour note: visitor routes are separate from handling rules.	Broad Street exhibition delivery	Weston Library reading-room note
+Binding note: loose boards should be photographed before movement.	Sheldonian event access	Oxford term-time logistics
+Pest check note: silverfish traps are reviewed monthly.	Radcliffe Camera visitor routing	Bodleian conservation handling
+Note: the former 55% target must not be copied.	Broad Street exhibition delivery	Weston Library reading-room note
+Manuscript note: early printed books require separate cradle support.	Sheldonian event access	Oxford term-time logistics

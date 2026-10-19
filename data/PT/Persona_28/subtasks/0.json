@@ -1,0 +1,23 @@
+{
+  "persona": "Lúcia nasceu em Sintra e trabalha na coordenação municipal de mobilidade e tráfego no eixo da Serra de Sintra. Acompanha os fluxos de transporte público, os dados de ocupação comunicados pelos monumentos e as câmaras de trânsito para articular desvios na rede rodoviária municipal e evitar bloqueios nos acessos históricos.",
+  "task": "Consulta o volume de visitantes do «Palácio Nacional da Pena», aplica o protocolo operacional de mobilidade de Sintra e atualiza o protocolo de desvio dos autocarros municipais.",
+  "required_files": [
+    "ticketing_volumes_sintra.xlsx",
+    "shuttle_rules_sintra.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/traffic_camera.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Desviar para Portela de Sintra e suspender subida direta"
+          }
+        ]
+      }
+    }
+  ]
+}

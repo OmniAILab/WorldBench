@@ -1,0 +1,24 @@
+{
+  "persona": "Miguel é natural de Faro e trabalha como analista de energias renováveis no Algarve. Acompanha os parques fotovoltaicos próximos da costa, onde a maresia exige manutenção regular, e coordena a capacidade de armazenamento durante os períodos de maior procura turística.",
+  "task": "Determina a energia de armazenamento que deve ser atribuída à hora de maior procura turística do dia registado no Algarve, usando a procura dessa hora e a capacidade disponível do subestação de baterias Faro–Aeroporto, e regista o valor na folha de despacho.",
+  "required_files": [
+    "demand_algarve.xlsx",
+    "available_storage.xlsx",
+    "dispatch_rule_algarve.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/dispatch_algarve.xlsx",
+        "matches": [
+          {
+            "row": 10,
+            "col": 2,
+            "value": 60
+          }
+        ]
+      }
+    }
+  ]
+}

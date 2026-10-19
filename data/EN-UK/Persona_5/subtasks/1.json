@@ -1,0 +1,38 @@
+{
+  "persona": "Fiona from St Andrews is a Greenkeeper at the Links Trust, responsible for the condition of the Old Course. She manages irrigation, coastal dune protection, and event preparation while keeping within Scottish Environment Protection Agency water-usage limits.",
+  "task": "Read the St Andrews coastal dune protection rule from the operations note and update the Town_and_Gown event checklist to show that the rule has been added.",
+  "required_files": [
+    "dunes_protocol_note.txt"
+  ],
+  "output_files": [
+    "data/event_protocol_checklist.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/event_protocol_checklist.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Yes"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/event_protocol_checklist.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

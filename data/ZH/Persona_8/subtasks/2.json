@@ -1,0 +1,35 @@
+{
+  "persona": "博是北京海淀区一家繁忙科技补习学校的 IT 管理员。他要应对焦虑的家长，管理学校的在线门户，并清理学生数据，以免违反新的隐私法律。",
+  "task": "在四月日历中添加一个软件上线检查点，并在事件描述中写明上线前需要遮蔽身份证号和手机号字段。",
+  "required_files": [
+    "pipl_notice_2026.txt",
+    "dialogue_haidian_release.txt",
+    "haidian_release_board.xlsx"
+  ],
+  "output_files": [
+    "data/deliveries_april_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_april_2026.ics",
+        "summary_keywords": [
+          "海淀上线检查点"
+        ],
+        "description_keywords": [
+          "遮蔽身份证号和手机号",
+          "海淀"
+        ],
+        "time_start": "2026-04-09 18:30:00",
+        "time_end": "2026-04-09 19:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_april_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

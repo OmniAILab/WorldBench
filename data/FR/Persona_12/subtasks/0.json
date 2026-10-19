@@ -1,0 +1,49 @@
+{
+  "persona": "Julien est un entrepreneur technologique à Montpellier installé à la Halle Tropisme, où il développe des capteurs destinés à économiser l’eau dans l’agriculture méditerranéenne. Il gère les exigences administratives des aides de Bpifrance et les restrictions locales d’usage de l’eau imposées par la préfecture de l’Hérault pendant les alertes sécheresse, en veillant à la conformité de son matériel avec les directives environnementales européennes.",
+  "task": "Croise le plan interne de réglage établi pour l’alerte sécheresse de l’Hérault avec le dialogue d’exploitation pour déterminer la consigne d’exploitation applicable à Tropisme_S1. Utilise la valeur de l’alerte sécheresse générale, non la variante littorale, la vigilance simple ni les réglages de test. Mets à jour le plafond quotidien et le statut d’application dans la configuration.",
+  "required_files": [
+    "drought_notice_herault.txt",
+    "dialogue_secheresse_montpellier.txt"
+  ],
+  "output_files": [
+    "data/config_montpellier.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/config_montpellier.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": 30
+          },
+          {
+            "row": 4,
+            "col": 3,
+            "value": "Alerte appliquée"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/config_montpellier.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

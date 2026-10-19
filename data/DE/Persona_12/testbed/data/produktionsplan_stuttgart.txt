@@ -1,0 +1,5 @@
+Sequenzanpassung Werk Stuttgart
+Datum: Aktuelle Schichtplanung.
+Produktionsstatus: Laut Mitteilung des Zelllieferanten ist die Batteriezellenproduktion um 48 Stunden verzögert.
+Sequenzregel: Der Lieferpuffer in der Montageplanung muss der bestätigten Produktionsverzögerung entsprechen.
+Eintrag für Stuttgart: Im Dokument ist "Lieferpuffer: 48 Stunden" und der Hinweis "Batteriezellenproduktion um 48 Stunden verzögert" einzutragen.

@@ -1,0 +1,28 @@
+{
+  "persona": "光是一名在酒泉附近戈壁沙漠中一个尘土飞扬的风电场工作的维护技术员。他攀爬巨大的风机，在手机上查看沙尘暴预警，并想念家乡热闹的城市生活。",
+  "task": "从同步日志中找到 Gobi_Alpha 的故障代码，并写一封邮件给主调度中心，请求技术支持。",
+  "required_files": [
+    "dispatch_contacts_jiuquan.xlsx",
+    "sync_log_stategrid.xlsx",
+    "hexi_sync_handover.docx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "dispatch@stategrid.cn",
+        "keywords": [
+          "Gobi_Alpha",
+          "Phase_Mismatch_ERR_09"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_dispatch_*.eml",
+      "change": "create"
+    }
+  ]
+}

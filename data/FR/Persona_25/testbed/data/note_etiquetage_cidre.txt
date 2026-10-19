@@ -1,0 +1,10 @@
+Équipe de conditionnement — consignes de maquette propres à la gamme CT. Les règles de mise en page de ce dossier ne sont pas présentées comme des seuils universels de la réglementation AOP.
+La mention du producteur doit rester visible sur le contre-étiquetage.
+La mention AOP doit apparaître près du nom de la cuvée.
+Le numéro de lot doit être imprimé sous le code-barres.
+La date d’embouteillage doit rester lisible après refroidissement.
+Le volume de la bouteille doit figurer sur la face arrière.
+La mention du titre alcoométrique doit être imprimée en caractères gras d’au moins 14 points.
+L’origine des pommes doit figurer près de la mention AOP.
+Le logo AOP doit conserver ses proportions.
+La mention du titre alcoométrique secondaire doit être imprimée en caractères d'au moins 13 points.

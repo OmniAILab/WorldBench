@@ -1,0 +1,28 @@
+{
+  "persona": "Roser dirige una colla castellera en Tarragona, donde organiza la construcción de castells humanos para la diada de Santa Tecla en la Plaça de la Font. Compagina los manuales de prevención de la Coordinadora de Colles Castelleres con los permisos municipales de ocupación del espacio público y con las franjas de retransmisión de la televisión comarcal. Su trabajo consiste en asignar posiciones en la pinya según la categoría física de cada casteller y en llevar el expediente administrativo de la entidad.",
+  "task": "Escribe un correo electrónico a la CCCC para comunicar la franja de retransmisión en directo de la diada de Santa Tecla en la Plaça de la Font.",
+  "required_files": [
+    "franjas_retransmision_tarragona.xlsx",
+    "contactos_cccc.xlsx",
+    "circular_tac12_tarragona.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "seguretat@cccc.cat",
+        "keywords": [
+          "Santa_Tecla_Diada",
+          "12:00 a 14:00"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_seguretat_*.eml",
+      "change": "create"
+    }
+  ]
+}

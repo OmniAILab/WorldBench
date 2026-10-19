@@ -1,0 +1,33 @@
+{
+  "persona": "志明是深圳前海一家金融科技初创公司里压力很大的 IT 人员。他靠能量饮料续命，不停监控数字支付服务器延迟，并抱怨离谱的房租。",
+  "task": "核对本企业银行业务对接通知中要求的加密配置，并把该标准写入系统架构文档的加密标准部分。",
+  "required_files": [
+    "pboc_notice.txt",
+    "qianhai_security_interpretation.docx"
+  ],
+  "output_files": [
+    "data/architecture_doc.pdf"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "pdf",
+        "file": "./data/architecture_doc.pdf",
+        "keywords": [
+          "SM4-GCM 密码算法"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/architecture_doc.pdf",
+      "change": "modify"
+    },
+    {
+      "path": "data/architecture_doc.docx",
+      "change": "create"
+    }
+  ]
+}

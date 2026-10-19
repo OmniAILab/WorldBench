@@ -1,0 +1,20 @@
+Siobhan: Which sample is actually incomplete?
+Data manager: LMA-44 has an empty Barcode cell in the main tracking sheet.
+Siobhan: I should not infer the code from the sequence.
+Data manager: No, use barcode_lookup.xlsx.
+Siobhan: The lookup gives BC-553 for LMA-44.
+Data manager: Correct.
+Siobhan: BC-535 shows up in an old print note.
+Data manager: That number comes from an outdated label proof.
+Siobhan: LMA-45 through LMA-59 already have their codes.
+Data manager: Yes.
+Siobhan: I am keeping the BC prefix.
+Data manager: And the LMA-44 identifier does not change.
+Siobhan: The freezer log is beside the point.
+Data manager: Correct.
+Siobhan: Longwood shuttle delays change nothing.
+Data manager: Nothing.
+Siobhan: The final registry has to match the lookup.
+Data manager: That is the multi-site rule.
+Siobhan: Only one row gets updated.
+Data manager: LMA-44, BC-553.

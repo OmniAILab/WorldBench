@@ -1,0 +1,23 @@
+Screening update: random seal checks remain at 4% for outbound empty containers.
+Security note: handheld radiation scans stay at 8% for refrigerated import rows.
+Inspection quota: canine sweeps are set at 6% for mixed household goods containers.
+Customs bulletin: paper manifest sampling remains at 10% for low-risk exports.
+Terminal notice: gate camera audits remain at 12% for domestic chassis moves.
+Federal maritime security update: Mandatory X-ray screening has increased to 15% of all inbound containers.
+Port Authority reminder: badge checks must be performed on every shuttle bus entering the terminal.
+Rail transfer note: westbound double-stack trains should be cleared before the evening commuter rush.
+Weather note: strong winds off Newark Bay may slow empty-container stacking near the cranes.
+Turnpike note: truck traffic is backing up near Exit 14 because of a lane closure.
+Harbor note: tug availability is tight because two vessels are waiting at the Kill Van Kull.
+Labor note: lunch relief must be staggered so the main gate does not lose coverage.
+Equipment note: the south X-ray lane printer is low on label stock.
+Chassis note: several roadable chassis were moved to the Elizabeth overflow lot.
+Seal note: import seal numbers should be checked against the night clerk log.
+Dispatcher note: the intermodal desk wants all holds entered before 6 p.m.
+Coffee note: the cafeteria line is long because the morning crane crew arrived early.
+Security drill note: the tabletop exercise is scheduled for the following week.
+Federal security note: nonintrusive imaging of selected outbound empties remains governed by a separate risk rule.
+Port Newark note: inbound containers transferred directly to ExpressRail remain part of the inbound screening population.
+Elizabeth terminal note: a local gate audit percentage does not supersede the federal inbound X-ray ratio.
+CBP handoff note: secondary inspection referrals are counted separately from routine screening.
+Maritime security note: the handbook should preserve the percentage and the inbound scope exactly.

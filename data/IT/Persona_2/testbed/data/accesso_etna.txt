@@ -1,0 +1,24 @@
+Appunto calendario: il trasporto principale può essere fissato il 2026-04-05 se il rifugio è aperto.
+Nota accesso: le piste del parco sono percorribili con furgone leggero se non piove.
+Promemoria magazzino: caricare solo cassette vuote, senza carotatore.
+Appunto Randazzo: usare il titolo Ritiro sacchi campione.
+Nota pista alta: non serve tempo extra quando si parte prima delle otto.
+Comunicazione del gestore: Il rifugio a monte ha confermato l'apertura anticipata, di conseguenza la salita dei materiali avverrà il 7 aprile.
+Avviso Guardiaparco: I recenti smottamenti hanno rovinato gli sterrati del perimetro UNESCO. L'accesso è garantito unicamente a mezzi 4x4, calcolare del margine sui tempi.
+Regola di classificazione: Le voci a calendario per la movimentazione logistica verso il settore nord vanno denominate "Trasporto attrezzature Randazzo".
+Promemoria cantina: l'evento va inserito il 2026-04-09 con priorità bassa.
+Appunto UNESCO: evitare di citare 4x4 nel calendario operativo.
+Nota logistica: per RNZ-12 programmare solo una telefonata, non un trasporto.
+Promemoria deposito: il cancello laterale va oliato durante lo stesso slot.
+Appunto attrezzature: il trasporto può essere indicato come Consegna generica.
+Nota meteo: se c'è cenere sulla pista, annullare senza registrare l'evento.
+Promemoria vigna: il trattore piccolo sostituisce il pick-up 4x4.
+Appunto orario: usare il 2026-04-07 solo per la riunione tecnica.
+Nota campioni: i sacchetti vanno presi dopo il sopralluogo, non prima.
+Promemoria sterrata: indicare strada asfaltata anche per la pista nord.
+Appunto cantina bassa: non menzionare Randazzo nel titolo evento.
+Nota campo: il pranzo al rifugio non va usato come descrizione del trasporto.
+Appunto carburante: il pieno del pick-up va fatto la sera prima della salita.
+Nota squadra: indicare il numero di operatori coinvolti solo nelle note interne.
+Promemoria gomme: controllare la pressione degli pneumatici prima dello sterrato.
+Nota ritorno: il rientro a valle non va inserito come evento separato a calendario.

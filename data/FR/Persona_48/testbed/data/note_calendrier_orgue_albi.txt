@@ -1,0 +1,19 @@
+L’office du dimanche ne doit pas être déplacé.
+Le concert choral utilise un autre créneau.
+L’entretien de la soufflerie est une opération technique.
+L’accord des anches précède une autre répétition.
+La visite patrimoniale ne nécessite pas l’orgue complet.
+La maîtrise répète sans le grand jeu.
+Le contrôle hygrométrique reste le matin.
+Le réglage de la console n’est pas la répétition demandée.
+Retenir la ligne Répétition_acoustique_grand_orgue.
+Le titre doit mentionner le grand orgue.
+La ville d’Albi doit apparaître dans l’événement.
+La durée correspond au créneau indiqué.
+Aucun office ne doit être supprimé.
+Le concert patrimonial aura lieu ultérieurement.
+La répétition solo suit un autre calendrier.
+Le format de date du fichier ICS doit être compact.
+L’événement doit être ajouté au calendrier existant.
+La répétition acoustique annexe du 8 novembre utilise le grand orgue complet.
+La séance d’accord du grand jeu bis est prévue le 9 novembre avant l’office.

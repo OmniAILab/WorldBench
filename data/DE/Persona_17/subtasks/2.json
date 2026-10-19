@@ -1,0 +1,29 @@
+{
+  "persona": "Klaus ist traditioneller Metzger im historischen Marktviertel von Kassel, Hessen, und spezialisiert auf die berühmte Nordhessische Ahle Wurscht der Region. Er hält sich an die strengen Vorgaben für Luftfeuchtigkeit und Temperatur der traditionellen Reifung in der Lehmkammer sowie an die strengen Hygienevorschriften des örtlichen Veterinäramts. Er gleicht ständig hunderte regionale Schweinefleisch-Lieferscheine mit den täglichen Klimamessungen im Keller und den sich wandelnden g.g.A.-Konformitätsformularen der Europäischen Union ab, um den genauen Reifetermin jeder Charge vorherzusagen.",
+  "task": "Übertrage die im HACCP-Plan festgelegte Temperaturgrenze für die Reifung der Nordhessischen Ahlen Wurscht in das tägliche Kellerprotokoll.",
+  "required_files": [
+    "innungsrichtlinien.txt"
+  ],
+  "output_files": [
+    "data/kellerprotokoll_taeglich.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/kellerprotokoll_taeglich.docx",
+        "keywords": [
+          "Nordhessische Ahle Wurscht",
+          "Reifetemperatur darf 15 °C nicht überschreiten"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/kellerprotokoll_taeglich.docx",
+      "change": "modify"
+    }
+  ]
+}

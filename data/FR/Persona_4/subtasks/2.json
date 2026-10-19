@@ -1,0 +1,36 @@
+{
+  "persona": "Manon est responsable de l’hospitalité de luxe à Cannes et dirige un hôtel-boutique haut de gamme sur le boulevard de la Croisette. Elle concilie les fortes contraintes saisonnières du Festival de Cannes avec les consignes d’exploitation relatives au bruit et aux déchets, tout en coordonnant les arrivées internationales dans les conditions de circulation difficiles de la Côte d’Azur.",
+  "task": "Ajoute au calendrier des collectes le passage de CleanCote prévu pendant la nuit opérationnelle du Festival de Cannes. Croise la note de collecte avec le briefing de l’hôtel pour obtenir la date exacte, utilise l’horaire Festival et rappelle dans la description la séparation obligatoire du verre ; écarte les horaires hors Festival et de répétition.",
+  "required_files": [
+    "waste_contacts_cannes.xlsx",
+    "waste_notice_cannes.txt",
+    "modele_email_collecte_cannes.txt",
+    "briefing_collecte_cannes.txt"
+  ],
+  "output_files": [
+    "data/calendrier_collectes_cannes.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendrier_collectes_cannes.ics",
+        "summary_keywords": [
+          "Collecte déchets — Festival de Cannes"
+        ],
+        "description_keywords": [
+          "CleanCote",
+          "séparation obligatoire du verre"
+        ],
+        "time_start": "2026-05-18 00:30:00",
+        "time_end": "2026-05-18 01:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendrier_collectes_cannes.ics",
+      "change": "modify"
+    }
+  ]
+}

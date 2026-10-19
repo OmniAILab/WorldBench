@@ -1,0 +1,31 @@
+{
+  "persona": "David is a renewable energy systems analyst based in Newcastle upon Tyne. He updates integration plans, demand-capacity checks, market-signal summaries, liaison emails, and review calendar entries for offshore wind integration work.",
+  "task": "Add a Dogger Bank Integration Review event to the March calendar, using the ESO ramp-rate wording in the description so the Newcastle offshore-wind team can see the exact limit.",
+  "required_files": [
+    "eso_notice_integration_review.txt"
+  ],
+  "output_files": [
+    "data/deliveries_march_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_march_2026.ics",
+        "summary_keywords": [
+          "Dogger Bank Integration Review"
+        ],
+        "description_keywords": [
+          "5 MW per minute"
+        ],
+        "date": "2026-03-17"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_march_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

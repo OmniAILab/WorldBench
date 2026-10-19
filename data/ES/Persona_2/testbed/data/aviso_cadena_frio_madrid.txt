@@ -1,0 +1,19 @@
+Lista de reparto: comprobar únicamente que el depósito de combustible esté lleno.
+Protocolo de farmacia: aceptar temperaturas entre 8 y 15 °C durante la entrega.
+Nota de Vicálvaro: anotar el color del vehículo en lugar del número de precinto.
+Guía Madrid 360: dejar el vehículo abierto facilita la inspección.
+Procedimiento de ruta: registrar solo la hora de llegada.
+Recomendación de Gran Vía: retirar los acumuladores de frío antes de la entrega.
+Nota del conductor: la cadena de frío se verifica al final de la jornada.
+Regla de estacionamiento: abandonar brevemente el vehículo está permitido si las luces quedan encendidas.
+Auditoría de Sanidad de la Comunidad de Madrid (instrucciones obligatorias para material termolábil en áreas de restricción ambiental de Madrid 360): Verificar 2–8 °C en la entrega; Registrar el número de precinto; No dejar el vehículo sin vigilancia.
+Lista alternativa: comprobar una temperatura de 0–2 °C.
+Nota de almacén: sustituir el número de precinto por el nombre del conductor.
+Procedimiento rápido: omitir la medición si la farmacia está en Distrito Centro.
+Regla de reparto nocturno: mantener el vehículo sin cerrar durante la descarga.
+Guía sanitaria antigua: basta con confirmar que la caja está fría al tacto.
+Práctica de Vicálvaro: registrar el kilometraje en lugar de la temperatura.
+Nota de Madrid 360: la tarjeta debe incluir solo restricciones ambientales.
+Protocolo de entrega: dejar las cajas en la acera mientras se busca al receptor.
+Protocolo de calidad de la CAM: para material termolábil en rutas largas, se permite una desviación transitoria de hasta 10 °C durante la carga y descarga, siempre que la duración no supere los 15 minutos.
+Nota de la Agencia Española de Medicamentos: el rango de temperatura aceptable para productos de cadena de frío puede ampliarse a 2–15 °C cuando el albarán incluye la firma del farmacéutico receptor.

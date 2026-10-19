@@ -1,0 +1,19 @@
+Un lot dont le certificat est expiré ne peut pas être validé.
+Une livraison reportée conserve son statut administratif.
+Un document fournisseur incomplet nécessite un suivi.
+Une analyse en attente ne permet pas la validation.
+Le lot destiné à un autre étal ne doit pas être ajouté.
+Le contrôle de la chaîne du froid est distinct de la traçabilité.
+Le poids déclaré n’est pas le critère demandé.
+Le numéro d’abattoir doit être complet.
+Seul le lot explicitement approuvé par la préfecture reçoit le statut Vérifié.
+Le statut doit être inscrit dans la deuxième colonne.
+Le code du lot ne doit pas être modifié.
+La mention Charolais Prime doit correspondre à l’avis.
+Les terrines suivent un autre registre.
+Le saucisson brioché n’est pas concerné.
+L’inventaire de la boucherie reste inchangé pour les autres lots.
+Le statut doit être saisi avec l’accent.
+Aucune ligne supplémentaire ne doit être créée.
+Un lot dont la traçabilité est confirmée uniquement par le laboratoire ne reçoit pas le statut Vérifié.
+Un lot validé par les services vétérinaires sans accord préfectoral reste en attente.

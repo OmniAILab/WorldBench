@@ -1,0 +1,20 @@
+Nota del taller: toda lana local se clasifica como Extrafina sin medirla.
+Criterio de teñido: el color natural determina la categoría artesanal.
+Apunte de Rupit: los lotes de oveja ripollesa se registran siempre como Gruesa.
+Circular antigua: veinticuatro micras corresponden a la categoría Media.
+Nota de productor: el peso del vellón sustituye el recuento de micras.
+Práctica tradicional: una manta tejida a mano convierte cualquier lana en Fina.
+Criterio de archivo: debe copiarse el número 24 como categoría sin texto.
+Apunte de certificación: el lote con menos micras siempre se rechaza.
+Pliego CCAM (Consorci de Comerç, Artesania i Moda): A efectos de concesión del distintivo D'A, los vellones de esquila pirenaica sometidos a prueba óptica que arrojen 24 micras recibirán la acreditación técnica 'Fina_24_micras'.
+Nota de ecoetiqueta: la categoría depende exclusivamente del tinte utilizado.
+Criterio de montaña: las lanas de Rupit reciben la categoría Rústica.
+Circular del productor: 24 micras equivalen a 24_Micras_Gruesa.
+Práctica de telar: la densidad del tejido reemplaza la clasificación del vellón.
+Nota de comercialización: la categoría correcta es Calidad_local_superior.
+Criterio de archivo histórico: todos los lotes se agrupan como Tradicional.
+Apunte de humedad: si la lana está seca se eleva una categoría.
+Informe de certificación antiguo: la lana de 24 micras debe quedar Por_comprobar.
+Pliego CCAM: Los vellones de esquila pirenaica que arrojen entre 21 y 23 micras en prueba óptica recibirán la acreditación técnica 'Extrafina_21_micras' o 'Fina_23_micras' según el valor exacto; no se permite redondeo al intervalo superior para la concesión del distintivo D'A.
+Nota del Consorci de Comerç, Artesania i Moda: Los vellones de 24 micras que presenten coeficiente de variación superior al 25% en la prueba óptica deberán someterse a una segunda medición antes de asignar la acreditación 'Fina_24_micras', para garantizar la representatividad de la muestra.
+Nota de la Fira de Rupit: los vellones presentados en la feria comarcal se exhiben sin prueba óptica previa, por lo que su categoría no consta en el registro de certificación.

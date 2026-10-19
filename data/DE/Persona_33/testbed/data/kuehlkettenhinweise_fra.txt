@@ -1,0 +1,7 @@
+Pharmalogistik Frankfurt CargoCity Süd – Kühlkettenprüfung, 16. Oktober 2026
+Sendung FRA-PHARMA-001: Der Lagerlogger zeigt einen kritischen Rückgang des Trockeneisvorrats an. Vor einem Transport ist die verbleibende Temperaturhaltezeit nach der freigegebenen Verpackungsspezifikation zu prüfen.
+Vorbericht vom 15. Oktober: Die Sendung wurde noch als regulär eingestuft. Dieser Befund ist durch die aktuelle Alarmmeldung überholt.
+Temperaturmanagement: FRA-PHARMA-001 ist umgehend in einen geeigneten temperaturgeführten Bereich umzulagern, während die Freigabe zur Verladung geprüft wird. Eine Zollfreigabe ersetzt keine Kühlkettenfreigabe.
+FRA-VACCINE-010 ist eine andere, priorisierte Impfstoffsendung; deren Ablauf kann nicht auf FRA-PHARMA-001 übertragen werden.
+Lagerleitung: Die Übergabe ist zu dokumentieren, einschliesslich Loggerauslesung, Zeitstempel, Verpackungszustand und verantwortlicher Person.
+Aktueller Statuscode für FRA-PHARMA-001: „Sofort_in_Kuehlbereich_umlagern“. Ohne dokumentierte Temperaturkonformität darf keine direkte Beladung erfolgen.

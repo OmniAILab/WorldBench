@@ -1,0 +1,31 @@
+{
+  "persona": "Fabio svolge il ruolo di responsabile archeologico presso il Parco Archeologico di Pompei, dove sovrintende alla messa in sicurezza delle ville di recente scavo nella Regio IX. Documenta ogni reperto secondo i rigorosi protocolli del Ministero della Cultura, gestendo al contempo la pressione logistica del turismo di massa durante l'alta stagione mediterranea. Il suo lavoro richiede il costante esame delle analisi stratigrafiche e il coordinamento di team di ricerca internazionali che devono operare entro i delicati vincoli del sito Patrimonio Mondiale dell'UNESCO.",
+  "task": "Inserisci nelle linee guida per le attrezzature il limite massimo di vibrazione previsto dal mandato di conservazione UNESCO. Il file ./data/linee_guida_attrezzature_pompei.docx deve contenere esattamente le seguenti diciture: «Limiti macchinari», «2.0 mm/s peak particle velocity», «UNESCO».",
+  "required_files": [
+    "note_vibrazioni_pompei.txt",
+    "mandato_conservazione_pompei.txt"
+  ],
+  "output_files": [
+    "data/linee_guida_attrezzature_pompei.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/linee_guida_attrezzature_pompei.docx",
+        "keywords": [
+          "Limiti macchinari",
+          "2.0 mm/s peak particle velocity",
+          "UNESCO"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/linee_guida_attrezzature_pompei.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Interne Kalenderverwaltung//Naturschutzkalender//DE
+BEGIN:VEVENT
+UID:urn:uuid:f739d1f5-df5e-5abe-b232-29488f7b2e07
+DTSTART:20260810T090000
+DTEND:20260810T100000
+SUMMARY:Abstimmung Fischereihafen
+DESCRIPTION:Gespräch zu Schutzgebietsgrenzen.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:dd6cc4a5-4e1a-5099-a722-d7092562f20f
+DTSTART:20260811T080000
+DTEND:20260811T120000
+SUMMARY:Thünen Schweinswal-Zählung Strelasund
+DESCRIPTION:Paralleleinsatz Forschungsschiff; Ersatzschiff erst danach verfügbar.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:78ec9aa3-98b5-521f-89d7-4cc2b2d03c3d
+DTSTART:20260813T090000
+DTEND:20260813T110000
+SUMMARY:Ersatzschiff Freigabe Bodden
+DESCRIPTION:Alternative Freigabe nach Abschluss der Meeresschutzprogramme.
+END:VEVENT
+END:VCALENDAR

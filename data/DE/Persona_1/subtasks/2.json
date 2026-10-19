@@ -1,0 +1,28 @@
+{
+  "persona": "Clara arbeitet als Musikarchivarin in Bonn an der Erschließung und konservatorischen Betreuung historischer Musikhandschriften im Beethoven-Haus. Sie prüft Klimamessungen, Wasserzeichenkartei und Nutzungsbedingungen digitaler Reproduktionen und dokumentiert ihre Entscheidungen für das Archiv.",
+  "task": "Verfasse eine Anfrage an die im Projektverzeichnis genannte Rechtekoordination, um die Nutzungsbedingungen der digitalen Reproduktion zu klären. Nenne Blatt-ID und „öffentlicher Zugang“; die Kontaktanschrift ist vor einem realen Versand zu prüfen.",
+  "required_files": [
+    "rechtehinweis_bonn.txt",
+    "kontakte_bonn.xlsx",
+    "scans_bonn.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "rechte@beethoven.de",
+        "keywords": [
+          "BH-SK-19",
+          "öffentlicher Zugang"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_rechte_*.eml",
+      "change": "create"
+    }
+  ]
+}

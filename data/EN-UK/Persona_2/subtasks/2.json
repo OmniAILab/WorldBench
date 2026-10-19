@@ -1,0 +1,31 @@
+{
+  "persona": "Callum from Edinburgh works as a Heritage Conservation Officer for a firm specialising in the maintenance of the New Town’s UNESCO World Heritage site. He records everyday defects in setts, façades, and access routes while keeping repair notes aligned with listed-building requirements.",
+  "task": "Schedule the NT-11 New Town survey on the allowed post-Fringe date and include the low-footfall access tag in the calendar event description.",
+  "required_files": [
+    "access_plan_fringe.xlsx"
+  ],
+  "output_files": [
+    "data/deliveries_august_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_august_2026.ics",
+        "summary_keywords": [
+          "NT-11 Survey"
+        ],
+        "description_keywords": [
+          "Low-footfall"
+        ],
+        "date": "2026-08-24"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_august_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

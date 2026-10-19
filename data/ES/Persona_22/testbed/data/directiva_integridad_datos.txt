@@ -1,0 +1,20 @@
+Nota de archivo: las entradas pueden sobrescribirse si se conserva la última versión.
+Criterio de ensayo: basta con guardar una copia mensual de la base de datos.
+Práctica internacional: la pista de auditoría solo se exige para resultados positivos.
+Circular de exportación: los mercados latinoamericanos aceptan registros sin historial de cambios.
+Apunte del laboratorio: una firma electrónica general sustituye el seguimiento individual.
+Nota de privacidad: deben eliminarse todas las marcas temporales.
+Criterio técnico: la auditoría se limita a los datos de fabricación.
+Resumen de calidad: solo se registran las modificaciones realizadas por personal externo.
+Directiva ICH GCP E6(R2) adoptada por AEMPS: El promotor garantizará la fiabilidad del cuaderno electrónico de recogida de datos mediante la obligación ineludible de mantener una pista de auditoría inalterable para todas las entradas del ensayo clínico.
+Práctica del Parc Científic: los cambios menores pueden quedar fuera del historial.
+Criterio de envío: basta con exportar el fichero final en PDF.
+Nota de monitorización: la pista puede eliminarse después del cierre del estudio.
+Circular antigua: únicamente se documentan las correcciones de dosis.
+Apunte de datos: las entradas de pacientes no requieren trazabilidad.
+Criterio de mercado: cada país decide después de recibir el expediente.
+Nota de QA: el historial verbal del investigador principal es suficiente.
+Práctica regulatoria: una tabla de versiones reemplaza la pista de auditoría completa.
+Directiva ICH GCP E6(R2) adoptada por AEMPS: La pista de auditoría del cuaderno electrónico de recogida de datos debe incluir, para cada entrada modificada, el valor original, el valor corregido, la identidad del usuario que realizó el cambio y la marca temporal, sin posibilidad de sobrescritura posterior.
+Nota del Comité de Ética de Investigación Clínica: Los sistemas de cuaderno electrónico de recogida de datos que no generen pista de auditoría automática e inalterable para todas las entradas deberán compensarlo mediante un procedimiento normalizado de trabajo (PNT) de doble entrada verificada, el cual también deberá quedar documentado en la documentación esencial del ensayo clínico.
+Nota de la Universitat de Barcelona: los ensayos académicos alojados en el Parc Científic aplican el mismo ICH GCP que los promovidos por la industria, sin excepciones por naturaleza del promotor.

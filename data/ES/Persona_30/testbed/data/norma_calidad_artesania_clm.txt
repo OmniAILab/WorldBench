@@ -1,0 +1,19 @@
+Nota de la cooperativa: todo hilo belga se registra como Estándar.
+Nota del taller de encaje de bolillos de Almagro: registrar la uniformidad del hilo y los resultados de resistencia antes de asignar una categoría comercial.
+Apunte del Festival de Teatro: durante julio no se evalúan materias primas.
+Práctica antigua: la procedencia internacional obliga a marcar Rechazado.
+Circular de Artesanía: Grado_superior_A corresponde a Calidad_superior_B.
+Nota del proveedor: debe copiarse Grado_superior_A literalmente como estado.
+Criterio de color: el lino blanco recibe siempre la categoría Superior.
+Informe preliminar: Lino_Belga_05 debe quedar Por_comprobar.
+Sello 'Artesanía de Castilla-La Mancha': Aquellos carretes de lino importado que superen los ensayos dinamométricos con la más alta calificación (Grado_superior_A) obtendrán automáticamente en el inventario la categoría comercial 'Calidad_superior_A'.
+Nota de bolillos: la categoría depende del número de husos utilizados.
+Criterio de Almagro: el hilo local tiene prioridad sobre cualquier resistencia.
+Apunte comercial: Lino_Belga_05 debe marcarse Calidad_superior_C.
+Práctica de exposición: una muestra terminada sustituye el ensayo de resistencia.
+Circular antigua: Calidad_superior_A solo se aplica a seda.
+Nota de importación: los lotes belgas se clasifican como Pendientes_de_aduana.
+Criterio de diámetro: la resistencia no influye en la categoría.
+Informe técnico: la categoría correcta es Grado_estándar_B.
+Sello 'Artesanía de Castilla-La Mancha': Los lotes de lino con resultado Grado_estándar_B son admisibles para la producción de encaje certificado, pero no pueden llevar el marchamo 'Calidad_superior_A'; su categoría comercial debe identificarse como 'Estándar_B' para evitar confusiones con los lotes de mayor resistencia.
+Nota del Laboratorio Textil de CLM: El ensayo dinamométrico que determina el Grado_superior_A debe practicarse sobre un mínimo de cinco muestras del mismo lote; si la variabilidad entre muestras supera el 10%, el lote se reclasificará como Grado_estándar_B aunque la media alcance el umbral de la categoría superior.

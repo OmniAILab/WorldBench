@@ -1,0 +1,5 @@
+Laure : On vient de recevoir le pointage des compteurs d'eau pour la journée. Quel poste pose le plus gros problème par rapport à notre quota ?
+Technicien : C'est le poste Refroidissement_condenseur qui affiche le dépassement maximal, avec un état à Dépassement_10_pour_cent.
+Laure : Le remplacement du joint sur l'alambic 4 à 7 % a déjà été traité ce matin, donc on se concentre sur le condenseur principal.
+Technicien : D'accord. Bien sûr, on ne réinjecte jamais d'hydrolat directement dans le circuit de refroidissement thermique. La consigne validée au tableau est : « Réduire le débit et étudier la valorisation de l’hydrolat ».
+Laure : Envoie tout de suite un message aux opérateurs de la distillerie (eau@distillerie.fr) en rappelant qu'il s'agit du dépassement maximal et en citant l'opération, le niveau exact et la mesure prévue.

@@ -1,0 +1,38 @@
+{
+  "persona": "Callum works as a port operations manager at the Liverpool2 deep-water terminal. He updates berth plans, movement logs, safety briefings, customs emails, and shift calendars around tides, Freeport movements, and HSE protocols.",
+  "task": "Use the Liverpool Freeport eligibility notice to tag the eligible container move MV-88 as FP in the Liverpool movement log, leaving non-eligible moves untagged.",
+  "required_files": [
+    "freeport_notice.txt"
+  ],
+  "output_files": [
+    "data/movements_liverpool.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/movements_liverpool.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "FP"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/movements_liverpool.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

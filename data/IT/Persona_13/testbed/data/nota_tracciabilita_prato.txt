@@ -1,0 +1,19 @@
+Promemoria tracciabilità: il cotone riciclato usa COT-R, non lana.
+Nota registro: il codice WOOL-C è per lana cardata nuova, non riciclata.
+Appunto magazzino: PR-REC-10 è già stato chiuso con altro codice.
+Promemoria Toscana: usare FIB-MIX solo per fibre miste non separate.
+Nota laboratorio: il valore termico non sostituisce il codice rifiuto.
+Testo Unico Ambientale: Gli scarti derivanti dal processo di sfilacciatura dei cenci di lana, se destinati al riuso nell'alto di gamma, vanno classificati nel gestionale ecologico con la sigla WOOL-R.
+Appunto moda circolare: il codice LUXE-2 riguarda il campionario cliente.
+Promemoria distretto: non usare il codice del cassone stracci per il batch tecnico.
+Nota archivio: nel 2024 la sigla era WR-OLD, non valida.
+Appunto filatura: il lotto vergine usa WOOL-V.
+Promemoria tintoria: il codice colore non entra nel registro rifiuti.
+Nota spedizione: non copiare il numero DDT nel campo Waste_Code.
+Appunto Green Deal: la percentuale riciclata non è il codice richiesto.
+Promemoria cartellino: PR-REC-12 non è il batch da aggiornare.
+Nota lanificio: i campioni per Milano Luxe non definiscono la tracciabilità regionale.
+Appunto Prato: il sacco cenci numero 7 non è una voce del registro.
+Avviso Doganale: Nessun autotreno può lasciare il piazzale con lotti bollati come "Da verificare"; l'identificativo rifiuto deve essere sempre formalmente risolto prima della stampa del DDT.
+Promemoria deposito: il codice scaffale interno serve alla logistica e non va riportato nel registro rifiuti.
+Appunto cernita: la separazione per colore avviene in fase manuale, ma non genera la sigla di tracciabilità.

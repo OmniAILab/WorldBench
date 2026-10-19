@@ -1,0 +1,4 @@
+Pilote : Le créneau météorologique est-il suffisant pour décoller dans l’Enclos ?
+Coordination : Non. Nous devons également vérifier les autorisations aéronautiques et la dérogation d’accès si le secteur est fermé.
+Opératrice drone : DRN-FOUQ-09 dispose de l’autorisation AUT-DRN-511.
+Volcanologue : Le créneau 07:00-08:00 est le seul avec visibilité claire et doit servir au contrôle des émissions.

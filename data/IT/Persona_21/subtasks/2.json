@@ -1,0 +1,36 @@
+{
+  "persona": "Alessia è una stratega dell'ospitalità sulla Costiera Amalfitana e gestisce un portafoglio di ville di lusso e residenze storiche a Positano. Affronta le sfide logistiche stagionali della strada statale SS163 e gli specifici regolamenti comunali che disciplinano i livelli di rumore costiero e i permessi per il turismo del patrimonio. Il suo lavoro comprende l'attenta sincronizzazione degli itinerari degli ospiti con gli orari dei traghetti regionali e il coordinamento dei fornitori artigiani locali per garantire un'esperienza impeccabile all'altezza delle elevate aspettative dei viaggiatori internazionali.",
+  "task": "Usa la nota sulla chiusura stagionale della SS163 per aggiungere al calendario un blocco di pianificazione logistica, con il riferimento stradale e gli orari corretti.",
+  "required_files": [
+    "note_ss163_positano.txt",
+    "avviso_trasporti_positano.txt"
+  ],
+  "output_files": [
+    "data/calendario_stratega_positano.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_stratega_positano.ics",
+        "summary_keywords": [
+          "Blocco",
+          "pianificazione logistica"
+        ],
+        "description_keywords": [
+          "SS163",
+          "10:00",
+          "18:00"
+        ],
+        "time_start": "2026-04-04 10:00:00",
+        "time_end": "2026-04-04 18:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_stratega_positano.ics",
+      "change": "modify"
+    }
+  ]
+}

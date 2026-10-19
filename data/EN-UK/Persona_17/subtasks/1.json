@@ -1,0 +1,29 @@
+{
+  "persona": "Niamh is a peace-building coordinator in Derry, working within the historic city walls to support cross-community youth programmes. She maintains participation records, funding notes, proposal outlines, and reporting sheets for local grassroots programmes.",
+  "task": "Use the Derry priority data to add one concise proposal line to the funding outline, combining the priority area with the Bogside_Fountain region.",
+  "required_files": [
+    "census_data_derry.xlsx"
+  ],
+  "output_files": [
+    "data/funding_proposal_outline.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/funding_proposal_outline.docx",
+        "keywords": [
+          "Digital_Skills_Training",
+          "Bogside_Fountain"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/funding_proposal_outline.docx",
+      "change": "modify"
+    }
+  ]
+}

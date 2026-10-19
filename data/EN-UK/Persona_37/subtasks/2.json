@@ -1,0 +1,28 @@
+{
+  "persona": "James is a freight forwarding coordinator from Eastleigh working at the Port of Southampton. He maintains refrigerated cargo sheets, customs workflow notes, transport updates, and driver emails.",
+  "task": "Draft a short ETA update email to the HGV drivers using the exact delay duration for M27_Eastbound from the regional transport sheet.",
+  "required_files": [
+    "regional_transport.xlsx",
+    "driver_contacts_southampton.xlsx",
+    "email_templates_james.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "drivers@sotonfreight.uk",
+        "keywords": [
+          "90_Minutes_Gridlock",
+          "M27_Eastbound"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_drivers_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "persona": "Adrien vit à Paris et exerce comme responsable du développement durable pour un groupe international de distribution établi dans le 8e arrondissement. Il travaille sur les normes européennes d’information en matière de durabilité applicables en 2026 et sur la Loi de vigilance française, afin que chaque niveau de la chaîne d’approvisionnement respecte les audits environnementaux et sociaux. Son activité quotidienne consiste à synthétiser rapidement des milliers de rapports de conformité fournisseurs et à suivre les données d’émissions carbone pour préserver les évaluations de performance extra-financière du groupe.",
+  "task": "Rédige un e-mail au service achats après avoir croisé le registre de diligence, la note d’audit et le dialogue de suivi. Demande un audit renforcé de Tier2_Textiles et indique l’échéance opérationnelle du 15 avril 2026. Ignore les contrôles documentaires des autres fournisseurs et les anciennes classifications.",
+  "required_files": [
+    "procurement_contacts.xlsx",
+    "registry_paris_suivi.xlsx",
+    "audit_note_paris.txt",
+    "dialogue_suivi_audit_paris.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "procurement.achats@messagerie.invalid",
+        "keywords": [
+          "Tier2_Textiles",
+          "audit renforcé",
+          "15 avril 2026"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_achats_*.eml",
+      "change": "create"
+    }
+  ]
+}

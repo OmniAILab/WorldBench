@@ -1,0 +1,25 @@
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Project Proposal
+Dear Councillors,
+I am writing to provide a brief project proposal regarding [project]. [Main detail from source note].
+Please let me know if any further supporting evidence is required.
+Yours sincerely,
+[Nia]
+
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Quick Coastal Update
+Hello,
+Just a quick note about [project]. [Main detail from source note].
+Best wishes,
+[Nia]
+
+Note: formal wording is used for town council funding proposals.
+Note: friendly wording is used for operational messages to seafront volunteers.
+Note: coastal grant emails should include the exact project type and funding amount.
+Note: promenade bench repairs are facilities items and should not be used here.
+Note: NRW grant figures must not be rounded.
+Note: emergency response notices use a separate urgent template.
+Note: council proposal emails should stay concise and evidence-led.
+Note: shoreline manual updates are not sent as emails.
+Note: harbour office notes are separate from town council proposals.
+Note: Welsh place names should be retained when present in source notes.

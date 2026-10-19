@@ -1,0 +1,22 @@
+Coordinator: The environmental file still pending for the next data request is Waikiki_Transplant_Phase_2.
+Researcher: So I find its EIS deadline in the USACE tracker?
+Coordinator: Yes, without using the dates from the other coastal projects.
+Researcher: Then write to the Aquatic Researchers team listed in the contacts.
+Coordinator: Correct.
+Researcher: The message has to quote the exact project code.
+Coordinator: Yes.
+Researcher: And the deadline exactly as it appears in the tracker.
+Coordinator: Yes.
+Researcher: The Ala Wai, Kewalo, and Magic Island projects are separate files.
+Coordinator: Correct.
+Researcher: The context is reef restoration in Waikiki, with acidification and transplant monitoring.
+Coordinator: That is the operational context.
+Researcher: I must not request personal data or anything unrelated to the EIS.
+Coordinator: Correct.
+Researcher: The request can simply mention the data needed for the EIS file.
+Coordinator: Yes.
+Researcher: The generic outreach address is not the right one.
+Coordinator: Use the aquatic research team.
+Researcher: So I verify project, date, recipient.
+Coordinator: That is the expected sequence.
+Researcher: Very good.

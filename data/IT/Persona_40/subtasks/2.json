@@ -1,0 +1,31 @@
+{
+  "persona": "Federica è responsabile degli affari regolatori in un’azienda biofarmaceutica del polo di Latina, impegnata anche nelle esportazioni verso il Nord America. Verifica la conformità della produzione alle norme di buona fabbricazione, alle procedure di qualità applicabili e alle richieste delle autorità sanitarie dei mercati di destinazione. Controlla i registri di lotto e le condizioni della catena del freddo per preservare l’integrità dei prodotti biologici durante il trasporto.",
+  "task": "Aggiungi al calendario regolatorio un blocco di revisione per l’audit di conformità indicato dall’autorità sanitaria.",
+  "required_files": [
+    "avviso_autorita_latina.txt"
+  ],
+  "output_files": [
+    "data/calendario_regolatorio_latina.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_regolatorio_latina.ics",
+        "summary_keywords": [
+          "Revisione regolatoria audit"
+        ],
+        "description_keywords": [
+          "conformità"
+        ],
+        "date": "2026-08-15"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_regolatorio_latina.ics",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "persona": "Gareth is from Cardiff and works as a self-employed electrician specialising in heat pumps and electric vehicle charging points across the Valleys. He keeps job sheets, inspection notes, and retrofit evidence packs for ageing terraced houses.",
+  "task": "Schedule the Part P inspection visit for VLY-21 in the April calendar and include the ageing-terrace access note about narrow terrace access and parking on the main road.",
+  "required_files": [
+    "inspection_slots_wales.xlsx"
+  ],
+  "output_files": [
+    "data/deliveries_april_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_april_2026.ics",
+        "summary_keywords": [
+          "Part P Inspection VLY-21"
+        ],
+        "description_keywords": [
+          "Narrow terrace access"
+        ],
+        "date": "2026-04-02"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_april_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

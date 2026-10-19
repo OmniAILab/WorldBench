@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Interne Kalenderverwaltung//Wartungskalender Schwebebahn//DE
+BEGIN:VEVENT
+UID:urn:uuid:a88ec1b6-265a-5340-a787-65f24197675c
+DTSTART:20260605T090000
+DTEND:20260605T100000
+SUMMARY:Reguläre Nachtkontrolle
+DESCRIPTION:Planmäßige Prüfung am Betriebshof.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:4cbb856d-86a7-54e1-85fc-911776ffe082
+DTSTART:20260605T070000
+DTEND:20260605T080000
+SUMMARY:Stadtfest Personalplanung Depot
+DESCRIPTION:Personalabzug wegen Absperrdienst; vereinfachte Kontrolle durch Zugführer.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:fd09187a-f4c2-503e-b3c4-b10c22711f94
+DTSTART:20260604T200000
+DTEND:20260604T210000
+SUMMARY:Vorabend Luisenfest Betriebsbesprechung
+DESCRIPTION:Abstimmung zu Schichtplanung am Veranstaltungstag.
+END:VEVENT
+END:VCALENDAR

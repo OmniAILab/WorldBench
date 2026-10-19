@@ -1,0 +1,30 @@
+{
+  "persona": "Alejandro es responsable de asuntos regulatorios farmacéuticos en el Parc Científic de Barcelona y supervisa la exportación de productos biomédicos a América Latina. Aplica las normas de correcta fabricación y las circulares de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS), además de las exigencias de integridad de datos del ICH GCP. Su trabajo consiste en revisar expedientes de lote antes de la liberación y en preparar la documentación que acompaña a cada envío.",
+  "task": "Incorpora al documento de presentación para América Latina la declaración de integridad de datos exigida para las entradas de los ensayos clínicos.",
+  "required_files": [
+    "directiva_integridad_datos.txt"
+  ],
+  "output_files": [
+    "data/documento_presentacion_latam.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/documento_presentacion_latam.docx",
+        "keywords": [
+          "América Latina",
+          "mantener una pista de auditoría",
+          "entradas del ensayo"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/documento_presentacion_latam.docx",
+      "change": "modify"
+    }
+  ]
+}

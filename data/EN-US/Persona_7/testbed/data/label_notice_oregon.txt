@@ -1,0 +1,20 @@
+Oregon: the organic cotton claim requires farm verification.
+Oregon: the waterproof claim requires a seam tape test.
+Oregon: the bluesign claim requires a supplier certificate.
+Oregon: carbon-neutral requires transport offset documentation.
+Oregon: the recycled claim requires at least 50% recycled content.
+Oregon: domestic manufacturing requires assembly in the United States.
+Oregon: PFAS-free requires chemical screening results.
+Oregon: fair labor requires an annual audit.
+Portland: verify the claim by batch, not by colorway.
+Portland: the batch percentage is in the fabric sheet.
+Portland: the target status must be Recycled_Claim_OK if the threshold is met.
+RP-6 at 49% does not clear the threshold.
+RP-4 at 48% does not clear the threshold.
+A marketing note saying "mostly recycled" is not a legal status.
+Portland: Port of Portland delays do not change the threshold.
+Portland: PNW rainwear often uses recycled nylon but still requires proof.
+Instruction: modify the targeted batch RP-7 only.
+Instruction: do not use the PFAS or bluesign rules.
+Instruction: 50% is included in the "at least" condition.
+Instruction: keep the code Recycled_Claim_OK exactly.

@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Workplace Calendar Services//Newcastle Offshore Calendar//EN
+BEGIN:VEVENT
+UID:tyne-quayside-brief-1@local.test
+DTSTART:20260310T090000
+DTEND:20260310T093000
+SUMMARY:Tyne Quayside Brief
+DESCRIPTION:Review routine port liaison notes.
+END:VEVENT
+BEGIN:VEVENT
+UID:cable-map-review-2@local.test
+DTSTART:20260311T110000
+DTEND:20260311T113000
+SUMMARY:Cable Map Review
+DESCRIPTION:Check subsea route diagrams only.
+END:VEVENT
+BEGIN:VEVENT
+UID:market-signal-review-3@local.test
+DTSTART:20260312T150000
+DTEND:20260312T153000
+SUMMARY:Market Signal Review
+DESCRIPTION:Discuss evening pricing risk.
+END:VEVENT
+BEGIN:VEVENT
+UID:blade-transport-note-4@local.test
+DTSTART:20260313T100000
+DTEND:20260313T103000
+SUMMARY:Blade Transport Note
+DESCRIPTION:Confirm road movement assumptions.
+END:VEVENT
+BEGIN:VEVENT
+UID:manufacturing-capacity-desk-5@local.test
+DTSTART:20260314T130000
+DTEND:20260314T133000
+SUMMARY:Manufacturing Capacity Desk
+DESCRIPTION:Check flexible demand only.
+END:VEVENT
+BEGIN:VEVENT
+UID:ousburn-demo-check-6@local.test
+DTSTART:20260316T090000
+DTEND:20260316T091500
+SUMMARY:Ouseburn Demo Check
+DESCRIPTION:Visitor demonstration preparation.
+END:VEVENT
+BEGIN:VEVENT
+UID:eso-placeholder-7@local.test
+DTSTART:20260317T140000
+DTEND:20260317T143000
+SUMMARY:ESO Placeholder
+DESCRIPTION:Old placeholder without current ramp-rate wording.
+END:VEVENT
+BEGIN:VEVENT
+UID:tyne-berth-call-8@local.test
+DTSTART:20260318T083000
+DTEND:20260318T090000
+SUMMARY:Tyne Berth Call
+DESCRIPTION:Routine harbour timing call.
+END:VEVENT
+END:VCALENDAR

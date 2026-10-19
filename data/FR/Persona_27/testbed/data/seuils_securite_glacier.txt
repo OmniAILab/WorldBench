@@ -1,0 +1,9 @@
+Observatoire de terrain du Montenvers — grille interne de vigilance à partir du déplacement des balises. Elle ne remplace pas les décisions d’accès des autorités ou l’évaluation des risques sur place.
+Déplacement inférieur à 3 cm/jour : accès Ouvert.
+Déplacement de 3 à 4 cm/jour : accès Surveillance.
+Déplacement de 4 à 5 cm/jour : accès Prudence.
+Déplacement de 5 à 6 cm/jour : accès Renforcé.
+Déplacement supérieur à 7 cm/jour : accès Fermé.
+Déplacement compris entre 6 et 7 cm/jour : accès Très_prudent.
+Déplacement de 7,2 cm/jour : accès Fermé.
+Déplacement de 6,9 cm/jour : accès Très_prudent.

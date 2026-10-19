@@ -1,0 +1,37 @@
+{
+  "persona": "英在寒冷的哈尔滨管理一支速冻饺子配送车队。她必须让司机绕开冰雪节期间拥挤的人群，并确保货车加热器不会在 -30°C 的严寒中失灵。",
+  "task": "在冰雪节周的配送日历中加入“节日期间传感器复核”。综合中央大街绕行表、1月10日车队排班和交班对话，安排在速冻饺子装车与司机点名之后、白天游客高峰前的 08:30–09:00；描述中注明中央大街白班改走外环路以及货厢高于 -18℃ 触发检查。",
+  "required_files": [
+    "detours_harbin.xlsx",
+    "festival_shift_harbin.xlsx",
+    "dialogue_sensor_review_harbin.txt"
+  ],
+  "output_files": [
+    "data/harbin_deliveries_january_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/harbin_deliveries_january_2026.ics",
+        "summary_keywords": [
+          "节日期间传感器复核"
+        ],
+        "description_keywords": [
+          "中央大街",
+          "外环路",
+          "高于 -18℃",
+          "速冻饺子"
+        ],
+        "time_start": "2026-01-10 08:30:00",
+        "time_end": "2026-01-10 09:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/harbin_deliveries_january_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "persona": "Xabier es analista de sistemas industriales en Bilbao y trabaja en los clústeres siderúrgico y de fabricación de la ría del Nervión. Supervisa la transición al hidrógeno verde y vela por el cumplimiento de la normativa vasca de seguridad industrial. Su día a día consiste en auditar los registros de consumo energético en tiempo real y preparar la documentación técnica que exigen las ayudas de los fondos europeos de desarrollo regional.",
+  "task": "Traslada a la lista de transición del clúster industrial del Nervión la instrucción obligatoria del código vasco de seguridad sobre bloqueo y detección de gases.",
+  "required_files": [
+    "ley_industria_bilbao.txt"
+  ],
+  "output_files": [
+    "data/lista_transicion_nervion.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/lista_transicion_nervion.docx",
+        "keywords": [
+          "clúster del Nervión",
+          "bloqueo y etiquetado",
+          "detección de gases"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/lista_transicion_nervion.docx",
+      "change": "modify"
+    }
+  ]
+}

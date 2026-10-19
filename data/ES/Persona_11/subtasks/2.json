@@ -1,0 +1,30 @@
+{
+  "persona": "Arantxa es responsable de logística marítima en el Puerto de Algeciras y supervisa el tráfico de contenedores a través del Estrecho de Gibraltar. Gestiona los complejos protocolos aduaneros de la Agencia Tributaria y los requisitos ambientales del Parque Natural del Estrecho. Su día a día consiste en encajar las horas de llegada de los buques con los turnos de la Autoridad Portuaria y con los temporales de Levante, que alteran las maniobras sin previo aviso.",
+  "task": "Escribe un correo electrónico al servicio de aduanas para solicitar la tramitación prioritaria del buque retrasado en Algeciras. Indica el nombre del buque y el tipo de viento.",
+  "required_files": [
+    "contactos_aduana_algeciras.xlsx",
+    "llegadas_algeciras_v2.xlsx",
+    "viento_algeciras.xlsx",
+    "indicaciones_correo_aduana_algeciras.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "aduanas@aeat.es",
+        "keywords": [
+          "MV_Gibraltar",
+          "Levante",
+          "tramitación prioritaria"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_aduanas_*.eml",
+      "change": "create"
+    }
+  ]
+}

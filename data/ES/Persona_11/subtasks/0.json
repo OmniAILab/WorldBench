@@ -1,0 +1,40 @@
+{
+  "persona": "Arantxa es responsable de logística marítima en el Puerto de Algeciras y supervisa el tráfico de contenedores a través del Estrecho de Gibraltar. Gestiona los complejos protocolos aduaneros de la Agencia Tributaria y los requisitos ambientales del Parque Natural del Estrecho. Su día a día consiste en encajar las horas de llegada de los buques con los turnos de la Autoridad Portuaria y con los temporales de Levante, que alteran las maniobras sin previo aviso.",
+  "task": "Aplica el protocolo del puerto de Algeciras para episodios de Levante y actualiza el turno del MV_Gibraltar en el plan de llegadas.",
+  "required_files": [
+    "protocolo_levante_algeciras.txt",
+    "viento_algeciras.xlsx",
+    "turnos_algeciras.xlsx"
+  ],
+  "output_files": [
+    "data/llegadas_algeciras.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/llegadas_algeciras.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Tarde"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/llegadas_algeciras.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

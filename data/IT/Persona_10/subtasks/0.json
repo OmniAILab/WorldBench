@@ -1,0 +1,38 @@
+{
+  "persona": "Elena è una viticoltrice nella regione delle Langhe, in Piemonte, dove sovrintende alla produzione dei vini Barolo DOCG per una tenuta storica. Calibra i cicli di vendemmia in base ai sempre più imprevedibili andamenti meteorologici alpini e ai rigorosi disciplinari stabiliti dal Consorzio di Tutela Barolo Barbaresco. La sua competenza è messa alla prova dalla necessità di adattare la gestione del vigneto alle nuove direttive europee sulla sostenibilità, garantendo al contempo che ogni bottiglia mantenga il preciso profilo chimico richiesto per la certificazione di export internazionale.",
+  "task": "Usa la nota del disciplinare Barolo DOCG per verificare se la data di raccolta rientra nella finestra consentita e aggiorna la colonna Stato della parcella Barolo_Cru_4 nel file ./data/piano_vendemmia_langhe.xlsx.",
+  "required_files": [
+    "nota_disciplinare_langhe.txt"
+  ],
+  "output_files": [
+    "data/piano_vendemmia_langhe.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/piano_vendemmia_langhe.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 3,
+            "value": "fuori_finestra"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/piano_vendemmia_langhe.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

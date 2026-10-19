@@ -1,0 +1,30 @@
+{
+  "persona": "Joana é natural das terras altas do Norte e trabalha há anos como guia de ecoturismo no Parque Nacional da Peneda-Gerês. Enfrenta diariamente a complexidade dos limites rigorosos de acesso para conservação e das mudanças repentinas do tempo nas montanhas graníticas, processando grandes volumes de relatórios sobre o estado dos trilhos e padrões meteorológicos regionais para identificar percursos pedestres seguros e ajustar com precisão os itinerários dos grupos.",
+  "task": "Escreve um email aos participantes da caminhada no Parque Nacional da Peneda-Gerês a confirmar o percurso pelo Trilho da Lagoa dos Druidas — Setor de Campo do Gerês (Trilho_Lagoa) e a alertar para a mudança repentina do vento nas montanhas graníticas registada na nota de campo.",
+  "required_files": [
+    "participants_geres.xlsx",
+    "itinerary_geres.docx",
+    "route_selection_geres.txt",
+    "weather_note_geres.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_hikers_20260401.txt",
+        "keywords": [
+          "A caminhada seguirá pelo Trilho_Lagoa, com mudanças repentinas de vento previstas nas montanhas graníticas"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_hikers_20260401.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "persona": "Tiago é de Ponta Delgada e trabalha há quinze anos como coordenador de frota na ilha de São Miguel. Gere diariamente a complexidade das frentes meteorológicas variáveis do Atlântico Norte e das rigorosas quotas de captura da União Europeia, processando modelos marítimos complexos para otimizar a mobilização das embarcações, manter as tripulações em segurança e assegurar rendimentos dentro dos limites legais.",
+  "task": "Escreve um email breve às tripulações de São Miguel a comunicar o cancelamento da saída da embarcação «Ilhéu de Rosto de Cão» (código interno SM-Boat-5) em 2026-04-03 devido às condições do mar.",
+  "required_files": [
+    "fleet_board.xlsx",
+    "crew_list_azores.xlsx",
+    "crew_notice_azores.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_crews_sms_20260401.txt",
+        "keywords": [
+          "A saída do SM-Boat-5 em 2026-04-03 foi cancelada devido ao mar muito agitado"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_crews_sms_20260401.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

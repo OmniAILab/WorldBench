@@ -1,0 +1,36 @@
+{
+  "persona": "俊是山城重庆的一名社区巡检员。他爬着数不清的台阶，检查本地立交桥和单轨支柱是否因浓雾和高湿度而生锈，通常一边工作一边想着晚上吃一顿麻辣火锅。",
+  "task": "综合长江维修窗口表、朝天门附近作业点清单和山城夜班对话，在 2026-03-22 日历中加入适合雾天夜间检查的“长江维修窗口”。只选择 02:00–05:00 且注明江面交通较少的有效窗口；描述中同时写明朝天门下游长江侧、江面交通较少和雾天低速作业条件。",
+  "required_files": [
+    "river_window_cq.xlsx",
+    "bridge_work_points_cq.xlsx",
+    "dialogue_river_window_cq.txt"
+  ],
+  "output_files": [
+    "data/chongqing_river_inspections_march_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/chongqing_river_inspections_march_2026.ics",
+        "summary_keywords": [
+          "长江维修窗口"
+        ],
+        "description_keywords": [
+          "朝天门下游长江侧",
+          "江面交通较少",
+          "雾天低速作业"
+        ],
+        "time_start": "2026-03-22 02:00:00",
+        "time_end": "2026-03-22 05:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/chongqing_river_inspections_march_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

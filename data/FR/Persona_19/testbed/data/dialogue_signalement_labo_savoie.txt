@@ -1,0 +1,8 @@
+Céline : Le signalement part au laboratoire principal ?
+Luc : Oui, laboratoire.affinage@messagerie.invalid, pas au laboratoire annexe.
+Céline : La mesure courante de BF-Roselend-224 est 12,4 °C.
+Luc : Exact.
+Marc : Le registre le classe « Isoler » car il dépasse 12,0 °C.
+Luc : Oui, mentionne ce motif.
+Céline : Les anciennes valeurs de 11,9 °C sont à écarter.
+Luc : Correct.

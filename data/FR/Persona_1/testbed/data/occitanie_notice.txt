@@ -1,0 +1,10 @@
+CONSIGNES D’AMBIANCE HYGROMÉTRIQUE — MOYENS D’ESSAIS (CST / RANGUEIL)
+
+- Banc d’alignement optique : maintenir l’humidité en dessous de 40 %.
+- Magasin des équipements de vol : maintenir l’humidité en dessous de 55 %.
+- Chambre réverbérante acoustique : maintenir l’humidité en dessous de 48 %.
+- Caisson d’essais : l’étalonnage sous vide thermique échoue si l’humidité dépasse le seuil critique de 45 % (maintenir l’humidité en dessous de 45 % avant fermeture de porte).
+- Laboratoire hyperfréquences (RF) : maintenir l’humidité en dessous de 42 %.
+- Local d’assemblage batteries : maintenir l’humidité en dessous de 38 %.
+- Caisson en mode vide mécanique simple : maintenir l’humidité en dessous de 60 %.
+- Étalonnage sous vide thermique partiel (banc auxiliaire) : maintenir l’humidité en dessous de 47 %.

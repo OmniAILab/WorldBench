@@ -1,0 +1,21 @@
+Promemoria dell'Assessorato della Salute per avvisi alle cooperative.
+Appunto: Per Salmonella_spp la soglia 25_CFU_Watch non riguarda il mare aperto.
+Promemoria: Il valore 80_CFU_PreAlert è una soglia interna del laboratorio universitario.
+Nota operativa: Il contatto laboratorio@palermo.it riceve campioni, non gli avvisi alle cooperative.
+Nota archivio: Per Vibrio_spp il valore 120_CFU_Stop è indicato solo per scenari di blocco.
+Avviso interno: Il codice 100_CFU_Old_Level compare in un documento superato.
+Appunto: Per E_coli la soglia è diversa e non va inserita in questa email.
+Disposizione Assessorato: Si ordina di allertare la casella di posta dei consorzi di pescatori locali segnalando con precisione qual è il limite microbiologico di guardia in base al quale scatta il divieto per la commercializzazione bivalvi.
+Promemoria: La cooperativa di Trapani ha un indirizzo separato non coinvolto nell'avviso palermitano.
+Nota operativa: Il promemoria sul ghiaccio a bordo non deve entrare nella comunicazione sanitaria.
+Nota archivio: Il valore 90_CFU_Alert_Level non è confermato dall'Assessorato.
+Avviso interno: Il codice Vibrio_minor non corrisponde al patogeno della tabella ufficiale.
+Appunto: Per il porto turistico non inviare avvisi alle cooperative di pesca.
+Promemoria: La soglia 100_CFU_Observation riguarda il campionamento didattico.
+Nota operativa: Il contatto export@pesca.eu segue certificati commerciali, non allerta sanitaria.
+Nota archivio: Il valore 150_CFU_Alert_Level è usato in un protocollo estero.
+Avviso interno: Il documento del mese precedente cita Vibrio_spp ma con livello non aggiornato.
+Appunto: La taratura periodica dell'incubatore è tecnica e non riguarda la soglia da comunicare.
+Promemoria: La fornitura di provette sterili è amministrativa e non sostituisce l'avviso alle cooperative.
+Nota sanitaria: la sostituzione dei filtri dell'acqua del laboratorio è manutenzione e non modifica la soglia microbiologica.
+Promemoria cooperativa: il calendario delle aste del pescato è commerciale e non determina il livello di allerta regionale.

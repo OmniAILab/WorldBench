@@ -1,0 +1,21 @@
+Agent: For this morning's USMCA check, which medical file takes priority?
+Supervisor: The active file is MRI_Coil_X, which came in through the Otay Mesa commercial corridor.
+Agent: So I look up its tariff code in the manifest, without borrowing the code from another device?
+Agent: The flow comes from the Tijuana-San Diego cross-border industrial network?
+Supervisor: Yes, but the assembly location never replaces the manifest classification.
+Agent: USMCA status here depends on getting the Device_ID -> Tariff_Code match right.
+Supervisor: Yes. Do not infer the code from the generic name of the device family.
+Agent: So the ventilator, ECG, and endoscope lines are worth checking but are not the target.
+Supervisor: Correct. This morning's file covers MRI_Coil_X only.
+Agent: FAST lanes and CBP checks can delay the truck without changing the code.
+Supervisor: That is right.
+Agent: I keep the punctuation of the code exactly as it appears in the manifest.
+Supervisor: Yes, the compliance file expects the manifest value.
+Agent: I am not using a remembered classification or a neighboring code.
+Supervisor: Correct.
+Agent: The Otay Mesa corridor handles a lot of electronics and medical devices, hence the close lines.
+Supervisor: That is exactly why matching by identifier is mandatory.
+Agent: I am editing only the MRI_Coil_X row in the compliance sheet.
+Supervisor: Yes.
+Agent: And I leave the other TBC rows untouched.
+Supervisor: Perfect.

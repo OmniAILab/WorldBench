@@ -1,0 +1,21 @@
+Audit interno QA: revisione documentale prevista il 2026-08-05.
+Audit magazzino freddo: sopralluogo tecnico previsto il 2026-08-09.
+Audit fornitore imballaggi: verifica annuale prevista il 2026-08-12.
+Audit clinico locale: riunione preparatoria prevista il 2026-08-18.
+Audit doganale USA: controllo campione previsto il 2026-08-20.
+Audit AIFA archivio: chiusura fascicolo prevista il 2026-08-11.
+Ispezioni Internazionali: Appuntare a calendario per metà agosto (giorno 15) l'ispezione generale richiesta dalle agenzie estere volta a validare le nostre pratiche di spedizione transoceaniche.
+Audit EMA traduzioni: revisione linguistica prevista il 2026-08-22.
+Audit trasporto: prova logger prevista il 2026-08-07.
+Audit validazione: test apparecchi previsto il 2026-08-13.
+Audit sicurezza: briefing personale previsto il 2026-08-14.
+Audit qualità V11: riesame batch previsto il 2026-08-16.
+Audit export Canada: riunione commerciale prevista il 2026-08-19.
+Audit laboratorio: taratura strumenti prevista il 2026-08-10.
+Audit centrale: prova accessi prevista il 2026-08-21.
+Audit logistica: controllo baie previsto il 2026-08-06.
+Audit fornitori: confronto contratti previsto il 2026-08-17.
+Audit imballaggi secondari: verifica fornitore prevista il 2026-08-08.
+Audit formazione QA: sessione interna prevista il 2026-08-23.
+Audit documentazione export: controllo fascicoli previsto il 2026-08-24.
+Audit impianto refrigerazione: verifica manutentiva prevista il 2026-08-25.

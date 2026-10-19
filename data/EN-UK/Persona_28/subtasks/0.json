@@ -1,0 +1,38 @@
+{
+  "persona": "Arlo is a harbour pilot based in Southampton. He keeps inbound vessel records, tide notes, ferry traffic briefings, and safety documents for movements through the Solent.",
+  "task": "Update the Southampton tide prediction sheet by copying MSC_Titan’s docking requirement into its safe docking window field.",
+  "required_files": [
+    "inbound_manifest_southampton.xlsx"
+  ],
+  "output_files": [
+    "data/tide_prediction.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/tide_prediction.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "14.5m_High_Water"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/tide_prediction.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Capitainerie du Havre//Planning remorquage//FR
+BEGIN:VEVENT
+UID:d1a4e8c2-6b3f-4d9a-8e2c-5f1a7b3d9e4c
+DTSTART:20260405T051500
+DTEND:20260405T055500
+SUMMARY:Remorquage Seine_Trader
+DESCRIPTION:Assistance d’entrée vers Quai_A1 — 1 remorqueur.
+END:VEVENT
+BEGIN:VEVENT
+UID:e5b9c3d7-2a8f-4e1b-9c6d-4a2f8e5b1c3d
+DTSTART:20260405T081000
+DTEND:20260405T085000
+SUMMARY:Remorquage Normandie_Star
+DESCRIPTION:Assistance d’accostage Quai_D4 — 1 remorqueur.
+END:VEVENT
+BEGIN:VEVENT
+UID:f8c2d6e1-9b4a-4f7c-8d3e-1a5b9c7e2f4a
+DTSTART:20260405T103000
+DTEND:20260405T111500
+SUMMARY:Mouvement de barge — Darse de l’Océan
+DESCRIPTION:Déplacement technique inter-bassins.
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,60 @@
+{
+  "persona": "Maïwenn est médiatrice linguistique et programmatrice culturelle à Quimper. Elle prépare des ateliers en breton et en français, vérifie les variantes orthographiques utilisées dans les supports publics et collabore avec des radios locales pendant le Festival de Cornouaille, afin de rendre les contenus accessibles tout en respectant les usages culturels et linguistiques de Bretagne.",
+  "task": "Croise la version proposée, la liste validée du Festival et le dialogue de programmation. Pour Atelier_Brezhoneg_09, applique la version validée même si elle contredit la proposition, puis mets à jour l’orthographe retenue, la source de validation et le statut. Écarte Atelier_Brezhoneg_18 et les autres ateliers aux noms proches.",
+  "required_files": [
+    "versions_bretonnes_quimper.xlsx",
+    "validations_festival_cornouaille.xlsx",
+    "dialogue_validation_brezhoneg.txt"
+  ],
+  "output_files": [
+    "data/programme_cornouaille.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/programme_cornouaille.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Skolveurieg"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Liste validée Festival"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Confirmé"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/programme_cornouaille.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

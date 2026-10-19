@@ -1,0 +1,61 @@
+{
+  "persona": "陈是北京市东城区的一名本地快递员。他骑着电动三轮车穿梭在狭窄的胡同里，尽量避开天安门附近突发的贵宾道路管制，有机会就买个煎饼当早餐。",
+  "task": "交叉核对中轴线临时警戒通知、胡同路线规则、四合院保护片区配送单和交班对话。确认订单 DC-101 属于东四胡同四合院保护片区，判断 08:00–12:00 受警戒影响时应采用的配送模式，并在每日派送表中同时更新路线模式、院门保护提醒和执行窗口。不要把普通步行街、南锣鼓巷游客区或二环主路规则套用到该订单。",
+  "required_files": [
+    "event_notice_beijing.txt",
+    "route_rules_beijing.xlsx",
+    "siheyuan_delivery_beijing.xlsx",
+    "dialogue_hutong_delivery_beijing.txt"
+  ],
+  "output_files": [
+    "data/dispatch_beijing.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/dispatch_beijing.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 3,
+            "value": "手推车"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "不得堵住四合院院门及影壁通道"
+          },
+          {
+            "row": 2,
+            "col": 5,
+            "value": "08:00-12:00"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/dispatch_beijing.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 5
+        }
+      ]
+    }
+  ]
+}

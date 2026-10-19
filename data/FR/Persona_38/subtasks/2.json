@@ -1,0 +1,32 @@
+{
+  "persona": "Loïc est technicien de phare sur l’île d’Ouessant, chargé de l’entretien des optiques de Fresnel, des feux de secours et des équipements de signalisation maritime. Il travaille avec les services des Phares et Balises et le CROSS Corsen, en tenant compte des vents d’ouest, des horaires de marée et des contraintes d’accès au phare du Créac’h.",
+  "task": "Rédige un e-mail au CROSS Corsen après avoir croisé le contact, le registre d’incidents, la règle de priorité et le dialogue de quart. Identifie l’incident critique de signalisation maritime correspondant à la lampe principale hors service du phare du Créac’h et communique son identifiant, la panne et les coordonnées. Écarte les incidents de maintenance courante et ceux associés à un autre site.",
+  "required_files": [
+    "contacts_signalisation_maritime.xlsx",
+    "incidents_phares_ouessant.xlsx",
+    "priorites_incidents_phares.txt",
+    "dialogue_incident_creach.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "operations@cross-corsen.fr",
+        "keywords": [
+          "INC-409",
+          "Phare_du_Créac’h",
+          "Lampe_principale_hors_service",
+          "48.459N_5.129W",
+          "signalement immédiat"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_operations_*.eml",
+      "change": "create"
+    }
+  ]
+}

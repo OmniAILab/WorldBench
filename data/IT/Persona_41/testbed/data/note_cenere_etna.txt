@@ -1,0 +1,21 @@
+Zona Versante_Sud: caduta cenere del 2026-05-10, programmare lavaggio_foglie_2026-05-11.
+Zona Contrada_Rampante: cenere leggera del 2026-05-12, programmare solo monitoraggio.
+Zona Feudo_di_Mezzo: polvere vulcanica del 2026-05-09, intervento chiuso.
+Zona High_Altitude_North: vento secco del 2026-05-08, programmare irrigazione_minima.
+Zona Solicchiata: cenere del 2026-05-14, programmare controllo_2026-05-15.
+Zona Passopisciaro: lapilli del 2026-05-12, programmare verifica_muretti.
+Diario di Campagna: Qualora il vulcano riversi polveri scure sui terrazzamenti a nord, l'erogazione dei fitofarmaci naturali va registrata come "trattamento_biologico" e pianificata rigorosamente per la giornata successiva all'evento.
+Zona Randazzo_Bassa: pioggia acida assente, programmare nessun intervento.
+Zona Linguaglossa: cenere archivio 2025, non calendario corrente.
+Zona Milo_Alta: cenere del 2026-05-13, programmare controllo_2026-05-14.
+Zona Montelaguardia: cenere minima del 2026-05-12, programmare foto_appezzamento.
+Zona Nerello_Cru_1: umidità alta, programmare arieggiamento.
+Zona Sciaranuova: cenere del 2026-05-11, programmare trattamento_2026-05-12.
+Zona Calderara: solo vento di scirocco, programmare controllo_pali.
+Zona San_Lorenzo: cenere su muretto, programmare pulizia_accesso.
+Zona Pietramarina: dato sensore instabile, programmare verifica_sensore.
+Zona High_Altitude_Nord: nome incompleto, programmare confronto_anagrafica.
+Zona Contrada_Allegracore: vento moderato del 2026-05-10, programmare controllo_pali.
+Zona Rovittello: pioggia leggera del 2026-05-11, programmare verifica_drenaggio.
+Zona Guardiola: cenere leggera del 2026-05-10, programmare monitoraggio_fogliare.
+Zona Santo_Spirito: vento vulcanico del 2026-05-13, programmare controllo_filari.

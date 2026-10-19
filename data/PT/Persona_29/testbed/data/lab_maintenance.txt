@@ -1,0 +1,19 @@
+Plano de manutenção do laboratório de Santa Maria da Feira — registo interno do equipamento QA-ESP-02, analisador de espectrografia. A indisponibilidade para recalibração está prevista para 20 de abril de 2026. Após a intervenção, registar o certificado de calibração emitido pelo prestador e só repor o aparelho em serviço após a verificação do laboratório.
+Verificação do cromatógrafo auxiliar marcada para 2026-03-18.
+Limpeza da câmara de amostras prevista para 2026-03-25.
+Substituição do filtro de ar agendada para 2026-04-02.
+Ensaio do sensor de humidade marcado para 2026-04-08.
+Revisão da bomba de vácuo prevista para 2026-04-12.
+Calibração da balança de precisão marcada para 2026-04-16.
+Atualização do software laboratorial prevista para 2026-04-18.
+Analisador de espectrografia indisponível para recalibração em 2026-04-20.
+Teste do detetor ótico marcado para 2026-04-22.
+Revisão do sistema de extração prevista para 2026-04-24.
+Limpeza técnica do laboratório marcada para 2026-04-27.
+Verificação das pipetas prevista para 2026-04-29.
+Controlo do gerador de azoto marcado para 2026-05-02.
+Inspeção elétrica do quadro prevista para 2026-05-05.
+Teste da fonte de alimentação marcado para 2026-05-08.
+Inventário dos padrões químicos previsto para 2026-05-11.
+Verificação extraordinária do módulo ótico prevista para 2026-04-19.
+Teste de estabilidade pós-calibração agendado para 2026-04-21.

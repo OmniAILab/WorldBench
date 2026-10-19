@@ -1,0 +1,8 @@
+Élise : Jasmine_Absolute_09 est classé Dans_les_limites_sûres ?
+Responsable sécurité : Oui, ce profil correspond à Conforme_100.
+Élise : La version active est Référentiel_2026.2.
+Responsable sécurité : Exact, n’utilise pas Référentiel_2026.1 ni la version test.
+Élise : Je renseigne le score, la version et « Validé ».
+Responsable sécurité : Oui.
+Élise : Le score provient de notre grille interne ; les restrictions IFRA sont vérifiées séparément.
+Responsable conformité : Exact. Indique bien la révision active du référentiel de l’atelier.

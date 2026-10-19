@@ -1,0 +1,39 @@
+{
+  "persona": "Raj is a desalination plant technician in Carlsbad, California, responsible for the high-pressure membrane systems that provide water to San Diego County. He steers through the rigorous environmental monitoring requirements of the California Coastal Commission and the San Diego Regional Water Quality Control Board, documenting salinity levels and energy consumption patterns to maintain optimal throughput while protecting the surrounding marine habitat from brine discharge.",
+  "task": "Compute the energy per unit water for the shift and write the efficiency figure into the operations spreadsheet.",
+  "required_files": [
+    "efficiency_note_carlsbad.txt",
+    "ops_carlsbad.xlsx"
+  ],
+  "output_files": [
+    "data/efficiency_carlsbad.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/efficiency_carlsbad.xlsx",
+        "matches": [
+          {
+            "row": 7,
+            "col": 2,
+            "value": 300
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/efficiency_carlsbad.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 7,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

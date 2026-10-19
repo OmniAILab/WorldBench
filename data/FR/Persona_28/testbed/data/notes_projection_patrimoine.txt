@@ -1,0 +1,7 @@
+Cabine de projection — fiches de conduite des copies et de l’accompagnement musical pour les séances du patrimoine.
+Copie Entr_acte_01 : changement de bobine à 00:18:20, lumière salle à 20 % et fondu sonore progressif sur cinq secondes en cabine.
+Copie Napoléon_02 : changement de bobine à 00:24:10, lumière salle à 15 %.
+Copie La_Roue_03 : changement de bobine à 00:21:45, lumière salle à 10 %.
+Copie Le_Mécano_de_la_Générale_09 : changement de bobine à 00:20:40, lumière salle à 15 % et départ du piano trois secondes avant l’image.
+Copie Le_Million_12 : changement de bobine à 00:21:10, lumière salle à 15 %.
+Copie Le_Mécano_de_la_Générale_18 : changement de bobine à 00:20:40, lumière salle à 15 % et fondu sonore en cabine.

@@ -1,0 +1,29 @@
+{
+  "persona": "Keisha is a harbor master’s liaison at the Port of Baltimore in Maryland, specializing in the scheduling of Roll-on/Roll-off vessels carrying heavy machinery and automobiles. She handles the intricate documentation for the Maryland Port Administration and the specific dredging schedules of the Chesapeake Bay, ensuring that massive cargo ships are timed with the tides and that local terminal congestion remains minimal despite the high volume of international trade.",
+  "task": "Extract the high tide window from the harbor master's daily briefing document and add a vessel docking event to the port operations calendar.",
+  "required_files": [
+    "harbor_briefing.txt"
+  ],
+  "output_files": [
+    "data/port_ops_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/port_ops_2026.ics",
+        "summary_keywords": [
+          "Vessel Docking"
+        ],
+        "time_start": "2026-04-01 14:00:00",
+        "time_end": "2026-04-01 16:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/port_ops_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

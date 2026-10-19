@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cinémathèque française//Planification des projections//FR
+BEGIN:VEVENT
+UID:3adbdf8a-0a76-5ee5-adbb-cab820ed8625
+DTSTART:20260909T160000
+DTEND:20260909T163000
+SUMMARY:Contrôle projecteur
+DESCRIPTION:Vérifier l’entraînement 35 mm.
+END:VEVENT
+BEGIN:VEVENT
+UID:56ebcf3c-b5ea-5d0d-b8cc-8ca29786844a
+DTSTART:20260909T200000
+DTEND:20260909T210000
+SUMMARY:Répétition Mécano — créneau du soir
+DESCRIPTION:Salle Langlois réservée au groupe du soir.
+END:VEVENT
+BEGIN:VEVENT
+UID:a7379684-0d84-53ad-a5ff-f954cd68b907
+DTSTART:20260910T183000
+DTEND:20260910T193000
+SUMMARY:Répétition Voyage dans la Lune
+DESCRIPTION:Piano-projection.
+END:VEVENT
+END:VCALENDAR

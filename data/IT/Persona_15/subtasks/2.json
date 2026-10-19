@@ -1,0 +1,29 @@
+{
+  "persona": "Antonio è un referente per il patrimonio civico a Napoli e lavora per la Soprintendenza Archeologia Belle Arti e Paesaggio per gestire l'intersezione tra l'espansione della metropolitana e la tutela delle rovine greco-romane. Si muove tra le complessità burocratiche del Piano Regolatore Generale supervisionando le squadre archeologiche che operano a fianco delle imprese di costruzione della Linea 6 della metropolitana. Il suo lavoro comprende il meticoloso esame delle mappe stratigrafiche e la mediazione tra le moderne esigenze di trasporto della città e la protezione del patrimonio sotterraneo napoletano.",
+  "task": "Scrivi una email al responsabile del cantiere della Linea 6 richiedendo una pausa nella trincea, includendo il codice della trincea e la frase della clausola di tutela.",
+  "required_files": [
+    "note_email_metro_napoli.txt",
+    "contatti_metro_napoli.xlsx",
+    "trincea_napoli_v2.xlsx",
+    "nota_prg_napoli_comunicazione.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "manager@metronapoli.it",
+        "keywords": [
+          "M6-T1",
+          "reperti protetti"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_manager_*.eml",
+      "change": "create"
+    }
+  ]
+}

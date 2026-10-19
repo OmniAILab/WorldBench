@@ -1,0 +1,38 @@
+{
+  "persona": "Martha is a sustainability consultant in Manchester, working on the reuse of former cotton mills as low-carbon residential hubs. She updates structural audit sheets, BREEAM notes, council strategy documents, and developer emails.",
+  "task": "Update the BREEAM standards sheet by copying the heat-retention assessment for Ancoats_Mill_B into the viability rating field.",
+  "required_files": [
+    "structural_audit_manchester.xlsx"
+  ],
+  "output_files": [
+    "data/breeam_standards.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/breeam_standards.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Poor_Thermal_Bridge"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/breeam_standards.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

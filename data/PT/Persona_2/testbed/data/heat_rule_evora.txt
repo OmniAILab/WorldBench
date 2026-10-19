@@ -1,0 +1,9 @@
+Procedimento Interno da Equipa de Descortiçamento — Herdade de Évora (Atualizado em 25 de março de 2026)
+Critérios internos de operação agrometeorológica e segurança no trabalho (independentes dos avisos meteorológicos nacionais de temperatura emitidos pelo IPMA):
+1. Monitorização de humidade do solo por sonda capacitiva:
+   - Regra da equipa de extração: classificar o risco de calor como Alto quando a humidade do solo for inferior a 0,20.
+   - Manter o risco de calor como Moderado quando a humidade do solo se situar entre 0,20 e 0,25.
+   - Considerar risco Baixo quando a humidade do solo permanecer acima de 0,25 (até ao limite de compactação de 0,42).
+2. Medidas complementares de campo:
+   - Quando a parcela apresentar leitura de humidade igual ou inferior a 0,18 (como verificado nos setores mais expostos de encosta), antecipar o início do turno da manhã e reforçar o abastecimento de água potável nas frentes de tiragem.
+   - Suspender a circulação de tratores pesados em caminhos secundários se a humidade do solo descer abaixo de 0,12 ou se as rajadas de vento ultrapassarem 45 km/h.

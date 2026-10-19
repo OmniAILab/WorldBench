@@ -1,0 +1,50 @@
+NT-18: loose setts near kerb - next week’s inspection, do not log today.
+NT-12: loose setts beside gully - archived after Princes Street works.
+NT-09: uneven setts near kerb - already repaired after Hogmanay barriers were removed.
+NT-21: settlement crack by facade - photograph only, no current defect row.
+NT-11: loose setts near kerb.
+NT-15: loose cobbles near kerb - not a New Town sett record.
+NT-14: settlement crack by facade.
+NT-16: facade staining above basement area - not a sett defect.
+NT-17: cracked flagstone by doorway - belongs to access route log.
+NT-19: temporary barrier left by tram stop - operational note only.
+NT-20: minor pointing loss near railings - listed-building note, not this log.
+NT-22: loose setts near kerb - duplicate wording from old Queen Street file.
+NT-23: settlement crack by shopfront - Stockbridge record, not New Town site.
+Use one row per current defect in the log.
+Do not include Fringe crowd-management notes in the defect log.
+Keep site codes exactly as written in the inspection note.
+George Street festival-barrier timings are kept in the seasonal operations file. Reference 1A is recorded separately.
+Princes Street tram-diversion notes are recorded separately from conservation defects. Reference 1B is recorded separately.
+New Town residents' association notices are archived outside work orders. Reference 2A is recorded separately.
+Charlotte Square event access is logged in the public-realm diary. Reference 2B is recorded separately.
+Hogmanay crowd-control records are retained in the events archive. Reference 3A is recorded separately.
+Stockbridge market servicing notes are not part of listed-building files. Reference 3B is recorded separately.
+Council bin-collection changes are recorded separately from heritage inspections. Reference 4A is recorded separately.
+Queen Street Gardens access notices are held in a separate liaison folder. Reference 4B is recorded separately.
+Festival Fringe steward briefings are filed with event operations. Reference 5A is recorded separately.
+Edinburgh tram stop cleaning reports sit outside the conservation register. Reference 5B is recorded separately.
+George Street festival-barrier timings are kept in the seasonal operations file. Reference 6A is recorded separately.
+Princes Street tram-diversion notes are recorded separately from conservation defects. Reference 6B is recorded separately.
+New Town residents' association notices are archived outside work orders. Reference 7A is recorded separately.
+Charlotte Square event access is logged in the public-realm diary. Reference 7B is recorded separately.
+Hogmanay crowd-control records are retained in the events archive. Reference 8A is recorded separately.
+Stockbridge market servicing notes are not part of listed-building files. Reference 8B is recorded separately.
+Council bin-collection changes are recorded separately from heritage inspections. Reference 9A is recorded separately.
+Queen Street Gardens access notices are held in a separate liaison folder. Reference 9B is recorded separately.
+Festival Fringe steward briefings are filed with event operations. Reference 10A is recorded separately.
+Edinburgh tram stop cleaning reports sit outside the conservation register. Reference 10B is recorded separately.
+George Street festival-barrier timings are kept in the seasonal operations file. Reference 11A is recorded separately.
+Princes Street tram-diversion notes are recorded separately from conservation defects. Reference 11B is recorded separately.
+New Town residents' association notices are archived outside work orders. Reference 12A is recorded separately.
+Charlotte Square event access is logged in the public-realm diary. Reference 12B is recorded separately.
+Hogmanay crowd-control records are retained in the events archive. Reference 13A is recorded separately.
+Stockbridge market servicing notes are not part of listed-building files. Reference 13B is recorded separately.
+Council bin-collection changes are recorded separately from heritage inspections. Reference 14A is recorded separately.
+Queen Street Gardens access notices are held in a separate liaison folder. Reference 14B is recorded separately.
+Festival Fringe steward briefings are filed with event operations. Reference 15A is recorded separately.
+Edinburgh tram stop cleaning reports sit outside the conservation register. Reference 15B is recorded separately.
+George Street festival-barrier timings are kept in the seasonal operations file. Reference 16A is recorded separately.
+Princes Street tram-diversion notes are recorded separately from conservation defects. Reference 16B is recorded separately.
+NT-111: loose setts near kerb - archived duplicate code, do not log today.
+NT-114: settlement crack by facade - previous inspection only, do not log today.

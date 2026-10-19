@@ -1,0 +1,20 @@
+O lote Burel_Blankets_Paris está atrasado por controlo alfandegário.
+O lote Burel_Scarves_Berlin foi reprogramado por alteração do contentor.
+O lote Burel_Bags_Milan aguarda uma inspeção documental.
+O lote Burel_Capes_Madrid está atrasado por greve no terminal.
+O lote Burel_Hats_Brussels aguarda a correção de uma etiqueta.
+O lote Burel_Rugs_Vienna está atrasado porque o veículo está em manutenção.
+O lote Burel_Vests_Amsterdam foi afetado pelo cancelamento do ferry.
+O envio de casacos de burel destinado a Nova Iorque está atrasado devido a neve intensa na passagem da Serra da Estrela; atualizar o prazo comunicado aos compradores.
+O lote Burel_Cushions_London está atrasado por uma fila no porto.
+O lote Burel_Jackets_Oslo circula numa estrada condicionada.
+O lote Burel_Ponchos_Stockholm foi afetado por um voo reprogramado.
+O lote Burel_Shoes_Copenhagen aguarda revisão da palete.
+O lote Burel_Throws_Dublin tem documentação incompleta.
+O lote Burel_Coats_Toronto aguarda um contentor disponível.
+O lote Burel_Bags_Zurich sofreu atraso na entrega local.
+O lote Burel_Rugs_Prague está sujeito a uma inspeção de peso.
+O lote Burel_Capes_Helsinki foi afetado por tempestade costeira.
+O lote Burel_Blankets_Boston sofreu atraso na ligação ferroviária.
+O lote de capas para Newark terá um atraso curto por neve moderada no terminal rodoviário.
+Os casacos destinados a Boston aguardam passagem numa estrada de montanha com circulação condicionada.

@@ -1,0 +1,41 @@
+{
+  "persona": "强是大兴安岭雪林中的一名本地护林员。他追踪哪些林区因恢复生长而关闭，并帮助迷路的生态游客回到主步道。",
+  "task": "根据卫星树冠覆盖数据和碳变化规则，计算目标小班的碳变化量，并填入报告表。",
+  "required_files": [
+    "satellite_cover.xlsx",
+    "carbon_rules.xlsx",
+    "carbon_note_heilongjiang.txt",
+    "dialogue_khingan_carbon.txt"
+  ],
+  "output_files": [
+    "data/report_heilongjiang.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/report_heilongjiang.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "120"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/report_heilongjiang.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

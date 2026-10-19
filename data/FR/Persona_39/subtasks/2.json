@@ -1,0 +1,33 @@
+{
+  "persona": "Chloé est conductrice et responsable d’exploitation d’un train à vapeur patrimonial dans les Cévennes. Elle surveille la pression des chaudières, organise les croisements sur voie unique et applique les protocoles de prévention des incendies, particulièrement pendant les périodes sèches où les châtaigneraies cévenoles sont vulnérables.",
+  "task": "Rédige un e-mail au chef de gare concerné en croisant le graphique des croisements sur voie unique, l’état de l'évitement, le contact du lieu et le dialogue circulation. Pour TR-209, identifie le mouvement qui constitue réellement le croisement à confirmer et communique sa date, son heure, son lieu et son type d’opération. Écarte les simples attentes du même train.",
+  "required_files": [
+    "contacts_gares_cevennes.xlsx",
+    "creneaux_croisement_cevennes.xlsx",
+    "etat_voie_cevennes.xlsx",
+    "dialogue_circulation_cevennes.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "circulation@corbes.fr",
+        "keywords": [
+          "TR-209",
+          "2026-07-18",
+          "12:40",
+          "Corbès",
+          "Croisement_train_historique",
+          "croisement validé"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_circulation_*.eml",
+      "change": "create"
+    }
+  ]
+}

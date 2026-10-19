@@ -1,0 +1,29 @@
+{
+  "persona": "Joaquín is an arid-landscaping architect in Phoenix, Arizona, who designs drought-tolerant public spaces that mitigate the urban heat island effect. He must adhere to the stringent groundwater management policies of the Arizona Department of Water Resources and the specific shade-structure ordinances of the Maricopa County Planning and Development Department, selecting native flora that thrives in extreme heat while documenting the long-term water savings of each installation.",
+  "task": "Write an email to Maricopa County requesting shade-structure review and include the ordinance phrase from the note.",
+  "required_files": [
+    "maricopa_notice.txt",
+    "county_contacts.xlsx",
+    "email_template_maricopa.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "shade@maricopa.gov",
+        "keywords": [
+          "50%",
+          "midday coverage",
+          "review"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_shade_*.eml",
+      "change": "create"
+    }
+  ]
+}

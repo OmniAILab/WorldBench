@@ -1,0 +1,20 @@
+ADWR: neighborhood median retrofit - under 900 gallons/week.
+ADWR: library courtyard - up to 700 gallons/week during establishment.
+ADWR: sports field conversion - 1800 gallons/week after turf removal.
+ADWR: civic plaza misting - maximum 400 gallons/week.
+ADWR: HeatIsland_Park_A - irrigation budget 1200 gallons/week.
+ADWR: shaded bus stop - maximum 300 gallons/week.
+ADWR: school garden - under 650 gallons/week.
+ADWR: desert trailhead - under 500 gallons/week.
+1250 is an unapproved contractor estimate.
+1200 cubic meters is not the unit used by this policy.
+Phoenix: enter the number without the unit.
+Phoenix: respect the groundwater limit during extreme heat.
+Phoenix: the monsoon does not replace the budget.
+Phoenix: the project targets the urban heat island.
+Phoenix: the shade structure is reviewed separately by the county.
+Phoenix: the Sonoran Desert palette lowers demand but does not change the value.
+Phoenix: the target field is Max_Gallons_Week.
+Instruction: modify HeatIsland_Park_A only.
+Instruction: do not copy 900, 700, or 1800.
+Instruction: the final value is 1200.

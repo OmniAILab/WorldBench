@@ -1,0 +1,28 @@
+{
+  "persona": "静是海南热带文昌航天发射中心的一名物流助理。她追踪设备运输，抱怨没完没了的蚊子，并协助本地大学卫星的遥测跟踪协调工作。",
+  "task": "找到未通过的发射前系统检查项，并写一封邮件给发射台主任，报告异常并请求按发射安全程序暂停后续流程，等待授权人员确认。",
+  "required_files": [
+    "launch_contacts_wenchang.xlsx",
+    "cnsa_checklist.xlsx",
+    "wenchang_prelaunch_handover.docx",
+    "wenchang_launch_note.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "launch.director@wenchangspace.cn",
+        "keywords": [
+          "异常报告：Fuel_Pressurization 中检测到 Leak_Detected"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_launch.director_*.eml",
+      "change": "create"
+    }
+  ]
+}

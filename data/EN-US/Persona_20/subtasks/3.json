@@ -1,0 +1,40 @@
+{
+  "persona": "Gunnar is a logistics coordinator for a bush aviation service based in Anchorage, Alaska, managing the delivery of essential supplies to off-grid Arctic communities. He oversees the complexities of Federal Aviation Administration flight regulations for remote terrain and the logistical hurdles of the Alaska Department of Transportation, ensuring that fuel, medicine, and building materials are synchronized with fluctuating weather windows and the limited runway capacities of isolated gravel strips.",
+  "task": "Use the Arctic community runway log to find the runway condition at the destination of medical supply shipment MED-06 and update the maximum cargo weight field in the FAA payload spreadsheet.",
+  "required_files": [
+    "community_log_anchorage.xlsx",
+    "medical_manifest_anchorage_us.xlsx",
+    "faa_payload_limits_us.xlsx"
+  ],
+  "output_files": [
+    "data/faa_payloads.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/faa_payloads.xlsx",
+        "matches": [
+          {
+            "row": 7,
+            "col": 2,
+            "value": 850
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/faa_payloads.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 7,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

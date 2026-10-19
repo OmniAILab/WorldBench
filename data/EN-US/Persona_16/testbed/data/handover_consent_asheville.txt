@@ -1,0 +1,22 @@
+Coordinator: Which consent is actually valid today?
+Field officer: Smith has the current note "Consent Granted for Smith".
+Coordinator: Davis only gave access for a camera.
+Officer: So not a full consent.
+Coordinator: Wilson only gave verbal agreement.
+Officer: Not enough for this workflow.
+Coordinator: Thomas signed for a different parcel.
+Officer: Exclude it.
+Coordinator: Clark has an outdated form.
+Officer: Exclude that too.
+Coordinator: In the Blue Ridge, private access is often very narrowly defined.
+Officer: Yes, a driveway is not access to the forest stand.
+Coordinator: The email goes to the NC Forest Service.
+Officer: The contact is in the dedicated sheet.
+Coordinator: I am copying the consent phrase exactly.
+Officer: Yes.
+Coordinator: No interpretation of the status.
+Officer: Correct.
+Coordinator: And no extra personal data.
+Officer: Perfect.
+Blue Ridge context: eastern hemlock is heavily affected by the hemlock woolly adelgid across the Appalachians.
+Pisgah: forest roads, slopes, and private access make treatment rounds harder to schedule.

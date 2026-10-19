@@ -1,0 +1,28 @@
+{
+  "persona": "Tom is an agricultural technologist in Lincoln, where he uses drones for precision spraying across arable farms in the Fens. He keeps crop health sheets, flight-path records, CAA notes, and Environment Agency buffer-zone guidance.",
+  "task": "Write a short compliance alert email to the drone pilot team, combining the BVLOS_Spraying operation type with its CAA altitude limit exactly.",
+  "required_files": [
+    "caa_regulations.xlsx",
+    "pilot_contacts_lincoln.xlsx",
+    "email_templates_lincoln.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "pilots@lincoln-droneagri.uk",
+        "keywords": [
+          "400_Feet_Max",
+          "BVLOS_Spraying"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_pilots_*.eml",
+      "change": "create"
+    }
+  ]
+}

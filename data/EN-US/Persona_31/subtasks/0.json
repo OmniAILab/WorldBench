@@ -1,0 +1,38 @@
+{
+  "persona": "Sterling is a digital archives specialist in Richmond, Virginia, focusing on the preservation of the city’s extensive Civil War-era records and genealogical documents. He manages the rigorous metadata standards of the Library of Virginia and the technical requirements for high-resolution digitizing projects, ensuring that fragile historical papers are accurately scanned and indexed for public access while adhering to federal grants for historical preservation and cultural heritage.",
+  "task": "Use the preservation audit to find the recorded condition of Letter_1863_A and update that document condition in the scanner calibration sheet.",
+  "required_files": [
+    "preservation_audit_richmond.xlsx"
+  ],
+  "output_files": [
+    "data/scanner_calibration.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/scanner_calibration.xlsx",
+        "matches": [
+          {
+            "row": 6,
+            "col": 2,
+            "value": "Extremely_Brittle"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/scanner_calibration.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

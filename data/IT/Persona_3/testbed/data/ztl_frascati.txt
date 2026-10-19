@@ -1,0 +1,23 @@
+Appunto ZTL: lo scarico può avvenire alle 09:45 perché è vicino alla finestra.
+Nota cantina: il fornitore Frascati_DOCG_CoOp preferisce le 10:30.
+Promemoria cucina: programmare tutti i fornitori alle 08:15.
+Appunto sala: evitare le 07:30 perché coincide con il caffè del personale.
+Nota centro storico: per il vino usare 06:15 prima dell'apertura.
+Ordinanza Comune di Frascati: Con effetto immediato, l'accesso ai furgoni commerciali nel centro storico per il rifornimento locali è consentito unicamente dalle 06:30 alle 09:30.
+Accordo con la Cantina Sociale: Il consorzio del vino ci ha garantito che il loro corriere spaccherà il minuto in piazza alle 07:30 per agevolare lo stoccaggio.
+Promemoria Frascati: il fornitore del pane deve ricevere lo slot del vino.
+Appunto ZTL 2024: la finestra era 05:30-07:00.
+Nota magazzino: il vino può essere scaricato durante il servizio del pranzo.
+Promemoria fornitore: usare l'orario del corriere dell'olio.
+Appunto lavagna: non aggiornare Frascati_DOCG_CoOp se esiste già Orto_Tusculum.
+Nota varco: scegliere 11:45 per evitare il passaggio dei clienti.
+Promemoria piazza: il mercato dei fiori apre alle 07:30, quindi evitare quella fascia.
+Appunto bottiglie: programmare alle 12:30 quando il magazzino è più libero.
+Nota prenotazioni: usare lo slot del tavolo grande come orario di scarico.
+Promemoria DOCG: indicare 'mattina' invece dell'orario preciso.
+Appunto camion: il campanello del retrobottega suona piano dopo le 09:30.
+Nota sala: non usare la finestra ZTL per fornitori di vino.
+Appunto magazzino: lo scarico del vino richiede due addetti per le casse pesanti.
+Nota piano: registrare il numero di bancali consegnati nel piano consegne.
+Promemoria varco: il transito del furgone richiede il permesso targa caricato a sistema.
+Nota stagione: in alta stagione il fornitore può anticipare di pochi minuti l'arrivo.

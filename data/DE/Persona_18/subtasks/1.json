@@ -1,0 +1,28 @@
+{
+  "persona": "Lukas ist städtischer Wasserwerksinspektor und zuständig für die berühmten Bächle, das Netz schmaler, mittelalterlicher Wasserrinnen entlang der Fußgängerzonen von Freiburg im Breisgau. Er begegnet ständigen Verstopfungsgefahren durch herbstliches Laub und den strengen städtischen Wasserqualitätsvorgaben der baden-württembergischen Umweltbehörde. Er führt fortlaufend Sedimentwarnungen der vorgelagerten Flussabschnitte, aktuelle städtische Straßenreinigungspläne und plötzliche Starkregenvorhersagen zusammen, um seine Reinigungstrupps rechtzeitig vor Überflutungen an die kritischsten innerstädtischen Engpässe zu schicken.",
+  "task": "Schreibe eine E-Mail an die Freiburger Straßenreinigung und melde den Bereich, in dem wegen Starkregens sofort eine Bächle-Räumung erforderlich ist.",
+  "required_files": [
+    "wettervorhersage.xlsx",
+    "kontakte_freiburg.xlsx",
+    "starkregen_hinweise_freiburg.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "strassenreinigung@freiburg.de",
+        "keywords": [
+          "Bereich am Münsterplatz",
+          "sofortiger Einsatz erforderlich"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_strassenreinigung_*.eml",
+      "change": "create"
+    }
+  ]
+}

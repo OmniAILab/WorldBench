@@ -1,0 +1,31 @@
+{
+  "persona": "Alejandro es madrileño y dirige la logística de una distribuidora farmacéutica con sede en el polígono industrial de Vicálvaro. Coordina el transporte de suministros médicos termolábiles a través de las zonas ambientales de Madrid 360 y adapta continuamente los repartos a las restricciones de acceso de la ZBEDEP Distrito Centro y a los escenarios del Protocolo Anticontaminación que activa el Ayuntamiento de Madrid.",
+  "task": "Extrae del aviso de cadena de frío las tres instrucciones obligatorias que la Auditoría de Sanidad de la Comunidad de Madrid exige a los repartos termolábiles dentro de Madrid 360 y trasládalas a la tarjeta de control del conductor. Ignora las tolerancias de temperatura ampliadas, los atajos de Vicálvaro y las prácticas que sustituyen el precinto o la vigilancia del vehículo.",
+  "required_files": [
+    "aviso_cadena_frio_madrid.txt"
+  ],
+  "output_files": [
+    "data/tarjeta_conductor.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/tarjeta_conductor.docx",
+        "keywords": [
+          "Madrid 360",
+          "Verificar 2–8 °C en la entrega",
+          "Registrar el número de precinto",
+          "No dejar el vehículo sin vigilancia"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/tarjeta_conductor.docx",
+      "change": "modify"
+    }
+  ]
+}

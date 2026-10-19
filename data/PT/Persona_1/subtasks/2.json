@@ -1,0 +1,29 @@
+{
+  "persona": "Sofia é de Coimbra e trabalha há uma década como professora do ensino secundário no bairro histórico da Alta. Lida diariamente com a complexidade de articular o currículo nacional do Ministério da Educação com percursos personalizados de aprendizagem dos alunos, sintetizando grandes volumes de materiais educativos e dados de avaliação para garantir que os seus estudantes progridem, apesar dos quadros rígidos de avaliação externa.",
+  "task": "Escreve um email aos encarregados de educação da turma da Alta de Coimbra a comunicar o foco de revisão da semana 2026-W14.",
+  "required_files": [
+    "guardians_coimbra.xlsx",
+    "revision_focus_coimbra.txt",
+    "plan_coimbra.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_encarregados_20260401.txt",
+        "keywords": [
+          "O foco de revisão da semana 2026-W14 é Física"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_encarregados_20260401.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

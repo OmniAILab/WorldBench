@@ -1,0 +1,38 @@
+{
+  "persona": "Sofia is a creative lead at an animation studio in Bristol’s Harbourside. She coordinates stop-motion assets, lighting notes, compositing requirements, and production paperwork for studio shoots.",
+  "task": "Use the Bristol Harbourside studio tracker to copy the production location for Main_Character_Puppet into its rebate-eligibility field in the tax incentives sheet.",
+  "required_files": [
+    "studio_tracker_bristol.xlsx"
+  ],
+  "output_files": [
+    "data/tax_incentives.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/tax_incentives.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "UK_Studio_A"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/tax_incentives.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

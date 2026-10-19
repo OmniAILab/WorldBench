@@ -1,0 +1,4 @@
+Solène : Le dossier d’expédition précise-t-il le contrôle de dorure attendu ?
+Experte : Oui, il porte sur la feuille d’or du lot export et non sur le contrôle d’émail.
+Experte : EXP-OR-20 est le lot international actif et exige Révision_feuille_d_or_export.
+Logistique : Le seul créneau libre le 20 juin est 15:00-15:30.

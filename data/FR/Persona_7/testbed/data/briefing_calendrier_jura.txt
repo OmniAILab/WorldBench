@@ -1,0 +1,4 @@
+Responsable cave : Pour le robot de retournement et l’équipe du matin, il faut ajouter au calendrier l’intervention sur la meule JUR-24.
+Élodie : Le programme mentionne un passage le 8 avril dans la cave de Poligny et un autre le 15 avril dans la cave nord.
+Responsable cave : Nous planifions uniquement le premier retournement confirmé, soit le 8 avril 2026 de 06:45 à 07:15 dans la cave de Poligny. Ne confonds pas non plus avec JUR-26 qui passe juste après.
+Élodie : Entendu, je crée l’événement « Retournement JUR-24 » sur ce créneau en précisant « cave de Poligny » et « premier retournement confirmé » dans la description.

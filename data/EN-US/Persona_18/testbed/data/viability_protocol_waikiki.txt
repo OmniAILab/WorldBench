@@ -1,0 +1,22 @@
+Internal protocol: 8.3_Normal -> Proceed.
+Internal protocol: 8.2_Normal -> Proceed.
+Internal protocol: 8.1_Normal -> Proceed.
+Internal protocol: 8.0_Normal -> Proceed_With_Monitoring.
+Internal protocol: 8.0_Watch -> Proceed_With_Monitoring.
+Internal protocol: 7.9_Watch -> Enhanced_Monitoring.
+Internal protocol: 7.8_Acidic -> Hold_For_Review.
+Internal protocol: 7.7_Acidic -> Hold_For_Review.
+Internal protocol: 7.6_Acidic -> Do_Not_Transplant.
+Internal protocol: a missing pH status -> Data_Check.
+Internal protocol: a sensor under calibration -> Data_Check.
+Internal protocol: a reference value from outside the district does not replace the active sector.
+Internal protocol: an older reading must be set aside when a current reading exists.
+Internal protocol: a swell advisory does not change the pH category.
+Internal protocol: a beach closure does not change the laboratory decision.
+Internal protocol: a sector outside the nursery is not a candidate for today's transplant.
+Internal protocol: sectors in Watch require enhanced follow-up.
+Internal protocol: Acidic sectors require a review before transplanting.
+Internal protocol: keep the exact decision wording in the growth sheet.
+Internal protocol: do not replace the decision with the numeric pH value.
+Internal protocol: document the source of the active sector.
+Internal protocol: edit only the row matching the active nursery sector.

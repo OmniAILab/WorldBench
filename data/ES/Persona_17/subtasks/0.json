@@ -1,0 +1,39 @@
+{
+  "persona": "Marc es urbanista en València y se encarga de la ampliación del corredor verde del Jardín del Turia. Compagina la normativa de protección del litoral con las restricciones de uso del agua de la Confederación Hidrográfica del Júcar. Su trabajo consiste en interpretar datos satelitales de alta resolución sobre islas de calor urbanas y coordinarse con las concejalías municipales para que las nuevas actuaciones encajen con los objetivos de la ciudad como Capital Verde Europea.",
+  "task": "Compara los índices de isla de calor del Jardín del Turia, identifica el segmento más caliente y actualiza su prioridad de intervención.",
+  "required_files": [
+    "plan_adaptacion_valencia.txt",
+    "indices_calor_valencia.xlsx"
+  ],
+  "output_files": [
+    "data/prioridades_turia.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/prioridades_turia.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Alta"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/prioridades_turia.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

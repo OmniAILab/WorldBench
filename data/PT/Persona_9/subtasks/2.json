@@ -1,0 +1,30 @@
+{
+  "persona": "Tomás nasceu em Vila Nova de Gaia e trabalha há quinze anos como mestre de cave numa empresa de vinho do Porto junto ao Douro. Acompanha a evolução dos lotes em casco, as perdas por evaporação e a documentação de rastreabilidade exigida nas operações de envelhecimento e expedição.",
+  "task": "Escreve um email aos aprendizes da cave a comunicar o aviso de humidade crítica identificado no piso ribeirinho e a instrução de ajuste da ventilação.",
+  "required_files": [
+    "humidity_log.xlsx",
+    "humidity_status_gaia.xlsx",
+    "ventilation_instruction_gaia.txt",
+    "lodge_contacts.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_lodge_apprentices.txt",
+        "keywords": [
+          "A humidade no Cave ribeirinha — piso -3 atingiu 95%, com risco elevado de desenvolvimento de bolor; ajustar imediatamente a ventilação e solicitar inspeção para verificar a sua presença"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_lodge_apprentices.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

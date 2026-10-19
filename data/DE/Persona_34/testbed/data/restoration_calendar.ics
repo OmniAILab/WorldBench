@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Interne Kalenderverwaltung//Restaurierungsplanung Koelner Dom//DE
+BEGIN:VEVENT
+UID:urn:uuid:371a6f34-6908-5b6b-9fb1-7781d478376b
+DTSTART:20260427T090000
+DTEND:20260427T100000
+SUMMARY:Fensteraufnahme
+DESCRIPTION:Fotodokumentation am Südquerhaus.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:067dc86e-8cb4-5caf-9984-451f62514479
+DTSTART:20260501T080000
+DTEND:20260501T140000
+SUMMARY:Geplante Zufahrtsbeschränkung Roncalliplatz
+DESCRIPTION:Interne Planung: Zufahrtsgenehmigung und zeitliche Einschränkungen noch prüfen.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:12509006-e1d4-527c-a8cf-aee2fd4ce34a
+DTSTART:20260501T160000
+DTEND:20260501T200000
+SUMMARY:Gerüst-Lkw-Zufahrt am Südturm prüfen
+DESCRIPTION:Geplantes Zeitfenster; Zufahrtsberechtigung gesondert bestätigen.
+END:VEVENT
+END:VCALENDAR

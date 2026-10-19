@@ -1,0 +1,12 @@
+Controlo de custos da fábrica — revisão da fatura do fornecedor. As percentagens representam a variação do custo de aquisição posto em fábrica, incluindo transporte; não correspondem a direitos aduaneiros.
+A microfibra reciclada deve manter a margem anterior até à revisão trimestral.
+O algodão orgânico deve conservar o valor de referência do último lote.
+O tecido de cânhamo deve ser revisto no fecho mensal.
+A sola reciclada deve ser conferida com o custo de transporte.
+Para Pele de Cortiça - Fornecedor Amorim, copiar o aumento de custo registado para o campo de variação de custo da encomenda da marca.
+A cola aquosa deve ser revista apenas se houver alteração cambial.
+O couro de cacto deve manter a margem provisória.
+A espuma de algas deve ser conferida com o lote de origem.
+A sola de cortiça deve ser validada pela produção.
+Para a Pele_de_Cortiça_Reciclada, manter a margem provisória até nova fatura.
+Para a Fibra_de_Cortiça_Compósita, aguardar confirmação do fornecedor antes de atualizar a margem.

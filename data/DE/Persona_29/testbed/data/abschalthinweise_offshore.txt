@@ -1,0 +1,4 @@
+Leitstandsbericht Offshore-Telemetrie — Helgoland
+Aktuelle Meldung: Die Turmsensorik registriert für die Anlage Turbine_B4 wiederholt das Stressmuster einer kritischen Windscherung, die strukturelle Belastungen hervorruft.
+Anweisung: Es ist sofort eine E-Mail an die Netzleitstelle (netzleitstelle@offshore-grid.de) zu verfassen, in der die "Turbine_B4" und die festgestellte "kritische Windscherung" gemeldet werden, um eine proaktive Leistungsbegrenzung der Turbine vom Festland aus zu initiieren.
+Hinweis zur Blattwinkel-Regelung TenneT: Das gelegentlich angeforderte präventive Nachführen des Pitchwinkels bei plötzlich abflauendem Wind (z. B. an Turbine_C1) führt in der Roh-Telemetrie manchmal fälschlicherweise zu Böigkeitswarnungen; die Windscherung an B4 ist jedoch durch Belastungsdaten gesichert.

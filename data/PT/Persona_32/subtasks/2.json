@@ -1,0 +1,19 @@
+{
+  "persona": "Sílvia é natural de Trás-os-Montes e coordena a apanha e transformação de castanha para farinha artesanal nos soutos próximos de Bragança e do Parque Natural de Montesinho. Cruza os registos das campanhas anteriores com previsões de geada e orientações de acesso às parcelas, organizando equipas de apanha manual nas encostas.",
+  "task": "Calcula, a partir do arquivo histórico das parcelas observadas pela cooperativa, o maior rendimento médio de castanha em kg por hectare e insere a frase completa na secção «Metas de rendimento» do documento da campanha, identificando a série de 2005–2009 como a origem do valor.",
+  "required_files": [
+    "agricultural_archive.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/production_goals.docx",
+        "keywords": [
+          "Rendimento médio histórico máximo nas parcelas do arquivo: 250 kg por hectare (série 2005–2009)"
+        ]
+      }
+    }
+  ]
+}

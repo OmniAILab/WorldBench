@@ -1,0 +1,28 @@
+{
+  "persona": "Teresa é de Moura e dirige há quinze anos uma cooperativa de olivicultores no Alentejo. Acompanha as leituras de humidade das parcelas, distribui os turnos de rega previstos no plano interno da cooperativa para a campanha do Alqueva e supervisiona a qualidade e a rastreabilidade do azeite.",
+  "task": "Escreve um email à Sociedade Agrícola Silva a comunicar a retenção do lote após uma amostra com acidez superior a 0,8 %, explicando que o resultado, sujeito a confirmação analítica, impede por ora a classificação como azeite virgem extra e que a conformidade com a especificação DOP exige verificação própria.",
+  "required_files": [
+    "cooperative_quality_log.xlsx",
+    "farmer_contacts_moura.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_local_farmer.txt",
+        "keywords": [
+          "A amostra da Sociedade Agrícola Silva apresentou acidez superior a 0,8 %, pelo que o lote não pode ser classificado como azeite virgem extra sem confirmação da análise."
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_local_farmer.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

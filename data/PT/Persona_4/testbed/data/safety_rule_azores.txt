@@ -1,0 +1,9 @@
+Norma Operacional de Segurança da Frota — Porto de Ponta Delgada (São Miguel)
+Nota de nomenclatura: códigos como SM-Boat-5 identificam internamente cada unidade no quadro de escala da cooperativa (SM-Boat-5 corresponde à embarcação costeira «Ilhéu de Rosto de Cão»).
+
+Regras de despacho marítimo:
+- Manter a saída planeada se o estado do mar estiver Calmo.
+- Rever a hora de largada e confirmar reserva de combustível se o estado do mar estiver Moderado.
+- Utilizar a zona de abrigo a sul da ilha se o mar estiver Agitado.
+- Regra de segurança da frota: cancelar a saída quando o estado do mar estiver Muito agitado.
+- Verificar amarrações reforçadas no cais de Ponta Delgada antes da passagem de frentes atlânticas e manter escuta permanente em VHF.

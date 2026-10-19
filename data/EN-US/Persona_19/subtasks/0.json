@@ -1,0 +1,38 @@
+{
+  "persona": "Priya is a chemical safety inspector at a major petrochemical refinery in Houston, Texas, overseeing the integrity of pressurized storage tanks and pipeline networks along the Ship Channel. She manages the rigorous reporting standards of the Texas Commission on Environmental Quality and the federal Occupational Safety and Health Administration, ensuring that every maintenance log and emission report is updated in real-time to prevent industrial accidents and maintain compliance with local air quality initiatives.",
+  "task": "Use the Ship Channel refinery log to find the critical pressure reading and record its pressure and severity classification in the OSHA safety thresholds spreadsheet.",
+  "required_files": [
+    "refinery_log_houston.xlsx"
+  ],
+  "output_files": [
+    "data/osha_thresholds.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/osha_thresholds.xlsx",
+        "matches": [
+          {
+            "row": 6,
+            "col": 2,
+            "value": "250_Critical"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/osha_thresholds.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

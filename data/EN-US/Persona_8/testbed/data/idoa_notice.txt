@@ -1,0 +1,20 @@
+IDOA: dry goods may arrive under 70F outside the cold room.
+IDOA: frozen marrow bones stay under 10F in the freezer program.
+IDOA: cured products follow a separate shelf-stable review.
+IDOA: delivery paperwork must state the source farm.
+IDOA fresh meat rule: temperature <= 41F = Accept.
+IDOA fresh meat rule: temperature > 41F = Reject.
+IDOA: cooler door logs are checked at closing.
+IDOA: reusable bins are sanitized before the next pickup.
+Chicago: West Loop demand does not override temperature.
+Chicago: a rail delay does not change the threshold.
+Chicago: use exactly Accept or Reject.
+Chicago: WL-26 at 41F is compliant.
+Chicago: WL-23 at 45F is over the threshold.
+Do not apply the 10F limit for frozen products.
+Do not average several deliveries.
+The arrival time does not replace the temperature reading.
+Instruction: evaluate WL-22 and WL-23 at minimum.
+Instruction: WL-22 at 39F must be Accept.
+Instruction: WL-23 at 45F must be Reject.
+Instruction: the other rows must not be used to change the threshold.

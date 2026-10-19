@@ -1,0 +1,28 @@
+{
+  "persona": "Alois ist Alm-Bauer und bewirtschaftet eine hochgelegene Weide an den Hängen der Zugspitze bei Garmisch-Partenkirchen; er organisiert den traditionellen Almabtrieb, um das Vieh vor dem ersten starken Schneefall ins Tal zu bringen. Er begegnet der zunehmenden Unberechenbarkeit sommerlicher Trockenperioden, die die alpine Flora beeinträchtigen, und den strengen Weidequoten des Bayerischen Staatsministeriums für Ernährung, Landwirtschaft und Forsten. Er führt Satelliten-Vegetationsindizes, detaillierte Bergwetterprognosen und handschriftliche Weideprotokolle mehrerer Generationen zusammen, um die tägliche Bewegung seiner Herde über die empfindlichen Almwiesen genau zu planen.",
+  "task": "Schreibe eine E-Mail an die Helfer im Tal und teile den verbindlichen Termin mit, bis zu dem der Almabtrieb von der Zugspitze abgeschlossen sein muss.",
+  "required_files": [
+    "bergwetter.xlsx",
+    "kontakte_alm_zugspitze.xlsx",
+    "almabtrieb_hinweise.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "talteam@alm-zugspitze.de",
+        "keywords": [
+          "Almabtrieb",
+          "vor dem 28.09.2026"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_talteam_*.eml",
+      "change": "create"
+    }
+  ]
+}

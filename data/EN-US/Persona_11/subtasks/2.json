@@ -1,0 +1,28 @@
+{
+  "persona": "Kenji is a coastal erosion analyst in Honolulu, Hawaii, working to protect the infrastructure along the North Shore of Oahu from rising sea levels. He must align his shoreline protection designs with the Hawaii Coastal Zone Management Program and the specific permitting requirements of the Department of Land and Natural Resources, documenting wave energy patterns and sand movement to ensure that all mitigation efforts respect the sensitive ecological and cultural heritage of the beachfront.",
+  "task": "Write an email to the DLNR permitting desk requesting review for the high-risk segment and include the segment name.",
+  "required_files": [
+    "dlnr_contacts.xlsx",
+    "permit_priority_email.xlsx",
+    "permit_email_context_hawaii.txt",
+    "email_template_dlnr.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "permits@dlnr.hi.gov",
+        "keywords": [
+          "NorthShore_B"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_permits_*.eml",
+      "change": "create"
+    }
+  ]
+}

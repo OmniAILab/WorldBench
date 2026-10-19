@@ -1,0 +1,20 @@
+Fern: not suited to extreme heat.
+Kentucky_Bluegrass: excessive irrigation.
+Hydrangea: not suited to the Phoenix site.
+Boxwood: medium heat tolerance, not native.
+Italian_Cypress: not native and not selected.
+Approved list for HeatIsland_Park_A: Palo_Verde and Desert_Marigold.
+Hosta: shaded, moist garden plant.
+Azalea: not suited to Sonoran Desert exposure.
+Phoenix: the document must name HeatIsland_Park_A.
+Phoenix: the selection must satisfy high heat rating + Native_Status Yes + Use_For_HeatIsland_Park_A Yes.
+Phoenix: the Maricopa shade review is separate.
+Phoenix: keep the underscores in the names.
+Agave_Deserti is native but absent from this project's approved list.
+Mesquite is heat tolerant but marked No for this pilot project.
+An attractive monsoon color is not a criterion.
+Instruction: both selected plants must appear.
+Instruction: do not add any Low or Medium plant.
+Instruction: do not add any plant with Native_Status No.
+Instruction: the water budget is maintained in the park plan.
+Instruction: briefly explain the choice in terms of extreme heat.

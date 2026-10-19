@@ -1,0 +1,29 @@
+{
+  "persona": "Cláudia nasceu em Sagres e é guia de vida selvagem marinha. Trabalha na ponta sudoeste do Algarve, muito exposta ao vento, com saídas de observação de golfinhos ao largo. Lida com a ondulação forte do Atlântico e com os limites do parque marinho, e usa leituras de sonar e rotas históricas das populações para posicionar os catamarãs sem perturbar os grupos.",
+  "task": "Escreve um email aos passageiros do catamarã a comunicar o cancelamento da observação de golfinhos devido à ondulação perigosa prevista no Cabo de São Vicente.",
+  "required_files": [
+    "southwestern_meteo.xlsx",
+    "tour_cancellation_sagres.txt",
+    "catamaran_passengers.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_catamaran_passengers.txt",
+        "keywords": [
+          "Ao largo do cabo de São Vicente, prevê-se ondulação de 4 metros, considerada perigosa; cancelar a saída de observação de golfinhos e informar os passageiros"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_catamaran_passengers.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

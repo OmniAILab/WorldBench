@@ -1,0 +1,28 @@
+{
+  "persona": "Rhys is a firefighter at Swansea Central Fire Station. He maintains deployment sheets, risk notices, crew emails, and emergency procedure documents for urban and Gower Peninsula responses.",
+  "task": "Draft a formal access warning email to the Swansea fire engine crews about Fleet_Street, using the exact width restriction from the Sandfields traffic sheet.",
+  "required_files": [
+    "sandfields_traffic.xlsx",
+    "crew_contacts_swansea.xlsx",
+    "email_templates_rhys.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "crews@swanseacentral.fire",
+        "keywords": [
+          "2.5_Metres_Clearance",
+          "Fleet_Street"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_crews_*.eml",
+      "change": "create"
+    }
+  ]
+}

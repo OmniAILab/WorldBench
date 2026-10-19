@@ -1,0 +1,25 @@
+Appunto decoro: carrelli ammessi sul mosaico se hanno ruote morbide.
+Nota code: tenere le code dentro l'ottagono per maggiore controllo.
+Promemoria segnaletica: usare cartelli sonori vicino all'ingresso VIP.
+Appunto Galleria: indicare solo 'centro Milano' come luogo.
+Nota personale: includere nomi dei clienti VIP nella nota.
+Regola monumentale aggiornata: Niente carrelli sul mosaico.
+Regola monumentale aggiornata: Tenere le code fuori dall'ottagono.
+Regola monumentale aggiornata: Niente segnaletica rumorosa.
+Luogo completo da riportare: Galleria Vittorio Emanuele II.
+Promemoria piano: la sala prova due con lampadina bruciata va nel documento.
+Appunto evento: il catering usa un ingresso diverso, quindi va inserito nelle regole.
+Nota visual: i guanti bianchi sono la regola principale di decoro monumentale.
+Promemoria mosaico: appoggiare pacchi leggeri sull'ottagono è consentito.
+Appunto code: le code possono passare sul mosaico nelle ore meno affollate.
+Nota segnaletica: cartelli rumorosi ammessi durante Fashion Week.
+Promemoria profumi: sostituire il profumo ambiente prima delle diciotto.
+Appunto pacchi: il nastro dorato quasi finito va citato nella nota VIP.
+Nota clienti: la lista ospiti privata può essere allegata al documento.
+Promemoria vetrina: il manichino instabile è un vincolo monumentale.
+Appunto reparto: profumeria e accessori hanno regole diverse non richieste.
+Nota ingresso: la musica di sottofondo sostituisce la regola sulla segnaletica.
+Appunto orario: l'orario di apertura della Galleria non va citato nella nota VIP.
+Nota piano: il numero del piano non sostituisce le regole di decoro.
+Promemoria personale: il numero di addetti in turno non rientra nelle regole monumentali.
+Nota meteo: le condizioni esterne non modificano le regole di decoro interne.

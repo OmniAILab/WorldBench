@@ -1,0 +1,21 @@
+Appunti della casa commerciale di Alba per lotti destinati a chef internazionali.
+Appunto: Il lotto Truffle_Batch_B2 è Premium ma non ha ancora verifica origine.
+Promemoria: Per Truffle_Batch_A1 non usare il prezzo d'asta come stato certificazione.
+Nota operativa: Il peso 400g_Premium riguarda un lotto diverso raccolto vicino a La Morra.
+Nota archivio: Se la provenienza è Pending, lasciare Da verificare anche con peso elevato.
+Avviso interno: Il codice 450g_Standard non soddisfa la scheda export premium.
+Appunto: La cella fredda va controllata, ma non modifica lo stato origine.
+Policy di Esportazione: I diamanti grigi di caratura superiore ai 400 grammi prendono il volo verso le tavole estere solo se il certificato di scavo nei boschi piemontesi risulta già evaso e vidimato. In quel caso lo stato del lotto si registra come Approvato_export.
+Promemoria: Il lotto Truffle_Batch_C3 è destinato al mercato locale.
+Nota operativa: Il valore 500g_Premium appartiene a un'asta non conclusa.
+Nota archivio: La nota sanitaria sulle cassette non è la certificazione di origine.
+Avviso interno: Per Alba_Private_Reserve usare il fascicolo separato.
+Appunto: Il codice Tartufo_A1_Old è archivio 2025 e non corrente.
+Promemoria: Il peso 450g_Premium senza origine verificata non basta per approvare.
+Nota operativa: Il corriere per Hong Kong chiede data di ritiro, non stato export.
+Nota archivio: Il registro del trifolao cita una zona diversa da Alba.
+Avviso interno: Il prezzo €6000_Per_100g riguarda l'asta, non la certificazione.
+Appunto: La manutenzione della cella frigorifera è tecnica e non determina lo stato di origine.
+Promemoria: La fornitura di sacchetti sottovuoto è logistica e non modifica la certificazione.
+Nota Langhe: il controllo dell'umidità delle cassette è logistico e non determina la verifica di provenienza del lotto.
+Promemoria Alba: la registrazione fotografica del tartufo per il catalogo d'asta è commerciale e non modifica lo stato export.

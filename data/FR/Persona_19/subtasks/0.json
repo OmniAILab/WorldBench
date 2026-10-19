@@ -1,0 +1,50 @@
+{
+  "persona": "Céline est affineuse de fromages en Savoie et travaille avec des producteurs de Beaufort AOP. Elle contrôle la température et l’humidité des caves, organise les retournements des meules et veille à la traçabilité des lots issus des alpages.",
+  "task": "Croise le seuil interne de surveillance de la cave Beaufort AOP, les mesures de cave et le dialogue d’alerte. Traite le lot BF-Roselend-224 comme la mesure courante à valider, en excluant BF-Roselend-260 encore en recontrôle et les anciennes notes contradictoires. Mets à jour le statut et la justification chiffrée dans le registre d’affinage.",
+  "required_files": [
+    "seuil_temperature_beaufort.txt",
+    "temperatures_cave_savoie.xlsx",
+    "dialogue_alerte_cave_savoie.txt"
+  ],
+  "output_files": [
+    "data/registre_affinage_savoie.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/registre_affinage_savoie.xlsx",
+        "matches": [
+          {
+            "row": 5,
+            "col": 2,
+            "value": "Isoler"
+          },
+          {
+            "row": 5,
+            "col": 3,
+            "value": "12,4 °C > 12,0 °C"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/registre_affinage_savoie.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 5,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

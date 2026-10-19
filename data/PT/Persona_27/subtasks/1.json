@@ -1,0 +1,29 @@
+{
+  "persona": "Carlos nasceu em Lisboa e trabalha como técnico eletricista responsável pela modernização de colunas montantes e contadores em edifícios históricos da Baixa Pombalina. Articula os projetos de instalação com os pareceres de conservação patrimonial, garantindo traçados reversíveis que não danifiquem a gaiola pombalina nem os revestimentos de azulejo.",
+  "task": "Escreve um email à equipa de empreiteiros a comunicar os danos registados no cenário de vistoria do «Edifício em avaliação na Praça do Comércio (Ala Poente)» e a ordem de interromper a instalação elétrica.",
+  "required_files": [
+    "district_inspection.xlsx",
+    "installation_halts_lisbon.txt",
+    "electrical_contacts_lisbon.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_contractor_team.txt",
+        "keywords": [
+          "Na ala poente do edifício em avaliação na Praça do Comércio foram identificados danos por perfuração no revestimento de azulejos; interromper imediatamente a instalação e proteger o revestimento histórico."
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_contractor_team.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

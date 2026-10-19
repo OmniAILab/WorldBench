@@ -1,0 +1,29 @@
+{
+  "persona": "Pasquale è l'anima di uno storico atelier di sartoria nel cuore dei Quartieri Spagnoli a Napoli, dove crea abiti su misura seguendo la tradizione secolare della \"giacca napoletana\". Si muove nel labirinto logistico quotidiano dei vicoli stretti e pieni di motorini della città e nelle specifiche regole di tutela del patrimonio del centro storico UNESCO che disciplinano la ristrutturazione del suo antico laboratorio. Il suo lavoro richiede la costante sintesi dei dati sulla tensione dei tessuti e la gestione dei profili di misura dei clienti internazionali, conciliando al contempo le filiere irregolari dei mercanti locali di seta e lana nella vita vivace ma imprevedibile della città.",
+  "task": "Inserisci nel documento di progetto della facciata il colore approvato per il restauro dell'atelier nel centro storico UNESCO nel file ./data/progetto_facciata_atelier.docx.",
+  "required_files": [
+    "nota_restauro_unesco_napoli.txt"
+  ],
+  "output_files": [
+    "data/progetto_facciata_atelier.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/progetto_facciata_atelier.docx",
+        "keywords": [
+          "Esterno atelier",
+          "Giallo_Napoli_Hex_#E6B800"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/progetto_facciata_atelier.docx",
+      "change": "modify"
+    }
+  ]
+}

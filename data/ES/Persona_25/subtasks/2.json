@@ -1,0 +1,30 @@
+{
+  "persona": "Montserrat es maestra tejedora en Rupit, un pueblo de montaña de la comarca de Osona (Cataluña), donde elabora mantas tradicionales con lana de oveja ripollesa. Trabaja con los pliegos de Artesania Catalunya y del Consorci de Comerç, Artesania i Moda para obtener el distintivo D'A, y con las restricciones químicas de la etiqueta ecológica europea. Su trabajo consiste en clasificar vellones por micraje y en documentar cada patrón histórico con su referencia de archivo.",
+  "task": "Incorpora a las directrices de producción del taller de Rupit la lista de tintes y mordientes prohibidos por la ecoetiqueta artesanal catalana.",
+  "required_files": [
+    "anexo_ecoetiqueta_rupit.txt"
+  ],
+  "output_files": [
+    "data/directrices_produccion_rupit.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/directrices_produccion_rupit.docx",
+        "keywords": [
+          "Rupit",
+          "compuestos azoicos",
+          "mordientes de metales pesados"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/directrices_produccion_rupit.docx",
+      "change": "modify"
+    }
+  ]
+}

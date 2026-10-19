@@ -1,0 +1,49 @@
+{
+  "persona": "Giorgio è un costruttore immobiliare a Venezia, specializzato nel rinforzo strutturale dei palazzi storici contro l'innalzamento del livello del mare. Si muove tra i rigidi vincoli architettonici dell'Ufficio Edilizia del Comune di Venezia e le complessità tecniche della sincronizzazione con la barriera del MOSE. Le sue operazioni quotidiane comprendono il costante esame delle previsioni di marea e la gestione dei permessi per le costruzioni subacquee, assicurando che gli interventi di ingegneria moderna restino invisibili tra le delicate facciate gotiche e barocche della città.",
+  "task": "Usa la previsione di marea per stabilire, per ciascuna data presente nel calendario, se i lavori subacquei sono consentiti (con Sì o No), e aggiorna la colonna Lavoro_consentito nel file ./data/calendario_permessi_venezia.xlsx.",
+  "required_files": [
+    "nota_marea_venezia.txt",
+    "maree_venezia.xlsx"
+  ],
+  "output_files": [
+    "data/calendario_permessi_venezia.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/calendario_permessi_venezia.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Sì"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_permessi_venezia.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

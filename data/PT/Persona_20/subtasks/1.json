@@ -1,0 +1,29 @@
+{
+  "persona": "Tiago dirige a logística de festivais de música de verão na Zambujeira do Mar. Coordena o campismo temporário e as equipas de apoio num concelho rural que recebe, de repente, muitos milhares de visitantes e que aplica regras exigentes de gestão de resíduos. Com modelos de fluxo de pessoas, destaca as equipas sanitárias com antecedência.",
+  "task": "Escreve um email aos coordenadores dos vendedores de comida a comunicar a penalização contratual aplicável à separação incorreta de resíduos no festival da Zambujeira do Mar.",
+  "required_files": [
+    "municipality_bylaws.xlsx",
+    "waste_compliance_zambujeira.txt",
+    "vendor_contacts.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_vendor_coordinators.txt",
+        "keywords": [
+          "A falta de separação de resíduos no contentor de recolha seletiva está sujeita a uma penalização contratual de €5000 por ocorrência; os coordenadores devem avisar todos os vendedores de comida"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_vendor_coordinators.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

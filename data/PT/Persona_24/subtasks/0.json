@@ -1,0 +1,23 @@
+{
+  "persona": "Gonçalo é natural de Santa Cruz e trabalha como coordenador de operações de placa no Aeroporto Internacional da Madeira. Gere a rotação das aeronaves, a afetação de portas de embarque e a distribuição das equipas de assistência em terra quando os ventos cruzados condicionam as aproximações à pista.",
+  "task": "Consulta o atraso causado pelo vento lateral no voo TP 1685 (14 de novembro de 2026) no Aeroporto da Madeira, aplica o procedimento interno de rotação de placa e atualiza o protocolo de porta e bagagem.",
+  "required_files": [
+    "meteo_madeira.xlsx",
+    "gate_rules_madeira.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/turnaround_efficiency.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Manter em espera e reatribuir equipa por 120 minutos"
+          }
+        ]
+      }
+    }
+  ]
+}

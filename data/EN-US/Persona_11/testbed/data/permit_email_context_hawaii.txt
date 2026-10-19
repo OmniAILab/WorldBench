@@ -1,0 +1,22 @@
+Review note: NorthShore_C can wait for routine design review.
+Review note: NorthShore_A is standard priority after the wave table check.
+Review note: NorthShore_G has no immediate DLNR permit issue.
+Review note: NorthShore_D only needs a sandbag staging note.
+Review note: NorthShore_L is pending community feedback.
+Review note: NorthShore_B is the high-risk segment that needs DLNR permitting review.
+Review note: NorthShore_M relates to a turtle-monitoring sign issue.
+Review note: NorthShore_N needs outreach before agency review.
+Review note: NorthShore_P is tied to a surf contest closure.
+Review note: NorthShore_Q has no high priority flag.
+Review note: NorthShore_R needs updated drone photos.
+Review note: NorthShore_S is monitored for sand movement only.
+Review note: NorthShore_T is a trail washout case.
+Review note: NorthShore_U is about parking access.
+Review note: NorthShore_V has a cultural monitor request.
+Review note: NorthShore_W remains standard priority.
+Review note: NorthShore_X is stable after the swell.
+Local context: the North Shore of Oahu takes powerful winter swells that should not be confused with the daily tradewinds.
+Heritage: shoreline work must account for cultural sites and documented traditional burials.
+Ecology: turtle nesting markings and dune vegetation must not be used as plain staging areas.
+Field practice: access to surf breaks and lifeguard towers is handled separately from permit priorities.
+DLNR: review of a high-risk segment does not replace the cultural or ecological coordination that is still required.

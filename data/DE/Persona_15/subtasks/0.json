@@ -1,0 +1,39 @@
+{
+  "persona": "Hendrik ist Meeresschützer mit Sitz in Stralsund an der Ostseeküste und widmet sich dem Schutz der Seegraswiesen im Flachwasser. Er bringt die gegenläufigen Interessen der kommerziellen Fischereiflotten und die strengen Vorgaben des Bundesamts für Naturschutz für Meeresschutzgebiete in Einklang. Er führt verstreute Feldbeobachtungen, Datensätze zum Salzgehalt des Wassers und Satellitenspuren lokaler Fischereifahrzeuge zusammen, um gefährdete ökologische Zonen zu kartieren und Empfehlungen für Schutzmaßnahmen zu entwerfen.",
+  "task": "Gleiche die Satellitenspuren der Fahrzeuge mit den Schutzgebieten vor Stralsund ab und aktualisiere für das betroffene Seegrasgebiet die Art der Gefährdung.",
+  "required_files": [
+    "satellitenspuren_stralsund.xlsx",
+    "schutzgebietshinweise_stralsund.txt"
+  ],
+  "output_files": [
+    "data/schutzgebiete_stralsund.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/schutzgebiete_stralsund.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Illegale_Schleppnetzfischerei"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/schutzgebiete_stralsund.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

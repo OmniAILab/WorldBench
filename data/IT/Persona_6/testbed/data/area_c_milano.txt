@@ -1,0 +1,24 @@
+Appunto Area C: le consegne Fashion Week sono consentite dalle 08:00 alle 09:00.
+Nota slot: scegliere 12:30 perché evita i clienti VIP.
+Promemoria FW-88: non aggiornare se l'evento stampa è nello stesso giorno.
+Appunto Galleria: usare 09:30 perché il varco è vicino al Duomo.
+Nota corriere: il campionario va inserito nello slot FW-88.
+Regola Area C aggiornata: consegne consentite dalle 10:00 alle 12:00.
+Slot interno da usare per FW-88: 10:30.
+Aggiornare solo la consegna FW-88.
+Promemoria lusso: le consegne di alta gamma si fanno sempre alle 14:00.
+Appunto Area C 2024: usare 07:45 per il varco.
+Nota mosaico: evitare carrelli rumorosi modifica lo slot a 11:45.
+Promemoria vetrina: pulizia lato Duomo alle 10:30, quindi usare 08:30.
+Appunto fiori: Fiori_Evento va trattato come consegna Fashion Week.
+Nota reception: il badge rimasto alla reception annulla la consegna.
+Promemoria scala: la scatola grucce nere indica slot 15:00.
+Appunto stampa: programmare consegne durante l'evento stampa.
+Nota VIP: il cliente giapponese delle sedici determina lo slot.
+Promemoria centro: usare un intervallo generico 'mattina'.
+Appunto magazzino: Campionario è l'unica riga da aggiornare.
+Nota sicurezza: evitare il mosaico non modifica la finestra Area C.
+Appunto corriere: il nome del corriere non determina lo slot di consegna conforme.
+Nota merce: il peso del campionario non incide sulla scelta della fascia oraria.
+Promemoria badge: il numero di badge del fattorino non modifica lo slot Area C.
+Nota veicolo: la targa del furgone non rientra nei criteri della finestra Area C.

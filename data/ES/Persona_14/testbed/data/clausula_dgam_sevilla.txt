@@ -1,0 +1,20 @@
+Nota de contratación: basta con adjuntar la factura comercial a cada envío.
+Regla de entrega: la declaración de conformidad solo se presenta una vez al año.
+Práctica de la planta: los envíos militares no necesitan documentación adicional.
+Recomendación de proveedor: debe adjuntar únicamente el certificado de origen.
+Protocolo antiguo: la conformidad se comunica verbalmente en el muelle.
+Nota del programa: el documento se añade solo a componentes importados.
+Regla de Sevilla: la lista de embalaje sustituye la declaración.
+Consejo administrativo: la declaración se archiva en fábrica y no acompaña al envío.
+Cláusula DGAM (Dirección General de Armamento): Es preceptivo que cada envío logístico asociado a las aeronaves de transporte vaya escoltado físicamente por su respectiva declaración de conformidad.
+Nota de entrega: basta con incluir el número de pedido en el documento.
+Regla EASA: la declaración se adjunta únicamente al primer envío.
+Práctica del parque aeroespacial: un correo del proveedor reemplaza el documento.
+Recomendación de logística: la declaración se envía después de la recepción.
+Protocolo de urgencia: los hitos retrasados quedan exentos del requisito.
+Nota de montaje: el certificado de calibración sustituye toda conformidad.
+Regla de defensa antigua: solo los motores requieren declaración.
+Consejo de archivo: el documento no debe mencionar aeronaves de transporte.
+Cláusula DGAM: en los envíos parciales de componentes asociados a las aeronaves de transporte, la declaración de conformidad debe identificar de forma explícita el número de ítem del contrato de suministro y la revisión del plano aplicable.
+Nota del Área de Contratos de Defensa: cuando un envío del programa de aeronaves de transporte incluya piezas de distinta referencia, deberá adjuntarse una declaración de conformidad individual por cada referencia, no una única declaración consolidada.
+Acta de coordinación con Contratos de Defensa: incorporar al documento del hito la exigencia general de la cláusula DGAM sobre la declaración de conformidad en cada envío, sin confundirla con los desgloses para envíos parciales o multirreferencia.

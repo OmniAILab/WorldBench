@@ -1,0 +1,4 @@
+Freigegebene Bauwerksangabe (Statikprüfung vom 14.01.2026, Prüfbericht liegt dem Haus vor): Maximale Hängelast am zentralen Akustiksegel: 500 kg.
+Bauwerksangabe vom 03.03.2023 (überholt, vor der Verstärkung der Aufhängung): Hängelast am zentralen Akustiksegel 480 kg.
+Weitere Anschlagpunkte laut Prüfbericht vom 14.01.2026: linkes Deckensegel 350 kg, Bei der rechten Seitenbrücke 400 kg, Bühnenportal 450 kg, Galerie-Traverse 550 kg. Diese Werte gelten nicht für das zentrale Akustiksegel.
+Prüfvermerk Bühnentechnik vom 20.02.2026: Für schwere, flammhemmend imprägnierte Molton-Vorhänge ist eine temporäre Traversenbelastung von bis zu 550 kg nur im Einzelfall mit Freigabe durch einen Statiker zulässig; die Dauerfreigabe der Traverse bleibt unberührt.

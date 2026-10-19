@@ -1,0 +1,4 @@
+Camille : Le relevé de Port-Pin Nord peut-il être reporté pour Port-Pin ?
+Cheffe de mission : Non, ce sont deux sites distincts, chacun avec sa propre mesure.
+Cheffe de mission : Port-Pin principal est suivi dans PB-2026-09.
+Plongeur : La densité retenue est 75 %, donc la classe du protocole interne est Bon.

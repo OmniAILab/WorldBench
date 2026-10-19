@@ -1,0 +1,29 @@
+{
+  "persona": "Sofia is a creative lead at an animation studio in Bristol’s Harbourside. She coordinates stop-motion assets, lighting notes, compositing requirements, and production paperwork for studio shoots.",
+  "task": "Find the export requirement for Unreal_Renderer and add the combined renderer-and-resolution wording to the lighting team’s workflow compliance document.",
+  "required_files": [
+    "compositing_specs.xlsx"
+  ],
+  "output_files": [
+    "data/workflow_compliance.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/workflow_compliance.docx",
+        "keywords": [
+          "4K_HDR_10bit",
+          "Unreal_Renderer"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/workflow_compliance.docx",
+      "change": "modify"
+    }
+  ]
+}

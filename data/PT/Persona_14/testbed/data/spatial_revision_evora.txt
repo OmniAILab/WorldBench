@@ -1,0 +1,12 @@
+Relatório de compatibilização arquitetónica do projeto de reabilitação em Évora. A equipa de projeto assinala as soluções com elementos técnicos visíveis que podem comprometer a leitura da alvenaria antiga; as revisões dependem de parecer técnico antes da execução.
+No projeto Loja_Arco_Romano, ocultar a grelha exterior com solução reversível.
+No projeto Galeria_Muralha_Leste, deslocar a unidade da fachada histórica.
+No projeto Escritório_Cripta, afastar a conduta da abóbada.
+No projeto Loja_Praça_Romana, ocultar a caixa técnica.
+No projeto Hotel de charme do Largo do Giraldo — projeto HG-08 foi registado condutas de climatização à vista; rever o modelo para ocultar as condutas sem afetar a alvenaria histórica.
+No projeto Café_Arco_Gótico, retirar a grelha da moldura original.
+No projeto Restaurante_Muralha_Norte, ocultar o condensador.
+No projeto Loja_Rua_Cinco_Outubro, retirar o cabo da alvenaria.
+No projeto Café_Portas_Moura, ocultar o tubo exterior.
+No projeto Boutique_Hotel_Praça foi registada tubagem visível na fachada; rever o traçado sem afetar a alvenaria histórica.
+No projeto Boutique_Hotel_Diana foi registada grelha HVAC à vista; ocultar a grelha sem alterar a cantaria histórica.

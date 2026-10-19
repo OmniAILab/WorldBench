@@ -1,0 +1,8 @@
+Geologischer Projektvermerk – Geothermie Essen/Zollverein
+Fassung vom 16. Oktober 2026, herausgegeben durch die projektinterne Geotechnik.
+Untersuchungsgegenstand: Druckbeaufschlagung der geplanten Injektionsbohrung; das Risiko induzierter Seismizität ist bei der Betriebsplanung zu berücksichtigen.
+Frühere Modellrechnungen untersuchten 67 bar und 80 bar als technische Szenarien. Sie stellen keine freigegebenen Betriebsgrenzen dar.
+Verbindlicher projektspezifischer Grenzwert der aktuellen Planung: Der maximale Injektionsdruck beträgt 65 bar. Dieser Wert darf ohne neue geotechnische Bewertung und förmliche Freigabe nicht überschritten werden.
+Die 40-bar-Annahme aus einem anderen, oberflächennahen Untersuchungsbereich ist nicht auf die aktuelle Bohrung übertragbar. Sie ist keine allgemeine Vorschrift der Bezirksregierung Arnsberg.
+Übernahme in die Bohrspezifikation: „Maximaler Injektionsdruck: 65 bar – zur Begrenzung des Risikos induzierter Seismizität.“
+Der tatsächliche Betrieb bleibt von den einschlägigen Genehmigungen und den anlagenspezifischen Schutzfunktionen abhängig.

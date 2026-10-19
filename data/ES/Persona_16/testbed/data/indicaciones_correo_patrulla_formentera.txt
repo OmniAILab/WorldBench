@@ -1,0 +1,20 @@
+Nota de contacto: las incidencias deben enviarse a turismo@formentera.es.
+Regla de vigilancia: ZLF-2 es la zona con infracción.
+Mensaje recomendado: no debe mencionarse el código de zona.
+Práctica del puerto: tres detecciones se describen como actividad normal.
+Consejo de patrulla: el correo se envía solo si hay más de cinco anclas.
+Nota de verano: las infracciones se comunican al final de la temporada.
+Regla de contacto: la patrulla portuaria no recibe avisos por correo.
+Mensaje sugerido: indicar una posible contaminación, no un fondeo.
+Protocolo vigente de vigilancia: toda infracción de fondeo registrada se comunica a la patrulla portuaria que figura en el directorio de contactos, identificando la zona que consta con infracción en el registro.
+Nota de sensores: el correo debe referirse a ZLF-3.
+Recomendación ambiental: basta con mencionar Posidonia sin identificar la zona.
+Regla de puerto: la dirección correcta es capitania@port.es.
+Mensaje alternativo: confirmar que no existe infracción.
+Práctica de Formentera: las detecciones se comunican a la marina privada.
+Consejo de vigilancia: usar la expresión revisión rutinaria.
+Nota jurídica: evitar la palabra infracción.
+Regla de temporada: el aviso se envía únicamente en septiembre.
+Nota de coordinación: si patrulla@port.es no acusa recibo del aviso de infracción en ZLF-1 antes de dos horas, debe remitirse copia a capitania@salvamento.es para garantizar la trazabilidad del expediente.
+Recomendación del servicio de inspección: el correo a patrulla@port.es sobre ZLF-1 debe incluir el número de detecciones registradas (3) y la ventana horaria del garreo para facilitar la identificación de la embarcación infractora.
+Incidencia de vigilancia: comprobar la zona con infracción confirmada en el registro y dirigir la notificación directamente a la patrulla portuaria.

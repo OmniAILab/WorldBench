@@ -1,0 +1,23 @@
+Land-use note: no landing is permitted within coordinates 35.0N-106.7W.
+Permit note: no landing is permitted within coordinates 35.3N-106.4W.
+Boundary note: no landing is permitted within coordinates 35.1N-106.6W.
+Field note: no landing is permitted within coordinates 35.4N-106.3W.
+Pueblo permit note: no landing is permitted within coordinates 35.2N-106.8W.
+Sandia Pueblo land-use permit: No landing permitted within coordinates 35.2N-106.5W.
+Pilot note: balloon recovery crews must avoid marked grazing gates.
+Spectator note: shuttle buses should not idle beside the sacred site boundary signs.
+Weather note: dawn winds near the Sandia foothills may shift rapidly.
+Parking note: overflow lots fill before mass ascension on clear mornings.
+Radio note: all chase crews must monitor the assigned field channel.
+Traffic note: I-25 backups can delay propane refills.
+Vendor note: breakfast burrito trucks must stay outside emergency lanes.
+Launch note: pilots should confirm envelope color codes before staging.
+Law enforcement note: pedestrian crossings near the main gate need extra cones.
+Cultural note: site briefings must use respectful boundary language.
+Map note: the printed pilot map has an outdated access road label.
+Permit note: all coordinates must be copied exactly into the pilot briefing.
+Boundary clarification: a nearby 35.2N-106.6W recovery route is outside the no-landing coordinate and must not be substituted.
+Pilot briefing note: coordinates from an older general FAA map do not override the Sandia Pueblo land-use permit.
+Cultural protocol note: recovery crews should stop and contact the liaison if an unplanned landing approaches a marked restricted area.
+Balloon Fiesta note: the Albuquerque Box wind pattern may shift landing direction without changing the permit boundary.
+Coordinate note: preserve north and west notation exactly as written.

@@ -1,0 +1,28 @@
+{
+  "persona": "Curro es responsable ecuestre en Jerez de la Frontera y se ocupa del entrenamiento y la logística de los caballos de Pura Raza Española de un cortijo de la zona. Compagina las guías de movimiento internacional que tramita la Oficina Comarcal Agraria con la normativa europea de bienestar animal en el transporte, y con las restricciones de circulación del centro histórico durante la Feria del Caballo. Su trabajo consiste en comprobar inscripciones en el libro genealógico y en planificar los desplazamientos de los animales.",
+  "task": "Escribe un correo electrónico a los conductores de transporte de la Feria del Caballo para comunicar la anchura máxima permitida en el acceso por Calle_Larga.",
+  "required_files": [
+    "galibos_accesos_jerez.xlsx",
+    "contactos_transporte_jerez.xlsx",
+    "bando_movilidad_feria.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "conductores@feriadelcaballo.es",
+        "keywords": [
+          "Acceso_Calle_Larga",
+          "2,5 m"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_conductores_*.eml",
+      "change": "create"
+    }
+  ]
+}

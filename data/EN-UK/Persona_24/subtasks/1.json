@@ -1,0 +1,29 @@
+{
+  "persona": "Hattie is a field archaeologist in York, working on urban excavation records and finds documentation. She maintains lab result sheets, planning notes, developer notices, and Historic Environment Record submissions.",
+  "task": "Insert the preservation mandate for Coppergate_Extension into the developer delay notice, keeping the trench-zone name and mandate code together exactly.",
+  "required_files": [
+    "planning_mandates.xlsx"
+  ],
+  "output_files": [
+    "data/developer_delay_notice.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/developer_delay_notice.docx",
+        "keywords": [
+          "Halt_Order_Code_Red",
+          "Coppergate_Extension"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/developer_delay_notice.docx",
+      "change": "modify"
+    }
+  ]
+}

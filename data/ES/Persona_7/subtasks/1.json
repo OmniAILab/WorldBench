@@ -1,0 +1,30 @@
+{
+  "persona": "Fran es responsable de mercancías en PLAZA (Plataforma Logística de Zaragoza), considerada la mayor plataforma logística de Europa, donde sincroniza el transporte ferroviario y por carretera en toda la península ibérica. Gestiona las restricciones de la Zona de Bajas Emisiones del Casco Histórico de Zaragoza y los cambios técnicos entre el ancho de vía europeo y el ibérico, para que la carga internacional atraviese sin interrupciones el corredor aragonés.",
+  "task": "Separa, entre las notas de PLAZA, la DGT y el Ayuntamiento de Zaragoza, las instrucciones vigentes de la ZBE del Casco Histórico para el reparto de última milla, sin incluir excepciones por etiqueta ambiental ni horarios especiales de días de mercado. Trasládalas a la tarjeta de ruta de las entregas que salen de PLAZA.",
+  "required_files": [
+    "aviso_zbe_zaragoza.txt"
+  ],
+  "output_files": [
+    "data/tarjeta_ruta.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/tarjeta_ruta.docx",
+        "keywords": [
+          "PLAZA",
+          "Evitar el Casco Histórico en horas punta",
+          "Utilizar el acceso por la ronda"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/tarjeta_ruta.docx",
+      "change": "modify"
+    }
+  ]
+}

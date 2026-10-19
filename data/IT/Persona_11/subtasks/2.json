@@ -1,0 +1,29 @@
+{
+  "persona": "Pietro è un pescatore commerciale con base a Mazara del Vallo, in Sicilia, dove gestisce una flotta specializzata nel celebre Gambero Rosso. Si muove tra le complessità delle quote di pesca mediterranee fissate dalla Commissione Europea e le specifiche zone di sicurezza marittima vicino al confine tunisino. La sua vita professionale comporta l'interpretazione dei dati satellitari sulla temperatura superficiale del mare e l'adempimento degli obblighi di rendicontazione digitale dell'iniziativa Blue Economy, per garantire la sostenibilità a lungo termine degli stock di crostacei siciliani.",
+  "task": "Scrivi una email al desk Blue Economy dell'UE per confermare la quota settimanale, includendo l'identificativo della settimana e il valore massimo in kg.",
+  "required_files": [
+    "note_email_blue_mazara.txt",
+    "contatti_blue_economy.xlsx",
+    "registro_flotta_mazara_report.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "report@blueeconomy.eu",
+        "keywords": [
+          "2026-W14",
+          "1200",
+          "kg"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_report_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "persona": "Julien est un entrepreneur technologique à Montpellier installé à la Halle Tropisme, où il développe des capteurs destinés à économiser l’eau dans l’agriculture méditerranéenne. Il gère les exigences administratives des aides de Bpifrance et les restrictions locales d’usage de l’eau imposées par la préfecture de l’Hérault pendant les alertes sécheresse, en veillant à la conformité de son matériel avec les directives environnementales européennes.",
+  "task": "Rédige un e-mail professionnel à la ferme pilote du projet (Ferme_Pilote). Vérifie le bon contact, le réglage actif de Tropisme_S1 et le dialogue d’exploitation ; confirme la limite de 30 minutes d’irrigation par jour pendant l’alerte sécheresse et précise qu’elle s’applique jusqu’à nouvel ordre. Écarte Ferme_Pilote_Annexe, Tropisme_S1_Test et les anciennes valeurs.",
+  "required_files": [
+    "farm_contacts_montpellier.xlsx",
+    "config_montpellier_ferme.xlsx",
+    "note_envoi_ferme.txt",
+    "dialogue_envoi_ferme_montpellier.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "ferme-pilote.irrigation@messagerie.invalid",
+        "keywords": [
+          "Tropisme_S1",
+          "30 minutes",
+          "alerte sécheresse",
+          "jusqu’à nouvel ordre"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_contact_*.eml",
+      "change": "create"
+    }
+  ]
+}

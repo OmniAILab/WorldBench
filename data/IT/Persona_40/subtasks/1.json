@@ -1,0 +1,29 @@
+{
+  "persona": "Federica è responsabile degli affari regolatori in un’azienda biofarmaceutica del polo di Latina, impegnata anche nelle esportazioni verso il Nord America. Verifica la conformità della produzione alle norme di buona fabbricazione, alle procedure di qualità applicabili e alle richieste delle autorità sanitarie dei mercati di destinazione. Controlla i registri di lotto e le condizioni della catena del freddo per preservare l’integrità dei prodotti biologici durante il trasporto.",
+  "task": "Scrivi una email alle autorità sanitarie internazionali segnalando la deviazione di temperatura della spedizione nordamericana.",
+  "required_files": [
+    "note_catena_freddo_latina.txt",
+    "contatti_autorita_latina.xlsx",
+    "dati_export_nordamerica.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "authority@health-na.gov",
+        "keywords": [
+          "Shipment_US_01",
+          "+2C_Over_Limit",
+          "integrità biologica"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_authority_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "persona": "Massimo armonizza le operazioni creative e commerciali di uno studio di ceramica a Vietri sul Mare, porta d'accesso alla Costiera Amalfitana. Affronta le sfide logistiche della strada costiera SS163 per la consegna dell'argilla grezza, assicurando che tutti i disegni rispettino i tradizionali motivi dei \"colori vietresi\". La sua routine quotidiana comprende la gestione di ordini personalizzati ad alto volume da parte di interior designer internazionali e l'adattamento dei programmi di produzione ai picchi stagionali del mercato turistico regionale.",
+  "task": "Scrivi una email agli artigiani dello studio confermando il codice del motivo vietrese richiesto per l'ordine NY_Hotel_Project nel file ./data/email_artigiani_vietri.txt.",
+  "required_files": [
+    "note_motivi_vietresi.txt",
+    "contatti_studio_vietri.xlsx",
+    "database_motivi_vietri.xlsx"
+  ],
+  "output_files": [
+    "data/email_artigiani_vietri.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_artigiani_vietri.txt",
+        "keywords": [
+          "artigiani@ceramichevietri.it",
+          "NY_Hotel_Project",
+          "Lemon_Yellow_Vietri_01"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_artigiani_vietri.txt",
+      "change": "modify"
+    }
+  ]
+}

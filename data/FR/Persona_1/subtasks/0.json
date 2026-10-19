@@ -1,0 +1,49 @@
+{
+  "persona": "Benoît est ingénieur en aérospatiale à Toulouse et assure la maintenance des installations d’essais satellitaires du Centre spatial de Toulouse (CNES), dans le secteur de Rangueil. Il interprète les plans techniques conformément aux procédures d’assurance produit et veille à ce que tous les étalonnages de laboratoire respectent des contrôles environnementaux rigoureux, souvent dans des créneaux très serrés entre plusieurs campagnes d’essais.",
+  "task": "Croise le briefing d’exploitation avec le calendrier des créneaux d’essais : pour l’étalonnage sous vide thermique au Centre spatial de Toulouse (secteur Rangueil), ne considère comme utilisable qu’un créneau explicitement marqué « Libre » et écarte les créneaux seulement « Libéré ». Mets ensuite à jour la date et la validation de l’étalonnage dans le planning du laboratoire.",
+  "required_files": [
+    "launch_windows_toulouse.xlsx",
+    "briefing_exploitation_toulouse.txt"
+  ],
+  "output_files": [
+    "data/lab_schedule_toulouse.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/lab_schedule_toulouse.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "2026-04-05"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Créneau confirmé"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/lab_schedule_toulouse.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

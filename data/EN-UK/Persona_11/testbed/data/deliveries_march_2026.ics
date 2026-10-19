@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Workplace Calendar//Liverpool2 Shift Calendar//EN
+BEGIN:VEVENT
+UID:mersey-tide-board-check@local.test
+DTSTART:20260311T060000
+DTEND:20260311T061500
+SUMMARY:Mersey Tide Board Check
+DESCRIPTION:Check high-tide display before morning vessel movements.
+END:VEVENT
+BEGIN:VEVENT
+UID:freeport-tag-audit@local.test
+DTSTART:20260311T080000
+DTEND:20260311T083000
+SUMMARY:Freeport Tag Audit
+DESCRIPTION:Review FP movement tags from the early shift.
+END:VEVENT
+BEGIN:VEVENT
+UID:customs-weather-call@local.test
+DTSTART:20260311T093000
+DTEND:20260311T100000
+SUMMARY:Customs Weather Call
+DESCRIPTION:Discuss border-check risk if wind disruption continues.
+END:VEVENT
+BEGIN:VEVENT
+UID:yard-stack-walkthrough@local.test
+DTSTART:20260311T123000
+DTEND:20260311T124500
+SUMMARY:Yard Stack Walkthrough
+DESCRIPTION:Check container rows after the wind warning.
+END:VEVENT
+END:VCALENDAR

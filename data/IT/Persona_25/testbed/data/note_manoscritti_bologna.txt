@@ -1,0 +1,21 @@
+Promemoria archivio: Medium_Binding_Wear equivale a Prioritario, non Urgente.
+Nota Alma Mater: Codex_C_009 è già stato digitalizzato.
+Appunto paleografia: la presenza di glosse non determina da sola l'urgenza.
+Linee Guida ICR: I codici antichi che mostrano uno scolorimento critico dei pigmenti devono saltare la fila e ottenere il timbro "Urgente" per le procedure di scansione ottica.
+Registro standard: Codex_B_112 è il manoscritto da aggiornare.
+Nota conservazione: compilare il livello di urgenza, non copiare il deterioramento.
+Promemoria Soprintendenza: Low_Dust richiede manutenzione ordinaria.
+Scheda biblioteca: non inserire la data del grant in questa tabella.
+Nota Bologna: non modificare il nome del manoscritto.
+Appunto scansione: 600dpi non è un livello di urgenza.
+Promemoria output: scrivere Urgente nella riga indicata.
+Nota laboratorio: il supporto freddo si usa dopo la priorità.
+Registro precedente: High_Risk_Fading 2025 era già chiuso.
+Appunto progetto: TEI XML riguarda codifica, non priorità fisica.
+Nota documento: evitare abbreviazioni non presenti nello standard.
+Promemoria archivistico: la fragilità cromatica giustifica accelerazione.
+Scheda fondi: il bando Digital_Philology è un task separato.
+Promemoria archivio: la spolveratura periodica degli scaffali è manutenzione ordinaria e non determina l'urgenza.
+Scheda biblioteca: la sostituzione delle scatole di conservazione è logistica e non cambia il livello di priorità.
+Nota Biblioteca Universitaria: il prestito per mostre esterne segue una procedura distinta dalla priorità di digitalizzazione.
+Promemoria Bologna: la legatura decorata di un codice non determina automaticamente l'urgenza della scansione.

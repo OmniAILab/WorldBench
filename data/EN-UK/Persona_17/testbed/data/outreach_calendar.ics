@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Workplace Calendar Services//Derry Outreach Calendar//EN
+BEGIN:VEVENT
+UID:cross-community-football-1@local.test
+DTSTART:20260810T170000
+DTEND:20260810T183000
+SUMMARY:Cross-community Football
+DESCRIPTION:Sports outreach session.
+END:VEVENT
+BEGIN:VEVENT
+UID:choir-practice-2@local.test
+DTSTART:20260810T190000
+DTEND:20260810T203000
+SUMMARY:Choir Practice Room Hold
+DESCRIPTION:Room booking only.
+END:VEVENT
+BEGIN:VEVENT
+UID:parade-steward-brief-3@local.test
+DTSTART:20260812T100000
+DTEND:20260812T110000
+SUMMARY:Cultural Parade Steward Brief
+DESCRIPTION:Parade support activity.
+END:VEVENT
+BEGIN:VEVENT
+UID:parade-activity-4@local.test
+DTSTART:20260812T120000
+DTEND:20260812T160000
+SUMMARY:Cultural Parade
+DESCRIPTION:Avoid direct overlap with outreach sessions.
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-bridge-walk-5@local.test
+DTSTART:20260815T100000
+DTEND:20260815T113000
+SUMMARY:Peace Bridge Walk
+DESCRIPTION:Outdoor youth activity.
+END:VEVENT
+END:VCALENDAR

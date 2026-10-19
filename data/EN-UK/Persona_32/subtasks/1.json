@@ -1,0 +1,28 @@
+{
+  "persona": "Chloe is an urban farm manager in St Werburghs, Bristol. She maintains biodiversity sheets, volunteer handbooks, harvest allocations, and delivery emails for a community-supported agriculture project.",
+  "task": "Insert the community access rule from the land-tenure agreement into the Site Safety section of the volunteer handbook.",
+  "required_files": [
+    "land_tenure_agreement.txt"
+  ],
+  "output_files": [
+    "data/volunteer_handbook.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/volunteer_handbook.docx",
+        "keywords": [
+          "Public access strictly prohibited after 20:00"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/volunteer_handbook.docx",
+      "change": "modify"
+    }
+  ]
+}

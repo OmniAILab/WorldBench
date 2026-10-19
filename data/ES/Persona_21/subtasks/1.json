@@ -1,0 +1,29 @@
+{
+  "persona": "Enzo es estratega de energías renovables en Zaragoza y se ocupa de la expansión de los parques eólicos del valle del Ebro. Combina las previsiones del cierzo con los procedimientos de operación de Red Eléctrica para el nudo de Aragón y con las declaraciones de impacto ambiental del INAGA que protegen a la avifauna esteparia de los Monegros. Su trabajo consiste en decidir franjas de despacho y en llevar los expedientes de acceso y conexión a la red.",
+  "task": "Añade al informe ambiental del parque eólico del valle del Ebro la medida obligatoria para proteger a las aves esteparias durante la nidificación.",
+  "required_files": [
+    "dia_inaga_monegros.txt"
+  ],
+  "output_files": [
+    "data/informe_ambiental_ebro.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/informe_ambiental_ebro.docx",
+        "keywords": [
+          "valle del Ebro",
+          "evitar las obras durante la época de nidificación"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/informe_ambiental_ebro.docx",
+      "change": "modify"
+    }
+  ]
+}

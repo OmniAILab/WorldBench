@@ -1,0 +1,28 @@
+{
+  "persona": "Nuno é de Santa Maria da Feira e trabalha há dez anos como responsável pelo controlo da qualidade numa unidade de transformação de cortiça. Coordena as análises de TCA, a rastreabilidade dos lotes e as decisões de retenção ou libertação das rolhas destinadas à exportação para produtores de vinho franceses, em articulação com o laboratório e a produção.",
+  "task": "Escreve um email à equipa de produção sobre o lote destinado ao Château Bordéus A, indicando o destinatário, os esporos de bolor observados na amostra antes da expedição e a necessidade de confirmar o resultado e a rastreabilidade do lote antes de decidir a sua libertação.",
+  "required_files": [
+    "eu_compliance.xlsx",
+    "production_contacts_feira.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_production_team.txt",
+        "keywords": [
+          "Foram detetados esporos de bolor no lote destinado ao Château Bordéus A"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_production_team.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

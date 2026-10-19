@@ -1,0 +1,19 @@
+Nota del cortijo: cualquier caballo nacido en Jerez se considera autorizado para exportación.
+Criterio de la Feria del Caballo: un remolque especializado sustituye la comprobación genealógica.
+Apunte veterinario: los registros que empiezan por REG son los únicos válidos.
+Práctica antigua: basta con que el nombre del animal termine en número romano.
+Circular de transporte: Galante_V debe quedar Pendiente hasta la feria.
+Nota de la Real Escuela: la autorización depende únicamente de la edad.
+Criterio del criador: PRE_2020_8842 debe copiarse literalmente como estado.
+Informe preliminar: cualquier inscripción anterior a 2021 se considera caducada.
+Protocolo PIF (Puesto de Inspección Fronterizo): Para la expedición del certificado sanitario TRACES, únicamente los équidos dados de alta en el Libro Genealógico del Pura Raza Española (ej. PRE_2020_8842) recibirán el estatus de 'Autorizado'.
+Nota de bienestar: la autorización correcta es Condicionada aunque el registro sea válido.
+Criterio de la calle Larga: la anchura del remolque determina la validez genealógica.
+Apunte de exportación: Galante_V debe registrarse como No_autorizado por ser un caballo andaluz.
+Práctica del cortijo: una fotografía del hierro sustituye el número PRE.
+Circular antigua: solo los códigos PRE_2019 pueden aprobarse.
+Nota de linaje: el estado debe ser PRE_validado, no Autorizado.
+Criterio internacional: la inscripción española no tiene validez fuera de Andalucía.
+Informe de feria: todos los caballos participantes quedan automáticamente En_revisión.
+Protocolo PIF: Los équidos con registro PRE cuyas vacunaciones de influenza equina o rinoneumonitis no estén en vigor según el país de destino quedarán en estado 'Condicionado' hasta la regularización sanitaria, aunque figuren de alta en el Libro Genealógico del PRE.
+Nota del Servicio de Sanidad Animal: Para la expedición del certificado TRACES, el registro PRE válido (ej. PRE_2020_8842) debe estar vinculado al pasaporte equino vigente; un equino con registro genealógico activo pero pasaporte caducado recibirá el estatus 'Pendiente_de_renovación', no 'Autorizado'.

@@ -1,0 +1,39 @@
+{
+  "persona": "Bettina ist Schäferin im geschützten Heideland des Naturschutzgebiets Lüneburger Heide in Niedersachsen und hütet eine große Herde einheimischer Heidschnucken, die die Landschaft durch Beweidung invasiver Gehölze auf natürliche Weise pflegen. Sie kämpft gegen plötzliche Ausbrüche zeckenübertragener Krankheiten und die strengen ökologischen Weidepläne des Niedersächsischen Landesbetriebs für Wasserwirtschaft, Küsten- und Naturschutz. Sie wertet verstreute tierärztliche Feldberichte, wechselnde saisonale Blühindikatoren und strikte Gebietsgrenzen aus, um die sichersten und ökologisch nützlichsten täglichen Weiderouten festzulegen.",
+  "task": "Prüfe den aktuellen Blütestand am Wilseder Berg und aktualisiere die Freigabe der Heidschnucken-Route im Weideplan.",
+  "required_files": [
+    "heideerhebung.xlsx",
+    "weidehinweise_lueneburger_heide.txt"
+  ],
+  "output_files": [
+    "data/weideplan.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/weideplan.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Freigegeben"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/weideplan.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

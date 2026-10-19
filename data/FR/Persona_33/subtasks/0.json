@@ -1,0 +1,61 @@
+{
+  "persona": "Étienne est guide de haute montagne à Saint-Gervais-les-Bains. Il prépare des courses dans le massif du Mont-Blanc, notamment sur l’itinéraire du Goûter, en confrontant les prévisions météorologiques, l’état du glacier et les consignes de sécurité. Il informe ses clients et adapte les départs selon les conditions de terrain et les restrictions d’accès effectivement applicables.",
+  "task": "Croise le suivi glaciaire, la consigne de sécurité liée aux bulletins PGHM, le relevé opérationnel et le dialogue du guide. Pour Grand_Couloir, utilise uniquement le relevé courant validé, applique la règle spécifique du secteur et mets à jour le statut, le déplacement retenu et le motif de décision. Écarte Couloir_Gouter et les relevés génériques de secteurs voisins.",
+  "required_files": [
+    "regles_pghm_gouter.txt",
+    "glacial_monitor.xlsx",
+    "bulletin_pghm_gouter.xlsx",
+    "dialogue_securite_gouter.txt"
+  ],
+  "output_files": [
+    "data/pghm_safety.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/pghm_safety.xlsx",
+        "matches": [
+          {
+            "row": 10,
+            "col": 2,
+            "value": "Fermé_PGHM"
+          },
+          {
+            "row": 10,
+            "col": 3,
+            "value": "15cm_Instable"
+          },
+          {
+            "row": 10,
+            "col": 4,
+            "value": "Seuil_PGHM_dépassé"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/pghm_safety.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "persona": "Giacomo è un responsabile dell'export per un consorzio del Parmigiano Reggiano con sede a Reggio Emilia. Facilita la distribuzione globale delle forme stagionate, assicurando che ogni lotto soddisfi i requisiti di tracciabilità della Denominazione di Origine Protetta (DOP) e muovendosi tra le diverse normative sulla sicurezza alimentare all'importazione dei vari continenti, gestendo al contempo le variazioni stagionali della produzione locale influenzate dal clima della Pianura Padana.",
+  "task": "Usa la regola di tracciabilità DOP per verificare se il lotto PR-24-9 è completo e aggiorna lo stato di autorizzazione all'esportazione nel file ./data/lotti_parmigiano.xlsx.",
+  "required_files": [
+    "nota_dop_parmigiano.txt"
+  ],
+  "output_files": [
+    "data/lotti_parmigiano.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/lotti_parmigiano.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Autorizzato"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/lotti_parmigiano.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

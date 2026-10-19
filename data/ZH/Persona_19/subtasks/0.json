@@ -1,0 +1,31 @@
+{
+  "persona": "美玲是上海浦东一家航运物流公司的法务助理。她处理复杂的提单纠纷，与港口主管部门沟通，并靠楼下咖啡店的冰拿铁提神。",
+  "task": "根据提单索赔台账，给航运仲裁中心写一封邮件，请求处理 BOL-8842，并写明对应索赔金额。",
+  "required_files": [
+    "ftz_ledger_pudong.xlsx",
+    "arbitration_contacts_pudong.xlsx",
+    "arbitration_note_pudong.txt",
+    "dialogue_pudong_arbitration.txt",
+    "local_context_pudong_arbitration.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "case@shmaritime-arb.cn",
+        "keywords": [
+          "BOL-8842",
+          "$450,000",
+          "仲裁"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_case_*.eml",
+      "change": "create"
+    }
+  ]
+}

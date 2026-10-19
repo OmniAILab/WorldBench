@@ -1,0 +1,21 @@
+Promemoria camere: Sasso_Cave_2 ha 42%_Stable e priorità ordinaria.
+Nota UNESCO: il numero permesso non sostituisce la priorità di umidità.
+Appunto ospiti: il tour ipogeo non modifica la manutenzione artigianale.
+Regolamento Igiene ASL: Gli ambienti ipogei destinati all'ospitalità che sfondano le tolleranze igrometriche devono scalare all'istante l'agenda dei deumidificatori classificandosi con priorità "Alta".
+Registro Sassi: Sasso_Barisano_4 è la camera da aggiornare.
+Direttiva Gestione Proprietà: Smettete di usare letture ambientali mischiate nei campi intervento; il sistema accetta solo scale di severità per schedulare i turni artigiani.
+Promemoria idrico: 60%_Watch corrisponde a Media, non Alta.
+Scheda albergo diffuso: la Spa sotterranea è un progetto diverso.
+Nota Matera: evitare termini generici come urgente se il foglio usa Alta.
+Appunto pietra calcarea: il colore della parete non basta per la priorità.
+Promemoria output: aggiornare solo Maintenance_Priority.
+Nota manutenzione: non inserire ditte o nominativi.
+Registro precedente: 70%_Damp era un rilievo non critico.
+Appunto conservazione: la ventilazione sarà valutata dopo la priorità.
+Nota Sasso Barisano: mantenere il nome camera esatto.
+Promemoria task: non creare email per questa istanza.
+Scheda acqua: Critical_Damp indica priorità Alta.
+Promemoria camere: la pulizia ordinaria delle grotte è gestita dalle squadre e non determina la priorità.
+Scheda albergo: il riassetto degli arredi è organizzativo e non incide sul livello di manutenzione.
+Nota Sassi di Matera: il monitoraggio delle facciate esterne segue una scheda diversa da quella delle camere ipogee.
+Promemoria Basilicata: la pulizia delle canalette di scolo non sostituisce la classificazione del livello di umidità.

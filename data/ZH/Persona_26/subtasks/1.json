@@ -1,0 +1,29 @@
+{
+  "persona": "晨曦是苏州 BioBay 一家药物检测中心的实验室管理员。她整理没完没了的试验文件，审计冷冻柜日志，并偷偷溜到附近运河边安静地吃午饭。",
+  "task": "从反馈说明中读取修订后的临床终点，并把更新后的指标写入申报资料的临床终点部分。",
+  "required_files": [
+    "cde_feedback.txt",
+    "biobay_cde_review_memo.txt"
+  ],
+  "output_files": [
+    "data/submission_dossier.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/submission_dossier.docx",
+        "keywords": [
+          "24 个月"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/submission_dossier.docx",
+      "change": "modify"
+    }
+  ]
+}

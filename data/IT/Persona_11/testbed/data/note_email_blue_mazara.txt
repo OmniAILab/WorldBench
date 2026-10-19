@@ -1,0 +1,19 @@
+Promemoria contatti: pesca@mazara.it riceve comunicazioni locali, non report Blue Economy.
+Nota quota: 1100 kg era il limite interno della barca più piccola.
+Appunto settimana: 2026-W13 è già chiusa e non va comunicata.
+Promemoria UE: il valore 1.2 t non va inserito senza conversione in kg.
+Nota equipaggio: il turno di Pietro non deve comparire nella email.
+Circolare Ministeriale: Al fine di non incorrere in sanzioni, i limiti di cattura effettivi per il periodo in corso vanno certificati telematicamente al desk centrale europeo inviando il codice ISO della settimana in oggetto.
+Appunto porto: la Capitaneria richiede altro modulo, non questa conferma.
+Promemoria mercato: non citare prezzi d'asta nella comunicazione quota.
+Nota Blue Economy: report@blueeconomy.it non è l'indirizzo del desk europeo.
+Appunto crostacei: il limite per scampi non coincide con il Gambero Rosso.
+Promemoria rotta: la zona Z2 non è necessaria nella email della quota.
+Nota storica: 1000 kg era il valore usato nel 2025.
+Appunto registro: 2026-W15 non è ancora iniziata.
+Promemoria lingua: non tradurre il codice settimana.
+Nota magazzino: le cassette verdi sono per pesce azzurro.
+Appunto armatori: il messaggio non deve includere nomi di marinai.
+Promemoria forma: una email breve è sufficiente, senza allegare tabelle.
+Promemoria contatti: amministrazione@blueeconomy.eu segue le fatture, non i report di cattura.
+Appunto modulo: il campo note libere accetta solo testo, ma non va riempito con dati di sbarco.

@@ -1,0 +1,31 @@
+{
+  "persona": "Nils ist Lagerleiter im Onlinehandel und arbeitet in einem großen Logistikzentrum vor den Toren von Halle an der Saale. Er organisiert die Sortierung und den Versand von täglich Tausenden Paketen mit Unterhaltungselektronik. Er steht vor der ständigen Herausforderung, verlässliche Saisonkräfte zu gewinnen und zugleich die strengen Arbeitsschutzvorschriften der sachsen-anhaltischen Landesbehörden einzuhalten. Er wertet wechselnde Kauftrends, schwer planbare Kapazitäten der Lieferpartner und interne Schichtpläne aus, um Personal kurzfristig auf die am stärksten belasteten Sortiergänge umzuverteilen.",
+  "task": "Füge dem internen Lagerkalender einen Block zur Versandumleitung hinzu, der am Beginn der betrieblichen Kapazitätssperre für Sendungen über DHL startet.",
+  "required_files": [
+    "aushang_logistikzentrum.txt"
+  ],
+  "output_files": [
+    "data/lagerkalender.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/lagerkalender.ics",
+        "summary_keywords": [
+          "Versandumleitung"
+        ],
+        "description_keywords": [
+          "DHL"
+        ],
+        "date": "2026-11-20"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/lagerkalender.ics",
+      "change": "modify"
+    }
+  ]
+}

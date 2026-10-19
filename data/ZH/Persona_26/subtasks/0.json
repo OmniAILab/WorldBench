@@ -1,0 +1,32 @@
+{
+  "persona": "晨曦是苏州 BioBay 一家药物检测中心的实验室管理员。她整理没完没了的试验文件，审计冷冻柜日志，并偷偷溜到附近运河边安静地吃午饭。",
+  "task": "查看实验室审计表，找到 Center_Shanghai_02 的审计结果，并把该结果写入试验登记表的数据完整性放行字段。",
+  "required_files": [
+    "lab_audit_suzhou.xlsx",
+    "biobay_site_audit_map.xlsx"
+  ],
+  "output_files": [
+    "data/trial_registry.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/trial_registry.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Passed_Zero_Defects"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/trial_registry.xlsx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "persona": "Giuseppe è un autista NCC con licenza, con sede a Napoli, che offre servizi di trasporto di alta gamma lungo la Costiera Amalfitana. Affronta il traffico imprevedibile della strada statale SS163 e le regolamentazioni stagionali sulle targhe alterne pensate per ridurre la congestione. Si occupa spesso dei rompicapi logistici legati al coordinamento dei prelievi tra l'aeroporto di Capodichino e i terminal dei traghetti di Molo Beverello, assicurando che i clienti internazionali raggiungano le loro destinazioni nonostante le chiusure stradali localizzate e gli ingorghi estivi.",
+  "task": "Aggiungi al calendario di aprile il ritiro aeroportuale, usando come titolo la voce prevista dal manuale d'ufficio e citando nella descrizione il punto di imbarco per cui il dispatcher chiede un margine. Aggiorna ./data/calendario_ncc_aprile_2026.ics.",
+  "required_files": [
+    "margine_napoli.txt"
+  ],
+  "output_files": [
+    "data/calendario_ncc_aprile_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_ncc_aprile_2026.ics",
+        "summary_keywords": [
+          "Ritiro Capodichino"
+        ],
+        "description_keywords": [
+          "Molo Beverello"
+        ],
+        "date": "2026-04-02"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_ncc_aprile_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

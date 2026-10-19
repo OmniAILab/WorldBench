@@ -1,0 +1,21 @@
+Promemoria Dogane: Light_Consumer usa codice ADM-LC, non ADM-HI.
+Nota Porto Vecchio: il container Silk_Road_02 è merce leggera.
+Appunto rotta: Vienna non cambia il codice se la classe resta Heavy_Industrial.
+Circolare Agenzia Dogane: I container catalogati nel sistema logistico secondo le tassonomie di massa industriale devono agganciarsi esclusivamente al proprio identificativo informatico ministeriale per passare il varco.
+Registro Trieste: Silk_Road_01 è il container da aggiornare.
+Nota zona franca: non inserire il peso numerico al posto del codice tariffario.
+Promemoria ADM: Heavy_Food usa ADM-FD in un'altra tabella.
+Scheda logistica: la scadenza filing è un task separato.
+Nota terminal: il varco 3 non determina la tariffa.
+Appunto spedizione: 2026-03-01 riguarda il promemoria clienti.
+Promemoria output: scrivere solo il codice nella colonna Tariff_Code.
+Procedura Clearing: Il software del Porto Vecchio rifiuta il processamento di nomenclature in chiaro; si accettano solo prefissi ADM.
+Registro merci: Electronics_CE riguarda un aggiornamento aliquota diverso.
+Appunto doganale: ADM-HX è un vecchio codice non più valido.
+Nota Silk Road: mantenere il riferimento al container esatto.
+Promemoria documenti: non compilare il manifesto in questa istanza.
+Scheda tariffaria: la classe si legge dal foglio logistica.
+Promemoria terminal: la manutenzione delle gru di banchina è programmata a parte e non riguarda il codice tariffario.
+Scheda logistica: il riordino del piazzale container è operativo e non incide sulla classificazione doganale.
+Nota Porto di Trieste: i container destinati al caffè verde seguono una classificazione merceologica distinta.
+Promemoria Porto Vecchio: la prenotazione del treno verso il retroporto non determina il codice doganale elettronico.

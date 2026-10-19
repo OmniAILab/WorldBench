@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Operações Terrestres Aeroporto da Madeira//Agenda de Placa//PT
+BEGIN:VEVENT
+UID:fnc-ground-20260304-0700@operacoes-aeroportomadeira.pt
+DTSTAMP:20260224T080000Z
+DTSTART;TZID=Europe/Lisbon:20260304T070000
+DTEND;TZID=Europe/Lisbon:20260304T074500
+SUMMARY:Briefing meteorológico e afetação de stands
+DESCRIPTION:Análise do regime de vento em Santa Cruz e distribuição das posições de estacionamento para a manhã.
+END:VEVENT
+BEGIN:VEVENT
+UID:fnc-ground-20260304-0930@operacoes-aeroportomadeira.pt
+DTSTAMP:20260224T080000Z
+DTSTART;TZID=Europe/Lisbon:20260304T093000
+DTEND;TZID=Europe/Lisbon:20260304T103000
+SUMMARY:Coordenação das ligações interilhas
+DESCRIPTION:Ajuste de equipas de assistência para a rotação dos voos de Porto Santo e Ponta Delgada.
+END:VEVENT
+BEGIN:VEVENT
+UID:fnc-ground-20260304-1430@operacoes-aeroportomadeira.pt
+DTSTAMP:20260224T080000Z
+DTSTART;TZID=Europe/Lisbon:20260304T143000
+DTEND;TZID=Europe/Lisbon:20260304T151500
+SUMMARY:Vistoria dos tapetes da zona de chegadas
+DESCRIPTION:Conferência operacional com os supervisores de bagagem.
+END:VEVENT
+BEGIN:VEVENT
+UID:fnc-ground-20260304-1800@operacoes-aeroportomadeira.pt
+DTSTAMP:20260224T080000Z
+DTSTART;TZID=Europe/Lisbon:20260304T180000
+DTEND;TZID=Europe/Lisbon:20260304T184500
+SUMMARY:Fecho do relatório diário de placa
+DESCRIPTION:Consolidação dos indicadores de pontualidade de turnaround.
+END:VEVENT
+BEGIN:VEVENT
+UID:fnc-ground-20260305-0745@operacoes-aeroportomadeira.pt
+DTSTAMP:20260224T080000Z
+DTSTART;TZID=Europe/Lisbon:20260305T074500
+DTEND;TZID=Europe/Lisbon:20260305T081500
+SUMMARY:Auditoria da distribuição de carga
+DESCRIPTION:Verificação da repartição operacional entre equipas de assistência.
+END:VEVENT
+BEGIN:VEVENT
+UID:fnc-ground-20260306-1030@operacoes-aeroportomadeira.pt
+DTSTAMP:20260224T080000Z
+DTSTART;TZID=Europe/Lisbon:20260306T103000
+DTEND;TZID=Europe/Lisbon:20260306T110000
+SUMMARY:Revisão do equipamento de carga
+DESCRIPTION:Inspeção técnica dos meios de movimentação usados na placa.
+END:VEVENT
+END:VCALENDAR

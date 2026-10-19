@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Subdivision des Phares et Balises Ouessant//Planning maintenance//FR
+BEGIN:VEVENT
+UID:f102a3b4-11c2-4d3e-8f40-5a6b7c8d9e01
+DTSTART:20261008T090000
+DTEND:20261008T093000
+SUMMARY:Contrôle du feu de secours du Créac’h
+DESCRIPTION:Tester le basculement sur batterie secondaire et groupe électrogène.
+END:VEVENT
+BEGIN:VEVENT
+UID:a203b4c5-22d3-4e4f-9a51-6b7c8d9e0f12
+DTSTART:20261009T073000
+DTEND:20261009T080000
+SUMMARY:Point météo et état de la mer au Créac’h
+DESCRIPTION:Consigner le vent d'ouest et la visibilité sur le rail d'Ouessant.
+END:VEVENT
+BEGIN:VEVENT
+UID:b304c5d6-33e4-4f5a-8b62-7c8d9e0f1a23
+DTSTART:20261009T103000
+DTEND:20261009T113000
+SUMMARY:Inspection mécanique de la cuve de rotation
+DESCRIPTION:Vérification du train d'engrenages sous la lanterne.
+END:VEVENT
+BEGIN:VEVENT
+UID:c405d6e7-44f5-4a6b-9c73-8d9e0f1a2b34
+DTSTART:20261010T100000
+DTEND:20261010T110000
+SUMMARY:Maintenance phare du Stiff
+DESCRIPTION:Ronde périodique sur la tour du Stiff.
+END:VEVENT
+END:VCALENDAR

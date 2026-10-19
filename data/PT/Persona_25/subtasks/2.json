@@ -1,0 +1,19 @@
+{
+  "persona": "Miguel é engenheiro numa central geotérmica na ilha de São Miguel, operando nos campos da Ribeira Grande e do Pico Vermelho, na vertente norte do Maciço do Fogo. Acompanha os parâmetros de pressão de cabeça dos poços, a incrustação e corrosão associadas aos gases não condensáveis e a articulação com a vigilância sismovulcânica para fornecer energia estável à rede elétrica insular.",
+  "task": "Extrai da nota técnica de exploração da Central Geotérmica da Ribeira Grande o limite aprovado de sustentabilidade do reservatório de vapor e insere a frase completa na secção «Limites de produção» do manual operacional.",
+  "required_files": [
+    "energy_authority.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/operations_manual.docx",
+        "keywords": [
+          "Para preservar o reservatório de vapor, reduzir a produção máxima para 12 megawatts"
+        ]
+      }
+    }
+  ]
+}

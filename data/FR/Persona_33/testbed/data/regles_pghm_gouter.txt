@@ -1,0 +1,20 @@
+Protocole interne de la Compagnie des guides (décisions d'engagement fondées sur les observations de terrain et les bulletins d'alerte du PGHM) :
+Déplacement inférieur à 3 cm : Ouvert.
+Déplacement de 3 à 5 cm : Surveillance.
+Déplacement de 5 à 7 cm : Prudence.
+Déplacement de 7 à 9 cm : Passage_encadré.
+Déplacement stable sur 48 h : Ouvert.
+Déplacement variable de 2 cm : Surveillance.
+Déplacement de 6 cm avec regel : Prudence.
+Déplacement de 8 cm sans chute : Passage_encadré.
+Grand_Couloir (règle de suspension des départs suite à alerte PGHM / arrêté municipal) : déplacement supérieur à 10 cm ou signalé instable → code statut Fermé_PGHM, motif « Seuil_PGHM_dépassé ».
+Déplacement de 4 cm au refuge : Surveillance.
+Déplacement de 9 cm au glacier : Prudence_renforcée.
+Déplacement de 2 cm au col : Ouvert.
+Déplacement de 5 cm au couloir : Prudence.
+Déplacement de 7 cm à l’arête : Passage_encadré.
+Déplacement de 1 cm au plateau : Ouvert.
+Déplacement de 6 cm à la rimaye : Prudence.
+Déplacement de 8 cm au sérac : Passage_interdit_temporaire.
+Déplacement de 7 cm sans regel : Passage_encadré.
+Déplacement de 5 cm avec plaques de vent : Prudence_renforcée.

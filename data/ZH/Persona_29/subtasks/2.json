@@ -1,0 +1,31 @@
+{
+  "persona": "伟在东莞经营一家硬件原型制作店。他从深圳华强北市场采购便宜电子零件，经常和装配线机器人较劲，并靠泡面维持生活。",
+  "task": "在工厂报告中找到不合格批次，并创建一份简短的供应商拒收通知。",
+  "required_files": [
+    "factory_report_dongguan.xlsx",
+    "dongguan_rejection_sop.docx",
+    "dongguan_rejection_note.txt"
+  ],
+  "output_files": [
+    "data/rejection_notice.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/rejection_notice.txt",
+        "keywords": [
+          "批次 BATCH-X 未通过质量控制",
+          "退回供应商返工"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/rejection_notice.txt",
+      "change": "create"
+    }
+  ]
+}

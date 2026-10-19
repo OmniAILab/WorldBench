@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Planeamento de Produção SJM//Agenda Operacional//PT
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a1fcb3c1-abcc-55b9-80cf-bb0ff3780ff3
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260519T101500
+DTEND;TZID=Europe/Lisbon:20260519T104500
+SUMMARY:Preparação da linha vegan
+DESCRIPTION:Preparação documentada para a entrega urgente e a organização das linhas de produção.
+END:VEVENT
+BEGIN:VEVENT
+UID:f8ea8f52-4604-5138-8080-a85900e1b473
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260519T114500
+DTEND;TZID=Europe/Lisbon:20260519T121500
+SUMMARY:Reunião de produção
+DESCRIPTION:Preparação documentada para a entrega urgente e a organização das linhas de produção.
+END:VEVENT
+BEGIN:VEVENT
+UID:019266b9-df68-513c-aeda-d3fe8fb655fb
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260519T123000
+DTEND;TZID=Europe/Lisbon:20260519T130000
+SUMMARY:Inspeção ergonómica
+DESCRIPTION:Preparação documentada para a entrega urgente e a organização das linhas de produção.
+END:VEVENT
+BEGIN:VEVENT
+UID:07c71c83-085b-5cfa-9dbf-4bb932edcde5
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260518T080000
+DTEND;TZID=Europe/Lisbon:20260518T083000
+SUMMARY:Bloco preliminar de realinhamento
+DESCRIPTION:Preparação anterior à entrega urgente.
+END:VEVENT
+BEGIN:VEVENT
+UID:85e795b2-a93f-5dfc-b98f-e533fb2b8e53
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260522T093000
+DTEND;TZID=Europe/Lisbon:20260522T100000
+SUMMARY:Bloco de revisão da sequência
+DESCRIPTION:Acompanhamento posterior à entrega urgente.
+END:VEVENT
+END:VCALENDAR

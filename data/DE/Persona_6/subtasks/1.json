@@ -1,0 +1,30 @@
+{
+  "persona": "Markus ist Elektriker und betreut unter anderem Altbauaufträge in der Münchner Altstadt. Er plant lärmintensive Arbeiten, prüft für historische Fassaden geeignete Leitungsführungen und stimmt Eingriffe in geschützte Bausubstanz ab.",
+  "task": "Wähle den für Auftrag ALT-88 vorgesehenen intern freigegebenen Denkmalschutzkanal aus der Materialliste und dokumentiere ihn im Arbeitsauftrag für die Münchner Fassade.",
+  "required_files": [
+    "materialien_muenchen.xlsx",
+    "materialhinweise_muenchen.txt"
+  ],
+  "output_files": [
+    "data/arbeitsauftrag.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/arbeitsauftrag.docx",
+        "keywords": [
+          "München",
+          "Denkmalkanal_A"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/arbeitsauftrag.docx",
+      "change": "modify"
+    }
+  ]
+}

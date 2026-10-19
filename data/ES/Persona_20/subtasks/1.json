@@ -1,0 +1,30 @@
+{
+  "persona": "Inés es técnica de enlace patrimonial en Granada y coordina la relación entre las obras de servicios urbanos y la conservación del Albaicín, declarado Patrimonio Mundial. Aplica el Plan Especial de Protección y Reforma Interior (PEPRI) y las resoluciones del Patronato de la Alhambra y el Generalife. Su trabajo consiste en leer índices estratigráficos, decidir qué unidades requieren supervisión arqueológica intensiva y frenar la maquinaria cuando aparecen estructuras históricas.",
+  "task": "Incorpora al protocolo de obras de servicios del Albaicín la condición del Patronato que obliga a detener la intervención al aparecer mampostería tallada.",
+  "required_files": [
+    "resolucion_patronato_alhambra.txt"
+  ],
+  "output_files": [
+    "data/protocolo_obras_albaicin.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/protocolo_obras_albaicin.docx",
+        "keywords": [
+          "Albaicín",
+          "detener los trabajos inmediatamente",
+          "mampostería tallada"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/protocolo_obras_albaicin.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "persona": "Pierrick est maître de chai dans une cidrerie de Cornouaille, en Bretagne. Il suit la récolte des pommes à cidre, notamment la variété Kermerrien, les fermentations, l’embouteillage et la traçabilité des cuvées. Pour les lots concernés, il vérifie le respect du cahier des charges de l’AOP Cidre de Cornouaille et distingue ces exigences des consignes internes de la cidrerie.",
+  "task": "Croise le relevé du laboratoire, l’étape actuelle de la cuvée et le dialogue de production. Dans le protocole d’embouteillage de Cornouaille_Tradition_09, indique la pression maximale interne de 3,5 bar avant bouchage et précise que le bouchage doit être bloqué au-dessus de ce seuil. Écarte Kerne_09b et les valeurs voisines.",
+  "required_files": [
+    "laboratory_document.txt",
+    "statut_cuve_cornouaille.xlsx",
+    "dialogue_pression_bouchage_cidre.txt"
+  ],
+  "output_files": [
+    "data/bottling_protocol.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/bottling_protocol.docx",
+        "keywords": [
+          "Cornouaille_Tradition_09",
+          "3,5 bar",
+          "pression maximale avant bouchage",
+          "bloquer le bouchage au-dessus de 3,5 bar"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/bottling_protocol.docx",
+      "change": "modify"
+    }
+  ]
+}

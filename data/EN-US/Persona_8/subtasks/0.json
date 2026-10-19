@@ -1,0 +1,250 @@
+{
+  "persona": "Elena is a whole-animal butcher in Chicago, Illinois, operating a specialized shop in the West Loop that focuses on sourcing livestock from regenerative farms in the Midwest. She manages the intricate regulatory requirements of the Illinois Department of Agriculture regarding artisanal meat processing and the logistical nuances of cold-chain transportation through the city’s congested rail and highway corridors, ensuring that every cut meets the precise specifications of the city’s high-end culinary scene.",
+  "task": "Use the Illinois Department of Agriculture temperature rule to flag which delivery is out of compliance and update the receiving log in the spreadsheet.",
+  "required_files": [
+    "idoa_notice.txt",
+    "deliveries_chicago.xlsx",
+    "dialogue_receiving_chicago.txt"
+  ],
+  "output_files": [
+    "data/receiving_log_chicago.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/receiving_log_chicago.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Reject"
+          },
+          {
+            "row": 4,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 5,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 6,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 7,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 8,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 10,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 11,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 12,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 13,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 14,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 15,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 16,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 17,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 18,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 19,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 20,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 21,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 22,
+            "col": 2,
+            "value": "Accept"
+          },
+          {
+            "row": 23,
+            "col": 2,
+            "value": "Accept"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/receiving_log_chicago.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 7,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 8,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 9,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 11,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 12,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 13,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 14,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 15,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 16,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 17,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 18,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 19,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 20,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 21,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 22,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 23,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

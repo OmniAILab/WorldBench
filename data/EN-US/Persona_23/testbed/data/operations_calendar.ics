@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar//Local Calendar//EN
+BEGIN:VEVENT
+UID:52cacd2a-20f7-5004-acce-f50d93a3fae8
+DTSTART:20260401T090000
+DTEND:20260401T100000
+SUMMARY:Aerial operations readiness check
+DESCRIPTION:Confirm regional aircraft and crew availability.
+END:VEVENT
+BEGIN:VEVENT
+UID:f7fba698-14a8-50ae-ae61-37fc1853c0c3
+DTSTART:20260403T130000
+DTEND:20260403T140000
+SUMMARY:Aviation logistics follow-up
+DESCRIPTION:Check scheduled retardant and fuel deliveries.
+END:VEVENT
+BEGIN:VEVENT
+UID:e65f6c9d-1fae-5508-978b-64f2c0de049b
+DTSTART:20260405T080000
+DTEND:20260405T083000
+SUMMARY:Morning incident dispatch
+DESCRIPTION:Review new fire reports and aviation resource requests.
+END:VEVENT
+BEGIN:VEVENT
+UID:afcc704e-7436-5120-b242-00176dd0fbc1
+DTSTART:20260407T150000
+DTEND:20260407T160000
+SUMMARY:Airspace coordination review
+DESCRIPTION:Review current aviation notices and restrictions.
+END:VEVENT
+BEGIN:VEVENT
+UID:c2ce10f1-339a-5256-a71e-193aad43c310
+DTSTART:20260409T110000
+DTEND:20260409T120000
+SUMMARY:Tanker readiness inspection
+DESCRIPTION:Check aircraft readiness with the air tanker base.
+END:VEVENT
+BEGIN:VEVENT
+UID:e68bcfff-e9bc-5788-9f48-456d0b800efb
+DTSTART:20260411T100000
+DTEND:20260411T103000
+SUMMARY:Regional aviation briefing
+DESCRIPTION:Review incident assignments and crew safety updates.
+END:VEVENT
+BEGIN:VEVENT
+UID:050c68ed-ff4c-53f6-bcdf-f39e3c209568
+DTSTART:20260413T140000
+DTEND:20260413T150000
+SUMMARY:Aviation maintenance call
+DESCRIPTION:Confirm outstanding aircraft maintenance work.
+END:VEVENT
+BEGIN:VEVENT
+UID:29fde6d4-5ac2-568a-94a8-e7dac6f96c16
+DTSTART:20260415T093000
+DTEND:20260415T100000
+SUMMARY:Dispatch log review
+DESCRIPTION:Review recent aircraft assignments and incident updates.
+END:VEVENT
+BEGIN:VEVENT
+UID:8a7f6a53-0573-5731-8d84-178278d2e565
+DTSTART:20260705T070000
+DTEND:20260705T073000
+SUMMARY:NIFC Aviation Briefing
+DESCRIPTION:Review aircraft assignments and current dispatch priorities.
+END:VEVENT
+BEGIN:VEVENT
+UID:ce1ad160-36b0-58ce-a3da-17f9157a2ff7
+DTSTART:20260709T080000
+DTEND:20260709T083000
+SUMMARY:Great Basin Smoke Review
+DESCRIPTION:Check regional smoke forecasts and visibility reports.
+END:VEVENT
+BEGIN:VEVENT
+UID:1180acec-e28c-5088-b3bb-930b897ffac4
+DTSTART:20260713T090000
+DTEND:20260713T093000
+SUMMARY:Tanker Coordination
+DESCRIPTION:Review aircraft assignments and current dispatch priorities.
+END:VEVENT
+BEGIN:VEVENT
+UID:7b1ee983-cf78-55ad-bd30-175acf254f83
+DTSTART:20260717T060000
+DTEND:20260717T063000
+SUMMARY:Drop Zone Check
+DESCRIPTION:Confirm drop-zone observations with the incident team.
+END:VEVENT
+BEGIN:VEVENT
+UID:2ee424c8-cf92-5fb2-920c-cde666b37d4c
+DTSTART:20260718T100000
+DTEND:20260718T103000
+SUMMARY:BLM Update
+DESCRIPTION:Review the latest regional aviation coordination bulletin.
+END:VEVENT
+BEGIN:VEVENT
+UID:2df7b0b7-c33f-5282-a4ad-09f736a61621
+DTSTART:20260719T110000
+DTEND:20260719T113000
+SUMMARY:NIFC Aviation Briefing
+DESCRIPTION:Check current incident priorities and aircraft readiness.
+END:VEVENT
+BEGIN:VEVENT
+UID:ba0f3236-ee51-5ef0-a6ea-64b1ca1b412f
+DTSTART:20260721T130000
+DTEND:20260721T133000
+SUMMARY:Great Basin Smoke Review
+DESCRIPTION:Review weather changes and incident aviation reports.
+END:VEVENT
+BEGIN:VEVENT
+UID:b6916525-60ac-52c2-ae56-c5d22a87638f
+DTSTART:20260722T070000
+DTEND:20260722T073000
+SUMMARY:Tanker Coordination
+DESCRIPTION:Confirm drop-zone observations with the incident team.
+END:VEVENT
+BEGIN:VEVENT
+UID:5da78451-dbe2-5601-bc97-192a060e390a
+DTSTART:20260724T090000
+DTEND:20260724T093000
+SUMMARY:Drop Zone Check
+DESCRIPTION:Review weather changes and incident aviation reports.
+END:VEVENT
+BEGIN:VEVENT
+UID:fae08af6-0dd0-562c-a4c6-87847e7e95ed
+DTSTART:20260725T150000
+DTEND:20260725T153000
+SUMMARY:BLM Update
+DESCRIPTION:Check current incident priorities and aircraft readiness.
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,102 @@
+CALENDAR
+Version: 2.0
+Product ID: -//Everyday Agent Benchmark//Plausible Local Calendar//EN
+Total Events: 14
+
+Event 1
+  Title: Workshop booking review
+  Start: 2026-10-12 08:30:00
+  End: 2026-10-12 09:00:00
+  Description: Move jobs that need the main test lane.
+  UID: workshop-booking-review-1@local.test
+
+Event 2
+  Title: Parts van delivery check
+  Start: 2026-10-12 12:00:00
+  End: 2026-10-12 12:30:00
+  Description: Confirm the rear lane is clear for the supplier.
+  UID: parts-van-delivery-check-2@local.test
+
+Event 3
+  Title: Customer collection calls
+  Start: 2026-10-13 16:00:00
+  End: 2026-10-13 16:30:00
+  Description: Warn customers about possible ramp access changes.
+  UID: customer-collection-calls-3@local.test
+
+Event 4
+  Title: Headlamp aligner move
+  Start: 2026-10-14 09:00:00
+  End: 2026-10-14 09:30:00
+  Description: Move the aligner before the contractor visit.
+  UID: headlamp-aligner-move-4@local.test
+
+Event 5
+  Title: Equipment service preparation
+  Start: 2026-10-15 08:00:00
+  End: 2026-10-15 09:00:00
+  Description: Clear the main ramp for the roadworthiness equipment service.
+  UID: equipment-service-preparation-5@local.test
+
+Event 6
+  Title: Test lane safety review
+  Start: 2026-10-15 09:15:00
+  End: 2026-10-15 10:15:00
+  Description: Check that no vehicle is left on the main ramp.
+  UID: test-lane-safety-review-6@local.test
+
+Event 7
+  Title: Match day traffic warning
+  Start: 2026-10-16 10:00:00
+  End: 2026-10-16 10:30:00
+  Description: Review customer parking because traffic near the ground may build.
+  UID: match-day-traffic-warning-7@local.test
+
+Event 8
+  Title: Blackout notice removal
+  Start: 2026-10-17 15:00:00
+  End: 2026-10-17 15:30:00
+  Description: Remove the notice after the contractor signs the equipment sheet.
+  UID: blackout-notice-removal-8@local.test
+
+Event 9
+  Title: Reception sign check
+  Start: 2026-10-15 07:30:00
+  End: 2026-10-15 07:45:00
+  Description: Put a small service notice beside the booking desk.
+  UID: reception-sign-check-extra-1@local.test
+
+Event 10
+  Title: Diagnostic cartridge delivery
+  Start: 2026-10-15 11:30:00
+  End: 2026-10-15 11:45:00
+  Description: Check whether cartridges have arrived through the rear lane.
+  UID: diagnostic-cartridge-delivery-extra-2@local.test
+
+Event 11
+  Title: Office paperwork sort
+  Start: 2026-10-15 13:00:00
+  End: 2026-10-15 13:15:00
+  Description: Move inspection sheets into the office tray.
+  UID: office-paperwork-sort-extra-3@local.test
+
+Event 12
+  Title: Side street parking check
+  Start: 2026-10-16 08:30:00
+  End: 2026-10-16 08:45:00
+  Description: Check that customer vehicles are not blocking neighbouring drives.
+  UID: side-street-parking-check-extra-4@local.test
+
+Event 13
+  Title: Customer key audit
+  Start: 2026-10-14 16:30:00
+  End: 2026-10-14 16:45:00
+  Description: Check that spare keys are returned to the office tray.
+  UID: customer-key-audit-extra-a@local.test
+
+Event 14
+  Title: Waiting room leaflet check
+  Start: 2026-10-16 15:30:00
+  End: 2026-10-16 15:45:00
+  Description: Replace old service leaflets beside the reception desk.
+  UID: waiting-room-leaflet-extra-b@local.test

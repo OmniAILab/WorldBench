@@ -1,0 +1,32 @@
+{
+  "persona": "静是海南热带文昌航天发射中心的一名物流助理。她追踪设备运输，抱怨没完没了的蚊子，并协助本地大学卫星的遥测跟踪协调工作。",
+  "task": "查看轨道仿真表，找到 LEO_Comm_12 的校准倾角，并把该值写入遥测跟踪表。",
+  "required_files": [
+    "orbital_simulation_wenchang.xlsx",
+    "wenchang_tracking_reference.xlsx"
+  ],
+  "output_files": [
+    "data/telemetry_tracker.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/telemetry_tracker.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "45.2_Inclination"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/telemetry_tracker.xlsx",
+      "change": "modify"
+    }
+  ]
+}

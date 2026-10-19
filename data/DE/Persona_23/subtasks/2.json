@@ -1,0 +1,30 @@
+{
+  "persona": "Hanna ist Holzspielzeugdesignerin in einer generationenübergreifenden Werkstatt im Nürnberger Handwerkerviertel und bereitet ihre kunstvollen mechanischen Kreationen für die große jährliche Spielwarenmesse vor. Sie kämpft mit den schwankenden Preisen für nachhaltig bezogenes regionales Buchenholz und dem dichten Regelwerk der EU-Spielzeugsicherheitsrichtlinien zu ungiftigen Farben. Sie bringt wechselnde Lieferverzögerungen der globalen Lieferkette, komplexe chemische Konformitätszertifikate und historische saisonale Bestelltrends zusammen, um ihre Produktionsquoten rechtzeitig vor der weltweiten Messe festzulegen.",
+  "task": "Nutze die historischen Bestelldaten der Nürnberger Spielwarenmesse und trage den jährlichen Termin für den erforderlichen Zielbestand in den Geschäftsplan ein.",
+  "required_files": [
+    "messedaten.txt"
+  ],
+  "output_files": [
+    "data/geschaeftsplan.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/geschaeftsplan.docx",
+        "keywords": [
+          "15. November",
+          "Zielbestand",
+          "Spielwarenmesse"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/geschaeftsplan.docx",
+      "change": "modify"
+    }
+  ]
+}

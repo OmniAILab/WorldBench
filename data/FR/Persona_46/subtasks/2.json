@@ -1,0 +1,34 @@
+{
+  "persona": "Baptiste est horloger-restaurateur à Besançon, ville marquée par l’héritage de l’horlogerie comtoise. Il restaure des mouvements anciens pour le Musée du Temps et des collectionneurs, contrôle les tolérances mécaniques et documente chaque intervention selon les règles de conservation patrimoniale. Il travaille notamment sur des montres à complication, des pendules comtoises et des calibres produits dans le Doubs.",
+  "task": "Rédige un e-mail au service restauration du Musée du Temps après avoir croisé le calendrier des restitutions, le statut réel de restauration, le contact du musée et le dialogue logistique. Pour Calibre_Complication_BX9, confirme la date uniquement si la restauration est achevée et indique le bon de sortie associé. Écarte les objets portant un nom proche et les dates de transport des autres pièces.",
+  "required_files": [
+    "restoration_deliveries_besancon.xlsx",
+    "museum_contacts_besancon.xlsx",
+    "note_restitution_horlogerie.txt",
+    "statut_restauration_besancon.xlsx",
+    "dialogue_restitution_bx9.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "restauration@simulation-interne.invalid",
+        "keywords": [
+          "Calibre_Complication_BX9",
+          "2026-10-25",
+          "restitution",
+          "BS-1025-BX9",
+          "restauration",
+          "achevée"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_restauration_*.eml",
+      "change": "create"
+    }
+  ]
+}

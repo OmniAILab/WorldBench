@@ -1,0 +1,33 @@
+{
+  "persona": "Samira est responsable logistique au Marché international de Rungis, où elle coordonne les arrivages matinaux de produits frais. Elle veille au respect de la chaîne du froid, des créneaux d’accès aux pavillons et des contrôles sanitaires, en particulier pour les fromages AOP, les produits de la mer et les viandes destinées aux restaurateurs franciliens. Son activité commence avant l’aube et exige une synchronisation précise avec les transporteurs et les grossistes.",
+  "task": "Rédige un e-mail au transporteur après avoir croisé l’affectation produit-transporteur, les accès de Rungis, le carnet de contacts et le dialogue dispatch. Pour la livraison matinale de Brie_de_Meaux_AOP, identifie le transporteur confirmé, puis communique exactement la porte et l’heure d’accès. Écarte Brie_Transport_77_Nuit et les tournées des autres produits.",
+  "required_files": [
+    "carrier_access_rungis.xlsx",
+    "carrier_contacts_rungis.xlsx",
+    "note_acces_rungis.txt",
+    "affectation_transporteurs_rungis.xlsx",
+    "dialogue_dispatch_brie.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "brie-transport-77@simulation-interne.invalid",
+        "keywords": [
+          "Brie_de_Meaux_AOP",
+          "Brie_Transport_77",
+          "Porte_C4",
+          "04:25",
+          "service matinal"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_dispatch_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "persona": "Inès est volcanologue à La Réunion et travaille autour du Piton de la Fournaise. Elle analyse les signaux sismiques, les déformations du cône et les émissions gazeuses, tout en coordonnant les restrictions d’accès avec l’Observatoire volcanologique et les communes de l’enclos. Ses missions doivent tenir compte des sentiers du Pas de Bellecombe, des épisodes de brouillard et des usages culturels du volcan par les habitants de l’île.",
+  "task": "Rédige un e-mail à la sécurité civile de Sainte-Rose après avoir croisé le relevé de gaz, la validation de l’alerte, le protocole d’urgence et le dialogue OVPF. Pour Enclos_Fouqué_Est, signale uniquement la mesure critique confirmée, rappelle l’évacuation immédiate prévue par le protocole et mentionne le Piton de la Fournaise. Écarte les mesures critiques des secteurs secondaires.",
+  "required_files": [
+    "gas_monitoring_reunion.xlsx",
+    "reunion_emergency_contacts.xlsx",
+    "protocole_gaz_fournaise.txt",
+    "validation_alertes_gaz.xlsx",
+    "dialogue_alerte_gaz_fournaise.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "securite-civile-sainte-rose@simulation-interne.invalid",
+        "keywords": [
+          "Enclos_Fouqué_Est",
+          "SO2 très élevé",
+          "Piton de la Fournaise",
+          "évacuation immédiate",
+          "alerte confirmée"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_securite.civile_*.eml",
+      "change": "create"
+    }
+  ]
+}

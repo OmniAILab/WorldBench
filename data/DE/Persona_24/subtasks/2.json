@@ -1,0 +1,32 @@
+{
+  "persona": "Mathias ist traditioneller Kahnführer in den labyrinthischen Wasserläufen des Biosphärenreservats Spreewald in Brandenburg und leitet Touristen mit einer langen Holzstange durch die dichten Erlenwälder. Er kämpft gegen die stark schwankenden saisonalen Wasserstände der Spree und die strengen Umweltauflagen, die motorisierten Verkehr und Lärm einschränken. Er führt Echtzeit-Ablasspläne der vorgelagerten Stauwehre, verstreute Karten der Vogelbrutzonen und tägliche Touristendichteberichte zusammen, um seine Routen nahtlos anzupassen und das ruhige Ökosystem zu erhalten.",
+  "task": "Nutze die Besucherprognose für das Spreewald-Wochenende und ergänze den Buchungskalender um einen Termin für gestaffelte Kahnabfahrten in Lehde.",
+  "required_files": [
+    "besucherprognose.xlsx",
+    "abfahrtsplanung_spreewald.txt"
+  ],
+  "output_files": [
+    "data/buchungskalender.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/buchungskalender.ics",
+        "summary_keywords": [
+          "Gestaffelte Kahnabfahrten"
+        ],
+        "description_keywords": [
+          "Lehde"
+        ],
+        "date": "2026-07-11"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/buchungskalender.ics",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "persona": "Helena is a commercial solicitor in Leeds, operating near The Headrow and specialising in urban regeneration projects. She updates deal summaries, Section 106 wording notes, title schedules, and briefing documents for local planning matters.",
+  "task": "Add the Headrow Section 106 negotiation meeting to the March calendar and include the Leeds Local Plan policy CC1 reference in the event description.",
+  "required_files": [
+    "framework_ref_leeds.txt"
+  ],
+  "output_files": [
+    "data/deliveries_march_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_march_2026.ics",
+        "summary_keywords": [
+          "Headrow S106 Negotiation"
+        ],
+        "description_keywords": [
+          "CC1"
+        ],
+        "time_start": "2026-03-10 14:00:00",
+        "time_end": "2026-03-10 15:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_march_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

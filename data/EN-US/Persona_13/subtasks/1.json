@@ -1,0 +1,30 @@
+{
+  "persona": "Sasha is the facilities coordinator for the Minneapolis Skyway System in Minnesota, overseeing the maintenance and climate control of the world’s largest contiguous enclosed bridge network. She manages the logistical challenges of syncing private property access agreements with municipal safety codes, ensuring that thousands of commuters can navigate the downtown core comfortably during sub-zero temperatures while balancing the energy demands of multiple heating zones and security protocols.",
+  "task": "Convert the private access agreement note into a key-handling instruction document for maintenance staff.",
+  "required_files": [
+    "access_note_mpls.txt"
+  ],
+  "output_files": [
+    "data/key_instructions.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/key_instructions.docx",
+        "keywords": [
+          "Minneapolis Skyway",
+          "Access after 20:00 requires building security escort",
+          "Sign in at private lobby desk"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/key_instructions.docx",
+      "change": "modify"
+    }
+  ]
+}

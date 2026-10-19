@@ -1,0 +1,29 @@
+{
+  "persona": "Lorenzo si occupa di gestione delle destinazioni turistiche a Cortina d’Ampezzo e segue i progetti legati all’eredità dei Giochi olimpici invernali del 2026 nella provincia di Belluno. Coordina le esigenze delle infrastrutture e degli operatori locali con la tutela del paesaggio dolomitico e con le procedure di finanziamento regionale per il turismo sostenibile. Per programmare gli interventi utilizza dati sulle presenze turistiche e valutazioni d’impatto ambientale.",
+  "task": "Scrivi una email agli stakeholder locali sul finanziamento regionale per il turismo montano sostenibile, includendo linea di finanziamento e importo.",
+  "required_files": [
+    "note_finanziamenti_belluno.txt",
+    "contatti_stakeholder_cortina.xlsx",
+    "finanza_belluno.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "stakeholder@belluno.turismo.it",
+        "keywords": [
+          "Eco_Trails_Development",
+          "€500.000",
+          "turismo montano sostenibile"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_stakeholder_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "persona": "Baptiste est horloger-restaurateur à Besançon, ville marquée par l’héritage de l’horlogerie comtoise. Il restaure des mouvements anciens pour le Musée du Temps et des collectionneurs, contrôle les tolérances mécaniques et documente chaque intervention selon les règles de conservation patrimoniale. Il travaille notamment sur des montres à complication, des pendules comtoises et des calibres produits dans le Doubs.",
+  "task": "Mets à jour le protocole de lubrification en croisant l’ordre de restauration actif, la note technique, la consigne d’atelier et le dialogue de contrôle. Pour Calibre_Complication_BX9 en phase de lubrification finale, indique le lubrifiant, la quantité et le point d’application exacts, puis ajoute un contrôle visuel final. Écarte les huiles destinées aux pendules, chronographes et mouvements de réserve.",
+  "required_files": [
+    "lubrication_notes_besancon.txt",
+    "consigne_lubrification_besancon.txt",
+    "ordre_restauration_horlogerie.xlsx",
+    "dialogue_lubrification_bx9.txt"
+  ],
+  "output_files": [
+    "data/lubrication_protocol_besancon.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/lubrication_protocol_besancon.docx",
+        "keywords": [
+          "Calibre_Complication_BX9",
+          "microgoutte d’huile 9010",
+          "chaque pivot du rouage",
+          "Besançon",
+          "Lubrification_finale",
+          "contrôle visuel"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/lubrication_protocol_besancon.docx",
+      "change": "modify"
+    }
+  ]
+}

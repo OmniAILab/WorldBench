@@ -1,0 +1,19 @@
+Les transporteurs de la marée utilisent les portes M.
+Les viandes entrent par le secteur V.
+Les fruits utilisent les portes F.
+Les volailles passent par le secteur A.
+Le Roquefort utilise une autre porte du pavillon.
+Normandie Lait n’est pas le transporteur demandé.
+Comté Trans possède son propre créneau.
+Le contact doit correspondre au transporteur du Brie.
+Retenir la ligne Brie_Transport_77.
+Le message doit mentionner le produit Brie_de_Meaux_AOP.
+L’heure et la porte doivent être copiées exactement.
+Aucune température ne doit être inventée.
+Le courriel doit rester bref.
+Le numéro de quai interne n’est pas fourni.
+Le marché fonctionne avant l’aube.
+Les autres transporteurs ne doivent pas être cités.
+Le destinataire est l’équipe dispatch du transporteur.
+Brie_Transport_77_Nuit utilise la porte F1 au créneau de 02:50 pour les livraisons nocturnes.
+Chèvre_Express dessert la porte F4 à 03:50, avant l’ouverture officielle du pavillon.

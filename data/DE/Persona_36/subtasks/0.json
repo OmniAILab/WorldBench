@@ -1,0 +1,39 @@
+{
+  "persona": "Elara ist Schiffbauingenieurin in einem Überführungsprojekt der Meyer Werft in Papenburg. Sie bewertet Wasserstandsprognosen, Tiefgang und Kielfreiheit bei der Fahrt über die Ems und stimmt technische Entscheidungen mit der Überführungsplanung ab. Die Freigabe einer Passage setzt aktuelle Betriebsdaten und die erforderlichen Abstimmungen am Emssperrwerk voraus.",
+  "task": "Gleiche die aktuelle Tideprognose der Ems mit dem Tiefgangsmodell, den lotsenbezogenen Sonderhinweisen und den abweichenden Überführungsnotizen ab. Bestimme den tatsächlich betroffenen Rumpfbereich und aktualisiere ausschließlich dessen Überführungsstatus mit der hydrodynamisch verbindlichen Maßnahme.",
+  "required_files": [
+    "tideprognose_ems.xlsx",
+    "emsueberfuehrung_papenburg.txt"
+  ],
+  "output_files": [
+    "data/tiefgangsfreigabe.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/tiefgangsfreigabe.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Warten_auf_Springtide"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/tiefgangsfreigabe.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

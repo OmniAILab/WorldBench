@@ -1,0 +1,39 @@
+{
+  "persona": "Inès est volcanologue à La Réunion et travaille autour du Piton de la Fournaise. Elle analyse les signaux sismiques, les déformations du cône et les émissions gazeuses, tout en coordonnant les restrictions d’accès avec l’Observatoire volcanologique et les communes de l’enclos. Ses missions doivent tenir compte des sentiers du Pas de Bellecombe, des épisodes de brouillard et des usages culturels du volcan par les habitants de l’île.",
+  "task": "Planifie le survol par drone de l’Enclos_Fouqué_Est en croisant la fenêtre opérationnelle, l’autorisation aéronautique et, en cas de fermeture du secteur, la dérogation d’accès, la météo du créneau et le dialogue de mission. Retient uniquement le vol autorisé avec visibilité claire, puis ajoute au calendrier l’intégralité du créneau et mentionne le contrôle des émissions du Piton de la Fournaise ainsi que la référence d’autorisation.",
+  "required_files": [
+    "drone_windows_reunion.xlsx",
+    "note_drone_fournaise.txt",
+    "autorisations_drone_reunion.xlsx",
+    "meteo_drone_reunion.xlsx",
+    "dialogue_drone_fournaise.txt"
+  ],
+  "output_files": [
+    "data/volcano_missions.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/volcano_missions.ics",
+        "summary_keywords": [
+          "Survol drone Enclos Fouqué Est"
+        ],
+        "description_keywords": [
+          "contrôle des émissions",
+          "Piton de la Fournaise",
+          "AUT-DRN-511",
+          "visibilité claire"
+        ],
+        "time_start": "2026-05-11 07:00:00",
+        "time_end": "2026-05-11 08:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/volcano_missions.ics",
+      "change": "modify"
+    }
+  ]
+}

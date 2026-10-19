@@ -1,0 +1,30 @@
+{
+  "persona": "Théo est régisseur lumière à Lyon et prépare des installations pour la Fête des Lumières. Il coordonne les essais sur les façades historiques, respecte les plafonds de puissance et les horaires patrimoniaux, et travaille avec les services municipaux autour de la Presqu’île et de Fourvière.",
+  "task": "Rédige un e-mail au service chargé du patrimoine et des autorisations pour le projet lumière de Lyon après avoir croisé le contact, le plan lumière, la note de confirmation et le dialogue de validation. Confirme Basilique_Fourviere au créneau 21:00-21:30 et indique qu’il s’agit du créneau ayant reçu la validation patrimoniale ; écarte Fourviere_Annexe, Chapelle_Fourviere et les anciennes versions.",
+  "required_files": [
+    "contacts_patrimoine_lyon.xlsx",
+    "plan_lumiere_lyon_validation.xlsx",
+    "note_confirmation_lyon.txt",
+    "dialogue_confirmation_patrimoine_lyon.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "patrimoine.patrimoine@messagerie.invalid",
+        "keywords": [
+          "Basilique_Fourviere",
+          "21:00-21:30",
+          "validation patrimoniale"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_patrimoine_*.eml",
+      "change": "create"
+    }
+  ]
+}

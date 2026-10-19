@@ -1,0 +1,28 @@
+{
+  "persona": "Jolene is a biomedical equipment manager in Memphis, Tennessee, responsible for the maintenance of high-tech imaging and surgical robotics across the city’s major medical hubs. She manages the technical documentation required by the Tennessee Department of Health and the federal Food and Drug Administration, ensuring that every piece of life-saving equipment is calibrated to precise standards and that maintenance schedules are synchronized with the hospital’s operational demands.",
+  "task": "Identify the imaging machine requiring immediate service and insert its serial number into the Tennessee Department of Health compliance report document.",
+  "required_files": [
+    "maintenance_schedule.xlsx"
+  ],
+  "output_files": [
+    "data/compliance_report.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/compliance_report.docx",
+        "keywords": [
+          "SN-88992"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/compliance_report.docx",
+      "change": "modify"
+    }
+  ]
+}

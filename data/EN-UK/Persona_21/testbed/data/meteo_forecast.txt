@@ -1,0 +1,12 @@
+Deck inspection note: 2026-10-11 has light rain only.	Aberdeen harbour mobilisation	North Sea vessel planning
+ROV maintenance note: 2026-10-12 remains a workshop activity.	Dyce logistics coordination	Moray Firth environmental note
+Supply boat note: 2026-10-13 has a routine sailing window.	Peterhead supply-base call	Offshore weather desk update
+Helicopter catering order is not part of the project calendar.	Aberdeen harbour mobilisation	North Sea vessel planning
+Aberdeen harbour note: fog on 2026-10-14 may delay crew transfer, not subsea work.	Dyce logistics coordination	Moray Firth environmental note
+Weather operations note: use the full gale-force window for any halt.	Peterhead supply-base call	Offshore weather desk update
+Gale force winds expected from 2026-10-15 to 2026-10-18.	Aberdeen harbour mobilisation	North Sea vessel planning
+Post-storm note: 2026-10-19 should be used for inspection, not the halt window.	Dyce logistics coordination	Moray Firth environmental note
+Moray route note: swell monitoring is separate from the halt event.	Peterhead supply-base call	Offshore weather desk update
+Vessel bunkering note: fuel timing is not an operations halt.	Aberdeen harbour mobilisation	North Sea vessel planning
+Note: September storms must not be copied.	Dyce logistics coordination	Moray Firth environmental note
+Instruction: schedule one halt event using the full weather window.	Peterhead supply-base call	Offshore weather desk update

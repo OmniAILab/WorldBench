@@ -1,0 +1,27 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Pilot Update
+Hi [Name],
+A quick update on the Altens pilot: [Main detail from source note].
+Best,
+Angus
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Just Transition Grant Enquiry
+Dear Scottish Government Team,
+I am writing regarding the Altens geothermal project. [Main detail from source note].
+Please advise on the application route and required supporting documents.
+Kind regards,
+Angus
+
+Note: use the formal template for Scottish Government funding correspondence.
+Note: use the friendly template for local site-team updates.
+Note: quarry conductivity notes belong in the tracker, not the email.
+Note: Altens geothermal work should not be confused with Dundee heat pilots.
+Note: abandoned-well references should be precise.
+Note: only the maximum grant amount should be used for this funding email.
+Note: rig supply orders are not funding applications.
+Note: North Sea decommissioning language should not replace geothermal wording.
+Note: project-calendar deadlines are separate from grant enquiry wording.
+Note: keep the Just Transition reference explicit.
+Note: the Dundee award figure must not be quoted for Altens.
+Note: superseded 2024 correspondence quoted a lower ceiling.

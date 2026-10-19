@@ -1,0 +1,29 @@
+{
+  "persona": "Marta é de Castelo Branco e trabalha há oito anos no acompanhamento operacional da albufeira de Castelo do Bode. Cruza leituras de caudal, previsões de precipitação e orientações de exploração, mantendo a segurança da barragem e as necessidades ecológicas do rio Zêzere como prioridades.",
+  "task": "Escreve um email aos engenheiros de operações a comunicar o défice de caudal ecológico no setor Bacia do Zêzere - Jusante (Constância) e a necessidade de solicitar a validação do ajuste da descarga da barragem de Castelo do Bode.",
+  "required_files": [
+    "river_basin_admin.xlsx",
+    "flow_adjustment_castelo.txt",
+    "operations_contacts_castelo.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_operations_engineers.txt",
+        "keywords": [
+          "No troço jusante do Zêzere, em Constância, foi apurado um défice de caudal ecológico de 5 m³/s; solicitar a validação do ajuste à sala de controlo."
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_operations_engineers.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

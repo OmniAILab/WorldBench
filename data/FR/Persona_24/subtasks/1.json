@@ -1,0 +1,33 @@
+{
+  "persona": "Gwenhael est ostréiculteur à Cancale, dans la baie du Mont-Saint-Michel. Son travail dépend des grandes marées, de l’état sanitaire des zones de production et du suivi de la température et de la salinité de l’eau. Il organise les passages sur les parcs à huîtres et veille à la traçabilité des lots destinés à la vente et à la restauration.",
+  "task": "Envoie un courriel dans la messagerie simulée aux ouvriers ostréicoles après avoir croisé le contact, la prévision de basse mer, la consigne de récolte, la marge de sécurité du parc et le dialogue de marée. Pour le 22 mars 2026, communique la fenêtre opérationnelle 04:00-07:15 et explique qu’elle conserve 15 minutes de marge avant la remontée.",
+  "required_files": [
+    "farm_workers_contacts.xlsx",
+    "tidal_forecast.xlsx",
+    "consignes_recolte_cancale.txt",
+    "marges_securite_recolte_cancale.xlsx",
+    "dialogue_recolte_maree_cancale.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "marees@exploitation-cancale.invalid",
+        "keywords": [
+          "22 mars 2026",
+          "04:00",
+          "07:15",
+          "15 minutes",
+          "Bed_North_5"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_marees_*.eml",
+      "change": "create"
+    }
+  ]
+}

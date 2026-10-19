@@ -1,0 +1,28 @@
+{
+  "persona": "Clara arbeitet als Glasrestauratorin für ein Projekt an den historischen Fenstern des Kölner Doms. Sie beurteilt Zustandsberichte zu Bleiruten und Schutzverglasungen und stimmt notwendige Massnahmen mit den zuständigen Fachleuten der Dombauhütte ab.",
+  "task": "Prüfe die Windlastanalyse am Kölner Dom gegen ältere Gerüst-, Glas- und Maßwerkhinweise und unterscheide den aktuellen strukturellen Schaden von bloßen Begleiterscheinungen. Ermittle die genaue Fensterposition und Schadensart und schreibe ausschließlich an den Leiter der Steinmetzarbeiten eine E-Mail mit beiden Angaben und dem erforderlichen Handlungsbedarf.",
+  "required_files": [
+    "windlastanalyse.xlsx",
+    "kontakte_dombauhuette.xlsx",
+    "windlasthinweise_dom.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "steinmetz@dombau-koeln.de",
+        "keywords": [
+          "Obergadenfenster_7",
+          "Mikroriss im Maßwerk"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_steinmetz_*.eml",
+      "change": "create"
+    }
+  ]
+}

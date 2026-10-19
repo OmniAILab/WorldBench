@@ -1,0 +1,28 @@
+{
+  "persona": "Ayan is a public health outreach coordinator in Minneapolis, Minnesota, focusing on infectious disease prevention within the city’s diverse East African immigrant communities. She manages the documentation requirements of the Minnesota Department of Health and the specific cultural communication guidelines for local clinics, ensuring that health screenings and vaccination information are distributed through trusted community channels while maintaining accurate records of health outcomes and linguistic accessibility.",
+  "task": "Write an email to the community elders about the neighborhood with low vaccination uptake.",
+  "required_files": [
+    "community_contacts_minneapolis.xlsx",
+    "health_outcomes.xlsx",
+    "dialogue_vaccination_outreach.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "elders@cedarriversidehealth.org",
+        "keywords": [
+          "Phillips_West",
+          "Below_40_Percent"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_elders_*.eml",
+      "change": "create"
+    }
+  ]
+}

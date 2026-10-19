@@ -1,0 +1,5 @@
+Sylvain : Le maître de chai qui suit nos pièces de Montrachet souhaite qu'on lui confirme le profil aromatique et de chauffe programmé sur sa commande active.
+Compagnon tonnelier : J'ai vérifié le registre : la commande active est la CMD-MONT-09 pour la cuvée Montrachet_Grand_Cru.
+Sylvain : Quel est le code de chauffe associé dans son cahier des charges ? L'objectif est de préserver la tension du chardonnay avec une extraction boisée lente, sans sécheresse tannique.
+Compagnon tonnelier : Dans la base des profils souhaités par les domaines, Montrachet_Grand_Cru correspond au code « Medium_Plus_Toast_Slow ».
+Sylvain : Envoie un e-mail à chai@montrachet.fr en mentionnant qu'il s'agit de la commande active CMD-MONT-09 pour Montrachet_Grand_Cru avec le profil Medium_Plus_Toast_Slow.

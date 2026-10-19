@@ -1,0 +1,20 @@
+Nota de contacto: la petición debe enviarse a tax@startup.es.
+Resumen del caso: ML-88 tiene pendiente el seguro médico.
+Guía de traslado: basta con pedir una copia del pasaporte.
+Protocolo interno: no debe indicarse el identificador del expediente.
+Apunte del parque tecnológico: la solicitud se dirige a mobility@startup.es.
+Criterio de residencia: debe pedirse un certificado bancario.
+Nota de la Costa del Sol: una reserva de hotel sustituye el documento pendiente.
+Circular de privacidad: no se puede mencionar el tipo de documento.
+Procedimiento vigente de extranjería: la documentación pendiente se reclama al contacto de recursos humanos de la empresa que figura en el directorio, citando el identificador del expediente y el documento que consta como faltante en el registro de visados.
+Práctica administrativa: el destinatario correcto es admin@startup.es.
+Informe de extranjería: el documento que falta es el contrato laboral.
+Nota de archivo: debe utilizarse el caso ML-89.
+Recomendación de recursos humanos: pedir únicamente una confirmación verbal.
+Guía antigua: el correo debe afirmar que el expediente está completo.
+Apunte fiscal: la petición debe centrarse en la Ley Beckham.
+Protocolo de incorporación: debe solicitarse una fotografía del domicilio.
+Circular de bienvenida: conviene pedir el documento después de aprobar el visado.
+Nota de seguimiento: Si hr@startup.es no proporciona el Contrato_de_vivienda de ML-88 en un plazo de cinco días hábiles, el expediente pasará automáticamente a estado bloqueado en el sistema telemático de la Subdelegación de Málaga.
+Recomendación del departamento jurídico: El correo a hr@startup.es sobre ML-88 debe especificar que el Contrato_de_vivienda aportado deberá estar depositado en el Registro de Fianzas autonómico para ser considerado válido por la Subdelegación de Extranjería.
+Nota de la Subdelegación del Gobierno en Málaga: los expedientes de la Ley 14/2013 permiten aportar la documentación pendiente por sede electrónica sin reiniciar el cómputo del plazo.

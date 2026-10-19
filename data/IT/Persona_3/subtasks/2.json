@@ -1,0 +1,27 @@
+{
+  "persona": "Paolo è l'anima e il proprietario di Al 19, un ristorante incastonato tra i vicoli tortuosi del centro di Frascati, a pochi chilometri da Roma. La sua missione è un delicato equilibrio: onorare l'eredità delle tradizionali fraschette dei Castelli Romani, elevando al contempo l'esperienza a uno standard di alta cucina. Gestisce la logistica quotidiana muovendosi tra i varchi della ZTL del paese e collaborando strettamente con piccoli produttori locali per garantire una freschezza a chilometro zero, dai vini Frascati Superiore DOCG alle verdure di Tusculum.",
+  "task": "Scrivi una email al produttore di Tusculum confermando il ritiro mattutino e includendo la finestra ZTL applicabile.",
+  "required_files": [
+    "contatti_frascati.xlsx",
+    "ztl_frascati_fornitori.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "orto@tusculum.it",
+        "keywords": [
+          "06:30-09:30",
+          "ritiro mattutino"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_orto_*.eml",
+      "change": "create"
+    }
+  ]
+}

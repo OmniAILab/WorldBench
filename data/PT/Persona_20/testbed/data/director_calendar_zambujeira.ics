@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Logística do Festival da Zambujeira//Agenda da Direção//PT
+BEGIN:VEVENT
+UID:6eeeace5-a38f-4d60-b042-2cf76f43063c
+DTSTAMP:20260715T090000Z
+DTSTART:20260727T083000
+DTEND:20260727T090000
+SUMMARY:Controlo das vedações
+DESCRIPTION:Conferência da vedação do recinto e dos pontos de acesso antes das descargas.
+END:VEVENT
+BEGIN:VEVENT
+UID:600353f8-4c16-4577-9bc8-154ed96770a9
+DTSTAMP:20260715T090000Z
+DTSTART:20260727T100000
+DTEND:20260727T110000
+SUMMARY:Reunião com fornecedores
+DESCRIPTION:Confirmação das horas de chegada e dos acessos de descarga com os fornecedores.
+END:VEVENT
+BEGIN:VEVENT
+UID:ffc3cf3d-bbed-4903-ac4b-e8d5070d01ad
+DTSTAMP:20260715T090000Z
+DTSTART:20260727T113000
+DTEND:20260727T120000
+SUMMARY:Verificação dos geradores
+DESCRIPTION:Teste de carga dos geradores instalados junto ao palco principal.
+END:VEVENT
+BEGIN:VEVENT
+UID:5985a489-d67a-4729-b33b-8a1734a68fcd
+DTSTAMP:20260715T090000Z
+DTSTART:20260727T143000
+DTEND:20260727T150000
+SUMMARY:Inspeção das vias de emergência
+DESCRIPTION:Verificação dos corredores de acesso das ambulâncias e dos bombeiros.
+END:VEVENT
+BEGIN:VEVENT
+UID:26bd8e11-c529-4ce7-9396-7fe699f084be
+DTSTAMP:20260715T090000Z
+DTSTART:20260727T160000
+DTEND:20260727T163000
+SUMMARY:Controlo dos depósitos de água
+DESCRIPTION:Conferência do enchimento e da ligação dos depósitos de água do campismo.
+END:VEVENT
+BEGIN:VEVENT
+UID:ecdd419f-d831-4799-b6d8-568da4f72174
+DTSTAMP:20260715T090000Z
+DTSTART:20260727T174500
+DTEND:20260727T181500
+SUMMARY:Fecho do plano diário
+DESCRIPTION:Revisão do que ficou por fazer e do plano de descargas do dia seguinte.
+END:VEVENT
+BEGIN:VEVENT
+UID:044ad200-8eab-4429-a686-604e16c77744
+DTSTAMP:20260715T090000Z
+DTSTART:20260728T083000
+DTEND:20260728T093000
+SUMMARY:Receção dos balneários modulares
+DESCRIPTION:Descarga provisória prevista para a plataforma sul.
+END:VEVENT
+BEGIN:VEVENT
+UID:57aae466-fd22-4841-80c5-a75dfe678c52
+DTSTAMP:20260715T090000Z
+DTSTART:20260728T074500
+DTEND:20260728T081500
+SUMMARY:Janela alternativa dos andaimes
+DESCRIPTION:Reserva logística sem autorização para iniciar trabalhos.
+END:VEVENT
+END:VCALENDAR

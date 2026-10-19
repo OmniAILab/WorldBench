@@ -1,0 +1,31 @@
+{
+  "persona": "Fabrice est urbaniste à Strasbourg et spécialiste des infrastructures transfrontalières entre la France et l’Allemagne. Il travaille avec le Plan local d’urbanisme et les règles particulières de l’Eurodistrict Strasbourg-Ortenau, afin que les extensions du tramway respectent également les exigences patrimoniales de la Grande Île classée par l’UNESCO.",
+  "task": "À partir de la notice de gestion patrimoniale et du dialogue de conception, rédige dans la note existante une consigne courte applicable à la Grande Île. Retiens la contrainte générale sur l’encombrement visuel des équipements aériens et ne la remplace pas par la seule limite de hauteur des supports caténaires ni par la règle de la Petite France.",
+  "required_files": [
+    "unesco_notice_strasbourg.txt",
+    "dialogue_conception_strasbourg.txt"
+  ],
+  "output_files": [
+    "data/design_note.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/design_note.docx",
+        "keywords": [
+          "Grande Île",
+          "éviter l’encombrement visuel",
+          "équipements aériens"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/design_note.docx",
+      "change": "modify"
+    }
+  ]
+}

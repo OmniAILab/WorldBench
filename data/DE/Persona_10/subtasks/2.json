@@ -1,0 +1,28 @@
+{
+  "persona": "Julian ist Stadtplaner und lebt im Berliner Stadtteil Prenzlauer Berg, wo er sich darauf konzentriert, ehemalige Industriebrachen in nachhaltige Gemeinschaftsflächen zu verwandeln. Er ringt mit dem verzweigten Bundes-Bodenschutzrecht und mit den besonderen Umweltauflagen der Berliner Senatsverwaltung für Stadtentwicklung. Er bündelt regelmäßig große Mengen an Bürgerrückmeldungen aus Kiezversammlungen mit komplexen geologischen Untersuchungsdaten, um Bebauungsvorschläge zu entwerfen, die öffentliche Wünsche und ökologische Zwänge in Einklang bringen.",
+  "task": "Schreibe eine E-Mail an das Stadtplanungsamt Pankow zur Vorprüfung des Entwurfs und nenne Prenzlauer Berg sowie das meistgewünschte Element mit hoher Priorität.",
+  "required_files": [
+    "senat_kontakte_berlin.xlsx",
+    "bebauungsvorschlag_berlin_vorpruefung.xlsx",
+    "emailhinweise_berlin.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "planung@ba-pankow.de",
+        "keywords": [
+          "Gemeinschaftsgarten",
+          "Prenzlauer Berg"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_stadt_*.eml",
+      "change": "create"
+    }
+  ]
+}

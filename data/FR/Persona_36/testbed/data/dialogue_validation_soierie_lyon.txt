@@ -1,0 +1,5 @@
+Amandine : On vient de recevoir les résultats de chromatographie pour l'échantillon de rouge garance Crimson_Madder_A étudié avec l'atelier de la Croix-Rousse.
+Chimiste textile : Le spectre confirme une garance naturelle sur mordant d'alun sans trace de fuchsine ni d'aniline, codée « Authentic_1850s_Formula ».
+Amandine : Et dans notre inventaire de provenance, le bain correspond bien au tissage d'un lampas des années 1850 ?
+Chimiste textile : Oui, la datation est « 1850s_authentifiée » pour l'usage « Soierie_canuse_XIXe », alors que Rouge_Garance_I contient des colorants synthétiques de 1870.
+Amandine : Parfait, selon notre cahier des charges scientifique, tu peux passer Crimson_Madder_A sur « Approuvé » avec le résultat Authentic_1850s_Formula et l'usage Soierie_canuse_XIXe.

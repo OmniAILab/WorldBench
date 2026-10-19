@@ -1,0 +1,28 @@
+{
+  "persona": "Anja ist Ökologin im Nationalpark Bayerischer Wald. Sie dokumentiert die Ausbreitung des Borkenkäfers und stimmt Kontrollen in der Randzone zu benachbarten Wirtschaftswäldern ab. Im Kerngebiet gilt der Grundsatz „Natur Natur sein lassen“; Eingriffe in Randbereichen bedürfen einer gesonderten fachlichen Entscheidung.",
+  "task": "Prüfe die nächtlichen Wärmebildmeldungen im Bayerischen Wald gegen genehmigte Wärmequellen, typische Fehlalarme und die aktuelle Patrouillenbewertung. Ermittle den tatsächlich kritischen Ort und die bestätigte Schadenslage und schreibe ausschließlich an die Nationalparkwacht eine E-Mail mit genauer Ortsangabe und Befund.",
+  "required_files": [
+    "nachtpatrouillenprotokoll.xlsx",
+    "kontakte_nationalpark.xlsx",
+    "nachtpatrouille_rachelsee.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "wacht@nationalpark-bayerischer-wald.de",
+        "keywords": [
+          "Rachelsee_Shore",
+          "thermische Anomalie mit Verdacht auf Feuer"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_wacht_*.eml",
+      "change": "create"
+    }
+  ]
+}

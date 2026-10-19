@@ -1,0 +1,29 @@
+{
+  "persona": "Malia is a marine restoration ecologist in Honolulu, Hawaii, focusing on the rehabilitation of coral nurseries within the Waikiki Marine Life Conservation District. She manages the permitting processes of the Hawaii Division of Aquatic Resources and the environmental impact statements required by the U.S. Army Corps of Engineers, coordinating the transplantation of heat-resilient coral species while documenting the effects of localized ocean acidification on the surrounding reef structures.",
+  "task": "Write an email to the aquatic researchers requesting the data needed for the pending environmental impact statement deadline.",
+  "required_files": [
+    "usace_tracker.xlsx",
+    "aquatic_research_contacts.xlsx",
+    "dialogue_eis_waikiki.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "researchers@waikikireef.org",
+        "keywords": [
+          "Waikiki_Transplant_Phase_2",
+          "2026-09-01",
+          "EIS"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_researchers_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Services//Local Calendar//EN
+BEGIN:VEVENT
+UID:existing-one@local.test
+DTSTART:20260401T090000
+DTEND:20260401T100000
+SUMMARY:Existing operations check
+DESCRIPTION:Routine existing calendar block.
+END:VEVENT
+BEGIN:VEVENT
+UID:existing-two@local.test
+DTSTART:20260403T130000
+DTEND:20260403T140000
+SUMMARY:Supplier follow-up
+DESCRIPTION:Review routine delivery notes.
+END:VEVENT
+BEGIN:VEVENT
+UID:existing-three@local.test
+DTSTART:20260405T080000
+DTEND:20260405T083000
+SUMMARY:Morning logistics review
+DESCRIPTION:Check staging list.
+END:VEVENT
+BEGIN:VEVENT
+UID:existing-four@local.test
+DTSTART:20260407T150000
+DTEND:20260407T160000
+SUMMARY:Compliance file audit
+DESCRIPTION:Review open documentation.
+END:VEVENT
+BEGIN:VEVENT
+UID:existing-five@local.test
+DTSTART:20260409T110000
+DTEND:20260409T120000
+SUMMARY:Equipment inspection
+DESCRIPTION:Routine inspection block.
+END:VEVENT
+BEGIN:VEVENT
+UID:existing-six@local.test
+DTSTART:20260411T100000
+DTEND:20260411T103000
+SUMMARY:Team check-in
+DESCRIPTION:Status meeting.
+END:VEVENT
+BEGIN:VEVENT
+UID:existing-seven@local.test
+DTSTART:20260413T140000
+DTEND:20260413T150000
+SUMMARY:Vendor call
+DESCRIPTION:Routine vendor update.
+END:VEVENT
+BEGIN:VEVENT
+UID:existing-eight@local.test
+DTSTART:20260415T093000
+DTEND:20260415T100000
+SUMMARY:Records review
+DESCRIPTION:Check archived notes.
+END:VEVENT
+BEGIN:VEVENT
+UID:boise-extra-1@local.test
+DTSTART:20260705T070000
+DTEND:20260705T073000
+SUMMARY:NIFC Aviation Briefing
+DESCRIPTION:Area-wide briefing slot with no airspace closure attached.
+END:VEVENT
+BEGIN:VEVENT
+UID:boise-extra-2@local.test
+DTSTART:20260709T080000
+DTEND:20260709T083000
+SUMMARY:Great Basin Smoke Review
+DESCRIPTION:Pre-decision monitoring step for the dispatch desk.
+END:VEVENT
+BEGIN:VEVENT
+UID:boise-extra-3@local.test
+DTSTART:20260713T090000
+DTEND:20260713T093000
+SUMMARY:Airtanker Coordination
+DESCRIPTION:Area-wide briefing slot with no airspace closure attached.
+END:VEVENT
+BEGIN:VEVENT
+UID:boise-extra-4@local.test
+DTSTART:20260717T060000
+DTEND:20260717T063000
+SUMMARY:Drop Zone Check
+DESCRIPTION:Situational follow-up logged before aircraft are committed.
+END:VEVENT
+BEGIN:VEVENT
+UID:boise-extra-5@local.test
+DTSTART:20260718T100000
+DTEND:20260718T103000
+SUMMARY:BLM Update
+DESCRIPTION:Standing regional air item, separate from restricted airspace.
+END:VEVENT
+BEGIN:VEVENT
+UID:boise-extra-6@local.test
+DTSTART:20260719T110000
+DTEND:20260719T113000
+SUMMARY:NIFC Aviation Briefing
+DESCRIPTION:Operational watch item preceding the flight determination.
+END:VEVENT
+BEGIN:VEVENT
+UID:boise-extra-7@local.test
+DTSTART:20260721T130000
+DTEND:20260721T133000
+SUMMARY:Great Basin Smoke Review
+DESCRIPTION:Coordination entry held apart from any airspace restriction.
+END:VEVENT
+BEGIN:VEVENT
+UID:boise-extra-8@local.test
+DTSTART:20260722T070000
+DTEND:20260722T073000
+SUMMARY:Airtanker Coordination
+DESCRIPTION:Situational follow-up logged before aircraft are committed.
+END:VEVENT
+BEGIN:VEVENT
+UID:boise-extra-9@local.test
+DTSTART:20260724T090000
+DTEND:20260724T093000
+SUMMARY:Drop Zone Check
+DESCRIPTION:Coordination entry held apart from any airspace restriction.
+END:VEVENT
+BEGIN:VEVENT
+UID:boise-extra-10@local.test
+DTSTART:20260725T150000
+DTEND:20260725T153000
+SUMMARY:BLM Update
+DESCRIPTION:Routine tracking entry ahead of the go/no-go call.
+END:VEVENT
+END:VCALENDAR

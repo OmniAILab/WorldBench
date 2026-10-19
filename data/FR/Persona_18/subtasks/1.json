@@ -1,0 +1,35 @@
+{
+  "persona": "Malik est coordinateur d’exploitation des transports à Marseille. Il organise les déviations de tramway et de bus autour du Vieux-Port, tient compte du mistral, des grands évènements locaux et des contraintes de circulation propres aux quartiers centraux.",
+  "task": "Planifie la maintenance principale du matériel et du corridor T2 dans le scénario d’exploitation local en croisant la note de maintenance, le bulletin d’exploitation du vent et le dialogue de quart. Retient le 18 juillet 2026 de 08 h 00 à 10 h 00, écarte la maintenance partielle du 25 juillet et le T3, puis mentionne le risque de mistral fort dans la description.",
+  "required_files": [
+    "maintenance_t2_marseille.txt",
+    "vent_exploitation_marseille.xlsx",
+    "dialogue_maintenance_t2_marseille.txt"
+  ],
+  "output_files": [
+    "data/calendrier_rtm_marseille.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendrier_rtm_marseille.ics",
+        "summary_keywords": [
+          "Maintenance",
+          "tram T2"
+        ],
+        "description_keywords": [
+          "mistral fort"
+        ],
+        "time_start": "2026-07-18 08:00:00",
+        "time_end": "2026-07-18 10:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendrier_rtm_marseille.ics",
+      "change": "modify"
+    }
+  ]
+}

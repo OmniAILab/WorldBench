@@ -1,0 +1,22 @@
+OSHA update: pressure gauge calibration records must be retained for five years.
+OSHA update: emergency eyewash stations must be flushed every week.
+OSHA update: confined-space permits must list the atmospheric monitor serial number.
+OSHA update: hot-work permits must be posted at the nearest access ladder.
+OSHA update: vapor alarms must be tested before the morning maintenance shift.
+OSHA update: pipeline insulation tags must be legible from the catwalk.
+OSHA mandate: mandatory ultrasonic leak detection every 30 days.
+OSHA update: lockout tags must include the exact valve identifier.
+OSHA update: scaffold inspection cards must be signed before crew entry.
+OSHA update: respirator fit tests must be logged before benzene work.
+OSHA update: portable gas detectors must be bump-tested before field use.
+OSHA update: pump seal repairs require a second-person verification.
+OSHA update: emergency shower access routes must remain clear at all times.
+OSHA update: training records must include contractor badge numbers.
+OSHA update: pressure relief valves must be labeled after bench testing.
+OSHA update: hose transfer checks must be initialed by the loading operator.
+OSHA update: evacuation maps must be posted beside the control room door.
+OSHA update: maintenance crews must record heat-stress breaks during summer shifts.
+Local note: Houston Ship Channel piping networks are tracked separately from tank inspections.
+Local note: a manual leak check does not replace the mandatory ultrasonic interval.
+Local note: port operations and tides do not affect the OSHA interval.
+Local note: the revision must be entered in the Pipeline Integrity section of the manual.

@@ -1,0 +1,6 @@
+Schichtprotokoll Logistikzentrum Halle
+Datum: Aktuelle Schicht.
+Kapazitätsregel: Maßgeblich zur Personalsteuerung ist der höchste im Tageslog ausgewiesene Volumenanstieg.
+Tageslog: Die Kategorie "Smart-Home-Geräte" weist mit 150 Prozent den höchsten Anstieg auf.
+Übertragungsregel: Die Kennzeichnung "150_Prozent_Anstieg" ist für diese Kategorie in das Kapazitätsblatt zu übernehmen.
+Betriebsvereinbarung: Für Palettenware im Segment Unterhaltungselektronik gilt bei dauerhaften Überlastspitzen eine pauschale 200-Prozent-Auslastung im Schichtplan, sobald der gemessene Anstieg 175 Prozent überschreitet.

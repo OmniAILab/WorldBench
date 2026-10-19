@@ -1,0 +1,39 @@
+{
+  "persona": "Klaus ist traditioneller Metzger im historischen Marktviertel von Kassel, Hessen, und spezialisiert auf die berühmte Nordhessische Ahle Wurscht der Region. Er hält sich an die strengen Vorgaben für Luftfeuchtigkeit und Temperatur der traditionellen Reifung in der Lehmkammer sowie an die strengen Hygienevorschriften des örtlichen Veterinäramts. Er gleicht ständig hunderte regionale Schweinefleisch-Lieferscheine mit den täglichen Klimamessungen im Keller und den sich wandelnden g.g.A.-Konformitätsformularen der Europäischen Union ab, um den genauen Reifetermin jeder Charge vorherzusagen.",
+  "task": "Nutze das Klima-Protokoll der Lehmkammer, um den Reifetermin der Nordhessischen Ahlen Wurscht zu bestimmen, und aktualisiere die g.g.A.-Konformitätstabelle.",
+  "required_files": [
+    "kellerprotokoll_kassel.xlsx",
+    "reifehinweise_kassel.txt"
+  ],
+  "output_files": [
+    "data/gga_konformitaet.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/gga_konformitaet.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Reif am 12. Oktober"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/gga_konformitaet.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

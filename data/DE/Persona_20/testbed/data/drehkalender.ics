@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Interne Kalenderverwaltung//Motivkalender//DE
+BEGIN:VEVENT
+UID:urn:uuid:9f5c87ed-0540-5e3a-a553-c31ed1a0d277
+DTSTART:20260418T100000
+DTEND:20260418T110000
+SUMMARY:Kostümtest Altstadt
+DESCRIPTION:Abgleich der Farbpalette mit dem Straßenbild.
+END:VEVENT
+END:VCALENDAR

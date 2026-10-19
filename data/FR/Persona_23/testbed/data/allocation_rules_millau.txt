@@ -1,0 +1,8 @@
+Consignes d’affectation de l’atelier de ganterie — conserver les nuances des libellés de qualité.
+Grade_2_Léger : allocation Petite_Série.
+Grade_3_Marqué : allocation Prototype.
+Grade_2_Souple : allocation Collection_Capsule.
+Grade_1_Parfaite : allocation Haute_Couture.
+Grade_1_Satiné : allocation Défilé_Artisanal.
+Grade_1_Parfait : allocation Série_Limitée.
+Grade_2_Léger_Texturé : allocation Petite_Série.

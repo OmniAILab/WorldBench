@@ -1,0 +1,4 @@
+Boucher : La terrine TER-09 est-elle bien dans le réfrigérateur principal ?
+Responsable froid : Oui, et elle relève de la fiche interne de conservation des terrines.
+Responsable froid : TER-09 correspond aux terrines du réfrigérateur principal.
+Boucher : J’applique la température du guide sanitaire pour les terrines et je conserve l’unité Celsius.

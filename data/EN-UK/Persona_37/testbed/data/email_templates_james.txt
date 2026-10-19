@@ -1,0 +1,25 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Driver Update
+Hi drivers,
+Just a quick update on [route]. [Main detail from source note].
+Cheers,
+James
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – ETA and Route Advisory
+Dear Drivers,
+Please note the following transport update: [Main detail from source note].
+Adjust ETA messages before entering the terminal queue.
+Regards,
+James
+
+Note: use the friendly template for short HGV driver updates.
+Note: use the formal template for customs and revenue authority messages.
+Note: M27 Eastbound delays must not be confused with A33 local traffic.
+Note: reefer temperature requirements are not route delays.
+Note: port gate security notes are separate from driver ETA emails.
+Note: include the exact delay duration in the message.
+Note: Redbridge queue notes are operational but not the target delay.
+Note: ferry traffic may be mentioned only if present in the source.
+Note: depot uniform collection is not relevant to freight workflow.
+Note: keep Southampton port messages brief and practical.

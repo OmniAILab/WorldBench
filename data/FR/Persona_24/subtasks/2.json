@@ -1,0 +1,37 @@
+{
+  "persona": "Gwenhael est ostréiculteur à Cancale, dans la baie du Mont-Saint-Michel. Son travail dépend des grandes marées, de l’état sanitaire des zones de production et du suivi de la température et de la salinité de l’eau. Il organise les passages sur les parcs à huîtres et veille à la traçabilité des lots destinés à la vente et à la restauration.",
+  "task": "Planifie un contrôle sanitaire d’urgence pour Bed_North_5 uniquement après avoir vérifié que la mesure courante dépasse le seuil du bulletin interne des exploitants. Croise le bulletin, le relevé de température et le dialogue sanitaire, puis ajoute l’évènement du 15 juillet 2026 de 06:00 à 06:45 avec le seuil et la mesure dans la description.",
+  "required_files": [
+    "sanitary_bulletin.txt",
+    "temperatures_urgence_cancale.xlsx",
+    "dialogue_controle_sanitaire_cancale.txt"
+  ],
+  "output_files": [
+    "data/operational_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/operational_calendar.ics",
+        "summary_keywords": [
+          "Contrôle",
+          "Bed_North_5"
+        ],
+        "description_keywords": [
+          "22 °C",
+          "22,7 °C",
+          "dépassement confirmé"
+        ],
+        "time_start": "2026-07-15 06:00:00",
+        "time_end": "2026-07-15 06:45:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/operational_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

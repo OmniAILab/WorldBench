@@ -1,0 +1,28 @@
+{
+  "persona": "Liam operates as a commercial delivery driver navigating the Southwark and central London areas. He manages daily dynamic route planning around Transport for London road closures, calculates Ultra Low Emission Zone compliance costs for his vehicle fleet, and coordinates with loading bays at Borough Market. His routine requires precise scheduling to avoid peak congestion and bridge lifts.",
+  "task": "Write a friendly email to your colleague driver about the Westminster road closure and the detour.",
+  "required_files": [
+    "closures_westminster.txt",
+    "email_templates_liam.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/liam_friendly_email.txt",
+        "keywords": [
+          "Westminster Bridge Road is closed"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/liam_friendly_email.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "persona": "Marta è una coordinatrice di eventi a Cortina d'Ampezzo e gestisce l'eredità logistica e la transizione infrastrutturale dopo i Giochi Olimpici Invernali del 2026. Organizza festival di montagna su larga scala muovendosi tra gli specifici regolamenti di tutela ambientale della provincia di Belluno e i complessi orari dei trasporti alpini. Il suo ruolo comporta la costante conciliazione dei contratti con i fornitori e dei permessi di pubblica sicurezza, assicurando che gli eventi di alto profilo si svolgano senza intoppi e senza disturbare il delicato ecosistema delle Dolomiti.",
+  "task": "Usa il regolamento della Provincia di Belluno per aggiungere al calendario un sopralluogo per la zona di protezione della flora indicata, con la data corretta.",
+  "required_files": [
+    "note_flora_belluno.txt",
+    "regolamento_flora_belluno.txt"
+  ],
+  "output_files": [
+    "data/calendario_coordinatrice_cortina.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_coordinatrice_cortina.ics",
+        "summary_keywords": [
+          "Sopralluogo",
+          "zona Edelweiss"
+        ],
+        "description_keywords": [
+          "Edelweiss"
+        ],
+        "date": "2026-06-10"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_coordinatrice_cortina.ics",
+      "change": "modify"
+    }
+  ]
+}

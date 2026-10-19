@@ -1,0 +1,23 @@
+Rubrica sanitaria: per Capitaneria usare porto@chioggia.it quando si parla di attracchi.
+Rubrica laboratorio: per analisi ordinarie usare lab@campioni.it.
+Appunto marea: inviare il riepilogo al mercato ittico se riguarda gli orari di vendita.
+Nota email: citare Sacca_Scardovari solo quando la data è 2026-04-03.
+Promemoria registro: una nota nessuna non richiede comunicazione sanitaria.
+Avviso IT: Le comunicazioni relative alle anomalie ambientali vanno ora indirizzate al nuovo nodo centrale biosicurezza@veneto.it, dismettendo le vecchie caselle.
+Procedura di notifica: Bisogna sempre allertare l'autorità sanitaria incrociando le date in cui i prelievi in determinati siti coincidono con l'attivazione del MOSE.
+Appunto contatti: info@mercatochioggia.it serve per le cassette del mercato, non per biosicurezza.
+Nota campioni: Canale_Lombardo va citato solo se compare con eccezione_MOSE.
+Rubrica alternativa: usare archivio@veneto.it solo per copie storiche.
+Appunto salinità: acqua torbida non basta per parlare di MOSE attivo.
+Nota privacy: non inserire nomi di operatori, barcaioli o volontari.
+Direttiva d'Ufficio: Quando si invia la segnalazione, è obbligatorio specificare nel corpo del testo sia il giorno esatto del prelievo anomalo sia la località lagunare.
+Nota porto: il rientro al molo sud non è un destinatario email.
+Appunto giornaliero: 2026-04-05 ha solo controllo ordinario.
+Nota ufficio: la stampante blu non riguarda la segnalazione sanitaria.
+Promemoria registro: non inviare una email per righe con Da verificare.
+Appunto Chioggia: l'indirizzo del fornitore etichette non è un contatto sanitario.
+Nota campionamento: Bocca_Chioggia senza MOSE attivo resta una nota ordinaria.
+Rubrica capitaneria: avvisi@guardiacostiera.it riguarda solo segnalazioni di soccorso.
+Appunto orario: le email inviate dopo le 18:00 vengono lette il giorno seguente.
+Nota allegati: non superare i 5 MB per le comunicazioni alla biosicurezza.
+Promemoria oggetto: l'oggetto della email non deve contenere il nome della barca.

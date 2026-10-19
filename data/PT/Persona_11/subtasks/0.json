@@ -1,0 +1,23 @@
+{
+  "persona": "Sofia coordena a produção de calçado em São João da Madeira, incluindo encomendas de marcas europeias e materiais alternativos ao couro de origem animal. Acompanha os custos das matérias-primas, as condições ergonómicas dos postos de trabalho e os ajustamentos das linhas de montagem.",
+  "task": "Localiza a variação do custo de aquisição posto em fábrica de Couro de cortiça — lote A na folha de matérias-primas sustentáveis e copia-a para a campo de variação de custo correspondente na folha de encomendas das marcas europeias.",
+  "required_files": [
+    "raw_materials.xlsx",
+    "cost_margin_guidance_sjm.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/brand_orders.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "12%_Aumento"
+          }
+        ]
+      }
+    }
+  ]
+}

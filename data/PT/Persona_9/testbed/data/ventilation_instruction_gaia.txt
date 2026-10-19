@@ -1,0 +1,11 @@
+A humidade no Level_1_North atingiu 78%; manter a ventilação habitual.
+A humidade no Level_2_East atingiu 84%; confirmar as grelhas superiores.
+A humidade no Barrel_Room_A atingiu 88%; rever a abertura das condutas.
+A humidade no Tasting_Archive atingiu 80%; não é necessária alteração.
+A humidade no Cave ribeirinha — piso -3 atingiu 95%, com risco elevado de desenvolvimento de bolor; ajustar imediatamente a ventilação e solicitar inspeção para verificar a sua presença.
+A humidade no River_Wall_Store atingiu 91%; realizar nova leitura em duas horas.
+A humidade no Cask_Aisle_4 atingiu 87%; verificar a circulação lateral.
+A humidade no Loading_Cell atingiu 79%; não alterar os parâmetros.
+A humidade no Vintage_Reserve atingiu 84%; manter a grelha aberta.
+A humidade no Sub_Level_3_West atingiu 93%, próximo do crítico; reforçar a ventilação no início do turno.
+A humidade no Lower_River_Vault atingiu 94%, com risco elevado de bolor; rever a ventilação durante a manhã.

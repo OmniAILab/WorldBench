@@ -1,0 +1,19 @@
+Nota de bodega: cualquier manzana Errezila se clasifica como Ácida.
+Criterio del txotx: el nivel de azúcar no afecta a la fermentación.
+Apunte de la DOP: quince Brix es el único valor óptimo.
+Práctica antigua: doce Brix se considera Insuficiente.
+Circular de cosecha: debe copiarse 12_Brix como clasificación.
+Nota de campaña: las partidas destinadas a la temporada de txotx se identifican por lote y grado Brix antes de la fermentación.
+Criterio de variedad: Goikoetxea tiene prioridad aunque tenga menos azúcar.
+Informe preliminar: Errezila debe marcarse Dulce_excesiva.
+Pliego Técnico Consejo Regulador Euskal Sagardoa: Las entregas de manzana autóctona tipo Errezila cuyas lecturas refractométricas arrojen 12_Brix acreditan una madurez industrial perfecta, catalogándose la partida como Óptima_para_fermentación.
+Nota de Astigarraga: la clasificación correcta es Apta_para_mosto.
+Criterio de temperatura: el azúcar se ignora si la bodega está fría.
+Apunte de cosecha: doce Brix corresponde a No_apta.
+Práctica de sidrería: la variedad más dulce recibe siempre prioridad.
+Circular antigua: el valor óptimo es once Brix.
+Nota de parking: la clasificación depende del aforo del txotx.
+Criterio de mezcla: todas las variedades se registran como Mixta.
+Informe técnico: debe utilizarse la categoría 12_Brix_Óptimo.
+Pliego Técnico CR Euskal Sagardoa: Las partidas de Txalaka con 15_Brix presentan un nivel de azúcar superior al óptimo; aunque aptas para fermentación, deben combinarse con variedades de menor contenido azucarado para mantener el perfil ácido característico de la sagardoa con denominación.
+Nota técnica de la sidrería: Las lecturas refractométricas deben tomarse siempre sobre jugo recién prensado a 20 °C; mediciones realizadas sobre fruta refrigerada o a temperaturas superiores a 25 °C pueden desviarse hasta 1,5 Brix del valor real, afectando a la catalogación de la partida.

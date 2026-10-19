@@ -1,0 +1,4 @@
+Responsable laboratoire : Il manque au calendrier partagé le créneau de la session principale pour le concentré Jasmin_24.
+Claire : Sur la feuille de paillasse, je vois un point le 7 avril au laboratoire de Grasse et une contre-évaluation le 14 avril en réserve.
+Responsable laboratoire : Ne programme que la session principale du 7 avril 2026, de 09:30 à 10:00, après 48 h de macération au laboratoire de Grasse. Attention à ne pas confondre avec l’essai Jasmin_25 qui passe à 10:15.
+Claire : Très bien, j’ajoute « Contrôle de macération Jasmin_24 » le 2026-04-07 de 09:30 à 10:00 avec les mentions « 48 h », « laboratoire de Grasse » et « session principale » dans la description.

@@ -1,0 +1,27 @@
+{
+  "persona": "Priya is a chemical safety inspector at a major petrochemical refinery in Houston, Texas, overseeing the integrity of pressurized storage tanks and pipeline networks along the Ship Channel. She manages the rigorous reporting standards of the Texas Commission on Environmental Quality and the federal Occupational Safety and Health Administration, ensuring that every maintenance log and emission report is updated in real-time to prevent industrial accidents and maintain compliance with local air quality initiatives.",
+  "task": "Write an email to the plant manager reporting the volatile organic compound emission spike from the Texas Commission on Environmental Quality reporting spreadsheet.",
+  "required_files": [
+    "tceq_reporting.xlsx",
+    "plant_contacts_houston.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "plant.manager@shipchannelrefinery.com",
+        "keywords": [
+          "Flare_Stack_B",
+          "50ppm_Exceedance"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_plant.manager_*.eml",
+      "change": "create"
+    }
+  ]
+}

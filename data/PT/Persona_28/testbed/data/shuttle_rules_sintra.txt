@@ -1,0 +1,15 @@
+PROTOCOLO DE ARTICULAÇÃO DE TRÁFEGO E TRANSPORTE COLETIVO — DIVISÃO DE MOBILIDADE DA CÂMARA MUNICIPAL DE SINTRA
+Em coordenação com: Parques de Sintra - Monte da Lua e operador municipal de transporte rodoviário
+
+1. Gestão da frequência de subida por escalão de ocupação comunicada
+- Lotação horária abaixo de 70%: manter a cadência normal das carreiras municipais.
+- Lotação entre 70% e 84%: reduzir a frequência de subida direta e ativar fila regulada no interface.
+- Lotação entre 85% e 90%: encaminhar parte dos passageiros para a carreira de ligação seguinte.
+
+2. Regras operacionais do operador para saturação de acessos na Serra
+- Quando o Parque das Merendas (Acesso ao Castelo) atingir 91% da lotação horária: reduzir partidas e encaminhar para interface seguinte.
+- Quando o Miradouro da Pena (Terraço Real) atingir 98% da lotação horária: suspender subidas por quinze minutos.
+- Quando o Palácio Nacional da Pena atingir 100% da lotação horária (medida operacional acordada entre o operador municipal e a gestão do monumento): atualizar o protocolo para «Desviar para Portela de Sintra e suspender subida direta».
+
+3. Segurança rodoviária
+Manter permanentemente desimpedidos os corredores de emergência na Volta do Duche e na Calçada da Pena.

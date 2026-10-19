@@ -1,0 +1,21 @@
+Registro operativo della cooperativa agrumicola sotto l'Etna.
+Appunto: Per il settore Piano_Randazzo_A non usare la quota speciale se l'umidità è indicata come 9%_Stabile.
+Promemoria: Il settore Piana_Catania_C va escluso perché appartiene a una prova agronomica del mese precedente.
+Nota operativa: Quando la scheda riporta 12%_Deficit, segnare Deficit_12 solo nei lotti sperimentali non PGI.
+Nota archivio: Il valore 18%_Deficit è collegato agli agrumeti tardivi e non alla raccolta corrente.
+Avviso interno: Nel quaderno del tecnico è scritto 15%_Recupero, ma quel dato riguarda un irrigatore già riparato.
+Appunto: Per il settore Costa_Saracena_D non aggiornare il registro perché manca la lettura del tensiometro.
+Manuale Operativo Irrigazione: I tensiometri che marcano una carenza idrica del 15% fanno scattare l'automatismo di irrigazione supplementare identificato dal codice Deficit_15.
+Promemoria: Il turno acqua delle arance Moro va registrato solo se il settore compare anche nel foglio quote.
+Nota operativa: Il valore 20%_Deficit appartiene al vecchio sensore spostato dopo la cenere di febbraio.
+Nota archivio: Per gli agrumeti vicino ad Adrano usare la riga di servizio soltanto se il lotto è marcato PGI.
+Avviso interno: Il codice Deficit_10 riguarda le prove sui limoni e non le arance rosse.
+Appunto: Il settore Versante_Nord_A ha priorità commerciale, ma non richiede modifica della quota idrica.
+Promemoria: Il promemoria del Consorzio cita 14%_Deficit per una vasca secondaria non collegata al turno odierno.
+Nota operativa: Il dato 16%_Deficit è stato annotato a mano dal magazzino cassette e non va riportato.
+Nota archivio: Se compare 11%_Stabile, lasciare invariata la distribuzione perché non indica carenza.
+Avviso interno: Il settore Contrada_Piano_B ha una richiesta del supermercato tedesco, ma non è nel foglio sensori.
+Appunto: Il rifornimento di gasolio per le pompe è gestito dal magazzino e non incide sulla quota idrica.
+Promemoria: La potatura dei rami bassi nel settore vicino alla strada è agronomica e non modifica il registro distribuzione.
+Nota consortile: la pulizia stagionale delle canalette di scolo è programmata separatamente e non modifica le quote del turno.
+Promemoria Etna: il controllo della cenere sulle foglie è agronomico e non determina il codice di deficit idrico.

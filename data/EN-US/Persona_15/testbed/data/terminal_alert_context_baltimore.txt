@@ -1,0 +1,22 @@
+Shipment note: Bulldozer_A7 is on time and does not need an alert.
+Shipment note: Crane_B2 has already been loaded.
+Shipment note: Loader_C9 is waiting for customs rather than tide clearance.
+Shipment note: Tractor_D4 is on time in the Dundalk queue.
+Shipment note: Excavator_X1 is delayed by tide and needs a terminal operator alert.
+Shipment note: Harvester_E8 has no terminal delay.
+Shipment note: Forklift_F3 is on time.
+Shipment note: Paver_G6 is waiting for customs paperwork.
+Shipment note: Compactor_H5 has been loaded.
+Shipment note: Truck_I2 is moving through Seagirt normally.
+Shipment note: Backhoe_J4 has a loaded status.
+Shipment note: Dozer_K1 is on time.
+Shipment note: Grader_L7 is a customs issue.
+Shipment note: Roller_M8 has been loaded.
+Shipment note: Lift_N6 is on time.
+Shipment note: Trailer_O3 is loaded.
+Shipment note: Crusher_P9 is waiting for customs.
+Port context: Dundalk handles a high volume of Ro-Ro moves for automobiles and heavy machinery.
+Chesapeake: draft and tide windows have to be distinguished from customs holds.
+Navigation: channel dredging is an access constraint, not a cargo status.
+Operations: tugs, pilots, and lashing inspections each have their own windows.
+Terminal: Seagirt and Dundalk must not be confused when picking the recipient.

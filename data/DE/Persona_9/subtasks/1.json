@@ -1,0 +1,30 @@
+{
+  "persona": "Sophie ist Koordinatorin für den Hochwasserschutz und am Dreiflüsseeck in Passau in Niederbayern stationiert. Sie beobachtet die steigenden Pegel, die während der Schneeschmelze im Frühjahr die historische Altstadt bedrohen. Sie hat es mit der schwer vorhersehbaren Hydrodynamik der Donau und mit den strengen Einsatzprotokollen der bayerischen Staatsregierung zu tun. Sie führt Niederschlagsprognosen aus dem Oberlauf, Bodensättigungsindizes und historische Karten früherer Hochwasserverläufe zusammen, um mobile Barrieretrupps vorausschauend in die am stärksten gefährdeten tief liegenden Gassen zu schicken.",
+  "task": "Übertrage die interne städtische Eskalationsregel in eine kurze Hochwasser-Checkliste für Passau.",
+  "required_files": [
+    "einsatzprotokoll_bayern.txt"
+  ],
+  "output_files": [
+    "data/hochwasser_checkliste.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/hochwasser_checkliste.docx",
+        "keywords": [
+          "Passau",
+          "Stufe Orange",
+          "Katastrophenschutz"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/hochwasser_checkliste.docx",
+      "change": "modify"
+    }
+  ]
+}

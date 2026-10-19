@@ -1,0 +1,22 @@
+Curator: For this morning's provenance check, the active acquisition is Textile_Navajo_09.
+Registrar: So I find the date and verified status tied to that identifier in the ledger?
+Curator: Yes, without picking another textile just because it is also marked Verified.
+Registrar: Several Navajo textiles have similar statuses, so the exact identifier is decisive.
+Curator: Correct.
+Registrar: The file is for the provenance database tied to the Indian Arts and Crafts Act.
+Curator: Yes.
+Registrar: I must not infer an undocumented community, workshop, or attribution.
+Curator: Correct. Use only the provenance data present in the files.
+Registrar: The Canyon Road context does not replace documentary verification.
+Curator: Correct.
+Registrar: The Pueblo pottery and baskets in the ledger are separate entries.
+Curator: Yes.
+Registrar: I keep the full acquisition-year and verification entry.
+Curator: That is what the database expects.
+Registrar: I am editing Textile_Navajo_09 only.
+Curator: Yes.
+Registrar: The other acquisitions stay TBC.
+Curator: Correct.
+Registrar: I am also confirming the status is Verified and not Pending or Review.
+Curator: Very good.
+Registrar: Proceeding.

@@ -1,0 +1,20 @@
+Promemoria metodologia: OCR_Review è previsto il 2026-04-12.
+Nota archivio: Codex_B_112 riguarda urgenza, non calendario TEI.
+Appunto ateneo: la lezione di filologia è il 2026-04-09.
+Registro digitale: TEI XML è lo standard da citare nell'evento.
+Nota grant: la scadenza 2026-09-30 non è la data del blocco di lavoro.
+Promemoria output: usare un evento VEVENT.
+Scheda progetto: non inserire riunioni amministrative.
+Nota Bologna: mantenere il titolo comprensibile.
+Appunto codifica: Dublin Core non è lo standard indicato qui.
+Promemoria calendario: la data deve comparire come 20260410.
+Nota laboratorio: il blocco riguarda sintesi dati, non scansione fisica.
+Registro precedente: 20260411 era una proposta non scelta.
+Appunto Soprintendenza: la revisione conservativa non va nel titolo.
+Nota ricercatrice: non includere nomi di studenti.
+Promemoria descrizione: citare TEI XML nella descrizione o nel titolo.
+Scheda metodologia: non usare il calendario dei finanziamenti.
+Promemoria laboratorio: la calibrazione dello scanner è tecnica e non riguarda la data del blocco di lavoro.
+Scheda progetto: la fornitura delle licenze software è amministrativa e non modifica il calendario metodologico.
+Nota Bologna: la catalogazione MARC della biblioteca segue un flusso distinto dalla codifica TEI XML.
+Promemoria laboratorio: la formazione dei tirocinanti non modifica la data del blocco di sintesi dati.

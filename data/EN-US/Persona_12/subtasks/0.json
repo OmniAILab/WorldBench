@@ -1,0 +1,240 @@
+{
+  "persona": "Leo is a stormwater management consultant in Charleston, South Carolina, focusing on the preservation of the historic French Quarter during king tide events. He navigates the complexities of the Charleston Board of Architectural Review and the city’s specialized drainage ordinances, coordinating the installation of backflow preventers and permeable paving while ensuring all modifications respect the colonial-era aesthetic and the specific soil saturation levels of the Lowcountry.",
+  "task": "Use the king tide threshold to flag which drain location needs a backflow preventer and update the retrofit list in the spreadsheet.",
+  "required_files": [
+    "tide_notice_charleston.txt",
+    "sites_charleston.xlsx",
+    "handover_tides_charleston.txt"
+  ],
+  "output_files": [
+    "data/retrofit_charleston.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/retrofit_charleston.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 4,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 5,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 6,
+            "col": 2,
+            "value": "Backflow"
+          },
+          {
+            "row": 7,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 8,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 10,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 11,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 12,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 13,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 14,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 15,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 16,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 17,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 18,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 19,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 20,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 21,
+            "col": 2,
+            "value": "Monitor"
+          },
+          {
+            "row": 22,
+            "col": 2,
+            "value": "Monitor"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/retrofit_charleston.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 7,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 8,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 9,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 11,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 12,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 13,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 14,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 15,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 16,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 17,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 18,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 19,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 20,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 21,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 22,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

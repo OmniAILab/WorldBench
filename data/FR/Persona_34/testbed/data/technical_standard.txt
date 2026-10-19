@@ -1,0 +1,20 @@
+Repères techniques d'atelier pour le transfert d'oxygène selon le grain du merrain et l'assemblage des douelles :
+Fût de vin blanc vif : échange cible de 8–12 mg/L par an.
+Fût de chardonnay jeune : échange cible de 10–15 mg/L par an.
+Fût de pinot noir léger : échange cible de 12–18 mg/L par an.
+Demi-muid de syrah : échange cible de 15–22 mg/L par an.
+Barrique réparée : échange cible de 18–24 mg/L par an.
+Fût neuf à grain fin : échange cible de 9–14 mg/L par an.
+Fût neuf à grain moyen : échange cible de 14–19 mg/L par an.
+Fût à chauffe forte : échange cible de 11–16 mg/L par an.
+Barrique de Grand Cru à élevage long : échange cible de 20–30 mg/L par an, avec contrôle annuel.
+Fût de deuxième vin : échange cible de 16–21 mg/L par an.
+Pièce bourguignonne ancienne : échange cible de 7–11 mg/L par an.
+Fût de marc : échange cible de 22–28 mg/L par an.
+Fût de vin liquoreux : échange cible de 6–10 mg/L par an.
+Fût expérimental à grain large : échange cible de 25–32 mg/L par an.
+Barrique de transport : échange cible de 13–17 mg/L par an.
+Fût de réserve : échange cible de 5–9 mg/L par an.
+Demi-pièce de dégustation : échange cible de 17–23 mg/L par an.
+Fût de pinot noir d’exception : échange cible de 14–20 mg/L par an.
+Fût de chardonnay Grand Cru (élevage court) : échange cible de 11–16 mg/L par an.

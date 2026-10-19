@@ -1,0 +1,20 @@
+{
+  "persona": "Diogo nasceu em Estremoz e mantém uma oficina de conservação e restauro de azulejos perto da zona das pedreiras de mármore. Consulta registos de pigmentos, testa a compatibilidade dos vidrados e prepara propostas de intervenção em painéis de edifícios religiosos do Alentejo.",
+  "task": "Extrai do documento do fornecedor a data de entrega do pó de mármore de Estremoz e acrescenta ao calendário da oficina um evento para a moldagem dos azulejos, intitulado «Bloco de moldagem de azulejos».",
+  "required_files": [
+    "quarry_supply.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/workshop_schedule.ics",
+        "keywords": [
+          "Bloco de moldagem de azulejos",
+          "pó de mármore de Estremoz"
+        ]
+      }
+    }
+  ]
+}

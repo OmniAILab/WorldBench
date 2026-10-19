@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Compagnie des Guides de Saint-Gervais//Planning des courses//FR
+BEGIN:VEVENT
+UID:3b18f6d2-71a4-4c9e-8b10-5c4e91f2a301
+DTSTART:20260530T170000
+DTEND:20260530T173000
+SUMMARY:Briefing voie du Goûter
+DESCRIPTION:Réviser les horaires de départ et la météo avec la cordée.
+END:VEVENT
+BEGIN:VEVENT
+UID:7c29a8e1-94b3-4f12-9a33-6d8f02b4c512
+DTSTART:20260531T080000
+DTEND:20260531T083000
+SUMMARY:Contrôle matériel technique
+DESCRIPTION:Vérifier cordes, baudriers, casques et crampons.
+END:VEVENT
+BEGIN:VEVENT
+UID:9d40b7f3-12c5-4e89-8d54-1a2b3c4d5e63
+DTSTART:20260601T083000
+DTEND:20260601T090000
+SUMMARY:Point brigadiers environnement du site classé
+DESCRIPTION:Entretien du sentier d'approche du Nid d'Aigle.
+END:VEVENT
+BEGIN:VEVENT
+UID:1e51c9a4-34d6-4b78-9c65-2f3e4d5c6b74
+DTSTART:20260602T080000
+DTEND:20260602T083000
+SUMMARY:Vérification réservations refuges
+DESCRIPTION:Point avec le gardien du refuge du Goûter.
+END:VEVENT
+END:VCALENDAR

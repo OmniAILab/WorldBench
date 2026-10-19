@@ -1,0 +1,32 @@
+{
+  "persona": "Caterina cataloga la vasta collezione di reperti del Museo Egizio di Torino, assicurando che tutti i prestiti e le acquisizioni rispettino gli standard internazionali di provenienza. Si muove tra le complesse linee guida etiche per il rimpatrio del patrimonio culturale e gli specifici protocolli di archiviazione digitale dell'International Council of Museums. I suoi compiti quotidiani comprendono il meticoloso esame dei registri storici di acquisizione e la redazione di narrazioni espositive che traducono la complessa ricerca egittologica per un pubblico globale.",
+  "task": "Scrivi una email al consiglio del museo indicando lo stato della richiesta di revisione etica del reperto Rosetta_Stone_Replica nel file ./data/email_consiglio_museo_egizio.txt.",
+  "required_files": [
+    "note_revisione_etica_museo.txt",
+    "database_provenienza_museo.xlsx",
+    "contatti_museo_egizio.xlsx"
+  ],
+  "output_files": [
+    "data/email_consiglio_museo_egizio.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_consiglio_museo_egizio.txt",
+        "keywords": [
+          "board@museoegizio.it",
+          "Rosetta_Stone_Replica",
+          "Pending_Ethical_Review"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_consiglio_museo_egizio.txt",
+      "change": "modify"
+    }
+  ]
+}

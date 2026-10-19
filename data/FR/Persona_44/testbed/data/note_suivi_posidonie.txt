@@ -1,0 +1,19 @@
+Les mesures du Frioul appartiennent à un autre secteur.
+La densité du Planier est suivie par une autre équipe.
+Les observations de Riou concernent une campagne différente.
+Le site doit correspondre exactement à Port-Pin.
+La couverture rocheuse ne doit pas être saisie dans cette colonne.
+La température de l’eau figure dans un autre relevé.
+Le nombre de plongeurs n’est pas une mesure de densité.
+Les valeurs sont exprimées en pourcentage.
+Reporter la valeur de Port-Pin sans le symbole dans la cellule numérique.
+Ne pas modifier les autres sites.
+La campagne relève du Plan Bleu méditerranéen.
+Le suivi concerne les herbiers de posidonie.
+La profondeur moyenne ne remplace pas la densité.
+Les données anciennes ne doivent pas être utilisées.
+Le tableau de terrain est la source de référence.
+Une seule cellule du suivi doit être changée.
+Le nom du site doit rester inchangé.
+La densité de Port-Pin Nord ne doit pas être confondue avec celle de Port-Pin principal.
+En-Vau Sud fait l’objet d’un suivi séparé par l’équipe de plongeurs.

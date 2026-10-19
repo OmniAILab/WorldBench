@@ -1,0 +1,28 @@
+{
+  "persona": "Beckett is an aquaculture manager in Portland, Maine, specializing in the sustainable cultivation of sugar kelp and mussels in the cold waters of Casco Bay. He handles the complexities of the Maine Department of Marine Resources’ leasing regulations and the specific water quality monitoring requirements of the Environmental Protection Agency, ensuring that harvesting cycles are optimized for both ecological health and the demands of the regional sea-to-table food supply chain.",
+  "task": "Write an email to the regional leasing officer about the expiring mussel cultivation lease.",
+  "required_files": [
+    "dmr_contacts_maine.xlsx",
+    "dmr_registry.xlsx",
+    "dialogue_lease_renewal_handoff.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "leasing@maine-dmr.example",
+        "keywords": [
+          "Mussel_Raft_08",
+          "Expires_in_30_Days"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_leasing_*.eml",
+      "change": "create"
+    }
+  ]
+}

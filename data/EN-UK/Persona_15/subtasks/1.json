@@ -1,0 +1,28 @@
+{
+  "persona": "Beatrice is a circular economy officer for Nottingham City Council, supporting the city’s carbon-neutral ambitions. She coordinates district heating notes, composting rules, grant deadlines, and business waste-matching records for areas such as the Lace Market.",
+  "task": "Write a short professional email alert for the district-heating planning committee, stating the deadline for Net_Zero_District_Heating and keeping the grant name and date together.",
+  "required_files": [
+    "national_grants.xlsx",
+    "committee_contacts_nottingham.xlsx",
+    "email_templates_nottingham.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "committee@nottingham-heat.uk",
+        "keywords": [
+          "2026-05-30",
+          "Net_Zero_District_Heating"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_committee_*.eml",
+      "change": "create"
+    }
+  ]
+}

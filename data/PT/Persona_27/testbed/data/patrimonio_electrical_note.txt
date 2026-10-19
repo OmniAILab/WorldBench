@@ -1,0 +1,12 @@
+NOTA TÉCNICA CONJUNTA — CONSERVAÇÃO PATRIMONIAL (PATRIMÓNIO CULTURAL, I.P.) E PROJETO DE INSTALAÇÕES ELÉTRICAS
+Âmbito: Reabilitação de colunas montantes e contadores inteligentes na Baixa Pombalina (Lisboa, 2026)
+
+1. Distinção entre condicionantes patrimoniais e dimensionamento eletrotécnico
+Os pareceres emitidos pelo Património Cultural, I.P. (que sucedeu nas competências de salvaguarda patrimonial à antiga DGPC) incidem sobre a reversibilidade das fixações, a ocultação de cablagens e a proteção de cantarias, estuques e azulejos históricos, não fixando valores universais de intensidade de corrente.
+
+2. Regra geral para o manual de segurança e projeto
+- Nos edifícios pombalinos classificados, a instalação deve preservar os elementos patrimoniais e observar o projeto elétrico aprovado; o calibre dos equipamentos depende da instalação e das condições de alimentação.
+- Nos casos específicos em que o projeto elétrico de um lote pombalino com coluna não remodelada defina um escalão de proteção de 60 A ou 65 A, esse valor resulta exclusivamente do cálculo eletrotécnico da secção dos condutores e do ramal de alimentação.
+
+3. Verificação final
+Antes da entrada em serviço, testar a proteção diferencial e arquivar o registo fotográfico do traçado reversível.

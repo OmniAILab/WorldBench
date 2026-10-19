@@ -1,0 +1,20 @@
+Incident: Cooling Fridge Nineteen exceeded the maximum allowed temperature at fourteen twenty three on Tuesday.
+Reading: recorded temperature was minus twelve degrees Celsius against a limit of minus fifteen degrees Celsius.
+Duration: the breach lasted approximately forty five minutes before the technician reset the thermostat.
+Sample note: three biology specimens were in the affected compartment.
+Label note: specimens are tagged with department reference codes starting BIO.
+Recovery note: temperature returned to within tolerance by fifteen ten.
+Previous note: Fridge Eighteen had a similar incident last month but was resolved within ten minutes.
+Maintenance note: the compressor on Fridge Nineteen was serviced six weeks ago.
+Door note: the seal on the upper compartment was flagged during last term inspection.
+Log note: the incident has been recorded in the risk log under reference COLD dash zero four two.
+STEM club note: the club samples are stored in Fridge Twenty Two which was not affected.
+Volunteer note: student lab assistants should not attempt to adjust fridge settings.
+Reporting note: breaches exceeding thirty minutes must be reported to the head of department.
+Archive note: previous breach reports are filed in the compliance folder on the shared drive.
+Technician note: the alarm panel battery was replaced at the start of term.
+Department note: demonstration specimens for lessons are stored in a labelled teaching tray.
+Office note: the compliance folder also contains last year audit checklist.
+Student note: lab assistants should report alarms to staff rather than opening equipment.
+Club cupboard note: spare goggles were moved to the lower shelf after the lunchtime practical.
+Office note: the photocopier jam is unrelated to the cold chain incident record.

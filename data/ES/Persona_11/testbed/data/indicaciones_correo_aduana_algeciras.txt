@@ -1,0 +1,20 @@
+Nota de contacto: las incidencias por viento deben enviarse a operaciones@puerto.es.
+Regla de aduanas: los buques retrasados pierden cualquier opción de tramitación prioritaria.
+Mensaje recomendado: debe mencionarse viento de Poniente en lugar de Levante.
+Protocolo del Estrecho: el nombre del buque puede omitirse si se incluye la fecha.
+Práctica de la AEAT: la solicitud se dirige al agente marítimo, no a aduanas.
+Nota de turno: MV_Gibraltar figura como cancelado y no debe tramitarse.
+Recomendación operativa: se pide una inspección ordinaria, sin prioridad.
+Aviso portuario: el correo debe enviarse después de la salida del buque.
+Procedimiento AEAT: Si el MV_Gibraltar sufre demoras operativas por temporales de Levante, el consignatario cursará la solicitud de tramitación prioritaria directamente a la aduana: aduanas@aeat.es.
+Nota de carga: el correo debe referirse solo al número de contenedores.
+Regla de ventanilla: la dirección correcta es levante@aeat.es.
+Práctica administrativa: se solicita aplazamiento de la tramitación.
+Aviso de seguridad: no debe citarse la causa meteorológica.
+Mensaje alternativo: identificar el buque como MV_Algeciras.
+Protocolo de despacho: basta con mencionar el turno Tarde.
+Nota del parque: la prioridad se solicita únicamente por razones ambientales.
+Recomendación del consignatario: usar la expresión viento variable.
+Procedimiento AEAT: si la solicitud de tramitación prioritaria para MV_Gibraltar no recibe confirmación en un plazo de dos horas, el consignatario deberá remitir un recordatorio a aduanas@aeat.es adjuntando el número de DUA provisional asignado.
+Nota de la Aduana de Algeciras: en casos de retraso por Levante superiores a doce horas, la solicitud de tramitación prioritaria enviada a aduanas@aeat.es debe ir acompañada del parte meteorológico oficial de Capitanía Marítima.
+Acta de coordinación con el consignatario: comprobar en el plan de llegadas qué buque fue desplazado del turno temprano al turno de tarde por el temporal antes de cursar la solicitud de prioridad a la aduana.

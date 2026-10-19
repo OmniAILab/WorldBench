@@ -1,0 +1,31 @@
+{
+  "persona": "Luca è un vigile del fuoco in servizio a Roma, presso una sede operativa nell’area di via Genova. Da dieci anni affronta interventi di soccorso nel centro storico, dove le strade strette e la pavimentazione in sampietrini rendono complessa la movimentazione dei mezzi pesanti. Confronta le condizioni del traffico con i dati degli edifici e con le procedure di sicurezza, per scegliere i percorsi d’accesso e il corretto posizionamento delle autoscale nel rispetto del patrimonio storico.",
+  "task": "Aggiungi al calendario di servizio un controllo di conformità del mezzo per i nuovi limiti di peso sulle strade in sampietrini.",
+  "required_files": [
+    "linee_guida_sampietrini_roma.txt"
+  ],
+  "output_files": [
+    "data/calendario_turno_vigili_roma.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_turno_vigili_roma.ics",
+        "summary_keywords": [
+          "Controllo conformità mezzo"
+        ],
+        "description_keywords": [
+          "limiti di peso"
+        ],
+        "date": "2026-03-01"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_turno_vigili_roma.ics",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Port agent: The Ro-Ro manifest puts RR-04 at 12m.
+Supervisor: That is the value to record in the terminal draft requirements.
+Agent: RR-13 and RR-17 are at 11m.
+Supervisor: Those entries belong to different vessels.
+Agent: Dundalk handles a lot of heavy machinery.
+Supervisor: True, but the terminal does not change the manifest draft.
+Agent: Chesapeake dredging sits in a different plan.
+Supervisor: Correct.
+Agent: Customs holds are separate too.
+Supervisor: Yes.
+Agent: I am keeping the m unit.
+Supervisor: Write 12m exactly.
+Agent: I am not converting to feet.
+Supervisor: Correct.
+Agent: Pilots may impose a window.
+Supervisor: Not for this cell.
+Agent: I am cross-checking RR-04 in both sheets.
+Supervisor: That is the right join.
+Agent: Then I update the dredging_schedule.
+Supervisor: Yes.
+Port context: Dundalk handles a high volume of Ro-Ro moves for automobiles and heavy machinery.
+Chesapeake: draft and tide windows have to be distinguished from customs holds.

@@ -1,0 +1,61 @@
+{
+  "persona": "Baptiste est horloger-restaurateur à Besançon, ville marquée par l’héritage de l’horlogerie comtoise. Il restaure des mouvements anciens pour le Musée du Temps et des collectionneurs, contrôle les tolérances mécaniques et documente chaque intervention selon les règles de conservation patrimoniale. Il travaille notamment sur des montres à complication, des pendules comtoises et des calibres produits dans le Doubs.",
+  "task": "Détermine le niveau de réglage du Calibre_Complication_BX9 en croisant la dérive journalière, la validation de la mesure, la règle d’atelier et le dialogue de restauration. Utilise uniquement la mesure prise après stabilisation, calcule la catégorie applicable puis renseigne le niveau, la dérive retenue et la validation. Écarte les mesures de transport et les calibres au nom proche.",
+  "required_files": [
+    "movement_tolerances_besancon.xlsx",
+    "regle_reglage_horloger.txt",
+    "validation_mesures_horlogerie.xlsx",
+    "dialogue_reglage_bx9.txt"
+  ],
+  "output_files": [
+    "data/restoration_register_besancon.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/restoration_register_besancon.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Réglage_fin"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": 5
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Mesure_validée_après_stabilisation"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/restoration_register_besancon.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

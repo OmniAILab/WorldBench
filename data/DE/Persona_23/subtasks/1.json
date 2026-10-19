@@ -1,0 +1,28 @@
+{
+  "persona": "Hanna ist Holzspielzeugdesignerin in einer generationenübergreifenden Werkstatt im Nürnberger Handwerkerviertel und bereitet ihre kunstvollen mechanischen Kreationen für die große jährliche Spielwarenmesse vor. Sie kämpft mit den schwankenden Preisen für nachhaltig bezogenes regionales Buchenholz und dem dichten Regelwerk der EU-Spielzeugsicherheitsrichtlinien zu ungiftigen Farben. Sie bringt wechselnde Lieferverzögerungen der globalen Lieferkette, komplexe chemische Konformitätszertifikate und historische saisonale Bestelltrends zusammen, um ihre Produktionsquoten rechtzeitig vor der weltweiten Messe festzulegen.",
+  "task": "Schreibe eine E-Mail an die Schreiner der Nürnberger Werkstatt und teile den Lieferengpass für das regionale Buchenholz sowie die notwendige Anpassung der Produktionsquote für die Spielwarenmesse mit.",
+  "required_files": [
+    "logistikprotokoll_nuernberg.xlsx",
+    "kontakte_werkstatt_nuernberg.xlsx",
+    "produktionshinweise_nuernberg.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "werkstatt@spielzeug-nuernberg.de",
+        "keywords": [
+          "Bayerische_Buchenholzbloecke",
+          "3 Wochen Lieferengpass"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_werkstatt_*.eml",
+      "change": "create"
+    }
+  ]
+}

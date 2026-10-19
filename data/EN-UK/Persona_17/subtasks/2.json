@@ -1,0 +1,29 @@
+{
+  "persona": "Niamh is a peace-building coordinator in Derry, working within the historic city walls to support cross-community youth programmes. She maintains participation records, funding notes, proposal outlines, and outreach calendars for local grassroots programmes.",
+  "task": "Add a Grassroots Mediation Session to the outreach calendar using the suggested non-overlapping date after the cultural parade, so the session does not clash with parade activity inside the Derry walls.",
+  "required_files": [
+    "event_ledger.txt"
+  ],
+  "output_files": [
+    "data/outreach_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/outreach_calendar.ics",
+        "summary_keywords": [
+          "Grassroots Mediation Session"
+        ],
+        "description_keywords": [],
+        "date": "2026-08-13"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/outreach_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

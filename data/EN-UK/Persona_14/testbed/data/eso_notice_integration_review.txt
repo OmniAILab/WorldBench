@@ -1,0 +1,12 @@
+Regional meeting note: do not use the 4 MW per minute figure from last month.	Port of Tyne berth coordination	Ouseburn engineering workshop
+Battery storage note: 8 MW per minute applies only to the Blyth pilot.	Quayside visitor operations	Walker Riverside manufacturing shift
+Tyne workshop note: the quayside demonstration uses a static display only.	Blyth offshore-energy pilot	North East supply-chain briefing
+Grid note: 6 MW per minute was rejected during the February review.	Port of Tyne berth coordination	Ouseburn engineering workshop
+Cable note: 1000 MW is a capacity figure, not a ramp-rate description.	Quayside visitor operations	Walker Riverside manufacturing shift
+Dogger Bank liaison note: use the ESO wording in the calendar description.	Blyth offshore-energy pilot	North East supply-chain briefing
+ESO spec: max ramp rate 5 MW per minute.	Port of Tyne berth coordination	Ouseburn engineering workshop
+Operations note: the review should be labelled as an integration review, not a manufacturing stand-up.	Quayside visitor operations	Walker Riverside manufacturing shift
+North Sea weather note: gust warnings are not the ramp-rate limit.	Blyth offshore-energy pilot	North East supply-chain briefing
+Finance note: peak pricing belongs in the market-signal summary.	Port of Tyne berth coordination	Ouseburn engineering workshop
+Visitor note: Port of Tyne tour bookings are unrelated to the review.	Quayside visitor operations	Walker Riverside manufacturing shift
+Note: the 2025 ramp-rate consultation should not be copied.	Blyth offshore-energy pilot	North East supply-chain briefing

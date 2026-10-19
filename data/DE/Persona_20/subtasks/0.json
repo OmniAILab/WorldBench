@@ -1,0 +1,39 @@
+{
+  "persona": "Franka ist Location-Scout in den sorgfältig erhaltenen Renaissance- und Barockstraßen von Görlitz, Sachsen, und sichert Drehgenehmigungen für aufwendige internationale historische Filmproduktionen. Sie vermittelt zwischen den extremen Anforderungen Hollywood'scher Szenenbildner und den strengen Fassadenschutzvorgaben des Sächsischen Landesamts für Denkmalpflege. Sie prüft gleichzeitig hunderte Seiten städtischer Straßensperrungsverordnungen, historische Leitfäden zur architektonischen Authentizität und komplexe Drehpläne, um perfekt zeitgetreue Straßenecken schon Monate im Voraus zu sichern.",
+  "task": "Gleiche den Drehtermin der Kutschenszene mit der Görlitzer Straßensperrung ab und aktualisiere den Genehmigungsstatus für das Renaissance-Motiv.",
+  "required_files": [
+    "drehplan.xlsx",
+    "drehhinweise_goerlitz.txt"
+  ],
+  "output_files": [
+    "data/strassensperrung.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/strassensperrung.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Genehmigt für 15.07.2026"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/strassensperrung.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

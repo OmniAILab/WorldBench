@@ -1,0 +1,28 @@
+{
+  "persona": "Dirk ist Instandhaltungsingenieur am Hauptdepot der Wuppertaler Schwebebahn in Nordrhein-Westfalen und sorgt für die tägliche Sicherheit der ältesten elektrischen Hängebahn der Welt. Er bekämpft die enorme Materialermüdung durch die über der Wupper schwingenden Züge und hält sich an die strengen städtischen Verkehrssicherheitsvorgaben des Eisenbahn-Bundesamts. Er wertet umfangreiche Datensätze zur Ultraschall-Schienenspannung, historische Verschleißmuster der Aufhängungen und anstehende städtische Veranstaltungstermine aus, um gezielt Streckenabschnitte für die nächtliche vorbeugende Verstärkung zu bestimmen.",
+  "task": "Schreibe eine E-Mail an das technische Depotteam und melde die bestätigten Mikrorisse an der Weiche der Schwebebahnstation Alter Markt.",
+  "required_files": [
+    "verschleissmuster.xlsx",
+    "kontakte_depot_wuppertal.xlsx",
+    "reparaturhinweise_wuppertal.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "technik@schwebebahn.de",
+        "keywords": [
+          "Alter_Markt_Weiche",
+          "sichtbare Mikrorisse"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_technik_*.eml",
+      "change": "create"
+    }
+  ]
+}

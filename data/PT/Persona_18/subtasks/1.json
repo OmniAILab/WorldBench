@@ -1,0 +1,29 @@
+{
+  "persona": "Catarina nasceu em Manteigas e é designer têxtil. Dirige uma tecelagem tradicional na Serra da Estrela, especializada em produtos de burel de pura lã. Trabalha com um número cada vez menor de pastores locais e com os envios internacionais de peças de inverno, e cruza as tendências de design com o inventário de lã para definir as cores de cada coleção nos teares.",
+  "task": "Escreve um email aos compradores das boutiques a comunicar o atraso do envio de casacos de burel destinado a Nova Iorque causado pela neve na passagem da Serra da Estrela.",
+  "required_files": [
+    "export_logistics.xlsx",
+    "delivery_update_manteigas.txt",
+    "boutique_contacts.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_boutique_buyers.txt",
+        "keywords": [
+          "O envio de casacos de burel destinado a Nova Iorque está atrasado devido a neve intensa na passagem da Serra da Estrela; atualizar o prazo comunicado aos compradores"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_boutique_buyers.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

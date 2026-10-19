@@ -1,0 +1,30 @@
+{
+  "persona": "Gunnar is a logistics coordinator for a bush aviation service based in Anchorage, Alaska, managing the delivery of essential supplies to off-grid Arctic communities. He oversees the complexities of Federal Aviation Administration flight regulations for remote terrain and the logistical hurdles of the Alaska Department of Transportation, ensuring that fuel, medicine, and building materials are synchronized with fluctuating weather windows and the limited runway capacities of isolated gravel strips.",
+  "task": "Add a fleet grounding block to the bush aviation flight calendar using the severe blizzard warning in the Alaska Department of Transportation dispatch.",
+  "required_files": [
+    "weather_dispatch.txt",
+    "fleet_weather_procedure_alaska.txt"
+  ],
+  "output_files": [
+    "data/flight_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/flight_calendar.ics",
+        "summary_keywords": [
+          "Fleet Grounding Block"
+        ],
+        "description_keywords": [],
+        "date": "2026-12-05"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/flight_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

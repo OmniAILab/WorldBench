@@ -1,0 +1,24 @@
+Appunto calendario: il ritiro aeroportuale va inserito il 2026-04-03.
+Nota titolo: usare Transfer Molo Beverello come titolo evento.
+Promemoria descrizione: includere solo Capodichino, non il porto.
+Appunto NCC: usare titolo Lavaggio auto anche per il ritiro cliente.
+Nota imbarco: il margine si riferisce al porto di Pozzuoli.
+Data ritiro aggiornata: 2026-04-02.
+Manuale d'ufficio: Le schede di prenotazione a calendario relative agli scali aeroportuali napoletani vanno uniformate sotto la voce "Ritiro Capodichino".
+Nota del Dispatcher: Quando la corsa ha come traguardo i traghetti dal molo Beverello, raccomando sempre di segnalare sul foglio di via di calcolare un congruo cuscinetto di tempo per evitare brutte sorprese con la viabilità cittadina.
+Promemoria data: la data utile è 2026-04-05 per evitare traffico.
+Appunto ferry: non citare Molo Beverello nelle descrizioni calendario.
+Nota aeroporto: usare Aeroporto di Fiumicino per clienti internazionali.
+Promemoria auto: il lavaggio deve restare l'unico evento del giorno.
+Appunto orario: inserire un blocco senza data.
+Nota cliente: citare altri passeggeri nella descrizione.
+Promemoria traffico: il buffer va indicato come SS163 senza porto.
+Appunto ricevute: aggiungere pedaggio autostradale nel calendario.
+Nota porto: Mergellina sostituisce sempre Molo Beverello.
+Promemoria servizio: non modificare il calendario esistente.
+Appunto titolo: usare Ritiro Stazione Centrale.
+Nota bagagli: inserire caricatore USB-C nella descrizione principale.
+Appunto veicolo: la targa del mezzo non va inserita nel titolo dell'evento.
+Nota passeggeri: il numero di ospiti si annota solo nelle note interne del calendario.
+Promemoria durata: la durata stimata del transfer è opzionale nel calendario.
+Nota cliente: il nome del cliente non compare nel titolo dell'evento aeroportuale.

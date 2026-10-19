@@ -1,0 +1,49 @@
+{
+  "persona": "Manon est responsable de l’hospitalité de luxe à Cannes et dirige un hôtel-boutique haut de gamme sur le boulevard de la Croisette. Elle concilie les fortes contraintes saisonnières du Festival de Cannes avec les consignes d’exploitation relatives au bruit et aux déchets, tout en coordonnant les arrivées internationales dans les conditions de circulation difficiles de la Côte d’Azur.",
+  "task": "Croise le programme des soirées avec la note d’exploitation sonore de l’établissement pour identifier la règle applicable à Soirée_Festival_Cannes : utilise le code d’événement, le lieu et le type de diffusion afin d’écarter l’after-party intérieure, la soirée de jour et la zone plage. Mets à jour l’heure de fin et la référence dans le conducteur.",
+  "required_files": [
+    "noise_notice_cannes.txt",
+    "programme_soirees_cannes.xlsx"
+  ],
+  "output_files": [
+    "data/runsheet_cannes.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/runsheet_cannes.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "23:00"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Dérogation FilmFestival_Night"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/runsheet_cannes.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

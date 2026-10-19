@@ -1,0 +1,30 @@
+{
+  "persona": "欣怡是三亚一个阳光充足的农业试验农场的研究员。她在海边的盐碱地里种植实验水稻，填写没完没了的文件，并在海南热带高温中避免晒伤。",
+  "task": "给港口办公室写一封邮件，询问围填海相关表格是否已经处理好，并包含地块代码。",
+  "required_files": [
+    "ftp_contacts_sanya.xlsx",
+    "trials_sanya.xlsx",
+    "compliance_note_sanya.txt",
+    "dialogue_sanya_compliance.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "compliance@hainanftp.cn",
+        "keywords": [
+          "ST-2",
+          "围填海",
+          "崖州湾南繁"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_compliance_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+Regional representation quota: 50% North of England for archive-only social cuts.
+Regional representation quota: 65% North West for internal rehearsal edits.
+Use pass only when the campaign meets or exceeds the stated quota.
+Regional representation quota: 60% North of England.
+Do not use the London social edits quota for Salford-led campaigns.
+City_Lights uses a different target because it is a Greater Manchester pilot.
+Regional voiceover checks are handled separately from the quota decision.
+A campaign at fifty-nine per cent should still fail a sixty per cent quota.
+ London social edits are tracked separately.
+MediaCityUK studio-booking percentages do not count as representation.
+Do not round fifty-five per cent up to sixty per cent.
+The quota applies to the current plan, not the proposed reshoot.
+Do not mark the checklist pass simply because one clip is cleared.
+The BBC compliance contact wants the status as Pass or Fail only.
+North_Stream is the campaign to assess.
+MediaCityUK studio-booking changes are logged in the production diary. Reference 1A is recorded separately.
+Dock10 audience-arrival notes are kept outside campaign compliance files. Reference 1B is recorded separately.
+Salford Quays tram disruption is recorded in the travel channel. Reference 2A is recorded separately.
+Lowry theatre event timings are not part of campaign rights records. Reference 2B is recorded separately.
+Studio catering orders are filed separately from legal and rights checks. Reference 3A is recorded separately.
+Quayside location-weather notes are stored with production logistics. Reference 3B is recorded separately.
+BBC building-access passes are handled in a separate facilities workflow. Reference 4A is recorded separately.
+Manchester edit-suite bookings are tracked independently of campaign status. Reference 4B is recorded separately.
+Publicity photography call sheets are stored outside compliance registers. Reference 5A is recorded separately.
+Salford production parking permits are recorded in the facilities folder. Reference 5B is recorded separately.
+MediaCityUK studio-booking changes are logged in the production diary. Reference 6A is recorded separately.
+Dock10 audience-arrival notes are kept outside campaign compliance files. Reference 6B is recorded separately.
+Salford Quays tram disruption is recorded in the travel channel. Reference 7A is recorded separately.
+Lowry theatre event timings are not part of campaign rights records. Reference 7B is recorded separately.
+Studio catering orders are filed separately from legal and rights checks. Reference 8A is recorded separately.
+Quayside location-weather notes are stored with production logistics. Reference 8B is recorded separately.
+BBC building-access passes are handled in a separate facilities workflow. Reference 9A is recorded separately.
+Manchester edit-suite bookings are tracked independently of campaign status. Reference 9B is recorded separately.
+Publicity photography call sheets are stored outside compliance registers. Reference 10A is recorded separately.
+Salford production parking permits are recorded in the facilities folder. Reference 10B is recorded separately.
+MediaCityUK studio-booking changes are logged in the production diary. Reference 11A is recorded separately.
+Dock10 audience-arrival notes are kept outside campaign compliance files. Reference 11B is recorded separately.
+Salford Quays tram disruption is recorded in the travel channel. Reference 12A is recorded separately.
+Lowry theatre event timings are not part of campaign rights records. Reference 12B is recorded separately.
+Studio catering orders are filed separately from legal and rights checks. Reference 13A is recorded separately.
+Quayside location-weather notes are stored with production logistics. Reference 13B is recorded separately.
+BBC building-access passes are handled in a separate facilities workflow. Reference 14A is recorded separately.
+Manchester edit-suite bookings are tracked independently of campaign status. Reference 14B is recorded separately.
+Publicity photography call sheets are stored outside compliance registers. Reference 15A is recorded separately.
+Salford production parking permits are recorded in the facilities folder. Reference 15B is recorded separately.

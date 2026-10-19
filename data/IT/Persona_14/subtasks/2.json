@@ -1,0 +1,29 @@
+{
+  "persona": "Giorgio è un costruttore immobiliare a Venezia, specializzato nel rinforzo strutturale dei palazzi storici contro l'innalzamento del livello del mare. Si muove tra i rigidi vincoli architettonici dell'Ufficio Edilizia del Comune di Venezia e le complessità tecniche della sincronizzazione con la barriera del MOSE. Le sue operazioni quotidiane comprendono il costante esame delle previsioni di marea e la gestione dei permessi per le costruzioni subacquee, assicurando che gli interventi di ingegneria moderna restino invisibili tra le delicate facciate gotiche e barocche della città.",
+  "task": "Scrivi una email all'ufficio dei permessi acquei del Comune per chiedere conferma della giornata di lavoro, includendo la data selezionata e il valore della marea in cm.",
+  "required_files": [
+    "note_email_permessi_venezia.txt",
+    "contatti_permessi_venezia.xlsx",
+    "maree_venezia.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "permessi.acquei@comune.venezia.it",
+        "keywords": [
+          "2026-04-03",
+          "75",
+          "cm"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_permessi.acquei_*.eml",
+      "change": "create"
+    }
+  ]
+}

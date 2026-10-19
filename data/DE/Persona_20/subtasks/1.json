@@ -1,0 +1,28 @@
+{
+  "persona": "Franka ist Location-Scout in den sorgfältig erhaltenen Renaissance- und Barockstraßen von Görlitz, Sachsen, und sichert Drehgenehmigungen für aufwendige internationale historische Filmproduktionen. Sie vermittelt zwischen den extremen Anforderungen Hollywood'scher Szenenbildner und den strengen Fassadenschutzvorgaben des Sächsischen Landesamts für Denkmalpflege. Sie prüft gleichzeitig hunderte Seiten städtischer Straßensperrungsverordnungen, historische Leitfäden zur architektonischen Authentizität und komplexe Drehpläne, um perfekt zeitgetreue Straßenecken schon Monate im Voraus zu sichern.",
+  "task": "Schreibe eine E-Mail an das Szenenbildteam und weise auf die Auflage des Görlitzer Denkmalamts zu Kunstschneespray auf barockem Sandstein hin.",
+  "required_files": [
+    "fassadenschutz.xlsx",
+    "kontakte_produktion_goerlitz.xlsx",
+    "fassadenhinweise_goerlitz.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "design@studio-productions.com",
+        "keywords": [
+          "Kunstschneespray",
+          "auf barockem Sandstein verboten"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_design_*.eml",
+      "change": "create"
+    }
+  ]
+}

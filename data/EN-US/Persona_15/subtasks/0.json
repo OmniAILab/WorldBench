@@ -1,0 +1,40 @@
+{
+  "persona": "Keisha is a harbor master’s liaison at the Port of Baltimore in Maryland, specializing in the scheduling of Roll-on/Roll-off vessels carrying heavy machinery and automobiles. She handles the intricate documentation for the Maryland Port Administration and the specific dredging schedules of the Chesapeake Bay, ensuring that massive cargo ships are timed with the tides and that local terminal congestion remains minimal despite the high volume of international trade.",
+  "task": "Match the vessel draft requirement in the Ro-Ro manifest spreadsheet and record it in the terminal draft requirements spreadsheet.",
+  "required_files": [
+    "draft_clearance_note_baltimore.txt",
+    "roro_manifest_baltimore.xlsx",
+    "handover_roro_baltimore.txt"
+  ],
+  "output_files": [
+    "data/dredging_schedule.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/dredging_schedule.xlsx",
+        "matches": [
+          {
+            "row": 6,
+            "col": 2,
+            "value": "12m"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/dredging_schedule.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

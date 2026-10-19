@@ -1,0 +1,39 @@
+{
+  "persona": "Beatrice monitora la distribuzione globale dei tartufi bianchi per una primaria casa commerciale di Alba, cuore della regione delle Langhe. Si muove tra i cicli di raccolta imprevedibili causati dalle variazioni climatiche nei boschi piemontesi e assicura che tutte le esportazioni rispettino le specifiche certificazioni sanitarie e di origine del Tartufo Bianco di Alba. La sua vita professionale richiede il costante monitoraggio dei prezzi delle aste internazionali e il rapido coordinamento della logistica a catena del freddo per consegnare i deperibili \"diamanti grigi\" agli chef di alto livello in tutto il mondo.",
+  "task": "Usa il registro di raccolta e la nota di certificazione per aggiornare lo stato export del lotto di Tartufo Bianco di Alba nel file ./data/certificazione_origine_alba.xlsx per il lotto Truffle_Batch_A1.",
+  "required_files": [
+    "nota_origine_tartufo_alba.txt",
+    "raccolta_tartufi_alba.xlsx"
+  ],
+  "output_files": [
+    "data/certificazione_origine_alba.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/certificazione_origine_alba.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Approvato_export"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/certificazione_origine_alba.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

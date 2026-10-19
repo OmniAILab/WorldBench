@@ -1,0 +1,21 @@
+{
+  "persona": "Nuno é de Santa Maria da Feira e trabalha há dez anos como responsável pelo controlo da qualidade numa unidade de transformação de cortiça. Coordena as análises de TCA, a rastreabilidade dos lotes e as decisões de retenção ou libertação das rolhas destinadas à exportação para produtores de vinho franceses, em articulação com o laboratório e a produção.",
+  "task": "Redige um breve diálogo entre o responsável do laboratório e o encarregado da produção da corticeira de Santa Maria da Feira sobre uma leitura inconclusiva de TCA. Distingue a medição confirmada do lote 909 da contraprova ainda pendente do lote 919 e termina com a decisão de manter o lote 919 retido até à validação da análise.",
+  "required_files": [
+    "spectrography_readings_104.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/dialogue_local_operation.txt",
+        "keywords": [
+          "lote 919",
+          "contraprova",
+          "expedição"
+        ]
+      }
+    }
+  ]
+}

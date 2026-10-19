@@ -1,0 +1,40 @@
+{
+  "persona": "Hiroshi is a production manager for a specialized outdoor apparel manufacturer in Portland, Oregon, overseeing the assembly of technical gear designed for Pacific Northwest conditions. He handles the complexities of sourcing recycled textiles that meet the state’s rigorous sustainability labeling laws and coordinates with the Port of Portland for international component shipments, ensuring that the manufacturing floor’s output stays aligned with seasonal retail demands and regional environmental standards.",
+  "task": "Use the sustainability label rule to mark whether the fabric batch qualifies for the recycled claim and update the label status in the spreadsheet.",
+  "required_files": [
+    "label_notice_oregon.txt",
+    "fabric_portland.xlsx",
+    "dialogue_label_portland.txt"
+  ],
+  "output_files": [
+    "data/labels_portland.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/labels_portland.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Recycled_Claim_OK"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/labels_portland.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+Promemoria eventi: Daytime_Setup ha limite 75dB_Max, non riguarda la sera.
+Nota villa: la musica acustica interna segue una regola distinta.
+Appunto precedente: 55dB_Max era la soglia del mese scorso.
+Ordinanza Polizia Municipale: Ricordate a maestranze e tecnici che allestiscono le cornici per il calar del sole ("Evening Events") di tarare la strumentazione per non violare l'asticella acustica massima prevista dalle norme comunali.
+Registro fornitori: usare il gruppo artigiani, non il contatto dei driver.
+Nota SS163: le chiusure stradali non sono da includere nella email sul rumore.
+Promemoria costa: Fireworks_Event non è autorizzato per questa villa.
+Scheda comunale: Evening_Events è la regolazione da usare.
+Nota concierge: non citare i nomi degli ospiti.
+Appunto palco: 70dB_Max riguarda prove tecniche pomeridiane.
+Promemoria ristorante: il catering ha un avviso separato sugli orari.
+Nota artigiani: mantenere il messaggio pratico e breve.
+Registro spiaggia: Beach_Afterparty non è nel programma autorizzato.
+Appunto reception: il volume delle campane non rientra nei fornitori.
+Promemoria email: non allegare il contratto completo.
+Nota Positano: citare il regolamento comunale senza formule legali lunghe.
+Scheda suono: non sostituire dB_Max con 'decibel consigliati'.
+Promemoria allestimento: il noleggio delle sedie per la cerimonia è logistico e non riguarda la regolazione audio.
+Scheda fornitori: la fornitura dei fiori freschi è un ordine separato dalla comunicazione sul rumore.
+Nota Positano: le campane della chiesa locale non rientrano nelle emissioni sonore imputabili agli allestitori.
+Promemoria Costiera: il passaggio dei traghetti serali non modifica il limite comunale previsto per gli eventi.

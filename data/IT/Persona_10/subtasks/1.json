@@ -1,0 +1,31 @@
+{
+  "persona": "Elena è una viticoltrice nella regione delle Langhe, in Piemonte, dove sovrintende alla produzione dei vini Barolo DOCG per una tenuta storica. Calibra i cicli di vendemmia in base ai sempre più imprevedibili andamenti meteorologici alpini e ai rigorosi disciplinari stabiliti dal Consorzio di Tutela Barolo Barbaresco. La sua competenza è messa alla prova dalla necessità di adattare la gestione del vigneto alle nuove direttive europee sulla sostenibilità, garantendo al contempo che ogni bottiglia mantenga il preciso profilo chimico richiesto per la certificazione di export internazionale.",
+  "task": "Trasforma la nota sulla sostenibilità europea in una breve checklist operativa per il team dei vigneti delle Langhe. Il file ./data/checklist_vigneto_langhe.docx deve contenere esattamente le seguenti diciture: «Langhe», «Ridurre i trattamenti rameici», «Mantenere la copertura erbosa», «Registrare ogni evento di irrigazione».",
+  "required_files": [
+    "nota_sostenibilita_langhe.txt"
+  ],
+  "output_files": [
+    "data/checklist_vigneto_langhe.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/checklist_vigneto_langhe.docx",
+        "keywords": [
+          "Langhe",
+          "Ridurre i trattamenti rameici",
+          "Mantenere la copertura erbosa",
+          "Registrare ogni evento di irrigazione"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/checklist_vigneto_langhe.docx",
+      "change": "modify"
+    }
+  ]
+}

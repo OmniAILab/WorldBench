@@ -1,0 +1,28 @@
+{
+  "persona": "Xabier es analista de sistemas industriales en Bilbao y trabaja en los clústeres siderúrgico y de fabricación de la ría del Nervión. Supervisa la transición al hidrógeno verde y vela por el cumplimiento de la normativa vasca de seguridad industrial. Su día a día consiste en auditar los registros de consumo energético en tiempo real y preparar la documentación técnica que exigen las ayudas de los fondos europeos de desarrollo regional.",
+  "task": "Escribe un correo electrónico al contacto de los fondos FEDER para comunicar qué línea del clúster del Nervión tiene prioridad en la conversión a hidrógeno verde.",
+  "required_files": [
+    "contactos_fondos_bilbao.xlsx",
+    "prioridades_bilbao.xlsx",
+    "indicaciones_correo_fondos_bilbao.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "fondos@region.eu",
+        "keywords": [
+          "Laminador_2",
+          "hidrógeno verde"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_fondos_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "persona": "Inês dirige há dez anos a exploração de um cerejal na encosta da Serra da Gardunha, perto de Alcongosta. Coordena a equipa de campo, acompanha os avisos de geada tardia e protege as árvores durante a floração, sem perder de vista os compromissos comerciais da Cereja do Fundão.",
+  "task": "Extrai do aviso agrícola o período do alerta de geada tardia e acrescenta ao calendário da direção uma patrulha noturna dos pomares da Serra da Gardunha, intitulada «Patrulha noturna do pomar».",
+  "required_files": [
+    "weather_document.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/director_calendar_fundao.ics",
+        "keywords": [
+          "Patrulha noturna do pomar",
+          "20260405T020000",
+          "20260405T060000"
+        ]
+      }
+    }
+  ]
+}

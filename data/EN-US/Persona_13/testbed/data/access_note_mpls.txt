@@ -1,0 +1,22 @@
+Access note: before 18:00, maintenance may enter through the public retail corridor.
+Access note: the freight elevator key must be returned to the lobby desk after daytime work.
+Access note: weekend painting crews should use the loading dock, not the skyway bridge.
+Access note: public cleaning staff can enter Zone 2 without a private escort at noon.
+Access note: fire alarm testing requires a separate city inspection notice.
+Access note: for the Minneapolis Skyway, access after 20:00 requires building security escort.
+Access note: after-hours maintenance staff must sign in at the private lobby desk.
+Access note: private tenant restrooms are not available to municipal contractors.
+Access note: snow-melt mat repairs should be scheduled outside the commuter peak.
+Access note: building engineers prefer radio calls before unlocking the connector.
+Access note: visitor badges expire at the end of each shift.
+Access note: freight doors near the coffee kiosk should not be propped open.
+Access note: security cameras must remain unobstructed during ladder work.
+Access note: keys for Block C are not interchangeable with Block A.
+Access note: downtown event crowds may slow access through the central bridge.
+Access note: salt buckets should stay in the mechanical closet.
+Access note: the private lobby desk cannot store power tools overnight.
+Access note: maintenance carts should avoid glass railings during the morning rush.
+Local context: the Skyway links private buildings whose access rules can differ from block to block.
+Winter: sub-zero spells raise the heating load and the sensitivity to doors left propped open.
+Access: after business hours, a private lobby desk or a security officer can become mandatory.
+Downtown: Nicollet and major events can change pedestrian flow without changing the technical setting.

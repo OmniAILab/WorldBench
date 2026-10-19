@@ -1,0 +1,6 @@
+Fuhrpark-Prüfbericht Spedition Stuttgart
+Fahrzeug: HG_Transport_04.
+Feststellung: Im internen Flottenbericht wurde für HG_Transport_04 festgestellt, dass der fahrzeugspezifische NOx-Grenzwert gemäß Euro-VI-Dokumentation im Realbetrieb überschritten wurde.
+Empfänger für Compliance-Verstöße: compliance@spedition-stuttgart.de.
+Formulierung für die E-Mail: Fahrzeug "HG_Transport_04" und "NOx-Grenzwert überschritten" zwingend nennen.
+Ausnahmeregelung Kesselrand: Fahrzeuge mit Euro-VI-Zertifizierung sind im Stuttgarter Talkessel von der täglichen erweiterten NOx-Meldepflicht ausgenommen und erhalten im Bericht standardmäßig den Eintrag "Kein_Verstoß", sofern die OBD keine Fehler meldet.

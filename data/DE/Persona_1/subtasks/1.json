@@ -1,0 +1,40 @@
+{
+  "persona": "Clara arbeitet als Musikarchivarin in Bonn an der Erschließung und konservatorischen Betreuung historischer Musikhandschriften im Beethoven-Haus. Sie prüft Klimamessungen, Wasserzeichenkartei und Nutzungsbedingungen digitaler Reproduktionen und dokumentiert ihre Entscheidungen für das Archiv.",
+  "task": "Gleiche für das digitalisierte Blatt BH-SK-19 den internen Wasserzeichencode mit der Referenztabelle ab und trage die dort verzeichnete Papiermühle in den Katalog ein.",
+  "required_files": [
+    "scans_bonn.xlsx",
+    "wasserzeichen_bonn.xlsx",
+    "kataloghinweise_bonn.txt"
+  ],
+  "output_files": [
+    "data/katalog_bonn.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/katalog_bonn.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Rheinmuehle_Bonn"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/katalog_bonn.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

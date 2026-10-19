@@ -1,0 +1,28 @@
+{
+  "persona": "Julian is a Bristol-based heritage conservation consultant working on Grade II listed warehouses and Victorian merchant houses in Clifton and Redcliffe. He maintains survey trackers, impact assessments, material requests, and calendar notes for conservation projects.",
+  "task": "Extract the Historic England guidance sentence from the conservation notice and insert it verbatim into the impact assessment document.",
+  "required_files": [
+    "historicengland_notice.txt"
+  ],
+  "output_files": [
+    "data/impact_assess.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/impact_assess.docx",
+        "keywords": [
+          "retain original fabric wherever practicable"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/impact_assess.docx",
+      "change": "modify"
+    }
+  ]
+}

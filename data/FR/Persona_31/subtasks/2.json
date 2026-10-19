@@ -1,0 +1,34 @@
+{
+  "persona": "Laure dirige la production d’une distillerie de lavande sur le plateau de Valensole, en Provence. Pendant la récolte, elle coordonne les apports de lavande fine et de lavandin, les alambics, la consommation d’eau et les contrôles des huiles essentielles. Elle suit les documents de traçabilité et les certifications biologiques lorsqu’elles s’appliquent, sans les confondre avec les classements de qualité internes à l’atelier.",
+  "task": "Mets à jour le manuel d’expédition en croisant le lot à expédier, le client associé, sa classification et le cahier des charges d’emballage du client. Pour LAV-21, identifie la spécification exacte du client correspondant au lot pharmaceutique courant et reporte-la dans le manuel. Écarte LAV-22, les lots non pharmaceutiques et les conditionnements d'autres clients.",
+  "required_files": [
+    "client_standards.txt",
+    "lots_export_valensole.xlsx",
+    "dialogue_expédition_valensole.txt"
+  ],
+  "output_files": [
+    "data/shipping_manual.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/shipping_manual.docx",
+        "keywords": [
+          "Valensole",
+          "LAV-21",
+          "verre ambré résistant aux UV",
+          "épaisseur minimale 5 mm",
+          "lot pharmaceutique courant"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/shipping_manual.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "persona": "Amélie est restauratrice de textiles de mode à Paris et travaille dans un atelier spécialisé du quartier du Sentier. Elle recherche des soies et des fils anciens rares, en documentant la provenance des matières et en appliquant les procédures de sécurité chimique de son atelier. Elle veille ainsi à préserver des pièces historiques de couture destinées au Musée Galliera sans contrevenir aux exigences contemporaines de durabilité.",
+  "task": "Croise la procédure interne de conformité de l’atelier du Sentier, le type exact de chaque teinture et le dialogue de conformité. Identifie la teinture correspondant exactement au solvant de type X, sans assimiler la variante « Solvant_X_dilué » au même cas, puis mets à jour son approbation et le motif dans la feuille de l’atelier du Sentier.",
+  "required_files": [
+    "dye_rules_paris.txt",
+    "dyes_paris.xlsx",
+    "dialogue_conformite_teintures_paris.txt"
+  ],
+  "output_files": [
+    "data/approvals_paris.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/approvals_paris.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": "Non"
+          },
+          {
+            "row": 4,
+            "col": 3,
+            "value": "Solvant X non autorisé par la procédure interne de l’atelier"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/approvals_paris.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

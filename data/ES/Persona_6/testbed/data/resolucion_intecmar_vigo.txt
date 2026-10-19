@@ -1,0 +1,19 @@
+Umbral antiguo: activar precaución únicamente por debajo de 3,0 mg/L.
+Parte de las bateas de Arousa: se adjuntan las lecturas de oxígeno disuelto de la última revisión de los bancos marisqueros.
+Regla de la ría: cualquier valor superior a 4,0 mg/L recibe Sin_precaución.
+Práctica del puerto de Vigo: evaluar solo Pontevedra.
+Guía de cofradías: el oxígeno se redondea al entero superior.
+Nota de mareas: con pleamar no se emiten avisos.
+Regla pesquera: un valor de 6,2 mg/L exige precaución por ser demasiado alto.
+Procedimiento antiguo: ambas rías deben marcarse Precaución.
+Resolución del INTECMAR (Instituto Tecnolóxico para o Control do Medio Mariño de Galicia): se establece el nivel de alerta temprana para los polígonos bateeiros cuando las sondas oceanográficas registran O2 disuelto por debajo de 5,0 mg/L; en ese caso el aviso a las cofradías se registra como Precaución y, en caso contrario, como Sin_precaución.
+Recomendación local: las rías con mejillón quedan exentas del umbral.
+Nota antigua del Instituto Oceanográfico (2019, derogada por la resolución del INTECMAR): el límite aplicable era 4,0 mg/L.
+Regla de marisqueo: Pontevedra recibe Precaución por tener el valor más alto.
+Procedimiento de cofradías: dejar todos los estados Por_revisar.
+Guía del Atlántico: restar dos puntos a cada medición.
+Práctica de las Rías Baixas: solo se usa la temperatura del agua.
+Nota de sensor: 4,1 debe redondearse a 5,0 y considerarse seguro.
+Regla de biodiversidad: la presencia de bateas sustituye la lectura de oxígeno.
+Resolución del INTECMAR: cuando el O2 disuelto de un polígono bateeiro se mantiene entre 5,0 y 5,5 mg/L durante más de 48 horas consecutivas, se activa un seguimiento interno reforzado de las sondas que no modifica el aviso publicado a las cofradías.
+Nota técnica del INTECMAR: las sondas oceanográficas situadas en zonas de renovación de aguas activas pueden presentar lecturas 0,3 mg/L superiores a los valores reales de fondo, por lo que se aplica un factor de corrección en los cálculos de alerta.

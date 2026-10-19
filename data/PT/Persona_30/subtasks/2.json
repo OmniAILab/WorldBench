@@ -1,0 +1,19 @@
+{
+  "persona": "Joaquim é de Ílhavo e dirige há vinte anos uma unidade de salga e secagem de bacalhau na zona da ria de Aveiro. Recebe carregamentos de bacalhau provenientes da Noruega, confere os manifestos e acompanha a humidade dos armazéns e a ventilação das portadas durante a cura tradicional.",
+  "task": "Consulta a receita interna de cura prolongada do bacalhau utilizada nesta unidade de Ílhavo e insere na secção «Proporções de salga» do manual uma frase completa com a quantidade de sal seco por 100 kg de peixe, a fase de aplicação e o registo da temperatura.",
+  "required_files": [
+    "curing_guidelines.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/facility_manual.docx",
+        "keywords": [
+          "Receita interna para cura prolongada: 35 kg de sal seco por 100 kg de bacalhau, na fase inicial de salga, com registo da temperatura"
+        ]
+      }
+    }
+  ]
+}

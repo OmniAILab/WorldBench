@@ -1,0 +1,35 @@
+{
+  "persona": "Rémy est stratège céréalier à Chartres, capitale de la Beauce, et se concentre sur la logistique d’exportation du blé vers le marché européen. Il suit les fluctuations des prix des céréales sur Euronext et les certifications de qualité exigées par les normes meunières internationales. Son travail consiste à interpréter de vastes ensembles de données sur la santé des sols et les prévisions satellitaires de rendement afin d’optimiser les cycles de stockage et de transport des grandes coopératives céréalières de la région.",
+  "task": "Planifie l’inspection de santé des sols prévue par le protocole agronomique de la coopérative pour la campagne export. Croise le document de certification, le tableau de santé des sols et le dialogue de planification pour retenir le secteur à inspecter, la date et l’heure. Ajoute l’évènement « Inspection des sols Beauce » au calendrier avec « certification export » et North_Beauce_Fields dans la description ; écarte la pré-certification facultative et le volet eau.",
+  "required_files": [
+    "certification_document.txt",
+    "sante_sols_beauce.xlsx",
+    "dialogue_inspection_sols_chartres.txt"
+  ],
+  "output_files": [
+    "data/strategist_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/strategist_calendar.ics",
+        "summary_keywords": [
+          "Inspection des sols Beauce"
+        ],
+        "description_keywords": [
+          "certification export",
+          "North_Beauce_Fields"
+        ],
+        "time_start": "2026-04-10 08:30:00",
+        "time_end": "2026-04-10 09:30:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/strategist_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

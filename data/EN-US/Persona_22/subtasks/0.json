@@ -1,0 +1,39 @@
+{
+  "persona": "Marisol is an Indigenous art curator in Santa Fe, New Mexico, specializing in the authentication and acquisition of Pueblo pottery and Navajo textiles for a major gallery on Canyon Road. She navigates the nuances of the Indian Arts and Crafts Act and the specific export regulations for protected materials, ensuring that every piece’s provenance is thoroughly documented and that the cultural protocols of the local sovereign nations are respected throughout the exhibition and sale process.",
+  "task": "Use the Canyon Road gallery ledger to find the verified acquisition entry for the Navajo textile and record its acquisition year and verification status in the Indian Arts and Crafts Act provenance database.",
+  "required_files": [
+    "gallery_ledger_santa_fe.xlsx",
+    "dialogue_provenance_santafe.txt"
+  ],
+  "output_files": [
+    "data/provenance_database.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/provenance_database.xlsx",
+        "matches": [
+          {
+            "row": 7,
+            "col": 2,
+            "value": "1985_Verified"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/provenance_database.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 7,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

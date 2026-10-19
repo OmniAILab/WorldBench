@@ -1,0 +1,30 @@
+{
+  "persona": "Marc es urbanista en València y se encarga de la ampliación del corredor verde del Jardín del Turia. Compagina la normativa de protección del litoral con las restricciones de uso del agua de la Confederación Hidrográfica del Júcar. Su trabajo consiste en interpretar datos satelitales de alta resolución sobre islas de calor urbanas y coordinarse con las concejalías municipales para que las nuevas actuaciones encajen con los objetivos de la ciudad como Capital Verde Europea.",
+  "task": "Incorpora a la especificación de plantación del Jardín del Turia la limitación vigente de la Confederación Hidrográfica del Júcar para las obras públicas.",
+  "required_files": [
+    "resolucion_chj_turia.txt"
+  ],
+  "output_files": [
+    "data/especificacion_plantacion.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/especificacion_plantacion.docx",
+        "keywords": [
+          "Jardín del Turia",
+          "limitar las dotaciones de riego",
+          "obras públicas"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/especificacion_plantacion.docx",
+      "change": "modify"
+    }
+  ]
+}

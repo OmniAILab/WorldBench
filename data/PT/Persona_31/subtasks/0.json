@@ -1,0 +1,23 @@
+{
+  "persona": "Amália é mestre violeira no centro histórico de Coimbra e constrói guitarras portuguesas para músicos de fado académico. Seleciona abeto de ressonância para os tampos, acompanha a estabilidade acústica da madeira e verifica a documentação de proveniência e as exigências CITES aplicáveis às espécies importadas.",
+  "task": "Verifica a espécie de madeira do lote Abeto_Alpino_Lote09 nas fichas da oficina de Coimbra, consulta a nota do tratado internacional e atualiza a autorização de importação na folha correspondente.",
+  "required_files": [
+    "spruce_sourcing_coimbra.xlsx",
+    "tonewood_treaty_note_coimbra.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/international_treaties.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Autorizado sem licença CITES"
+          }
+        ]
+      }
+    }
+  ]
+}

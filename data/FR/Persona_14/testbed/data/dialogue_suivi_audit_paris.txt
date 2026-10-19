@@ -1,0 +1,8 @@
+Adrien : Le registre confirme bien une diligence renforcée pour Tier2_Textiles.
+Sophie : Oui, et la note d’audit demande au service achats un audit renforcé.
+Adrien : Quelle échéance dois-je communiquer ?
+Sophie : Le 15 avril 2026.
+Marc : L’audit de Tier2_Electronics appartient à une autre filiale.
+Sophie : Exact.
+Adrien : Je n’utilise pas non plus l’ancienne note qui classait Tier2_Textiles en suivi standard.
+Sophie : Correct.

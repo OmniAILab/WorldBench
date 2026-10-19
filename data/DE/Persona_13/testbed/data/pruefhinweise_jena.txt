@@ -1,0 +1,6 @@
+Prüfprotokoll Optiklabor Jena
+Datum: Laufende Qualitätskontrolle.
+Belastungstest: Die Linsencharge Fluorit_Linse_C weist im Hitzetest einen thermischen Bruch bei 120 °C auf.
+Übertragungsregel: Der bestätigte Ausfallpunkt wird als Freigabehinweis in die DIN-Konformitätsdatei eingetragen.
+Zielwert für die Tabelle: Thermischer_Bruch_bei_120_°C.
+Wissenschaftlicher Hinweis: Bei Präzisionslinsen aus hochbrechendem Quarzglas wurde im Fraunhofer-Labor beobachtet, dass ein Krümmungsfehler typischerweise 10 bis 15 °C vor dem eigentlichen Spannungsriss auftritt.

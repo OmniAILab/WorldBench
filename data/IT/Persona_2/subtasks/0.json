@@ -1,0 +1,49 @@
+{
+  "persona": "Domenico è un agronomo specializzato in viticoltura vulcanica sulle pendici settentrionali dell'Etna, vicino a Randazzo. Accompagna le aziende agricole locali tra le complessità del disciplinare DOC e le composizioni irregolari dei suoli derivanti dalle recenti colate piroclastiche, gestendo al contempo le difficoltà logistiche del trasporto delle attrezzature sui terreni accidentati e sterrati del parco protetto dall'UNESCO.",
+  "task": "Usa la nota del disciplinare Etna DOC per stabilire se le particelle RNZ-12 e RNZ-13 possono essere etichettate DOC e aggiorna il foglio di stato ./data/stato_particelle_etna.xlsx.",
+  "required_files": [
+    "nota_doc_etna.txt",
+    "rese_etna.xlsx"
+  ],
+  "output_files": [
+    "data/stato_particelle_etna.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/stato_particelle_etna.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Sì"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "No"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/stato_particelle_etna.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

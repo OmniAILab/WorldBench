@@ -1,0 +1,5 @@
+Nadège : Le violon ancien VLM-1898 restauré à l'atelier de Mirecourt est prêt à partir. Peux-tu prévenir le conservatoire destinataire ?
+Apprenti luthier : Je regarde le planning des départs : VLM-1898 est programmé le 2026-09-10 à destination de Dijon (contact : instrumentarium@dijon.fr), avec un humidificateur d'étui réglé à 50%.
+Nadège : Vérifie que ce taux de 50% entre bien dans notre plage de conservation pour le transport des instruments anciens.
+Apprenti luthier : Oui, la consigne d'atelier demande entre 48 et 52 %, donc à 50% on a une humidité conforme.
+Nadège : Parfait, envoie l'e-mail à instrumentarium@dijon.fr en mentionnant VLM-1898, le départ de Mirecourt vers Dijon le 2026-09-10, le taux de 50% et l'expression « humidité conforme ».

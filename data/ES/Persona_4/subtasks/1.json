@@ -1,0 +1,31 @@
+{
+  "persona": "Elena es maestra de primaria en un pequeño pueblo del Valle del Jerte, en el norte de Cáceres (Extremadura), donde lleva un aula multigrado dentro de un Centro Rural Agrupado (CRA). Armoniza el calendario agrícola de la comarca, marcado por la floración y la recogida de la cereza, con el currículo educativo autonómico, y supera el aislamiento geográfico y la escasa conectividad digital para ofrecer un aprendizaje personalizado a alumnado de distintas edades.",
+  "task": "Entre las distintas propuestas didácticas del esquema, identifica la aprobada por el claustro del CRA y conviértela en una ficha imprimible para el aula multigrado con sus dos niveles de dificultad. Incluye una referencia explícita al entorno del Valle del Jerte y no mezcles tareas de propuestas descartadas ni de guías antiguas.",
+  "required_files": [
+    "esquema_leccion.txt"
+  ],
+  "output_files": [
+    "data/ficha_imprimible.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/ficha_imprimible.docx",
+        "keywords": [
+          "ciclo del agua",
+          "Nivel A: etiquetar el diagrama",
+          "Nivel B: escribir una explicación breve",
+          "Valle del Jerte"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/ficha_imprimible.docx",
+      "change": "modify"
+    }
+  ]
+}

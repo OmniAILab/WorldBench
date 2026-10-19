@@ -1,0 +1,28 @@
+{
+  "persona": "Carmela is a container terminal operations manager at the Port of Newark in New Jersey, overseeing the loading and unloading of massive Neo-Panamax vessels. She handles the logistical intricacies of the Port Authority of New York and New Jersey’s labor regulations and the specific rail-transfer schedules for inland distribution, ensuring that thousands of containers move through the terminal efficiently while maintaining compliance with federal maritime security standards.",
+  "task": "Write an email to the union representative about the evening loading bay labor shortage.",
+  "required_files": [
+    "union_contacts_newark.xlsx",
+    "port_authority_roster.xlsx",
+    "dialogue_evening_labor_handoff.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "unionrep@newarkdockworkers.org",
+        "keywords": [
+          "Evening_Bay_4",
+          "Minus_15_Crane_Operators"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_unionrep_*.eml",
+      "change": "create"
+    }
+  ]
+}

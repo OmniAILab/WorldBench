@@ -1,0 +1,33 @@
+{
+  "persona": "Élise est évaluatrice en parfumerie à Grasse, où elle travaille avec des maisons de composition attachées aux matières premières locales, notamment l’absolue de jasmin et la rose de mai. Elle compare les accords olfactifs, les analyses de laboratoire et les dossiers de conformité afin d’assurer le suivi des essais et l’application des restrictions réglementaires et des standards IFRA pertinents.",
+  "task": "Croise la consigne de conformité interne, le registre des versions documentaires internes et le dialogue conformité. Ajoute au registre des ingrédients restreints uniquement la substance de la Procédure Grasse_2026 active, avec sa référence et sa date d’application du 1er juin 2026. Écarte la procédure précédente et les lots archivés.",
+  "required_files": [
+    "safety_directive.txt",
+    "versions_directives_grasse.xlsx",
+    "dialogue_substances_restreintes_grasse.txt"
+  ],
+  "output_files": [
+    "data/restricted_ingredients.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/restricted_ingredients.docx",
+        "keywords": [
+          "Lyral_Compound_B",
+          "Procédure Grasse_2026",
+          "ingrédient synthétique interdit",
+          "2026-06-01"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/restricted_ingredients.docx",
+      "change": "modify"
+    }
+  ]
+}

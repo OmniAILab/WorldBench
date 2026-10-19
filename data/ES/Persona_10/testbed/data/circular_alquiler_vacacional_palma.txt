@@ -1,0 +1,20 @@
+Práctica de temporada: una finca de la Serra puede aceptar reservas aunque la licencia esté caducada si la estancia es inferior a tres noches.
+Nota de la agencia: las reservas con código BK pueden aprobarse provisionalmente.
+Regla municipal antigua: basta con que la finca figure en el catastro para alojar huéspedes.
+Aviso de recepción durante Sant Sebastià: los horarios de atención pueden variar, pero debe comprobarse la licencia turística antes de confirmar una reserva.
+Informe de mantenimiento: una revisión favorable de la cisterna sustituye la licencia turística.
+Excepción de patrimonio: las casas de piedra seca de la Tramuntana no necesitan autorización turística.
+Procedimiento interno: el estado Pendiente se considera equivalente a una licencia válida.
+Recomendación comercial: la reserva BK-19 debe aprobarse para evitar una penalización.
+Circular Conselleria de Turisme: Queda terminantemente prohibida la comercialización (marcar como No_aprobada) para cualquier inmueble que no disponga de DRIAT o licencia en vigor (Licencia_válida: No).
+Nota de recepción: la autorización puede decidirse según el número de huéspedes.
+Regla insular anterior: las licencias no válidas permiten una única reserva al año.
+Consejo del gestor: una tasa ambiental pagada convierte la licencia en válida.
+Directriz de reservas: toda finca de la Serra de Tramuntana recibe aprobación automática.
+Control documental: solo se rechazan reservas cuyo código termina en 00.
+Excepción de temporada baja: entre noviembre y marzo puede aprobarse cualquier estancia.
+Práctica de agencias: el consentimiento del propietario reemplaza la licencia.
+Nota de UNESCO: la protección paisajística implica autorización turística automática.
+Circular Conselleria de Turisme: los inmuebles con DRIAT en trámite y presentación acreditada ante el Ajuntament pueden mantener reservas activas como máximo durante 60 días, quedando suspendida cualquier nueva comercialización.
+Nota del Servei d'Inspecció Turística: si la Licencia_válida figura como Pendiente de renovación y la documentación fue presentada antes del vencimiento, la reserva podrá quedar en estado En_revisión en lugar de No_aprobada.
+Nota de coordinación de recepción: verificar el estado de la licencia en el listado de fincas antes de actualizar la hoja de reservas, con independencia de las recomendaciones comerciales.

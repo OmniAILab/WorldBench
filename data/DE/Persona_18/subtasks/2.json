@@ -1,0 +1,31 @@
+{
+  "persona": "Lukas ist städtischer Wasserwerksinspektor und zuständig für die berühmten Bächle, das Netz schmaler, mittelalterlicher Wasserrinnen entlang der Fußgängerzonen von Freiburg im Breisgau. Er begegnet ständigen Verstopfungsgefahren durch herbstliches Laub und den strengen städtischen Wasserqualitätsvorgaben der baden-württembergischen Umweltbehörde. Er führt fortlaufend Sedimentwarnungen der vorgelagerten Flussabschnitte, aktuelle städtische Straßenreinigungspläne und plötzliche Starkregenvorhersagen zusammen, um seine Reinigungstrupps rechtzeitig vor Überflutungen an die kritischsten innerstädtischen Engpässe zu schicken.",
+  "task": "Nutze das Umweltbulletin zum herbstlichen Laubfall und ergänze den Kalender um eine vorbeugende Reinigung der Freiburger Bächle-Gitter.",
+  "required_files": [
+    "umweltbulletin.txt"
+  ],
+  "output_files": [
+    "data/inspektorenkalender.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/inspektorenkalender.ics",
+        "summary_keywords": [
+          "Vorbeugende Bächle-Reinigung"
+        ],
+        "description_keywords": [
+          "Freiburger Bächle"
+        ],
+        "date": "2026-10-25"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/inspektorenkalender.ics",
+      "change": "modify"
+    }
+  ]
+}

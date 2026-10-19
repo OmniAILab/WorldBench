@@ -1,0 +1,39 @@
+{
+  "persona": "Callum works as a port operations manager at the Liverpool2 deep-water terminal. He updates berth plans, movement logs, safety briefings, customs emails, and shift calendars around tides, Freeport movements, and HSE protocols.",
+  "task": "Use the Mersey tide table to choose the docking window for Atlas_Panamax on 2026-03-12 and update the Liverpool2 berth plan with the matching high-tide time.",
+  "required_files": [
+    "tides_liverpool.xlsx",
+    "vessels_liverpool.xlsx"
+  ],
+  "output_files": [
+    "data/berth_plan_liverpool.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/berth_plan_liverpool.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "06:40"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/berth_plan_liverpool.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

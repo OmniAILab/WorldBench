@@ -1,0 +1,16 @@
+PROCEDIMENTO OPERACIONAL DE ASSISTÊNCIA EM TERRA — AEROPORTO DA MADEIRA (SANTA CRUZ)
+Data de emissão: 14 de novembro de 2026 | Coordenação de Placa e Turnaround
+
+1. Critérios internos de afetação de portas e equipas por duração de atraso
+- Atrasos até 30 minutos: manter a porta originalmente atribuída e rever apenas a sequência de limpeza.
+- Atrasos entre 31 e 60 minutos: deslocar a equipa de bagagem após a descarga anterior, reservar posição alternativa e avisar o controlo de rotação.
+- Atrasos entre 61 e 100 minutos: preparar equipa suplementar de assistência e reatribuir a porta caso exista conflito com ligações interilhas.
+
+2. Regras específicas para atrasos prolongados em 14 de novembro de 2026
+- Para o voo TP 1687 (2026-11-14) com 115 minutos de atraso por vento lateral: reservar porta alternativa e manter a equipa de bagagem por 90 minutos.
+- Para o voo TP 1685 (2026-11-14) com 120 minutos de atraso por vento lateral (regra interna do operador de assistência para gestão de recursos): manter em espera e reatribuir equipa por 120 minutos.
+- Para o voo SP 608 (2026-11-14) com 125 minutos de atraso por rajadas cruzadas: reatribuir assistência por 105 minutos.
+- Atrasos superiores a 130 minutos: avaliar reprogramação de escala em articulação com a companhia aérea.
+
+3. Registo
+Qualquer alteração ao protocolo de porta deve ser validada quanto à compatibilidade de envergadura da aeronave e atualizada nos monitores operacionais.

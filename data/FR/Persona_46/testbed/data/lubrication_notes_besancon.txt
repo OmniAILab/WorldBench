@@ -1,0 +1,19 @@
+Pendule comtoise 1850 : une goutte généreuse d’huile H-20 sur chaque pivot principal du train de sonnerie.
+Chronographe ancien : une microgoutte d’huile C-8 sur les dents de la roue de colonne et les leviers d’embrayage.
+Montre de poche : huile P-12 sur échappement.
+Régulateur d’observatoire : une fine pellicule d’huile R-4 appliquée au pique-huile sur les pivots longs de l’échappement.
+Calibre école : huile E-7 sur rouage de centre.
+Pendule Art déco : huile A-9 sur ancre.
+Montre squelette : huile S-3 sur axes visibles.
+Chronomètre du Doubs : huile D-6 sur balancier.
+Calibre_Complication_BX9 : une microgoutte d’huile 9010 sur chaque pivot du rouage.
+Montre de réserve : huile M-5 sur roue moyenne.
+Pendule de voyage : huile V-2 sur échappement.
+Calibre musée : huile MU-11 sur barillet.
+Montre à sonnerie : huile SO-4 sur marteaux.
+Pendule Vauthier : huile VA-3 sur paliers.
+Montre calendrier : huile CA-7 sur correcteurs.
+Calibre automatique : huile AU-6 sur rotor.
+Montre de démonstration : huile DE-2 sur roue d’entraînement.
+Pendule comtoise 1840 : une goutte généreuse d’huile H-20 sur chaque pivot secondaire du train de sonnerie.
+Chronographe récent : une microgoutte d’huile C-8 sur les dents de la roue de répétition et les leviers de sonnerie.

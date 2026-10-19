@@ -1,0 +1,20 @@
+Elena: We apply the fresh meat rule, not the frozen bone rule.
+Receiving lead: Correct, the limit is 41F.
+Elena: WL-22 is at 39F.
+Receiving lead: Accept.
+Elena: WL-23 is at 45F.
+Receiving lead: Reject.
+Elena: Exactly 41F would still be acceptable.
+Receiving lead: Yes, the rule says at or below.
+Elena: I am not averaging the temperatures.
+Receiving lead: Never.
+Elena: The rail delay does not change the threshold.
+Receiving lead: No.
+Elena: The West Loop is busy today.
+Receiving lead: But compliance comes first.
+Elena: Cured products have a separate review.
+Receiving lead: Yes.
+Elena: I am entering the statuses row by row.
+Receiving lead: With Accept or Reject only.
+Elena: WL-23 is the only one over the limit in the target group.
+Receiving lead: Correct.

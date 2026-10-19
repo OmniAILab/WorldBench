@@ -1,0 +1,28 @@
+{
+  "persona": "Giacomo è un responsabile dell'export per un consorzio del Parmigiano Reggiano con sede a Reggio Emilia. Facilita la distribuzione globale delle forme stagionate, assicurando che ogni lotto soddisfi i requisiti di tracciabilità della Denominazione di Origine Protetta (DOP) e muovendosi tra le diverse normative sulla sicurezza alimentare all'importazione dei vari continenti, gestendo al contempo le variazioni stagionali della produzione locale influenzate dal clima della Pianura Padana.",
+  "task": "Scrivi una email allo spedizioniere segnalando che il caldo della Pianura Padana incide sul carico refrigerato, includendo l'ID del lotto e il limite di tempo fuori cella frigorifera.",
+  "required_files": [
+    "contatti_spedizionieri.xlsx",
+    "nota_clima_po.txt",
+    "lotti_parmigiano_v2.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "ops@coldchainfwd.it",
+        "keywords": [
+          "PR-24-9",
+          "sotto 15 minuti"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_ops_*.eml",
+      "change": "create"
+    }
+  ]
+}

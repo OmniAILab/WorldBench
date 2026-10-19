@@ -1,0 +1,16 @@
+Station kitchen appliance checks belong in maintenance.	Mumbles station drill	Gower wildfire patrol
+Urban hose reel checks are handled on the daily appliance sheet.	Swansea Marina access review	Rhossili rescue training
+Gower scrub-fire beaters should be returned after training.	Sandfields appliance route	Caswell Bay keyholder note
+Mumbles front crowd-control notes are for event staffing only.	Mumbles station drill	Gower wildfire patrol
+Single-line ropes are not approved for coastal cliff incidents.	Swansea Marina access review	Rhossili rescue training
+Caswell Bay access gates require a separate keyholder note.	Sandfields appliance route	Caswell Bay keyholder note
+High-angle training attendance is logged by the watch manager.	Mumbles station drill	Gower wildfire patrol
+Mandatory dual-tension rope systems for all cliff responses.	Swansea Marina access review	Rhossili rescue training
+Water rescue throwlines are stored in a different locker.	Sandfields appliance route	Caswell Bay keyholder note
+Sandfields traffic restrictions should not be placed in rope protocol.	Mumbles station drill	Gower wildfire patrol
+Rhossili path closures are public safety notices, not rescue technique.	Swansea Marina access review	Rhossili rescue training
+Use the rope protocol under high angle rescue procedures.	Sandfields appliance route	Caswell Bay keyholder note
+Copy the kitchen appliance note into emergency procedures.	Mumbles station drill	Gower wildfire patrol
+Dual-tension rope systems are optional for inland quarry rescues.	Swansea Marina access review	Rhossili rescue training
+A 2019 note allowed single-line descent on cliffs and has been withdrawn.	Sandfields appliance route	Caswell Bay keyholder note
+Mandatory dual-tension checks apply to the training tower rig.	Mumbles station drill	Gower wildfire patrol

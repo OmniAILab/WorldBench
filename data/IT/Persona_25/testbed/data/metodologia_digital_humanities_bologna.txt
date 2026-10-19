@@ -1,0 +1,5 @@
+Metodo: blocco di sintesi dati richiesto per codifica TEI XML il 2026-04-10.
+Nota redazionale: la revisione linguistica del metodo è una formalità che non altera le attività pianificate.
+Promemoria archivio: la versione precedente del documento resta consultabile per riferimento storico.
+Nota metodologica: la normalizzazione dei metadati Dublin Core è prevista in una fase successiva.
+Promemoria progetto: la revisione delle immagini IIIF è separata dal blocco dedicato alla sintesi TEI XML.

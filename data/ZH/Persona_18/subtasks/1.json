@@ -1,0 +1,34 @@
+{
+  "persona": "思源是四川卧龙保护区的一名熊猫饲养员。她每天砍竹子、清理圈舍，并帮助研究人员为幼崽野化做准备，同时还要应对山间潮湿多雾的天气。",
+  "task": "根据保护区备忘录，将竹林恢复的最低海拔阈值写入志愿者栖息地规划 PDF。",
+  "required_files": [
+    "nfga_bylaw.txt",
+    "dialogue_wolong_bamboo_altitude.txt",
+    "local_context_wolong_bamboo_altitude.xlsx"
+  ],
+  "output_files": [
+    "data/habitat_planning.pdf"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "pdf",
+        "file": "./data/habitat_planning.pdf",
+        "keywords": [
+          "竹林恢复最低海拔：1800m"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/habitat_planning.pdf",
+      "change": "modify"
+    },
+    {
+      "path": "data/habitat_planning.docx",
+      "change": "create"
+    }
+  ]
+}

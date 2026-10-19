@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cité internationale de la dentelle et de la mode//Planning conservation//FR
+BEGIN:VEVENT
+UID:4a82e1b0-55c1-4d8a-9b12-0f1e2d3c4b55
+DTSTART:20260523T090000
+DTEND:20260523T100000
+SUMMARY:Inventaire des échantillons Chantilly
+DESCRIPTION:Vérifier les boîtes de conservation neutres en réserve.
+END:VEVENT
+BEGIN:VEVENT
+UID:8b93f2c1-66d2-4e9b-8c23-1a2b3c4d5e66
+DTSTART:20260524T140000
+DTEND:20260524T150000
+SUMMARY:Point avec les tullistes démonstrateurs
+DESCRIPTION:Préparer le métier Leavers de démonstration.
+END:VEVENT
+BEGIN:VEVENT
+UID:2c04a3d2-77e3-4f0c-9d34-2b3c4d5e6f77
+DTSTART:20260601T100000
+DTEND:20260601T110000
+SUMMARY:Entretien Leavers_Loom_9
+DESCRIPTION:Contrôle de tension des ensouples.
+END:VEVENT
+BEGIN:VEVENT
+UID:6d15b4e3-88f4-4a1d-8e45-3c4d5e6f7a88
+DTSTART:20260602T140000
+DTEND:20260602T150000
+SUMMARY:Entretien Leavers_Loom_6
+DESCRIPTION:Vérification de la mécanique Jacquard.
+END:VEVENT
+END:VCALENDAR

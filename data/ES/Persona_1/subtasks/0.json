@@ -1,0 +1,49 @@
+{
+  "persona": "Jordi es investigador biotecnológico en el distrito de innovación 22@ de Barcelona, donde gestiona datos clínicos a gran escala para una empresa especializada en medicina personalizada. Dedica sus jornadas a conciliar los estrictos requisitos de la Autoritat Catalana de Protecció de Dades (APDCAT) con la necesidad de compartir datos con agilidad entre el Hospital Clínic y laboratorios internacionales, asegurándose de que cada proyecto respete los marcos éticos propios de la Generalitat de Catalunya.",
+  "task": "Contrasta el extracto del DOGC con las notas internas del laboratorio, del distrito 22@ y del Hospital Clínic, y determina qué acción corresponde a cada campo del conjunto Cesión_Clínica_01 antes de compartirlo con los laboratorios internacionales. Actualiza la columna Acción de la hoja de exportación distinguiendo el campo que debe disociarse de los que pueden mantenerse según la APDCAT.",
+  "required_files": [
+    "aviso_apdcat_barcelona.txt",
+    "campos_barcelona.xlsx"
+  ],
+  "output_files": [
+    "data/exportacion_barcelona.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/exportacion_barcelona.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Eliminar"
+          },
+          {
+            "row": 3,
+            "col": 3,
+            "value": "Conservar"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/exportacion_barcelona.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

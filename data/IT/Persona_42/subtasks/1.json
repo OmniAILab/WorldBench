@@ -1,0 +1,29 @@
+{
+  "persona": "Matteo è un architetto specializzato nel restauro degli ambienti rupestri dei Sassi di Matera. Segue gli interventi per il controllo dell’umidità e del microclima nelle abitazioni storiche, nel rispetto delle prescrizioni di tutela e delle autorizzazioni degli enti competenti. Confronta i rilievi laser tridimensionali della calcarenite con i dati ambientali per progettare impianti discreti, compatibili con l’uso ricettivo degli spazi restaurati.",
+  "task": "Scrivi una email agli sviluppatori immobiliari sullo stato del permesso edilizio della suite nei Sassi, includendo progetto e fase autorizzata.",
+  "required_files": [
+    "note_permessi_matera.txt",
+    "contatti_sviluppatori_matera.xlsx",
+    "permessi_soprintendenza_basilicata.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "developers@sassi-luxury.it",
+        "keywords": [
+          "Sassi_Luxury_Suite",
+          "Permit_Granted_Phase_1",
+          "Soprintendenza"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_developers_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "persona": "Domenico affronta le sfide di sostenibilità nella gestione di un \"albergo diffuso\" nei Sassi di Matera, dove le camere degli ospiti sono ricavate direttamente in antiche grotte di pietra calcarea. Garantisce che tutte le ristrutturazioni rispettino i rigorosi standard di conservazione dell'UNESCO e gli specifici regolamenti sulla gestione delle acque della regione Basilicata. Il suo lavoro comprende il costante coordinamento delle squadre di manutenzione artigianale locali e la gestione degli itinerari degli ospiti, conciliando le esperienze di lusso con la preservazione del delicato patrimonio sotterraneo della città.",
+  "task": "Usa l'itinerario degli ospiti per aggiungere al calendario del manager un blocco di monitoraggio conservativo durante il tour del patrimonio sotterraneo, con orario e data corretti.",
+  "required_files": [
+    "note_tour_matera.txt",
+    "itinerario_ospiti_matera.txt"
+  ],
+  "output_files": [
+    "data/calendario_manager_matera.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_manager_matera.ics",
+        "summary_keywords": [
+          "Monitoraggio conservativo"
+        ],
+        "description_keywords": [
+          "1000",
+          "patrimonio sotterraneo"
+        ],
+        "date": "2026-04-18"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_manager_matera.ics",
+      "change": "modify"
+    }
+  ]
+}

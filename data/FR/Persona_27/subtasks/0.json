@@ -1,0 +1,61 @@
+{
+  "persona": "Aurore est glaciologue à Chamonix-Mont-Blanc et suit l’évolution de la Mer de Glace pour un observatoire alpin. Elle combine relevés de balises, observations de crevasses et consignes de sécurité du PGHM afin d’organiser les campagnes de terrain, tout en tenant compte de la fréquentation touristique du train du Montenvers et des changements rapides de la haute montagne.",
+  "task": "Croise le déplacement de la balise, la grille interne de vigilance, la fiche de liaison avec les secours en montagne et le dialogue de terrain. Pour Crevasse_Montenvers_09, détermine l’état d’accès puis ajoute le déplacement retenu et la fréquence de surveillance exigée. Distingue le secteur 09 du secteur 18.",
+  "required_files": [
+    "balises_mer_de_glace.xlsx",
+    "seuils_securite_glacier.txt",
+    "bulletin_pghm_glacier.xlsx",
+    "dialogue_acces_montenvers.txt"
+  ],
+  "output_files": [
+    "data/acces_glacier.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/acces_glacier.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Très_prudent"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "6,9_cm_jour"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Toutes_les_2h"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/acces_glacier.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

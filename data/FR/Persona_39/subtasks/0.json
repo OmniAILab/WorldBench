@@ -1,0 +1,61 @@
+{
+  "persona": "Chloé est conductrice et responsable d’exploitation d’un train à vapeur patrimonial dans les Cévennes. Elle surveille la pression des chaudières, organise les croisements sur voie unique et applique les protocoles de prévention des incendies, particulièrement pendant les périodes sèches où les châtaigneraies cévenoles sont vulnérables.",
+  "task": "Décide si Loco_Cevennes_09 peut assurer le service en croisant la consigne d'exploitation en période sèche, le relevé de chaudière, le journal de contrôle validé et le dialogue d’exploitation. Utilise uniquement la version courante validée et mets à jour le statut, la pression retenue et la configuration de sécurité. Écarte les anciens relevés de la même locomotive.",
+  "required_files": [
+    "regles_exploitation_vapeur.txt",
+    "controle_chaudieres_cevennes.xlsx",
+    "journal_validation_chaudiere_cevennes.xlsx",
+    "dialogue_depart_cevennes.txt"
+  ],
+  "output_files": [
+    "data/statut_trains_cevennes.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/statut_trains_cevennes.xlsx",
+        "matches": [
+          {
+            "row": 10,
+            "col": 2,
+            "value": "Autorisé"
+          },
+          {
+            "row": 10,
+            "col": 3,
+            "value": "12.5_bar"
+          },
+          {
+            "row": 10,
+            "col": 4,
+            "value": "Eau_normale|Pare_escarbilles_oui"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/statut_trains_cevennes.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

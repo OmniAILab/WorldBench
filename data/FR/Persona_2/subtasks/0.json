@@ -1,0 +1,50 @@
+{
+  "persona": "Sandrine est conservatrice du patrimoine à Avignon et supervise la préservation des manuscrits à la Collection Lambert et au Petit Palais. Elle gère les exigences complexes de régulation climatique du parchemin médiéval dans des bâtiments historiques en pierre et coordonne les demandes de financement auprès de la Direction régionale des affaires culturelles, notamment pendant l’afflux de visiteurs lié au Festival d’Avignon.",
+  "task": "Croise le relevé climatique, la consigne interne de conservation du parchemin médiéval et le briefing de conservation pour identifier la salle à évaluer. Si l’humidité mesurée dépasse le seuil applicable, mets à jour le niveau de risque et inscris une justification chiffrée dans le registre du Petit Palais.",
+  "required_files": [
+    "climate_avignon.xlsx",
+    "parchment_notice.txt",
+    "briefing_conservation_avignon.txt"
+  ],
+  "output_files": [
+    "data/risk_register_avignon.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/risk_register_avignon.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Élevé"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Humidité 62 % > seuil 55 %"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/risk_register_avignon.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

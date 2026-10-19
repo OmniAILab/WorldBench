@@ -1,0 +1,30 @@
+{
+  "persona": "Beatriz es responsable de cumplimiento normativo en el Málaga TechPark y acompaña a empresas emergentes internacionales en sus traslados a la Costa del Sol. Tramita expedientes de extranjería al amparo de la Ley 14/2013 de apoyo a los emprendedores ante la Subdelegación del Gobierno y asesora sobre el régimen fiscal especial para trabajadores desplazados del artículo 93 de la LIRPF, conocido como Ley Beckham. Su trabajo consiste en cuadrar la documentación de residencia de cada persona con los plazos telemáticos de la Administración.",
+  "task": "Incorpora al documento informativo para clientes de Málaga TechPark la condición aplicable del régimen fiscal conocido como Ley Beckham.",
+  "required_files": [
+    "nota_aeat_regimen_impatriados.txt"
+  ],
+  "output_files": [
+    "data/documento_clientes.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/documento_clientes.docx",
+        "keywords": [
+          "Málaga TechPark",
+          "régimen fiscal especial",
+          "trabajadores desplazados"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/documento_clientes.docx",
+      "change": "modify"
+    }
+  ]
+}

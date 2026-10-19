@@ -1,0 +1,34 @@
+{
+  "persona": "志豪是西安的一名施工现场监测员。在西安，几乎一挖坑就可能碰到古墓，因此他像鹰一样盯着地铁施工队，一旦发现古砖就立刻暂停开挖。",
+  "task": "给地铁现场经理发送一封简短邮件，报告 TX-8 的暂停施工决定。综合探沟 L3 唐代优先地层、当前现场发现记录、施工现场文物保护工作程序和交班对话，说明已暴露成组带纹墓室砖块，因此立即停工并等待考古队入场勘测；不要把普通碎砖或其他探沟写入邮件。",
+  "required_files": [
+    "manager_contacts_xian.xlsx",
+    "trench_plan_priority_xian.xlsx",
+    "sach_notice_manager_xian.txt",
+    "current_findings_xian.xlsx",
+    "dialogue_manager_stop_xian.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "manager@metro-xa.cn",
+        "keywords": [
+          "TX-8",
+          "L3",
+          "唐代",
+          "成组带纹墓室砖块",
+          "立即停止施工",
+          "等待考古队"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_manager_*.eml",
+      "change": "create"
+    }
+  ]
+}

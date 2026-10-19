@@ -1,0 +1,28 @@
+{
+  "persona": "晨曦是苏州 BioBay 一家药物检测中心的实验室管理员。她整理没完没了的试验文件，审计冷冻柜日志，并偷偷溜到附近运河边安静地吃午饭。",
+  "task": "找到 Cohort_C_Elderly 缺失的知情同意书，并写一封邮件给试验协调员进行催促。",
+  "required_files": [
+    "trial_contacts_suzhou.xlsx",
+    "therapy_documentation.xlsx",
+    "biobay_consent_workflow.docx",
+    "biobay_consent_note.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "coordinators@biobay-suzhou.cn",
+        "keywords": [
+          "Cohort_C_Elderly 缺少 Form_ICF_Version_2"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_coordinators_*.eml",
+      "change": "create"
+    }
+  ]
+}

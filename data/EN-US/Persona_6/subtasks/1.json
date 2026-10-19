@@ -1,0 +1,32 @@
+{
+  "persona": "Joaquín is an arid-landscaping architect in Phoenix, Arizona, who designs drought-tolerant public spaces that mitigate the urban heat island effect. He must adhere to the stringent groundwater management policies of the Arizona Department of Water Resources and the specific shade-structure ordinances of the Maricopa County Planning and Development Department, selecting native flora that thrives in extreme heat while documenting the long-term water savings of each installation.",
+  "task": "Select the native plant list that matches extreme heat conditions and write the chosen plants into the design note document.",
+  "required_files": [
+    "plants_phoenix.xlsx",
+    "planting_notes_phoenix.txt",
+    "dialogue_landscape_phoenix.txt"
+  ],
+  "output_files": [
+    "data/design_note.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/design_note.docx",
+        "keywords": [
+          "HeatIsland_Park_A",
+          "Palo_Verde",
+          "Desert_Marigold"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/design_note.docx",
+      "change": "modify"
+    }
+  ]
+}

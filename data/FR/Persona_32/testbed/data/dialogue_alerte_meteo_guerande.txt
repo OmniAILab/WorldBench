@@ -1,0 +1,5 @@
+Corentin : Tu as vu l'évolution du bulletin côtier pour la semaine prochaine sur le traict ?
+Paludier voisin : Oui, la journée critique est le 2026-08-14. Il y a deux lignes au tableau, mais celle de vent d'ouest est secondaire : le vrai danger, c'est l'alerte Orage_fort_risque_dilution.
+Corentin : Si une grosse lame d'eau douce tombe sur les œillets en pleine cristallisation, on perd toute la concentration en sel de la semaine.
+Paludier voisin : Tout à fait. Ça impose une fermeture complète des arrivées et la consigne « Fermer_les_œillets ».
+Corentin : Je préviens tout de suite la coopérative à alerte@coop-sel-guerande.fr en précisant la date du 2026-08-14, le risque Orage_fort_risque_dilution et la fermeture complète.

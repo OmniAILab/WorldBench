@@ -1,0 +1,4 @@
+Horloger : La dérive du calibre a-t-elle été relevée après stabilisation thermique ?
+Responsable atelier : Oui, seule cette mesure validée doit servir à la grille de réglage interne.
+Horloger : Pour BX9, seule la mesure de 5 s/j après stabilisation est valide.
+Restauratrice : Appliquez la règle correspondante et conservez la validation dans le registre.

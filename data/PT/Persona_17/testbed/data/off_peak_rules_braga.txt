@@ -1,0 +1,21 @@
+Política interna de sincronização noturna da equipa de infraestrutura de Braga: os limites abaixo são orçamentos de transferência definidos pela equipa e não limites técnicos da ligação.
+12 Mbps ou mais: limite de 2 GB por janela de sincronização.
+Entre 10 e 11 Mbps: limite de 1,5 GB por janela.
+Entre 8 e 9 Mbps: limite de 1 GB por janela.
+7 Mbps: limite de 800 MB por janela.
+6 Mbps: limite de 650 MB por janela.
+5 Mbps: limite de 500 MB por janela.
+4 Mbps: limite de 350 MB por janela.
+Para uma ligação crítica de 2 Mbps no posto do Gerês, definir o limite de transferência em 250 MB por janela noturna.
+3 Mbps: limite de 300 MB por janela.
+Durante chuva forte: reduzir o limite em 10% após nova medição.
+Se a ligação oscilar: dividir os ficheiros clínicos em lotes menores.
+Não sincronizar imagens de diagnóstico durante o horário de consultas.
+Os registos de urgência têm prioridade sobre arquivos administrativos.
+A cache local deve permanecer cifrada durante toda a transferência.
+Os pacotes falhados devem ser retomados, não reiniciados integralmente.
+Nas freguesias montanhosas: usar a janela entre 02:00 e 05:00.
+Confirmar a integridade dos dados após cada lote concluído.
+Registar a velocidade observada no painel de implementação de Braga.
+Para 2,5 Mbps instáveis, limitar cada janela a 275 MB e rever a taxa após o primeiro lote.
+Uma ligação degradada de 2,2 Mbps admite 225 MB por ciclo, com prioridade para registos urgentes.

@@ -1,0 +1,30 @@
+{
+  "persona": "Antonio è un referente per il patrimonio civico a Napoli e lavora per la Soprintendenza Archeologia Belle Arti e Paesaggio per gestire l'intersezione tra l'espansione della metropolitana e la tutela delle rovine greco-romane. Si muove tra le complessità burocratiche del Piano Regolatore Generale supervisionando le squadre archeologiche che operano a fianco delle imprese di costruzione della Linea 6 della metropolitana. Il suo lavoro comprende il meticoloso esame delle mappe stratigrafiche e la mediazione tra le moderne esigenze di trasporto della città e la protezione del patrimonio sotterraneo napoletano.",
+  "task": "Inserisci la clausola di tutela del PRG nel protocollo di cantiere per le squadre della Linea 6 della metropolitana. Il file ./data/protocollo_cantiere_napoli.docx deve contenere esattamente le seguenti diciture: «Linea 6 della metropolitana», «sospendere i lavori», «reperti protetti».",
+  "required_files": [
+    "nota_prg_napoli.txt"
+  ],
+  "output_files": [
+    "data/protocollo_cantiere_napoli.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/protocollo_cantiere_napoli.docx",
+        "keywords": [
+          "Linea 6 della metropolitana",
+          "sospendere i lavori",
+          "reperti protetti"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/protocollo_cantiere_napoli.docx",
+      "change": "modify"
+    }
+  ]
+}

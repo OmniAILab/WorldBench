@@ -1,0 +1,29 @@
+{
+  "persona": "Diogo nasceu em Estremoz e mantém uma oficina de conservação e restauro de azulejos perto da zona das pedreiras de mármore. Consulta registos de pigmentos, testa a compatibilidade dos vidrados e prepara propostas de intervenção em painéis de edifícios religiosos do Alentejo.",
+  "task": "Escreve um email ao conselho cultural a solicitar a revisão do apoio para o restauro dos azulejos da Restauro dos azulejos da Igreja de Santa Maria de Estremoz — processo RM-12, indicando o défice registado.",
+  "required_files": [
+    "agency_grants.xlsx",
+    "grant_appeal_estremoz.txt",
+    "cultural_contacts.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_cultural_board.txt",
+        "keywords": [
+          "O projeto Restauro dos azulejos da Igreja de Santa Maria de Estremoz — processo RM-12 apresenta um défice de financiamento de 12 500 €; solicita-se a revisão do apoio regional"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_cultural_board.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

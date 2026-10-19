@@ -1,0 +1,25 @@
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Milestone Update
+Dear Project Team,
+I am writing to confirm the following milestone update: [Main detail from source note].
+Please retain this date in the current redevelopment programme.
+Kind regards,
+[Martha]
+
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Quick Update
+Hello,
+A quick update on [topic]: [Main detail from source note].
+Best,
+[Martha]
+
+Note: milestone updates to property developers should use the formal template.
+Note: community workshop invitations may use a warmer tone.
+Note: approval dates must be copied exactly from the project timeline.
+Note: Ancoats mill reuse emails should mention the relevant project zone.
+Note: BREEAM spreadsheet updates are not email drafts.
+Note: Manchester council strategy notes use a separate formal report style.
+Note: do not use Castlefield_Test for the Ancoats_Hub email.
+Note: property developer emails should be concise and action-oriented.
+Note: resident notices should not include internal approval codes.
+Note: low-carbon hub details may be included only when relevant.

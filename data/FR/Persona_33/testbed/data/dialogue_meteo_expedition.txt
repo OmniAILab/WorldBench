@@ -1,0 +1,5 @@
+Étienne : Le bulletin météo de Chamonix annonce une forte Lombarde sur les crêtes somitales demain matin, avec un refroidissement éolien sévère.
+Guide adjoint : Comme notre itinéraire confirmé monte jusqu'au Sommet_Mont_Blanc à 4 807 m via le Dôme et l'arête des Bosses, on évoluera largement dans la tranche Au-dessus_3800m.
+Étienne : Tout à fait, ce n'est pas seulement l'altitude qui compte mais la violence du vent sur l'arête sommitale. Le bulletin classe ce secteur en Catégorie_4_vents_violents.
+Guide adjoint : Pour éviter toute gelure de la face, l'équipement exigé sur ce tronçon est « Masque_cagoule_et_lunettes ».
+Étienne : Écris aux clients (clients@expedition-montblanc.fr) pour leur confirmer que sur notre itinéraire confirmé, la zone Au-dessus_3800m est placée en Catégorie_4_vents_violents et qu'ils doivent impérativement avoir Masque_cagoule_et_lunettes dans le haut du sac.

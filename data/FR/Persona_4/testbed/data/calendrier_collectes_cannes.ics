@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hôtel Croisette Cannes//Planning logistique//FR
+BEGIN:VEVENT
+UID:3a8f12c4-5b9d-4e7a-8c2f-1d6e9a4b3c5d
+DTSTART:20260517T221500
+DTEND:20260517T224500
+SUMMARY:Regroupement cartons — office réception
+DESCRIPTION:Préparation des balles de carton avant la ronde de nuit.
+END:VEVENT
+BEGIN:VEVENT
+UID:6e2b9d4f-1c8a-4b3e-9f5d-2a7c8e1b4d6f
+DTSTART:20260517T223000
+DTEND:20260517T230000
+SUMMARY:Sortie bacs biodéchets cuisine
+DESCRIPTION:Mise à quai des conteneurs hermétiques.
+END:VEVENT
+BEGIN:VEVENT
+UID:8c4d2e6f-9a1b-4c5d-8e3f-7b2a9d4c1e5f
+DTSTART:20260518T004500
+DTEND:20260518T011500
+SUMMARY:Navette blanchisserie — linge de table
+DESCRIPTION:Enlèvement des rolls de nappage du banquet.
+END:VEVENT
+END:VCALENDAR

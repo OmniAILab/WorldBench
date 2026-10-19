@@ -1,0 +1,39 @@
+{
+  "persona": "Miriam ist Tontechnikerin im Gewandhaus Leipzig. Sie entwirft temporäre Beschallungsanlagen für klassische und zeitgenössische Crossover-Konzerte. Sie bewegt sich zwischen den empfindlichen akustischen Grenzen des historischen Konzertsaals und den städtischen Lärmschutzverordnungen für Open-Air-Übertragungen im Sommer. Sie führt komplexe Baupläne, historische Nachhallstudien und moderne Lautsprecherspezifikationen zusammen, um maßgeschneiderte Beschallungskonfigurationen zu entwerfen, die den natürlichen Klang des Orchesters bewahren.",
+  "task": "Ordne die historische Nachhallzeit dem rechten Balkon des Leipziger Gewandhauses zu und trage sie in die Gerätespezifikation ein.",
+  "required_files": [
+    "akustik_nachhallzeiten.xlsx",
+    "akustik_hinweise_leipzig.txt"
+  ],
+  "output_files": [
+    "data/geraetespezifikation.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/geraetespezifikation.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "2,2 Sekunden Nachhall"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/geraetespezifikation.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Order OldCity_Storefront_2: salvaged stone, Type N mortar.
+Order QueenVillage_Wall_8: cast iron railing, Type S mortar.
+Order Rittenhouse_Courtyard_3: interior firebrick, Portland blend.
+Order NorthernLiberties_Facade_9: shoring lumber, hydraulic cement.
+Target order: reclaimed brick for SocietyHill_Rowhouse_5; mention lime mortar.
+Order Germantown_Stable_4: scaffold planks, clay-based repair.
+Order Fishtown_Warehouse_6: warehouse block, masonry adhesive.
+Order Manayunk_Mill_1: brick inspection, epoxy patch.
+Order ChestnutHill_Porch_7: step template, Type O mortar.
+Order SouthStreet_RearWall_5: flashing, sanded caulk.
+Order Fairmount_Rowhouse_11: limewash sample, cement grout.
+Order SpruceHill_Chimney_10: firebox materials, fireclay mortar.
+Order Passyunk_BrickPier_12: stucco base coat.
+Order LoganSquare_Arch_14: concrete patch.
+Order Brewerytown_Wall_16: limewash only.
+Philadelphia context: request a delivery window that avoids the morning crowds around Independence Hall.
+ReclaimedBrickCo is not LimeWorks_Pennsylvania.
+The target site is not OldCity_Storefront_2.
+The email must not confirm a different mortar type.
+Instruction: use the formal supplier template.

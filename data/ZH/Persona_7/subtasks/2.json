@@ -1,0 +1,32 @@
+{
+  "persona": "素兰是在广州一个热闹电子市场工作的出口文员。她为从南沙港发出的货物填写海关表格，计算复杂的增值税税率，还常常抱怨南方潮湿闷热的天气。",
+  "task": "给南沙港代理发送一封简短邮件，确认 NS-21 的粤港澳大湾区珠江口支线驳船衔接。综合联系人、离港计划、南沙港代理电子文件操作指引、转运安排和交班对话，写明 2026-03-18 10:00 离港，并请对方确认转运，同时提醒电子文件必须在离港后 24 小时内提交。",
+  "required_files": [
+    "agent_contacts_gz.xlsx",
+    "nansha_notice_agent_gz.txt",
+    "schedule_gz.xlsx",
+    "transshipment_plan_gz.xlsx",
+    "dialogue_agent_nansha_gz.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "agent@nansha-port.cn",
+        "keywords": [
+          "NS-21",
+          "珠江口支线驳船衔接",
+          "2026-03-18 10:00",
+          "离港后 24 小时"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_agent_*.eml",
+      "change": "create"
+    }
+  ]
+}

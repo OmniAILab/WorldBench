@@ -1,0 +1,41 @@
+{
+  "persona": "若璇在广州一个本地居委会工作。她协助规划城中村改造，和施工队沟通争执，并通过躲进有空调的点心餐厅来逃避南方湿热。",
+  "task": "根据居委会审计表，将 Ancestral_Hall_B 的保护状态写入分区总表的拆除豁免字段。",
+  "required_files": [
+    "committee_audit.xlsx",
+    "zoning_note_guangzhou.txt",
+    "dialogue_guangzhou_ancestral_hall.txt",
+    "local_context_guangzhou_ancestral_hall.xlsx"
+  ],
+  "output_files": [
+    "data/master_plan_zoning.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/master_plan_zoning.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Protected_Lingnan"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/master_plan_zoning.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

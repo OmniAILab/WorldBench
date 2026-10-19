@@ -1,0 +1,31 @@
+{
+  "persona": "Valentina è un'ingegnere civile specializzata in adeguamento sismico presso l'ufficio comunale dell'Aquila. Dirige la valutazione strutturale degli edifici medievali in ricostruzione, assicurando che ogni progetto rispetti le più recenti norme tecniche italiane \"NTC\" e i rigorosi vincoli di tutela storica imposti ai cantieri di ricostruzione della zona rossa della città.",
+  "task": "Trasforma la nota sui vincoli di tutela in un breve briefing di cantiere per le imprese che lavorano nella zona rossa. Il file ./data/briefing_cantiere_aquila.docx deve contenere esattamente le seguenti diciture: «zona rossa dell'Aquila», «Niente acciaio visibile sulle facciate», «Usare ancoraggi reversibili», «Documentare ogni intervento».",
+  "required_files": [
+    "vincoli_tutela_aquila.txt"
+  ],
+  "output_files": [
+    "data/briefing_cantiere_aquila.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/briefing_cantiere_aquila.docx",
+        "keywords": [
+          "zona rossa dell'Aquila",
+          "Niente acciaio visibile sulle facciate",
+          "Usare ancoraggi reversibili",
+          "Documentare ogni intervento"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/briefing_cantiere_aquila.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "persona": "Nia is a coastal protection officer in Aberystwyth. She maintains storm logs, structural audit sheets, funding emails, and shoreline response documents for the seafront and promenade.",
+  "task": "Write a project proposal email to Aberystwyth Town Council about the Shingle_Nourishment funding amount, using the NRW grants sheet.",
+  "required_files": [
+    "nrw_grants.xlsx",
+    "council_contacts_aberystwyth.xlsx",
+    "email_templates_nia.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "clerk@aberystwyth.gov.uk",
+        "keywords": [
+          "£150,000",
+          "Shingle_Nourishment"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_clerk_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "persona": "Hugo est ornithologue et coordinateur de terrain en Camargue. Il suit les colonies de flamants roses autour des salins, organise les comptages à distance et adapte les accès aux zones humides en fonction de la nidification, du mistral et des règles de protection de la réserve.",
+  "task": "Prépare le protocole de terrain pour le comptage des flamants roses à Salin-de-Giraud en croisant les consignes générales avec les conditions du jour. Ne reprends que les instructions applicables à cette zone et adapte la position au vent à la présence du mistral indiquée dans le relevé.",
+  "required_files": [
+    "consignes_comptage_camargue.txt",
+    "conditions_terrain_camargue.xlsx"
+  ],
+  "output_files": [
+    "data/protocole_flamants_camargue.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/protocole_flamants_camargue.docx",
+        "keywords": [
+          "Salin-de-Giraud",
+          "rester silencieux",
+          "utiliser des jumelles",
+          "sous le vent",
+          "mistral",
+          "fort"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/protocole_flamants_camargue.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "persona": "Joana é natural das terras altas do Norte e trabalha há anos como guia de ecoturismo no Parque Nacional da Peneda-Gerês. Enfrenta diariamente a complexidade dos limites rigorosos de acesso para conservação e das mudanças repentinas do tempo nas montanhas graníticas, processando grandes volumes de relatórios sobre o estado dos trilhos e padrões meteorológicos regionais para identificar percursos pedestres seguros e ajustar com precisão os itinerários dos grupos.",
+  "task": "Aplica o limite da autorização do operador para o percurso no Parque Nacional da Peneda-Gerês à reserva de 2026-04-06, reduz o grupo planeado para o máximo permitido e atualiza a folha de reservas.",
+  "required_files": [
+    "access_geres.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/bookings_geres.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 3,
+            "value": 12
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "persona": "Chiara è una viticoltrice sulle pendici dell’Etna e segue una vigna storica di Nerello Mascalese con ceppi prefillosserici. Organizza gli interventi agronomici tenendo conto delle ricadute di cenere vulcanica, delle pratiche biologiche e del disciplinare Etna DOC. Coordina inoltre la manutenzione dei muretti a secco e la documentazione richiesta per gli interventi agricoli, con attenzione alle condizioni particolari dei vigneti d’altura.",
+  "task": "Scrivi una email alla commissione agricola locale per chiedere il rimborso digitale della manutenzione dei muretti a secco, includendo voce e importo approvato.",
+  "required_files": [
+    "note_rimborsi_etna.txt",
+    "contatti_agricoltura_etna.xlsx",
+    "rendicontazione_agricoltura.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "commissione.agricoltura@regione.sicilia.it",
+        "keywords": [
+          "Dry_Stone_Wall_Repair",
+          "€1500_Approved",
+          "rimborso"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_commissione.agricoltura_*.eml",
+      "change": "create"
+    }
+  ]
+}

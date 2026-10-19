@@ -1,0 +1,23 @@
+{
+  "persona": "Nuno é de Santa Maria da Feira e trabalha há dez anos como responsável pelo controlo da qualidade numa unidade de transformação de cortiça. Coordena as análises de TCA, a rastreabilidade dos lotes e as decisões de retenção ou libertação das rolhas destinadas à exportação para produtores de vinho franceses, em articulação com o laboratório e a produção.",
+  "task": "Consulta as leituras de espectrografia da unidade corticeira de Santa Maria da Feira, aplica o limite de TCA e atualiza o estado de quarentena do lote contaminado na folha de acompanhamento.",
+  "required_files": [
+    "spectrography_readings.xlsx",
+    "tca_rule_feira.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/batch_tracking.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Quarentena imediata"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "persona": "Rui é da Figueira da Foz e trabalha há doze anos como coordenador da cadeia de abastecimento de uma grande fábrica de celulose. Organiza as entregas de eucalipto por estradas rurais degradadas, acompanha as verificações de segurança contra incêndios na época seca e reorganiza os transportes em tempo real quando há estradas cortadas por risco de incêndio.",
+  "task": "Cruza o aviso de encerramento por incêndio na N347 (Variante do Pinhal Interior) com o mapa de alternativas do aviso de encaminhamento da fábrica e atualiza as instruções de desvio para os camiões de eucalipto da fábrica da Figueira da Foz.",
+  "required_files": [
+    "traffic_closures.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/timber_deliveries.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Desviar_pela_N109_e_A17"
+          }
+        ]
+      }
+    }
+  ]
+}

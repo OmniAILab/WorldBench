@@ -1,0 +1,31 @@
+{
+  "persona": "Silvia valuta manoscritti storici come ricercatrice senior presso l'Alma Mater Studiorum di Bologna, la più antica università del mondo occidentale. Gestisce la digitalizzazione di fragili testi medievali assicurando che tutti i metodi di conservazione rispettino gli standard della Soprintendenza Archivistica. La sua vita professionale comprende la costante sintesi dei dati paleografici e la stesura di proposte di finanziamento che colmano il divario tra la filologia tradizionale e l'emergente campo delle digital humanities.",
+  "task": "Inserisci nel riepilogo di ricerca la scadenza del bando di digital humanities indicata nel foglio dei finanziamenti universitari. Il file ./data/riepilogo_ricerca_bologna.docx deve contenere esattamente le seguenti diciture: «Scadenze progetto», «2026-09-30», «Digital_Philology_Grant».",
+  "required_files": [
+    "note_bando_bologna.txt",
+    "finanziamenti_universita_bologna.xlsx"
+  ],
+  "output_files": [
+    "data/riepilogo_ricerca_bologna.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/riepilogo_ricerca_bologna.docx",
+        "keywords": [
+          "Scadenze progetto",
+          "2026-09-30",
+          "Digital_Philology_Grant"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/riepilogo_ricerca_bologna.docx",
+      "change": "modify"
+    }
+  ]
+}

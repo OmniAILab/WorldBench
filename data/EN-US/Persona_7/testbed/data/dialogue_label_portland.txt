@@ -1,0 +1,20 @@
+Hiroshi: The recycled claim threshold is at least 50%, right?
+Compliance: Yes, 50% is included.
+Hiroshi: RP-7 is at 62%.
+Compliance: So it qualifies for the claim.
+Hiroshi: RP-6 at 49% does not qualify.
+Compliance: Correct.
+Hiroshi: And PFAS-free is not part of this decision.
+Compliance: No.
+Hiroshi: Neither is bluesign.
+Compliance: Not that either.
+Hiroshi: The Port of Portland may delay the batch, but not change the rule.
+Compliance: Correct.
+Hiroshi: The expected status is Recycled_Claim_OK.
+Compliance: Use that exact code.
+Hiroshi: I am not relying on a marketing slogan.
+Compliance: Good approach.
+Hiroshi: Fabric color plays no part.
+Compliance: The measurement is per batch.
+Hiroshi: I am modifying RP-7 only.
+Compliance: Yes.

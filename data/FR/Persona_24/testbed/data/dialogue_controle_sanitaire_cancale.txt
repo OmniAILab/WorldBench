@@ -1,0 +1,8 @@
+Gwenhael : Bed_North_5 est mesuré à 22,7 °C le 15 juillet ?
+Responsable sanitaire : Oui, le seuil du bulletin est 22 °C.
+Gwenhael : Le dépassement déclenche donc le contrôle d’urgence.
+Responsable sanitaire : Exact, c'est un dépassement confirmé.
+Gwenhael : Je planifie de 06:00 à 06:45 et mentionne seuil 22 °C et mesure 22,7 °C.
+Responsable sanitaire : Oui.
+Gwenhael : Le relevé du parc Est ne concerne pas Bed_North_5.
+Responsable de production : Exact. Le contrôle de 06:00 est réservé au dépassement confirmé dans le parc nord.

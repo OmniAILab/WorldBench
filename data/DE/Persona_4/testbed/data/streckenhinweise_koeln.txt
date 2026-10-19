@@ -1,0 +1,6 @@
+Kölner Rosenmontagszug – interne Streckenprüfung für Motivwagen RM-10
+Planstand: Wagenbau und Streckenvermessung.
+Für die in gassen_koeln.xlsx dokumentierte Durchfahrt ist die engste tatsächlich vorgesehene Passage entscheidend.
+In der aktuellen Arbeitsfassung beträgt die geringste erfasste lichte Breite 2,8 m. Dieser Wert wird als vorläufige maximale Planungsbreite für RM-10 übernommen und ist vor der Bauabnahme mit der Zugleitung abzugleichen.
+Es handelt sich um eine streckenbezogene Planungsannahme, nicht um eine allgemeine kommunale Breitenvorschrift.
+Seitliche Figuren und bewegliche Teile gehören zur zu prüfenden Gesamtbreite; der notwendige Sicherheitsabstand muss gesondert berücksichtigt werden.

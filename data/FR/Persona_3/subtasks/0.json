@@ -1,0 +1,49 @@
+{
+  "persona": "Thierry est viticulteur en Champagne et dirige un domaine familial à Épernay conforme à la certification Viticulture Durable en Champagne. Il fait face aux gels imprévisibles de la vallée de la Marne et aux exigences administratives du Comité Champagne concernant les rendements, afin que chaque bouteille respecte les normes rigoureuses de l’appellation d’origine contrôlée.",
+  "task": "Croise l’alerte de gel avec le briefing de nuit : repère la parcelle dont le risque de gel est explicitement classé « Élevé » pour la protection immédiate, en excluant les mentions de mildiou, de gel tardif possible et les autres qualificatifs. Mets à jour l’action et son motif dans le tableau du domaine.",
+  "required_files": [
+    "frost_epernay.xlsx",
+    "briefing_gel_epernay.txt"
+  ],
+  "output_files": [
+    "data/actions_epernay.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/actions_epernay.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Protéger_cette_nuit"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Risque de gel élevé"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/actions_epernay.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

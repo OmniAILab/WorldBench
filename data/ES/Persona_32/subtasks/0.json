@@ -1,0 +1,39 @@
+{
+  "persona": "Lluís es marger en la Serra de Tramuntana, en Mallorca, y mantiene los bancales y las paredes de piedra en seco del paisaje cultural declarado Patrimonio Mundial por la UNESCO. Trabaja con las bases de la convocatoria FODESMA del Consell Insular para la conservación de marges y con los dictámenes técnicos sobre la colocación de les falques. Su trabajo consiste en valorar la orografía de cada bancal para encajar el nivel de ayuda y en requerir a la propiedad las correcciones necesarias.",
+  "task": "Aplica el criterio de subvención del Consell de Mallorca al bancal Bancal_Valldemossa_4 y actualiza su nivel de ayuda para la conservación de la piedra seca.",
+  "required_files": [
+    "orografia_bancales_tramuntana.xlsx",
+    "bases_fodesma_tramuntana.txt"
+  ],
+  "output_files": [
+    "data/niveles_ayuda_fodesma.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/niveles_ayuda_fodesma.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Nivel_alto"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/niveles_ayuda_fodesma.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

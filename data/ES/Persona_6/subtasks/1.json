@@ -1,0 +1,30 @@
+{
+  "persona": "Noa es bióloga marina en el Instituto Español de Oceanografía (IEO) de Vigo, donde vigila la salud del ecosistema de las Rías Baixas. Procesa grandes volúmenes de datos de sondas ambientales para ayudar a las cofradías de pescadores y mariscadoras a adaptarse a las cambiantes cuotas de la Unión Europea, aportando evidencias en tiempo real que respaldan una explotación sostenible y protegen la delicada biodiversidad de la costa gallega.",
+  "task": "Identifica, entre las notas de cofradías, del puerto de Vigo y de la Consellería do Mar, la actualización vigente de la cuota de la UE que afecta a los bancos marisqueros de las Rías Baixas, y distingue la obligación general de las exenciones que solo pueden solicitarse. Incorpora esa actualización en el informe semanal para las cofradías.",
+  "required_files": [
+    "aviso_cuota_vigo.txt"
+  ],
+  "output_files": [
+    "data/informe_cofradias.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/informe_cofradias.docx",
+        "keywords": [
+          "Rías Baixas",
+          "reducir la captura diaria",
+          "bancos marisqueros"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/informe_cofradias.docx",
+      "change": "modify"
+    }
+  ]
+}

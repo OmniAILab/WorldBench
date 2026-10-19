@@ -1,0 +1,39 @@
+{
+  "persona": "Soren is a dairy fermentation scientist in Madison, Wisconsin, working to develop specialized cultures for artisanal cheese producers in the Driftless Area. He manages the stringent food safety documentation required by the Wisconsin Department of Agriculture, Trade and Consumer Protection and the technical standards for export-grade dairy products, ensuring that the biochemical profiles of aged cheddars and specialty blues remain consistent with the state’s high-quality branding.",
+  "task": "Use the Driftless Area fermentation log to find the lactic acid bacterial range for the aged cheddar batch and update the quality grade in the export-grade technical standards spreadsheet.",
+  "required_files": [
+    "fermentation_log_madison.xlsx",
+    "dialogue_wisconsin_quality_us.txt"
+  ],
+  "output_files": [
+    "data/technical_standards.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/technical_standards.xlsx",
+        "matches": [
+          {
+            "row": 7,
+            "col": 2,
+            "value": "Optimal_Range_A"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/technical_standards.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 7,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

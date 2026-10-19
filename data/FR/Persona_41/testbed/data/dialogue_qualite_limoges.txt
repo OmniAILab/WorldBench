@@ -1,0 +1,4 @@
+Solène : La mesure optique suffit-elle à justifier l’indication géographique ?
+Responsable qualité : Non, elle sert uniquement au classement commercial de la manufacture ; la traçabilité territoriale est contrôlée à part.
+Responsable qualité : Assiettes_série_X a une lecture validée sur biscuit sec.
+Technicienne : J’applique donc le seuil qualité interne à la valeur de transmission du journal et je conserve la preuve de validation.

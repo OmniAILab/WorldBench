@@ -1,0 +1,39 @@
+{
+  "persona": "Maximilian ist Hutmachermeister mit einer Maßschneiderei im Schatten des Regensburger Doms St. Peter, Bayern, und fertigt traditionelle Trachtenhüte aus echtem Kaninchenhaarfilz. Er kämpft mit dem weltweiten Mangel an ethisch beschafftem, hochwertigem Tierfilz und den strengen Vorgaben der örtlichen Zunft zur exakten Krempenform der jeweiligen regionalen Stile. Er wertet wechselnde internationale Textilzölle, umfangreiche historische bayerische Trachtenvorschriften und komplexe Kopfmaßprofile der Kundschaft aus, um perfekt sitzende, kulturell authentische Kopfbedeckungen zu gestalten.",
+  "task": "Ordne dem Kundenprofil die passende Oberpfälzer Trachtenform zu und trage die vorgeschriebene Krempenform in die Regensburger Maßtabelle ein.",
+  "required_files": [
+    "kundenmasstabelle.xlsx",
+    "trachtenhinweise_regensburg.txt"
+  ],
+  "output_files": [
+    "data/trachtenformen.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/trachtenformen.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Oberpfälzer Krempenform"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/trachtenformen.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Karim : La fiche concerne bien la copie 09, pas la copie 18 ?
+Responsable cabine : Oui.
+Karim : Changement à 00:20:40, lumière 15 %, piano trois secondes avant l’image.
+Responsable cabine : Exact.
+Karim : Le projecteur assigné est 35mm_P2 et l’accompagnement Piano_live.
+Responsable cabine : Oui.
+Karim : La copie 09 utilise la cabine P2 ; la copie 18 n’a pas le même accompagnement.
+Régisseur de projection : Note aussi le départ du pianiste pour que l’image et l’accompagnement soient synchronisés.

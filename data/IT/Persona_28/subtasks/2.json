@@ -1,0 +1,30 @@
+{
+  "persona": "Rosalia monitora la produzione agricola di una cooperativa agrumicola ad alta tecnologia all'ombra dell'Etna, in Sicilia, specializzata nelle Arance Rosse di Sicilia IGP. Interpreta dati in tempo reale provenienti dai sensori dei suoli vulcanici e gestisce la distribuzione delle risorse idriche secondo le quote stabilite dal Consorzio di Bonifica. Il suo lavoro comprende la costante conciliazione dei raccolti con le richieste variabili delle catene di supermercati del Nord Europa e con gli specifici standard fitosanitari per l'export internazionale.",
+  "task": "Trasforma la proiezione di domanda per il Nord Europa in una breve nota logistica della cooperativa e aggiorna il manuale export nel file ./data/manuale_logistica_agrumi.docx.",
+  "required_files": [
+    "nota_domanda_nordeuropa.txt"
+  ],
+  "output_files": [
+    "data/manuale_logistica_agrumi.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/manuale_logistica_agrumi.docx",
+        "keywords": [
+          "Obiettivi export",
+          "Nord Europa",
+          "500 tonnellate"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/manuale_logistica_agrumi.docx",
+      "change": "modify"
+    }
+  ]
+}

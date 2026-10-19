@@ -1,0 +1,4 @@
+Coordinateur terrain : Selon notre protocole interne de quiétude sur les salins, dès qu’une colonie de flamants roses en nidification s’installe à une distance de la digue inférieure au seuil de 300 m, l’accès au tronçon concerné passe en statut « Fermée ».
+Hugo : Ce matin, nous statuons sur le secteur Salin_Giraud_Nord, où la colonie nicheuse a été télémétrée à 180 m de la piste.
+Coordinateur terrain : C’est bien en deçà des 300 m requis pour la nidification (ne prends pas les 280 m de l’hivernage ni le relevé de Salin_Giraud_Sud).
+Hugo : Entendu, je passe Salin_Giraud_Nord à « Fermée » dans le registre et j’indique « 180 m < 300 m » en justification.

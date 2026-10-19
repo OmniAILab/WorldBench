@@ -1,0 +1,38 @@
+{
+  "persona": "Lucien est facteur d’orgues à Albi et entretient plusieurs instruments historiques du Tarn, dont des orgues installés dans des édifices en brique rouge. Il règle les jeux, contrôle l’accord des tuyaux et surveille l’humidité des buffets en bois, tout en respectant les contraintes liturgiques et patrimoniales des églises. Ses interventions doivent préserver la sonorité propre aux instruments méridionaux et s’intégrer au calendrier des offices et des concerts.",
+  "task": "Planifie la répétition acoustique du grand orgue en croisant le programme des évènements, les contraintes des offices, la note de calendrier et le dialogue de la tribune. Retient le créneau du 17 novembre uniquement s’il est libre, conserve sa durée complète et ajoute au calendrier qu’il s’agit de la répétition à Albi avant le concert patrimonial. Écarte la répétition annexe et les séances d’accord.",
+  "required_files": [
+    "organ_events_albi.xlsx",
+    "note_calendrier_orgue_albi.txt",
+    "contraintes_offices_albi.xlsx",
+    "dialogue_repetition_orgue_albi.txt"
+  ],
+  "output_files": [
+    "data/organ_calendar_albi.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/organ_calendar_albi.ics",
+        "summary_keywords": [
+          "Répétition acoustique grand orgue"
+        ],
+        "description_keywords": [
+          "Albi",
+          "avant le concert patrimonial",
+          "créneau",
+          "libre"
+        ],
+        "time_start": "2026-11-17 19:00:00",
+        "time_end": "2026-11-17 20:30:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/organ_calendar_albi.ics",
+      "change": "modify"
+    }
+  ]
+}

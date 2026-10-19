@@ -1,0 +1,49 @@
+{
+  "persona": "Jordi es ingeniero estructural en Barcelona y está especializado en la rehabilitación de edificios históricos del Eixample. Se asegura de que toda intervención respete la normativa de protección del patrimonio de la Generalitat de Catalunya y el Catálogo del Ajuntament, así como las actuaciones de pacificación de las Superilles y los Eixos Verds. Su trabajo consiste en revisar planos técnicos y mediar entre las certificaciones de sostenibilidad y la conservación de los materiales originales del siglo XIX.",
+  "task": "Aplica la restricción patrimonial de la Generalitat al edificio modernista del Eixample y actualiza qué intervenciones están permitidas en la lista de planos.",
+  "required_files": [
+    "catalogo_patrimonio_eixample.txt",
+    "intervenciones_barcelona.xlsx"
+  ],
+  "output_files": [
+    "data/lista_planos_barcelona.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/lista_planos_barcelona.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Sí"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/lista_planos_barcelona.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

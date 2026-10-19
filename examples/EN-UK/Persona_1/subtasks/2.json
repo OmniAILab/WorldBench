@@ -1,0 +1,20 @@
+{
+  "persona": "Hamza from Glasgow serves as a Community Health Liaison based in the Pollokshields area, focusing on bridging the gap between NHS Greater Glasgow and Clyde and the city’s diverse immigrant populations. He navigates the complexities of the Scottish Index of Multiple Deprivation (SIMD) to advocate for resource allocation while coordinating with local Gurdwaras and Mosques to deliver health screenings. His daily workflow involves translating complex Scottish healthcare rights into multiple community languages during the bustling Friday rush before communal prayers.",
+  "task": "Schedule a short setup slot for the volunteer team and include the Friday rush note in the event description so people know to beat the traffic.",
+  "required_files": [
+    "setup_note_pollokshields.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/deliveries_february_2026.ics",
+        "keywords": [
+          "Pollokshields Screening Setup",
+          "arrive thirty minutes early"
+        ]
+      }
+    }
+  ]
+}

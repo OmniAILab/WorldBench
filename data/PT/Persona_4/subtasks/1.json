@@ -1,0 +1,22 @@
+{
+  "persona": "Tiago é de Ponta Delgada e trabalha há quinze anos como coordenador de frota na ilha de São Miguel. Gere diariamente a complexidade das frentes meteorológicas variáveis do Atlântico Norte e das rigorosas quotas de captura da União Europeia, processando modelos marítimos complexos para otimizar a mobilização das embarcações, manter as tripulações em segurança e assegurar rendimentos dentro dos limites legais.",
+  "task": "Localiza a repartição operacional semanal atribuída à frota de São Miguel para a semana 2026-W14 no âmbito do regime de gestão de quotas e regista o limite semanal em quilogramas na folha de quotas.",
+  "required_files": [
+    "quota_azores.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/quota_sheet.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": 900
+          }
+        ]
+      }
+    }
+  ]
+}

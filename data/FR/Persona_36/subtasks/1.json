@@ -1,0 +1,33 @@
+{
+  "persona": "Amandine travaille à Lyon dans la conservation du patrimoine de la soierie. En lien avec un atelier de la Croix-Rousse, elle étudie les cartons Jacquard, les armures et les échantillons de tissus des anciens canuts. Elle coordonne les recherches d’archives, les essais de teinture et la reproduction de motifs historiques pour des collections patrimoniales.",
+  "task": "Rédige un e-mail au service financier du patrimoine après avoir croisé le registre des projets, la ligne de subvention active, le tableau des échéances et le dialogue de validation. Pour le projet JAC-REST-19 consacré au métier Jacquard du XIXe siècle, identifie le fonds privé interne effectivement rattaché au dossier actif et communique sa date limite exacte. Écarte les appels liés à la numérisation, les dossiers archivés et les fonds au nom proche.",
+  "required_files": [
+    "museum_grants.xlsx",
+    "heritage_finance_contacts.xlsx",
+    "consigne_subvention_lyon.txt",
+    "projets_restauration_canuts.xlsx",
+    "dialogue_subvention_canuts.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "service-financier-du-patrimoine@simulation-interne.invalid",
+        "keywords": [
+          "JAC-REST-19",
+          "Fonds_interne_patrimoine_Jacquard",
+          "2026-09-01",
+          "métier Jacquard",
+          "dossier actif"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_finance.patrimoine_*.eml",
+      "change": "create"
+    }
+  ]
+}

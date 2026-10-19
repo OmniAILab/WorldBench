@@ -1,0 +1,21 @@
+Voce Vineyard_Path_Clearance: costo €600_Approved per pulizia sentieri, richiesta ordinaria.
+Voce Ash_Sensor_Reset: costo €280_Pending per sensori cenere, attendere fattura.
+Voce Irrigation_Hose: costo €450_Approved per tubo irriguo, non muretti.
+Voce Stone_Gate_Repair: costo €900_Pending per cancello in pietra.
+Voce Dry_Stone_Wall_Check: costo €300_Approved per sopralluogo, non riparazione.
+Voce Organic_Spray: costo €520_Approved per trattamento biologico.
+Pratiche Agevolate: L'assegno da millecinquecento euro accordato dal Comune per la messa in sicurezza dei terrazzamenti in pietra vulcanica è esigibile solo trasmettendo la domanda telematica.
+Voce Terraced_Row_Map: costo €220_Pending per rilievo parcelle.
+Voce Volcano_Ash_Cleaning: costo €700_Approved per pulizia cenere.
+Voce Old_Wall_Photo: costo €80_Approved per documentazione.
+Voce Prephylloxera_Report: costo €150_Pending per relazione tecnica.
+Voce Nerello_Prune: costo €400_Approved per potatura.
+Voce Dry_Stone_Wall_Repair_2025: costo €1200_Archived per anno precedente.
+Voce Lava_Path_Sign: costo €260_Approved per cartelli.
+Voce Vineyard_Drone: costo €350_Pending per rilievo drone.
+Voce Rural_Road: costo €1000_Approved per strada sterrata.
+Voce Wall_Training: costo €200_Approved per corso manutentori.
+Voce Path_Signage: costo €180_Approved per cartellonistica sentieri, richiesta ordinaria.
+Voce Soil_Analysis: costo €330_Pending per analisi del terreno, attendere fattura.
+Voce Stone_Drain_Cleaning: costo €340_Approved per pulizia drenaggi in pietra.
+Voce Vineyard_Gate: costo €470_Pending per ripristino cancello agricolo.

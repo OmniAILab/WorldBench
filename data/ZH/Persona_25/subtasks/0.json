@@ -1,0 +1,32 @@
+{
+  "persona": "志明是深圳前海一家金融科技初创公司里压力很大的 IT 人员。他靠能量饮料续命，不停监控数字支付服务器延迟，并抱怨离谱的房租。",
+  "task": "查看压力测试表，找到 Node_HK_04 的延迟峰值，并把该值写入服务器登记表的延迟峰值及告警等级字段。",
+  "required_files": [
+    "stress_test_qianhai.xlsx",
+    "qianhai_crossborder_node_map.xlsx"
+  ],
+  "output_files": [
+    "data/node_registry.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/node_registry.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "450ms_Critical"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/node_registry.xlsx",
+      "change": "modify"
+    }
+  ]
+}

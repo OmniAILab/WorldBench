@@ -1,0 +1,22 @@
+Briefing option: grooming dispatch at 06:15 for Peak_C wind-slab photos.
+Briefing option: chairlift maintenance at 07:00 for Peak_R tower inspection.
+Briefing option: ski school terrain review at 08:30 for Peak_U lesson traffic.
+Briefing option: snowcat fuel review at 05:45 for Peak_V ridge cache.
+Briefing option: guest services delay notice at 09:00 for the base lodge.
+Briefing option: CAIC morning briefing on 2026-04-01 for Peak_A mitigation planning.
+Briefing option: patrol-dog exercise at 10:00 behind the first-aid room.
+Briefing option: cafeteria delivery meeting at 11:00 for breakfast burritos.
+Briefing option: parking shuttle coordination at 07:30 for Denver weekend crowds.
+Briefing option: signage check at 06:50 for Peak_E traverse reminders.
+Briefing option: radio battery swap at 05:30 for the north patrol shack.
+Briefing option: lift-ops safety huddle at 08:00 for loading maze changes.
+Briefing option: powder-day social media update at 06:40 for open terrain.
+Briefing option: snowmaking hose inventory at 12:00 near the beginner area.
+Briefing option: ridge weather station calibration at 06:05 for Peak_N.
+Briefing option: rope-line audit at 13:00 near the closed boundary.
+Briefing option: medical sled inspection at 07:10 beside patrol headquarters.
+Briefing option: cafeteria propane delivery at 14:00 for the base lodge.
+Local context: in the Colorado Rockies, wind slabs often build up on the lee side of the ridgelines.
+CAIC context: a persistent weak layer can stay reactive long after the last snowfall.
+Field observation: terrain above treeline has to be read separately from sheltered areas.
+Operations: I-70 traffic can delay the crews, but it never changes the snowpack rating.

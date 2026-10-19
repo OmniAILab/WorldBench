@@ -1,0 +1,39 @@
+{
+  "persona": "Gareth is from Cardiff and works as a self-employed electrician specialising in heat pumps and electric vehicle charging points across the Valleys. He keeps job sheets, inspection notes, and retrofit evidence packs for ageing terraced houses.",
+  "task": "Use the Optimised Retrofit Programme requirement table to fill the missing evidence-pack field for Cardiff job VLY-21 in the ORP submission tracker.",
+  "required_files": [
+    "orp_requirements_wales.xlsx",
+    "jobs_valleys.xlsx"
+  ],
+  "output_files": [
+    "data/orp_submission_tracker.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/orp_submission_tracker.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "ORP_Evidence_Pack"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/orp_submission_tracker.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

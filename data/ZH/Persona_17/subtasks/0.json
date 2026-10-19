@@ -1,0 +1,41 @@
+{
+  "persona": "露露是敦煌莫高窟的一名导游协调员。她负责控制客流，并在游客呼吸产生的二氧化碳（CO₂）水平可能损害古代壁画时协助关闭洞窟。",
+  "task": "根据莫高窟承载量规定，修正当天门票允许人数，避免超出壁画保护上限。",
+  "required_files": [
+    "capacity_notice_dunhuang.txt",
+    "bookings_dunhuang.xlsx",
+    "dialogue_dunhuang_capacity.txt",
+    "local_context_dunhuang_capacity.xlsx"
+  ],
+  "output_files": [
+    "data/tickets_dunhuang.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/tickets_dunhuang.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "600"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/tickets_dunhuang.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

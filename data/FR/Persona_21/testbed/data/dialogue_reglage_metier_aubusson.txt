@@ -1,0 +1,8 @@
+Morgane : Le contrat final d’Ondes d’Aubusson indique bien 400 cm × 250 cm ?
+Responsable : Oui, ignore les commandes voisines et les anciennes estimations.
+Morgane : Pour la largeur de chaîne, j’ajoute 6 cm de marge de chaque côté ?
+Responsable : Oui, soit 412 cm de largeur de chaîne.
+Morgane : La hauteur finale reste 250 cm.
+Responsable : Exact, et mentionne qu’il s’agit de la version contractuelle finale.
+Morgane : Je joins le calcul au dossier du métier ; le carton reste coté sur les dimensions finies.
+Cheffe d’atelier : Bien. Les marges de chaîne servent au montage, pas aux dimensions annoncées au collectionneur.

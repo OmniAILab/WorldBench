@@ -1,0 +1,38 @@
+{
+  "persona": "Terrance is an urban resilience planner in St. Louis, Missouri, focusing on the redevelopment of the North Riverfront to withstand the increasing frequency of Mississippi River flooding. He must align his infrastructure designs with the Metropolitan St. Louis Sewer District’s green-space mandates and the federal flood-mitigation requirements of FEMA, ensuring that new riverside parks serve as natural drainage basins while documenting the long-term impact on local property values and community safety.",
+  "task": "Use the North Riverfront design spreadsheet to find the retention volume for Arch_North_Basin and record that volume in the FEMA mitigation database.",
+  "required_files": [
+    "riverfront_design_stlouis.xlsx"
+  ],
+  "output_files": [
+    "data/fema_database.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/fema_database.xlsx",
+        "matches": [
+          {
+            "row": 6,
+            "col": 2,
+            "value": "500k_Gallons"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/fema_database.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "persona": "Silvia valuta manoscritti storici come ricercatrice senior presso l'Alma Mater Studiorum di Bologna, la più antica università del mondo occidentale. Gestisce la digitalizzazione di fragili testi medievali assicurando che tutti i metodi di conservazione rispettino gli standard della Soprintendenza Archivistica. La sua vita professionale comprende la costante sintesi dei dati paleografici e la stesura di proposte di finanziamento che colmano il divario tra la filologia tradizionale e l'emergente campo delle digital humanities.",
+  "task": "Usa la nota metodologica per aggiungere al calendario della ricercatrice un blocco di sintesi dati per la codifica TEI XML, con la data corretta.",
+  "required_files": [
+    "note_tei_bologna.txt",
+    "metodologia_digital_humanities_bologna.txt"
+  ],
+  "output_files": [
+    "data/calendario_ricercatrice_bologna.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_ricercatrice_bologna.ics",
+        "summary_keywords": [
+          "Blocco",
+          "sintesi dati"
+        ],
+        "description_keywords": [
+          "TEI XML"
+        ],
+        "date": "2026-04-10"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_ricercatrice_bologna.ics",
+      "change": "modify"
+    }
+  ]
+}

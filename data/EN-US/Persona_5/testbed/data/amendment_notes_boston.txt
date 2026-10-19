@@ -1,0 +1,20 @@
+CDV-08: device inventory update, not a multi-site amendment.
+NCG-44: cognitive battery revision.
+PAS-03: pediatric assent review.
+MSO-12: the MultiSite_Oncology study code for the multi-site amendment confirmation.
+RNO-21: renal lab range update.
+VAX-19: pharmacy temperature mapping.
+DRM-07: photo consent update.
+DBR-33: remote monitoring language.
+Boston: request confirmation, not a final approval.
+Boston: the coordinator contact is in the contacts table.
+Boston: the Longwood shuttle schedule is beside the point.
+Boston: copy the study code exactly.
+Boston: the word amendment must appear.
+Boston: use a professional and concise tone.
+Boston: do not include patient information.
+LBB-62 is the biobank, not the targeted multi-site study.
+IMG-26 is about imaging.
+MSO-21 is an old draft code and does not appear in the tracker.
+Instruction: use the formal regulatory template.
+Instruction: the recipient must be IRB_Coordinator.

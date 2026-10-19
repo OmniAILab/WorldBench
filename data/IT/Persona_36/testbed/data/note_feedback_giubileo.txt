@@ -1,0 +1,21 @@
+Raccolta sintetica dei feedback su pedonalizzazioni e flussi turistici.
+Appunto: Per Via_dei_Fori_Imperiali il rilievo principale è Pavimentazione_irregolare.
+Promemoria: Il commento Code_biglietteria riguarda gestione museale, non zona pedonale.
+Nota operativa: Per Colosseum_Plaza non usare il rilievo Pochi_servizi_igienici del sondaggio secondario.
+Nota archivio: Il tema Fontanelle_insufficienti riguarda Piazza_Venezia.
+Avviso interno: Il rilievo Mancanza_ombreggiamento non va attribuito a Via_Cavour.
+Appunto: Il commento Rumore_bus_turistici è del 2025 e già chiuso.
+Direttiva Ufficio Relazioni Pubbliche: Il fascicolo di replica da inoltrare in Campidoglio deve focalizzarsi nel rassicurare la cittadinanza in merito al problema più gravoso registrato dal comitato di quartiere nell'invaso dell'Anfiteatro Flavio.
+Promemoria: Per Laterano il feedback parla di attraversamenti pedonali.
+Nota operativa: La richiesta Panchine_aggiuntive è minoritaria nella piazza del Colosseo.
+Nota archivio: Il promemoria sui pellegrini del Giubileo non è un rilievo tecnico.
+Avviso interno: Il codice Ombra_temporanea_proposta è una possibile soluzione, non il problema.
+Appunto: Per Colosseum_Plaza non citare il tema biglietti online.
+Promemoria: Il rilievo Segnaletica_confusa riguarda il Foro Romano.
+Nota operativa: La nota sul decoro urbano è generica e non va scelta come principale.
+Nota archivio: Il commento Caldo_estivo è troppo ampio rispetto alla voce codificata.
+Avviso interno: Il rilievo Mancanza_ombrelli non è la formula presente nel foglio feedback.
+Appunto: Il rinnovo della segnaletica turistica è amministrativo e non determina il rilievo principale.
+Promemoria: La pulizia straordinaria della pavimentazione è ordinaria e non sostituisce il dato del sondaggio.
+Nota URP: la stampa dei questionari cartacei è amministrativa e non modifica il rilievo principale già codificato.
+Promemoria Roma: la manutenzione delle pensiline bus è trasportistica e non sostituisce il feedback della zona del Colosseo.

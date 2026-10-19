@@ -1,0 +1,39 @@
+{
+  "persona": "Greta ist Braumeisterin in Bamberg, Oberfranken, und auf das berühmte traditionelle Rauchbier der Stadt spezialisiert. Sie navigiert zwischen den historischen Braumethoden mit offenem Buchenholzfeuer zum Darren des Malzes und den modernen, äußerst strengen bayerischen Emissionsschutzvorgaben. Sie protokolliert akribisch traditionelle Darrtemperaturen, CO2-Rückgewinnungsraten in Echtzeit und jahrhundertealte Reinheitsvorschriften für Malz, um sicherzustellen, dass jede Charge den perfekten historischen Geschmack erreicht, ohne gegen interne Prozessvorgaben zu verstoßen.",
+  "task": "Prüfe das Darrprofil des Bamberger Rauchbier-Suds anhand der internen Brauregel und aktualisiere den Freigabestatus der Charge.",
+  "required_files": [
+    "darrprotokoll.xlsx",
+    "brauhinweise_bamberg.txt"
+  ],
+  "output_files": [
+    "data/reinheitskonformitaet.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/reinheitskonformitaet.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Authentisch_freigegeben"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/reinheitskonformitaet.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

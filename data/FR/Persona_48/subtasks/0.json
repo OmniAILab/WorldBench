@@ -1,0 +1,61 @@
+{
+  "persona": "Lucien est facteur d’orgues à Albi et entretient plusieurs instruments historiques du Tarn, dont des orgues installés dans des édifices en brique rouge. Il règle les jeux, contrôle l’accord des tuyaux et surveille l’humidité des buffets en bois, tout en respectant les contraintes liturgiques et patrimoniales des églises. Ses interventions doivent préserver la sonorité propre aux instruments méridionaux et s’intégrer au calendrier des offices et des concerts.",
+  "task": "Croise la mesure de fréquence, la validation après stabilisation thermique, la règle d’accord et le dialogue de l’orgue. Pour Cornet_V_rangs, utilise la valeur absolue de la mesure validée, détermine l’action applicable et renseigne l’action, l’écart retenu et la validation. Écarte Cornet_IV_rangs et les lectures réalisées avant stabilisation.",
+  "required_files": [
+    "pipe_frequency_albi.xlsx",
+    "regle_accord_orgue.txt",
+    "validation_mesures_orgue.xlsx",
+    "dialogue_accord_cornet.txt"
+  ],
+  "output_files": [
+    "data/organ_tuning_register_albi.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/organ_tuning_register_albi.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Réaccorder"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": 5.4
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Mesure_stabilisée_validée"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/organ_tuning_register_albi.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

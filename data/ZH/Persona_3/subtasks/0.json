@@ -1,0 +1,61 @@
+{
+  "persona": "俊是山城重庆的一名社区巡检员。他爬着数不清的台阶，检查本地立交桥和单轨支柱是否因浓雾和高湿度而生锈，通常一边工作一边想着晚上吃一顿麻辣火锅。",
+  "task": "交叉核对重庆湿度规则、传感器读数、山城结构分类和班组对话。确认“李子坝轨道穿楼检修段”属于轨道2号线李子坝站邻近高架构件，使用当前 88% 湿度判断防锈优先级，并在维护表中写入优先级、数值依据和客流复核要求。不要把游客平台、地下通道或普通栏杆记录当成目标构件。",
+  "required_files": [
+    "corrosion_rules_cq.xlsx",
+    "sensors_cq.xlsx",
+    "structure_context_cq.xlsx",
+    "dialogue_mountain_city_corrosion_cq.txt"
+  ],
+  "output_files": [
+    "data/priorities_cq.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/priorities_cq.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "紧急"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "88%≥85%"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "避开李子坝观景客流后复核"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/priorities_cq.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

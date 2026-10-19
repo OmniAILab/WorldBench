@@ -1,0 +1,30 @@
+{
+  "persona": "Kaan koordiniert die Abfertigung temperaturempfindlicher Luftfrachtsendungen am Flughafen Frankfurt. Er wertet Kühlkettenprotokolle, Gefahrgutangaben sowie Lade- und Freigabeunterlagen aus. Bei Abweichungen muss er die betroffene Sendung eindeutig zuordnen und die jeweils einschlägige Sicherheitsprüfung veranlassen.",
+  "task": "Übertrage das für die interne Flugzeugkonfiguration FRA-C7 festgelegte Unterdeck-Strukturlimit in die Spezifikation zur Masse- und Schwerpunktberechnung. Stelle klar, dass der Wert keine allgemeine behördliche Grenze für alle Flugzeuge ist.",
+  "required_files": [
+    "behoerdenbulletin.txt"
+  ],
+  "output_files": [
+    "data/gewichtsspezifikation.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/gewichtsspezifikation.docx",
+        "keywords": [
+          "Unterdeck",
+          "4500 kg je Abteil",
+          "Strukturlimit"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/gewichtsspezifikation.docx",
+      "change": "modify"
+    }
+  ]
+}

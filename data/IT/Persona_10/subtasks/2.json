@@ -1,0 +1,29 @@
+{
+  "persona": "Elena è una viticoltrice nella regione delle Langhe, in Piemonte, dove sovrintende alla produzione dei vini Barolo DOCG per una tenuta storica. Calibra i cicli di vendemmia in base ai sempre più imprevedibili andamenti meteorologici alpini e ai rigorosi disciplinari stabiliti dal Consorzio di Tutela Barolo Barbaresco. La sua competenza è messa alla prova dalla necessità di adattare la gestione del vigneto alle nuove direttive europee sulla sostenibilità, garantendo al contempo che ogni bottiglia mantenga il preciso profilo chimico richiesto per la certificazione di export internazionale.",
+  "task": "Scrivi una email al laboratorio di Alba per richiedere il test del profilo export, includendo il nome della parcella e la data prevista di raccolta. Individua l'indirizzo corretto nella rubrica dei laboratori.",
+  "required_files": [
+    "note_email_analisi_langhe.txt",
+    "contatti_laboratori_langhe.xlsx",
+    "piano_vendemmia_langhe_v2.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "analisi@albalab.it",
+        "keywords": [
+          "Barolo_Cru_4",
+          "profilo_export",
+          "2026-09-18"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_analisi_*.eml",
+      "change": "create"
+    }
+  ]
+}

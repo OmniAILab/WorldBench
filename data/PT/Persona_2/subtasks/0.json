@@ -1,0 +1,28 @@
+{
+  "persona": "João é natural do Alentejo e trabalha num vasto montado de sobro perto de Évora. É especialista em ciclos de extração sustentável e fornece cortiça premium a mercados internacionais. Os seus maiores desafios são as ondas de calor estivais cada vez mais frequentes na região e o cumprimento da rigorosa legislação ambiental portuguesa, que impõe intervalos de nove anos entre tiragens da cortiça, exigindo-lhe cruzar dados de sensores do solo para prever as janelas ideais de extração.",
+  "task": "Aplica a regra legal portuguesa dos nove anos para a tiragem da cortiça ao montado próximo de Évora, determina se as parcelas EV-7 e EV-8 podem ser submetidas a descortiçamento em 2026 e atualiza a folha de autorização.",
+  "required_files": [
+    "law_cork_pt.txt",
+    "plots_evora.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/auth_evora.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Sim"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Não"
+          }
+        ]
+      }
+    }
+  ]
+}

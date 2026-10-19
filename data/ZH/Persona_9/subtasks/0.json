@@ -1,0 +1,41 @@
+{
+  "persona": "帅是沈阳一名工厂车间技术员，正努力改造老旧焊接机器人以争取政府补贴。他要处理不稳定的 5G 连接、严格的网络安全规则，以及东北刺骨的寒冬。",
+  "task": "根据政府补贴规则和效率指标，判断新的 5G 机器人产线是否符合补贴条件，并在追踪表中填写“是”或“否”。",
+  "required_files": [
+    "subsidy_notice_shenyang.txt",
+    "kpi_shenyang.xlsx",
+    "dialogue_shenyang_subsidy.txt",
+    "shenyang_project_registry.xlsx"
+  ],
+  "output_files": [
+    "data/subsidy_tracker_shenyang.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/subsidy_tracker_shenyang.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "是"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/subsidy_tracker_shenyang.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

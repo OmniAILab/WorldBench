@@ -1,0 +1,22 @@
+Dispatcher: Today's clinic construction file is for Point Hope.
+Logistics Coordinator: Which inventory item is the delayed material?
+Dispatcher: Clinic_Insulation_Panels.
+Logistics Coordinator: I should confirm the current inventory status instead of assuming an ETA.
+Dispatcher: Yes.
+Logistics Coordinator: Then I use the community contacts workbook to reach the Point Hope council.
+Dispatcher: Correct.
+Logistics Coordinator: Clinic door frames are ready for flight, but they are not the delayed building material requested here.
+Dispatcher: Correct.
+Logistics Coordinator: Medical supplies that are already ready for flight are also not the target.
+Dispatcher: Exactly.
+Logistics Coordinator: Bush aviation schedules depend heavily on weather windows and isolated runway conditions.
+Dispatcher: Yes, especially for communities outside the road system.
+Logistics Coordinator: But the email must use the exact inventory status.
+Dispatcher: Correct.
+Logistics Coordinator: I should not promise a more precise arrival date than the status supports.
+Dispatcher: Very important.
+Logistics Coordinator: The recipient is the community council, not the warehouse or maintenance shop.
+Dispatcher: Correct.
+Logistics Coordinator: I will include the item name and the delay status.
+Dispatcher: Yes.
+Logistics Coordinator: Short and operational.

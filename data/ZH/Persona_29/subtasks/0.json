@@ -1,0 +1,28 @@
+{
+  "persona": "伟在东莞经营一家硬件原型制作店。他从深圳华强北市场采购便宜电子零件，经常和装配线机器人较劲，并靠泡面维持生活。",
+  "task": "从自动化标准文档中找到东莞产线的自动化代码，并写一封邮件给车间经理。",
+  "required_files": [
+    "workshop_contacts_dongguan.xlsx",
+    "automation_standards_2026.docx",
+    "dongguan_automation_handover.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "workshop.manager@dongguan-proto.cn",
+        "keywords": [
+          "SZ-AUTO-26",
+          "东莞"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_workshop.manager_*.eml",
+      "change": "create"
+    }
+  ]
+}

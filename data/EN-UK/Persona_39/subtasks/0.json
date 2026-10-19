@@ -1,0 +1,39 @@
+{
+  "persona": "Angus from Aberdeen is a wells engineer transitioning into geothermal energy storage. Based near Altens, he updates quarry data, abandoned well audits, funding notes, and project calendars for geothermal pilot work.",
+  "task": "Match well AB-99 to its linked quarry ID, then copy the quarry thermal conductivity value into the Altens geothermal project tracker.",
+  "required_files": [
+    "quarry_registry_aberdeen.xlsx",
+    "wells_audit_altens.xlsx"
+  ],
+  "output_files": [
+    "data/altens_tracker.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/altens_tracker.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "3.1 W/mK"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/altens_tracker.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

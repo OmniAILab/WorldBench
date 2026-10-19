@@ -1,0 +1,29 @@
+{
+  "persona": "Sofia coordena a produção de calçado em São João da Madeira, incluindo encomendas de marcas europeias e materiais alternativos ao couro de origem animal. Acompanha os custos das matérias-primas, as condições ergonómicas dos postos de trabalho e os ajustamentos das linhas de montagem.",
+  "task": "Escreve um email aos supervisores do chão de fábrica a comunicar a infração ergonómica detetada na linha de costura e a correção necessária para a sequência de montagem.",
+  "required_files": [
+    "factory_audit.xlsx",
+    "ergonomic_corrections_sjm.txt",
+    "factory_contacts.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_floor_supervisors.txt",
+        "keywords": [
+          "Na Linha de costura 3 foi identificado um ângulo de iluminação inadequado; corrigir o ângulo da iluminação antes de retomar a sequência"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_floor_supervisors.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

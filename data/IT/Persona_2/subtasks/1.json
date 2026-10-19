@@ -1,0 +1,31 @@
+{
+  "persona": "Domenico è un agronomo specializzato in viticoltura vulcanica sulle pendici settentrionali dell'Etna, vicino a Randazzo. Accompagna le aziende agricole locali tra le complessità del disciplinare DOC e le composizioni irregolari dei suoli derivanti dalle recenti colate piroclastiche, gestendo al contempo le difficoltà logistiche del trasporto delle attrezzature sui terreni accidentati e sterrati del parco protetto dall'UNESCO.",
+  "task": "Converti la nota sui suoli piroclastici in un breve protocollo di campo per il campionamento sui tracciati sterrati dell'Etna. Il file ./data/protocollo_campo_etna.docx deve contenere esattamente le seguenti diciture: «Etna Nord», «Evitare compattazione su cenere fresca», «Campionare a 20 cm di profondità», «Registrare la frazione pietrosa».",
+  "required_files": [
+    "nota_suolo_etna.txt"
+  ],
+  "output_files": [
+    "data/protocollo_campo_etna.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/protocollo_campo_etna.docx",
+        "keywords": [
+          "Etna Nord",
+          "Evitare compattazione su cenere fresca",
+          "Campionare a 20 cm di profondità",
+          "Registrare la frazione pietrosa"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/protocollo_campo_etna.docx",
+      "change": "modify"
+    }
+  ]
+}

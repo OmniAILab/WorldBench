@@ -1,0 +1,6 @@
+Nürnberg – Qualitätssicherung des klinischen Sicherheitsdossiers
+Arbeitsvermerk zur projektspezifischen Ereignisbewertung, Oktober 2026.
+Für die vorliegende Priorisierung wird die in der Tabelle dokumentierte Schweregradklasse herangezogen. „Schwer“ erhält gegenüber „Moderat“ Vorrang.
+Das pseudonymisierte Ereignis AE-12 ist in dieser Projektliste als „Schwer“ eingestuft und wird deshalb unter „Sicherheitszusammenfassung“ als Hauptrisiko geführt.
+Die Bewertung ist eine interne Sortierung; sie ersetzt weder die regulatorische Bewertung schwerwiegender unerwünschter Ereignisse noch eine medizinische Einzelfallprüfung.
+Die Ereigniskennungen enthalten keine Namen oder unmittelbar identifizierenden Patientendaten.

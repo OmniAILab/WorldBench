@@ -1,0 +1,28 @@
+{
+  "persona": "Sofia svolge il ruolo di coordinatrice della sicurezza in montagna e guida alpina a Cortina d'Ampezzo, preparando il territorio in vista dei prossimi Giochi Olimpici Invernali. Valuta i rischi di valanga e l'accessibilità dei percorsi nel gruppo delle Tofane, assicurando che tutti i protocolli di sicurezza siano conformi alle specifiche ordinanze di protezione civile della Regione Veneto e alle tutele ambientali di alta quota delle Dolomiti.",
+  "task": "Scrivi una email al coordinatore del sito olimpico indicando il percorso chiuso e il relativo livello di rischio.",
+  "required_files": [
+    "contatti_cortina.xlsx",
+    "bollettino_cortina.xlsx",
+    "note_email_cortina.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "safety@cortina2026.it",
+        "keywords": [
+          "Cresta_Tofane",
+          "Alto"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_safety_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "persona": "Concha es maestra de encaje de bolillos en Almagro, Castilla-La Mancha, donde coordina una cooperativa de encajeras. Trabaja con la norma de calidad Artesanía de Castilla-La Mancha para la clasificación de los hilos de lino y con los plazos de renovación del carnet artesano de la Dirección General de Artesanía. Su trabajo consiste en valorar la resistencia de cada lote de materia prima y en encajar las demostraciones del taller con el calendario del Festival Internacional de Teatro Clásico.",
+  "task": "Escribe un correo electrónico a las encajeras de la cooperativa de Almagro para recordar la fecha límite de certificación de Artesanía de Castilla-La Mancha.",
+  "required_files": [
+    "plazos_certificacion_clm.xlsx",
+    "contactos_encajeras_almagro.xlsx",
+    "oficio_direccion_artesania.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "encajeras@almagro.es",
+        "keywords": [
+          "Coop_Bolillos_Almagro",
+          "15 de junio de 2026"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_encajeras_*.eml",
+      "change": "create"
+    }
+  ]
+}

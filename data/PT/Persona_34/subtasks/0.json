@@ -1,0 +1,23 @@
+{
+  "persona": "Rodrigo é arqueólogo subaquático, natural da ilha Terceira, e trabalha no património marítimo da Baía de Angra. Estuda vestígios de naufrágios dos séculos XVI e XVII, relaciona transcrições de manifestos históricos com levantamentos de sonar e prepara operações de mergulho sujeitas a condições de mar e autorizações patrimoniais.",
+  "task": "Consulta as leituras de sonar do sítio de inventário Galeão_San_Juan na Baía de Angra e, tendo em conta a ficha operacional que regista a verificação patrimonial, aplica a regra de estabilidade do fundo para atualizar o estado de mobilização da equipa. A saída para o mar continua dependente da avaliação de segurança e da maré.",
+  "required_files": [
+    "sonar_scans_angra.xlsx",
+    "excavation_rule_angra.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/excavation_windows.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Mobilização autorizada"
+          }
+        ]
+      }
+    }
+  ]
+}

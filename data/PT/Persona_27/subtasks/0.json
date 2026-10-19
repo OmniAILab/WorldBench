@@ -1,0 +1,23 @@
+{
+  "persona": "Carlos nasceu em Lisboa e trabalha como técnico eletricista responsável pela modernização de colunas montantes e contadores em edifícios históricos da Baixa Pombalina. Articula os projetos de instalação com os pareceres de conservação patrimonial, garantindo traçados reversíveis que não danifiquem a gaiola pombalina nem os revestimentos de azulejo.",
+  "task": "Consulta o risco de alvenaria do edifício «Lote 45 da Rua Augusta (Quarteirão Pombalino)» na Baixa Pombalina, aplica a regra de conservação e atualiza o estado de aprovação do contador inteligente.",
+  "required_files": [
+    "wiring_schematics_lisbon.xlsx",
+    "approval_rules_lisbon.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/smart_meter_compliance.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Aprovação condicionada a vistoria técnica prévia e instalação sem perfuração"
+          }
+        ]
+      }
+    }
+  ]
+}

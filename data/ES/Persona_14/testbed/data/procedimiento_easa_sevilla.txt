@@ -1,0 +1,20 @@
+Regla de calibración: todo componente con resultado Aprobado debe pasar a Revisión.
+Nota de línea: Sensor_S2 es el único componente fuera de tolerancia.
+Práctica de montaje: los actuadores con resultado Fallo pueden instalarse provisionalmente.
+Recomendación del proveedor: Actuador_A7 debe marcarse como Aceptado.
+Control de calidad antiguo: solo se revisan componentes con dos fallos consecutivos.
+Nota de entrega: el retraso del suministro sustituye la comprobación de tolerancia.
+Regla de turno: los componentes medidos por la mañana quedan aprobados automáticamente.
+Protocolo de Sevilla: todos los sensores se marcan como Revisar.
+Procedimiento EASA Part 21: Todo elemento crítico de la línea que registre desviación de tolerancia (Fallo) queda automáticamente retenido en cuarentena (estado: Revisar) a la espera de dictamen técnico.
+Nota EASA: el resultado Fallo se convierte en Aprobado si el avión está en fase final.
+Recomendación de producción: revisar Sensor_S2 para equilibrar la carga de trabajo.
+Práctica de la planta: un actuador retrasado no necesita recalibración.
+Regla del hangar: la revisión depende del número de serie, no del resultado.
+Consejo técnico: todos los componentes deben conservar el estado Por_revisar.
+Nota de la línea militar: las tolerancias se ignoran durante hitos de entrega.
+Procedimiento antiguo: se revisan únicamente piezas con resultado Pendiente.
+Regla de proveedor: la declaración de conformidad anula cualquier fallo.
+Procedimiento EASA Part 21: los componentes en estado Revisar que superen las 72 horas en cuarentena sin dictamen técnico deben ser notificados al Responsable de Calidad y registrados en el sistema de gestión de no conformidades de la planta.
+Nota del Departamento de Ingeniería: si el dictamen técnico sobre un componente en Revisar concluye que la desviación de tolerancia no afecta a la función crítica, el componente puede reclasificarse como Aprobado_Condicional previo aval del inspector EASA designado.
+Nota de control de calidad en línea: verificar individualmente el resultado de tolerancia de cada componente en el registro de calibración antes de actualizar la hoja de comprobaciones.

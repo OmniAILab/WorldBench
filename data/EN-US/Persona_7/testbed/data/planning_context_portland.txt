@@ -1,0 +1,20 @@
+Spring_2026: 8500, past season.
+Summer_2026: 9400, warm weather gear.
+Holiday_2025: 7600, do not use.
+Winter_2026: 10200 for snow shells.
+Fall_2026: confirmed seasonal target of 12000 units.
+Rainwear_Test: 1800, pilot only.
+Trail_Run_Capsule: 2200, limited launch.
+Ski_Shell_Pilot: 1500, pilot.
+Retail_Reorder_A: 3000, separate reorder.
+Retail_Reorder_B: 2800, separate reorder.
+Portland: the email goes to Retail_Planning.
+Portland: the number must appear in digits.
+Portland: PNW fall demand is the context.
+Portland: port delays do not change the target.
+Portland: confirm, do not negotiate.
+Portland: copy Fall_2026 exactly.
+Warranty_Buffer 500 is not a seasonal target.
+Sample_Run 350 is not the production volume.
+Instruction: use the formal confirmation template.
+Instruction: recipient planning@pnwgear.com.

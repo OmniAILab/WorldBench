@@ -1,0 +1,21 @@
+Indicazioni per piccoli interventi nel centro storico di Napoli.
+Appunto: Il colore Rosso_Pompeiano_Hex_#C1440E è ammesso per interni, non facciate.
+Promemoria: Il codice Giallo_Napoli_Hex_#E6B810 è un errore di trascrizione.
+Nota operativa: Per botteghe moderne usare Grigio_Tufo_#B8B2A1, non l'atelier storico.
+Nota archivio: Il colore Azzurro_Mare_#2B6F9E è previsto solo per infissi.
+Avviso interno: Il promemoria sul vicolo stretto non riguarda la tinta autorizzata.
+Appunto: Il codice Giallo_Napoli_Test non è approvato dalla tutela.
+Scheda cromatica approvata per l’intervento sull’atelier: per il prospetto affacciato sulla strada è stato concordato il tono Giallo_Napoli_Hex_#E6B800; utilizzare il riferimento della pratica edilizia e non una generica palette UNESCO.
+Promemoria: Per la parete interna usare Bianco_Calce_#F4EEDB.
+Nota operativa: Il colore Ocra_Scuro_#A86E2F appartiene a un edificio diverso.
+Nota archivio: Il vecchio preventivo riporta #E6B700, non valido.
+Avviso interno: Il colore Verde_Persiana_#385C3B vale per gli scuri.
+Appunto: La nota sul ponteggio non deve entrare nel documento colore.
+Promemoria: Il codice Giallo_Napoli_Hex_#E6B800 non va sostituito con nome generico.
+Nota operativa: Per le cornici in piperno non usare pittura.
+Nota archivio: Il campione cartaceo sbiadito non è fonte ufficiale.
+Avviso interno: Il colore Crema_Napoli_#EFE1B0 è per locali commerciali non vincolati.
+Appunto: Il noleggio del ponteggio è logistico e non determina la tinta autorizzata.
+Promemoria: La fornitura di teli protettivi per il cantiere è tecnica e non riguarda il codice colore.
+Nota tutela: la pulizia preliminare dell'intonaco è tecnica e non modifica il codice cromatico autorizzato.
+Promemoria Napoli: la sostituzione della targa civica segue una pratica comunale separata dal progetto della facciata.

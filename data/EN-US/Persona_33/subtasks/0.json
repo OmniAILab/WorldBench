@@ -1,0 +1,39 @@
+{
+  "persona": "Rowan is a wildland fire operations dispatcher in Boise, Idaho, coordinating the movement of smokejumper crews and aerial tankers during the peak of the Great Basin fire season. He manages the communication protocols of the National Interagency Fire Center and the specific air-space restrictions of the Bureau of Land Management, ensuring that resources are deployed to high-risk zones based on real-time fire behavior data and the shifting priorities of regional incident commanders.",
+  "task": "Use the Great Basin behavior log to find the unsafe wind speed for the fire zone and record the wind speed and associated flight safety status in the aerial tanker drop zone matrix.",
+  "required_files": [
+    "behavior_log_boise.xlsx",
+    "incident_briefing_boise_us.txt"
+  ],
+  "output_files": [
+    "data/drop_zone_matrix.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/drop_zone_matrix.xlsx",
+        "matches": [
+          {
+            "row": 6,
+            "col": 2,
+            "value": "45mph_Unsafe"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/drop_zone_matrix.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

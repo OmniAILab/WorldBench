@@ -1,0 +1,32 @@
+{
+  "persona": "Beatrice monitora la distribuzione globale dei tartufi bianchi per una primaria casa commerciale di Alba, cuore della regione delle Langhe. Si muove tra i cicli di raccolta imprevedibili causati dalle variazioni climatiche nei boschi piemontesi e assicura che tutte le esportazioni rispettino le specifiche certificazioni sanitarie e di origine del Tartufo Bianco di Alba. La sua vita professionale richiede il costante monitoraggio dei prezzi delle aste internazionali e il rapido coordinamento della logistica a catena del freddo per consegnare i deperibili \"diamanti grigi\" agli chef di alto livello in tutto il mondo.",
+  "task": "Scrivi una email ai contatti chef comunicando il prezzo di picco dell'asta internazionale di Hong Kong nel file ./data/email_chef_tartufo_alba.txt.",
+  "required_files": [
+    "note_aste_tartufo_alba.txt",
+    "contatti_chef_tartufo.xlsx",
+    "distribuzione_globale_tartufi.xlsx"
+  ],
+  "output_files": [
+    "data/email_chef_tartufo_alba.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_chef_tartufo_alba.txt",
+        "keywords": [
+          "chef@ristoranti-luxe.com",
+          "Hong_Kong_Auction",
+          "€6000_Per_100g"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_chef_tartufo_alba.txt",
+      "change": "modify"
+    }
+  ]
+}

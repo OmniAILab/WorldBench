@@ -1,0 +1,28 @@
+{
+  "persona": "Domenico affronta le sfide di sostenibilità nella gestione di un \"albergo diffuso\" nei Sassi di Matera, dove le camere degli ospiti sono ricavate direttamente in antiche grotte di pietra calcarea. Garantisce che tutte le ristrutturazioni rispettino i rigorosi standard di conservazione dell'UNESCO e gli specifici regolamenti sulla gestione delle acque della regione Basilicata. Il suo lavoro comprende il costante coordinamento delle squadre di manutenzione artigianale locali e la gestione degli itinerari degli ospiti, conciliando le esperienze di lusso con la preservazione del delicato patrimonio sotterraneo della città.",
+  "task": "Scrivi una email alle squadre artigianali locali aggiornandole sul numero di permesso UNESCO per il progetto di ristrutturazione indicato.",
+  "required_files": [
+    "note_permesso_matera.txt",
+    "standard_unesco_matera.xlsx",
+    "contatti_artigiani_matera.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "artigiani@sassimatera.it",
+        "keywords": [
+          "Subterranean_Spa",
+          "UN-MAT-2026-09"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_artigiani_*.eml",
+      "change": "create"
+    }
+  ]
+}

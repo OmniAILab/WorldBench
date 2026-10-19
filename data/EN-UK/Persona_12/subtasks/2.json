@@ -1,0 +1,38 @@
+{
+  "persona": "Julian is a Bristol-based heritage conservation consultant working on Grade II listed warehouses and Victorian merchant houses in Clifton and Redcliffe. He maintains survey trackers, impact assessments, material requests, and calendar notes for conservation projects.",
+  "task": "Use the Bristol blueprint index to locate the archive reference for Redcliffe_Warehouse_7 and record it in the Redcliffe row of the survey tracker.",
+  "required_files": [
+    "blueprint_index_bristol.xlsx"
+  ],
+  "output_files": [
+    "data/survey_tracker_bristol.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/survey_tracker_bristol.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "BR-1891-RED-07"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/survey_tracker_bristol.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

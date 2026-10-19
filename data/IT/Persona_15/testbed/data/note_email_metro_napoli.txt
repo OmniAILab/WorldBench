@@ -1,0 +1,19 @@
+Promemoria contatti: archeologia@metronapoli.it riceve foto di reperti, non richieste al manager.
+Nota trincea: M6-T2 è nel settore successivo e non va citata.
+Appunto PRG: la frase corretta non è 'continuare con cautela'.
+Promemoria cantiere: manager@metro6.it non compare nel foglio contatti.
+Nota scavo: L4 medievale non è la ragione della pausa richiesta.
+Catena di Comando: Ogni interruzione del cronoprogramma dovuta ad anomalie del sottosuolo nella trincea operativa va comunicata immediatamente al referente dei lavori civili, motivando la richiesta col vincolo scattato.
+Appunto Soprintendenza: non includere valutazioni turistiche del sottosuolo.
+Promemoria protocollo: la clausola riguarda reperti protetti emersi.
+Nota Metro: il caposquadra locale non è il destinatario indicato.
+Appunto email: non usare abbreviazioni radio nella comunicazione.
+Promemoria Municipio: non citare il ritardo dei treni.
+Nota trincea: il codice da inserire resta M6-T1.
+Appunto archivio: nel documento vecchio il codice era MX-T1, non valido.
+Promemoria resti: 'reperti generici' non basta se la clausola parla di protetti.
+Nota lavori: non chiedere una pausa per motivi meteo.
+Appunto cantiere: non allegare turni operai.
+Promemoria forma: email breve, con destinatario, trincea e frase PRG.
+Promemoria contatti: amministrazione@metronapoli.it gestisce le pratiche contabili, non le richieste di cantiere.
+Appunto allegati: la rassegna stampa sui ritrovamenti non va inserita nella email al referente.

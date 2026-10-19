@@ -1,0 +1,29 @@
+{
+  "persona": "Santi es restaurador en el Museo del Prado, en Madrid, especializado en la conservación de pintura española del Siglo de Oro. Gestiona los requisitos técnicos del taller de restauración del museo y vela por que toda intervención cumpla la Ley 16/1985 del Patrimonio Histórico Español. Su trabajo depende del análisis minucioso de las imágenes multiespectrales y de la coordinación con equipos de investigación internacionales que estudian la composición química de los pigmentos históricos.",
+  "task": "Incorpora al protocolo de conservación del Museo del Prado la exigencia vigente de la Ley de Patrimonio Histórico para documentar las intervenciones asociadas a préstamos.",
+  "required_files": [
+    "ley_patrimonio_prado.txt"
+  ],
+  "output_files": [
+    "data/protocolo_conservacion.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/protocolo_conservacion.docx",
+        "keywords": [
+          "Museo del Prado",
+          "registros de antes y después"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/protocolo_conservacion.docx",
+      "change": "modify"
+    }
+  ]
+}

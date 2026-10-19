@@ -1,0 +1,29 @@
+{
+  "persona": "Arlo is a harbour pilot based in Southampton. He keeps inbound vessel records, tide notes, ferry traffic briefings, and safety documents for movements through the Solent.",
+  "task": "Add the Red_Funnel_Ferries crossing frequency to the Solent collision-avoidance briefing, combining the route and frequency exactly.",
+  "required_files": [
+    "transit_schedule.xlsx"
+  ],
+  "output_files": [
+    "data/avoidance_briefing.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/avoidance_briefing.docx",
+        "keywords": [
+          "Every_30_Mins",
+          "Red_Funnel_Ferries"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/avoidance_briefing.docx",
+      "change": "modify"
+    }
+  ]
+}

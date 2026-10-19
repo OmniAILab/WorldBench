@@ -1,0 +1,22 @@
+Water board note: temperature readings should be logged below 78F for routine review.
+Water board note: turbidity samples above the weekly average need a lab confirmation.
+Water board note: intake screens must be photographed after kelp accumulation.
+Water board note: marine mammal sightings go in the environmental observation file.
+Water board note: brine discharge salinity must be at or below 65 ppt.
+Water board note: nighttime energy use should be compared with the prior shift.
+Water board note: membrane pressure spikes require a maintenance work order.
+Water board note: sample bottles must be rinsed with site water before collection.
+Water board note: San Diego County flow totals belong in the throughput dashboard.
+Water board note: beach access closures should be reported to the visitor desk.
+Water board note: dissolved oxygen readings are reviewed in a separate sheet.
+Water board note: pump vibration data should stay with the mechanical logs.
+Water board note: storm drain photos do not affect brine salinity compliance.
+Water board note: lab cooler seals should be checked before delivery.
+Water board note: the coastal commission packet needs only the exceedance summary.
+Water board note: filter backwash dates are not salinity thresholds.
+Water board note: sample labels should avoid handwritten corrections.
+Water board note: high-pressure membrane alarms are tracked separately.
+Local context: the Carlsbad plant serves San Diego County through seawater reverse osmosis.
+Marine environment: the brine and its discharge point are tracked separately from membrane pressure data.
+Coastal ecology: kelp and marine wildlife observations belong to environmental monitoring, not to the energy calculation.
+Operations: a sample sitting exactly at the limit is not an exceedance when the rule says "at or below".

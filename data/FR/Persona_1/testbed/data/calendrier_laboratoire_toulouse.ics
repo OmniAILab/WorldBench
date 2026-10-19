@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Centre spatial de Toulouse//Planning des essais//FR
+BEGIN:VEVENT
+UID:7c9e6679-7425-40de-944b-e07fc1f90ae7
+DTSTART:20260402T090000
+DTEND:20260402T103000
+SUMMARY:Étalonnage antenne RF — chambre anéchoïque
+DESCRIPTION:Vérification des chaînes de mesure hyperfréquences.
+END:VEVENT
+BEGIN:VEVENT
+UID:2b4d8e1a-3c5f-4a9b-8d2e-1f6a9c8b7d4e
+DTSTART:20260404T140000
+DTEND:20260404T153000
+SUMMARY:Inspection ligne cryogénique azote
+DESCRIPTION:Contrôle d’étanchéité avant la séquence du week-end.
+END:VEVENT
+BEGIN:VEVENT
+UID:9f1c3a5e-7b2d-4e8a-b1c4-5d9e2f3a6b8c
+DTSTART:20260406T100000
+DTEND:20260406T113000
+SUMMARY:Préparation chambre acoustique
+DESCRIPTION:Étalonnage des microphones de contrôle.
+END:VEVENT
+END:VCALENDAR

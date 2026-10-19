@@ -1,0 +1,20 @@
+Règle de sûreté appliquée par l’équipe au regard des arrêtés préfectoraux d’accès en vigueur : l’OVPF fournit l’analyse scientifique, tandis que seule l’autorité administrative compétente détermine les restrictions opposables au public. Les statuts du tableau sont ceux du plan opérationnel de mission.
+Une vigilance jaune maintient l’accès avec information au public.
+Une activité faible n’entraîne pas de fermeture.
+Un accès encadré nécessite la présence d’un guide.
+Des gaz modérés imposent une surveillance renforcée.
+La micro-sismicité seule ne ferme pas un secteur.
+Une déformation stable ne modifie pas l’accès.
+La vigilance orange limite les déplacements dans l’enclos.
+Les émissions soutenues déclenchent un contrôle supplémentaire.
+Une alerte rouge impose la fermeture immédiate du secteur concerné.
+Le brouillard dense peut interrompre temporairement une mission.
+Les sentiers hors enclos suivent les consignes de l’ONF.
+Le statut doit être inscrit dans la colonne dédiée.
+Seul le secteur demandé doit être mis à jour.
+Le nom du secteur doit rester identique.
+Le niveau d’alerte ne doit pas être recopié comme statut.
+Les secteurs côtiers ne sont pas concernés.
+Le statut attendu doit être saisi en français.
+Une vigilance orange sur un accès encadré impose la fermeture immédiate.
+Une activité faible confirmée sur 48 h n’entraîne pas de restriction supplémentaire.

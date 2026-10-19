@@ -1,0 +1,19 @@
+Promemoria EMA: includere solo il nome commerciale non basta per la compliance.
+Nota dossier: la frase GDP riguarda distribuzione, non autorizzazione export.
+Appunto qualità: la Qualified Person non va sostituita dal responsabile magazzino.
+Promemoria Latina: il lotto LT-778 non deve comparire nella sezione compliance generale.
+Nota farmaco: il foglio clinico non è la sezione richiesta.
+Regolamento EU-GMP Annex 16: La sezione relativa all'adempimento normativo estero pretende l'assunzione di responsabilità formale e la firma in calce redatta esclusivamente dalla Persona Qualificata (QP) nominata.
+Appunto export: la dichiarazione doganale non sostituisce la certificazione QP.
+Promemoria regolatorio: evitare traduzioni non tecniche di Qualified Person.
+Nota archivio: una bozza diceva Responsible Person, ma non è il requisito EMA.
+Appunto AIFA: il deviation report appartiene al log, non alla linea EMA da inserire.
+Promemoria dossier: inserire la linea sotto Compliance.
+Nota laboratorio: i risultati clinici non sono richiesti in questa istanza.
+Appunto reparto: la firma elettronica è un controllo interno separato.
+Promemoria UE: non scrivere certificazione GMP se la nota chiede QP.
+Nota stabilimento: non citare il turno di confezionamento.
+Appunto mercato: l'autorizzazione globale richiede una frase regolatoria, non numeri di lotto.
+Promemoria forma: documento breve con frase precisa.
+Promemoria archivio: la digitalizzazione dei dossier storici è in corso, ma non riguarda la sezione da compilare.
+Appunto reparto: il calendario delle pulizie di camera bianca è operativo e non entra nella linea richiesta.

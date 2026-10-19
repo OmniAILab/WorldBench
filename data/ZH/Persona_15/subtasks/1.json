@@ -1,0 +1,42 @@
+{
+  "persona": "涛在郑州附近黄河边的一座水文监测站工作。他测量河水浑浊程度，以安排水库冲沙，防止“地上悬河”溢出。",
+  "task": "比较计算机建议的放水量和严格配额，把允许执行的放水量写入计划表。",
+  "required_files": [
+    "quota_notice.xlsx",
+    "model_output.xlsx",
+    "release_rule_zhengzhou.txt",
+    "dialogue_zhengzhou_release.txt",
+    "yellowriver_dispatch_context.xlsx"
+  ],
+  "output_files": [
+    "data/release_plan.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/release_plan.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "55"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/release_plan.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

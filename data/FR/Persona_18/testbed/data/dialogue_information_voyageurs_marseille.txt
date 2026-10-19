@@ -1,0 +1,8 @@
+Malik : L’information concerne bien Noailles–Vieux-Port en service de journée ?
+Sonia : Oui.
+Malik : Le plan d’exploitation confirme Bus_83.
+Sonia : Exact.
+Marc : Bus_84 est réservé à la soirée.
+Sonia : Oui.
+Malik : Le message doit aussi prévenir des ralentissements en cas de mistral.
+Sonia : C’est la consigne à diffuser.

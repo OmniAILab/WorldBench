@@ -1,0 +1,49 @@
+{
+  "persona": "Sofia svolge il ruolo di coordinatrice della sicurezza in montagna e guida alpina a Cortina d'Ampezzo, preparando il territorio in vista dei prossimi Giochi Olimpici Invernali. Valuta i rischi di valanga e l'accessibilità dei percorsi nel gruppo delle Tofane, assicurando che tutti i protocolli di sicurezza siano conformi alle specifiche ordinanze di protezione civile della Regione Veneto e alle tutele ambientali di alta quota delle Dolomiti.",
+  "task": "Usa il bollettino valanghe per aggiornare lo stato pubblico dei percorsi Cresta_Tofane e Sentiero_Faloria nel foglio di servizio ./data/stato_percorsi_cortina.xlsx.",
+  "required_files": [
+    "bollettino_cortina.xlsx",
+    "note_pattuglia_cortina.txt"
+  ],
+  "output_files": [
+    "data/stato_percorsi_cortina.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/stato_percorsi_cortina.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Chiuso"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Prudenza"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/stato_percorsi_cortina.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

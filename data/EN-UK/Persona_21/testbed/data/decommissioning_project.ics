@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Workplace Calendar Services//Aberdeen Decommissioning Calendar//EN
+BEGIN:VEVENT
+UID:vessel-brief-1@local.test
+DTSTART:20261011T090000
+DTEND:20261011T093000
+SUMMARY:Vessel Briefing
+DESCRIPTION:Routine vessel planning.
+END:VEVENT
+BEGIN:VEVENT
+UID:rov-maintenance-2@local.test
+DTSTART:20261012T100000
+DTEND:20261012T110000
+SUMMARY:ROV Maintenance
+DESCRIPTION:Workshop checks only.
+END:VEVENT
+BEGIN:VEVENT
+UID:supply-boat-window-3@local.test
+DTSTART:20261013T070000
+DTEND:20261013T090000
+SUMMARY:Supply Boat Window
+DESCRIPTION:Routine sailing window.
+END:VEVENT
+BEGIN:VEVENT
+UID:fog-monitoring-4@local.test
+DTSTART:20261014T080000
+DTEND:20261014T083000
+SUMMARY:Fog Monitoring
+DESCRIPTION:Crew-transfer visibility check.
+END:VEVENT
+BEGIN:VEVENT
+UID:post-storm-inspection-5@local.test
+DTSTART:20261019T090000
+DTEND:20261019T100000
+SUMMARY:Post-storm Inspection
+DESCRIPTION:Inspection after any weather hold.
+END:VEVENT
+END:VCALENDAR

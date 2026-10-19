@@ -1,0 +1,49 @@
+{
+  "persona": "Fabrice est urbaniste à Strasbourg et spécialiste des infrastructures transfrontalières entre la France et l’Allemagne. Il travaille avec le Plan local d’urbanisme et les règles particulières de l’Eurodistrict Strasbourg-Ortenau, afin que les extensions du tramway respectent également les exigences patrimoniales de la Grande Île classée par l’UNESCO.",
+  "task": "Croise le contexte du segment Tram_Ext_A avec la règle d’aménagement de la liaison transfrontalière afin de distinguer le lot principal de la zone dépôt. Mets à jour le plan pour indiquer si la signalétique bilingue français-allemand est requise et précise sa portée.",
+  "required_files": [
+    "eurodistrict_notice.txt",
+    "contexte_segments_strasbourg.xlsx"
+  ],
+  "output_files": [
+    "data/segments_strasbourg_v2.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/segments_strasbourg_v2.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Oui"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Tous les abris"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/segments_strasbourg_v2.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

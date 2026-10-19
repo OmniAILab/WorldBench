@@ -1,0 +1,30 @@
+{
+  "persona": "Bettina ist Schäferin im geschützten Heideland des Naturschutzgebiets Lüneburger Heide in Niedersachsen und hütet eine große Herde einheimischer Heidschnucken, die die Landschaft durch Beweidung invasiver Gehölze auf natürliche Weise pflegen. Sie kämpft gegen plötzliche Ausbrüche zeckenübertragener Krankheiten und die strengen ökologischen Weidepläne des Niedersächsischen Landesbetriebs für Wasserwirtschaft, Küsten- und Naturschutz. Sie wertet verstreute tierärztliche Feldberichte, wechselnde saisonale Blühindikatoren und strikte Gebietsgrenzen aus, um die sichersten und ökologisch nützlichsten täglichen Weiderouten festzulegen.",
+  "task": "Übertrage das lokale Habitatziel für die Entfernung von Kiefernschösslingen aus dem internen Naturschutzplan in die saisonalen Ziele der Schäferei.",
+  "required_files": [
+    "naturschutzplan.txt"
+  ],
+  "output_files": [
+    "data/saisonziele.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/saisonziele.docx",
+        "keywords": [
+          "mindestens 500 Kiefernschösslinge",
+          "pro Hektar",
+          "Heidschnucken"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/saisonziele.docx",
+      "change": "modify"
+    }
+  ]
+}

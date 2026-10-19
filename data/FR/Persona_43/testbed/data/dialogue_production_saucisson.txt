@@ -1,0 +1,4 @@
+Boucher : Quel lot de saucisson brioché préparons-nous ce matin ?
+Chef de production : SB-QUOT-09, selon la recette traditionnelle sans pistaches ni herbes.
+Chef de production : SB-QUOT-09 est le lot quotidien de 12,5 kg et utilise la recette traditionnelle.
+Boucher : À 18 g/kg, cela donne 225 g de sel pour le lot.

@@ -1,0 +1,29 @@
+{
+  "persona": "Julian is a renewable energy policy analyst in Boulder, Colorado, specializing in the integration of wind and solar power into the regional Rocky Mountain grid. He manages the regulatory filings for the Colorado Public Utilities Commission and the technical documentation for Xcel Energy’s decarbonization initiatives, ensuring that proposed infrastructure projects meet the state’s ambitious climate goals while documenting the economic feasibility of community-scale battery storage.",
+  "task": "Add a solar dispatch hold event to the energy analyst calendar using the Rocky Mountain grid load-shedding test date.",
+  "required_files": [
+    "operator_notice.txt"
+  ],
+  "output_files": [
+    "data/analyst_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/analyst_calendar.ics",
+        "summary_keywords": [
+          "Solar Dispatch Hold"
+        ],
+        "description_keywords": [],
+        "date": "2026-05-18"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/analyst_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

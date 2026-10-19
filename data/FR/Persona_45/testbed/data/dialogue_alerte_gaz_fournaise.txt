@@ -1,0 +1,4 @@
+Agent : L’alerte de gaz est-elle confirmée pour le secteur Est ?
+Responsable de sécurité : Oui, transmettons la mesure et demandons l’intervention de la sécurité civile, sans attribuer les pouvoirs d’évacuation à l’observatoire.
+OVPF : La mesure de 06:40 pour Enclos_Fouqué_Est est confirmée critique, c’est une alerte confirmée.
+Volcanologue : J’alerte donc la sécurité civile de Sainte-Rose et je rappelle l’évacuation immédiate.

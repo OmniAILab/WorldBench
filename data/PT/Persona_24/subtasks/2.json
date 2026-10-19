@@ -1,0 +1,20 @@
+{
+  "persona": "Gonçalo é natural de Santa Cruz e trabalha como coordenador de operações de placa no Aeroporto Internacional da Madeira. Gere a rotação das aeronaves, a afetação de portas de embarque e a distribuição das equipas de assistência em terra quando os ventos cruzados condicionam as aproximações à pista.",
+  "task": "Extrai do boletim de segurança operacional a data da «Revisão da gestão de carga» e acrescenta esse evento ao calendário das operações terrestres do Aeroporto da Madeira.",
+  "required_files": [
+    "aviation_safety.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/operations_calendar.ics",
+        "keywords": [
+          "Revisão da gestão de carga",
+          "20260305"
+        ]
+      }
+    }
+  ]
+}

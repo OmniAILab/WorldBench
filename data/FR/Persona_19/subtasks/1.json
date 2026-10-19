@@ -1,0 +1,34 @@
+{
+  "persona": "Céline est affineuse de fromages en Savoie et travaille avec des producteurs de Beaufort AOP. Elle contrôle la température et l’humidité des caves, organise les retournements des meules et veille à la traçabilité des lots issus des alpages.",
+  "task": "Croise la note de cave et le dialogue d’affinage pour rédiger un plan court applicable aux meules de Beaufort AOP issues des alpages. Conserve uniquement la procédure actuelle de la coopérative : retourner chaque meule tous les deux jours, brosser à l’eau salée, noter le numéro de lot et garder les lots d’alpage séparés. Écarte la variante Beaufort AOP chalet et les consignes incomplètes.",
+  "required_files": [
+    "note_cave_beaufort.txt",
+    "dialogue_affinage_beaufort.txt"
+  ],
+  "output_files": [
+    "data/plan_retournement_beaufort.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/plan_retournement_beaufort.docx",
+        "keywords": [
+          "Beaufort AOP",
+          "Retourner chaque meule tous les deux jours",
+          "Brosser à l’eau salée",
+          "Noter le numéro de lot",
+          "lots",
+          "alpage"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/plan_retournement_beaufort.docx",
+      "change": "modify"
+    }
+  ]
+}

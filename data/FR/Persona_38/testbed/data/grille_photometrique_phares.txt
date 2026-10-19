@@ -1,0 +1,18 @@
+Grille interne de suivi préventif de la subdivision des Phares et Balises (indice relatif de transmission lumineuse par rapport à la valeur nominale de mise en service de l'optique) :
+Indice de rendement optique de 70–75 % : nettoyage complet des anneaux dioptriques et catadioptriques.
+Indice de 75–80 % : contrôle du réflecteur et dégraissage.
+Indice de 80–85 % : réglage de l’alignement focal de la lampe.
+Indice de 85–89 % : remplacement préventif de la source.
+Indice de 90–92 % : surveillance mensuelle.
+Indice de 93–94 % : conforme avec suivi.
+Indice de 96–97 % : conforme.
+Indice de 98–100 % : conforme.
+Optique de Fresnel du Créac’h à 95 % de rendement lumineux nominal, rotation stable sur cuve : statut technique Conforme.
+Scintillement irrégulier : intervention électrique sur armoire.
+Rotation lente : contrôle du moteur d'entraînement.
+Rotation rapide : recalibrage du régulateur.
+Condensation visible : ventilation et séchage de la lanterne.
+Rayure centrale : inspection manuelle.
+Prisme déplacé : arrêt de l’optique et calage au mastic.
+Feu de secours faible : remplacement batterie.
+Lentille non testée : statut en attente.

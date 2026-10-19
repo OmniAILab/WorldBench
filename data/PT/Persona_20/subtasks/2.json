@@ -1,0 +1,20 @@
+{
+  "persona": "Tiago dirige a logística de festivais de música de verão na Zambujeira do Mar. Coordena o campismo temporário e as equipas de apoio num concelho rural que recebe, de repente, muitos milhares de visitantes e que aplica regras exigentes de gestão de resíduos. Com modelos de fluxo de pessoas, destaca as equipas sanitárias com antecedência.",
+  "task": "Extrai do documento do fornecedor a chegada dos blocos de duche e acrescenta ao calendário da direção do festival um bloco para montar as infraestruturas do campismo, intitulado «Montagem das infraestruturas do campismo».",
+  "required_files": [
+    "supplier_logistics.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/director_calendar_zambujeira.ics",
+        "keywords": [
+          "Montagem das infraestruturas do campismo",
+          "20260728T080000"
+        ]
+      }
+    }
+  ]
+}

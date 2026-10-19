@@ -1,0 +1,19 @@
+{
+  "persona": "Anika is a secondary school science teacher based in Cambridge, responsible for coordinating the extracurricular Science Technology Engineering and Mathematics club. She maintains strict compliance logs for the biology department's cold chain storage, processes parental consent forms for off site educational visits, and liaises with external regulatory bodies for student project submissions.",
+  "task": "Add the spare goggles shelf note to the classroom cupboard list.",
+  "required_files": [
+    "minor_cupboard_note_cambridge.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/anika_cupboard_list.txt",
+        "keywords": [
+          "spare goggles are on the lower shelf"
+        ]
+      }
+    }
+  ]
+}

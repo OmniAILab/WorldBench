@@ -1,0 +1,22 @@
+{
+  "persona": "Cláudia nasceu em Sagres e é guia de vida selvagem marinha. Trabalha na ponta sudoeste do Algarve, muito exposta ao vento, com saídas de observação de golfinhos ao largo. Lida com a ondulação forte do Atlântico e com os limites do parque marinho, e usa leituras de sonar e rotas históricas das populações para posicionar os catamarãs sem perturbar os grupos.",
+  "task": "Cruza o percurso histórico da população grupo C de roazes-corvineiros com a leitura de sonar e atualiza as coordenadas de posicionamento do catamarã, mantendo a distância de observação junto ao Cabo de São Vicente. As observações servem apenas para o planeamento da rota e não substituem as regras de acesso da área marinha protegida.",
+  "required_files": [
+    "wildlife_log.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/sonar_readings.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 3,
+            "value": "36.96N_8.99W"
+          }
+        ]
+      }
+    }
+  ]
+}

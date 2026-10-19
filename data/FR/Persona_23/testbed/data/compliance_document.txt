@@ -1,0 +1,5 @@
+Atelier de ganterie de Millau — dossier de suivi des effluents, version applicable au 6 avril 2026.
+Atelier_Ganterie_Millau : seuil maximal de traces de chrome retenu pour le suivi du site, 0,05 mg/L ; registre des rejets à compléter après le relevé courant.
+Atelier_Central : seuil de suivi de l'installation distincte, 0,095 mg/L.
+Mégisserie de la vallée : seuil de suivi propre au site, 0,055 mg/L.
+Les valeurs propres à ces installations ne sont pas interchangeables et ne constituent pas un arrêté municipal général.

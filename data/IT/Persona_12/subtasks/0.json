@@ -1,0 +1,38 @@
+{
+  "persona": "Francesca è una forestale urbana a Torino, responsabile dell'attuazione del progetto \"ForestaMi\" per ampliare la copertura verde della città. Si destreggia tra gli standard tecnici per la mitigazione delle isole di calore urbane e le specifiche licenze di utilizzo dell'acqua rilasciate dall'Autorità di Distretto del Fiume Po. Il suo lavoro comprende l'analisi di immagini satellitari ad alta risoluzione dei livelli di umidità del suolo e il coordinamento con le squadre di manutenzione comunali per garantire la sopravvivenza di migliaia di alberi appena piantati, nelle estati piemontesi sempre più calde.",
+  "task": "Usa il limite della licenza idrica del Po per determinare il tetto settimanale di irrigazione del sito ForestaMi_ParcoDora e aggiorna la riga corrispondente nel file ./data/piano_irrigazione_torino.xlsx.",
+  "required_files": [
+    "nota_licenza_po_torino.txt"
+  ],
+  "output_files": [
+    "data/piano_irrigazione_torino.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/piano_irrigazione_torino.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": 3000
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/piano_irrigazione_torino.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

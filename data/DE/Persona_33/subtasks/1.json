@@ -1,0 +1,28 @@
+{
+  "persona": "Kaan koordiniert die Abfertigung temperaturempfindlicher Luftfrachtsendungen am Flughafen Frankfurt. Er wertet Kühlkettenprotokolle, Gefahrgutangaben sowie Lade- und Freigabeunterlagen aus. Bei Abweichungen muss er die betroffene Sendung eindeutig zuordnen und die jeweils einschlägige Sicherheitsprüfung veranlassen.",
+  "task": "Prüfe das Flugzeugmanifest am Flughafen Frankfurt gegen Gefahrgutkennzeichnungen, Zollhinweise und die positionsbezogenen Abweichungen. Ermittle die Palettenposition mit dem tatsächlich sicherheitsrelevanten UN1845-Fehler und schreibe ausschließlich an die Rampenabfertigung eine E-Mail, die Position, fehlende Kennzeichnung und die erforderliche Sperre eindeutig nennt.",
+  "required_files": [
+    "flugzeugmanifest.xlsx",
+    "kontakte_fra_cargo.xlsx",
+    "gefahrguthinweise_fra.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "ramp@fra-cargo.de",
+        "keywords": [
+          "Palettenposition_P1",
+          "Kennzeichnung UN1845 fehlt"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_ramp_*.eml",
+      "change": "create"
+    }
+  ]
+}

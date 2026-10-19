@@ -1,0 +1,30 @@
+{
+  "persona": "Carmen es viticultora en la Ribera del Duero y dirige una bodega familiar cerca de Peñafiel (Valladolid). Ajusta las labores del viñedo a los fuertes contrastes térmicos del páramo castellano y a las exigencias del Consejo Regulador de la Denominación de Origen. Su trabajo exige interpretar continuamente los datos de humedad del suelo y llevar la documentación de exportación para que cada añada cumpla las normas de etiquetado de la Unión Europea.",
+  "task": "Incorpora al documento de instrucciones de bodega de Peñafiel la norma vigente de la Denominación de Origen para la recepción de la vendimia.",
+  "required_files": [
+    "pliego_do_ribera.txt"
+  ],
+  "output_files": [
+    "data/instrucciones_bodega.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/instrucciones_bodega.docx",
+        "keywords": [
+          "Peñafiel",
+          "registrar la parcela",
+          "fecha de vendimia"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/instrucciones_bodega.docx",
+      "change": "modify"
+    }
+  ]
+}

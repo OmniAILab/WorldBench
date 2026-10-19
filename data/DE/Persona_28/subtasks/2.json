@@ -1,0 +1,31 @@
+{
+  "persona": "Dirk ist Instandhaltungsingenieur am Hauptdepot der Wuppertaler Schwebebahn in Nordrhein-Westfalen und sorgt für die tägliche Sicherheit der ältesten elektrischen Hängebahn der Welt. Er bekämpft die enorme Materialermüdung durch die über der Wupper schwingenden Züge und hält sich an die strengen städtischen Verkehrssicherheitsvorgaben des Eisenbahn-Bundesamts. Er wertet umfangreiche Datensätze zur Ultraschall-Schienenspannung, historische Verschleißmuster der Aufhängungen und anstehende städtische Veranstaltungstermine aus, um gezielt Streckenabschnitte für die nächtliche vorbeugende Verstärkung zu bestimmen.",
+  "task": "Nutze den Termin des Luisenfests und ergänze den Wartungskalender der Schwebebahn um eine verstärkte Streckenprüfung.",
+  "required_files": [
+    "stadtplanung_termine.txt"
+  ],
+  "output_files": [
+    "data/wartungskalender_ingenieur.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/wartungskalender_ingenieur.ics",
+        "summary_keywords": [
+          "Verstärkte Streckenprüfung"
+        ],
+        "description_keywords": [
+          "Luisenfest"
+        ],
+        "date": "2026-06-06"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/wartungskalender_ingenieur.ics",
+      "change": "modify"
+    }
+  ]
+}

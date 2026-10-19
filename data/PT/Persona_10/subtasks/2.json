@@ -1,0 +1,19 @@
+{
+  "persona": "Ana é do Entroncamento e coordena há catorze anos operações ferroviárias num centro de manutenção. Articula a circulação de passageiros e mercadorias com as limitações da infraestrutura regional, acompanhando avarias de sinalização e a disponibilidade das vias de intervenção.",
+  "task": "Extrai do documento de engenharia o limite revisto para as curvas da Beira Baixa e insere a frase completa na secção «Limites de velocidade» do manual de mercadorias.",
+  "required_files": [
+    "engineering_document.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/freight_manual.docx",
+        "keywords": [
+          "No troço de curvas da Beira Baixa abrangido pelo levantamento técnico, a velocidade máxima foi reduzida para 60 km/h"
+        ]
+      }
+    }
+  ]
+}

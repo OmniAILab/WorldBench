@@ -1,0 +1,50 @@
+{
+  "persona": "Malik est coordinateur d’exploitation des transports à Marseille. Il organise les déviations de tramway et de bus autour du Vieux-Port, tient compte du mistral, des grands évènements locaux et des contraintes de circulation propres aux quartiers centraux.",
+  "task": "Croise l’avis d’interruption, le tableau des alternatives et le dialogue d’exploitation. Pour la déviation locale de service correspondant au dossier « T2 vers le Vieux-Port » en service de journée, sélectionne la navette correcte en excluant la variante nocturne et les incidents T1, puis mets à jour la solution et le motif dans le plan d’exploitation.",
+  "required_files": [
+    "avis_tram_marseille.txt",
+    "alternatives_transport_marseille.xlsx",
+    "dialogue_deviation_marseille.txt"
+  ],
+  "output_files": [
+    "data/plan_exploitation_marseille.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/plan_exploitation_marseille.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": "Bus_83"
+          },
+          {
+            "row": 4,
+            "col": 3,
+            "value": "Interruption T2 vers Vieux-Port"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/plan_exploitation_marseille.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

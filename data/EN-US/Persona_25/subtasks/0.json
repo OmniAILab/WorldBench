@@ -1,0 +1,39 @@
+{
+  "persona": "Carmela is a container terminal operations manager at the Port of Newark in New Jersey, overseeing the loading and unloading of massive Neo-Panamax vessels. She handles the logistical intricacies of the Port Authority of New York and New Jersey’s labor regulations and the specific rail-transfer schedules for inland distribution, ensuring that thousands of containers move through the terminal efficiently while maintaining compliance with federal maritime security standards.",
+  "task": "Use the terminal manifest to find the discharge volume for Ever_Glory and record that volume in the inland rail schedule.",
+  "required_files": [
+    "terminal_manifest_newark.xlsx",
+    "dialogue_ever_glory_handoff.txt"
+  ],
+  "output_files": [
+    "data/rail_schedule.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/rail_schedule.xlsx",
+        "matches": [
+          {
+            "row": 6,
+            "col": 2,
+            "value": "4500_Units"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/rail_schedule.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

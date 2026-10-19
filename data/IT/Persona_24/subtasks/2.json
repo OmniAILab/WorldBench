@@ -1,0 +1,31 @@
+{
+  "persona": "Roberto facilita il commercio internazionale come spedizioniere doganale presso il Porto di Trieste, snodo cruciale per i collegamenti della \"Via della Seta Marittima\" verso l'Europa Centrale. Si muove tra il particolare status giuridico delle zone di libero scambio del Porto Vecchio e gli specifici obblighi di deposito elettronico dell'Agenzia delle Dogane e dei Monopoli. Le sue operazioni quotidiane comprendono la rapida interpretazione di complessi codici tariffari e la sincronizzazione dei manifesti di carico tra molteplici giurisdizioni legali, per prevenire colli di bottiglia nella rete di trasporto transeuropea.",
+  "task": "Inserisci nel manuale operativo del broker doganale l'aliquota aggiornata per l'elettronica diretta verso l'Europa centrale. Il file ./data/manuale_broker_trieste.docx deve contenere esattamente le seguenti diciture: «Aggiornamenti tariffari», «4.5%», «elettronica».",
+  "required_files": [
+    "note_aliquota_trieste.txt",
+    "bollettino_giurisdizioni_trieste.txt"
+  ],
+  "output_files": [
+    "data/manuale_broker_trieste.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/manuale_broker_trieste.docx",
+        "keywords": [
+          "Aggiornamenti tariffari",
+          "4.5%",
+          "elettronica"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/manuale_broker_trieste.docx",
+      "change": "modify"
+    }
+  ]
+}

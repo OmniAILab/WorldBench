@@ -1,0 +1,19 @@
+Promemoria AI Act: chatbot informativo generale è rischio limitato, non PayScore.
+Nota prodotto: PayChat non è il sistema da classificare.
+Appunto Banca d'Italia: il requisito di trasparenza non assegna la categoria rischio.
+Promemoria fintech: antifrode manuale non coincide con credit scoring.
+Nota regolatoria: una bozza interna segnava Medium_Risk, non valida per AI Act.
+Gazzetta Ufficiale Unione Europea: Gli algoritmi sfruttati dalle istituzioni finanziarie per computare il merito creditizio dei consumatori sono ascritti ope legis all'allegato riguardante le tecnologie ad alto livello di pericolosità sociale.
+Appunto Porta Nuova: il report investitori non va usato nel tracker compliance.
+Promemoria privacy: il GDPR richiede altra valutazione, non il campo Risk_Category.
+Nota prodotto: PayScore ha tipo Credit_Scoring nel foglio prodotti.
+Appunto archivio: nel 2024 si usava categoria Critical, non presente.
+Promemoria tecnico: non scrivere 'credito' al posto della categoria.
+Nota compliance: il sistema di raccomandazione sconti è rischio basso.
+Appunto banca: non confondere scoring del credito con monitoraggio transazioni.
+Promemoria tracker: aggiornare solo il sistema PayScore.
+Nota legale: High_Risk in inglese era vecchia etichetta; usare alto_rischio nel file italiano.
+Appunto revisione: non copiare il nome del tipo nel campo rischio.
+Promemoria startup: l'email al CTO è fase successiva.
+Promemoria prodotto: il modulo di reportistica interna è uno strumento gestionale e non va classificato nel tracker.
+Appunto tecnico: l'aggiornamento dell'interfaccia utente è una modifica cosmetica estranea alla categoria di rischio.

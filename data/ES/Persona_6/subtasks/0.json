@@ -1,0 +1,49 @@
+{
+  "persona": "Noa es bióloga marina en el Instituto Español de Oceanografía (IEO) de Vigo, donde vigila la salud del ecosistema de las Rías Baixas. Procesa grandes volúmenes de datos de sondas ambientales para ayudar a las cofradías de pescadores y mariscadoras a adaptarse a las cambiantes cuotas de la Unión Europea, aportando evidencias en tiempo real que respaldan una explotación sostenible y protegen la delicada biodiversidad de la costa gallega.",
+  "task": "Aplica a las lecturas de oxígeno disuelto de cada ría el umbral vigente de la resolución del INTECMAR, descartando umbrales antiguos, exenciones por bateas y redondeos. Registra en la hoja de avisos para las cofradías el estado de cada ría con las etiquetas previstas en la resolución.",
+  "required_files": [
+    "sondas_oxigeno_vigo.xlsx",
+    "resolucion_intecmar_vigo.txt"
+  ],
+  "output_files": [
+    "data/avisos_rias_vigo.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/avisos_rias_vigo.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Precaución"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Sin_precaución"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/avisos_rias_vigo.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

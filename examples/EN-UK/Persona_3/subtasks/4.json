@@ -1,0 +1,28 @@
+{
+  "persona": "Anika is a secondary school science teacher based in Cambridge, responsible for coordinating the extracurricular Science Technology Engineering and Mathematics club. She maintains strict compliance logs for the biology department's cold chain storage, processes parental consent forms for off site educational visits, and liaises with external regulatory bodies for student project submissions.",
+  "task": "Write a formal email to the head of department reporting the cold chain breach for Cooling Fridge Nineteen.",
+  "required_files": [
+    "coldchain_incidents_cambridge.txt",
+    "email_templates_anika.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/anika_formal_email.txt",
+        "keywords": [
+          "Cooling Fridge Nineteen exceeded the maximum allowed temperature"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/anika_formal_email.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

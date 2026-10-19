@@ -1,0 +1,33 @@
+{
+  "persona": "Anaïs est paludière à Guérande et gère plusieurs œillets dans les marais salants. Elle surveille la salinité, les coefficients de marée et la qualité de la fleur de sel, tout en respectant les pratiques traditionnelles du pays guérandais et les exigences de la coopérative locale.",
+  "task": "Croise la note de récolte avec le dialogue de la coopérative et rédige une checklist courte pour la levée de la fleur de sel dans les Marais de Guérande. Ne conserve que les gestes validés : utiliser une lousse propre, ne pas briser la croûte, noter le coefficient de marée et séparer les lots par œillet. Écarte les variantes anciennes ou incomplètes.",
+  "required_files": [
+    "note_recolte_guerande.txt",
+    "dialogue_levee_guerande.txt"
+  ],
+  "output_files": [
+    "data/checklist_fleur_de_sel.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/checklist_fleur_de_sel.docx",
+        "keywords": [
+          "Marais de Guérande",
+          "Utiliser une lousse propre",
+          "Éviter de briser la croûte",
+          "Noter le coefficient de marée",
+          "séparer les lots par œillet"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/checklist_fleur_de_sel.docx",
+      "change": "modify"
+    }
+  ]
+}

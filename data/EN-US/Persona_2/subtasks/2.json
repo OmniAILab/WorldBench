@@ -1,0 +1,30 @@
+{
+  "persona": "Elias is a historical restoration specialist in Philadelphia, Pennsylvania, focusing on the preservation of 18th-century masonry within Society Hill. He operates within the strict guidelines of the Philadelphia Historical Commission and must source period-accurate lime mortar and reclaimed brick, navigating the narrow, cobblestone alleys that restrict modern machinery while ensuring all structural reinforcements meet the city's specific masonry safety codes.",
+  "task": "Write an email to the reclaimed brick supplier confirming the order and include the site name and the mortar requirement.",
+  "required_files": [
+    "supplier_contacts_philadelphia.xlsx",
+    "materials_philadelphia.xlsx",
+    "order_context_philadelphia.txt",
+    "email_template_supplier_philadelphia.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "orders@reclaimedbrick.co",
+        "keywords": [
+          "SocietyHill_Rowhouse_5",
+          "reclaimed brick",
+          "lime mortar"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_orders_*.eml",
+      "change": "create"
+    }
+  ]
+}

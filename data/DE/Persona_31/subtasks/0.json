@@ -1,0 +1,39 @@
+{
+  "persona": "Dieter arbeitet als Geotechniker in einem Essener Projekt zur Nutzung ehemaliger Bergbauinfrastruktur für Geothermie. Er vergleicht aktuelle Messungen mit historischen Bestandsunterlagen und den projektspezifischen Sicherheitsbewertungen. Dabei muss er zwischen prüfbedürftigen Auffälligkeiten und freigegebenen Massnahmen unterscheiden.",
+  "task": "Vergleiche die Mikrobebenmessungen am Essener Zechengelände Zollverein mit den historischen Sicherungshinweisen, den Angaben zur Verfüllung und den aktuellen geotechnischen Bewertungen. Bestimme für den tatsächlich betroffenen Schacht die heute verbindliche Verstärkungsmaßnahme und aktualisiere ausschließlich dessen Eintrag im Sicherheitsblatt.",
+  "required_files": [
+    "mikrobebenmessungen.xlsx",
+    "stabilitaetshinweise_zollverein.txt"
+  ],
+  "output_files": [
+    "data/sicherheitsblatt_schacht.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/sicherheitsblatt_schacht.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Sofortige_Verpressung_erforderlich"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/sicherheitsblatt_schacht.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

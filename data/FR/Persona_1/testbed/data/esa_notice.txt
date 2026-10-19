@@ -1,0 +1,9 @@
+NOTE DE PROCÉDURE INTERNE — SALLE BLANCHE D’INTÉGRATION (CST / RANGUEIL)
+
+Contrôles techniques périphériques et rappels d’exploitation :
+- Avant le début de poste, l’équipe de quart consulte le journal des pressions différentielles et le relevé de température du sas.
+- Le registre des bouteilles d’azote et le carnet de maintenance des pompes relèvent de la ronde hebdomadaire des fluides.
+- Consigne d’accès locale validée : avant de franchir les portes de la salle blanche, il est obligatoire de signer et de vérifier le registre des particules.
+- Pour la sortie de la salle blanche, émarger uniquement la feuille de présence du sas d’habillage.
+- Avant l’entrée en salle grise d’emballage, vérifier le registre de propreté des conteneurs.
+- Le registre des échantillons témoins et le registre des badges visiteurs sont tenus séparément par le poste d’accueil.

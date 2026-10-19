@@ -1,0 +1,30 @@
+{
+  "persona": "Pilar es mediadora cultural en el barrio de El Cabanyal, en València, y trabaja por preservar la identidad arquitectónica de las viviendas de pescadores y sus fachadas de azulejo. Aplica el Plan Especial del Cabanyal-Canyamelar y el régimen de los inmuebles catalogados como Bien de Interés Cultural. Su trabajo consiste en valorar el deterioro del patrimonio cerámico y en ordenar las prioridades de restauración junto con las asociaciones vecinales.",
+  "task": "Incorpora al documento informativo para las asociaciones de El Cabanyal la obligación municipal relativa a la paleta cromática de las fachadas marineras.",
+  "required_files": [
+    "ordenanza_estetica_cabanyal.txt"
+  ],
+  "output_files": [
+    "data/documento_asociaciones_cabanyal.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/documento_asociaciones_cabanyal.docx",
+        "keywords": [
+          "El Cabanyal",
+          "paleta original de tonos pastel marineros",
+          "pintura exterior"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/documento_asociaciones_cabanyal.docx",
+      "change": "modify"
+    }
+  ]
+}

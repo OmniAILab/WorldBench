@@ -1,0 +1,21 @@
+Promemoria cantieri: Cave_Lounge ha permesso UN-MAT-2026-03.
+Nota umidità: Sasso_Barisano_4 riguarda manutenzione acqua, non permesso spa.
+Appunto UNESCO: UN-MAT-2025-11 è un codice archiviato.
+Prassi Cantiere: I lavori invasivi sulle cavità termali sono illegali senza la contestuale condivisione alle maestranze dell'esatto protocollo alfanumerico ratificato da Parigi.
+Registro contatti: artigiani@sassimatera.it è il gruppo delle squadre locali.
+Nota Matera: non inviare al concierge ospiti.
+Promemoria progetto: Subterranean_Spa è il progetto di ristrutturazione richiesto.
+Scheda conservazione: mantenere il numero di permesso completo.
+Nota albergo diffuso: non inserire dati sulle prenotazioni camere.
+Appunto cantiere: il sopralluogo delle 10:00 è un task calendario separato.
+Briefing Mattutino: Nessuna comunicazione di avvio lavori è considerata valida dai fornitori edili se difetta del titolo dell'opera o del pass burocratico UNESCO.
+Nota Basilicata: non trasformare il codice in descrizione libera.
+Registro storico: UN-MAT-2026-08 riguarda pavimentazione esterna.
+Appunto artigiani: non nominare singoli muratori.
+Nota comunicazione: tono operativo e breve.
+Promemoria documento: non allegare l'intero standard UNESCO.
+Scheda progetto: il codice va scritto esattamente con trattini.
+Promemoria contatti: amministrazione@sassimatera.it gestisce le pratiche contabili, non le squadre operative.
+Scheda cantiere: la fornitura dei materiali edili è logistica e non riguarda il codice di permesso.
+Nota Matera: il restauro degli infissi della reception segue un'autorizzazione distinta dal progetto Subterranean_Spa.
+Promemoria UNESCO: le visite guidate al cantiere non modificano il numero di permesso assegnato alla ristrutturazione.

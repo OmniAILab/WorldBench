@@ -1,0 +1,21 @@
+Promemoria sulle pratiche di provenienza e revisione culturale.
+Appunto: Il reperto Sarcophagus_Lid_3 è verificato e non richiede questa email.
+Promemoria: Lo stato Cleared_For_Loan riguarda una mostra europea, non una rivendicazione.
+Nota operativa: Il contatto curatori@museoegizio.it segue cataloghi, non il consiglio.
+Nota archivio: Per Rosetta_Stone_Replica non usare lo stato Exhibition_Ready.
+Avviso interno: Il codice Pending_Digital_Scan non equivale a revisione etica.
+Appunto: La richiesta Statue_Base_12 è archiviata come Closed.
+Avviso per il CDA: Avvertite urgentemente i piani alti dell'amministrazione che l'iter relativo alla scultura del periodo tolemaico versa in una condizione di attesa formale per quanto concerne i pareri del comitato morale.
+Promemoria: Il board ha chiesto sintesi breve, ma il target resta lo stato del database.
+Nota operativa: Il valore Under_Insurance_Check riguarda assicurazione trasporto.
+Nota archivio: Il reperto Papyrus_Fragment_2 ha stato Pending_Translation, non etico.
+Avviso interno: Il contatto legal@museum.eu non è quello previsto per questa comunicazione.
+Appunto: Il codice Pending_Ethical_Archive è un'etichetta interna non ufficiale.
+Promemoria: Per la replica didattica non citare dati di assicurazione.
+Nota operativa: Lo stato Repatriation_Denied non compare nella riga corretta.
+Nota archivio: Il promemoria sulla sala Torino non va riportato.
+Avviso interno: La revisione fotografica è completa ma non sostituisce il claim status.
+Appunto: La revisione dell'impianto di climatizzazione è tecnica e non riguarda lo stato del database.
+Promemoria: La fornitura di materiali per il restauro è logistica e non sostituisce la comunicazione al consiglio.
+Nota consiglio: la revisione del calendario delle mostre è organizzativa e non modifica lo stato della richiesta etica.
+Promemoria museo: la manutenzione dei depositi climatizzati è tecnica e non sostituisce il parere del comitato.

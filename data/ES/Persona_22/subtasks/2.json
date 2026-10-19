@@ -1,0 +1,29 @@
+{
+  "persona": "Alejandro es responsable de asuntos regulatorios farmacéuticos en el Parc Científic de Barcelona y supervisa la exportación de productos biomédicos a América Latina. Aplica las normas de correcta fabricación y las circulares de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS), además de las exigencias de integridad de datos del ICH GCP. Su trabajo consiste en revisar expedientes de lote antes de la liberación y en preparar la documentación que acompaña a cada envío.",
+  "task": "Escribe un correo electrónico a la unidad de calidad de fabricación para solicitar el resumen de desviaciones que falta en el lote BC-44.",
+  "required_files": [
+    "contactos_calidad_barcelona.xlsx",
+    "expediente_exportacion_barcelona_v2.xlsx",
+    "lotes_barcelona.xlsx",
+    "indicaciones_correo_calidad_barcelona.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "qa@bioparc.cat",
+        "keywords": [
+          "BC-44",
+          "resumen de desviaciones"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_qa_*.eml",
+      "change": "create"
+    }
+  ]
+}

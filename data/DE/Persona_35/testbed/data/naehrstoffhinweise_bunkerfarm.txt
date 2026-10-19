@@ -1,0 +1,8 @@
+St.-Pauli-Bunker – Nährstoffmonitoring der vertikalen Kräuterproduktion
+Anbaubereich: Genueser_Basilikum_Ebene_4. Die Bezeichnung ist eine interne Zonennummer im Nährstoff- und Ertragsverzeichnis.
+Zwischenbericht vom 14. Oktober 2026: Im Basilikumbestand wurden Blattveränderungen beobachtet; die Ursache war noch nicht bestimmt.
+Auswertung vom 16. Oktober: Für Genueser_Basilikum_Ebene_4 wurde das Risiko einer Kalziumblockade bestätigt. Die Warnung ist zunächst eine agronomische Risikobewertung und keine abschliessende Pflanzenkrankheitsdiagnose.
+Die Zone Genueser_Basilikum_Ebene_3 weist leichten Stickstoffmangel auf. Eine Kaliumabweichung an „Basilikum, Ebene 5“ ist ein davon getrenntes Ereignis.
+Folgeauftrag: pH-Wert, elektrische Leitfähigkeit und Nährstoffrezeptur kontrollieren; Anpassungen sind durch die Anbauleitung freizugeben.
+In der Ertragsprognose wird nur die Zeile Genueser_Basilikum_Ebene_4 mit „Risiko_Kalziumblockade“ aktualisiert.
+Restaurantbestellungen sind für die Lieferplanung relevant, verändern jedoch die Nährstoffbewertung nicht.

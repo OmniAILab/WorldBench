@@ -1,0 +1,21 @@
+Appunti sanitari per il monitoraggio della costa siciliana.
+Appunto: Il valore 0.08mg richiede revisione e non può essere segnato conforme.
+Promemoria: Il settore Capo_Gallo è in attesa di seconda analisi e non va aggiornato.
+Nota operativa: La soglia 0.10mg appartiene al vecchio protocollo non più valido.
+Nota archivio: Il valore 0.04mg riguarda un campione di controllo del laboratorio, non il settore export.
+Avviso interno: Per Gulf_of_Termini usare prudenza perché manca il dato microbiologico.
+Appunto: La dicitura Safe provvisoria del tecnico non basta senza confronto con la soglia.
+Protocollo di monitoraggio costiero: il settore è marcato «Conforme» nel registro operativo soltanto quando la misura ambientale è inferiore alla soglia di attenzione prevista per questa campagna; l’idoneità alla commercializzazione segue le verifiche sanitarie competenti.
+Promemoria: Il valore 0.06mg supera il limite operativo e richiede blocco temporaneo.
+Nota operativa: Il promemoria sul ghiaccio dei pescherecci non riguarda la colonna conformità.
+Nota archivio: Per Mazara_West il dato è biologico, non chimico.
+Avviso interno: La soglia 0.05mg del vecchio foglio è valida solo se il settore è indicato nella tabella monitor.
+Appunto: Il campione di Mondello è turistico e non parte della filiera export.
+Promemoria: Il codice 0.05mg_Watch non equivale a conformità sanitaria.
+Nota operativa: Le cooperative hanno chiesto anticipo notifica, ma non modifica il valore tecnico.
+Nota archivio: Il valore 0.03mg è riferito alla vasca pilota del porto.
+Avviso interno: Per Gulf_of_Palermo non usare la riga del 2025 archiviata nel faldone blu.
+Appunto: La manutenzione del frigorifero campioni è tecnica e non determina la conformità export.
+Promemoria: La sostituzione dei guanti monouso del laboratorio è logistica e non incide sul valore registrato.
+Nota laboratorio: la calibrazione dello spettrofotometro è tecnica e non modifica il valore chimico già registrato.
+Promemoria Palermo: il controllo delle boe di segnalazione è marittimo e non determina la conformità sanitaria export.

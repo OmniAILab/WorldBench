@@ -1,0 +1,28 @@
+{
+  "persona": "Roberto facilita il commercio internazionale come spedizioniere doganale presso il Porto di Trieste, snodo cruciale per i collegamenti della \"Via della Seta Marittima\" verso l'Europa Centrale. Si muove tra il particolare status giuridico delle zone di libero scambio del Porto Vecchio e gli specifici obblighi di deposito elettronico dell'Agenzia delle Dogane e dei Monopoli. Le sue operazioni quotidiane comprendono la rapida interpretazione di complessi codici tariffari e la sincronizzazione dei manifesti di carico tra molteplici giurisdizioni legali, per prevenire colli di bottiglia nella rete di trasporto transeuropea.",
+  "task": "Scrivi una email ai clienti di spedizione ricordando la scadenza di deposito elettronico per la rotta Trieste-Vienna.",
+  "required_files": [
+    "note_scadenza_dogane_trieste.txt",
+    "compliance_adm_trieste.xlsx",
+    "contatti_spedizioni_trieste.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "clients@shipping-trieste.it",
+        "keywords": [
+          "Trieste_to_Vienna",
+          "2026-03-01_1200_CET"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_clients_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "persona": "Malia is a marine restoration ecologist in Honolulu, Hawaii, focusing on the rehabilitation of coral nurseries within the Waikiki Marine Life Conservation District. She manages the permitting processes of the Hawaii Division of Aquatic Resources and the environmental impact statements required by the U.S. Army Corps of Engineers, coordinating the transplantation of heat-resilient coral species while documenting the effects of localized ocean acidification on the surrounding reef structures.",
+  "task": "Add a coral transplantation dive to the conservation district calendar using the Division of Aquatic Resources approval notice.",
+  "required_files": [
+    "dar_approval_notice.txt"
+  ],
+  "output_files": [
+    "data/conservation_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/conservation_calendar.ics",
+        "summary_keywords": [
+          "Coral Transplantation Dive"
+        ],
+        "description_keywords": [],
+        "date": "2026-05-20"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/conservation_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

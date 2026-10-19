@@ -1,0 +1,21 @@
+Promemoria evento: Cortina_Snow_Talk prevede 900_Pax e non va aggiornato.
+Nota post-olimpica: il certificato valanghe riguarda i permessi, non la capacità shuttle.
+Appunto impianti: 3200_Pax era la capienza della prova tecnica.
+Regola Pubblica Sicurezza: Il dimensionamento dell'arco trasporti per l'esodo serale deve combaciare chirurgicamente con il volume massimo di afflusso preventivato per la kermesse musicale.
+Registro Dolomiti: il festival indicato è Dolomiti_Music_Fest.
+Nota navette: usare il dato proiezione partecipanti, non il numero di vendor.
+Promemoria Belluno: la zona Edelweiss richiede sopralluogo separato.
+Scheda sicurezza: la capienza minima non va arrotondata verso il basso.
+Nota Cortina: non confondere passeggeri con posti per singola corsa.
+Appunto trasporto: 4500_Pax appartiene alla stima precedente.
+Promemoria output: compilare solo Shuttle_Capacity.
+Nota viabilità: la chiusura passo non è nel foglio corrente.
+Registro fornitori: Alpine_Staging_Co non riguarda il trasporto shuttle.
+Appunto festival: il palco principale non modifica la proiezione partecipanti.
+Nota staff: non inserire nomi degli artisti.
+Promemoria dati: mantenere il formato con suffisso _Pax.
+Scheda eventi: non aggiornare eventi diversi dal festival indicato.
+Promemoria trasporti: la verniciatura delle navette è manutenzione estetica e non cambia il dimensionamento richiesto.
+Scheda evento: l'allestimento del punto ristoro è logistico e non incide sulla proiezione partecipanti.
+Nota Dolomiti: gli impianti di risalita per il pubblico hanno una capacità distinta da quella delle navette del festival.
+Promemoria Cortina: il servizio urbano per il centro pedonale non entra nel dimensionamento shuttle dell'evento musicale.

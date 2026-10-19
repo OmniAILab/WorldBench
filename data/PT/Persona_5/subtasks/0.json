@@ -1,0 +1,22 @@
+{
+  "persona": "Ricardo é gestor de uma casa de espetáculos musicais no bairro histórico de Alfama, em Lisboa. É especializado na preservação da herança expressiva das atuações acústicas de fado e na gestão das relações com a vizinhança. Os seus maiores desafios são as rigorosas normas municipais sobre ruído e as estruturas complexas de direitos de autor da música tradicional, o que o obriga a ajustar dinamicamente os alinhamentos dos intérpretes e os mapas de lugares de cada noite em função da afluência variável de turistas.",
+  "task": "Na casa de fado de Alfama, aplica ao dia 2026-04-01 a condição específica da licença do estabelecimento para o termo da música ao vivo e a margem de dez minutos indicada na nota operacional, e atualiza a hora de fim da última canção no programa noturno.",
+  "required_files": [
+    "noise_alfama.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/schedule_alfama.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "22:50"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Promemoria tariffe: i componenti alimentari hanno aliquota 2.0%.
+Nota Porto Vecchio: ADM-HI non è un'aliquota percentuale.
+Appunto doganale: 5.0% era la proposta precedente non confermata.
+Registro giurisdizioni: elettronica Europa centrale è il caso da aggiornare.
+Nota Trieste: mantenere la percentuale nel manuale operativo.
+Promemoria rotta: Trieste_to_Vienna ha una scadenza filing separata.
+Scheda manuale: usare la sezione Aggiornamenti tariffari.
+Nota clienti: non trasformare questa modifica in una email.
+Appunto merci: tessili lusso non rientra nel bollettino corrente.
+Promemoria output: includere la parola elettronica.
+Nota ADM: non aggiungere interpretazioni legali estese.
+Registro vecchio: 3.8% apparteneva al regime 2025.
+Appunto terminal: la zona franca non azzera questa aliquota.
+Nota broker: citare la nuova aliquota in forma chiara.
+Promemoria documento: non rimuovere le intestazioni esistenti.
+Scheda tariffaria: la percentuale va scritta come 4.5%.
+Promemoria manuale: l'impaginazione del documento è una preferenza redazionale e non modifica l'aliquota.
+Scheda terminal: la riorganizzazione degli scaffali deposito è logistica e non riguarda l'aggiornamento tariffario.
+Nota Porto Vecchio: le merci di antiquariato seguono una voce tariffaria diversa dall'elettronica.
+Promemoria broker: i costi di movimentazione terminalistica non devono essere confusi con l'aliquota doganale.

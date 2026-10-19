@@ -1,0 +1,31 @@
+{
+  "persona": "Alessio concilia le complesse esigenze infrastrutturali del centro storico di Roma con gli obiettivi di pianificazione urbana a lungo termine dopo le celebrazioni del Giubileo 2025-2026. Si muove tra i livelli burocratici dell'amministrazione di Roma Capitale e gli specifici mandati di tutela della Soprintendenza Speciale per Archeologia, Belle Arti e Paesaggio. Il suo ruolo comprende la sintesi di migliaia di moduli di feedback pubblico e rapporti di fattibilità tecnica per sviluppare zone pedonali sostenibili attorno al Colosseo e al Foro Romano.",
+  "task": "Trasforma il principale rilievo dei cittadini sulla zona del Colosseo in una breve risposta amministrativa per Roma Capitale nel file ./data/risposta_amministrativa_roma.docx.",
+  "required_files": [
+    "note_feedback_giubileo.txt",
+    "feedback_giubileo_roma.xlsx"
+  ],
+  "output_files": [
+    "data/risposta_amministrativa_roma.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/risposta_amministrativa_roma.docx",
+        "keywords": [
+          "Colosseum_Plaza",
+          "Mancanza_ombreggiamento",
+          "Roma Capitale"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/risposta_amministrativa_roma.docx",
+      "change": "modify"
+    }
+  ]
+}

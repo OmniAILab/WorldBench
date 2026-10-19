@@ -1,0 +1,28 @@
+{
+  "persona": "Isobel from Galashiels is a textile designer for a luxury cashmere mill in the Scottish Borders. She keeps batch notes on wool quality, dye processes, River Tweed safeguards, and client communications with buyers in Milan and Paris.",
+  "task": "Insert the official Borders PGI wording into the Milan negotiation brief exactly as written, without replacing it with cashmere-origin or client-marketing wording.",
+  "required_files": [
+    "pgi_borders_notice.txt"
+  ],
+  "output_files": [
+    "data/negotiation_brief_milan.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/negotiation_brief_milan.docx",
+        "keywords": [
+          "Protected Geographical Indication: Borders-produced tweed"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/negotiation_brief_milan.docx",
+      "change": "modify"
+    }
+  ]
+}

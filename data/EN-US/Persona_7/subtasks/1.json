@@ -1,0 +1,31 @@
+{
+  "persona": "Hiroshi is a production manager for a specialized outdoor apparel manufacturer in Portland, Oregon, overseeing the assembly of technical gear designed for Pacific Northwest conditions. He handles the complexities of sourcing recycled textiles that meet the state’s rigorous sustainability labeling laws and coordinates with the Port of Portland for international component shipments, ensuring that the manufacturing floor’s output stays aligned with seasonal retail demands and regional environmental standards.",
+  "task": "Convert the Port of Portland shipment note into a receiving checklist document for the factory floor.",
+  "required_files": [
+    "port_notice_portland.txt"
+  ],
+  "output_files": [
+    "data/receiving_checklist.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/receiving_checklist.docx",
+        "keywords": [
+          "Port of Portland",
+          "Verify the seal number",
+          "Check for moisture damage",
+          "Log the arrival time"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/receiving_checklist.docx",
+      "change": "modify"
+    }
+  ]
+}

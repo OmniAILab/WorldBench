@@ -1,0 +1,39 @@
+{
+  "persona": "Roser dirige una colla castellera en Tarragona, donde organiza la construcción de castells humanos para la diada de Santa Tecla en la Plaça de la Font. Compagina los manuales de prevención de la Coordinadora de Colles Castelleres con los permisos municipales de ocupación del espacio público y con las franjas de retransmisión de la televisión comarcal. Su trabajo consiste en asignar posiciones en la pinya según la categoría física de cada casteller y en llevar el expediente administrativo de la entidad.",
+  "task": "Asigna a Marc_Casteller la posición adecuada en la base de la pinya según su categoría de peso y actualiza la estructura del castell.",
+  "required_files": [
+    "categorias_castellers.xlsx",
+    "manual_prevencion_cccc.txt"
+  ],
+  "output_files": [
+    "data/estructura_castell.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/estructura_castell.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Base_de_pinya"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/estructura_castell.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

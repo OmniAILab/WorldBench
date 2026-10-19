@@ -1,0 +1,28 @@
+{
+  "persona": "Jordi es investigador biotecnológico en el distrito de innovación 22@ de Barcelona, donde gestiona datos clínicos a gran escala para una empresa especializada en medicina personalizada. Dedica sus jornadas a conciliar los estrictos requisitos de la Autoritat Catalana de Protecció de Dades (APDCAT) con la necesidad de compartir datos con agilidad entre el Hospital Clínic y laboratorios internacionales, asegurándose de que cada proyecto respete los marcos éticos propios de la Generalitat de Catalunya.",
+  "task": "Localiza en la hoja de exportación el identificador que se retirará de Cesión_Clínica_01 y, con ayuda del directorio del Hospital Clínic, identifica el buzón operativo responsable de la supresión de identificadores. Escríbele un correo que confirme el plan de eliminación y nombre expresamente ese campo, sin confundirlo con los contactos de investigación, protección de datos o asesoría legal.",
+  "required_files": [
+    "contactos_clinic.xlsx",
+    "indicaciones_correo_clinic.txt",
+    "exportacion_barcelona_v2.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "dades@clinic.cat",
+        "keywords": [
+          "ID_Nacional",
+          "eliminación"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_dades_*.eml",
+      "change": "create"
+    }
+  ]
+}

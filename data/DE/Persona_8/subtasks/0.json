@@ -1,0 +1,39 @@
+{
+  "persona": "Sabine koordiniert Containerverkehre im Hamburger Hafen. Für Schiffsankünfte am Terminal Altenwerder gleicht sie die betriebliche Disposition mit Tidenfenstern und den nautischen Freigaben ab.",
+  "task": "Wähle für MV_Altenwerder das in der geprüften Tidentabelle als ausreichend ausgewiesene Ankunftsfenster und übertrage es in den Liegeplatzplan.",
+  "required_files": [
+    "tiden_elbe.xlsx",
+    "tidenhinweise_hamburg.txt"
+  ],
+  "output_files": [
+    "data/liegeplatz_hamburg_ankunft.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/liegeplatz_hamburg_ankunft.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "08_10"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/liegeplatz_hamburg_ankunft.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

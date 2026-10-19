@@ -1,0 +1,61 @@
+{
+  "persona": "素兰是在广州一个热闹电子市场工作的出口文员。她为从南沙港发出的货物填写海关表格，计算复杂的增值税税率，还常常抱怨南方潮湿闷热的天气。",
+  "task": "把广交会后经南沙港转出口的机械样机 INV-88 作为当前交易，交叉核对发票金额、2026 年企业内部计税参考表、展后转出口记录和单证对话。按内部结转测算口径以 13% 计算参考税额（不作为出口环节实际应缴增值税），并在开票表写入测算税额、参考税率和计税依据；不要套用电子元件、维修服务或样品展示费的参考税率。",
+  "required_files": [
+    "vat_notice_2026.txt",
+    "invoice_gz.xlsx",
+    "canton_fair_export_gz.xlsx",
+    "dialogue_vat_nansha_gz.txt"
+  ],
+  "output_files": [
+    "data/billing_gz.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/billing_gz.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "26000"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "13%"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": 200000
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/billing_gz.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

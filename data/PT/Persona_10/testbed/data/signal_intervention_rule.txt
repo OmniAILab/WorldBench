@@ -1,0 +1,11 @@
+Atraso de comunicação: manter a via de manutenção disponível e acompanhar o sistema.
+Falha de baliza: marcar inspeção, mantendo circulação condicionada.
+Sinal amarelo persistente: rever a prioridade ao fim do turno.
+Avaria de barreira: encaminhar para manutenção de passagem de nível.
+Avaria Crítica - Perda Total de Circuito de Via: marcar a via de manutenção como Bloqueada para reparação de sinal.
+Falha de circuito: pedir diagnóstico antes de alterar a disponibilidade.
+Sinalização instável: manter uma via de manutenção de reserva.
+Atraso de rede: contactar o centro de telecomunicações.
+Comunicação degradada: reduzir a prioridade da intervenção.
+Perda parcial de circuito: marcar a via de manutenção como Em observação para reparação de sinal.
+Perda intermitente de sinal: marcar a via de manutenção como Reservada para inspeção de sinal.

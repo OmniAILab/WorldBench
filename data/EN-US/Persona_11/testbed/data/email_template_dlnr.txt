@@ -1,0 +1,25 @@
+DLNR Permit Review — Email Draft
+Subject: Shoreline permit review request
+Aloha,
+We are requesting DLNR permit review for the high-priority shoreline segment identified in the permit register.
+Please confirm the next coordination steps.
+Best regards,
+Coastal Planning Team
+
+Note: do not conflate erosion priority with a cultural monitor request.
+Note: turtle and dune matters remain separate tracks.
+Note: name the North Shore only where it helps the context.
+Note: the DLNR address must come from the contacts sheet.
+Note: do not present a surf contest as grounds for priority.
+Note: do not promise an authorization.
+Note: keep the segment identifier exactly.
+Note: a permit review is not a cultural clearance.
+Note: keep an institutional tone.
+Note: do not add a wave index that was not requested.
+Note: avoid comments about lifeguard parking.
+Note: distinguish coastal planning from DLNR permits.
+Note: do not use the Cultural_Review address.
+Note: do not use the Marine_Resources address.
+Note: the High segment must be verified in permit_priority.
+Note: state that this is a review request.
+Note: the message should stay brief.

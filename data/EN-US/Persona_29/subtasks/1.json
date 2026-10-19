@@ -1,0 +1,28 @@
+{
+  "persona": "Zara is an aeronautical event coordinator in Albuquerque, New Mexico, responsible for the logistical management of the International Balloon Fiesta. She navigates the complex airspace restrictions of the Federal Aviation Administration and the specific land-use permits of the Sandia Pueblo, ensuring that hundreds of hot air balloons can safely launch and land while coordinating with local law enforcement to manage the influx of thousands of spectators into the city.",
+  "task": "Write an email to the security team about the launch field perimeter incident.",
+  "required_files": [
+    "security_contacts_albuquerque.xlsx",
+    "incident_log.xlsx",
+    "dialogue_perimeter_incident.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "security@balloonfiesta.example",
+        "keywords": [
+          "North_Gate_3",
+          "Crowd_Breach_Attempt"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_security_*.eml",
+      "change": "create"
+    }
+  ]
+}

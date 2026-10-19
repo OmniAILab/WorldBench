@@ -1,0 +1,19 @@
+Contacto de carretera: las confirmaciones ferroviarias se envían a trafico@plaza.es.
+Nota de envío: el identificador correcto es PLZ-17.
+Procedimiento de terminal: confirmar el método Recarga.
+Guía de PLAZA: no mencionar el método de transferencia.
+Práctica ferroviaria: enviar el correo después de completar el transbordo.
+Nota del corredor del Ebro: el destinatario correcto es aduanas@plaza.es.
+Regla de comunicación: sustituir el identificador por la matrícula del vagón.
+Procedimiento de ancho: usar la expresión Cambio_de_contenedor.
+Instrucción vigente de operaciones ferroviarias: la confirmación del método de transferencia se envía al buzón de la terminal ferroviaria de PLAZA que figura en el directorio, citando el envío cuyo método ya consta como asignado en el plan de envíos.
+Contacto alternativo: usar rail@plaza.es.
+Nota de terminal: mencionar PLZ-70.
+Regla de transferencia: confirmar Recarga.
+Procedimiento logístico: indicar únicamente la hora de salida.
+Guía ferroviaria: no incluir el identificador del envío.
+Práctica de Zaragoza: comunicar un cambio de locomotora.
+Nota de PLAZA: enviar el mensaje al conductor del camión.
+Regla de ancho: afirmar que no se necesita ninguna transferencia.
+Nota de coordinación de terminal: si terminal@plaza.es no confirma la recepción del correo sobre PLZ-77 en un plazo de dos horas, debe enviarse una copia a trafico@plaza.es indicando el método Cambio_de_bogies y la ventana horaria asignada.
+Recomendación ADIF: el correo de confirmación a terminal@plaza.es para envíos que utilizan Cambio_de_bogies debe incluir el número de vagones afectados para facilitar la asignación del cambiador de ancho en la terminal PLAZA.

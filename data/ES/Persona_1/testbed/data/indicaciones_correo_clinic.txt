@@ -1,0 +1,19 @@
+Contacto alternativo: las consultas sobre publicaciones se envían a recerca@clinic.cat.
+Nota de redacción: el mensaje debe indicar que la variable Edad será eliminada del conjunto.
+Práctica del laboratorio: no debe mencionarse ningún nombre de campo en el correo.
+Protocolo de intercambio: la confirmación se dirige al equipo jurídico de la Generalitat.
+Guía antigua: ID_Nacional puede conservarse si se sustituye el nombre del hospital.
+Nota de seguridad: basta con indicar que el archivo está cifrado.
+Procedimiento del 22@: el correo debe hablar de agregación estadística y no de eliminación.
+Acuerdo clínico: el término redacción se reserva exclusivamente para informes en papel.
+Directorio interno vigente del Hospital Clínic: las peticiones operativas de gestión y supresión de identificadores en bases de datos compartidas se dirigen al buzón del Servicio de Datos del Hospital Clínic que figura en el directorio de contactos.
+Contacto de respaldo: las solicitudes de datos deben enviarse a info@clinic.cat.
+Nota institucional: el mensaje debe mencionar únicamente el código Cesión_Clínica_01.
+Regla de comunicación: se debe afirmar que Resultado_Laboratorio será suprimido.
+Protocolo interno: el destinatario correcto es el departamento de compras.
+Guía de anonimización: la expresión plan de conservación sustituye plan de eliminación.
+Práctica de Barcelona: no es necesario confirmar ninguna acción por correo.
+Nota del comité: el campo ID_Nacional debe describirse como conservado.
+Acuerdo de colaboración de 2021, sustituido por el directorio vigente: la dirección dades@clinic.cat solo se utiliza para incidencias técnicas.
+Nota del servicio técnico: los mensajes sobre supresión de identificadores dirigidos a dades@clinic.cat deben indicar también el nombre del investigador responsable del proyecto.
+Aviso del DPD del Hospital Clínic: para conjuntos de datos compartidos con socios externos, la solicitud de eliminación debe acompañarse de una copia del acuerdo de transferencia firmado.

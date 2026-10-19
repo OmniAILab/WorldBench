@@ -1,0 +1,21 @@
+Promemoria fondi: Manuscript_Care_Microgrant scade il 2026-07-15.
+Nota archivio: Codex_B_112 riguarda priorità di digitalizzazione, non la scadenza del grant.
+Appunto ateneo: il seminario filologia è previsto il 2026-10-05.
+Memo Rettorato: Le schede scientifiche dei nuovi progetti non possono prescindere dalla rendicontazione esatta della chiusura fondi prevista per il dipartimento di Umanistica Digitale.
+Registro finanziamenti: Digital_Philology_Grant è la riga pertinente.
+Nota Alma Mater: non inserire il budget nel riepilogo se non richiesto.
+Promemoria Soprintendenza: gli standard conservativi sono in un foglio separato.
+Scheda progetto: usare il formato ISO della data.
+Nota scadenze: 2026-09-20 è una bozza non definitiva.
+Appunto metodologia: TEI XML riguarda il calendario di lavoro.
+Promemoria output: includere il nome del bando nel documento.
+Nota ricerca: non scrivere una email in questa istanza.
+Registro precedente: Digital_Archive_Seed non è il grant indicato.
+Appunto biblioteca: la data di chiusura sala studio non è rilevante.
+Nota documento: inserire sotto Scadenze progetto.
+Promemoria accademico: mantenere testo breve e verificabile.
+Scheda finanziamenti: non confondere deadline con data di pubblicazione.
+Promemoria ateneo: la prenotazione dell'aula riunioni è organizzativa e non riguarda la scadenza da inserire.
+Scheda segreteria: l'aggiornamento della rubrica contatti è amministrativo e non incide sul riepilogo bandi.
+Nota Alma Mater: la scadenza per le missioni di ricerca è gestita su un calendario amministrativo separato.
+Promemoria Digital Humanities: il workshop TEI autunnale non modifica la deadline del finanziamento.

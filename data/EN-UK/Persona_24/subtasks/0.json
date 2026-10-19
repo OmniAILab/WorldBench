@@ -1,0 +1,38 @@
+{
+  "persona": "Hattie is a field archaeologist in York, working on urban excavation records and finds documentation. She maintains lab result sheets, planning notes, developer notices, and Historic Environment Record submissions.",
+  "task": "Use the York lab results to update the Historic Environment Record sheet for Bone_Comb_12, copying the exact carbon date into the recorded date/status field.",
+  "required_files": [
+    "lab_results_york.xlsx"
+  ],
+  "output_files": [
+    "data/environment_record.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/environment_record.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "950_AD"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/environment_record.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

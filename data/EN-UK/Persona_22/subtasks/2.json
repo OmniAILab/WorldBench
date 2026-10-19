@@ -1,0 +1,28 @@
+{
+  "persona": "Tom is an agricultural technologist in Lincoln, where he uses drones for precision spraying across arable farms in the Fens. He keeps crop health sheets, flight-path records, CAA notes, and Environment Agency buffer-zone guidance.",
+  "task": "Extract the Environment Agency no-spray buffer-zone rule from the bulletin and insert it into the Flight Restrictions section of the drone operation manual.",
+  "required_files": [
+    "environmental_bulletin.txt"
+  ],
+  "output_files": [
+    "data/drone_manual.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/drone_manual.docx",
+        "keywords": [
+          "Maintain a 10-metre no-spray buffer zone from all drainage dykes"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/drone_manual.docx",
+      "change": "modify"
+    }
+  ]
+}

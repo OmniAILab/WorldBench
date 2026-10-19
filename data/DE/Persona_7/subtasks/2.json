@@ -1,0 +1,28 @@
+{
+  "persona": "Fabian unterstützt ein Medizintechnikunternehmen im Raum Nürnberg bei der Qualitätssicherung klinischer Unterlagen. Er bewertet pseudonymisierte Sicherheitsereignisse und achtet auf eine nachvollziehbare datenschutzgerechte Dokumentation.",
+  "task": "Bitte die QA-Leitung per E-Mail um Bestätigung, dass das am höchsten eingestufte Ereignis korrekt in der Sicherheitszusammenfassung erfasst wurde.",
+  "required_files": [
+    "kunden_kontakte_nuernberg.xlsx",
+    "dossier_nuernberg_aktualisiert.xlsx",
+    "mailhinweise_nuernberg.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "qa@biotech.de",
+        "keywords": [
+          "AE-12",
+          "Sicherheitszusammenfassung"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_qa_*.eml",
+      "change": "create"
+    }
+  ]
+}

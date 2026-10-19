@@ -1,0 +1,39 @@
+{
+  "persona": "Concha es maestra de encaje de bolillos en Almagro, Castilla-La Mancha, donde coordina una cooperativa de encajeras. Trabaja con la norma de calidad Artesanía de Castilla-La Mancha para la clasificación de los hilos de lino y con los plazos de renovación del carnet artesano de la Dirección General de Artesanía. Su trabajo consiste en valorar la resistencia de cada lote de materia prima y en encajar las demostraciones del taller con el calendario del Festival Internacional de Teatro Clásico.",
+  "task": "Comprueba la resistencia del hilo Lino_Belga_05 y actualiza su categoría de materia prima para el encaje de bolillos de la cooperativa de Almagro.",
+  "required_files": [
+    "lotes_hilo_almagro.xlsx",
+    "norma_calidad_artesania_clm.txt"
+  ],
+  "output_files": [
+    "data/materias_primas_cooperativa.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/materias_primas_cooperativa.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Calidad_superior_A"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/materias_primas_cooperativa.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

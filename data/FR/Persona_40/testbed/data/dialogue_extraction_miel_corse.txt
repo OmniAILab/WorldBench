@@ -1,0 +1,4 @@
+Aïcha : J'ai passé les hausses de Ruche_Maquis_09 au réfractomètre en rentrant du rucher : on est à 17.5% d'humidité et tous les cadres sont au stade Operculé.
+Aide-apiculteur : Le lot est bien inscrit en Mele_di_Corsica_AOP actif. Il respecte donc l'exigence d'humidité maximale de 18 % du cahier des charges AOP et notre critère interne d'operculation complète avant désoperculation.
+Aïcha : Exactement. Ne tiens pas compte du repère générique hors appellation. Pour un lot AOP operculé à 17.5%, la décision d'extraction de la miellerie est « Prêt_pour_extraction ».
+Aide-apiculteur : Je mets à jour la ligne de Ruche_Maquis_09 avec Prêt_pour_extraction, 17.5% et Operculé.

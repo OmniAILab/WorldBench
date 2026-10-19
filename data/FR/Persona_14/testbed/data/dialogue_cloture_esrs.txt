@@ -1,0 +1,8 @@
+Adrien : Pour la section carbone, quelles valeurs sont considérées comme actuelles ?
+Claire : Les valeurs 2025 marquées « Consolidé ».
+Adrien : Scope 1 vaut 1 280 tCO2e et Scope 2 vaut 940 tCO2e.
+Claire : Exact.
+Marc : Les objectifs 2026 ne doivent pas remplacer les données consolidées.
+Claire : Oui, et le Scope 3 provisoire n’est pas demandé par ce task.
+Adrien : Je cite donc séparément les deux périmètres et la référence ESRS.
+Claire : C’est la bonne synthèse.

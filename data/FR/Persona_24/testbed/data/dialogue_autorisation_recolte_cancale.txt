@@ -1,0 +1,8 @@
+Gwenhael : Bed_North_5 est à 32 PPT, donc dans la plage 30-35 autorisée ?
+Responsable des parcs : Oui.
+Gwenhael : Sa température est 20,2 °C pour un seuil sanitaire de 22,0 °C.
+Responsable des parcs : Exact, aucune suspension thermique ne s’applique.
+Gwenhael : Je renseigne Autorisée, 32_PPT_Optimal et « Température conforme ».
+Responsable des parcs : Oui.
+Gwenhael : La salinité satisfait notre grille d’exploitation, mais je consulte séparément la température.
+Responsable des parcs : Et cette décision interne reste subordonnée au classement sanitaire officiel de la zone.

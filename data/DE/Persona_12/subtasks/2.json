@@ -1,0 +1,30 @@
+{
+  "persona": "Elena ist Analystin für Lieferketten in der Automobilindustrie und arbeitet im industriellen Zentrum von Stuttgart. Sie sorgt dafür, dass Hochvolt-Batteriekomponenten ohne Unterbrechung an die regionalen Montagelinien für Elektrofahrzeuge geliefert werden. Sie bewältigt die logistischen Albträume, die durch häufige Sperrungen im Bundesfernstraßennetz entstehen, und die strengen Emissionsgrenzen, die das Land Baden-Württemberg dem Schwerlastverkehr setzt. Sie bringt Produktionspläne der Zulieferer, aktuelle Verkehrsstörungsmeldungen und Emissionswerte der Fuhrparks laufend zusammen, um Just-in-time-Sequenzen ohne Bußgelder aufrechtzuerhalten.",
+  "task": "Übertrage die aktualisierte Verzögerung der Batteriezellenproduktion in das Dokument zur Montagesequenz und trage den erforderlichen Lieferpuffer für Stuttgart ein.",
+  "required_files": [
+    "produktionsplan_stuttgart.txt"
+  ],
+  "output_files": [
+    "data/montagesequenz.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/montagesequenz.docx",
+        "keywords": [
+          "Batteriezellenproduktion um 48 Stunden verzögert",
+          "Lieferpuffer: 48 Stunden",
+          "Stuttgart"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/montagesequenz.docx",
+      "change": "modify"
+    }
+  ]
+}

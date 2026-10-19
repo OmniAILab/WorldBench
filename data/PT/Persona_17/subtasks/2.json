@@ -1,0 +1,21 @@
+{
+  "persona": "Pedro coordena implementações de software em Braga e é especialista em infraestrutura cloud para unidades de saúde rurais. Lida com ligações de banda larga instáveis nas freguesias de montanha e com as exigências da Comissão Nacional de Proteção de Dados, planeando as sincronizações para a madrugada, quando a rede está menos carregada.",
+  "task": "Extrai do aviso da operadora o período da manutenção regional e acrescenta ao calendário tecnológico de Braga um bloqueio das implementações nas clínicas rurais, intitulado «Bloqueio de implementação».",
+  "required_files": [
+    "telecom_notice.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/tech_hub_calendar.ics",
+        "keywords": [
+          "Bloqueio de implementação",
+          "20261114T020000",
+          "20261114T040000"
+        ]
+      }
+    }
+  ]
+}

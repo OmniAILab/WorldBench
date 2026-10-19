@@ -1,0 +1,61 @@
+{
+  "persona": "Samira est responsable logistique au Marché international de Rungis, où elle coordonne les arrivages matinaux de produits frais. Elle veille au respect de la chaîne du froid, des créneaux d’accès aux pavillons et des contrôles sanitaires, en particulier pour les fromages AOP, les produits de la mer et les viandes destinées aux restaurateurs franciliens. Son activité commence avant l’aube et exige une synchronisation précise avec les transporteurs et les grossistes.",
+  "task": "Mets à jour la réception frigorifique en croisant le planning des arrivages, l’affectation des quais, la note de réception et le dialogue de nuit. Pour Brie_de_Meaux_AOP, reporte l’heure d’arrivée du produit principal, le quai confirmé du pavillon des fromages et la validation du créneau. Écarte Brie_de_Meaux_AOP_Sec, les arrivages nocturnes et les produits au nom proche.",
+  "required_files": [
+    "morning_arrivals_rungis.xlsx",
+    "note_reception_rungis.txt",
+    "quais_fromages_rungis.xlsx",
+    "dialogue_reception_brie_rungis.txt"
+  ],
+  "output_files": [
+    "data/cold_chain_schedule_rungis.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/cold_chain_schedule_rungis.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "04:30"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Quai_F3"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Créneau_confirmé"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/cold_chain_schedule_rungis.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

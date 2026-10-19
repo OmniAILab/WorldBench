@@ -1,0 +1,28 @@
+{
+  "persona": "Sven ist Lotse an den Holtenau-Schleusen in Kiel und führt riesige Containerschiffe durch die meistbefahrene künstliche Wasserstraße der Welt, den Nord-Ostsee-Kanal. Er bewältigt die schweren winterlichen Nebelbänke der Ostsee und die strengen Vorgaben des Emissionskontrollgebiets, die das Bundesamt für Seeschifffahrt und Hydrographie (BSH) vorschreibt. Er gleicht fortlaufend Echtzeit-Sichtmeldungen, den Tiefgang einlaufender Schiffe und die wechselnden Verfügbarkeiten der Schleusentore ab, um sichere Passiermanöver an den vorgesehenen Ausweichstellen des Kanals zu koordinieren.",
+  "task": "Schreibe eine E-Mail an die Schifffahrtsagenten und melde die bestätigte Dauer der Nullsicht an der Zufahrt zur Kieler Förde.",
+  "required_files": [
+    "sichtmeldungen.xlsx",
+    "kontakte_schifffahrt_kiel.xlsx",
+    "nebelhinweise_kiel.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "agents@kiel-shipping.de",
+        "keywords": [
+          "Kieler_Foerde_Einfahrt",
+          "Nullsicht für die nächsten 4 Stunden"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_agents_*.eml",
+      "change": "create"
+    }
+  ]
+}

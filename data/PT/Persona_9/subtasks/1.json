@@ -1,0 +1,20 @@
+{
+  "persona": "Tomás nasceu em Vila Nova de Gaia e trabalha há quinze anos como mestre de cave numa empresa de vinho do Porto junto ao Douro. Acompanha a evolução dos lotes em casco, as perdas por evaporação e a documentação de rastreabilidade exigida nas operações de envelhecimento e expedição.",
+  "task": "Extrai do comunicação interna da cave sobre a auditoria de envelhecimento a data da auditoria de envelhecimento e acrescenta ao calendário da cave de Vila Nova de Gaia um evento de inspeção com essa finalidade, intitulado «Bloco de inspeção da cave».",
+  "required_files": [
+    "douro_notice.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/cellar_calendar.ics",
+        "keywords": [
+          "Bloco de inspeção da cave",
+          "auditoria de envelhecimento das caves do Douro"
+        ]
+      }
+    }
+  ]
+}

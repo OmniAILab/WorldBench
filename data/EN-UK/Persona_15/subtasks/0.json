@@ -1,0 +1,38 @@
+{
+  "persona": "Beatrice is a circular economy officer for Nottingham City Council, supporting the city’s carbon-neutral ambitions. She coordinates district heating notes, composting rules, grant deadlines, and business waste-matching records for areas such as the Lace Market.",
+  "task": "Use the Lace Market waste sheet to update Textile_Co_1 in the symbiosis network spreadsheet, copying the correct waste category into its matching-status field.",
+  "required_files": [
+    "lace_market_waste.xlsx"
+  ],
+  "output_files": [
+    "data/symbiosis_network.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/symbiosis_network.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Cotton_Scraps"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/symbiosis_network.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

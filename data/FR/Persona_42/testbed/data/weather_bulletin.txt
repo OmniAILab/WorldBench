@@ -1,0 +1,19 @@
+Pour le Col_de_Restefond, point de repli tempête obligatoire : 44.28N-6.82E.
+Pour la Prairie_de_Vens, point de repli : 44.22N-6.91E.
+Pour le Vallon_du_Boréon, point de repli : 44.10N-7.28E.
+Pour le Col_de_Fenestre, point de repli : 44.08N-7.19E.
+Pour la Madone_de_Fenestre, point de repli : 44.07N-7.18E.
+Pour le Vallon_de_Mollières, point de repli : 44.17N-7.15E.
+Pour la Gordolasque, point de repli : 44.05N-7.30E.
+Pour le Col_de_Tende, point de repli : 44.15N-7.56E.
+Pour l’itinéraire principal, point de repli blizzard obligatoire : 44.30N-6.90E.
+Pour le Plateau_de_Casterino, point de repli : 44.12N-7.50E.
+Pour le Col_de_Raus, point de repli : 44.09N-7.42E.
+Pour le Lauzanier, point de repli : 44.34N-6.85E.
+Pour la Vallée_des_Merveilles, point de repli : 44.07N-7.44E.
+Pour la Prairie_de_Salèse, point de repli : 44.14N-7.24E.
+Pour le Col_de_la_Bonette, point secondaire : 44.32N-6.81E.
+Pour le Plateau_du_Cavalet, point de repli : 44.20N-6.95E.
+Pour le Vallon_de_la_Madone, point secondaire : 44.06N-7.20E.
+Pour le Col_de_Tende, point de repli tempête obligatoire : 44.15N-7.56E.
+Pour le Vallon_du_Boréon, point de repli blizzard obligatoire : 44.10N-7.28E.

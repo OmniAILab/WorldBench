@@ -1,0 +1,49 @@
+{
+  "persona": "Santi es restaurador en el Museo del Prado, en Madrid, especializado en la conservación de pintura española del Siglo de Oro. Gestiona los requisitos técnicos del taller de restauración del museo y vela por que toda intervención cumpla la Ley 16/1985 del Patrimonio Histórico Español. Su trabajo depende del análisis minucioso de las imágenes multiespectrales y de la coordinación con equipos de investigación internacionales que estudian la composición química de los pigmentos históricos.",
+  "task": "Interpreta los hallazgos multiespectrales de la pintura del Siglo de Oro en el Museo del Prado, identifica la sección con problema de barniz y actualiza el registro de tratamiento.",
+  "required_files": [
+    "dictamen_taller_prado.txt",
+    "imagen_multiespectral_prado.xlsx"
+  ],
+  "output_files": [
+    "data/registro_tratamiento_prado.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/registro_tratamiento_prado.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Superior_Izquierda"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Prueba_Barniz"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/registro_tratamiento_prado.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

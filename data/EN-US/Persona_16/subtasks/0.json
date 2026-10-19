@@ -1,0 +1,31 @@
+{
+  "persona": "Silas is a forest health specialist in Asheville, North Carolina, working to mitigate the impact of invasive species and wildfire risks within the Blue Ridge Mountains. He manages the coordination between the U.S. Forest Service and local private landowners, documenting the spread of the hemlock woolly adelgid and planning controlled burns that adhere to the North Carolina Forest Service’s strict air quality and smoke management regulations.",
+  "task": "Find the hemlock woolly adelgid infestation severity for the Blue Ridge sector in the forest health spreadsheet and insert it into the landowner advisory document.",
+  "required_files": [
+    "infestation_advisory_note_asheville.txt",
+    "infestation_log_asheville.xlsx",
+    "dialogue_forest_health_asheville.txt"
+  ],
+  "output_files": [
+    "data/landowner_advisory.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/landowner_advisory.docx",
+        "keywords": [
+          "BR-North",
+          "Critical"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/landowner_advisory.docx",
+      "change": "modify"
+    }
+  ]
+}

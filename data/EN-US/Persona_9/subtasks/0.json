@@ -1,0 +1,160 @@
+{
+  "persona": "Wyatt is an alpine safety officer at a major ski resort near Denver, Colorado, responsible for avalanche mitigation and slope stability across several high-altitude peaks. He manages the reporting requirements of the U.S. Forest Service and the Colorado Avalanche Information Center, documenting snowpack data and coordination efforts for controlled detonations to ensure that the recreational areas remain safe for the public while adhering to federal land-use permits.",
+  "task": "Use the snowpack stability note to mark each peak on the daily hazard board: unstable peaks require controlled mitigation and stable peaks remain open.",
+  "required_files": [
+    "snowpack_stability_note_denver.txt",
+    "snowpack_denver.xlsx",
+    "dialogue_patrol_denver.txt"
+  ],
+  "output_files": [
+    "data/hazard_board_denver.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/hazard_board_denver.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Open"
+          },
+          {
+            "row": 4,
+            "col": 2,
+            "value": "Open"
+          },
+          {
+            "row": 6,
+            "col": 2,
+            "value": "Open"
+          },
+          {
+            "row": 7,
+            "col": 2,
+            "value": "Mitigate"
+          },
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Open"
+          },
+          {
+            "row": 10,
+            "col": 2,
+            "value": "Open"
+          },
+          {
+            "row": 13,
+            "col": 2,
+            "value": "Open"
+          },
+          {
+            "row": 14,
+            "col": 2,
+            "value": "Open"
+          },
+          {
+            "row": 16,
+            "col": 2,
+            "value": "Open"
+          },
+          {
+            "row": 17,
+            "col": 2,
+            "value": "Open"
+          },
+          {
+            "row": 18,
+            "col": 2,
+            "value": "Open"
+          },
+          {
+            "row": 21,
+            "col": 2,
+            "value": "Open"
+          },
+          {
+            "row": 22,
+            "col": 2,
+            "value": "Open"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/hazard_board_denver.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 7,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 9,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 13,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 14,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 16,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 17,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 18,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 21,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 22,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar//Local Calendar//EN
+BEGIN:VEVENT
+UID:analyst-check-one@local.test
+DTSTART:20260420T090000
+DTEND:20260420T100000
+SUMMARY:Storage economics review
+DESCRIPTION:Review community battery cost assumptions.
+END:VEVENT
+BEGIN:VEVENT
+UID:filing-draft-two@local.test
+DTSTART:20260424T130000
+DTEND:20260424T150000
+SUMMARY:CPUC filing draft
+DESCRIPTION:Prepare comments for renewable integration docket.
+END:VEVENT
+BEGIN:VEVENT
+UID:wind-call-three@local.test
+DTSTART:20260504T110000
+DTEND:20260504T113000
+SUMMARY:Wind project check-in
+DESCRIPTION:Discuss Boulder Canyon status.
+END:VEVENT
+BEGIN:VEVENT
+UID:xcel-brief-four@local.test
+DTSTART:20260509T100000
+DTEND:20260509T110000
+SUMMARY:Xcel target matrix review
+DESCRIPTION:Update priority scoring assumptions.
+END:VEVENT
+BEGIN:VEVENT
+UID:battery-check-05@local.test
+DTSTART:20260501T090000
+DTEND:20260501T100000
+SUMMARY:Battery state-of-charge review
+DESCRIPTION:Check community storage assumptions.
+END:VEVENT
+BEGIN:VEVENT
+UID:snow-access-06@local.test
+DTSTART:20260506T080000
+DTEND:20260506T083000
+SUMMARY:Mountain access check
+DESCRIPTION:Review late spring snow impacts on field visits.
+END:VEVENT
+BEGIN:VEVENT
+UID:black-start-10@local.test
+DTSTART:20260510T100000
+DTEND:20260510T113000
+SUMMARY:Battery black-start exercise
+DESCRIPTION:Observe black-start testing.
+END:VEVENT
+BEGIN:VEVENT
+UID:lab-tour-12@local.test
+DTSTART:20260512T140000
+DTEND:20260512T153000
+SUMMARY:University energy lab tour
+DESCRIPTION:Meet grid research staff.
+END:VEVENT
+BEGIN:VEVENT
+UID:forecast-17@local.test
+DTSTART:20260517T150000
+DTEND:20260517T160000
+SUMMARY:Solar forecast recalibration
+DESCRIPTION:Review forecast model before the next dispatch cycle.
+END:VEVENT
+BEGIN:VEVENT
+UID:reserve-call-18@local.test
+DTSTART:20260518T163000
+DTEND:20260518T170000
+SUMMARY:Reserve coordination call
+DESCRIPTION:Post-test reserve discussion.
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-19@local.test
+DTSTART:20260519T090000
+DTEND:20260519T100000
+SUMMARY:Pearl Street project meeting
+DESCRIPTION:Discuss permitting logistics.
+END:VEVENT
+BEGIN:VEVENT
+UID:public-20@local.test
+DTSTART:20260520T180000
+DTEND:20260520T193000
+SUMMARY:Public hearing
+DESCRIPTION:Renewable integration hearing.
+END:VEVENT
+BEGIN:VEVENT
+UID:roadwork-21@local.test
+DTSTART:20260521T080000
+DTEND:20260521T083000
+SUMMARY:Boulder Canyon travel check
+DESCRIPTION:Review field travel delay.
+END:VEVENT
+BEGIN:VEVENT
+UID:cloud-25@local.test
+DTSTART:20260525T110000
+DTEND:20260525T120000
+SUMMARY:Cloud-ramp model review
+DESCRIPTION:Analyze Front Range solar variability.
+END:VEVENT
+BEGIN:VEVENT
+UID:fire-27@local.test
+DTSTART:20260527T090000
+DTEND:20260527T100000
+SUMMARY:Battery fire-safety inspection
+DESCRIPTION:Review storage enclosure safety.
+END:VEVENT
+BEGIN:VEVENT
+UID:flatirons-01@local.test
+DTSTART:20260601T090000
+DTEND:20260601T103000
+SUMMARY:Flatirons substation walkdown
+DESCRIPTION:Field inspection.
+END:VEVENT
+BEGIN:VEVENT
+UID:relay-03@local.test
+DTSTART:20260603T130000
+DTEND:20260603T140000
+SUMMARY:Feeder relay test
+DESCRIPTION:Interconnection relay verification.
+END:VEVENT
+BEGIN:VEVENT
+UID:smoke-08@local.test
+DTSTART:20260608T100000
+DTEND:20260608T110000
+SUMMARY:Wildfire smoke sensitivity review
+DESCRIPTION:Assess solar forecast impacts.
+END:VEVENT
+END:VCALENDAR

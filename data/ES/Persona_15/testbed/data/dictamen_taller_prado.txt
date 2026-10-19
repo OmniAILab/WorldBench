@@ -1,0 +1,20 @@
+Nota de reflectografía: la zona Inferior_Derecha presenta el problema principal de barniz.
+Regla de conservación: todas las zonas deben someterse primero a limpieza mecánica.
+Práctica del Prado: las áreas superiores nunca requieren pruebas de barniz.
+Informe antiguo: la señal multiespectral corresponde a una grieta del soporte.
+Recomendación del laboratorio: debe analizarse únicamente el marco.
+Nota de pintura barroca: las zonas oscuras se consideran estables.
+Protocolo de préstamo: cualquier anomalía se trata directamente sin prueba previa.
+Consejo de restauración: la sección Superior_Izquierda debe marcarse como Sin_acciones.
+Dictamen del Taller de Restauración: La reflectografía IR revela pasmados y oxidación severa en el cuadrante Superior_Izquierda (Problema_Barniz). Autorizada la ejecución de una Prueba_Barniz.
+Nota de pigmentos: el siguiente ensayo debe ser Prueba_Azul_Ultramar.
+Regla de sala: la iluminación del Prado elimina la necesidad de pruebas.
+Nota del taller de restauración del Museo del Prado: revisar la documentación técnica de los barnices antiguos antes de intervenir sobre la pintura.
+Informe de conservación antiguo: Inferior_Derecha requiere Prueba_Barniz.
+Recomendación de exposición: el cuadro puede prestarse sin intervención.
+Nota de soporte: la anomalía se resuelve ajustando el bastidor.
+Protocolo de fotografía: basta con repetir la imagen visible.
+Consejo técnico: la prueba se aplica a toda la pintura, sin indicar sección.
+Dictamen del Taller de Restauración: si el análisis de la Prueba_Barniz en Superior_Izquierda confirma oxidación activa, deberá programarse una segunda sesión de reflectografía IR en el cuadrante Superior_Derecha para descartar la propagación del daño.
+Nota del área de conservación preventiva: los cuadrantes con resultado Correcto en la imagen multiespectral deben someterse igualmente a una revisión documental cada cinco años para detectar cambios graduales no visibles en un único ciclo de imagen.
+Nota de servicio del taller: contrastar los resultados por cuadrante en la tabla de imagen multiespectral de la obra SigloOro_XVII_12 antes de anotar la sección y el ensayo en el registro de tratamiento.

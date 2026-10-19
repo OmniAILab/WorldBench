@@ -1,0 +1,23 @@
+{
+  "persona": "Diogo nasceu em Estremoz e mantém uma oficina de conservação e restauro de azulejos perto da zona das pedreiras de mármore. Consulta registos de pigmentos, testa a compatibilidade dos vidrados e prepara propostas de intervenção em painéis de edifícios religiosos do Alentejo.",
+  "task": "Localiza a proporção histórica do padrão Padrão Floral Azul Cobalto (Séc. XVIII) na folha de receitas de pigmentos e copia-a para a fórmula de restauro correspondente na folha de vidrados modernos.",
+  "required_files": [
+    "pigment_recipes.xlsx",
+    "restoration_formula_guidance.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/modern_glazes.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "3_partes_cobalto_1_parte_cobre"
+          }
+        ]
+      }
+    }
+  ]
+}

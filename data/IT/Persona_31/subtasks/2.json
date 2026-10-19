@@ -1,0 +1,29 @@
+{
+  "persona": "Salvo è un medico specializzato in epidemiologia marina con base a Palermo, dove monitora la salute degli stock di pesce lungo la costa siciliana. Gestisce l'intersezione tra le direttive sanitarie dell'Unione Europea e gli specifici protocolli sanitari regionali dell'Assessorato della Salute della Regione Siciliana per prevenire epidemie negli ecosistemi mediterranei locali. La sua routine quotidiana comprende l'interpretazione di grandi quantità di dati biologici longitudinali e di rapporti di analisi chimica dell'acqua di mare, per emettere allerte precoci alle cooperative locali, assicurando che le essenziali esportazioni ittiche dell'isola restino conformi agli standard di sicurezza globali.",
+  "task": "Aggiungi al calendario la valutazione epidemiologica richiesta dalla nota di ricerca sull'ecosistema mediterraneo, con la data corretta.",
+  "required_files": [
+    "nota_ricerca_ecosistema.txt"
+  ],
+  "output_files": [
+    "data/calendario_medico_marino.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_medico_marino.ics",
+        "summary_keywords": [
+          "Valutazione epidemiologica"
+        ],
+        "description_keywords": [],
+        "date": "2026-04-10"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_medico_marino.ics",
+      "change": "modify"
+    }
+  ]
+}

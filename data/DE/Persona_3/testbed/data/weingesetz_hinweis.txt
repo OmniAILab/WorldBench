@@ -1,0 +1,6 @@
+Nierstein, Roter Hang – Entscheidung zur Eisweinlese
+Arbeitsvermerk zur Frostkontrolle, Januar 2026.
+Die Trauben für Eiswein müssen bei der Lese und Kelterung natürlich gefroren sein. Für die vorliegende betriebliche Frostfreigabe wird der Prüfwert von −7 °C herangezogen; eine Messung darüber reicht für diese Freigabe nicht aus.
+Die dokumentierten Nachtwerte sind tatsächlich gemessene Temperaturen, keine Wettervorhersagen. Mostgewicht in °Oe und Rebsorte ersetzen den Nachweis ausreichenden Frosts nicht.
+Erreicht keiner der erfassten Messwerte −7 °C oder weniger, ist im Ernteplan der vorgegebene Status „Nicht_erlaubt“ einzutragen.
+Örtliche Feste oder die Hanglage begründen keine Ausnahmen. Die weiteren rechtlichen Voraussetzungen der Eisweinbezeichnung sind gesondert zu beachten.

@@ -1,0 +1,4 @@
+Chef de quart VTS : L’assistance de remorquage pour l’accostage d’Ocean_Mistral est fixée au 5 avril 2026, de 06:40 à 07:20.
+Rachid : Je vérifie l’affectation : dans le tableau des opérations et la feuille d’escales, Ocean_Mistral va bien au poste Port2000_Q4 avec 2 remorqueurs ?
+Chef de quart VTS : Exact. Ne confonds pas avec Ocean_Mistral_II ni avec le petit caboteur Ocean_Mistral_Feeder qui accoste au Quai_H8 avec un seul remorqueur.
+Rachid : C’est noté. J’inscris l’événement « Remorquage Ocean_Mistral » dans le calendrier portuaire sur le créneau 06:40-07:20 du 5 avril 2026, avec « Port2000_Q4 » et « 2 remorqueurs » dans la description.

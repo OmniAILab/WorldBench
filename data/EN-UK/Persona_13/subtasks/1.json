@@ -1,0 +1,49 @@
+{
+  "persona": "Sunita is a strategic urban designer in Birmingham working on the Big City Plan and the Curzon Street area. She updates design scores, corridor flags, briefing documents, workshop emails, and site-walk calendar notes.",
+  "task": "Reconcile Birmingham green-corridor segments with the inner-ring constraint list and mark GC-2 for redesign while leaving GC-5 unflagged.",
+  "required_files": [
+    "corridors_birmingham.xlsx",
+    "constraints_birmingham.xlsx"
+  ],
+  "output_files": [
+    "data/redesign_flags.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/redesign_flags.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Yes"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "No"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/redesign_flags.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

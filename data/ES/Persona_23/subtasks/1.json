@@ -1,0 +1,28 @@
+{
+  "persona": "Manolo es carnicero en el barrio de Triana, en Sevilla, donde regenta un puesto histórico del Mercado de Triana especializado en ibérico. Compagina la Norma de Calidad del Ibérico y los controles veterinarios de la Junta de Andalucía con la logística del barrio durante la Semana Santa y la Feria de Abril. Su trabajo consiste en comprobar precintos y códigos de trazabilidad y en mantener la cadena de frío del puesto.",
+  "task": "Escribe un correo electrónico a la cofradía de Triana para comunicar el horario nocturno de recogida de residuos durante la Semana Santa.",
+  "required_files": [
+    "horarios_recogida_triana.xlsx",
+    "contactos_cofradia_triana.xlsx",
+    "bando_lipasam_triana.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "cofradia@triana.es",
+        "keywords": [
+          "Semana_Santa",
+          "23:00"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_cofradia_*.eml",
+      "change": "create"
+    }
+  ]
+}

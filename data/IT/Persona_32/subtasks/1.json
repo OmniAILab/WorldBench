@@ -1,0 +1,32 @@
+{
+  "persona": "Paolo sincronizza l'installazione di sistemi di propulsione avanzati presso il cantiere Fincantieri di Monfalcone, dove sovrintende alla costruzione di navi da crociera di nuova generazione. Garantisce che tutte le specifiche tecniche rispettino i rigorosi codici di sicurezza e ambientali dell'Organizzazione Marittima Internazionale e le specifiche normative sul lavoro della regione Friuli Venezia Giulia. Il suo lavoro comprende il costante esame di migliaia di disegni tecnici e il coordinamento di subappaltatori specializzati per mantenere il programma di assemblaggio \"just-in-time\" del cantiere.",
+  "task": "Scrivi una email agli architetti navali indicando il requisito IMO da applicare alla sezione Exhaust_Scrubbers nel file ./data/email_architetti_nave.txt.",
+  "required_files": [
+    "note_codici_imo_monfalcone.txt",
+    "database_blueprint_monfalcone.xlsx",
+    "contatti_cantiere_monfalcone.xlsx"
+  ],
+  "output_files": [
+    "data/email_architetti_nave.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_architetti_nave.txt",
+        "keywords": [
+          "architetti@fincantieri.it",
+          "Exhaust_Scrubbers",
+          "MARPOL_Annex_VI_SOx_Equivalents"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_architetti_nave.txt",
+      "change": "modify"
+    }
+  ]
+}

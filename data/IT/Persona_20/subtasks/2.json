@@ -1,0 +1,28 @@
+{
+  "persona": "Simona è un'architetta di dati a Bologna e lavora per il consorzio CINECA per gestire l'integrazione delle risorse di supercalcolo per la modellazione climatica regionale. Si muove tra i requisiti tecnici dell'impresa comune EuroHPC e le specifiche leggi italiane sulla sovranità dei dati. Il suo lavoro quotidiano comprende la gestione di enormi insiemi di dati provenienti dalla rete satellitare Copernicus e l'ottimizzazione dei cicli di calcolo ad alte prestazioni per fornire previsioni ambientali accurate al settore agricolo della Pianura Padana.",
+  "task": "Scrivi una email al referente EuroHPC riassumendo la finestra programmata e includi il nome del modello e la finestra selezionata.",
+  "required_files": [
+    "note_email_eurohpc.txt",
+    "contatti_eurohpc.xlsx",
+    "piano_run_bologna_v2.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "liaison@eurohpc.eu",
+        "keywords": [
+          "PoValley_Run",
+          "W2"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_liaison_*.eml",
+      "change": "create"
+    }
+  ]
+}

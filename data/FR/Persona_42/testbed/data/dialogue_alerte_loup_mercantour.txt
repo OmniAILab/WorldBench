@@ -1,0 +1,4 @@
+Jean-Pierre : Quel est le dernier signalement près des Merveilles ?
+Garde : La caméra thermique et le relevé de terrain confirment la présence de la meute à proximité.
+Garde : L’alerte active de 21:30 concerne Vallee_des_Merveilles : Meute signalée à 3 km.
+Berger : Je demande donc le renforcement nocturne aux assistants sans mentionner les secteurs voisins.

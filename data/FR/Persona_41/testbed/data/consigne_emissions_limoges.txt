@@ -1,0 +1,20 @@
+Procédure environnementale interne de la manufacture : en cas de pic de particules confirmé par la sonde d’extraction sur un four en production, demander l’arrêt immédiat de l’unité concernée. La reprise est subordonnée à une validation du responsable environnement, après contrôle des systèmes d’extraction.
+Une lecture incomplète entraîne un nouveau contrôle, pas un arrêt.
+Une consommation élevée doit être transmise au service énergie.
+Une humidité élevée concerne le séchage des pièces.
+Un filtre à contrôler relève de la maintenance préventive.
+Les valeurs stables ne nécessitent aucune action immédiate.
+Le tirage insuffisant est traité lors de la prochaine maintenance.
+Les COV à surveiller ne déclenchent pas automatiquement l’arrêt.
+Le CO2 proche de la limite impose seulement un suivi renforcé.
+Un pic de particules détecté par la sonde d’extraction impose l’arrêt immédiat du four concerné et son signalement.
+Les essais pilotes ne doivent pas interrompre la production principale.
+Le message doit identifier précisément l’unité.
+Les autres fours ne doivent pas être cités dans la demande.
+Le contrôle des émaux est géré dans un registre distinct.
+Le courriel doit utiliser le contact de l’équipe de cuisson.
+La reprise du four dépendra d’une validation environnementale.
+La cause technique ne doit pas être inventée.
+Le message doit rester bref et opérationnel.
+Un pic de particules détecté par la sonde principale impose un arrêt immédiat de la ligne concernée.
+Des poussières stables ne déclenchent aucune procédure d’arrêt immédiat.

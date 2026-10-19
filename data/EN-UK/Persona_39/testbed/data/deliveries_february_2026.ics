@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Services//Altens Project Calendar//EN
+BEGIN:VEVENT
+UID:well-audit-update-1@local.test
+DTSTART:20260215T090000
+DTEND:20260215T093000
+SUMMARY:Well audit update
+DESCRIPTION:Review abandoned well files.
+END:VEVENT
+BEGIN:VEVENT
+UID:pump-test-window-2@local.test
+DTSTART:20260219T100000
+DTEND:20260219T103000
+SUMMARY:Pump test window
+DESCRIPTION:Check pilot pump availability.
+END:VEVENT
+BEGIN:VEVENT
+UID:community-dropin-extra@local.test
+DTSTART:20260223T173000
+DTEND:20260223T180000
+SUMMARY:Community drop-in note
+DESCRIPTION:Public engagement only, not inspection.
+END:VEVENT
+BEGIN:VEVENT
+UID:site-inspection-briefing-1@local.test
+DTSTART:20260218T100000
+DTEND:20260218T110000
+SUMMARY:Site Inspection Briefing
+DESCRIPTION:Safety briefing ahead of the site inspection.
+END:VEVENT
+BEGIN:VEVENT
+UID:inspection-report-filing-2@local.test
+DTSTART:20260225T140000
+DTEND:20260225T150000
+SUMMARY:Inspection Report Filing
+DESCRIPTION:File the inspection report with the council.
+END:VEVENT
+END:VCALENDAR

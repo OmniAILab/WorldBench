@@ -1,0 +1,21 @@
+Sito Cappella_Pazzi: soglia massima di umidità 55%.
+Sito Santa_Maria_Novella: soglia massima di umidità 58%.
+Sito Santa Croce laboratorio: soglia operativa 50% per deposito materiali.
+Sito Basilica_San_Lorenzo: soglia massima di umidità 62%.
+Sito Santa Croce archivio 2025: soglia massima 65%.
+Sito Orsanmichele: soglia massima di umidità 57%.
+Direttive Restauro: I cicli pittorici giotteschi iniziano a degradarsi in fretta se esposti a troppa condensa; tarare gli allarmi dei data-logger sui sessanta punti percentuali per le navate interne.
+Sito Bargello: soglia massima di umidità 59%.
+Sito Cappella_Bardi: soglia temporanea 61%.
+Sito Santa_Croce_esterno: soglia meteo 70%.
+Sito Uffizi deposito: soglia massima 53%.
+Sito Palazzo_Vecchio: soglia massima 56%.
+Sito Arno_Valley: soglia ambientale 68%.
+Sito Santa Croce pietra: soglia assorbimento 63%.
+Sito Santa_Croce prova: soglia provvisoria 54%.
+Sito Duomo_Firenze: soglia massima 57%.
+Sito Studio_Restauro: soglia laboratorio 52%.
+Sito San_Miniato: soglia massima di umidità 58%.
+Sito Santa Croce sagrestia: soglia operativa 51% per deposito arredi.
+Sito Cappella_Castellani: soglia massima di umidità 56%.
+Sito Santa_Croce chiostro: soglia ambientale 64% per area semiaperta.

@@ -1,0 +1,20 @@
+Paleta de outono: Castanho Castanha, Hex #5A3A22.
+Paleta de primavera: Verde Prado, Hex #6B8E23.
+Paleta de verão: Azul Lago, Hex #2F6F8F.
+Paleta de inverno alternativa: Cinzento Granito, Hex #5B5D5E.
+Paleta de festa: Vermelho Cereja, Hex #8B1E2D.
+Paleta de exportação: Azul Atlântico, Hex #234E70.
+Paleta de burel natural: Bege Lã, Hex #C8B79C.
+Tendência cromática de inverno: Verde Floresta Profundo, Hex #1A3322.
+Paleta de serra: Branco Neve, Hex #F2F4F3.
+Paleta de vale: Verde Oliveira, Hex #556B2F.
+Paleta de noite: Azul Ardósia, Hex #2E3A46.
+Paleta de lareira: Terracota, Hex #A34A2A.
+Paleta de nevoeiro: Cinzento Pérola, Hex #B7BDC2.
+Paleta de urze: Roxo Serra, Hex #6C4A72.
+Paleta de casca: Castanho Escuro, Hex #3F2A1D.
+Paleta de água: Azul Glaciar, Hex #7FA9B8.
+Paleta de pedra: Cinzento Xisto, Hex #4B5054.
+Paleta de sol: Dourado Suave, Hex #C7A34B.
+Tendência de frio continental: Verde Pinheiro Escuro, Hex #193A28.
+Proposta de inverno atlântico: Verde Musgo Profundo, Hex #203627.

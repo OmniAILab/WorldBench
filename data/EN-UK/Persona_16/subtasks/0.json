@@ -1,0 +1,38 @@
+{
+  "persona": "Alistair is a head chef based in Brighton, where he runs a zero-waste seafood restaurant overlooking the Palace Pier. He updates catch planning sheets, kitchen compliance notes, and weekend preparation records around local day-boat catches and visitor surges.",
+  "task": "Use the Brighton day-boat catch sheet to update the weekend planning sheet with the available Mackerel volume, copying the catch figure exactly as written.",
+  "required_files": [
+    "day_boat_catch.xlsx"
+  ],
+  "output_files": [
+    "data/tourist_forecast.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/tourist_forecast.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "40kg"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/tourist_forecast.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Atelier de Parfumerie de Grasse//Planning laboratoire//FR
+BEGIN:VEVENT
+UID:1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d
+DTSTART:20260404T110000
+DTEND:20260404T113000
+SUMMARY:Contrôle Rose_18
+DESCRIPTION:Vérification olfactive sur touche après 24 h.
+END:VEVENT
+BEGIN:VEVENT
+UID:2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e
+DTSTART:20260407T101500
+DTEND:20260407T104500
+SUMMARY:Contrôle Jasmin_25
+DESCRIPTION:Suivi de macération après 48 h — essai comparatif.
+END:VEVENT
+BEGIN:VEVENT
+UID:3c4d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e7f
+DTSTART:20260414T093000
+DTEND:20260414T100000
+SUMMARY:Contre-évaluation Jasmin_24 (flacon témoin)
+DESCRIPTION:Vérification secondaire en réserve climatique.
+END:VEVENT
+END:VCALENDAR

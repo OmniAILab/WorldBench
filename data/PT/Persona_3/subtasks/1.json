@@ -1,0 +1,19 @@
+{
+  "persona": "Marta é uma viticultora nascida em Peso da Régua que trabalha na sub-região do Cima Corgo, especializada na gestão de vinhas em socalcos. Tem de lidar com as exigências das normas rigorosas de certificação definidas pelo Instituto dos Vinhos do Douro e do Porto e com os microclimas imprevisíveis do vale, ajustando constantemente os calendários de vindima e articulando previsões de rendimento das uvas com a procura dos mercados internacionais de exportação.",
+  "task": "Extrai da nota de rastreabilidade e certificação da adega a instrução aplicável ao lote da vindima nos socalcos do Douro e insere-a na secção «Lembrete de certificação» do registo de lote para exportação.",
+  "required_files": [
+    "ivdp_notice.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/batch_record.docx",
+        "keywords": [
+          "registar a parcela, o rendimento e a data da vindima em cada lote"
+        ]
+      }
+    }
+  ]
+}

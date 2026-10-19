@@ -1,0 +1,29 @@
+{
+  "persona": "João é de Peniche e dirige há vinte anos a frota de pesca comercial sediada no porto. Acompanha as correntes do canhão submarino, as quotas de sardinha e a descarga na lota, e transforma as imagens de satélite da temperatura da água em cartas de navegação diárias para os mestres das embarcações de cerco.",
+  "task": "Escreve um email aos capitães das embarcações de cerco a comunicar o alerta de quota da embarcação de cerco Mestre Vento e a restrição da próxima captura antes da descarga na lota de Peniche.",
+  "required_files": [
+    "fleet_compliance.xlsx",
+    "haul_restriction_peniche.txt",
+    "trawler_contacts_peniche.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_trawler_captains.txt",
+        "keywords": [
+          "A embarcação de cerco Mestre Vento atingiu 95 % do limite atribuído de sardinha; restringir a próxima captura e confirmar o peso na lota de Peniche"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_trawler_captains.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

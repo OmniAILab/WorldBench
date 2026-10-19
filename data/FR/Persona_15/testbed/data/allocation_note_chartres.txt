@@ -1,0 +1,7 @@
+Concernant North_Beauce_Fields, prenez les derniers chiffres de la prévision satellitaire et copiez-les directement dans le silo dédié.
+Le silo de Chartres-Est est réservé à South_Beauce_Fields.
+Une allocation de 4200 tonnes est envisagée pour Maintenon_West_Fields.
+Les volumes de Voves_Central ne doivent pas être reportés sur North_Beauce_Fields.
+L’ancienne prévision de North_Beauce_Fields était de 4100 tonnes.
+Les données d’Illiers_West concernent une campagne précédente.
+Le volume de Chartres_East_Fields peut être utilisé pour South_Beauce_Fields.

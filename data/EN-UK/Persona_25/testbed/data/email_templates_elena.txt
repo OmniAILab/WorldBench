@@ -1,0 +1,25 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Lesson Focus
+Dear colleagues,
+I hope you are well. A quick note for planning this week: [Main detail from source note].
+Thank you for keeping this focus visible in lessons.
+Best wishes,
+[Elena]
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Staff Notice
+Dear Colleagues,
+Please note the following curriculum update: [Main detail from source note].
+Yours sincerely,
+[Elena]
+
+Note: the friendly template is used for everyday teaching-staff updates.
+Note: parent transport changes use a separate parent-communication format.
+Note: Ofsted benchmark reminders should identify the relevant cohort clearly.
+Note: trip transport logistics should not be included in lesson-focus emails.
+Note: Oxford museum trip details are handled by the trip office.
+Note: EAL updates should keep the wording supportive and practical.
+Note: formal safeguarding notices use a different template.
+Note: staff emails about lesson planning may use a warm tone.
+Note: do not include individual pupil names in group messages.
+Note: reading benchmarks should be copied exactly from the table.

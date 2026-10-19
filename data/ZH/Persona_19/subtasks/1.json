@@ -1,0 +1,30 @@
+{
+  "persona": "美玲是上海浦东一家航运物流公司的法务助理。她处理复杂的提单纠纷，与港口主管部门沟通，并靠楼下咖啡店的冰拿铁提神。",
+  "task": "根据海商法更新，将最新责任上限写入标准合同的责任限制部分。",
+  "required_files": [
+    "maritime_revision.txt",
+    "dialogue_pudong_liability.txt",
+    "local_context_pudong_liability.xlsx"
+  ],
+  "output_files": [
+    "data/treaty_template.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/treaty_template.docx",
+        "keywords": [
+          "最高责任限额设为 200 万 SDR"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/treaty_template.docx",
+      "change": "modify"
+    }
+  ]
+}

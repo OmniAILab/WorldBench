@@ -1,0 +1,22 @@
+Stability note: Peak_J requires skier traffic review only because the surface crust is firm.
+Stability note: Peak_C is watchlisted for wind slab observations but does not require controlled work.
+Stability note: Peak_L should remain open with rope-line reminders after the overnight refreeze.
+Stability note: Peak_F needs a patrol sweep for cornice debris but no mitigation designation.
+Stability note: Peak_M has a shallow soft layer but is listed as stable after the beacon check.
+Stability note: Peak_A is unstable and requires controlled mitigation before public opening.
+Stability note: Peak_D has moderate slab tension and should be monitored at noon.
+Stability note: Peak_H can open after the grooming crew confirms the cat road edge.
+Stability note: Peak_N has a wind-scoured ridgeline and should be marked open with caution.
+Stability note: Peak_R is closed for lift maintenance, not for avalanche mitigation.
+Stability note: Peak_E needs signage near the traverse because guests cut the corner.
+Stability note: Peak_P has acceptable shear results from the morning pit.
+Stability note: Peak_Q has thin coverage near the rocks but no stability failure.
+Stability note: Peak_S needs a radio check at the top shack before noon.
+Stability note: Peak_T should be opened after ski patrol removes bamboo poles from the route.
+Stability note: Peak_U has heavy traffic from lessons but no snowpack concern.
+Stability note: Peak_B is stable and may remain open after the morning check.
+Stability note: Peak_V needs a snowmobile fuel drop at the ridge cache.
+Stability note: Peak_W has a minor glide crack outside the public boundary.
+Local context: in the Colorado Rockies, wind slabs often build up on the lee side of the ridgelines.
+CAIC context: a persistent weak layer can stay reactive long after the last snowfall.
+Field observation: terrain above treeline has to be read separately from sheltered areas.

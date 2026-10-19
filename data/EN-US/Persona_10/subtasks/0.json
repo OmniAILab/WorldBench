@@ -1,0 +1,50 @@
+{
+  "persona": "Amara is a licensing specialist on Music Row in Nashville, Tennessee, managing the complex intellectual property rights for independent songwriters and session musicians. She navigates the evolving landscape of the Mechanical Licensing Collective and the specific contractual traditions of the local publishing industry, ensuring that royalty distributions and performance rights registrations are meticulously documented and updated across multiple digital and physical distribution channels.",
+  "task": "Use the Mechanical Licensing Collective rule note to flag which tracks need mechanical registration before digital release and update the licensing tracker spreadsheet.",
+  "required_files": [
+    "mlc_notice_nashville.txt",
+    "releases_nashville.xlsx",
+    "dialogue_rights_nashville.txt"
+  ],
+  "output_files": [
+    "data/tracker_nashville.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/tracker_nashville.xlsx",
+        "matches": [
+          {
+            "row": 6,
+            "col": 2,
+            "value": "Register_Now"
+          },
+          {
+            "row": 7,
+            "col": 2,
+            "value": "OK"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/tracker_nashville.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 7,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

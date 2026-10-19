@@ -1,0 +1,6 @@
+Beethoven-Haus Bonn – Bearbeitungsvermerk zur Wasserzeichenkartei
+Bearbeitungsstand: 17. Oktober 2026; Bestand: digitalisierte Skizzenblätter.
+Die Bezeichnungen WM-1832-A und WM-1831-C sind interne Kennungen der Wasserzeichenkartei, keine Datierungen der Papierherstellung. Aus diesen Codes allein darf kein Entstehungsjahr des Papiers abgeleitet werden.
+Für die Katalogergänzung ist der im Scanprotokoll angegebene vollständige Wasserzeichencode exakt mit der Referenztabelle abzugleichen.
+Der Eintrag WM-1832-A ist in der bereitgestellten Referenztabelle der als „Rheinmuehle_Bonn“ geführten Herkunft zugeordnet. Dieser Name ist ein interner Katalogwert und kein hier unabhängig belegter historischer Mühlenname.
+Bei unklarer Materialdatierung ist die Provenienz gesondert zu prüfen; sie darf nicht aus dem Wasserzeichencode erschlossen werden.

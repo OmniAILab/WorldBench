@@ -1,0 +1,21 @@
+Atualização operacional de geofencing dos GPS das embarcações; não constitui uma alteração legal dos limites do parque marinho.
+Limite norte revisto para 37.10N 8.92W; verificação em 2026-06-08 às 09:00.
+Limite da enseada mantido em 37.02N 8.95W; revisão em 2026-06-08 às 11:00.
+Corredor costeiro ajustado para 36.98N 8.90W; teste em 2026-06-09 às 08:30.
+Limite da Mareta mantido em 37.00N 8.94W; revisão em 2026-06-09 às 10:00.
+Zona do Beliche ajustada para 37.01N 8.99W; teste em 2026-06-10 às 09:30.
+Corredor do Martinhal mantido em 37.02N 8.91W; revisão em 2026-06-10 às 11:30.
+Limite da Baleeira ajustado para 37.00N 8.93W; teste em 2026-06-11 às 08:00.
+O limite operacional de geofencing dos GPS foi atualizado até 36.9N 9.0W; recalibrar o GPS em 2026-06-12 às 09:00 antes da primeira saída de Sagres.
+Limite sul mantido em 36.88N 8.97W; revisão em 2026-06-12 às 11:00.
+Corredor ocidental ajustado para 36.95N 9.04W; teste em 2026-06-13 às 08:30.
+Zona de observação norte mantida em 37.05N 8.96W; revisão em 2026-06-13 às 10:30.
+Limite de aproximação ajustado para 36.97N 8.94W; teste em 2026-06-14 às 09:00.
+Corredor de retorno mantido em 37.01N 8.89W; revisão em 2026-06-14 às 11:00.
+Zona de baixa velocidade ajustada para 36.96N 9.02W; teste em 2026-06-15 às 08:00.
+Limite da rota curta mantido em 37.03N 8.93W; revisão em 2026-06-15 às 10:00.
+Corredor de emergência ajustado para 36.94N 8.98W; teste em 2026-06-16 às 09:30.
+Zona de descanso mantida em 37.04N 8.90W; revisão em 2026-06-16 às 11:30.
+Limite exterior ajustado para 36.87N 9.05W; teste em 2026-06-17 às 08:30.
+O corredor de proteção poderá avançar até 36.91N 9.01W; testar o equipamento em 2026-06-12 às 08:30.
+A margem ocidental proposta chega a 36.89N 8.99W; rever os mapas em 2026-06-12 às 09:30.

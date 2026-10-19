@@ -1,0 +1,50 @@
+{
+  "persona": "Adrien vit à Paris et exerce comme responsable du développement durable pour un groupe international de distribution établi dans le 8e arrondissement. Il travaille sur les normes européennes d’information en matière de durabilité applicables en 2026 et sur la Loi de vigilance française, afin que chaque niveau de la chaîne d’approvisionnement respecte les audits environnementaux et sociaux. Son activité quotidienne consiste à synthétiser rapidement des milliers de rapports de conformité fournisseurs et à suivre les données d’émissions carbone pour préserver les évaluations de performance extra-financière du groupe.",
+  "task": "Croise la procédure interne du plan de vigilance, le niveau de risque des fournisseurs et le dialogue de campagne. Pour le fournisseur textile retenu dans ce cycle, applique la diligence appropriée puis renseigne à la fois le niveau de diligence et le motif dans le registre. N’applique pas automatiquement la règle aux autres fournisseurs à risque élevé hors périmètre de la campagne.",
+  "required_files": [
+    "vigilance_notice.txt",
+    "suppliers_paris.xlsx",
+    "dialogue_vigilance_paris.txt"
+  ],
+  "output_files": [
+    "data/registry_paris.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/registry_paris.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": "Renforcée"
+          },
+          {
+            "row": 4,
+            "col": 3,
+            "value": "Risque élevé"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/registry_paris.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Ficha de parametrização do equipamento aprovada pela equipa de projeto para a estrutura anexa ao Templo de Diana (cenário de ensaio). Os valores seguintes são potências pré-configuradas do sistema instalado, não resultados de dimensionamento calculados apenas a partir da temperatura nem requisitos legais de conservação.
+Até 27C: manter ventilação passiva, sem reforço mecânico.
+A 29C: usar arrefecimento discreto de 4 kW.
+A 31C: usar arrefecimento discreto de 6 kW.
+A 33C: usar arrefecimento discreto de 7 kW.
+Para 35C_Core_Heat no Estrutura Anexa ao Templo de Diana, definir o arrefecimento oculto para 8 kW.
+A 34C: usar arrefecimento discreto de 7,5 kW.
+Nos arcos medievais, distribuir a carga por suportes independentes.
+Na muralha norte, evitar perfurações para condutas.
+Na passagem romana, limitar a vibração das unidades.
+Para 35C_calor_nuclear na Plataforma do Templo de Diana, definir o arrefecimento oculto para 7,5 kW.
+Para 34C_Core_Heat no Anexo Romano Lateral, definir o arrefecimento oculto para 7 kW.

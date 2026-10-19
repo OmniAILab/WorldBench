@@ -1,0 +1,8 @@
+Betriebliche Beladevorgabe – Musterflugzeug Frachtkonfiguration FRA-C7
+Ausgabe 16. Oktober 2026, Fachbereich Ladeplanung. Diese Datei ist eine projektinterne, muster- und konfigurationsbezogene Spezifikation, kein allgemeines Behördenbulletin.
+Zugelassene interne Planungsobergrenze für das betrachtete Unterdeck: Strukturlimit 4500 kg je Abteil. Sie gilt nur für die definierte Flugzeugkonfiguration und ersetzt keine aktuellen Ladepläne oder Herstellergrenzen.
+Eine ältere Planversion enthielt für einen anderen Palettentyp 4200 kg; dieser Wert ist kein neues allgemeines Unterdecklimit.
+Bei ungünstiger Schwerpunktlage kann die operative Freigabe weniger als 4500 kg zulassen. Die konkrete Beladung ist stets nach Positions-, Bodenlast- und Schwerpunktgrenzen zu berechnen.
+Ein pauschaler Wert aus einem fremden Boeing-777F-Szenario darf nicht ohne Muster- und Positionsprüfung übernommen werden.
+Eintrag in die Spezifikation zur Masse- und Schwerpunktberechnung: „Unterdeck – Strukturlimit: 4500 kg je Abteil (Konfiguration FRA-C7)“.
+Freigabe ist Aufgabe der zuständigen Ladeplanung anhand der tatsächlich gültigen Flugzeugunterlagen.

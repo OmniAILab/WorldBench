@@ -1,0 +1,8 @@
+Anaïs : Pour Oeillet_Traict_07, la salinité est de 322 g/L.
+Luc : Oui, elle dépasse le seuil de 320 g/L pour la fleur de sel.
+Anaïs : Le coefficient confirmé du 12 juin est 82.
+Luc : Exact. Pour cette levée, nous retenons un coefficient confirmé d’au moins 80.
+Marc : La valeur de 88 pour Oeillet_Batz_17 n’est qu’une prévision.
+Luc : Oui, elle ne doit pas être utilisée.
+Anaïs : Je marque donc Traict_07 « Prêt » avec « 322 g/L ; coefficient 82 ».
+Luc : C’est la validation attendue.

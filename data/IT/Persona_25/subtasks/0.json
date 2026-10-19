@@ -1,0 +1,40 @@
+{
+  "persona": "Silvia valuta manoscritti storici come ricercatrice senior presso l'Alma Mater Studiorum di Bologna, la più antica università del mondo occidentale. Gestisce la digitalizzazione di fragili testi medievali assicurando che tutti i metodi di conservazione rispettino gli standard della Soprintendenza Archivistica. La sua vita professionale comprende la costante sintesi dei dati paleografici e la stesura di proposte di finanziamento che colmano il divario tra la filologia tradizionale e l'emergente campo delle digital humanities.",
+  "task": "Usa gli standard della Soprintendenza Archivistica per assegnare il livello di urgenza alla digitalizzazione del manoscritto medievale nel file ./data/standard_soprintendenza_bologna.xlsx per il manoscritto Codex_B_112.",
+  "required_files": [
+    "note_manoscritti_bologna.txt",
+    "archivio_bologna.xlsx",
+    "mappa_standard_soprintendenza.xlsx"
+  ],
+  "output_files": [
+    "data/standard_soprintendenza_bologna.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/standard_soprintendenza_bologna.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Urgente"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/standard_soprintendenza_bologna.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

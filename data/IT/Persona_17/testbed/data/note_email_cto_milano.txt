@@ -1,0 +1,19 @@
+Promemoria contatti: legal@startup.it riceve contratti, non comunicazioni tecniche al CTO.
+Nota sistema: PayChat non è classificato alto_rischio.
+Appunto template: Privacy_GDPR non è heading richiesto dalla nota Banca d'Italia.
+Promemoria rischio: medio_rischio non è la categoria registrata per PayScore.
+Nota fintech: non includere dati personali di clienti.
+Nota invio: scrivere a cto@startup.it citando PayScore, alto_rischio e le intestazioni Scopo_modello, Fonti_dati, Supervisione_umana.
+Appunto Banca: le intestazioni richieste sono tre, non due.
+Promemoria CTO: cto@startup.com non è nel foglio contatti.
+Nota tracker: PayScore è già classificato alto_rischio.
+Appunto report: Scopo_modello non va tradotto in Purpose se il file è italiano.
+Promemoria dati: Fonti_dati deve comparire come heading.
+Nota supervisione: supervisione automatica non equivale a Supervisione_umana.
+Appunto Milano: non citare eventi di Porta Nuova nel messaggio.
+Promemoria AI Act: spiegare la classificazione senza allegare normativa completa.
+Nota startup: non promettere approvazioni della Banca d'Italia.
+Appunto compliance: il report è tecnico, non marketing.
+Promemoria forma: email breve con destinatario, sistema, rischio e intestazioni.
+Promemoria contatti: hr@startup.it gestisce le risorse umane, non le comunicazioni tecniche.
+Appunto allegati: lo schema architetturale completo è troppo dettagliato e non serve nel messaggio.

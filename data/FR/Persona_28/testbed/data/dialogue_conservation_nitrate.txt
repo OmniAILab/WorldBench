@@ -1,0 +1,8 @@
+Karim : Voyage_dans_la_Lune_09 est nitrate à 7 °C ?
+Responsable conservation : Oui, et l’inspection note un début de décomposition.
+Karim : Dans ce cas la règle donne priorité Critique, pas Urgente ni Renforcée.
+Responsable conservation : Exact.
+Karim : Je renseigne aussi Début_de_décomposition et Nitrate_Froid_2.
+Responsable conservation : Oui.
+Karim : Je distingue la mesure en chambre froide de l’état chimique de la pellicule.
+Responsable des collections : L’apparition de décomposition impose la filière nitrate dédiée et une prise en charge par du personnel habilité.

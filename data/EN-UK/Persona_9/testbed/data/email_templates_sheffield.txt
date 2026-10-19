@@ -1,0 +1,25 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Quick Update
+Hi [Name],
+Just a quick update on [topic]. [Main detail from source note].
+Best,
+[Name]
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Process Trial Update
+Dear Colleagues,
+Please find a brief update regarding [topic]. [Main detail from source note].
+Please let me know if you require any further production information.
+Kind regards,
+[Name]
+
+Note: AMRC liaison updates should use the formal template.
+Note: shop-floor reminders about tool returns can use the friendly template.
+Note: coolant supplier orders should use procurement wording.
+Note: QA release decisions should not be implied in process-trial emails.
+Note: University of Sheffield contacts should receive concise technical updates.
+Note: Factory 2050 visit messages should not be mixed with production trials.
+Note: supplier complaints require a separate commercial template.
+Note: apprentice rota notes can use the friendly template.
+Note: aerospace client release emails require compliance approval first.
+Note: AMRC emails should include the run identifier when available.

@@ -1,0 +1,18 @@
+Conventions de nommage des fichiers numériques et cotes d'archives (distinguer les cartons perforés de métier, les esquisses sur papier de mise en carte et les images haute définition d'échantillons) :
+Photographies de vitrines : Ville_Année_Numéro.
+Plans de machines : Machine_Série_Date.
+Inventaires papier : Fonds_Cote_Page.
+Échantillons modernes : Créateur_Collection_Année.
+Fiches de restauration : Objet_Intervention_Date.
+Cartons perforés Jacquard : Métier_Numéro_Rang.
+Motifs floraux contemporains : Fleur_Couleur_Version.
+Archives vidéo : Date_Événement_Durée.
+Motifs de dentelle Leavers numérisés (images destinées aux archives internationales) : YYYY_PatternName_Resolution.
+Catalogues commerciaux d'échantillons : Maison_Saison_Page.
+Dessins préparatoires et esquisses : Auteur_Titre_Échelle.
+Correspondance d’atelier : Expéditeur_Date_Destinataire.
+Échantillons métalliques : Alliage_Épaisseur_Numéro.
+Photographies UV : Objet_LongueurOnde_Date.
+Notices de métiers : Constructeur_Modèle_Année.
+Patrons de mode : Maison_Taille_Saison.
+Relevés climatiques : Salle_Date_Heure.

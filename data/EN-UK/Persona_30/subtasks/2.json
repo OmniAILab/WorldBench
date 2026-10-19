@@ -1,0 +1,29 @@
+{
+  "persona": "Hamish is a biomedical scientist at the Queen Elizabeth University Hospital in Glasgow. He keeps laboratory timing sheets, HTA compliance records, research calendars, and clinical safety report drafts.",
+  "task": "Add the biomarker anomaly for Phase_2_Lung to the clinical safety report, combining the anomaly and trial phase exactly.",
+  "required_files": [
+    "genetic_sequencing.xlsx"
+  ],
+  "output_files": [
+    "data/clinical_safety_report.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/clinical_safety_report.docx",
+        "keywords": [
+          "BRCA1_Mutation_Detected",
+          "Phase_2_Lung"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/clinical_safety_report.docx",
+      "change": "modify"
+    }
+  ]
+}

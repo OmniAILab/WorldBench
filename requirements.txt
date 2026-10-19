@@ -1,0 +1,10 @@
+openai==3.35.1
+google-genai==2.31.0
+fire==0.7.1
+openpyxl==3.1.5
+python-docx==1.2.0
+icalendar==7.3.0
+pytz==2026.5
+reportlab==5.0.1
+PyMuPDF==1.28.2
+pdf2docx==0.5.13

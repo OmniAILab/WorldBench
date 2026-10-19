@@ -1,0 +1,28 @@
+{
+  "persona": "Raj is a community pharmacy owner in Nottingham, operating near the Queen’s Medical Centre. He maintains stock records, prescribing update notes, medication review protocols, and short advisory emails for local GP surgeries.",
+  "task": "Extract the structured medication review frequency from the pharmacy policy document and add it to the Consultation Frequency section of the patient care protocol.",
+  "required_files": [
+    "policy_document.txt"
+  ],
+  "output_files": [
+    "data/patient_protocol.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/patient_protocol.docx",
+        "keywords": [
+          "Mandatory structured medication reviews every 6 months"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/patient_protocol.docx",
+      "change": "modify"
+    }
+  ]
+}

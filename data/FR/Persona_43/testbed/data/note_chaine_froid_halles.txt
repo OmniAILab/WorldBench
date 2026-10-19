@@ -1,0 +1,19 @@
+Les produits secs ne suivent pas le même réglage.
+Les viandes maturées sont stockées dans une autre armoire.
+Le pâté en croûte possède son propre bac.
+Les quenelles sont livrées avant l’ouverture des Halles.
+Les terrines sont contrôlées dans le réfrigérateur principal.
+La température ambiante de l’étal n’est pas pertinente.
+Le thermomètre doit être lu après stabilisation.
+Les valeurs avec décimale ne concernent pas le produit demandé.
+Utiliser exactement la température indiquée pour les terrines.
+Ne pas modifier les autres produits.
+Le contrôle sanitaire du Rhône prime sur les habitudes de service.
+Le journal doit conserver l’unité Celsius.
+La porte du réfrigérateur doit rester fermée pendant la mesure.
+Le réglage du congélateur n’est pas demandé.
+La température de transport figure dans un autre document.
+Le registre des bouchons lyonnais n’est pas concerné.
+Une seule cellule doit être mise à jour.
+La terrine extra suit le même réglage que la terrine de campagne classique.
+Le saucisson briôché cuit et le saucisson brioché cru peuvent partager le même bac réfrigéré.

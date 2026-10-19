@@ -1,0 +1,32 @@
+{
+  "persona": "Hugo est ornithologue et coordinateur de terrain en Camargue. Il suit les colonies de flamants roses autour des salins, organise les comptages à distance et adapte les accès aux zones humides en fonction de la nidification, du mistral et des règles de protection de la réserve.",
+  "task": "Rédige un e-mail professionnel au responsable de la réserve. Vérifie le destinataire, confirme que Salin_Giraud_Nord est effectivement fermée par décision interne de gestion du site, puis croise le calendrier d’accès avec le briefing pour communiquer la date de début et le motif actuel sans présenter la date de réouverture envisagée comme acquise.",
+  "required_files": [
+    "contacts_reserve_camargue.xlsx",
+    "statut_zones_camargue.xlsx",
+    "calendrier_acces_camargue.txt",
+    "briefing_fermeture_camargue.txt",
+    "modele_email_reserve.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "garde.reserve@camargue.fr",
+        "keywords": [
+          "Salin_Giraud_Nord",
+          "Fermée",
+          "2026-04-07",
+          "nidification des flamants roses"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_garde.reserve_*.eml",
+      "change": "create"
+    }
+  ]
+}

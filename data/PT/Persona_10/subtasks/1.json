@@ -1,0 +1,29 @@
+{
+  "persona": "Ana é do Entroncamento e coordena há catorze anos operações ferroviárias num centro de manutenção. Articula a circulação de passageiros e mercadorias com as limitações da infraestrutura regional, acompanhando avarias de sinalização e a disponibilidade das vias de intervenção.",
+  "task": "Escreve um email aos maquinistas de mercadorias a comunicar o atraso da rota Mercadorias Lisboa–Porto (serviço MLP-045) e a instrução para a passagem pelo nó ferroviário do Entroncamento.",
+  "required_files": [
+    "passenger_schedule.xlsx",
+    "rerouting_notice_entroncamento.txt",
+    "locomotive_contacts.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_locomotive_drivers.txt",
+        "keywords": [
+          "A rota Mercadorias Lisboa–Porto (serviço MLP-045) deve aguardar 45 minutos antes de atravessar o nó ferroviário do Entroncamento"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_locomotive_drivers.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

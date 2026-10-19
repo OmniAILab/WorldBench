@@ -1,0 +1,39 @@
+{
+  "persona": "Johannes bewirtschaftet Rieslingparzellen am Niersteiner Roten Hang in Rheinhessen. Für die seltene Eisweinlese stimmt er Frostmessungen, Mostgewicht, Leseplanung und die Abläufe im Kelterhaus aufeinander ab.",
+  "task": "Prüfe die nächtlichen Frostmesswerte am Niersteiner Roten Hang anhand der dokumentierten betrieblichen Eiswein-Freigabegrenze und aktualisiere den Erntestatus.",
+  "required_files": [
+    "temperaturen_nierstein.xlsx",
+    "weingesetz_hinweis.txt"
+  ],
+  "output_files": [
+    "data/ernte_nierstein.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/ernte_nierstein.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Nicht_erlaubt"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/ernte_nierstein.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "persona": "Sílvia é natural de Trás-os-Montes e coordena a apanha e transformação de castanha para farinha artesanal nos soutos próximos de Bragança e do Parque Natural de Montesinho. Cruza os registos das campanhas anteriores com previsões de geada e orientações de acesso às parcelas, organizando equipas de apanha manual nas encostas.",
+  "task": "Escreve um email aos responsáveis da cooperativa de castanha indicando a restrição de acesso aplicada pela cooperativa à apanha mecânica na parcela identificada no seu plano de trabalho como «Zona Nuclear A», distinguindo-a de uma proibição legal geral do Parque Natural de Montesinho.",
+  "required_files": [
+    "park_compliance.xlsx",
+    "cooperative_contacts_braganca.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_cooperative_managers.txt",
+        "keywords": [
+          "Apanha mecânica não autorizada na parcela Zona Nuclear A pelo plano interno de acesso da cooperativa"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_cooperative_managers.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

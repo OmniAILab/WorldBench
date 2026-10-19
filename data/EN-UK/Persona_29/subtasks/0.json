@@ -1,0 +1,38 @@
+{
+  "persona": "Priya is a compliance manager at a major retail bank in Leeds city centre. She updates product risk spreadsheets, FCA alert emails, consumer duty manuals, and internal compliance trackers.",
+  "task": "Update the Leeds compliance tracker by copying the risk level for Mobile_Saver_X into its approval status field.",
+  "required_files": [
+    "regional_portfolio_leeds.xlsx"
+  ],
+  "output_files": [
+    "data/wyca_policy.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/wyca_policy.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "High_Risk_Profile"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/wyca_policy.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

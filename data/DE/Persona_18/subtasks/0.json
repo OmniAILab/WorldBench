@@ -1,0 +1,39 @@
+{
+  "persona": "Lukas ist städtischer Wasserwerksinspektor und zuständig für die berühmten Bächle, das Netz schmaler, mittelalterlicher Wasserrinnen entlang der Fußgängerzonen von Freiburg im Breisgau. Er begegnet ständigen Verstopfungsgefahren durch herbstliches Laub und den strengen städtischen Wasserqualitätsvorgaben der baden-württembergischen Umweltbehörde. Er führt fortlaufend Sedimentwarnungen der vorgelagerten Flussabschnitte, aktuelle städtische Straßenreinigungspläne und plötzliche Starkregenvorhersagen zusammen, um seine Reinigungstrupps rechtzeitig vor Überflutungen an die kritischsten innerstädtischen Engpässe zu schicken.",
+  "task": "Vergleiche die Sedimentwarnungen der Dreisam mit dem Bächle-Engpassprotokoll und setze die Reinigungspriorität für den betroffenen Zulauf auf Hoch.",
+  "required_files": [
+    "wasserwerke_freiburg.xlsx",
+    "baechle_hinweise_freiburg.txt"
+  ],
+  "output_files": [
+    "data/engpassprotokoll.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/engpassprotokoll.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Hoch"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/engpassprotokoll.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "persona": "Sasha is the facilities coordinator for the Minneapolis Skyway System in Minnesota, overseeing the maintenance and climate control of the world’s largest contiguous enclosed bridge network. She manages the logistical challenges of syncing private property access agreements with municipal safety codes, ensuring that thousands of commuters can navigate the downtown core comfortably during sub-zero temperatures while balancing the energy demands of multiple heating zones and security protocols.",
+  "task": "Write an email to a private building manager requesting an after-hours access slot and include the skyway section name from the schedule.",
+  "required_files": [
+    "managers_mpls.xlsx",
+    "maintenance_schedule_mpls.xlsx",
+    "manager_email_context_mpls.txt",
+    "email_template_skyway.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "manager@blocka.com",
+        "keywords": [
+          "Block_A_Connector",
+          "after-hours"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_manager_*.eml",
+      "change": "create"
+    }
+  ]
+}

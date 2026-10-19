@@ -1,0 +1,24 @@
+Outreach coordinator: Which clinic count should inform the language-access planning update?
+Clinic lead: Use the current Cedar_Riverside row in the screening log.
+Outreach coordinator: There are now several Cedar-Riverside variants.
+Clinic lead: Yes. The East site, mobile unit, and archived count are separate records.
+Outreach coordinator: West Bank evening has a slightly higher Somali preference count.
+Clinic lead: This update concerns the main Cedar-Riverside clinic, not a citywide maximum.
+Outreach coordinator: The community team mentioned that Cedar-Riverside outreach often relies on trusted Somali-speaking navigators.
+Clinic lead: Correct. That local context explains why the language count matters.
+Outreach coordinator: Should the spreadsheet receive a calculated staffing ratio?
+Clinic lead: No. Record the patient count exactly as it appears in the current screening row.
+Outreach coordinator: The archived Cedar-Riverside value looks deceptively similar.
+Clinic lead: Use the current record, not the archived count.
+Outreach coordinator: Friday community events can change foot traffic.
+Clinic lead: That may affect scheduling, not the current recorded preference count.
+Outreach coordinator: The mobile clinic serves overlapping families.
+Clinic lead: Still a separate location code.
+Outreach coordinator: So I should preserve the exact Patients suffix too?
+Clinic lead: Yes.
+Outreach coordinator: No averaging across East, West Bank, and the main Cedar-Riverside clinic?
+Clinic lead: Correct.
+Outreach coordinator: Current main-clinic row only.
+Clinic lead: Exactly.
+Outreach coordinator: I will update just the matching resource matrix row.
+Clinic lead: Good.

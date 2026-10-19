@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Workplace Calendar//Bristol Conservation Calendar//EN
+BEGIN:VEVENT
+UID:redcliffe-facade-check@local.test
+DTSTART:20260311T090000
+DTEND:20260311T093000
+SUMMARY:Redcliffe Facade Check
+DESCRIPTION:Review listed façade condition before intervention checklist update.
+END:VEVENT
+BEGIN:VEVENT
+UID:bath-stone-supplier-call@local.test
+DTSTART:20260312T100000
+DTEND:20260312T103000
+SUMMARY:Bath Stone Supplier Call
+DESCRIPTION:Confirm availability for the Clifton materials order.
+END:VEVENT
+BEGIN:VEVENT
+UID:historic-england-guidance-review@local.test
+DTSTART:20260314T140000
+DTEND:20260314T143000
+SUMMARY:Historic England Guidance Review
+DESCRIPTION:Check exact guidance wording for the impact assessment.
+END:VEVENT
+BEGIN:VEVENT
+UID:archive-ref-redcliffe-check@local.test
+DTSTART:20260315T093000
+DTEND:20260315T100000
+SUMMARY:Redcliffe Archive Reference Check
+DESCRIPTION:Confirm blueprint index entry for warehouse survey tracker.
+END:VEVENT
+END:VCALENDAR

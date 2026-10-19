@@ -1,0 +1,23 @@
+{
+  "persona": "Teresa é de Moura e dirige há quinze anos uma cooperativa de olivicultores no Alentejo. Acompanha as leituras de humidade das parcelas, distribui os turnos de rega previstos no plano interno da cooperativa para a campanha do Alqueva e supervisiona a qualidade e a rastreabilidade do azeite.",
+  "task": "Consulta a humidade do solo da Herdade_Sul_2, aplica a tabela de rega ligada ao Alqueva e atualiza a dotação de água desse olival na folha de programação.",
+  "required_files": [
+    "soil_moisture_moura.xlsx",
+    "irrigation_rule_moura.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/irrigation_schedule.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "40 mm"
+          }
+        ]
+      }
+    }
+  ]
+}

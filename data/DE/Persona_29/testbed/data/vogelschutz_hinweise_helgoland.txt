@@ -1,0 +1,4 @@
+Betriebsanweisung Offshore-Windpark Deutsche Bucht (Standort Helgoland)
+Aktueller Radarbefund: Das Vogelradar meldet für den Bereich Alpha_Radarfeld_Nord das Ereignis "Starker_Vogelschwarm_Naehert_Sich".
+Anordnung Windparkmanagement: Gemäß des behördlich abgestimmten Vogelschutzprotokolls für diesen Offshore-Windpark ist der Rotationsstatus der Anlage im Alpha_Radarfeld_Nord umgehend in die "Fahnenstellung" (Rotorblätter aus dem Wind gedreht) zu versetzen, um Kollisionen zu verhindern.
+Sicherheitsabschaltung bei extremem Seegang (Hintergrund): Überschreitet der signifikante Seegang den BSH-Sicherheitsschwellenwert von 4 Metern, deaktiviert das Windparkmanagementsystem ohnehin betroffene Bereiche (z. B. Beta_Radarfeld_Nord) und überführt diese in die Fahnenstellung, um Anlagen und im Notfall abgesetzte Techniker zu schützen.

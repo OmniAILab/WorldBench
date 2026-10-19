@@ -1,0 +1,20 @@
+Grille interne de classement qualité de la distillerie (indépendante de la certification biologique d'origine) :
+Hydrolat de lavandin : 96–98 °C → Grade_Cosmétique_B.
+Lavande aspic : 108–110 °C → Grade_Technique_C.
+Immortelle corse : 101–103 °C → Grade_Cosmétique_A.
+Romarin officinal : 99–101 °C → Grade_Alimentaire_B.
+Thym de Provence : 111–113 °C → Grade_Technique_A.
+Sauge sclarée : 102–104 °C → Grade_Cosmétique_B.
+Lavandin grosso : 106–108 °C → Grade_Parfumerie_B.
+Menthe poivrée : 97–99 °C → Grade_Alimentaire_A.
+Lavande fine issue d’une culture certifiée biologique (code matière Lavande_fine_Ecocert) : plage de distillation retenue par l’atelier 104–106 °C → classement interne Grade_Pharmaceutique_A (à confirmer par les analyses chromatographiques du lot).
+Cyprès provençal : 109–111 °C → Grade_Technique_B.
+Genévrier : 103–105 °C → Grade_Cosmétique_C.
+Mélisse : 94–96 °C → Grade_Pharmaceutique_B.
+Fenouil : 100–102 °C → Grade_Alimentaire_C.
+Pin sylvestre : 107–109 °C → Grade_Parfumerie_A.
+Origan : 112–114 °C → Grade_Technique_C.
+Verveine : 98–100 °C → Grade_Cosmétique_A.
+Camomille : 95–97 °C → Grade_Pharmaceutique_C.
+Lavande fine de Haute-Provence : 104–106 °C → Grade_Pharmaceutique_B.
+Lavandin super : 105–107 °C → Grade_Parfumerie_A.

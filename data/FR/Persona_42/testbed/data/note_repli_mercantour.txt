@@ -1,0 +1,19 @@
+Le plan contient plusieurs points de repli selon les secteurs.
+Les coordonnées secondaires ne remplacent pas l’abri imposé.
+La pluie modérée ne déclenche pas le protocole blizzard.
+Les sentiers touristiques utilisent d’autres refuges.
+Les abris vétérinaires sont réservés aux soins.
+Le transport routier n’est pas concerné.
+Les coordonnées doivent être recopiées sans modification.
+L’alerte vise l’itinéraire principal : elle reste une alerte active.
+Le document doit mentionner le caractère obligatoire de l’abri.
+Les coordonnées du Col de Tende ne correspondent pas à cette alerte.
+Le point du Boréon concerne une autre zone.
+Les horaires de montée ne doivent pas être ajoutés.
+La taille du troupeau reste inchangée.
+Le contact du parc est conservé dans une autre fiche.
+Le plan doit rester lisible en situation d’urgence.
+Aucune coordonnée supplémentaire n’est nécessaire.
+La rubrique d’urgence doit être complétée.
+Le point de repli du Col de Tende ne correspond pas à l’itinéraire principal.
+Le Vallon du Boréon possède un abri obligatoire distinct pour les alertes blizzard.

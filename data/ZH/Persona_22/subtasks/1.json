@@ -1,0 +1,30 @@
+{
+  "persona": "肖在绍兴庞大的柯桥纺织市场经营一个批发布料摊。他和国际买家讨价还价，不断查看丝绸混纺面料的实验室检测报告，并喝大量浓茶来保持清醒。",
+  "task": "根据贸易协定说明，将下调后的纺织品关税写入合同模板的税费与关税部分。",
+  "required_files": [
+    "rcep_agreement.txt",
+    "dialogue_shaoxing_tariff.txt",
+    "local_context_shaoxing_tariff.xlsx"
+  ],
+  "output_files": [
+    "data/contract_template.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/contract_template.docx",
+        "keywords": [
+          "4.5%"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/contract_template.docx",
+      "change": "modify"
+    }
+  ]
+}

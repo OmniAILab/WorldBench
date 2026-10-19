@@ -1,0 +1,27 @@
+{
+  "persona": "Jordi es ingeniero estructural en Barcelona y está especializado en la rehabilitación de edificios históricos del Eixample. Se asegura de que toda intervención respete la normativa de protección del patrimonio de la Generalitat de Catalunya y el Catálogo del Ajuntament, así como las actuaciones de pacificación de las Superilles y los Eixos Verds. Su trabajo consiste en revisar planos técnicos y mediar entre las certificaciones de sostenibilidad y la conservación de los materiales originales del siglo XIX.",
+  "task": "Escribe un correo electrónico al propietario del edificio del Eixample para explicar la intervención no permitida por la protección patrimonial.",
+  "required_files": [
+    "contactos_propiedad_barcelona.xlsx",
+    "indicaciones_correo_propiedad.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "propietat@finca.cat",
+        "keywords": [
+          "columnas originales de hierro fundido",
+          "no pueden sustituirse"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_propietat_*.eml",
+      "change": "create"
+    }
+  ]
+}

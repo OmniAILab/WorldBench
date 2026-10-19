@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Interne Kalenderverwaltung//Buchungskalender Spreewald//DE
+BEGIN:VEVENT
+UID:urn:uuid:10feaa56-9c6f-5c8e-a01f-f5e1024f2c33
+DTSTART:20260710T090000
+DTEND:20260710T100000
+SUMMARY:Reguläre Kahnfahrt
+DESCRIPTION:Standardfahrt ab Lübbenau.
+END:VEVENT
+END:VCALENDAR

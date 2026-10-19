@@ -1,0 +1,21 @@
+Promemoria ambiente: la zona Rododendro ha sopralluogo il 2026-06-12.
+Nota festival: la prova audio non riguarda la flora protetta.
+Appunto Belluno: il limite rumore delle 22:00 è in un regolamento diverso.
+Manuale Organizzativo: Le indagini ambientali ordinate dalla Provincia per le oasi floristiche tutelate vanno recepite nel calendario di squadra come sopralluoghi operativi.
+Registro calendario: usare un evento VEVENT per il sopralluogo.
+Nota Cortina: non confondere Edelweiss con la zona parcheggio fornitori.
+Promemoria Dolomiti: il 2026-06-09 è riservato ai controlli palco.
+Scheda ecologia: indicare la specie nel titolo o nella descrizione.
+Nota trasporti: le navette non vanno inserite in questo evento.
+Appunto permessi: Avalanche_Clearance_Cert non è collegato alla flora.
+Promemoria output: la data deve comparire come 20260610 nel calendario.
+Nota sito: il sopralluogo è richiesto prima del festival.
+Registro vecchio: 20260611 era una bozza non approvata.
+Appunto evento: non citare artisti o sponsor.
+Nota tutela: mantenere il riferimento alla Provincia di Belluno.
+Promemoria descrizione: il blocco deve essere operativo e breve.
+Scheda campo: non usare il calendario dei fornitori.
+Promemoria ambiente: la manutenzione dei sentieri è ordinaria e non riguarda la data del sopralluogo.
+Scheda squadra: la fornitura dei dispositivi di protezione è logistica e non modifica il calendario ecologico.
+Nota Dolomiti: il censimento dei larici lungo il sentiero panoramico è programmato in una giornata diversa.
+Promemoria Belluno: la manutenzione delle piste ciclabili non modifica la data del sopralluogo nella zona Edelweiss.

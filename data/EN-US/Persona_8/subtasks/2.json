@@ -1,0 +1,30 @@
+{
+  "persona": "Elena is a whole-animal butcher in Chicago, Illinois, operating a specialized shop in the West Loop that focuses on sourcing livestock from regenerative farms in the Midwest. She manages the intricate regulatory requirements of the Illinois Department of Agriculture regarding artisanal meat processing and the logistical nuances of cold-chain transportation through the city’s congested rail and highway corridors, ensuring that every cut meets the precise specifications of the city’s high-end culinary scene.",
+  "task": "Write an email to the regenerative farm confirming the pickup time and include the West Loop traffic note.",
+  "required_files": [
+    "farm_contacts_chicago.xlsx",
+    "traffic_note_chicago.txt",
+    "pickup_schedule_chicago.xlsx",
+    "email_template_pickup_chicago.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "hello@prairieregenerative.farm",
+        "keywords": [
+          "14:30",
+          "West Loop",
+          "after 15:00"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_hello_*.eml",
+      "change": "create"
+    }
+  ]
+}

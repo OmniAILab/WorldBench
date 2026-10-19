@@ -1,0 +1,28 @@
+{
+  "persona": "Chloe is an urban farm manager in St Werburghs, Bristol. She maintains biodiversity sheets, volunteer handbooks, harvest allocations, and delivery emails for a community-supported agriculture project.",
+  "task": "Write a friendly delivery confirmation email to the charity partners confirming the allocation weight for St_Pauls_Food_Bank.",
+  "required_files": [
+    "harvest_yield.xlsx",
+    "charity_contacts_bristol.xlsx",
+    "email_templates_chloe.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "partners@stwerburghs-farm.uk",
+        "keywords": [
+          "150kg_Assorted_Veg",
+          "St_Pauls_Food_Bank"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_partners_*.eml",
+      "change": "create"
+    }
+  ]
+}

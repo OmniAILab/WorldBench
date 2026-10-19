@@ -1,0 +1,29 @@
+{
+  "persona": "Catriona from the Isle of Skye is a crofting consultant based near Portree. She advises new-entry tenants on crofting paperwork while keeping practical notes on peatland condition, local land use, and pressure from blackhouse holiday conversions.",
+  "task": "Find the Peatland-PT-3 Skye peatland reading and add a short carbon-credit note to the client record, keeping both the site ID and the exact moisture reading visible.",
+  "required_files": [
+    "peat_readings_skye.xlsx"
+  ],
+  "output_files": [
+    "data/client_record_skye.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/client_record_skye.docx",
+        "keywords": [
+          "Peatland-PT-3",
+          "Moisture 68"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/client_record_skye.docx",
+      "change": "modify"
+    }
+  ]
+}

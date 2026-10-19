@@ -1,0 +1,39 @@
+{
+  "persona": "Fabian unterstützt ein Medizintechnikunternehmen im Raum Nürnberg bei der Qualitätssicherung klinischer Unterlagen. Er bewertet pseudonymisierte Sicherheitsereignisse und achtet auf eine nachvollziehbare datenschutzgerechte Dokumentation.",
+  "task": "Wähle aus dem pseudonymisierten Patientensicherheitsbericht das Ereignis mit dem höchsten dokumentierten Schweregrad aus und übernimm seine Kennung in die Sicherheitszusammenfassung.",
+  "required_files": [
+    "sicherheitsbericht_nuernberg.xlsx",
+    "sicherheitshinweise_nuernberg.txt"
+  ],
+  "output_files": [
+    "data/dossier_nuernberg.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/dossier_nuernberg.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "AE-12"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/dossier_nuernberg.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

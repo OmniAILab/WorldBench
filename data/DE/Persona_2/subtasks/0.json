@@ -1,0 +1,39 @@
+{
+  "persona": "Dieter führt eine Uhrmacherwerkstatt in Triberg im Schwarzwald. Er fertigt und restauriert mechanische Kuckucksuhren, prüft die Holzfeuchte geschnitzter Gehäuseteile und bereitet Herkunftsnachweise und Überseeversand sorgfältig vor.",
+  "task": "Prüfe nach der Triberg-Werkstattregel, welcher Lindenholzrohling heute für eine Schwarzwälder Kuckucksuhr geschnitzt werden darf, und aktualisiere die Werkstatttafel.",
+  "required_files": [
+    "holz_triberg.xlsx",
+    "schnitzregel_triberg.txt"
+  ],
+  "output_files": [
+    "data/werkstatttafel_triberg.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/werkstatttafel_triberg.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Ja"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/werkstatttafel_triberg.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

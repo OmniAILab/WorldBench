@@ -1,0 +1,20 @@
+Para 200 kg de lã, planear 4 lotes de tear.
+Para 225 kg de lã, planear 4 lotes e reservar 25 kg.
+Para 250 kg de lã, planear 5 lotes de tear.
+Para 275 kg de lã, planear 5 lotes e reservar 25 kg.
+Para 300 kg de lã, planear 6 lotes de tear.
+Para 325 kg de lã, planear 6 lotes e reservar 25 kg.
+Para 350 kg de lã, planear 7 lotes de tear.
+Regra do moinho de Manteigas: 500 kg de Burel Gramagem Pesada (Chumbo) permitem programar 10 lotes de tear.
+Para 375 kg de lã, planear 7 lotes e reservar 25 kg.
+Para 400 kg de lã, planear 8 lotes de tear.
+Para 420 kg de lã, planear 8 lotes e reservar 20 kg.
+Para 425 kg de lã, planear 8 lotes e reservar 25 kg.
+Para 450 kg de lã, planear 9 lotes de tear.
+Para 475 kg de lã, planear 9 lotes e reservar 25 kg.
+Cada lote padrão utiliza 50 kg de lã limpa.
+A lã húmida deve ser pesada novamente antes da programação.
+Os lotes para capas de inverno têm prioridade durante a época fria.
+Registar separadamente a lã proveniente dos rebanhos da Serra da Estrela.
+Com 490 kg de burel pesado em ardósia, preparar 9 lotes e reservar a diferença para amostras.
+Um inventário de 510 kg de burel mesclado permite 10 lotes, mantendo 10 kg fora da programação.

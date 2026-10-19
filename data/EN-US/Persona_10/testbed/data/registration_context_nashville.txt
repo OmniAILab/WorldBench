@@ -1,0 +1,22 @@
+Registration note: Copper_Chorus has already cleared the Music Row publisher queue.
+Registration note: Vinyl_Dawn is a physical-only issue with no immediate digital filing.
+Registration note: Honkytonk_Light has a completed mechanical registration.
+Registration note: Pedal_Steel_Rain is still missing a final release approval.
+Registration note: Neon_Skies needs the publisher registration action confirmed before its 2026-04-10 digital release.
+Registration note: River_Tone already has the required mechanical number.
+Registration note: Session_Street needs only backup-vocal credit confirmation.
+Registration note: Broadway_Afterglow is waiting on artwork rather than registration.
+Registration note: Guitar_Case_Blues is tied to a live-room invoice.
+Registration note: Writer_Room_Echo is missing a co-writer phone number.
+Registration note: Studio_Bell is ready for royalty routing.
+Registration note: Demo_Tape_Gray is not scheduled for release.
+Registration note: Cassette_Porch has no digital release date.
+Registration note: Fiddle_Lane belongs to a separate publishing administrator.
+Registration note: Analog_Moon is a holdback for a Nashville showcase.
+Registration note: Archive_Take is an internal reference recording.
+Registration note: Session_Biscuit is a hospitality expense code.
+Music Row context: one track can have mechanical, performance, and sync rights administered separately.
+Local practice: writer rooms often produce demos that are not yet confirmed digital releases.
+Administration: the split sheet must distinguish songwriter, session musician, and publisher.
+Nashville context: studio sessions and showcases do not automatically amount to a commercial release.
+MLC: the mechanical action has to be kept separate from performance-rights checks.

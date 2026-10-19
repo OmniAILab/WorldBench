@@ -1,0 +1,8 @@
+Julien : Pour le point Bpifrance, dois-je compter les prototypes assemblés ?
+Émilie : Non. Le KPI demandé est le nombre de prototypes effectivement déployés.
+Julien : Donc le statut doit être exactement « Déployé ».
+Émilie : Oui. « En cours de déploiement » ne compte pas encore.
+Marc : Les unités retournées en atelier sont également exclues.
+Émilie : Exact, tout comme les prototypes stockés.
+Julien : Le registre donne alors douze prototypes déployés.
+Émilie : Oui, indique clairement « 12 prototypes déployés » dans la mise à jour.

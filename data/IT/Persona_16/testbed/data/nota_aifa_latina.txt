@@ -1,0 +1,19 @@
+Promemoria AIFA: il campo deviazione può mancare solo nei batch di prova, non in quelli export.
+Nota batch: LT-779 ha deviation report presente e non deve essere marcato non pronto.
+Appunto dossier: la firma del responsabile non sostituisce il deviation report.
+Promemoria Latina: il magazzino vicino alla Pontina usa codici logistici separati.
+Nota EMA: la certificazione QP è documento diverso dal log manifatturiero.
+Linee Guida Ispettive AIFA: Un dossier di lotto destinato all'esportazione è da ritenersi burocraticamente monco, e quindi bloccato, se il referto ufficiale sulle deviazioni di produzione risulta assente o non firmato.
+Appunto qualità: LT-780 non è presente nel foglio readiness.
+Promemoria audit: non usare 'Sì' se il deviation report è Missing.
+Nota archivio: nel lotto 2025 il report era facoltativo, regola non valida.
+Appunto produzione: il turno notte non determina la prontezza del dossier.
+Promemoria controllo: Present significa pronto rispetto al requisito specifico.
+Nota export: il Paese destinazione non cambia il requisito AIFA del campo.
+Appunto laboratorio: il certificato analitico non basta se manca il report deviazioni.
+Promemoria file: non aggiornare righe con batch non elencati nei log.
+Nota qualità: 'Missing' va interpretato come requisito non completo.
+Appunto stabilimento: il nome della linea non va copiato nel campo Ready.
+Promemoria dossier: aggiornare LT-778 e LT-779 coerentemente.
+Promemoria magazzino: la mappatura delle scaffalature frigorifere è logistica e non incide sulla prontezza del dossier.
+Appunto produzione: la manutenzione programmata della linea di confezionamento non determina lo stato del lotto.

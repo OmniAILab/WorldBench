@@ -1,0 +1,27 @@
+{
+  "persona": "Helena is a commercial solicitor in Leeds, operating near The Headrow and specialising in urban regeneration projects. She updates deal summaries, Section 106 wording notes, title schedules, and briefing documents for local planning matters.",
+  "task": "Write an email draft to Leeds City Council Planning about the minor Section 106 wording change, using the planning contact and the exact replacement wording from the drafting note.",
+  "required_files": [
+    "planning_contacts_leeds.xlsx",
+    "wording_note.txt",
+    "email_templates_leeds.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "planning@leeds.gov.uk",
+        "keywords": [
+          "shall procure delivery"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_planning_*.eml",
+      "change": "create"
+    }
+  ]
+}

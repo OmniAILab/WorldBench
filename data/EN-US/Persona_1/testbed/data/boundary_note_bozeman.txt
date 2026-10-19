@@ -1,0 +1,20 @@
+Visit: afternoon fence walk on 2026-04-03; check the south gate latch.
+Visit: wolf camera in the evening on 2026-04-05; swap the memory cards.
+Visit: lambing check on 2026-04-07; prepare the bottles before heading out.
+Visit: hay delivery on 2026-04-08; keep the bales away from the bank.
+Visit: fladry inspection on 2026-04-09; retension the red flags.
+Visit: radio check on 2026-04-11; charge both units.
+Visit: gate repair on 2026-04-12; bring hinge pins.
+Visit: guard dog check on 2026-04-13; replace the collar batteries.
+Required instruction: schedule Dawn Patrol on 2026-04-10 from 05:45 to 06:30.
+Required description: include exactly "log tracks before turnout".
+Yellowstone context: fresh snow near the boundary holds tracks only briefly.
+Montana context: leave before traffic builds toward the park entrance.
+Montana context: the coffee from the Bozeman roaster stays in the truck.
+Local context: the secondary road to Pasture_7 has not been fully plowed.
+Local context: last week's field notebook is in the glove box.
+The fladry inspection on 2026-04-09 is not Dawn Patrol.
+The radio check on 2026-04-11 is not the boundary patrol.
+An older March note mentions 06:00, but it is archived.
+A dusk patrol exists on 2026-04-10 at 19:30, with no track instruction.
+Calendar instruction: do not move Dawn Patrol for weather if the date stays confirmed.

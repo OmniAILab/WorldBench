@@ -1,0 +1,31 @@
+{
+  "persona": "Lluís es marger en la Serra de Tramuntana, en Mallorca, y mantiene los bancales y las paredes de piedra en seco del paisaje cultural declarado Patrimonio Mundial por la UNESCO. Trabaja con las bases de la convocatoria FODESMA del Consell Insular para la conservación de marges y con los dictámenes técnicos sobre la colocación de les falques. Su trabajo consiste en valorar la orografía de cada bancal para encajar el nivel de ayuda y en requerir a la propiedad las correcciones necesarias.",
+  "task": "Consulta la fecha de la visita de seguimiento patrimonial vinculada al paisaje cultural de la Serra de Tramuntana y añade al calendario del artesano una revisión de obra de piedra seca para ese mismo día.",
+  "required_files": [
+    "comunicacion_patrimoni_tramuntana.txt"
+  ],
+  "output_files": [
+    "data/calendario_marger_tramuntana.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_marger_tramuntana.ics",
+        "summary_keywords": [
+          "Revisión de obra de piedra seca"
+        ],
+        "description_keywords": [
+          "Serra de Tramuntana"
+        ],
+        "date": "2026-04-15"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_marger_tramuntana.ics",
+      "change": "modify"
+    }
+  ]
+}

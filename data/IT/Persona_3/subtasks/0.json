@@ -1,0 +1,30 @@
+{
+  "persona": "Paolo è l'anima e il proprietario di Al 19, un ristorante incastonato tra i vicoli tortuosi del centro di Frascati, a pochi chilometri da Roma. La sua missione è un delicato equilibrio: onorare l'eredità delle tradizionali fraschette dei Castelli Romani, elevando al contempo l'esperienza a uno standard di alta cucina. Gestisce la logistica quotidiana muovendosi tra i varchi della ZTL del paese e collaborando strettamente con piccoli produttori locali per garantire una freschezza a chilometro zero, dai vini Frascati Superiore DOCG alle verdure di Tusculum.",
+  "task": "Usa la lista dei produttori per scegliere la verdura a chilometro zero disponibile oggi e aggiorna il documento della lavagna del menù. Il file ./data/lavagna_menu_frascati.docx deve contenere esattamente le seguenti diciture: «Al 19», «Zucchine_Tusculum».",
+  "required_files": [
+    "produttori_frascati.xlsx",
+    "note_cucina_frascati.txt"
+  ],
+  "output_files": [
+    "data/lavagna_menu_frascati.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/lavagna_menu_frascati.docx",
+        "keywords": [
+          "Al 19",
+          "Zucchine_Tusculum"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/lavagna_menu_frascati.docx",
+      "change": "modify"
+    }
+  ]
+}

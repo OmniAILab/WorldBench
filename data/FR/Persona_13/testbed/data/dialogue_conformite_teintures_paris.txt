@@ -1,0 +1,8 @@
+Amélie : La procédure de notre atelier vise-t-elle toutes les chaînes contenant « Solvant_X » ?
+Claire : Non. Pour cette vérification, applique-la au type exact « Solvant_X ».
+Amélie : Donc Bleu_Atelier, classé « Solvant_X_dilué », n’est pas la ligne à modifier ici.
+Claire : Exact.
+Marc : Noir_X est bien la teinture dont le type est exactement Solvant_X.
+Claire : Oui.
+Amélie : Je la marque « Non » et j’inscris « Solvant X non autorisé par la procédure interne de l’atelier » comme motif.
+Claire : C’est le décision consignée.

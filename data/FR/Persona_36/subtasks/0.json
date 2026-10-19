@@ -1,0 +1,61 @@
+{
+  "persona": "Amandine travaille à Lyon dans la conservation du patrimoine de la soierie. En lien avec un atelier de la Croix-Rousse, elle étudie les cartons Jacquard, les armures et les échantillons de tissus des anciens canuts. Elle coordonne les recherches d’archives, les essais de teinture et la reproduction de motifs historiques pour des collections patrimoniales.",
+  "task": "Valide l'échantillon Crimson_Madder_A en croisant l’analyse chimique, la provenance historique, la destination de reconstitution, la grille scientifique de l'atelier et le dialogue de conservation. Mets à jour le statut, le résultat retenu et l’usage validé. Écarte les formules d’aniline et les recettes provenant d’autres périodes.",
+  "required_files": [
+    "regles_validation_soieries.txt",
+    "dye_analysis_lyon.xlsx",
+    "provenance_soieries_lyon.xlsx",
+    "dialogue_validation_soierie_lyon.txt"
+  ],
+  "output_files": [
+    "data/culture_mandates.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/culture_mandates.xlsx",
+        "matches": [
+          {
+            "row": 10,
+            "col": 2,
+            "value": "Approuvé"
+          },
+          {
+            "row": 10,
+            "col": 3,
+            "value": "Authentic_1850s_Formula"
+          },
+          {
+            "row": 10,
+            "col": 4,
+            "value": "Soierie_canuse_XIXe"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/culture_mandates.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

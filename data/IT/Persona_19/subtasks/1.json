@@ -1,0 +1,40 @@
+{
+  "persona": "Davide è un meccanico di precisione nella \"Motor Valley\" dell'Emilia-Romagna, dove supervisiona l'assemblaggio di motori ad alte prestazioni per un costruttore automobilistico di lusso nei pressi di Modena. Garantisce che tutte le fasi di produzione rispettino i rigorosi standard di qualità ISO 9001 e i specifici limiti di emissioni di carbonio imposti dal piano industriale regionale. Il suo ruolo richiede il costante monitoraggio dei dati di assemblaggio robotizzato e la conciliazione dei ritardi della catena di fornitura con il programma di produzione \"just-in-time\" della fabbrica.",
+  "task": "Calcola la percentuale di utilizzo del tetto carbonio per il turno notte e aggiornala nel registro emissioni nel file ./data/utilizzo_carbonio_modena.xlsx per il turno Notte.",
+  "required_files": [
+    "note_carbonio_modena.txt",
+    "tetto_carbonio_modena.xlsx",
+    "emissioni_modena.xlsx"
+  ],
+  "output_files": [
+    "data/utilizzo_carbonio_modena.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/utilizzo_carbonio_modena.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": 82
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/utilizzo_carbonio_modena.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

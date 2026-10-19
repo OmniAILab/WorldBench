@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Equipa Cloud Braga//Agenda Tecnológica//PT
+BEGIN:VEVENT
+UID:f3e8f44e-ee92-4939-97e1-27bfeeb19a79
+DTSTAMP:20261101T090000Z
+DTSTART:20261113T013000
+DTEND:20261113T020000
+SUMMARY:Teste de cópia de segurança
+DESCRIPTION:Restauro de teste das cópias de segurança dos servidores das unidades de saúde do distrito.
+END:VEVENT
+BEGIN:VEVENT
+UID:6417952e-4f7e-42bb-9b10-d8e0cb207657
+DTSTAMP:20261101T090000Z
+DTSTART:20261113T030000
+DTEND:20261113T033000
+SUMMARY:Validação dos certificados
+DESCRIPTION:Verificação das datas de validade dos certificados dos nós de sincronização.
+END:VEVENT
+BEGIN:VEVENT
+UID:8f906316-ca35-49f9-9946-f4d2c296b798
+DTSTAMP:20261101T090000Z
+DTSTART:20261113T093000
+DTEND:20261113T101500
+SUMMARY:Reunião da equipa cloud
+DESCRIPTION:Ponto de situação semanal da equipa de infraestrutura.
+END:VEVENT
+BEGIN:VEVENT
+UID:60afe0cf-5561-45cb-968d-47274711aa8a
+DTSTAMP:20261101T090000Z
+DTSTART:20261113T110000
+DTEND:20261113T113000
+SUMMARY:Revisão do plano noturno
+DESCRIPTION:Revisão dos limites de transferência por unidade rural para as janelas noturnas.
+END:VEVENT
+BEGIN:VEVENT
+UID:cb724977-2277-4834-8f59-525bc15c8550
+DTSTAMP:20261101T090000Z
+DTSTART:20261113T143000
+DTEND:20261113T150000
+SUMMARY:Reunião de privacidade
+DESCRIPTION:Ponto com o responsável pela proteção de dados sobre o registo de acessos.
+END:VEVENT
+BEGIN:VEVENT
+UID:93c7d7c8-caa4-4e72-900d-5f3d83b4188e
+DTSTAMP:20261101T090000Z
+DTSTART:20261113T163000
+DTEND:20261113T170000
+SUMMARY:Atualização do inventário
+DESCRIPTION:Atualização do inventário de servidores e agentes instalados.
+END:VEVENT
+BEGIN:VEVENT
+UID:b46af03b-b083-428b-9f1d-017ae6b7df77
+DTSTAMP:20261101T090000Z
+DTSTART:20261114T013000
+DTEND:20261114T033000
+SUMMARY:Restrição de cópias de segurança
+DESCRIPTION:Limitação parcial durante uma intervenção intermunicipal.
+END:VEVENT
+BEGIN:VEVENT
+UID:38a74e05-7cbf-4c7a-ae71-1817f96df12b
+DTSTAMP:20261101T090000Z
+DTSTART:20261114T040000
+DTEND:20261114T053000
+SUMMARY:Supervisão do teste de continuidade
+DESCRIPTION:Acompanhamento técnico sem suspensão global das implementações.
+END:VEVENT
+END:VCALENDAR

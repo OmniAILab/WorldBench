@@ -1,0 +1,31 @@
+{
+  "persona": "Étienne est guide de haute montagne à Saint-Gervais-les-Bains. Il prépare des courses dans le massif du Mont-Blanc, notamment sur l’itinéraire du Goûter, en confrontant les prévisions météorologiques, l’état du glacier et les consignes de sécurité. Il informe ses clients et adapte les départs selon les conditions de terrain et les restrictions d’accès effectivement applicables.",
+  "task": "Rédige un e-mail aux clients après avoir vérifié l’altitude maximale et les conditions de vent de l’itinéraire prévu, puis croise ce résultat avec le bulletin de risque et le dialogue du guide. Communique la tranche d'altitude, la catégorie de vent applicable et l’équipement obligatoire exact. Écarte les recommandations correspondant aux tranches d’altitude inférieures.",
+  "required_files": [
+    "contacts_expedition_montblanc.xlsx",
+    "avalanche_report.xlsx",
+    "itineraire_expedition_gouter.xlsx",
+    "dialogue_meteo_expedition.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "clients@expedition-montblanc.fr",
+        "keywords": [
+          "Au-dessus_3800m",
+          "Catégorie_4_vents_violents",
+          "Masque_cagoule_et_lunettes",
+          "itinéraire confirmé"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_clients_*.eml",
+      "change": "create"
+    }
+  ]
+}

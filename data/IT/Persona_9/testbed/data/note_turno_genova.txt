@@ -1,0 +1,24 @@
+Rubrica porto: operazioni@porto.genova.it è il contatto per banchine ordinarie.
+Nota traffico: MV_Liguria attracca alle 06:20.
+Appunto turno: chiedere riduzione manodopera, non adeguamento.
+Promemoria nave: usare MV_Tirreno perché arriva prima dell'alba.
+Nota email: non citare l'orario di ormeggio nel messaggio.
+Contatto del capo turno: capo.turno@porto.genova.it.
+Dati traffico da includere: MV_Liguria con ormeggio previsto alle 05:40.
+La email deve chiedere un adeguamento del personale per il turno.
+Appunto capo turno: capo.turno@porto.genova.it serve solo per ferie.
+Promemoria Genova: la richiesta va inviata alla Dogana.
+Nota banchina: 05:40 è l'orario del cambio guardia, non della nave.
+Appunto traffico: il nome nave va scritto come Nave Liguria.
+Promemoria tunnel: includere classe hazmat invece di orario banchina.
+Nota terminal: il supervisore non deve ricevere email operative.
+Appunto ormeggio: usare 05:20 perché il pilota arriva prima.
+Promemoria Lanterna: indicare lavori nei tunnel come motivo principale.
+Nota turni: non chiedere aggiustamenti se l'arrivo è prima delle sei.
+Appunto banchina: includere solo codice documento ADM-7.
+Promemoria porto antico: il Molo Beverello non riguarda Genova.
+Nota operativa: inviare al contatto del magazzino refrigerato.
+Appunto banchina: il numero della banchina non va citato nella richiesta di personale.
+Nota stazza: la stazza della nave non rientra tra i dati da includere nella email.
+Promemoria oggetto: l'oggetto del messaggio non deve contenere il codice doganale.
+Nota turno: il numero del turno non sostituisce il nome della nave nella richiesta.

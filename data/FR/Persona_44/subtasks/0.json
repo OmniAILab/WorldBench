@@ -1,0 +1,34 @@
+{
+  "persona": "Camille est biologiste marine à Marseille et participe au suivi des herbiers de posidonie dans le parc national des Calanques. Elle planifie les campagnes de terrain autour de Port-Pin et des îles du Frioul et de Riou, renseigne les relevés écologiques et distingue les autorisations de recherche des règles de navigation et de sécurité maritime.",
+  "task": "Rédige un e-mail à la préfecture maritime après avoir croisé le statut opérationnel de navigation de la campagne, la campagne écologique active, le contact compétent et le dialogue de coordination. Pour la campagne RIOU-POS-26, confirme le statut actuel de Riou et demande une coordination de patrouille destinée à protéger les herbiers de posidonie. Écarte Riou_Nord, les autres archipels et les campagnes archivées.",
+  "required_files": [
+    "maritime_traffic_marseille.xlsx",
+    "maritime_contacts_marseille.xlsx",
+    "note_posidonie_riou.txt",
+    "campagne_posidonie_riou.xlsx",
+    "dialogue_patrouille_riou.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "prefecture-maritime-environnement@simulation-interne.invalid",
+        "keywords": [
+          "RIOU-POS-26",
+          "Riou",
+          "Fermé pour régénération",
+          "patrouille",
+          "posidonie",
+          "campagne active"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_environnement_*.eml",
+      "change": "create"
+    }
+  ]
+}

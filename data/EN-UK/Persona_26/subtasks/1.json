@@ -1,0 +1,29 @@
+{
+  "persona": "Finlay is a location manager for a television production company in Edinburgh. He handles filming permits, equipment access notes, sound restrictions, and logistics during the busy festival season.",
+  "task": "Add the Old_Town_Residential noise limit to the sound compliance document, combining the heritage zone and limit exactly as shown.",
+  "required_files": [
+    "filming_charter.xlsx"
+  ],
+  "output_files": [
+    "data/sound_compliance.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/sound_compliance.docx",
+        "keywords": [
+          "65dB_Max",
+          "Old_Town_Residential"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/sound_compliance.docx",
+      "change": "modify"
+    }
+  ]
+}

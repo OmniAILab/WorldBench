@@ -1,0 +1,39 @@
+{
+  "persona": "Silas is a forest health specialist in Asheville, North Carolina, working to mitigate the impact of invasive species and wildfire risks within the Blue Ridge Mountains. He manages the coordination between the U.S. Forest Service and local private landowners, documenting the spread of the hemlock woolly adelgid and planning controlled burns that adhere to the North Carolina Forest Service’s strict air quality and smoke management regulations.",
+  "task": "Cross-reference the controlled burn coordinate from the U.S. Forest Service plan spreadsheet and record the matched burn type in the smoke dispersion planning spreadsheet.",
+  "required_files": [
+    "smoke_dispersion_note_asheville.txt",
+    "usfs_burn_plan.xlsx"
+  ],
+  "output_files": [
+    "data/nc_air_quality.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/nc_air_quality.xlsx",
+        "matches": [
+          {
+            "row": 6,
+            "col": 2,
+            "value": "Understory"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/nc_air_quality.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

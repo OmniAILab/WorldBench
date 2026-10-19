@@ -1,0 +1,8 @@
+Pierrick : Le lot CT-09 utilise la version Cornouaille_2026 ?
+Responsable embouteillage : Oui.
+Pierrick : Pour Mention_Titre_Alcoométrique, la règle active est au moins 14 points et en gras.
+Responsable embouteillage : Exact, ignore Mention_Titre_Alcoométrique_Bis.
+Pierrick : Je demande la correction avant l’embouteillage du 15 avril.
+Responsable embouteillage : Oui.
+Pierrick : Je transmets la version de BAT retenue à l’équipe avant la mise en bouteilles.
+Responsable conditionnement : Oui, surtout ne pas appliquer le gabarit « Bis », qui concerne l’essai d’étiquette précédent.

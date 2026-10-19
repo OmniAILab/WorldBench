@@ -1,0 +1,32 @@
+{
+  "persona": "博是大连的一名本地拖船船长。他利用船上的声呐在渤海寻找丢失的集装箱，并在恶劣的冬季飑风来临时努力保护船员安全。",
+  "task": "把天气警报整理成一份简短通报文档，说明甲板水手何时需要停止拖缆作业。",
+  "required_files": [
+    "storm_notice_dalian.txt",
+    "dialogue_dalian_storm.txt",
+    "dalian_winter_weather_context.xlsx"
+  ],
+  "output_files": [
+    "data/tug_bulletin.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/tug_bulletin.docx",
+        "keywords": [
+          "辽东半岛",
+          "暂停拖缆作业",
+          "阵风增强"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/tug_bulletin.docx",
+      "change": "modify"
+    }
+  ]
+}

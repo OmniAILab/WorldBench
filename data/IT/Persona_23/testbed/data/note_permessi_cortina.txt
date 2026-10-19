@@ -1,0 +1,21 @@
+Promemoria contratti: SnowLight_Srl deve consegnare il certificato elettrico, non valanghe.
+Nota eventi: Dolomiti_Music_Fest riguarda shuttle, non permessi del contraente.
+Appunto sicurezza: Fire_Plan_2026 non è il documento mancante per Alpine_Staging_Co.
+Audit Sicurezza Eventi: Laddove dal database fornitori emerga l'assenza del nulla osta contro i rischi di slavina, intimare formalmente al contraente difettoso la rapida sottomissione del documento.
+Registro contatti: permits@alpinestaging.it è il recapito del contraente indicato.
+Nota Belluno: il sopralluogo Edelweiss è separato dalla certificazione valanghe.
+Promemoria ufficio: non citare clausole economiche del contratto.
+Scheda contractor: Alpine_Staging_Co è la riga con permesso mancante.
+Nota Cortina: usare una formulazione di avviso operativo.
+Appunto palco: il montaggio luci non sostituisce Avalanche_Clearance_Cert.
+Promemoria output: includere la parola mancante nella email.
+Nota trasporti: la capacità shuttle non serve in questa comunicazione.
+Registro permessi: Aval_Review_Draft non è il certificato richiesto.
+Appunto post-olimpico: non dichiarare sospensione totale se si chiede integrazione documentale.
+Nota team: non inviare al gruppo fornitori generico.
+Promemoria calendario: non creare evento per questa istanza.
+Scheda sicurezza: mantenere il codice certificato esatto.
+Promemoria contratti: il rinnovo della polizza assicurativa è amministrativo e non riguarda il documento mancante.
+Scheda contractor: la consegna dei badge di accesso è organizzativa e non sostituisce la certificazione.
+Nota Belluno: il nulla osta paesaggistico per la segnaletica segue una pratica distinta dal certificato valanghe.
+Promemoria Cortina: il collaudo delle tribune post-olimpiche non sostituisce la documentazione richiesta al contraente.

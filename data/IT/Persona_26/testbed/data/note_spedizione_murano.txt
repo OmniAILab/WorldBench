@@ -1,0 +1,21 @@
+Promemoria ordini: Chandelier_Paris_2 parte il 2026-05-18.
+Nota fornace: il sovrapprezzo metano non va citato come data partenza.
+Appunto canali: trasporti@hotel.it non è il contatto logistico acqueo.
+Appunto Logistica Acquea: Appena chiusa la soffiatura dei lotti internazionali personalizzati, allertare tempestivamente l'agenzia barche fissando lo scheduling e intimando una manovra "fragile".
+Registro ordini: Chandelier_Dubai_1 è l'ordine del lampadario su misura.
+Nota imballo: fragile va indicato perché si tratta di vetro di Murano.
+Promemoria porto: il 2026-05-25 riguarda il ritiro in aeroporto.
+Scheda logistica: usare canali@logisticamurano.it.
+Nota Venezia: non inserire dati di prezzo nel messaggio.
+Appunto dogana: Dubai richiede documenti separati, ma qui serve la prenotazione trasporto.
+Promemoria output: includere data in formato ISO.
+Nota bottega: non citare nomi degli artigiani.
+Registro precedente: Chandelier_Dubai_Test non è l'ordine finale.
+Appunto vaporetto: le linee pubbliche non trasportano questo collo.
+Nota produzione: Furnace_Alpha non è necessario nella email.
+Promemoria imballaggio: non sostituire fragile con delicato se la keyword richiesta è fragile.
+Scheda spedizione: mantenere il riferimento ordine esatto.
+Promemoria contatti: amministrazione@logisticamurano.it gestisce la contabilità, non le prenotazioni di trasporto.
+Scheda imballo: l'inventario del materiale da imballaggio è logistico e non riguarda la data di partenza.
+Nota Venezia: la consegna locale alle gallerie di San Marco utilizza un servizio diverso da quello per l'ordine internazionale.
+Promemoria Murano: il trasporto delle casse vuote di ritorno non modifica la data di partenza del lampadario.

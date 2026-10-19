@@ -1,0 +1,20 @@
+Promemoria energia: 12% era il sovrapprezzo invernale precedente.
+Nota fornace: il consumo 400_Cubic_Meters_High riguarda emissioni, non prezzi.
+Appunto produzione: i lampadari Dubai hanno listino separato ma stesso costo energia.
+Registro metano: la voce corrente parla di ore di punta.
+Nota Murano: non confondere sovrapprezzo con aliquota doganale.
+Promemoria manuale: usare la sezione Costi energia.
+Scheda fornitori: il vetro colorato non cambia la percentuale metano.
+Nota contabilità: non inserire importi in euro non richiesti.
+Appunto Laguna: il limite ambientale non è un costo.
+Promemoria output: includere 15% come percentuale.
+Nota produzione: non creare una email in questa istanza.
+Registro vecchio: 10% era relativo a uso fuori punta.
+Appunto bottega: il costo imballaggio fragile è distinto.
+Nota documento: mantenere testo breve e operativo.
+Promemoria artigiani: non citare nomi del personale di fornace.
+Scheda prezzi: specificare che riguarda ore di punta.
+Promemoria manuale: l'aggiornamento dell'indice del documento è redazionale e non modifica la percentuale.
+Scheda contabilità: la rendicontazione delle fatture energetiche è amministrativa e non riguarda il sovrapprezzo.
+Nota Murano: il costo dell'elettricità del laboratorio di molatura è contabilizzato separatamente dal metano della fornace.
+Promemoria Venezia: le tariffe del trasporto acqueo non rientrano nel sovrapprezzo energetico delle ore di punta.

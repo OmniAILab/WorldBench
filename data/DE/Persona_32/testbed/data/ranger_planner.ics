@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Interne Kalenderverwaltung//Rangerplan Bayerischer Wald//DE
+BEGIN:VEVENT
+UID:urn:uuid:c1f7fec8-4867-56ea-8d5c-4c522e04e050
+DTSTART:20260314T090000
+DTEND:20260314T100000
+SUMMARY:Wildkameras prüfen
+DESCRIPTION:Kontrollgang am Rachel.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:5ead8018-de70-559b-aaf7-7d87f57af20e
+DTSTART:20260313T070000
+DTEND:20260313T090000
+SUMMARY:Leise Kontrollfahrt Luchsspuren
+DESCRIPTION:Voraberkundung für störungsempfindliche Luchsweibchen; Vorerkundung des Projektteams.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:7cb5a4f0-f102-58bf-97ed-ded2778e4ecb
+DTSTART:20260313T090000
+DTEND:20260313T110000
+SUMMARY:Gebietsabriegelung Schneespuren
+DESCRIPTION:Ruhige Absperrung vor Expedition; Schutz empfindlicher Wildtiere; Bereich nach Einsatzplan prüfen.
+END:VEVENT
+END:VCALENDAR

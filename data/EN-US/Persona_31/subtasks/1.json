@@ -1,0 +1,28 @@
+{
+  "persona": "Sterling is a digital archives specialist in Richmond, Virginia, focusing on the preservation of the city’s extensive Civil War-era records and genealogical documents. He manages the rigorous metadata standards of the Library of Virginia and the technical requirements for high-resolution digitizing projects, ensuring that fragile historical papers are accurately scanned and indexed for public access while adhering to federal grants for historical preservation and cultural heritage.",
+  "task": "Insert the federal grant reporting deadline for the genealogical digitization project into the Library of Virginia executive summary.",
+  "required_files": [
+    "funding_tracker.xlsx"
+  ],
+  "output_files": [
+    "data/executive_summary.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/executive_summary.docx",
+        "keywords": [
+          "2026-10-31"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/executive_summary.docx",
+      "change": "modify"
+    }
+  ]
+}

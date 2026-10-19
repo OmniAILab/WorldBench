@@ -1,0 +1,20 @@
+Carnet de chauffe interne de la tonnellerie (recettes d'atelier selon l'origine des merrains, l'hygrométrie du bois et le profil commandé par les domaines) :
+Chêne des Vosges destiné au Premier Cru, humidité de 9 % : Chauffe_Longue_70_min.
+Chêne de l’Allier destiné au vin de garde, humidité de 10 % : Chauffe_Moyenne_60_min.
+Chêne à 11 % : chauffe moyenne de 55 min.
+Chêne à 12 % : chauffe moyenne de 50 min.
+Chêne à 13 % pour vin blanc : chauffe légère de 40 min.
+Chêne à 15 % pour vin rouge : chauffe moyenne de 50 min.
+Chêne à 16 % : séchage complémentaire sur parc à merrains avant mise en rose.
+Chêne à 17 % : stockage ventilé.
+Chêne de Tronçais destiné à une cuvée Grand Cru, humidité stabilisée à 14 % : Chauffe_Moyenne_45_min.
+Chêne à 18 % : refus temporaire de chauffe.
+Chêne sessile à 12 % : chauffe légère de 45 min.
+Chêne pédonculé à 13 % : chauffe moyenne de 55 min.
+Chêne de Bertranges à 15 % : chauffe forte de 40 min.
+Chêne de Nevers à 11 % : chauffe moyenne de 60 min.
+Chêne de l’Allier à 10 % : chauffe légère de 55 min.
+Chêne du Limousin à 16 % : chauffe forte de 50 min.
+Douelle réparée à 14 % : chauffe légère de 35 min.
+Chêne du Morvan destiné au vin de réserve, humidité de 9 % : Chauffe_Longue_65_min.
+Chêne des Vosges destiné au vin blanc, humidité de 10 % : Chauffe_Légère_55_min.

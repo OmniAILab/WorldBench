@@ -1,0 +1,28 @@
+{
+  "persona": "Marc es urbanista en València y se encarga de la ampliación del corredor verde del Jardín del Turia. Compagina la normativa de protección del litoral con las restricciones de uso del agua de la Confederación Hidrográfica del Júcar. Su trabajo consiste en interpretar datos satelitales de alta resolución sobre islas de calor urbanas y coordinarse con las concejalías municipales para que las nuevas actuaciones encajen con los objetivos de la ciudad como Capital Verde Europea.",
+  "task": "Escribe un correo electrónico a la oficina municipal de obras para asignar el segmento prioritario del Jardín del Turia. Incluye el nombre del segmento y su nivel de prioridad.",
+  "required_files": [
+    "contactos_municipales_valencia.xlsx",
+    "prioridades_turia.xlsx",
+    "indicaciones_correo_obras_valencia.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "obras@valencia.es",
+        "keywords": [
+          "Turia_Centro",
+          "Alta"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_obras_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "persona": "Marco è un responsabile delle operazioni retail di uno storico grande magazzino di lusso situato all'interno della Galleria Vittorio Emanuele II a Milano. Supervisiona il flusso quotidiano di merce di alta gamma e di clientela VIP internazionale, destreggiandosi tra le rigide regole di decoro dell'Area Monumentale e l'incubo logistico del coordinamento delle consegne all'interno della zona a pagamento Area C durante la Settimana della Moda.",
+  "task": "Usa la nota Area C per scegliere uno slot di consegna conforme per la spedizione FW-88 e aggiorna il piano consegne della Fashion Week ./data/consegne_milano.xlsx.",
+  "required_files": [
+    "area_c_milano.txt"
+  ],
+  "output_files": [
+    "data/consegne_milano.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/consegne_milano.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "10:30"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/consegne_milano.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

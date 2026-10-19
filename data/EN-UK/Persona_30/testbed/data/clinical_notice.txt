@@ -1,0 +1,15 @@
+Microscope booking is due 2026-05-11 and belongs to the lab equipment diary.	QEUH genomics handover	Glasgow biobank review
+Consent-form audit is due 2026-05-12 and remains in the governance tracker.	SHTG evaluation briefing	Govan laboratory courier
+Pathology slide return is due 2026-05-13 and is not a research calendar milestone.	Queen Elizabeth campus governance	West Glasgow oncology meeting
+SHTG evaluation submission due 2026-05-14.	QEUH genomics handover	Glasgow biobank review
+Sequencer wash-down is due 2026-05-15 and is an equipment task.	SHTG evaluation briefing	Govan laboratory courier
+Oncology team coffee briefing is due 2026-05-16 and should not be calendared here.	Queen Elizabeth campus governance	West Glasgow oncology meeting
+HTA sample reconciliation is due 2026-05-17 and belongs to compliance records.	QEUH genomics handover	Glasgow biobank review
+Biobank freezer test is due 2026-05-18 and uses the maintenance calendar.	SHTG evaluation briefing	Govan laboratory courier
+Clinical safety draft is due 2026-05-19 but is not the SHTG milestone.	Queen Elizabeth campus governance	West Glasgow oncology meeting
+Glasgow clinic courier slot is due 2026-05-20 and is operational only.	QEUH genomics handover	Glasgow biobank review
+Research instruction: use the SHTG deadline as the Data Submission Milestone date.	SHTG evaluation briefing	Govan laboratory courier
+Do not use the microscope booking or freezer test dates.	Queen Elizabeth campus governance	West Glasgow oncology meeting
+SHTG pre-submission checklist is due 2026-05-08 and is not the milestone date.	SHTG evaluation briefing	Govan laboratory courier
+A superseded notice listed the SHTG deadline as 2026-05-21.	Queen Elizabeth campus governance	West Glasgow oncology meeting
+Data submission rehearsal is due 2026-05-13 and is preparatory only.	QEUH genomics handover	Glasgow biobank review

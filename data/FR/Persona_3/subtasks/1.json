@@ -1,0 +1,31 @@
+{
+  "persona": "Thierry est viticulteur en Champagne et dirige un domaine familial à Épernay conforme à la certification Viticulture Durable en Champagne. Il fait face aux gels imprévisibles de la vallée de la Marne et aux exigences administratives du Comité Champagne concernant les rendements, afin que chaque bouteille respecte les normes rigoureuses de l’appellation d’origine contrôlée.",
+  "task": "Croise le rappel interne de conformité avec le dialogue de préparation du dossier AOC et rédige une consigne courte de traçabilité dans le carnet de vendange. La consigne doit porter sur le rendement exact de chaque parcelle, sans le remplacer par un rendement moyen ou par un rendement par cépage.",
+  "required_files": [
+    "comite_notice.txt",
+    "dialogue_dossier_aoc_epernay.txt"
+  ],
+  "output_files": [
+    "data/harvest_notebook.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/harvest_notebook.docx",
+        "keywords": [
+          "Épernay",
+          "rendement exact de chaque parcelle",
+          "dossier AOC"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/harvest_notebook.docx",
+      "change": "modify"
+    }
+  ]
+}

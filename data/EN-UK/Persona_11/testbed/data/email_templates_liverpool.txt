@@ -1,0 +1,23 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Heads Up
+Hi team,
+Just a quick note about [topic]. [Main detail from source note].
+Cheers,
+[Name]
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Operational Risk Notice
+Dear Colleagues,
+Please be advised of the following operational risk: [Main detail from source note].
+We will continue to monitor the situation and coordinate any required checks.
+Regards,
+[Name]
+
+Note: customs coordination messages should use the formal template.
+Note: yard radio reminders can use the friendly template.
+Note: HSE stand-down instructions require a formal operational tone.
+Note: Freeport movement tags should not be discussed as email attachments unless requested.
+Note: berth planning updates use a different template.
+Note: weather disruption emails should identify the likely operational consequence.
+Note: border-check risks should be written clearly for customs staff.
+Note: informal shift chatter should not include customs-risk wording.

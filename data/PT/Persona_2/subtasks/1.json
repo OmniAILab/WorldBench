@@ -1,0 +1,23 @@
+{
+  "persona": "João é natural do Alentejo e trabalha num vasto montado de sobro perto de Évora. É especialista em ciclos de extração sustentável e fornece cortiça premium a mercados internacionais. Os seus maiores desafios são as ondas de calor estivais cada vez mais frequentes na região e o cumprimento da rigorosa legislação ambiental portuguesa, que impõe intervalos de nove anos entre tiragens da cortiça, exigindo-lhe cruzar dados de sensores do solo para prever as janelas ideais de extração.",
+  "task": "Consulta a leitura de humidade da parcela EV-7 no montado de Évora, aplica o procedimento interno da equipa de descortiçamento para ondas de calor e regista a classificação na folha da equipa de extração.",
+  "required_files": [
+    "sensors_evora.xlsx",
+    "heat_rule_evora.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/safety_evora.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Alto"
+          }
+        ]
+      }
+    }
+  ]
+}

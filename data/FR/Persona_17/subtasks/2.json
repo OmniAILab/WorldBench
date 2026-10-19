@@ -1,0 +1,37 @@
+{
+  "persona": "Anaïs est paludière à Guérande et gère plusieurs œillets dans les marais salants. Elle surveille la salinité, les coefficients de marée et la qualité de la fleur de sel, tout en respectant les pratiques traditionnelles du pays guérandais et les exigences de la coopérative locale.",
+  "task": "Planifie dans le calendrier de collecte le lot FS-Traict-07. Croise le tableau des lots, la note de collecte, le service de la coopérative et le briefing terrain pour retenir la fenêtre confirmée du 12 juin 2026 ; écarte FS-Traict-07b, les anciennes fiches et les propositions de 18 h. La description doit mentionner le service Collecte et que le lot est confirmé.",
+  "required_files": [
+    "contacts_cooperative_guerande.xlsx",
+    "lots_fleur_de_sel.xlsx",
+    "note_collecte_guerande.txt",
+    "briefing_collecte_guerande.txt"
+  ],
+  "output_files": [
+    "data/calendrier_collecte_guerande.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendrier_collecte_guerande.ics",
+        "summary_keywords": [
+          "Collecte",
+          "FS-Traict-07"
+        ],
+        "description_keywords": [
+          "service Collecte",
+          "lot confirmé"
+        ],
+        "time_start": "2026-06-12 17:00:00",
+        "time_end": "2026-06-12 18:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendrier_collecte_guerande.ics",
+      "change": "modify"
+    }
+  ]
+}

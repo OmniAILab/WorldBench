@@ -1,0 +1,33 @@
+{
+  "persona": "思源是四川卧龙保护区的一名熊猫饲养员。她每天砍竹子、清理圈舍，并帮助研究人员为幼崽野化做准备，同时还要应对山间潮湿多雾的天气。",
+  "task": "根据 Bamboo_Ridge 相机陷阱的更换日期，在保护区日历中添加一次维护徒步事件。",
+  "required_files": [
+    "camera_traps_wolong.xlsx",
+    "dialogue_wolong_camera.txt",
+    "local_context_wolong_camera.xlsx"
+  ],
+  "output_files": [
+    "data/conservation_schedule.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/conservation_schedule.ics",
+        "summary_keywords": [
+          "维护徒步"
+        ],
+        "description_keywords": [
+          "Bamboo_Ridge"
+        ],
+        "date": "2026-04-12"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/conservation_schedule.ics",
+      "change": "modify"
+    }
+  ]
+}

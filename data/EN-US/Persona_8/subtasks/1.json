@@ -1,0 +1,32 @@
+{
+  "persona": "Elena is a whole-animal butcher in Chicago, Illinois, operating a specialized shop in the West Loop that focuses on sourcing livestock from regenerative farms in the Midwest. She manages the intricate regulatory requirements of the Illinois Department of Agriculture regarding artisanal meat processing and the logistical nuances of cold-chain transportation through the city’s congested rail and highway corridors, ensuring that every cut meets the precise specifications of the city’s high-end culinary scene.",
+  "task": "Turn the chef order note into a cut sheet document and list the required cuts in order.",
+  "required_files": [
+    "chef_order.txt",
+    "dialogue_butcher_chicago.txt"
+  ],
+  "output_files": [
+    "data/cut_sheet.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/cut_sheet.docx",
+        "keywords": [
+          "West Loop Bistro",
+          "ribeye",
+          "short ribs",
+          "marrow bones"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/cut_sheet.docx",
+      "change": "modify"
+    }
+  ]
+}

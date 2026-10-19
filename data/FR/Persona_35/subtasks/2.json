@@ -1,0 +1,34 @@
+{
+  "persona": "Maud est conservatrice du patrimoine textile à la Cité internationale de la dentelle et de la mode de Calais. Elle suit la conservation des dentelles anciennes, la maintenance documentaire des métiers Leavers et la numérisation des dessins d’archives, avec une attention particulière aux conditions de stockage des textiles fragiles.",
+  "task": "Complète le journal des dessins historiques en croisant l’inventaire du projet de numérisation, le type de ressource, sa destination et la convention de nommage. Pour LV-1890-09, identifie la convention exacte applicable aux motifs de dentelle Leavers numérisés destinés aux archives internationales et reporte-la avec le type de motif concerné.",
+  "required_files": [
+    "integration_document.txt",
+    "inventaire_numerisation_calais.xlsx",
+    "dialogue_numerisation_calais.txt"
+  ],
+  "output_files": [
+    "data/historical_design_log.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/historical_design_log.docx",
+        "keywords": [
+          "Cité de la Dentelle et de la Mode",
+          "LV-1890-09",
+          "Leavers",
+          "YYYY_PatternName_Resolution",
+          "archives internationales"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/historical_design_log.docx",
+      "change": "modify"
+    }
+  ]
+}

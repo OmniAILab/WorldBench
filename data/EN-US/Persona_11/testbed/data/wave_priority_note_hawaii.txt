@@ -1,0 +1,22 @@
+Priority note: NorthShore_C has moderate wave energy but only a low permit urgency.
+Priority note: NorthShore_A should remain at standard review after the latest wave reading.
+Priority note: NorthShore_G is exposed to tradewinds but below the high-risk index.
+Priority note: NorthShore_D needs a sandbag inventory update, not a high-priority permit.
+Priority note: NorthShore_L has shoreline access concerns unrelated to wave energy.
+Priority note: NorthShore_B has the highest wave energy index and should be marked High.
+Priority note: NorthShore_M has turtle nesting signage that must remain undisturbed.
+Priority note: NorthShore_N needs a community meeting before design review.
+Priority note: NorthShore_P has a surf contest permit on file for the weekend.
+Priority note: NorthShore_Q has a lower reef setback issue for later review.
+Priority note: NorthShore_R needs updated drone imagery before the next assessment.
+Priority note: NorthShore_S has sand movement but no immediate permit priority.
+Priority note: NorthShore_T has a coastal trail washout outside the design segment.
+Priority note: NorthShore_U needs parking access coordination with lifeguards.
+Priority note: NorthShore_V has a cultural monitor request pending.
+Priority note: NorthShore_W has a smaller erosion scarp near the beach park.
+Priority note: NorthShore_X has stable dune vegetation after the last swell.
+Priority note: NorthShore_Y requires a public notice but not a High designation.
+Local context: the North Shore of Oahu takes powerful winter swells that should not be confused with the daily tradewinds.
+Heritage: shoreline work must account for cultural sites and documented traditional burials.
+Ecology: turtle nesting markings and dune vegetation must not be used as plain staging areas.
+Field practice: access to surf breaks and lifeguard towers is handled separately from permit priorities.

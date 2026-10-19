@@ -1,0 +1,39 @@
+{
+  "persona": "Sven ist Lotse an den Holtenau-Schleusen in Kiel und führt riesige Containerschiffe durch die meistbefahrene künstliche Wasserstraße der Welt, den Nord-Ostsee-Kanal. Er bewältigt die schweren winterlichen Nebelbänke der Ostsee und die strengen Vorgaben des Emissionskontrollgebiets, die das Bundesamt für Seeschifffahrt und Hydrographie (BSH) vorschreibt. Er gleicht fortlaufend Echtzeit-Sichtmeldungen, den Tiefgang einlaufender Schiffe und die wechselnden Verfügbarkeiten der Schleusentore ab, um sichere Passiermanöver an den vorgesehenen Ausweichstellen des Kanals zu koordinieren.",
+  "task": "Vergleiche den Tiefgang der MSC_Baltic_Star mit der verfügbaren Schleusentiefe in Holtenau und aktualisiere den Freigabestatus für das Passiermanöver.",
+  "required_files": [
+    "kanal_schifffahrt.xlsx",
+    "schleusenhinweise_kiel.txt"
+  ],
+  "output_files": [
+    "data/schleusenverfuegbarkeit.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/schleusenverfuegbarkeit.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Freigegeben"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/schleusenverfuegbarkeit.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

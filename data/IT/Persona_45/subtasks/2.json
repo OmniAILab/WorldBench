@@ -1,0 +1,32 @@
+{
+  "persona": "Matteo è un coordinatore logistico di un’azienda tessile di alta gamma nel distretto del Macrolotto di Prato. Gestisce le movimentazioni di tessuti destinati alle maison internazionali, mantenendo i contatti con fornitori, tintorie e subappaltatori locali. Deve conciliare le scadenze delle consegne per Milano con la tracciabilità dei materiali e con la corretta gestione dei residui delle lavorazioni tessili secondo gli obblighi ambientali applicabili.",
+  "task": "Aggiungi al calendario spedizioni il ritiro Armani_Casa nella finestra indicata per la consegna a Milano.",
+  "required_files": [
+    "finestre_ritiro_milano.txt"
+  ],
+  "output_files": [
+    "data/calendario_spedizioni_prato.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_spedizioni_prato.ics",
+        "summary_keywords": [
+          "Ritiro Armani_Casa"
+        ],
+        "description_keywords": [
+          "09:00-11:00"
+        ],
+        "time_start": "2026-02-12 09:00:00",
+        "time_end": "2026-02-12 11:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_spedizioni_prato.ics",
+      "change": "modify"
+    }
+  ]
+}

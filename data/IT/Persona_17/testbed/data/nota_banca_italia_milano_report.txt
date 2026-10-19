@@ -1,0 +1,4 @@
+Circolare Vigilanza Bankitalia: I prospetti informativi legati al fintech devono palesare agli ispettori tre capitoli inderogabili: le finalità di business dell'algoritmo, i serbatoi informativi impiegati per l'addestramento e il perimetro di interruttore lasciato all'operatore in carne ed ossa.
+Promemoria: non aggiungere heading marketing.
+Promemoria layout: la scelta del font del template è una preferenza grafica e non un requisito di trasparenza.
+Appunto archivio: la versione precedente del documento resta consultabile, ma non definisce le intestazioni correnti.

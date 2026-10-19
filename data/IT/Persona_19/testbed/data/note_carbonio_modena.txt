@@ -1,0 +1,21 @@
+Promemoria ambiente: il turno mattina usa un tetto diverso e non riguarda questa riga.
+Registro precedente: 400 su 500 era stato annotato come 80 nel ciclo di ieri.
+Nota produzione: il limite regionale non va sommato alle ore di assemblaggio.
+Report Sostenibilità: L'impatto ambientale di ciascun turno va a registro rapportando la reale impronta di CO2 emessa alla quota regionale massima concessa, convertendo il risultato in formato percentuale netto.
+Scheda prova: il valore 410 non è un limite massimo, ma l'emesso del turno notte.
+Appunto Modena: il dato del banco motori storici è solo dimostrativo.
+Promemoria ISO: il controllo coppia non entra nel calcolo carbonio.
+Nota logistica: i ritardi dei fornitori non modificano il rapporto emissioni/tetto.
+Registro energia: 410 kWh non è il dato da usare per questa percentuale.
+Appunto reparto: il tetto 450 kg riguarda il turno sperimentale del sabato.
+Nota sicurezza: l'area saldatura ha un registro separato.
+Promemoria officina: non usare la media settimanale del mese precedente.
+Scheda ambiente: 500 kg è il tetto del turno notte attuale.
+Nota amministrativa: il prezzo dei crediti carbonio non serve al calcolo.
+Direttiva Data-Entry: Il software gestionale accetta il carico ambientale unicamente sotto forma di cifre intere, scartando matematicamente i simboli e i decimali.
+Registro prova: 82.0 va scritto come 82 nel foglio finale.
+Promemoria magazzino: i pallet rientrati non alterano le emissioni dichiarate.
+Promemoria impianto: la pulizia dei filtri dell'aria compressa è prevista a fine settimana e non altera i dati di emissione.
+Scheda reparto: la riunione di sicurezza mensile è organizzativa e non entra nel conteggio ambientale del turno.
+Nota Emilia-Romagna: il consumo energetico dell'area visitatori non confluisce nel tetto carbonio del turno motori.
+Promemoria ambiente: il recupero del calore della verniciatura è rendicontato separatamente dal valore di CO2 del turno.

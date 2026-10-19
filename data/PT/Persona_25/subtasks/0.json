@@ -1,0 +1,23 @@
+{
+  "persona": "Miguel é engenheiro numa central geotérmica na ilha de São Miguel, operando nos campos da Ribeira Grande e do Pico Vermelho, na vertente norte do Maciço do Fogo. Acompanha os parâmetros de pressão de cabeça dos poços, a incrustação e corrosão associadas aos gases não condensáveis e a articulação com a vigilância sismovulcânica para fornecer energia estável à rede elétrica insular.",
+  "task": "Consulta a leitura de pressão e atividade microssísmica do Furo Geotérmico Principal (Ribeira Grande), aplica a regra operacional do campo geotérmico da Ribeira Grande / Pico Vermelho e atualiza a abertura da válvula de extração de vapor.",
+  "required_files": [
+    "geology_fogo.xlsx",
+    "valve_rules_fogo.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/temperature_readings.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Reduzir pressão da válvula para 65%"
+          }
+        ]
+      }
+    }
+  ]
+}

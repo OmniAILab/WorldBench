@@ -1,0 +1,31 @@
+{
+  "persona": "Valentin ist römischer Archäologe und im städtischen Denkmalamt Trier tätig, wo er Notgrabungen betreut, die durch moderne unterirdische Infrastrukturmaßnahmen nahe der Porta Nigra ausgelöst werden. Er steht zwischen dem extremen Zeitdruck kommerzieller Bauverzögerungen und den strengen Vorgaben der Generaldirektion Kulturelles Erbe Rheinland-Pfalz für den Umgang mit Fundstücken. Er gleicht wechselnde Bodenradar-Anomalien, umfangreiche historische römische Stadtpläne und aktuelle Leitungsnetzpläne ab, um die Grabungsteams präzise um wertvolle Mosaike herumzuführen, ohne das moderne Glasfasernetz der Stadt zu beschädigen.",
+  "task": "Nutze die Terminmitteilung zum Glasfaserausbau und ergänze den Kalender des Grabungsteams um den verbindlichen Abschluss der Notgrabung an der Porta Nigra.",
+  "required_files": [
+    "terminmitteilung_glasfaser.txt"
+  ],
+  "output_files": [
+    "data/archaeologiekalender.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/archaeologiekalender.ics",
+        "summary_keywords": [
+          "Abschluss Notgrabung Porta Nigra"
+        ],
+        "description_keywords": [
+          "Glasfaserarbeiten"
+        ],
+        "date": "2026-05-10"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/archaeologiekalender.ics",
+      "change": "modify"
+    }
+  ]
+}

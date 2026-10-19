@@ -1,0 +1,23 @@
+{
+  "persona": "Inês dirige há dez anos a exploração de um cerejal na encosta da Serra da Gardunha, perto de Alcongosta. Coordena a equipa de campo, acompanha os avisos de geada tardia e protege as árvores durante a floração, sem perder de vista os compromissos comerciais da Cereja do Fundão.",
+  "task": "Usa as leituras meteorológicas da Serra da Gardunha e a regra de proteção da Cereja do Fundão para identificar o setor em risco e atualiza o estado da irrigação anti-geada.",
+  "required_files": [
+    "meteorological_fundao.xlsx",
+    "frost_rule_fundao.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/protective_irrigation.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Ativar irrigação anti-geada"
+          }
+        ]
+      }
+    }
+  ]
+}

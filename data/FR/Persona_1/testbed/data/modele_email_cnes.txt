@@ -1,0 +1,4 @@
+NOTE DE COORDINATION INTERNE — PRÉPARATION DES ESSAIS
+Objet : Contrôle d’humidité préalable à l’étalonnage sous vide thermique
+
+Pour toute intervention préalable à l’ouverture d’un cycle en caisson sous vide thermique sur le site de Rangueil, l’opérateur consigne au planning la vérification hygrométrique avec le seuil applicable au moyen d’essai concerné.

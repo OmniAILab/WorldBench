@@ -1,0 +1,31 @@
+{
+  "persona": "Chiara è una biologa marina e consulente di acquacoltura che opera dal Porto di Chioggia, nella Laguna Veneta. Monitora lo stato di salute dei banchi locali di vongole e cozze, conciliando la sua ricerca con le variazioni di salinità causate dalle attivazioni della barriera del MOSE e con i rigorosi standard di sicurezza biologica fissati dalle autorità sanitarie della Regione Veneto.",
+  "task": "Trasforma la nota di biosicurezza veneta in una breve checklist per la barca di campionamento dei molluschi. Il file ./data/checklist_barca_chioggia.docx deve contenere esattamente le seguenti diciture: «Porto di Chioggia», «Usare sacche campione sigillate», «Registrare la temperatura dell'acqua», «Disinfettare gli strumenti dopo ogni banco».",
+  "required_files": [
+    "avviso_ulss_veneto.txt"
+  ],
+  "output_files": [
+    "data/checklist_barca_chioggia.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/checklist_barca_chioggia.docx",
+        "keywords": [
+          "Porto di Chioggia",
+          "Usare sacche campione sigillate",
+          "Registrare la temperatura dell'acqua",
+          "Disinfettare gli strumenti dopo ogni banco"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/checklist_barca_chioggia.docx",
+      "change": "modify"
+    }
+  ]
+}

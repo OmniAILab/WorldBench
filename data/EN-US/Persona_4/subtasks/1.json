@@ -1,0 +1,40 @@
+{
+  "persona": "Caleb is a grid reliability engineer in San Francisco, California, tasked with integrating decentralized solar energy into the city’s aging electrical infrastructure. He manages the technical complexities of the California Public Utilities Commission mandates and the specific seismic safety requirements for substation upgrades, working to balance fluctuating energy loads during the heavy fog cycles of the Sunset District while maintaining compliance with state-wide decarbonization goals.",
+  "task": "Identify the substation upgrade that fails the seismic checklist and mark it as blocked in the work tracker spreadsheet.",
+  "required_files": [
+    "seismic_check_sf.xlsx",
+    "seismic_notes_sf.txt",
+    "dialogue_seismic_sf.txt"
+  ],
+  "output_files": [
+    "data/work_tracker_sf.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/work_tracker_sf.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Blocked"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/work_tracker_sf.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "persona": "Pere es consultor en Palma de Mallorca y asesora a hoteles boutique para que cumplan la normativa balear de circularidad y sostenibilidad turística (Llei 3/2022). Audita el consumo de recursos de varias propiedades de las islas y comprueba que se apliquen las medidas de ahorro de agua y las cuotas de abastecimiento de productos de proximidad, para evitar las fuertes sanciones de la Conselleria de Turisme del Govern balear.",
+  "task": "A partir del registro de cumplimiento y del protocolo de auditoría del Consell de Mallorca, determina a quién debe notificarse la no conformidad de Boutique_Serra_1 y qué porcentaje mínimo de abastecimiento local exige la Llei 3/2022. Escribe a la gerencia del hotel comunicando la no conformidad e indicando ese porcentaje, sin enviarlo a compras, reservas ni administración.",
+  "required_files": [
+    "contactos_hotel_palma.xlsx",
+    "aviso_auditoria_turismo_palma.txt",
+    "cumplimiento_palma_v2.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "direccion@boutiqueserra.es",
+        "keywords": [
+          "30 %",
+          "abastecimiento local"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_direccion_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "persona": "Hanna ist Holzspielzeugdesignerin in einer generationenübergreifenden Werkstatt im Nürnberger Handwerkerviertel und bereitet ihre kunstvollen mechanischen Kreationen für die große jährliche Spielwarenmesse vor. Sie kämpft mit den schwankenden Preisen für nachhaltig bezogenes regionales Buchenholz und dem dichten Regelwerk der EU-Spielzeugsicherheitsrichtlinien zu ungiftigen Farben. Sie bringt wechselnde Lieferverzögerungen der globalen Lieferkette, komplexe chemische Konformitätszertifikate und historische saisonale Bestelltrends zusammen, um ihre Produktionsquoten rechtzeitig vor der weltweiten Messe festzulegen.",
+  "task": "Prüfe für das mechanische Nürnberger Holzspielzeug den gültigen Farb-Zertifizierungsstatus und aktualisiere die Produktionsfreigabe für die Spielwarenmesse.",
+  "required_files": [
+    "farbzertifikate.xlsx",
+    "sicherheitshinweise_spielwarenmesse.txt"
+  ],
+  "output_files": [
+    "data/spielzeug_sicherheitsrichtlinien.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/spielzeug_sicherheitsrichtlinien.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "EN71_zugelassen"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/spielzeug_sicherheitsrichtlinien.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

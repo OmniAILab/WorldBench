@@ -1,0 +1,45 @@
+Red Lane paperwork check before industrial unloading.
+Green Lane paperwork check before unloading.
+Confirm document pack before berth release.
+Do not use the passenger manifest as the customs paperwork note.
+SeaHawk requires the Green Lane paperwork note.
+NorthStar is not the vessel for this berth coordination task.
+Berth release should not happen before the document pack is confirmed.
+Chilled goods temperature notes are logged separately.
+Industrial machinery checks use a separate red-lane review.
+Harbour pilot notes do not replace the paperwork check.
+Do not mention café deliveries in the calendar note.
+The note should reference Green Lane paperwork.
+The event title should identify SeaHawk.
+Belfast Harbour terminal handovers use concise wording.
+Green Lane paperwork is relevant before unloading.
+Lagan pilotage rota notes are kept separately from customs routing. Reference 1A is recorded separately.
+Titanic Quarter traffic restrictions are recorded in the terminal access diary. Reference 1B is recorded separately.
+Belfast Harbour maintenance launches are logged outside vessel handovers. Reference 2A is recorded separately.
+Port catering deliveries are filed separately from berth coordination. Reference 2B is recorded separately.
+Lorry-marshalling yard checks are recorded in a distinct operations log. Reference 3A is recorded separately.
+Passenger-terminal announcements are outside freight routing records. Reference 3B is recorded separately.
+Harbour tug maintenance notes are retained in the marine-services file. Reference 4A is recorded separately.
+Stormont event traffic is not part of terminal customs paperwork. Reference 4B is recorded separately.
+Lagan weather observations are archived with marine operations. Reference 5A is recorded separately.
+Belfast city-centre road closures are kept in staff travel notices. Reference 5B is recorded separately.
+Lagan pilotage rota notes are kept separately from customs routing. Reference 6A is recorded separately.
+Titanic Quarter traffic restrictions are recorded in the terminal access diary. Reference 6B is recorded separately.
+Belfast Harbour maintenance launches are logged outside vessel handovers. Reference 7A is recorded separately.
+Port catering deliveries are filed separately from berth coordination. Reference 7B is recorded separately.
+Lorry-marshalling yard checks are recorded in a distinct operations log. Reference 8A is recorded separately.
+Passenger-terminal announcements are outside freight routing records. Reference 8B is recorded separately.
+Harbour tug maintenance notes are retained in the marine-services file. Reference 9A is recorded separately.
+Stormont event traffic is not part of terminal customs paperwork. Reference 9B is recorded separately.
+Lagan weather observations are archived with marine operations. Reference 10A is recorded separately.
+Belfast city-centre road closures are kept in staff travel notices. Reference 10B is recorded separately.
+Lagan pilotage rota notes are kept separately from customs routing. Reference 11A is recorded separately.
+Titanic Quarter traffic restrictions are recorded in the terminal access diary. Reference 11B is recorded separately.
+Belfast Harbour maintenance launches are logged outside vessel handovers. Reference 12A is recorded separately.
+Port catering deliveries are filed separately from berth coordination. Reference 12B is recorded separately.
+Lorry-marshalling yard checks are recorded in a distinct operations log. Reference 13A is recorded separately.
+Passenger-terminal announcements are outside freight routing records. Reference 13B is recorded separately.
+Harbour tug maintenance notes are retained in the marine-services file. Reference 14A is recorded separately.
+Stormont event traffic is not part of terminal customs paperwork. Reference 14B is recorded separately.
+Lagan weather observations are archived with marine operations. Reference 15A is recorded separately.
+Belfast city-centre road closures are kept in staff travel notices. Reference 15B is recorded separately.

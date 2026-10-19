@@ -1,0 +1,33 @@
+{
+  "persona": "Jean-Pierre est berger dans les Alpes-Maritimes et pratique la transhumance vers les pâturages d’altitude du Mercantour. Il suit les autorisations pastorales propres aux terrains traversés, surveille la météo et organise la protection du troupeau dans les secteurs où le loup est présent. Il coordonne ses déplacements avec les responsables des alpages et les organismes compétents.",
+  "task": "Rédige un e-mail aux bergers assistants après avoir croisé la carte des alertes, le journal de relève, le protocole loup et le dialogue de garde. Retient uniquement l’alerte active concernant Vallee_des_Merveilles, indique la proximité de la meute et organise le renforcement nocturne du périmètre. Écarte les traces anciennes, les alertes des secteurs voisins et les signalements clôturés.",
+  "required_files": [
+    "predator_management.xlsx",
+    "assistant_shepherd_contacts.xlsx",
+    "protocole_loup_mercantour.txt",
+    "journal_alertes_loup.xlsx",
+    "dialogue_alerte_loup_mercantour.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "bergers-assistants@simulation-interne.invalid",
+        "keywords": [
+          "Vallee_des_Merveilles",
+          "Meute signalée à 3 km",
+          "renforcement nocturne",
+          "alerte active",
+          "21:30"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_assistants_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Ficha de Confirmação de Percurso — Equipa de Guias do Gerês (Abril de 2026)
+Histórico de percursos operados na semana anterior:
+- 2026-03-29: Trilho_Geira (Trilho da Geira Romana)
+- 2026-03-31: Trilho_Peneda (Trilho da Nossa Senhora da Peneda)
+- 2026-04-02: Trilho_Lindoso (Trilho do Castelo e Espigueiros do Lindoso)
+
+Decisão operacional para a saída atual:
+- Rota selecionada para o grupo atual: Trilho da Lagoa dos Druidas — Setor de Campo do Gerês (código interno Trilho_Lagoa).
+- As rotas de reserva (Trilho_Soajo e Trilho_Currais) não serão utilizadas devido a condicionamentos de piso.

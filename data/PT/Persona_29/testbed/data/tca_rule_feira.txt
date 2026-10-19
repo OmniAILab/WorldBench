@@ -1,0 +1,19 @@
+Procedimento interno QL-TCA/2026 da unidade de Santa Maria da Feira: os limiares abaixo indicados são critérios de retenção e libertação validados pela própria unidade, não limites legais gerais da União Europeia.
+O controlo de TCA integra o sistema de gestão da qualidade da unidade corticeira e deve ser executado com equipamentos calibrados, padrões rastreáveis e registos associados ao código de cada lote.
+As amostras com resultados inferiores a 0,5 ng/L seguem para inspeção visual, sem prejuízo da verificação documental exigida antes da libertação.
+Quando a leitura se situa entre 0,5 e 1,0 ng/L, o responsável do laboratório deve manter o lote sob observação adicional até concluir a revisão dos dados.
+Os valores compreendidos entre 1,1 e 1,9 ng/L exigem nova medição com uma amostra independente e validação por um segundo técnico.
+Resultados inconclusivos permanecem retidos no circuito interno, identificados de forma a impedir a sua expedição acidental.
+Qualquer leitura igual ou superior a 2,0 ng/L determina a atribuição do estado «Quarentena imediata» e o bloqueio físico e informático do lote.
+A decisão de quarentena deve ficar ligada ao relatório de ensaio, à hora da análise e à identificação do operador que confirmou o resultado.
+A solução padrão é preparada no início de cada turno e a sua validade é verificada antes da primeira sequência analítica.
+As paletes de rolhas naturais devem permanecer afastadas da parede norte, em zona ventilada e protegida de fontes de humidade.
+As amostras utilizadas em ensaios não podem regressar ao inventário comercial, ainda que apresentem resultados conformes.
+A linha de seleção é aspirada após a última série e a limpeza deve ser registada como evidência do controlo operacional.
+As guias destinadas a clientes de Bordéus são arquivadas no processo de exportação correspondente, com rastreabilidade até ao lote de origem.
+Os defeitos visuais são registados em formulário próprio e não substituem a avaliação instrumental do TCA.
+As caixas vazias regressam à zona de embalagem, enquanto os materiais não conformes permanecem segregados e claramente identificados.
+Antes da expedição, a equipa de qualidade confirma que o estado do lote, o certificado sanitário e a documentação comercial são coerentes.
+A revisão periódica destes procedimentos deve considerar não conformidades, ações corretivas e resultados de auditorias internas, em conformidade com os princípios da ISO 9001.
+Uma leitura de 1,98 ng/L obtida numa amostra de validação permanece sujeita a repetição, sem alteração automática do estado comercial.
+Um resultado de 2,0 ng/L proveniente apenas do branco laboratorial obriga a investigar a série, mas não identifica por si só um lote contaminado.

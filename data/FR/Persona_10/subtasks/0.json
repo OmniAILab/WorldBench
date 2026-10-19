@@ -1,0 +1,50 @@
+{
+  "persona": "Hugo est ornithologue et coordinateur de terrain en Camargue. Il suit les colonies de flamants roses autour des salins, organise les comptages à distance et adapte les accès aux zones humides en fonction de la nidification, du mistral et des règles de protection de la réserve.",
+  "task": "Croise la distance d’observation de Salin_Giraud_Nord, la distance minimale du protocole de terrain et le dialogue de décision. Applique la règle indiquée dans le dialogue, puis mets à jour le statut d’accès et une justification chiffrée. Ignore les autres colonies et les distances d’hivernage.",
+  "required_files": [
+    "distances_protection_camargue.txt",
+    "observations_camargue.xlsx",
+    "dialogue_decision_acces_camargue.txt"
+  ],
+  "output_files": [
+    "data/statut_zones_camargue_v2.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/statut_zones_camargue_v2.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Fermée"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "180 m < 300 m"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/statut_zones_camargue_v2.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

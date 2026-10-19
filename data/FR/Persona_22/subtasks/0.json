@@ -1,0 +1,60 @@
+{
+  "persona": "Benoît est artisan charcutier à Bayonne. Il suit la salaison et l’affinage des jambons de Bayonne IGP, contrôle les lots et les relevés hygrométriques, et organise les livraisons à proximité des quais de la Nive pendant les manifestations du centre historique. Pour ses autres produits de charcuterie, il applique les procédures propres à l’atelier, sans les confondre avec le cahier des charges du jambon IGP.",
+  "task": "Croise le relevé d’humidité, les règles d’affinage et le compte rendu de l’atelier. Pour Ham_Batch_88, utilise la mesure courante et la consigne de planification de l’atelier explicitement validée, non l’ancienne proposition concurrente. Mets à jour la prochaine date de contrôle de salage et frottage, l’humidité retenue et la justification.",
+  "required_files": [
+    "curing_cycles_bayonne.xlsx",
+    "regles_affinage_bayonne.txt",
+    "dialogue_affinage_bayonne.txt"
+  ],
+  "output_files": [
+    "data/consortium_standards.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/consortium_standards.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "2026-04-18"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "65%_Stable"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Planning atelier validé"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/consortium_standards.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+CPUC: Richmond feeder - battery reserve 8 percent for the summer peak.
+CPUC: Mission Bay - interconnection review 12 percent for lab loads.
+CPUC: SoMa - load shedding 15 percent during heat alerts.
+CPUC: Bayview - microgrid 18 percent after transformer replacement.
+CPUC: Sunset District - distributed solar integration target 20 percent.
+CPUC: Marina - rooftop readiness 10 percent.
+CPUC: North Beach - generator reduction 6 percent.
+CPUC: Twin Peaks - voltage balancing 14 percent under fog.
+A 2025 internal memo mentions 18 percent for Sunset, but it has been superseded.
+20 MW is a battery capacity, not a percentage.
+San Francisco: fog can reduce morning output in the Sunset District.
+San Francisco: the seismic retrofits do not change the percentage.
+San Francisco: cable car traction is tracked on a separate sheet.
+San Francisco: the spreadsheet expects a number with no percent symbol.
+San Francisco: salt air at Ocean Beach speeds up corrosion but does not change the target.
+San Francisco: the CPUC line overrides neighborhood estimates.
+San Francisco: modify Sunset_District only.
+San Francisco: do not copy the Bayview target.
+San Francisco: do not use the Twin Peaks figure.
+San Francisco: the expected final value is numeric.

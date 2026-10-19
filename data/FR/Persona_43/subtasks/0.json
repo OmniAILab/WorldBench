@@ -1,0 +1,61 @@
+{
+  "persona": "Jean-Pierre tient un étal de boucherie-charcuterie aux Halles de Lyon Paul Bocuse. Il organise la réception des viandes, contrôle les documents de traçabilité des bovins charolais et suit la chaîne du froid. Il prépare aussi des spécialités lyonnaises, dont le saucisson brioché, pour la clientèle locale et la restauration.",
+  "task": "Croise l’avis préfectoral, le registre des arrivages de l’étal, la règle de traçabilité et le dialogue de réception. Identifie le lot Charolais effectivement reçu pour l’étal Paul Bocuse et dont le contrôle documentaire est attesté dans le dossier des services départementaux compétents, puis renseigne son statut, la source de validation et l’arrivage courant. Écarte les validations du seul service vétérinaire et les lots destinés à un autre étal.",
+  "required_files": [
+    "prefecture_notice_lyon.txt",
+    "consigne_tracabilite_halles.txt",
+    "arrivages_boucherie_halles.xlsx",
+    "dialogue_tracabilite_halles.txt"
+  ],
+  "output_files": [
+    "data/inventory_halles.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/inventory_halles.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Vérifié"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Préfecture_du_Rhône"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Reçu_le_2026-04-01"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/inventory_halles.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "persona": "Giorgio è un costruttore immobiliare a Venezia, specializzato nel rinforzo strutturale dei palazzi storici contro l'innalzamento del livello del mare. Si muove tra i rigidi vincoli architettonici dell'Ufficio Edilizia del Comune di Venezia e le complessità tecniche della sincronizzazione con la barriera del MOSE. Le sue operazioni quotidiane comprendono il costante esame delle previsioni di marea e la gestione dei permessi per le costruzioni subacquee, assicurando che gli interventi di ingegneria moderna restino invisibili tra le delicate facciate gotiche e barocche della città.",
+  "task": "Trasforma la nota dell'Ufficio Edilizia di Venezia sui vincoli di invisibilità in un breve briefing per i contraenti che lavorano sulla facciata del palazzo. Il file ./data/briefing_contraenti_venezia.docx deve contenere esattamente le seguenti diciture: «Venezia», «Nessuna piastra d'acciaio visibile», «Allineare i giunti della pietra», «Nascondere gli ancoraggi dietro la cornice».",
+  "required_files": [
+    "nota_ufficio_edilizia_venezia.txt"
+  ],
+  "output_files": [
+    "data/briefing_contraenti_venezia.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/briefing_contraenti_venezia.docx",
+        "keywords": [
+          "Venezia",
+          "Nessuna piastra d'acciaio visibile",
+          "Allineare i giunti della pietra",
+          "Nascondere gli ancoraggi dietro la cornice"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/briefing_contraenti_venezia.docx",
+      "change": "modify"
+    }
+  ]
+}

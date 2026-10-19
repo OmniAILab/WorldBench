@@ -1,0 +1,19 @@
+Le protocole concerne uniquement le calibre BX9.
+L’huile des pendules comtoises ne convient pas au calibre demandé.
+La roue de colonne appartient au chronographe.
+Le balancier doit rester propre pendant l’application.
+Les huiles de réserve ne doivent pas être mélangées.
+L’huile 9010 est appliquée en très petite quantité.
+La quantité doit être décrite comme une microgoutte.
+Le point d’application est le pivot du rouage.
+Retenir la ligne Calibre_Complication_BX9.
+Le document doit citer l’atelier de Besançon.
+La fréquence de révision n’est pas demandée.
+Le numéro de série n’est pas fourni.
+Le boîtier doit rester hors du protocole.
+Les essais d’étanchéité suivent une autre procédure.
+Aucune autre huile ne doit être ajoutée.
+Le protocole doit être court.
+Un contrôle final visuel peut être mentionné.
+L’huile H-20 de la pendule comtoise 1840 est appliquée sur les pivots secondaires, non principaux.
+Le chronographe récent utilise la même huile C-8 mais sur les leviers de sonnerie.

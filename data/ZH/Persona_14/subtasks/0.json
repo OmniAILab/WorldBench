@@ -1,0 +1,50 @@
+{
+  "persona": "强是大兴安岭雪林中的一名本地护林员。他追踪哪些林区因恢复生长而关闭，并帮助迷路的生态游客回到主步道。",
+  "task": "根据林业局备忘录判断哪些小班允许采伐，并更新区域计划电子表格。",
+  "required_files": [
+    "forest_policy_note.txt",
+    "dialogue_khingan_harvest.txt",
+    "khingan_compartment_context.xlsx"
+  ],
+  "output_files": [
+    "data/harvest_plan_heilongjiang.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/harvest_plan_heilongjiang.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "否"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "是"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/harvest_plan_heilongjiang.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

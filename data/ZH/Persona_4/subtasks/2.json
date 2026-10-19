@@ -1,0 +1,33 @@
+{
+  "persona": "梅在昆明庞大的斗南花卉市场经营一个繁忙的花摊。她把兰花装进带冰袋的泡沫箱里，以便它们能经受跨省运输，希望云南多变的天气不要毁掉这批花。",
+  "task": "给高山冷链调度发送一封简短邮件，确认 DO-21 在斗南夜间交易结束后的新出发时间。综合联系人、兰花温度上限、出口暂扣状态、更新班次表和交班对话，写明货件 DO-21 当前仍为暂扣、解除暂扣后拟于 03:40 出发以及运输全程不得高于 4℃；明确在暂扣解除前不得发车，不要使用 DO-22 或白天班次。",
+  "required_files": [
+    "transport_contacts_kunming.xlsx",
+    "temp_rules_kunming.xlsx",
+    "export_hold_status_kunming.xlsx",
+    "revised_departures_kunming.xlsx",
+    "dialogue_departure_dounan.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "dispatch@yuntransport.cn",
+        "keywords": [
+          "DO-21",
+          "暂扣",
+          "03:40",
+          "4℃",
+          "斗南夜间交易"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_dispatch_*.eml",
+      "change": "create"
+    }
+  ]
+}

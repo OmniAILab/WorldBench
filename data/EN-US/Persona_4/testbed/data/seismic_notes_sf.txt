@@ -1,0 +1,20 @@
+SF-SS-2: anchorage compliant at the Richmond review.
+SF-SS-8: conduit flexibility compliant after retrofit.
+SF-SS-1: battery rack restraint compliant.
+SF-SS-6: transformer pad grout compliant.
+SF-SS-4: failed the seismic checklist; must be marked Blocked.
+SF-SS-9: egress clearance compliant.
+SF-SS-11: switchgear bracing compliant.
+SF-SS-3: cable tray supports compliant.
+SF-SS-10 has maintenance scheduled but passed the seismic check.
+SF-SS-12 shows corrosion but no checklist failure.
+San Francisco: a Sunset fog advisory does not affect seismic status.
+San Francisco: the tracker must show Blocked only for the failure.
+San Francisco: the Bay Area earthquake drill is scheduled separately.
+San Francisco: Bay Bridge traffic can delay the crew without changing the status.
+San Francisco: Ocean Beach corrosion notes stay under maintenance.
+San Francisco: the substation identifiers must match exactly.
+Instruction: do not block substations with Pass = Yes.
+Instruction: modify the SF-SS-4 row only.
+Instruction: the value must be exactly Blocked.
+Instruction: confirm the failure with the checklist, not with a scheduling note.

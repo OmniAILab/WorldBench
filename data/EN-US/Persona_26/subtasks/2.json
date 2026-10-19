@@ -1,0 +1,28 @@
+{
+  "persona": "Terrance is an urban resilience planner in St. Louis, Missouri, focusing on the redevelopment of the North Riverfront to withstand the increasing frequency of Mississippi River flooding. He must align his infrastructure designs with the Metropolitan St. Louis Sewer District’s green-space mandates and the federal flood-mitigation requirements of FEMA, ensuring that new riverside parks serve as natural drainage basins while documenting the long-term impact on local property values and community safety.",
+  "task": "Insert the green-space drainage mandate into the urban redevelopment master plan.",
+  "required_files": [
+    "sewer_district_memo.txt"
+  ],
+  "output_files": [
+    "data/redevelopment_plan.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/redevelopment_plan.docx",
+        "keywords": [
+          "A minimum of 40% permeable paving is required for all new walkways"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/redevelopment_plan.docx",
+      "change": "modify"
+    }
+  ]
+}

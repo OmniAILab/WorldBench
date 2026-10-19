@@ -1,0 +1,5 @@
+Messprotokoll Meeresökologie — Ozeaneum Stralsund
+Zone: Ruegen_Flachwasser.
+Salzgehaltszustand: Die Sensordaten zeigen einen massiven Süßwassereintrag, der zu einem beobachteten ökologischen Absterbeereignis (tödlicher Süßwassereintrag) bei den lokalen Seegraswiesen führt.
+Meldeweg: Der Vorfall ist umgehend dem regionalen Meeresschutzbeirat (meeresschutz@mv.de) zu melden.
+Formulierung für die E-Mail: "Ruegen_Flachwasser" und "Tödlicher Süßwassereintrag" angeben, um schnelle Gegenmaßnahmen anzufordern.

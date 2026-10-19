@@ -1,0 +1,32 @@
+{
+  "persona": "Sunita is a strategic urban designer in Birmingham working on the Big City Plan and the Curzon Street area. She updates design scores, corridor flags, briefing documents, workshop emails, and site-walk calendar notes.",
+  "task": "Add the Curzon Street site walk to the April calendar and include the inner-ring access instruction about using designated crossings only.",
+  "required_files": [
+    "access_note_birmingham.txt"
+  ],
+  "output_files": [
+    "data/deliveries_april_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_april_2026.ics",
+        "summary_keywords": [
+          "Curzon Street Site Walk"
+        ],
+        "description_keywords": [
+          "designated crossings"
+        ],
+        "time_start": "2026-04-03 10:00:00",
+        "time_end": "2026-04-03 11:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_april_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

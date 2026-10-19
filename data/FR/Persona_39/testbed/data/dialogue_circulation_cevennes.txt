@@ -1,0 +1,5 @@
+Chloé : On vérifie la feuille de marche du train TR-209 sur la voie unique pour la journée du 2026-07-18.
+Agent de circulation : Le TR-209 a d'abord une simple attente de 10 minutes à Anduze à 11:25, puis il effectue son croisement sur la voie d'évitement de Corbès à 12:40.
+Chloé : Le gabarit et la longueur de la rame TR-209 sont bien compatibles avec la voie d'évitement de Corbès ?
+Agent de circulation : Oui, les aiguilles ont été vérifiées et l'état de la voie mentionne « Croisement_validé » pour l'opération « Croisement_train_historique ».
+Chloé : Parfait, j'envoie un e-mail au chef de gare de Corbès (circulation@corbes.fr) pour lui confirmer le croisement validé du TR-209 le 2026-07-18 à 12:40 à Corbès pour l'opération Croisement_train_historique.

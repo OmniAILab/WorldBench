@@ -1,0 +1,39 @@
+{
+  "persona": "Nils ist Lagerleiter im Onlinehandel und arbeitet in einem großen Logistikzentrum vor den Toren von Halle an der Saale. Er organisiert die Sortierung und den Versand von täglich Tausenden Paketen mit Unterhaltungselektronik. Er steht vor der ständigen Herausforderung, verlässliche Saisonkräfte zu gewinnen und zugleich die strengen Arbeitsschutzvorschriften der sachsen-anhaltischen Landesbehörden einzuhalten. Er wertet wechselnde Kauftrends, schwer planbare Kapazitäten der Lieferpartner und interne Schichtpläne aus, um Personal kurzfristig auf die am stärksten belasteten Sortiergänge umzuverteilen.",
+  "task": "Nutze das tägliche Elektronikvolumen im Logistikzentrum bei Halle, ermittle die Kategorie mit dem stärksten Anstieg und übertrage die Kennzeichnung des Personalbedarfs in das Kapazitätsblatt.",
+  "required_files": [
+    "elektronikvolumen_halle.xlsx",
+    "schichthinweise_halle.txt"
+  ],
+  "output_files": [
+    "data/kapazitaetsblatt_halle.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/kapazitaetsblatt_halle.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "150_Prozent_Anstieg"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/kapazitaetsblatt_halle.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

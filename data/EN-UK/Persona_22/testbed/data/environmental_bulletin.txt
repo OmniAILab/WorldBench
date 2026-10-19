@@ -1,0 +1,12 @@
+Battery charging notes belong in the equipment log.	Fenland drainage-board notice	Lincolnshire field-trial record
+CAA altitude limits should be placed in pilot alerts, not buffer rules.	Witham catchment liaison	Lincoln agricultural showground note
+Fenland wind note: gusts above threshold should delay flight.	Fens spray-window check	East Midlands drone-maintenance log
+Spray-tank cleaning note: rinse records stay in the maintenance folder.	Fenland drainage-board notice	Lincolnshire field-trial record
+Pollinator note: flowering oilseed rape requires a separate warning.	Witham catchment liaison	Lincoln agricultural showground note
+Flight restrictions note: copy the dyke buffer wording exactly.	Fens spray-window check	East Midlands drone-maintenance log
+Maintain a 10-metre no-spray buffer zone from all drainage dykes.	Fenland drainage-board notice	Lincolnshire field-trial record
+Farmyard note: concrete apron movements are not field spraying.	Witham catchment liaison	Lincoln agricultural showground note
+Drainage board note: water levels are logged separately.	Fens spray-window check	East Midlands drone-maintenance log
+Calibration note: drone compass checks do not alter buffer zones.	Fenland drainage-board notice	Lincolnshire field-trial record
+Note: the old 5-metre dyke rule must not be used.	Witham catchment liaison	Lincoln agricultural showground note
+Weather note: rain delay is not the same as a buffer restriction.	Fens spray-window check	East Midlands drone-maintenance log

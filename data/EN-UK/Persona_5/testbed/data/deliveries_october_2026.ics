@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Services//Local Data//EN
+BEGIN:VEVENT
+UID:oldcourse-irrigation-check-1@local.test
+DTSTART:20261001T063000
+DTEND:20261001T070000
+SUMMARY:Old Course irrigation check
+DESCRIPTION:Check greens before championship setup begins.
+END:VEVENT
+BEGIN:VEVENT
+UID:dune-rope-review-2@local.test
+DTSTART:20261002T080000
+DTEND:20261002T083000
+SUMMARY:Dune rope review
+DESCRIPTION:Inspect coastal dune protection ropes before visitors arrive.
+END:VEVENT
+BEGIN:VEVENT
+UID:dunhill-signage-check-3@local.test
+DTSTART:20261003T100000
+DTEND:20261003T103000
+SUMMARY:Dunhill signage check
+DESCRIPTION:Confirm sponsor boards are outside protected areas.
+END:VEVENT
+BEGIN:VEVENT
+UID:caddie-path-note-4@local.test
+DTSTART:20261004T090000
+DTEND:20261004T093000
+SUMMARY:Caddie path note
+DESCRIPTION:Review temporary trolley route during event preparation.
+END:VEVENT
+BEGIN:VEVENT
+UID:greenkeeper-team-brief-5@local.test
+DTSTART:20261005T070000
+DTEND:20261005T073000
+SUMMARY:Greenkeeper team brief
+DESCRIPTION:Brief staff on daily preparation plan.
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,6 @@
+Deutsches Nationaltheater – Akustiknotiz zum Szenenwechsel
+Probenauswertung, Arbeitsstand Oktober 2026.
+Die vorliegende Vergleichsliste bewertet die Varianten „Rollwagen“, „Von_Hand_tragen“ und „Motorplattform“ qualitativ nach ihrem Geräuschpegel.
+Für diese Probe wurde „Von_Hand_tragen“ als „Niedrig“ eingestuft; die anderen Methoden sind lauter.
+Daher soll im Ablaufblatt die Methode „von Hand tragen“ dokumentiert werden. Der zugehörige technische Listencode lautet „Von_Hand_tragen“.
+Eine konkrete Messung in dB(A) liegt in dieser Projektliste nicht vor und darf nicht nachträglich behauptet werden. Hebe- und Arbeitsschutz sind bei der Umsetzung zusätzlich zu berücksichtigen.

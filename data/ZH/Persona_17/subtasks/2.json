@@ -1,0 +1,30 @@
+{
+  "persona": "露露在敦煌莫高窟售票处工作。她管理混乱的旅游团队，担心古代壁画受损，还经常想吃一碗兰州牛肉面。",
+  "task": "给保护团队写一封邮件，总结被标记的洞窟，并说明触发建议的传感器指标。",
+  "required_files": [
+    "academy_contacts_dunhuang.xlsx",
+    "preservation_log.xlsx",
+    "conservation_note_dunhuang.txt",
+    "dialogue_dunhuang_conservation.txt",
+    "local_context_dunhuang_conservation.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "conservation@dunhuang-academy.cn",
+        "keywords": [
+          "Cave_16",
+          "CO2"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_conservation_*.eml",
+      "change": "create"
+    }
+  ]
+}

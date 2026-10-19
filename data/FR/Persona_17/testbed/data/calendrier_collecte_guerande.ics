@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Coopérative des paludiers de Guérande//Calendrier opérationnel//FR
+BEGIN:VEVENT
+UID:daccf1de-4a1a-5220-8352-2b057782f671
+DTSTART:20260611T080000
+DTEND:20260611T083000
+SUMMARY:Point de salinité au traict
+DESCRIPTION:Contrôle des relevés de l’œillet et des conditions de récolte avant la collecte.
+END:VEVENT
+BEGIN:VEVENT
+UID:562332b4-1fdd-58a5-957c-f342fab3aa4b
+DTSTART:20260612T073000
+DTEND:20260612T080000
+SUMMARY:Préparation des caisses de fleur de sel
+DESCRIPTION:Mise à disposition des caisses et vérification des étiquettes de lots à la coopérative.
+END:VEVENT
+END:VCALENDAR

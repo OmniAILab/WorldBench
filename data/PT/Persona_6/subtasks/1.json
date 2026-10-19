@@ -1,0 +1,19 @@
+{
+  "persona": "Inês é uma urbanista de Braga que trabalha em várias zonas do centro da cidade. É especializada na integração de infraestruturas modernas dentro dos antigos limites romanos. Os seus maiores desafios são os exigentes pareceres de salvaguarda do Património Cultural, I.P. e a necessidade urgente de alargar zonas pedonais, o que a leva a sintetizar mapas históricos e dados modernos de fluxos de trânsito para elaborar propostas públicas de desenvolvimento sem falhas.",
+  "task": "Extrai do parecer técnico do Património Cultural, I.P. (que sucedeu à antiga DGPC) a condição específica do projeto aplicável ao perímetro arqueológico de Bracara Augusta e insere-a na secção «Mandato de preservação» da proposta de zona pedonal.",
+  "required_files": [
+    "dghc_notice.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/proposal.docx",
+        "keywords": [
+          "as intervenções devem ser reversíveis"
+        ]
+      }
+    }
+  ]
+}

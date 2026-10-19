@@ -1,0 +1,30 @@
+{
+  "persona": "勇是宜昌三峡大坝的一名维护工。他检查混凝土应力传感器，协调嘈杂的水下维修，并吃辣味湖北热干面，在潮湿的峡谷里暖身。",
+  "task": "根据泄洪开始日期，在工作日历中添加名为“溢洪道检查时段”的事件。",
+  "required_files": [
+    "mwr_schedule.txt",
+    "three_gorges_flood_operations.txt"
+  ],
+  "output_files": [
+    "data/dam_safety.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/dam_safety.ics",
+        "summary_keywords": [
+          "溢洪道检查时段"
+        ],
+        "description_keywords": [],
+        "date": "2026-06-15"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/dam_safety.ics",
+      "change": "modify"
+    }
+  ]
+}

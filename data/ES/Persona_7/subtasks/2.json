@@ -1,0 +1,28 @@
+{
+  "persona": "Fran es responsable de mercancías en PLAZA (Plataforma Logística de Zaragoza), considerada la mayor plataforma logística de Europa, donde sincroniza el transporte ferroviario y por carretera en toda la península ibérica. Gestiona las restricciones de la Zona de Bajas Emisiones del Casco Histórico de Zaragoza y los cambios técnicos entre el ancho de vía europeo y el ibérico, para que la carga internacional atraviese sin interrupciones el corredor aragonés.",
+  "task": "Comprueba en el plan de envíos qué envío tiene ya asignado su método de cambio de ancho y localiza en el directorio ferroviario el buzón de la terminal de PLAZA. Escribe a la terminal confirmando el método seleccionado e incluyendo el identificador del envío, sin usar los buzones de tráfico, aduanas, mantenimiento ni ADIF.",
+  "required_files": [
+    "contactos_ferroviarios_zaragoza.xlsx",
+    "envios_zaragoza.xlsx",
+    "indicaciones_correo_zaragoza.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "terminal@plaza.es",
+        "keywords": [
+          "PLZ-77",
+          "Cambio_de_bogies"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_terminal_*.eml",
+      "change": "create"
+    }
+  ]
+}

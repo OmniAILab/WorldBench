@@ -1,0 +1,33 @@
+{
+  "persona": "Benoît est artisan charcutier à Bayonne. Il suit la salaison et l’affinage des jambons de Bayonne IGP, contrôle les lots et les relevés hygrométriques, et organise les livraisons à proximité des quais de la Nive pendant les manifestations du centre historique. Pour ses autres produits de charcuterie, il applique les procédures propres à l’atelier, sans les confondre avec le cahier des charges du jambon IGP.",
+  "task": "Envoie un courriel dans la messagerie simulée aux fournisseurs de porc locaux après avoir croisé le contact, la consigne du plan de circulation, l’itinéraire et le planning de livraison. Confirme la déviation par Saint-Esprit, la limite de 3,5 tonnes retenue pour la tournée, que le véhicule prévu de 3,4 tonnes est compatible et la fenêtre 05:30-07:00. Écarte les variantes nocturnes et la Foire au Jambon.",
+  "required_files": [
+    "supplier_contacts_bayonne.xlsx",
+    "municipal_logistics.xlsx",
+    "itineraire_fete_jambon.txt",
+    "planning_livraisons_fete_bayonne.xlsx",
+    "dialogue_logistique_bayonne.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "livraisons@atelier-bayonne.invalid",
+        "keywords": [
+          "Fête du Jambon",
+          "Saint-Esprit",
+          "3,5 tonnes",
+          "3,4 tonnes",
+          "05:30-07:00"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_livraisons_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+A equipa deve verificar os sensores do Tavira_Solar_4 antes do fim da semana.
+A equipa deve rever a leitura do Albufeira_Solar_6 após o vento de levante.
+A equipa deve confirmar os cabos do Portimão_Coast_7 antes da abertura.
+A equipa deve manter o Loulé_Inland_1 sem intervenção relacionada com sal.
+A equipa deve lavar os painéis do local Parque fotovoltaico de Faro — setor costeiro 01 antes do pico turístico no Algarve.
+A equipa deve observar o Sagres_West_5 após a próxima maré de vento.
+A equipa deve inspecionar o Quarteira_Coast_4 sem interromper a produção.
+A equipa deve rever o sensor do Lagoa_Solar_3.
+A equipa deve confirmar a leitura do Ria_Formosa_7 ao amanhecer.
+A equipa deve lavar parcialmente os painéis do Faro_Inland_2 fora do pico turístico.
+A equipa deve preparar a lavagem do Olhão_Coast_3 após o pico turístico no Algarve.

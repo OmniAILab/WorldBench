@@ -1,0 +1,4 @@
+Aïcha : Maintenant que les hausses sont retirées sur Rucher_Maquis_09, je dois transmettre la fiche de suivi du Plan sanitaire d'élevage au Groupement sanitaire apicole de Corse.
+Technicien GDSA : Oui, rappelle-toi qu'on ne remonte pas chaque comptage sur lange ni chaque visite de couvain : seul le traitement vétérinaire effectivement posé est déclaré dans ce bilan.
+Aïcha : Sur le registre d'élevage, pour Rucher_Maquis_09 (à ne pas confondre avec Rucher_MA-09), on a posé les diffuseurs le 2026-09-09 : il s'agit de « Traitement_acide_formique » avec le numéro de lot « Lot_AF909 ».
+Technicien GDSA : C'est parfait. Envoie l'e-mail à sanitaire@abeilles-corse.fr en précisant que ce traitement est déclaré pour Rucher_Maquis_09 à la date du 2026-09-09 avec Traitement_acide_formique et Lot_AF909.

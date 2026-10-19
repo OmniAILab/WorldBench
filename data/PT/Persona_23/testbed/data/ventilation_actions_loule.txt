@@ -1,0 +1,12 @@
+PROCEDIMENTO DE HIGIENE E VENTILAÇÃO SUBTERRÂNEA — MINA DE CAMPINA DE CIMA
+Parâmetro: Concentração mássica de poeiras respiráveis (fração alveolar, expressa em mg/m³)
+Limite interno de intervenção operacional: 5,0 mg/m³
+
+1. Ações por faixa de concentração
+- Leituras até 3,5 mg/m³ (Galeria Norte A, Túnel de Serviço 2, Cais de Carga Profundo): manter o regime de ventilação habitual.
+- Leituras entre 3,6 e 4,5 mg/m³ (Galeria Oeste C, Ponto de Transferência de Sal): reduzir a movimentação de material e preparar inspeção da conduta.
+- Leituras entre 4,6 e 4,9 mg/m³ (Filão de sal-gema C — frente experimental e Galeria de Expansão Norte): reforçar a ventilação secundária local e repetir a amostragem gravimétrica ao fim de quinze minutos.
+
+2. Ultrapassagem do limite interno de intervenção
+- No filão B, na zona de expansão, a concentração de poeiras respiráveis ultrapassou o limite interno de intervenção, expresso em mg/m³; suspender os trabalhos e ativar o procedimento de segurança.
+- Comunicar imediatamente a ordem aos encarregados dos túneis para retirada temporária da equipa da frente de desmonte e acionamento da ventilação de emergência.

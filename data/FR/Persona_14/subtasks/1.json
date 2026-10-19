@@ -1,0 +1,33 @@
+{
+  "persona": "Adrien vit à Paris et exerce comme responsable du développement durable pour un groupe international de distribution établi dans le 8e arrondissement. Il travaille sur les normes européennes d’information en matière de durabilité applicables en 2026 et sur la Loi de vigilance française, afin que chaque niveau de la chaîne d’approvisionnement respecte les audits environnementaux et sociaux. Son activité quotidienne consiste à synthétiser rapidement des milliers de rapports de conformité fournisseurs et à suivre les données d’émissions carbone pour préserver les évaluations de performance extra-financière du groupe.",
+  "task": "Croise la consigne ESRS avec le tableau d’émissions et le dialogue de clôture. Rédige une courte section carbone du rapport annuel non financier en déclarant séparément les émissions des Scope 1 et Scope 2, selon les valeurs consolidées de l’exercice 2025. Écarte les objectifs futurs, l’exercice précédent et les données Scope 3.",
+  "required_files": [
+    "esrs_notice.txt",
+    "emissions_groupe_paris.xlsx",
+    "dialogue_cloture_esrs.txt"
+  ],
+  "output_files": [
+    "data/nonfinancial_report.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/nonfinancial_report.docx",
+        "keywords": [
+          "émissions des Scope 1 et Scope 2",
+          "ESRS",
+          "1 280 tCO2e",
+          "940 tCO2e"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/nonfinancial_report.docx",
+      "change": "modify"
+    }
+  ]
+}

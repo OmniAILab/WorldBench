@@ -1,0 +1,31 @@
+{
+  "persona": "Domenico è un agronomo specializzato in viticoltura vulcanica sulle pendici settentrionali dell'Etna, vicino a Randazzo. Accompagna le aziende agricole locali tra le complessità del disciplinare DOC e le composizioni irregolari dei suoli derivanti dalle recenti colate piroclastiche, gestendo al contempo le difficoltà logistiche del trasporto delle attrezzature sui terreni accidentati e sterrati del parco protetto dall'UNESCO.",
+  "task": "Aggiungi al calendario di aprile lo slot per il trasporto attrezzature verso il settore nord, usando come titolo la denominazione imposta dalla regola di classificazione e citando nella descrizione il vincolo di accesso indicato dal Guardiaparco. Aggiorna ./data/consegne_aprile_2026.ics.",
+  "required_files": [
+    "accesso_etna.txt"
+  ],
+  "output_files": [
+    "data/consegne_aprile_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/consegne_aprile_2026.ics",
+        "summary_keywords": [
+          "Trasporto attrezzature Randazzo"
+        ],
+        "description_keywords": [
+          "4x4"
+        ],
+        "date": "2026-04-07"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/consegne_aprile_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

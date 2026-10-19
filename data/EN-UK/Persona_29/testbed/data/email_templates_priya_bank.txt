@@ -1,0 +1,25 @@
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Compliance Alert
+Dear Audit Team,
+Please note the following compliance alert: [Main detail from source note].
+Please review this threshold in line with the current AML monitoring process.
+Kind regards,
+[Priya]
+
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Quick Note
+Hi team,
+A quick note about [topic]: [Main detail from source note].
+Thanks,
+[Priya]
+
+Note: AML threshold alerts must use the formal template.
+Note: branch social updates may use the friendly template.
+Note: account-type and threshold wording should be copied exactly.
+Note: consumer duty manual changes are not the same as AML alerts.
+Note: FCA directive emails should not include customer names.
+Note: internal audit messages should be concise and precise.
+Note: product-risk spreadsheet updates should not be sent to branch customers.
+Note: Leeds city centre office notices use a separate facilities template.
+Note: vulnerability review messages use the formal compliance tone.
+Note: do not replace Commercial_Basic with Premium_Current.

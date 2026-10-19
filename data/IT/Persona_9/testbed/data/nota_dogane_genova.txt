@@ -1,0 +1,22 @@
+Appunto Dogane: per navi in ingresso serve codice ADM-5.
+Nota porto: MV_Liguria deve usare codice PSA-7.
+Promemoria Genova: i container refrigerati richiedono documento COLD-2.
+Appunto varco: il codice ADM-7 vale solo per merci pericolose.
+Nota Lanterna: se la nave arriva all'alba scrivere ADM-6.
+Nota doganale aggiornata: per la nave in arrivo indicata nel foglio, l'Agenzia delle Dogane richiede il codice documento ADM-7.
+Promemoria dogana 2024: il codice corretto era ADM-3.
+Appunto terminal: per terminal VTE usare LIG-9.
+Nota Agenzia: il documento può restare Da verificare fino al turno successivo.
+Promemoria attracco: usare il codice del molo al posto del documento.
+Appunto merci: se ci sono tunnel cittadini, usare TUN-1.
+Nota porto antico: le navi passeggeri usano codice ADM-PAX.
+Promemoria Authority: il codice dell'Autorità di Sistema sostituisce quello Dogane.
+Appunto banchina: MV_Tirreno deve essere aggiornato al posto di MV_Liguria.
+Nota ormeggio: il vento di libeccio cambia il codice a MET-4.
+Promemoria dogane: la dichiarazione ADM non serve alle navi liguri.
+Appunto varchi: il controllo badge produce codice BADGE-1.
+Nota turno: il cambio squadra non modifica il documento doganale.
+Appunto terminal: il nome del terminal di attracco non sostituisce il codice documento.
+Nota orario: l'orario di arrivo della nave non modifica il codice doganale richiesto.
+Promemoria bandiera: la bandiera della nave non rientra tra i criteri del documento.
+Nota stazza: la stazza del mezzo non incide sul codice da inserire nel foglio.

@@ -1,0 +1,39 @@
+{
+  "persona": "Priya is a creative content strategist at Salford's MediaCityUK, where she oversees multi-platform campaigns for independent production companies. She manages licence checks, regional production commitments, and campaign files for streaming and social media releases.",
+  "task": "Use the BBC North of England regional quota notice to decide whether the North_Stream campaign passes the quota, then update the Salford campaign checklist with the correct pass or fail status.",
+  "required_files": [
+    "bbc_quota_notice.txt",
+    "campaign_plan_salford.xlsx"
+  ],
+  "output_files": [
+    "data/compliance_checklist_salford.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/compliance_checklist_salford.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Fail"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/compliance_checklist_salford.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Quality Lead: The aged cheddar batch selected for export review is Cheddar_Aged_04.
+Scientist: I should retrieve its bacterial profile from the fermentation log?
+Quality Lead: Yes.
+Scientist: Then I write the corresponding quality grade into the technical standards workbook.
+Quality Lead: Correct.
+Scientist: I should not choose another cheddar just because it also falls within an acceptable range.
+Quality Lead: Exactly.
+Scientist: Blue cheese, Colby, and Brick Cheese batches are comparison records.
+Quality Lead: Yes.
+Scientist: The local context is Driftless Area artisanal cheesemaking and export-grade Wisconsin dairy standards.
+Quality Lead: Correct.
+Scientist: The grade must preserve the exact label from the fermentation log.
+Quality Lead: Yes.
+Scientist: I should not convert Range_B into Optimal_Range_A.
+Quality Lead: Correct.
+Scientist: The contamination and high-acid readings belong to other batches.
+Quality Lead: Exactly.
+Scientist: I update only the selected batch row.
+Quality Lead: Yes.
+Scientist: All other rows stay TBC.
+Quality Lead: Correct.
+Scientist: I will match by exact Batch_ID.

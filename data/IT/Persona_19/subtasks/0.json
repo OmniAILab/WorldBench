@@ -1,0 +1,39 @@
+{
+  "persona": "Davide è un meccanico di precisione nella \"Motor Valley\" dell'Emilia-Romagna, dove supervisiona l'assemblaggio di motori ad alte prestazioni per un costruttore automobilistico di lusso nei pressi di Modena. Garantisce che tutte le fasi di produzione rispettino i rigorosi standard di qualità ISO 9001 e i specifici limiti di emissioni di carbonio imposti dal piano industriale regionale. Il suo ruolo richiede il costante monitoraggio dei dati di assemblaggio robotizzato e la conciliazione dei ritardi della catena di fornitura con il programma di produzione \"just-in-time\" della fabbrica.",
+  "task": "Usa la checklist ISO 9001 per individuare il motore che richiede rilavorazione e aggiorna lo stato del gate qualità nel file ./data/gate_qualita_modena.xlsx per il motore MV-771.",
+  "required_files": [
+    "note_qualita_modena.txt",
+    "qc_modena.xlsx"
+  ],
+  "output_files": [
+    "data/gate_qualita_modena.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/gate_qualita_modena.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Rilavorazione"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/gate_qualita_modena.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

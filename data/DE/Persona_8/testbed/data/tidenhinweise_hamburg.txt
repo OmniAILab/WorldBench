@@ -1,0 +1,6 @@
+Hamburger Hafen – Tidenabhängige Liegeplatzplanung
+Vorgang: MV_Altenwerder, Containerterminal Altenwerder an der Elbe.
+Die Schichtplanung verwendet für die vorliegende Disposition eine bereits geprüfte Tidentabelle. Darin ist das Zeitfenster „08_10“ als einziges mit „Tiefgang_OK = Ja“ bewertet.
+Deshalb ist „08_10“ in den Liegeplatzplan zu übernehmen. Die Zeitfenster stehen für 06:00–08:00 Uhr, 08:00–10:00 Uhr und 10:00–12:00 Uhr Ortszeit Hamburg.
+Die Kennzeichnung „Ja“ ersetzt nicht die nautische Einlaufentscheidung. Schiffstiefgang, aktuelle Wasserstände, Sicherheitsreserven und Weisungen des Hafen- und Lotsendienstes sind vor tatsächlicher Einfahrt zu prüfen.
+Die vorliegenden Tabellen enthalten keine gemessenen Tiefen in Metern; konkrete Tiefgangsreserven dürfen daraus nicht erfunden werden.

@@ -1,0 +1,37 @@
+{
+  "persona": "Rachid est coordinateur des opérations portuaires au Havre. Il organise l’accueil des porte-conteneurs, l’affectation des remorqueurs et les embarquements de pilotes en fonction du tirant d’eau, des marées de la Manche et des contraintes des terminaux de Port 2000.",
+  "task": "Ajoute au calendrier portuaire le créneau de remorquage d’Ocean_Mistral. Croise l’escale, le tableau des opérations de remorquage et le briefing de quart pour retenir le bon navire, le quai confirmé, le nombre de remorqueurs, la date et l’heure ; écarte Ocean_Mistral_II, le feeder et le service de nuit.",
+  "required_files": [
+    "contacts_port_le_havre.xlsx",
+    "operations_remorquage_le_havre.xlsx",
+    "escales_le_havre.xlsx",
+    "modele_email_remorquage.txt",
+    "briefing_remorquage_le_havre.txt"
+  ],
+  "output_files": [
+    "data/calendrier_remorquage_le_havre.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendrier_remorquage_le_havre.ics",
+        "summary_keywords": [
+          "Remorquage Ocean_Mistral"
+        ],
+        "description_keywords": [
+          "Port2000_Q4",
+          "2 remorqueurs"
+        ],
+        "time_start": "2026-04-05 06:40:00",
+        "time_end": "2026-04-05 07:20:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendrier_remorquage_le_havre.ics",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "persona": "Malia is a marine restoration ecologist in Honolulu, Hawaii, focusing on the rehabilitation of coral nurseries within the Waikiki Marine Life Conservation District. She manages the permitting processes of the Hawaii Division of Aquatic Resources and the environmental impact statements required by the U.S. Army Corps of Engineers, coordinating the transplantation of heat-resilient coral species while documenting the effects of localized ocean acidification on the surrounding reef structures.",
+  "task": "Use the Waikiki reef monitor to find the pH status for the coral nursery sector and update the transplantation viability in the nursery growth spreadsheet.",
+  "required_files": [
+    "reef_monitor_honolulu.xlsx",
+    "dialogue_nursery_waikiki.txt",
+    "viability_protocol_waikiki.txt"
+  ],
+  "output_files": [
+    "data/nursery_growth.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/nursery_growth.xlsx",
+        "matches": [
+          {
+            "row": 8,
+            "col": 2,
+            "value": "Hold_For_Review"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/nursery_growth.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 8,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

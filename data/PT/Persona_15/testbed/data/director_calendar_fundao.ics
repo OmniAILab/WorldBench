@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Direção do Cerejal da Gardunha//Agenda de Campo//PT
+BEGIN:VEVENT
+UID:90ae1ac8-d947-429d-bfc7-008ed37106df
+DTSTAMP:20260401T090000Z
+DTSTART:20260404T003000
+DTEND:20260404T005000
+SUMMARY:Revisão dos aspersores
+DESCRIPTION:Verificação da pressão nas linhas de aspersão do setor norte antes da noite de maior risco.
+END:VEVENT
+BEGIN:VEVENT
+UID:b7b6bac3-9001-4680-8cd6-780c1626db2b
+DTSTAMP:20260401T090000Z
+DTSTART:20260404T020000
+DTEND:20260404T024000
+SUMMARY:Verificação da casa das bombas
+DESCRIPTION:Teste do arranque manual das bombas e do nível do depósito de água.
+END:VEVENT
+BEGIN:VEVENT
+UID:3a39f784-0e88-451b-a1eb-de5e76220e09
+DTSTAMP:20260401T090000Z
+DTSTART:20260404T033000
+DTEND:20260404T035000
+SUMMARY:Leitura dos termómetros
+DESCRIPTION:Leitura dos termómetros de aviso nos setores de vale e registo no mapa diário.
+END:VEVENT
+BEGIN:VEVENT
+UID:58066af2-389c-4e18-bc2c-eeb27e969a0e
+DTSTAMP:20260401T090000Z
+DTSTART:20260404T051500
+DTEND:20260404T054500
+SUMMARY:Ronda do setor norte
+DESCRIPTION:Ronda de inspeção às linhas altas e aos rebentos mais expostos.
+END:VEVENT
+BEGIN:VEVENT
+UID:6b63e2e6-7cb2-4f7e-88d7-57d93dfc3602
+DTSTAMP:20260401T090000Z
+DTSTART:20260404T063000
+DTEND:20260404T073000
+SUMMARY:Reunião de planeamento da colheita
+DESCRIPTION:Ponto de situação com os supervisores sobre a previsão de floração e as equipas de colheita.
+END:VEVENT
+BEGIN:VEVENT
+UID:69e3ed1b-6184-440d-834c-0e31bccf1c40
+DTSTAMP:20260401T090000Z
+DTSTART:20260404T090000
+DTEND:20260404T093000
+SUMMARY:Teste do gerador
+DESCRIPTION:Arranque de ensaio do gerador de apoio da casa das bombas.
+END:VEVENT
+BEGIN:VEVENT
+UID:9f7a27f4-ab9b-4fe2-af44-29c3ba5c1f90
+DTSTAMP:20260401T090000Z
+DTSTART:20260404T110000
+DTEND:20260404T114500
+SUMMARY:Reunião de exportação
+DESCRIPTION:Revisão com a equipa comercial dos volumes previstos para os mercados de exportação.
+END:VEVENT
+BEGIN:VEVENT
+UID:533efb11-3632-4c48-8c45-f2a5bd6b6b33
+DTSTAMP:20260401T090000Z
+DTSTART:20260404T143000
+DTEND:20260404T150000
+SUMMARY:Fecho do registo diário
+DESCRIPTION:Conferência e arquivo do mapa diário do Cerejal da Gardunha.
+END:VEVENT
+BEGIN:VEVENT
+UID:fd849c2b-bd63-4b66-8509-28732a2f9da6
+DTSTAMP:20260401T090000Z
+DTSTART:20260511T150000
+DTEND:20260511T160000
+SUMMARY:Planeamento da Festa da Cereja
+DESCRIPTION:Reunião com a associação local sobre acessos e estacionamento durante a época de colheita.
+END:VEVENT
+BEGIN:VEVENT
+UID:f93d784b-c653-4572-9039-cf5511a546d6
+DTSTAMP:20260401T090000Z
+DTSTART:20260405T013000
+DTEND:20260405T033000
+SUMMARY:Vigilância térmica da encosta oriental
+DESCRIPTION:Ronda preventiva associada a uma bolsa de ar frio localizada.
+END:VEVENT
+BEGIN:VEVENT
+UID:8d98f27e-ccf4-4994-93f4-1346d84377b4
+DTSTAMP:20260401T090000Z
+DTSTART:20260405T053000
+DTEND:20260405T070000
+SUMMARY:Inspeção matinal das linhas baixas
+DESCRIPTION:Verificação posterior ao período de maior risco meteorológico.
+END:VEVENT
+END:VCALENDAR

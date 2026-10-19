@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Interne Kalenderverwaltung//Hutmacher-Kalender//DE
+BEGIN:VEVENT
+UID:urn:uuid:c82c4a56-c3ea-5b6c-a384-b9704d9151e3
+DTSTART:20260516T090000
+DTEND:20260516T100000
+SUMMARY:Filzlieferung prüfen
+DESCRIPTION:Wareneingang für die Trachtenhüte.
+END:VEVENT
+END:VCALENDAR

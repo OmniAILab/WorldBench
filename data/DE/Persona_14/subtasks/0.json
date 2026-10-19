@@ -1,0 +1,39 @@
+{
+  "persona": "Tobias ist Sicherheitsinspektor in der chemischen Industrie und arbeitet in Ludwigshafen, wo er den Betrieb eines der größten Verbundstandorte der Welt überwacht. Er begrenzt die Risiken, die mit der Lagerung flüchtiger Stoffe in unmittelbarer Nähe des Rheins verbunden sind, und hält dabei die strengen bundesrechtlichen Vorgaben zur Emissionskontrolle ein. Er sichtet laufend Tausende komplexer Sicherheitsdatenblätter, Störungsberichte aus der Instandhaltung und Echtzeit-Sensorprotokolle, um feine Verschleißmuster an Anlagen zu erkennen, bevor sie eine verpflichtende Abschaltung auslösen.",
+  "task": "Gleiche die Druckspitzen der Echtzeitsensoren mit dem Emissionskontrollblatt ab und aktualisiere für den betroffenen Tanksektor am Rhein den Risikowert.",
+  "required_files": [
+    "sensorprotokolle_ludwigshafen.xlsx",
+    "sensorhinweise_ludwigshafen.txt"
+  ],
+  "output_files": [
+    "data/emissionskontrollblatt_ludwigshafen.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/emissionskontrollblatt_ludwigshafen.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "15_bar_kritisch"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/emissionskontrollblatt_ludwigshafen.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

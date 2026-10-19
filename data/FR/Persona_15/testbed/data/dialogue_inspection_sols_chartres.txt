@@ -1,0 +1,8 @@
+Rémy : La certification export demande bien une révision des données de santé des sols le 10 avril ?
+Claire : Oui.
+Rémy : Quel secteur doit être inspecté ?
+Claire : North_Beauce_Fields, marqué « À réviser » pour la certification export.
+Marc : North_Beauce_Annex relève seulement de la pré-certification.
+Claire : Exact.
+Rémy : L’inspection est prévue de 08 h 30 à 09 h 30.
+Claire : Oui, inscris aussi « certification export » dans la description.

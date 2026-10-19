@@ -1,0 +1,25 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Quick Community Update
+Hi everyone,
+Hope you are all well. Just a quick update about [topic]. [Main detail from source note].
+Thanks again for helping keep the Peckham uniform project affordable and practical.
+Warm wishes,
+[Maya]
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Financial Notice
+Dear Colleagues,
+Please note the following update regarding [topic]: [Main detail from source note].
+Kind regards,
+[Maya]
+
+Note: the friendly template is used for sewing collectives, uniform volunteers, and fabric donors.
+Note: formal wording is used for grant paperwork and council returns.
+Note: Rye Lane market cost updates should mention only the relevant stall line.
+Note: donation sorting messages should not include vendor-fee details.
+Note: community-uniform emails should keep wording warm and brief.
+Note: storage-cupboard notes are operational and should not be mixed with stall fees.
+Note: invoices for paid suppliers use a separate finance template.
+Note: messages to local schools should avoid internal market-cost codes.
+Note: fabric allocation emails can use a friendly tone when sent to volunteers.
+Note: grant claim emails should stay formal.

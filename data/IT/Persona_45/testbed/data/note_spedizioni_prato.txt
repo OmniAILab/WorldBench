@@ -1,0 +1,21 @@
+Materiale Wool_Crepe: stato On_Time, ETA 2026-02-12 per campionario.
+Materiale Silk_Twill: stato Quality_Check, ETA 2026-02-11 per controllo interno.
+Materiale Cashmere_Light: stato Delayed, ETA 2026-02-18 per cliente svizzero.
+Materiale Jacquard_Gold: stato On_Time, ETA 2026-02-15 per ordine diverso.
+Materiale Linen_Mix: stato Delayed, ETA 2026-02-16 per showroom Firenze.
+Materiale Silk_Satin: stato Delayed, ETA 2026-02-17 per Milano accessori.
+Rapporti con i Clienti: Le rocche in saia di seta non partiranno in tempo utile dal macrolotto; inoltrare subito una nota di scuse alla griffe meneghina spostando la previsione formale di sbarco al 15 di febbraio.
+Materiale Wool_Twill: stato Delayed, ETA 2026-02-14 per altro tessuto.
+Materiale Silk_Twill_Archive: stato Delayed, ETA 2025-02-15.
+Materiale Velvet_Blue: stato Pending, ETA 2026-02-20.
+Materiale Silk_Twill: stato On_Hold_Dye, ETA non confermata.
+Materiale Organza: stato On_Time, ETA 2026-02-13.
+Materiale Cotton_Twill: stato Delayed, ETA 2026-02-15.
+Materiale Silk_Twill_Sample: stato Delayed, ETA 2026-02-10.
+Materiale Macrolotto_Label: stato Ready, ETA 2026-02-15.
+Materiale Silk_Twill: stato Delayed, ETA 2026-02-15 ma per deposito Prato.
+Materiale Brocade_Red: stato Delayed, ETA 2026-02-19.
+Materiale Wool_Bouclé: stato On_Time, ETA 2026-02-13 per campionario.
+Materiale Chiffon_Ivory: stato Pending, ETA 2026-02-21.
+Materiale Gabardine_Nero: stato On_Time, ETA 2026-02-16 per showroom Roma.
+Materiale Crepe_Seta: stato Pending, ETA 2026-02-20 per cliente parigino.

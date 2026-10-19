@@ -1,0 +1,49 @@
+{
+  "persona": "Lucía es agricultora ecológica en el Campo de Cartagena (Región de Murcia) y gestiona rotaciones de cultivo sostenibles bajo la estricta vigilancia de la Ley de Recuperación y Protección del Mar Menor. Lucha contra el déficit hídrico estructural de la cuenca del Segura y contra las exigentes obligaciones de declarar la carga de nitrógeno, tratando de mantener viables sus variedades tradicionales frente a olas de calor cada vez más frecuentes y a cuotas de agua desalada en constante cambio.",
+  "task": "Aplica el límite de aporte nitrogenado de la Ley de Recuperación y Protección del Mar Menor a cada parcela, teniendo en cuenta su zona del Campo de Cartagena y si acredita cubierta vegetal certificada. Registra en el registro de cumplimiento el estado de todas las parcelas con las etiquetas que establece la norma.",
+  "required_files": [
+    "nitrogeno_murcia.xlsx",
+    "aviso_mar_menor.txt"
+  ],
+  "output_files": [
+    "data/cumplimiento_murcia.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/cumplimiento_murcia.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Excede"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Cumple"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/cumplimiento_murcia.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

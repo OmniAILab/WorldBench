@@ -1,0 +1,31 @@
+{
+  "persona": "妍在上海南京路一家光鲜商场的市场办公室工作。她追踪哪些入口客流量最大，以便布置 AR 广告屏，同时喝着价格虚高的冰美式。",
+  "task": "根据新的广告规则，把 AR 屏幕样稿中涉及个人数据收集的措辞替换为批准的选择加入措辞。",
+  "required_files": [
+    "ad_notice_shanghai.txt",
+    "dialogue_shanghai_ar.txt",
+    "shanghai_ar_screen_registry.xlsx"
+  ],
+  "output_files": [
+    "data/ar_copy.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/ar_copy.docx",
+        "keywords": [
+          "南京路",
+          "选择加入后可获得个性化优惠"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/ar_copy.docx",
+      "change": "modify"
+    }
+  ]
+}

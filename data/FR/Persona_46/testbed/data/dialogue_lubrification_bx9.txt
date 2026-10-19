@@ -1,0 +1,4 @@
+Restauratrice : Le calibre BX9 est-il prêt pour la dernière étape de lubrification ?
+Horloger : La fiche de restauration confirme le stade du rouage et le contrôle visuel à réaliser.
+Maître horloger : BX9 est en phase Lubrification_finale.
+Restauratrice : J’utilise une microgoutte d’huile 9010 sur chaque pivot du rouage, puis je fais un contrôle visuel.

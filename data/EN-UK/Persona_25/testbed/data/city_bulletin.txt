@@ -1,0 +1,16 @@
+Cycle lane note: Magdalen Road works may slow parent cars after registration.	Headington school travel note	St Clements bus corridor
+Bus route note: Cowley Road diversions apply to public buses only.	Oxford Brookes outreach session	Cowley Road traffic update
+Theatre trip note: tickets for the matinee will be sent separately.	Ashmolean learning visit	Magdalen Road access note
+Coach stand note: Headington pick-up remains unchanged for the sports fixture.	Headington school travel note	St Clements bus corridor
+Museum trip note: Ashmolean coach parking is still under review.	Oxford Brookes outreach session	Cowley Road traffic update
+Congestion alert: Use St_Clements drop-off instead of High_Street.	Ashmolean learning visit	Magdalen Road access note
+Oxford High Street note: deliveries are restricted before nine but this is not the school bus update.	Headington school travel note	St Clements bus corridor
+St Aldates note: temporary signals may affect staff cars, not pupil coaches.	Oxford Brookes outreach session	Cowley Road traffic update
+Parent parking note: do not stop outside the science gate during collection.	Ashmolean learning visit	Magdalen Road access note
+Bus pass note: replacement passes are managed by reception.	Headington school travel note	St Clements bus corridor
+Rail note: Oxford station works do not alter the school coach plan.	Oxford Brookes outreach session	Cowley Road traffic update
+Cycling note: pupils using bikes should lock them beside the covered rack.	Ashmolean learning visit	Magdalen Road access note
+Final note: place the routing note under transport updates only.	Headington school travel note	St Clements bus corridor
+Congestion note: the High_Street closure applies to deliveries, not the school bus.	Oxford Brookes outreach session	Cowley Road traffic update
+Archive note: a 2025 bulletin sent drop-off to Magdalen Road and is withdrawn.	Ashmolean learning visit	Magdalen Road access note
+Sports note: the fixture coach does not use the St_Clements drop-off.	Headington school travel note	St Clements bus corridor

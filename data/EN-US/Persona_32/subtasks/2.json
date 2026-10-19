@@ -1,0 +1,28 @@
+{
+  "persona": "Hillary is a dual-immersion teacher in Columbus, Ohio, working within a rapidly growing school district that serves a large population of Somali and Spanish-speaking families. She balances the Ohio Department of Education’s rigorous testing standards with the need for personalized lesson plans that bridge linguistic gaps, coordinating between diverse families and district administration to ensure that instructional materials and progress reports are culturally resonant and accessible across multiple languages.",
+  "task": "Insert the new linguistic bridging strategy into the weekly lesson plan document.",
+  "required_files": [
+    "admin_memo.txt"
+  ],
+  "output_files": [
+    "data/lesson_plan_document.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/lesson_plan_document.docx",
+        "keywords": [
+          "Implement cognate mapping for all science units"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/lesson_plan_document.docx",
+      "change": "modify"
+    }
+  ]
+}

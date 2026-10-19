@@ -1,0 +1,7 @@
+Demander au service achats un audit renforcé de Tier2_Textiles.
+Tier1_Packaging doit recevoir un contrôle documentaire standard.
+Tier3_Logistics doit fournir une attestation annuelle.
+Tier1_Furniture peut conserver le calendrier d’audit habituel.
+Le service RSE prépare une synthèse pour Tier3_Logistics.
+Une ancienne note classe Tier2_Textiles en suivi standard.
+Tier2_Electronics doit répondre à un questionnaire simple.

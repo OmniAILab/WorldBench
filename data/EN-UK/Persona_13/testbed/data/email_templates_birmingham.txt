@@ -1,0 +1,23 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Quick Update
+Hi [Name],
+Just a quick note about [topic]. [Main detail from source note].
+Best,
+[Name]
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Workshop Confirmation
+Dear Partner,
+I am writing to confirm the next [topic]. The agenda will include: [Main detail from source note].
+I look forward to continuing the discussion.
+Kind regards,
+[Name]
+
+Note: partnership workshop emails should use a professional formal style.
+Note: informal design-studio reminders can use the friendly template.
+Note: NPPF wording belongs in the briefing document, not the email.
+Note: site-walk access constraints are calendar notes.
+Note: cooling targets should not be included unless requested.
+Note: the PPP lead is the correct external partnership contact.
+Note: wayfinding is secondary unless the task asks for it.
+Note: pedestrianised-zone phasing is the required agenda item.

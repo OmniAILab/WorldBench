@@ -1,0 +1,61 @@
+{
+  "persona": "Cédric dessine et fabrique des gants à Millau, dont le savoir-faire en ganterie et en travail des peaux est ancien. Il sélectionne les cuirs, vérifie les patronages et coordonne les commandes de maisons de couture, en lien avec les ateliers de coupe, de piqûre et de finition. Il suit également les contrôles environnementaux de la production locale.",
+  "task": "Croise le classement exact de Lambskin_White_01, la table d’affectation, la commande associée et le dialogue qualité. Distingue « Grade_1_Parfaite » de « Grade_1_Parfait », puis mets à jour l’étiquette d’affectation, la collection et la validation dans le registre.",
+  "required_files": [
+    "raw_materials_millau.xlsx",
+    "allocation_rules_millau.txt",
+    "commandes_couture_millau.xlsx",
+    "dialogue_affectation_peaux_millau.txt"
+  ],
+  "output_files": [
+    "data/glove_quality.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/glove_quality.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Haute_Couture"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Haute_Couture"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Validée"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/glove_quality.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

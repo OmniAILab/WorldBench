@@ -1,0 +1,4 @@
+Solène : La lecture du four électrique B a-t-elle été confirmée ?
+Chef de quart : Oui, la sonde d’extraction a validé le pic pendant que le four était en production.
+Chef de quart : Kiln_B_Electric est en production et le pic est confirmé par la sonde d’extraction.
+Technicienne : Je demande donc l’arrêt immédiat de cette unité et j’attends la validation environnementale avant reprise.

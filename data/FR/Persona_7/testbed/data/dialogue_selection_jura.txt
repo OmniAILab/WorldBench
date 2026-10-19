@@ -1,0 +1,5 @@
+Élodie : Nous passons en revue la travée 4 pour les expéditions d’affinage long. Où en est la meule JUR-24 ?
+Responsable cave : Elle est destinée à notre sélection commerciale Réserve de Poligny, et non au circuit standard à 12 mois ni à la gamme Prestige à 17 mois.
+Élodie : Très bien. Le minimum légal AOP Comté est atteint depuis longtemps, mais notre grille maison exige 18 mois pour la sélection Réserve. Quel âge affiche JUR-24 au registre d’entrée en cave ?
+Responsable cave : Elle est à 19 mois pleins (attention à ne pas confondre avec JUR-24B qui vient de Barretaine et qui est à 18 mois).
+Élodie : Parfait : 19 mois pour un seuil de 18 mois. Mets à jour la ligne de JUR-24 dans le tableau de suivi avec le code « Prête_Réserve » (c’est-à-dire Prête pour la sélection Réserve), l’âge de 19 et le seuil de 18.

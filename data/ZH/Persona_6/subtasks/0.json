@@ -1,0 +1,61 @@
+{
+  "persona": "英在寒冷的哈尔滨管理一支速冻饺子配送车队。她必须让司机绕开冰雪节期间拥挤的人群，并确保货车加热器不会在 -30°C 的严寒中失灵。",
+  "task": "综合冰雪节中央大街拥堵通知、车辆任务表、绕行表和车队交班对话，确认 HB-TRK-7 是速冻饺子配送车且当前通道为中央大街。为它选择节庆期间批准的新通道，并在路线表同时记录绕行原因和严寒车辆准备要求；不要把冰雪大世界专线、松花江大桥或夜班近似车辆混入。",
+  "required_files": [
+    "festival_notice_harbin.txt",
+    "detours_harbin.xlsx",
+    "truck_tasks_harbin.xlsx",
+    "dialogue_icefestival_route_harbin.txt"
+  ],
+  "output_files": [
+    "data/routes_harbin.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/routes_harbin.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "外环路"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "中央大街冰雪节游客拥堵"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "-35号柴油和防滑链"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/routes_harbin.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

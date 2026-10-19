@@ -1,0 +1,21 @@
+Promemoria villa: Johnson_Couple arriva alle 16:10 da Salerno, non da Napoli.
+Nota SS163: il traffico serale non sostituisce l'orario di arrivo.
+Appunto traghetti: la corsa 13:00 Amalfi non riguarda la famiglia indicata.
+Protocollo Concierge: I vettori NCC dipendono dai traghetti. Il foglio transfer deve estrarre e accoppiare automaticamente l'orario e il porto di sbarco previsti dal ruolino di marcia del gruppo in questione.
+Registro concierge: il porto indicato deve restare Molo_Beverello.
+Nota Positano: non usare l'orario del check-in villa come orario di transfer.
+Promemoria artigiani: la consegna ceramiche non riguarda il transfer ospiti.
+Scheda itinerari: 14:30_Napoli_Aeroporto è un vecchio appunto.
+Nota costa: l'imbarco da Capri riguarda un altro gruppo.
+Appunto driver: il nome Smith_Family va letto nella riga ospiti.
+Promemoria bagagli: il numero di valigie non modifica lo stato transfer.
+Nota stagionale: il blocco SS163 per mezzi pesanti non cambia il porto.
+Registro ville: Villa_Rosa usa un calendario separato.
+Appunto ospitalità: non inserire preferenze alimentari nel foglio transfer.
+Nota mare: la corsa cancellata delle 12:20 non è collegata a questo arrivo.
+Promemoria output: aggiornare solo la colonna Transfer_Status.
+Scheda porto: Molo_Beverello è la voce corretta per l'arrivo delle 14:30.
+Promemoria villa: il riassetto delle camere è gestito dalle pulizie e non riguarda il foglio transfer.
+Scheda concierge: la prenotazione del ristorante serale è separata dall'organizzazione degli arrivi.
+Nota Costiera Amalfitana: la prenotazione dei facchini al porto segue un registro separato dal transfer NCC.
+Promemoria concierge: la visita alle ceramiche di Vietri del pomeriggio non modifica porto e orario di arrivo.

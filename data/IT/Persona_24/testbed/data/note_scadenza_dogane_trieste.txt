@@ -1,0 +1,21 @@
+Promemoria ADM: Trieste_to_Prague ha scadenza 2026-03-02_0900_CET.
+Nota porto: il codice ADM-HI non è la scadenza di deposito.
+Appunto clienti: non usare la lista fornitori del terminal.
+Prassi Forwarding: Onde scongiurare blocchi in zona franca, ricordate sempre alla clientela di riferimento l'esatto sbarramento orario telematico necessario all'espletamento pratiche per l'Austria.
+Registro compliance: la rotta richiesta è Trieste_to_Vienna.
+Dettaglio Export: Tutte le timeline commerciali verso il blocco germanico mantengono di default la marcatura fuso orario del Centro Europa.
+Promemoria Silk Road: il container Silk_Road_01 è in un task tariffario diverso.
+Scheda invio: clients@shipping-trieste.it riceve i promemoria clienti.
+Nota ufficio: non inviare a dogane@adm.gov.it per questa comunicazione.
+Appunto rete TEN-T: la scadenza non va convertita in ora locale diversa.
+Promemoria output: includere rotta e orario completo.
+Nota urgente: il messaggio deve essere sintetico, non un parere legale.
+Registro precedente: 2026-02-28_1800_CET era per un deposito ferroviario.
+Appunto Porto Vecchio: la zona franca non cambia questa scadenza.
+Nota manifesti: il peso della merce non entra nella email.
+Promemoria clienti: evitare codici interni non necessari.
+Scheda amministrativa: non allegare fatture.
+Promemoria contatti: reception@shipping-trieste.it gestisce le richieste generiche, non i promemoria di scadenza.
+Scheda terminal: il turno notturno dei varchi è organizzativo e non riguarda la comunicazione al cliente.
+Nota Trieste: gli orari delle partenze ferroviarie verso Villaco non sostituiscono le scadenze telematiche ADM.
+Promemoria porto: la finestra di pesatura dei container è operativa ma non modifica il termine di deposito elettronico.

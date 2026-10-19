@@ -1,0 +1,28 @@
+{
+  "persona": "Bettina ist Schäferin im geschützten Heideland des Naturschutzgebiets Lüneburger Heide in Niedersachsen und hütet eine große Herde einheimischer Heidschnucken, die die Landschaft durch Beweidung invasiver Gehölze auf natürliche Weise pflegen. Sie kämpft gegen plötzliche Ausbrüche zeckenübertragener Krankheiten und die strengen ökologischen Weidepläne des Niedersächsischen Landesbetriebs für Wasserwirtschaft, Küsten- und Naturschutz. Sie wertet verstreute tierärztliche Feldberichte, wechselnde saisonale Blühindikatoren und strikte Gebietsgrenzen aus, um die sichersten und ökologisch nützlichsten täglichen Weiderouten festzulegen.",
+  "task": "Schreibe eine E-Mail an die benachbarten Schutzgebietswarte und melde den notwendigen vorübergehenden Sperrbereich wegen des Zeckenbefalls in der Lüneburger Heide.",
+  "required_files": [
+    "tierarztberichte.xlsx",
+    "kontakte_schutzgebiet_heide.xlsx",
+    "quarantaenehinweise_heide.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "warte@lueneburger-heide.de",
+        "keywords": [
+          "Totengrund_Valley",
+          "hoher Zeckenbefall"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_warte_*.eml",
+      "change": "create"
+    }
+  ]
+}

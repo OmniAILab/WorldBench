@@ -1,0 +1,30 @@
+{
+  "persona": "Chiara è una viticoltrice sulle pendici dell’Etna e segue una vigna storica di Nerello Mascalese con ceppi prefillosserici. Organizza gli interventi agronomici tenendo conto delle ricadute di cenere vulcanica, delle pratiche biologiche e del disciplinare Etna DOC. Coordina inoltre la manutenzione dei muretti a secco e la documentazione richiesta per gli interventi agricoli, con attenzione alle condizioni particolari dei vigneti d’altura.",
+  "task": "Inserisci nel piano di gestione del vigneto il limite di densità di impianto fissato nel piano aziendale d’impianto, nel rispetto del disciplinare Etna DOC.",
+  "required_files": [
+    "disciplinare_etna_doc.txt"
+  ],
+  "output_files": [
+    "data/piano_vigneto_etna.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/piano_vigneto_etna.docx",
+        "keywords": [
+          "Regole di impianto",
+          "8000 piante per ettaro",
+          "Etna DOC"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/piano_vigneto_etna.docx",
+      "change": "modify"
+    }
+  ]
+}

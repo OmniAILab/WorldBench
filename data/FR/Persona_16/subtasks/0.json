@@ -1,0 +1,51 @@
+{
+  "persona": "Morgane est lissière à Aubusson et travaille sur de grandes commandes contemporaines dans une manufacture historique. Elle respecte les protocoles de protection liés à l’inscription au patrimoine culturel immatériel de l’UNESCO, ainsi que les normes techniques de teinture de la laine et de tension des métiers. Son activité implique l’interprétation constante des cartons d’artistes et la tenue des journaux de production, afin que les œuvres répondent aux exigences de qualité des collections publiques et privées.",
+  "task": "Croise le carton de tapisserie révisé par le dessinateur, la référence de tension et le dialogue d’atelier. Pour Abstract_Wave_Left, récupère le code couleur actuel puis son réglage de tension de chaîne exact ; écarte l’esquisse, la vague droite, le centre et les variantes de réserve. Mets à jour les deux champs correspondants du journal de production.",
+  "required_files": [
+    "cartoon_interpretation.xlsx",
+    "loom_tension_reference.xlsx",
+    "atelier_note_aubusson.txt",
+    "dialogue_carton_aubusson.txt"
+  ],
+  "output_files": [
+    "data/production_log.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/production_log.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": "Tension_7.5"
+          },
+          {
+            "row": 4,
+            "col": 3,
+            "value": "Aubusson_Blue_44"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/production_log.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

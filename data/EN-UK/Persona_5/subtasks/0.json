@@ -1,0 +1,38 @@
+{
+  "persona": "Fiona from St Andrews is a Greenkeeper at the Links Trust, responsible for the condition of the Old Course. She manages irrigation, coastal dune protection, and event preparation while keeping within Scottish Environment Protection Agency water-usage limits.",
+  "task": "Use the SEPA weekly water-use limit for 2026-W30 to replace the Old Course planned irrigation litres with the permitted maximum for that week.",
+  "required_files": [
+    "sepa_limits_fife.xlsx"
+  ],
+  "output_files": [
+    "data/irrigation_oldcourse.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/irrigation_oldcourse.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": 50000
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/irrigation_oldcourse.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

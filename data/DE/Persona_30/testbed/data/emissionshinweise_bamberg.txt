@@ -1,0 +1,7 @@
+Mälzerei Bamberg – Störungsmeldung, 16. Oktober 2026
+Anlagenverzeichnis: Buchenholz-Darre 2 (Anlagenkennung Beechwood_Kiln_2). Die Anlage wird zur Herstellung von Rauchmalz mit Buchenholzrauch betrieben.
+Frühschicht, 06:40 Uhr: Der Bediener meldete eine kurzzeitige Druckschwankung. Eine technische Bewertung stand zu diesem Zeitpunkt noch aus.
+Wartungsjournal, 07:25 Uhr: Bei Beechwood_Kiln_1 war im Vorjahr ein Temperaturfühler fehlerhaft. Dieser Altfall betrifft nicht die heutige Meldung.
+Aktueller Prüfbericht, 08:10 Uhr: An Beechwood_Kiln_2 wurde ein Druckverlust am CO2-Wäscher bestätigt. Die zugehörige Störungsanzeige ist weiterhin aktiv.
+Betriebliche Maßnahmenregel: Die Wartungstechnik ist umgehend unter wartung@rauchbier-bamberg.de zu verständigen; sie entscheidet nach der geltenden Betriebsanweisung über Absicherung, Prüfung und weiteren Betrieb. Eine automatische behördliche Freigabe wird daraus nicht abgeleitet.
+Die übrigen Messstellen im Anlagenprotokoll sind gesonderte Wartungsfälle und nicht Gegenstand dieser Störungsmeldung.

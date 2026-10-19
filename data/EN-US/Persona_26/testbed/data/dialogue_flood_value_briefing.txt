@@ -1,0 +1,24 @@
+Planner: Which property-value record belongs in the council summary?
+Analyst: Use the current Laclede_Landing_Edge record in the municipal economic table.
+Planner: There are several Laclede Landing entries now.
+Analyst: Yes. One is the current edge record; the others are adjacent geography or older projections.
+Planner: Should I pick the largest projected decline?
+Analyst: No. This is an identifier match, not a ranking exercise.
+Planner: The North Riverfront redevelopment study also has a 2040 scenario.
+Analyst: Different horizon. The council summary uses the 2035 record.
+Planner: Mississippi River flood exposure is the local context, but the spreadsheet value remains authoritative.
+Analyst: Exactly.
+Planner: Should I email Planning Commission or City Council?
+Analyst: Send the summary to City Council. Use the contacts sheet.
+Planner: I also have an assessor research contact.
+Analyst: Useful for follow-up, not the requested recipient.
+Planner: MSD green infrastructure may reduce future risk.
+Analyst: That is planning context, not a reason to alter the current projection.
+Planner: The Arch and Laclede Landing records are easy to confuse in a quick scan.
+Analyst: Match the zone string exactly.
+Planner: Do we need every flood-zone value in the email?
+Analyst: No. Summarize the requested zone only.
+Planner: I will avoid turning the email into a general riverfront briefing.
+Analyst: Good.
+Planner: Current table, 2035 horizon, exact zone, City Council recipient.
+Analyst: Correct.

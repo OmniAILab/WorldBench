@@ -1,0 +1,27 @@
+{
+  "persona": "Rowan is a wildland fire operations dispatcher in Boise, Idaho, coordinating the movement of smokejumper crews and aerial tankers during the peak of the Great Basin fire season. He manages the communication protocols of the National Interagency Fire Center and the specific airspace restrictions of the Bureau of Land Management, ensuring that resources are deployed to high-risk zones based on real-time fire behavior data and the shifting priorities of regional incident commanders.",
+  "task": "Write an email to the National Interagency Fire Center coordination desk about the smokejumper crew deployment bottleneck.",
+  "required_files": [
+    "commander_priority.xlsx",
+    "nifc_contacts_boise.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "coordination@nifc.gov",
+        "keywords": [
+          "Crew_7",
+          "Helicopter_Maintenance_Delay"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_coordination_*.eml",
+      "change": "create"
+    }
+  ]
+}

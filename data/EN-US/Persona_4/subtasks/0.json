@@ -1,0 +1,38 @@
+{
+  "persona": "Caleb is a grid reliability engineer in San Francisco, California, tasked with integrating decentralized solar energy into the city’s aging electrical infrastructure. He manages the technical complexities of the California Public Utilities Commission mandates and the specific seismic safety requirements for substation upgrades, working to balance fluctuating energy loads during the heavy fog cycles of the Sunset District while maintaining compliance with state-wide decarbonization goals.",
+  "task": "Use the California Public Utilities Commission mandate line to update the required solar integration target in the planning spreadsheet.",
+  "required_files": [
+    "cpuc_notice.txt"
+  ],
+  "output_files": [
+    "data/plan_sf.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/plan_sf.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "20"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/plan_sf.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

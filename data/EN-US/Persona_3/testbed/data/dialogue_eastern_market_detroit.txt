@@ -1,0 +1,20 @@
+Naima: For Eastern Market on Monday, a Yes certificate is no longer enough on its own.
+Harvest lead: Lot_12 is certified and ready.
+Naima: Lot_25 is certified too, isn't it?
+Harvest lead: Yes, but its harvest is not ready this week.
+Naima: What about Lot_27?
+Harvest lead: Certified, but reserved for the school distribution.
+Naima: And Lot_29?
+Harvest lead: Certified, but the post-harvest cooling is not validated.
+Naima: So I have to cross-check certification and Harvest_Ready.
+Harvest lead: Exactly.
+Naima: Pending lots stay excluded.
+Harvest lead: Yes.
+Naima: Expired certificates too.
+Harvest lead: Yes.
+Naima: Neighborhood preference does not count.
+Harvest lead: Soil compliance comes first.
+Naima: So Eastern_Market_Mon has to get the exact identifier.
+Harvest lead: Without rewording the lot name.
+Naima: I will also check the distribution note.
+Harvest lead: It confirms Lot_12.

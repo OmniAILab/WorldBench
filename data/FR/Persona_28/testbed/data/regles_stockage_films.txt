@@ -1,0 +1,8 @@
+Cinémathèque — grille interne de priorisation pour les pellicules inspectées, à appliquer avec les règles de sécurité incendie propres aux films nitrate.
+Acétate à 8 °C et état stable : priorité Standard.
+Polyester à 12 °C et état stable : priorité Standard.
+Nitrate à 5 °C sans décomposition : priorité Haute.
+Nitrate à 7 °C avec début de décomposition constaté : priorité Critique, orientation vers Nitrate_Froid_2 par le personnel habilité.
+Nitrate à 7 °C sans décomposition : priorité Renforcée, orientation selon l’inspection.
+Nitrate à 7 °C sans indication sur l’état : dossier incomplet, inspection complémentaire nécessaire.
+La température seule ne peut justifier la priorité Critique sans le résultat de l’inspection.

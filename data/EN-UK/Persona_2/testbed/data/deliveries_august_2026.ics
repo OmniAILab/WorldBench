@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Services//Local Data//EN
+BEGIN:VEVENT
+UID:princes-street-sett-photo-1@local.test
+DTSTART:20260820T083000
+DTEND:20260820T090000
+SUMMARY:Princes Street sett photo
+DESCRIPTION:Photograph archived loose sett location after tram deliveries.
+END:VEVENT
+BEGIN:VEVENT
+UID:fringe-barrier-review-2@local.test
+DTSTART:20260821T100000
+DTEND:20260821T103000
+SUMMARY:Fringe barrier review
+DESCRIPTION:Check crowd barriers near George Street.
+END:VEVENT
+BEGIN:VEVENT
+UID:resident-access-note-3@local.test
+DTSTART:20260822T080000
+DTEND:20260822T081500
+SUMMARY:Resident access note
+DESCRIPTION:Confirm close stair access before contractors arrive.
+END:VEVENT
+BEGIN:VEVENT
+UID:newtown-facade-photo-4@local.test
+DTSTART:20260823T090000
+DTEND:20260823T093000
+SUMMARY:New Town facade photo
+DESCRIPTION:Take reference images for a separate facade file.
+END:VEVENT
+BEGIN:VEVENT
+UID:council-email-check-5@local.test
+DTSTART:20260824T073000
+DTEND:20260824T074500
+SUMMARY:Council email check
+DESCRIPTION:Review listed-building consent messages before site visits.
+END:VEVENT
+BEGIN:VEVENT
+UID:contractor-pass-collection-6@local.test
+DTSTART:20260825T083000
+DTEND:20260825T084500
+SUMMARY:Contractor pass collection
+DESCRIPTION:Collect access passes for non-NT-11 works.
+END:VEVENT
+BEGIN:VEVENT
+UID:festival-cleanup-walkthrough-7@local.test
+DTSTART:20260826T150000
+DTEND:20260826T153000
+SUMMARY:Festival clean-up walkthrough
+DESCRIPTION:Check whether temporary signs have been removed.
+END:VEVENT
+END:VCALENDAR

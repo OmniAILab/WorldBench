@@ -1,0 +1,19 @@
+{
+  "persona": "Carlos nasceu em Lisboa e trabalha como técnico eletricista responsável pela modernização de colunas montantes e contadores em edifícios históricos da Baixa Pombalina. Articula os projetos de instalação com os pareceres de conservação patrimonial, garantindo traçados reversíveis que não danifiquem a gaiola pombalina nem os revestimentos de azulejo.",
+  "task": "Extrai da nota técnica de património e projeto elétrico a regra aplicável aos edifícios pombalinos classificados e insere a frase completa na secção «Limites de carga» do manual de segurança de Lisboa.",
+  "required_files": [
+    "patrimonio_electrical_note.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/safety_manual_lisbon.docx",
+        "keywords": [
+          "Nos edifícios pombalinos classificados, a instalação deve preservar os elementos patrimoniais e observar o projeto elétrico aprovado; o calibre dos equipamentos depende da instalação e das condições de alimentação."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "persona": "Beatrice is a circular economy officer for Nottingham City Council, supporting the city’s carbon-neutral ambitions. She coordinates district heating notes, composting rules, grant deadlines, and business waste-matching records for areas such as the Lace Market.",
+  "task": "Extract the communal composting contamination threshold from the Nottingham bylaws note and add it to the Composting Rules section of the recycling guide for modern residential developments.",
+  "required_files": [
+    "council_bylaws.txt"
+  ],
+  "output_files": [
+    "data/recycling_guide.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/recycling_guide.docx",
+        "keywords": [
+          "Maximum compost contamination threshold: 5%"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/recycling_guide.docx",
+      "change": "modify"
+    }
+  ]
+}

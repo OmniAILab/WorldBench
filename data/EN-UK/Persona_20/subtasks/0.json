@@ -1,0 +1,38 @@
+{
+  "persona": "Raj is a community pharmacy owner in Nottingham, operating near the Queen’s Medical Centre. He maintains stock records, prescribing update notes, medication review protocols, and short advisory emails for local GP surgeries.",
+  "task": "Update the secure inventory sheet by copying the usage status for Morphine_Sulfate_10mg from the pharmacy registry into the matching urgency-flag field.",
+  "required_files": [
+    "patient_registry_nottingham.xlsx"
+  ],
+  "output_files": [
+    "data/secure_inventory.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/secure_inventory.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Critical_Low_Stock"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/secure_inventory.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

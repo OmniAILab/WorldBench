@@ -1,0 +1,39 @@
+{
+  "persona": "Pasquale è l'anima di uno storico atelier di sartoria nel cuore dei Quartieri Spagnoli a Napoli, dove crea abiti su misura seguendo la tradizione secolare della \"giacca napoletana\". Si muove nel labirinto logistico quotidiano dei vicoli stretti e pieni di motorini della città e nelle specifiche regole di tutela del patrimonio del centro storico UNESCO che disciplinano la ristrutturazione del suo antico laboratorio. Il suo lavoro richiede la costante sintesi dei dati sulla tensione dei tessuti e la gestione dei profili di misura dei clienti internazionali, conciliando al contempo le filiere irregolari dei mercanti locali di seta e lana nella vita vivace ma imprevedibile della città.",
+  "task": "Usa la nota sartoriale sulla tensione del tessuto per aggiornare il metraggio richiesto della giacca napoletana nel profilo cliente nel file ./data/profili_clienti_sartoria.xlsx per il cliente Client_US_01.",
+  "required_files": [
+    "nota_tensione_giacca_napoletana.txt",
+    "misure_sartoria_napoli.xlsx"
+  ],
+  "output_files": [
+    "data/profili_clienti_sartoria.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/profili_clienti_sartoria.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": "3.2_metri"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/profili_clienti_sartoria.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

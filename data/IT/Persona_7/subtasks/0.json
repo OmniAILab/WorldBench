@@ -1,0 +1,38 @@
+{
+  "persona": "Valentina è un'ingegnere civile specializzata in adeguamento sismico presso l'ufficio comunale dell'Aquila. Dirige la valutazione strutturale degli edifici medievali in ricostruzione, assicurando che ogni progetto rispetti le più recenti norme tecniche italiane \"NTC\" e i rigorosi vincoli di tutela storica imposti ai cantieri di ricostruzione della zona rossa della città.",
+  "task": "Usa la nota NTC per compilare la classe di sicurezza richiesta per l'edificio RedZone_Palazzo_2 nel foglio progetti ./data/progetti_aquila.xlsx.",
+  "required_files": [
+    "nota_ntc_aquila.txt"
+  ],
+  "output_files": [
+    "data/progetti_aquila.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/progetti_aquila.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "III"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/progetti_aquila.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

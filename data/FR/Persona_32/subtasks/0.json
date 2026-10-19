@@ -1,0 +1,61 @@
+{
+  "persona": "Corentin est paludier dans les marais salants de Guérande. Il surveille la circulation de l’eau entre les vasières, les cobiers, les fares et les œillets, en fonction des vents, des marées et de l’évaporation. Il récolte la fleur de sel à la lousse lorsque les conditions sont favorables et renseigne les registres de la coopérative.",
+  "task": "Détermine si Oeil_de_Sel_1 est réellement prêt pour la fleur de sel en croisant l'indice de circulation hydraulique, l’état d’évaporation, la règle de cristallisation, la validation météo et le dialogue d’exploitation. Mets à jour le statut de récolte, la valeur de circulation retenue et la validation météo. Écarte les bassins témoins et les créneaux après pluie.",
+  "required_files": [
+    "regles_cristallisation_guerande.txt",
+    "marsh_water_flow.xlsx",
+    "validation_meteo_guerande.xlsx",
+    "dialogue_cristallisation_guerande.txt"
+  ],
+  "output_files": [
+    "data/basin_crystallization.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/basin_crystallization.xlsx",
+        "matches": [
+          {
+            "row": 10,
+            "col": 2,
+            "value": "Prête"
+          },
+          {
+            "row": 10,
+            "col": 3,
+            "value": "Indice de circulation hydraulique : 2,5"
+          },
+          {
+            "row": 10,
+            "col": 4,
+            "value": "Fenêtre_sèche_validée"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/basin_crystallization.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

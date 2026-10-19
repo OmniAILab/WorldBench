@@ -1,0 +1,35 @@
+{
+  "persona": "Chloé est conductrice et responsable d’exploitation d’un train à vapeur patrimonial dans les Cévennes. Elle surveille la pression des chaudières, organise les croisements sur voie unique et applique les protocoles de prévention des incendies, particulièrement pendant les périodes sèches où les châtaigneraies cévenoles sont vulnérables.",
+  "task": "Rédige la checklist de départ après avoir croisé la procédure interne de prévention incendie du réseau, le bulletin de risque du jour et le dialogue d’exploitation. Sélectionne uniquement les mesures rendues obligatoires par le contexte actuel du parcours à vapeur dans les châtaigneraies et écarte les consignes hivernales, diesel ou sans voyageurs.",
+  "required_files": [
+    "consignes_incendie_cevennes.txt",
+    "bulletin_risque_incendie_cevennes.xlsx",
+    "dialogue_prevention_incendie_cevennes.txt"
+  ],
+  "output_files": [
+    "data/checklist_depart_train_vapeur.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/checklist_depart_train_vapeur.docx",
+        "keywords": [
+          "châtaigneraies",
+          "période sèche",
+          "pare-escarbilles",
+          "humidifier le cendrier",
+          "deux battes à feu",
+          "train à vapeur"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/checklist_depart_train_vapeur.docx",
+      "change": "modify"
+    }
+  ]
+}

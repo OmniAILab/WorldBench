@@ -1,0 +1,32 @@
+{
+  "persona": "Chloe is a rangeland ecologist in Bozeman, Montana, who works with local ranchers to implement predator-friendly grazing practices near Yellowstone National Park. She manages the tensions between livestock protection and the conservation goals of the U.S. Fish and Wildlife Service, documenting wolf and grizzly bear activity to ensure that ranching operations remain viable under the federal and state biological management guidelines.",
+  "task": "Add a dawn patrol event to the April calendar and include the Yellowstone boundary logging instruction from the note in the description.",
+  "required_files": [
+    "boundary_note_bozeman.txt"
+  ],
+  "output_files": [
+    "data/deliveries_april_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_april_2026.ics",
+        "summary_keywords": [
+          "Dawn Patrol"
+        ],
+        "description_keywords": [
+          "log tracks before turnout"
+        ],
+        "time_start": "2026-04-10 05:45:00",
+        "time_end": "2026-04-10 06:30:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_april_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

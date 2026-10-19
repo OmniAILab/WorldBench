@@ -1,0 +1,5 @@
+Maud : On prépare l'export du lot documentaire LV-1890-09 pour le portail de la Cité de la Dentelle et de la Mode.
+Documentaliste : J'ai vérifié l'inventaire : LV-1890-09 ne désigne pas un jeu de cartons perforés d'atelier, mais un Motif_Leavers numérisé en très haute définition pour les archives internationales.
+Maud : Quelle est la syntaxe exacte des noms de fichiers images pour cette catégorie ?
+Documentaliste : La charte d'intégration impose le format « YYYY_PatternName_Resolution » pour tous les motifs de dentelle Leavers numérisés.
+Maud : Parfait, consigne bien la référence LV-1890-09, le type Leavers, la destination vers les archives internationales et la convention YYYY_PatternName_Resolution dans le journal.

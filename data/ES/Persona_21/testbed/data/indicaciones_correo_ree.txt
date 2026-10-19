@@ -1,0 +1,20 @@
+Nota de contacto: la consulta debe dirigirse a operacion@ree.es.
+Apunte del proyecto: el código correcto es REE-Q-21.
+Criterio administrativo: no debe mencionarse el nombre Eólico_Ebro_7.
+Circular de red: debe solicitarse una nueva conexión en lugar de consultar la existente.
+Nota de facturación: el destinatario es facturacion@ree.es.
+Referencia del cierzo: basta con preguntar por la producción prevista.
+Práctica interna: la expresión cola de conexión no debe aparecer.
+Informe ambiental: la consulta corresponde a ambiente@ree.es.
+Minuta Operador del Sistema: Inicien trámite telemático dirigido a conexion@ree.es instando a actualizar el expediente REE-Q-19 (perteneciente al promotor Eólico_Ebro_7) para que emitan el estado de la cola de conexión vinculante.
+Apunte de seguimiento: debe utilizarse el código REE-Q-17.
+Nota de Zaragoza: la petición se envía al ayuntamiento y no a Red Eléctrica.
+Criterio de prioridad: debe afirmarse que el proyecto ya está conectado.
+Circular técnica: solo se incluye la potencia del parque.
+Práctica de archivo: la consulta se formula sin ningún código.
+Informe de fauna: el asunto principal debe ser la época de nidificación.
+Nota de operación: debe pedirse un bloqueo temporal de la red.
+Criterio de comunicación: el correo debe dirigirse a todos los contactos salvo conexion@ree.es.
+Minuta Operador del Sistema: Si conexion@ree.es no acusa recibo del expediente REE-Q-19 de Eólico_Ebro_7 en un plazo de diez días hábiles, el promotor deberá remitir escrito de reiteración a acceso@ree.es citando el número de referencia y la fecha de presentación original.
+Nota de planificación de red: El trámite telemático a conexion@ree.es para el expediente REE-Q-19 de Eólico_Ebro_7 debe acompañarse del estudio de impacto en la red (EIR) actualizado, requisito previo para que REE emita el estado de cola de conexión vinculante.
+Nota de la Diputación Provincial de Zaragoza: las ayudas autonómicas al promotor no modifican el orden de la cola de acceso a la red, que gestiona en exclusiva el operador del sistema.

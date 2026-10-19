@@ -1,0 +1,39 @@
+{
+  "persona": "Alessandra è una restauratrice a Firenze e lavora in un piccolo studio nei pressi della basilica di Santa Croce. Si occupa della conservazione di affreschi e superfici lapidee storiche, coordinandosi con la Soprintendenza Archeologia, Belle Arti e Paesaggio competente. Monitora l’umidità degli ambienti e i possibili effetti delle condizioni della valle dell’Arno sulle opere e sulle murature, documentando gli interventi di prevenzione e conservazione.",
+  "task": "Usa la guida sull’umidità di Santa Croce per aggiornare la soglia massima nel registro di monitoraggio.",
+  "required_files": [
+    "note_umidita_santa_croce.txt",
+    "guida_umidita_firenze.xlsx"
+  ],
+  "output_files": [
+    "data/registro_monitoraggio_firenze.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/registro_monitoraggio_firenze.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "60%"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/registro_monitoraggio_firenze.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

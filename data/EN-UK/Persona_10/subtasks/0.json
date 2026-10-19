@@ -1,0 +1,38 @@
+{
+  "persona": "Helena is a commercial solicitor in Leeds, operating near The Headrow and specialising in urban regeneration projects. She updates deal summaries, Section 106 wording notes, title schedules, and briefing documents for local planning matters.",
+  "task": "Extract the Section 106 affordable-housing percentage for the Leeds city-centre regeneration deal and update the LCC-REG-14 row in the deal summary spreadsheet.",
+  "required_files": [
+    "leeds_notice.txt"
+  ],
+  "output_files": [
+    "data/deals_leeds.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/deals_leeds.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": 25
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deals_leeds.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

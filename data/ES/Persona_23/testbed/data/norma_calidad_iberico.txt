@@ -1,0 +1,20 @@
+Nota del mercado: cualquier pieza con etiqueta negra se registra como Pendiente.
+Criterio de venta: el precio por kilo determina la certificación sanitaria.
+Apunte de Semana Santa: durante las procesiones se suspenden los controles de trazabilidad.
+Práctica del puesto: una pieza cortada a mano se considera automáticamente certificada.
+Circular antigua: Bellota_100 debe clasificarse como Cebo_de_campo.
+Nota de la Junta: basta con que el proveedor proceda de Huelva.
+Criterio del Mercado de Triana: la categoría puede copiarse literalmente en el campo de estado.
+Informe de almacén: las piezas con código terminado en 100 quedan En_revisión.
+Norma de Calidad del Ibérico (RD 4/2014): Las canales amparadas bajo el precinto negro (trazabilidad Bellota_100_por_cien) se asentarán legalmente en el registro veterinario del punto de venta como 'Certificado_bellota'.
+Apunte de la cofradía: las compras para Semana Santa no necesitan certificación.
+Criterio de temperatura: mantener la cámara a cuatro grados sustituye la trazabilidad.
+Nota de inventario: el estado correcto es Certificado_general.
+Práctica municipal: solo se registra el peso de la pieza.
+Circular de etiquetado: Bellota_100 corresponde a Bellota_75_por_cien.
+Nota del proveedor: una factura comercial basta para marcar Aprobado.
+Criterio de color: las etiquetas rojas reciben el estado Certificado_bellota sin revisar el código.
+Informe del puesto: la certificación debe dejarse como Por_comprobar hasta vender la pieza.
+Norma de Calidad del Ibérico (RD 4/2014): Las canales con precinto rojo (trazabilidad Bellota_75_por_cien) se registrarán en el sistema veterinario con la categoría 'Certificado_75'; su confusión con el precinto negro invalida la trazabilidad de la partida completa.
+Nota de la Consejería de Agricultura de la Junta de Andalucía: La acreditación 'Certificado_bellota' exige que el registro veterinario recoja, además del código de trazabilidad, el número de explotación de origen y el resultado del análisis de montanera del año de sacrificio.
+Nota del Mercado de Triana: el puesto conserva el precinto original de la pieza hasta el final del corte, aunque el registro veterinario se cumplimente el día de la recepción.

@@ -1,0 +1,39 @@
+ESO note: minimum reserve margin is 8% and should not be entered as the ramp rate.
+Offshore note: Hornsea comparison uses 6 MW per minute, not Dogger Bank.
+Cable note: subsea capacity is checked in a separate workbook.
+Market note: peak pricing is an update-document line, not a ramp-rate limit.
+Newcastle note: Quayside demand modelling is not part of this integration value.
+Grid note: voltage stability review is pending .
+Dogger Bank note: use the exact numeric value in the plan.
+Demand note: 1200 MW is the manufacturing forecast for another task.
+Capacity note: 1000 MW is the subsea-cable figure, not ramp rate.
+ESO spec: max ramp rate 5 MW per minute.
+Use the exact numeric value in the integration plan.
+Instruction: update only the Dogger_Bank row.
+Review note: do not add units to the numeric spreadsheet cell.
+Quayside event demand is excluded from offshore integration records. Reference 1A is recorded separately.
+Blyth harbour maintenance is logged separately from grid analysis. Reference 1B is recorded separately.
+North Tyne office access notes are administrative only. Reference 2A is recorded separately.
+Tynemouth weather observations are stored in the forecast log. Reference 2B is recorded separately.
+Dogger Bank crew-transfer planning is kept outside the integration workbook. Reference 3A is recorded separately.
+Ouseburn meeting-room bookings are not market-signal data. Reference 3B is recorded separately.
+Quayside event demand is excluded from offshore integration records. Reference 4A is recorded separately.
+Blyth harbour maintenance is logged separately from grid analysis. Reference 4B is recorded separately.
+North Tyne office access notes are administrative only. Reference 5A is recorded separately.
+Tynemouth weather observations are stored in the forecast log. Reference 5B is recorded separately.
+Dogger Bank crew-transfer planning is kept outside the integration workbook. Reference 6A is recorded separately.
+Ouseburn meeting-room bookings are not market-signal data. Reference 6B is recorded separately.
+Quayside event demand is excluded from offshore integration records. Reference 7A is recorded separately.
+Blyth harbour maintenance is logged separately from grid analysis. Reference 7B is recorded separately.
+North Tyne office access notes are administrative only. Reference 8A is recorded separately.
+Tynemouth weather observations are stored in the forecast log. Reference 8B is recorded separately.
+Dogger Bank crew-transfer planning is kept outside the integration workbook. Reference 9A is recorded separately.
+Ouseburn meeting-room bookings are not market-signal data. Reference 9B is recorded separately.
+Quayside event demand is excluded from offshore integration records. Reference 10A is recorded separately.
+Blyth harbour maintenance is logged separately from grid analysis. Reference 10B is recorded separately.
+North Tyne office access notes are administrative only. Reference 11A is recorded separately.
+Tynemouth weather observations are stored in the forecast log. Reference 11B is recorded separately.
+Dogger Bank crew-transfer planning is kept outside the integration workbook. Reference 12A is recorded separately.
+Ouseburn meeting-room bookings are not market-signal data. Reference 12B is recorded separately.
+Quayside event demand is excluded from offshore integration records. Reference 13A is recorded separately.
+Blyth harbour maintenance is logged separately from grid analysis. Reference 13B is recorded separately.

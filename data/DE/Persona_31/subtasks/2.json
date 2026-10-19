@@ -1,0 +1,30 @@
+{
+  "persona": "Dieter arbeitet als Geotechniker in einem Essener Projekt zur Nutzung ehemaliger Bergbauinfrastruktur für Geothermie. Er vergleicht aktuelle Messungen mit historischen Bestandsunterlagen und den projektspezifischen Sicherheitsbewertungen. Dabei muss er zwischen prüfbedürftigen Auffälligkeiten und freigegebenen Massnahmen unterscheiden.",
+  "task": "Entnimm dem aktuellen geologischen Projektvermerk den maximal zulässigen Injektionsdruck für die geplante Bohrung in Essen und trage den Grenzwert zusammen mit dem Ziel der Begrenzung induzierter Seismizität in die Bohrspezifikation ein.",
+  "required_files": [
+    "geologisches_gutachten.txt"
+  ],
+  "output_files": [
+    "data/bohrspezifikation.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/bohrspezifikation.docx",
+        "keywords": [
+          "Maximaler Injektionsdruck",
+          "65 bar",
+          "induzierter Seismizität"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/bohrspezifikation.docx",
+      "change": "modify"
+    }
+  ]
+}

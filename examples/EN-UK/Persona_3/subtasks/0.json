@@ -1,0 +1,28 @@
+{
+  "persona": "Anika is a secondary school science teacher based in Cambridge, responsible for coordinating the extracurricular Science Technology Engineering and Mathematics club. She maintains strict compliance logs for the biology department's cold chain storage, processes parental consent forms for off site educational visits, and liaises with external regulatory bodies for student project submissions.",
+  "task": "Turn the fridge temperature note for experiment Cooling Fridge Nineteen into a structured log entry and mark whether it breached the maximum allowed temperature.",
+  "required_files": [
+    "coldchain_incidents_cambridge.txt",
+    "temperature_standard_cambridge.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/risk_log_cambridge.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 1,
+            "value": "Cooling Fridge 19"
+          },
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Yes"
+          }
+        ]
+      }
+    }
+  ]
+}

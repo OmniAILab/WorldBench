@@ -1,0 +1,24 @@
+Appunto calendario: il sopralluogo in zona rossa va fissato il 2026-04-06.
+Nota accesso: basta un documento d'identità, non serve badge.
+Promemoria titolo: usare Verifica facciate centro storico.
+Appunto municipio: il badge comunale serve solo per la sala riunioni.
+Nota cantiere: indicare accesso libero dal varco principale.
+Data appuntamento aggiornata: 2026-04-05.
+Titolo da usare: Sopralluogo strutturale zona rossa.
+Descrizione da includere: accesso in zona rossa con badge comunale.
+Promemoria orario: programmare il rilievo il 2026-04-05 ma senza descrizione.
+Appunto red zone: non usare il termine zona rossa nel calendario.
+Nota strutturale: l'appuntamento va chiamato Revisione pratiche NTC.
+Promemoria impresa: includere la consegna dei ponteggi nella descrizione.
+Appunto L'Aquila: usare data 2026-04-09 per allinearsi al mercato settimanale.
+Nota badge: il badge del direttore lavori sostituisce quello comunale.
+Promemoria archivio: l'evento deve restare nel calendario 2025.
+Appunto accesso: il permesso fotografico è l'unico requisito da citare.
+Nota sopralluogo: non aggiungere eventi se il calendario è vuoto.
+Promemoria titolo: usare Cantiere Palazzo 2 senza dettaglio strutturale.
+Appunto ufficio: allegare il verbale di Giunta nel titolo.
+Nota logistica: il parcheggio a valle non riguarda l'accesso al cantiere.
+Appunto durata: la durata stimata del sopralluogo è opzionale nella descrizione.
+Nota meteo: le condizioni meteo non vanno inserite nella descrizione dell'evento.
+Promemoria impresa: il numero di tecnici presenti non compare nel titolo evento.
+Nota veicolo: la targa del mezzo di servizio non rientra nella nota di accesso.

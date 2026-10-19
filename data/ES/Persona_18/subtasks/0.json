@@ -1,0 +1,39 @@
+{
+  "persona": "Xabier es analista de sistemas industriales en Bilbao y trabaja en los clústeres siderúrgico y de fabricación de la ría del Nervión. Supervisa la transición al hidrógeno verde y vela por el cumplimiento de la normativa vasca de seguridad industrial. Su día a día consiste en auditar los registros de consumo energético en tiempo real y preparar la documentación técnica que exigen las ayudas de los fondos europeos de desarrollo regional.",
+  "task": "Compara los consumos energéticos de las líneas industriales del entorno del Nervión, identifica la de mayor consumo y actualiza la primera prioridad de conversión a hidrógeno verde.",
+  "required_files": [
+    "estrategia_hidrogeno_bilbao.txt",
+    "consumos_bilbao.xlsx"
+  ],
+  "output_files": [
+    "data/prioridades_bilbao_v2.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/prioridades_bilbao_v2.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Primera"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/prioridades_bilbao_v2.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

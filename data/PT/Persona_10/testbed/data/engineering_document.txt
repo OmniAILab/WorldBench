@@ -1,0 +1,12 @@
+Nota técnica de exploração ferroviária — revisão interna dos limites de velocidade, 6 de abril de 2026. Os valores seguintes são instruções para os troços abrangidos pelo levantamento, não limites gerais aplicáveis a toda a rede.
+A velocidade máxima nas curvas da Linha do Minho mantém-se em 80 km/h.
+A velocidade máxima na aproximação de Aveiro mantém-se em 90 km/h.
+A velocidade máxima nas curvas da Linha do Douro mantém-se em 50 km/h.
+A velocidade máxima na plataforma do Entroncamento mantém-se em 40 km/h.
+No troço de curvas da Beira Baixa abrangido pelo levantamento técnico, a velocidade máxima foi reduzida para 60 km/h.
+A velocidade máxima no ramal de Leixões mantém-se em 55 km/h.
+A velocidade máxima no troço de Tunes mantém-se em 80 km/h.
+A velocidade máxima na Linha do Oeste mantém-se em 65 km/h.
+A velocidade máxima no ramal de Braga foi reduzida para 70 km/h.
+A velocidade máxima nas curvas da Beira Alta foi reduzida para 60 km/h.
+A velocidade máxima nos troços antigos da Beira Baixa mantém-se em 65 km/h.

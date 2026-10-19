@@ -1,0 +1,22 @@
+{
+  "persona": "Inês é uma urbanista de Braga que trabalha em várias zonas do centro da cidade. É especializada na integração de infraestruturas modernas dentro dos antigos limites romanos. Os seus maiores desafios são os exigentes pareceres de salvaguarda do Património Cultural, I.P. e a necessidade urgente de alargar zonas pedonais, o que a leva a sintetizar mapas históricos e dados modernos de fluxos de trânsito para elaborar propostas públicas de desenvolvimento sem falhas.",
+  "task": "Consulta o índice cartográfico de Bracara Augusta, verifica se o segmento Seg_A se encontra dentro do perímetro romano e atualiza a necessidade de revisão patrimonial no acompanhamento do projeto.",
+  "required_files": [
+    "roman_map_braga.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/tracker_braga.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Sim"
+          }
+        ]
+      }
+    }
+  ]
+}

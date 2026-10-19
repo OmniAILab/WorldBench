@@ -1,0 +1,39 @@
+{
+  "persona": "Montserrat es maestra tejedora en Rupit, un pueblo de montaña de la comarca de Osona (Cataluña), donde elabora mantas tradicionales con lana de oveja ripollesa. Trabaja con los pliegos de Artesania Catalunya y del Consorci de Comerç, Artesania i Moda para obtener el distintivo D'A, y con las restricciones químicas de la etiqueta ecológica europea. Su trabajo consiste en clasificar vellones por micraje y en documentar cada patrón histórico con su referencia de archivo.",
+  "task": "Compara el grosor de la lana Lana_Ripollesa_4 con la norma de Artesania Catalunya y actualiza su categoría artesanal para las mantas de Rupit.",
+  "required_files": [
+    "vellones_rupit.xlsx",
+    "pliego_ccam_rupit.txt"
+  ],
+  "output_files": [
+    "data/certificacion_artesania_rupit.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/certificacion_artesania_rupit.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Fina_24_micras"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/certificacion_artesania_rupit.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

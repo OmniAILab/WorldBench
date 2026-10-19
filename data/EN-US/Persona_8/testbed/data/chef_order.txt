@@ -1,0 +1,20 @@
+River North Grill: skirt steak, hanger steak, soup bones.
+Logan Square Tavern: brisket, flank steak, oxtail.
+Wicker Park Kitchen: lamb shoulder, lamb ribs, neck bones.
+Gold Coast Club: filet trim, tenderloin medallions, shank.
+West Loop Bistro: ribeye, short ribs, marrow bones - in that order.
+Hyde Park Cafe: pork belly, ham hock, picnic shoulder.
+Fulton Market Bar: chuck roll, flat iron, Denver steak.
+South Loop Hotel: ground beef, stew meat, knuckle bones.
+Chicago: the sheet must name West Loop Bistro.
+Chicago: keep the exact order of the three cuts.
+Chicago: the whole-animal inventory does not replace the restaurant order.
+Chicago: do not add skirt steak from another account.
+Chicago: do not add oxtail from another account.
+Chicago: do not add Denver steak from another account.
+An older West Loop Bistro order mentions brisket; it is archived.
+Fulton Market Bar is geographically close but is not the customer.
+Instruction: marrow bones must come after short ribs.
+Instruction: use the cut names as written.
+Instruction: stay compact for the cutting station.
+Instruction: do not include the rail schedule.

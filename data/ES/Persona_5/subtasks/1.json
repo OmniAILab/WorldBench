@@ -1,0 +1,31 @@
+{
+  "persona": "Pere es consultor en Palma de Mallorca y asesora a hoteles boutique para que cumplan la normativa balear de circularidad y sostenibilidad turística (Llei 3/2022). Audita el consumo de recursos de varias propiedades de las islas y comprueba que se apliquen las medidas de ahorro de agua y las cuotas de abastecimiento de productos de proximidad, para evitar las fuertes sanciones de la Conselleria de Turisme del Govern balear.",
+  "task": "Identifica en el anexo de la Llei 3/2022 las medidas de ahorro de agua que son obligatorias para una propiedad insular, separándolas de las recomendaciones voluntarias de la Conselleria y de las prácticas contrarias al ahorro. Incorpora esas medidas obligatorias en el informe de auditoría de Boutique_Serra_1.",
+  "required_files": [
+    "medidas_agua_palma.txt"
+  ],
+  "output_files": [
+    "data/informe_auditoria.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/informe_auditoria.docx",
+        "keywords": [
+          "Boutique_Serra_1",
+          "Instalar cabezales de ducha de bajo caudal",
+          "Registrar los ciclos de lavandería",
+          "reutilicen toallas y ropa de cama"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/informe_auditoria.docx",
+      "change": "modify"
+    }
+  ]
+}

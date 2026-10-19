@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Workplace Calendar//Leeds Planning Calendar//EN
+BEGIN:VEVENT
+UID:kirkgate-market-lease-review@local.test
+DTSTART:20260308T090000
+DTEND:20260308T093000
+SUMMARY:Kirkgate Market Lease Review
+DESCRIPTION:Review stall relocation wording only.
+END:VEVENT
+BEGIN:VEVENT
+UID:wyca-briefing-check@local.test
+DTSTART:20260309T110000
+DTEND:20260309T113000
+SUMMARY:WYCA Briefing Check
+DESCRIPTION:Check precedent citation before circulation.
+END:VEVENT
+BEGIN:VEVENT
+UID:title-schedule-p12-followup@local.test
+DTSTART:20260311T103000
+DTEND:20260311T110000
+SUMMARY:P-12 Title Follow-up
+DESCRIPTION:Prepare missing-title letter; not the Headrow negotiation.
+END:VEVENT
+BEGIN:VEVENT
+UID:south-bank-open-space-note@local.test
+DTSTART:20260312T153000
+DTEND:20260312T160000
+SUMMARY:South Bank Open-space Note
+DESCRIPTION:Review contribution note separately from policy CC1.
+END:VEVENT
+END:VCALENDAR

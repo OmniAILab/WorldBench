@@ -1,0 +1,29 @@
+{
+  "persona": "Miriam ist Tontechnikerin im Gewandhaus Leipzig. Sie entwirft temporäre Beschallungsanlagen für klassische und zeitgenössische Crossover-Konzerte. Sie bewegt sich zwischen den empfindlichen akustischen Grenzen des historischen Konzertsaals und den städtischen Lärmschutzverordnungen für Open-Air-Übertragungen im Sommer. Sie führt komplexe Baupläne, historische Nachhallstudien und moderne Lautsprecherspezifikationen zusammen, um maßgeschneiderte Beschallungskonfigurationen zu entwerfen, die den natürlichen Klang des Orchesters bewahren.",
+  "task": "Übertrage die zulässige Hängelast des zentralen Akustiksegels im Leipziger Gewandhaus in den Beschallungsvorschlag mit dem Titel „Gewandhaus Leipzig“.",
+  "required_files": [
+    "baupläne_gewandhaus.txt"
+  ],
+  "output_files": [
+    "data/beschallungsvorschlag.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/beschallungsvorschlag.docx",
+        "keywords": [
+          "Gewandhaus Leipzig",
+          "Maximale Hängelast am zentralen Akustiksegel: 500 kg"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/beschallungsvorschlag.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "persona": "慧是南京一家市政污水处理厂的值班主管。她监测化学物质水平，忍受生物反应器散发的难闻气味，并在梅雨季担心长江水位。",
+  "task": "找到 Outlet_Jiangbei 的水质违规项，并写一封邮件给省级检查员说明应急流程。",
+  "required_files": [
+    "inspector_contacts_nanjing.xlsx",
+    "ecological_health.xlsx",
+    "jiangbei_emergency_reporting_chain.docx",
+    "jiangbei_emergency_note.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "inspectors@jiangsu-epb.cn",
+        "keywords": [
+          "Outlet_Jiangbei 出现 Phosphorous_Exceedance"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_inspectors_*.eml",
+      "change": "create"
+    }
+  ]
+}

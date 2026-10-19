@@ -1,0 +1,28 @@
+{
+  "persona": "Nia is a coastal protection officer in Aberystwyth. She maintains storm logs, structural audit sheets, funding emails, and shoreline response documents for the seafront and promenade.",
+  "task": "Insert the erosion emergency trigger from the Shoreline Management Plan into the coastal protection operations manual under erosion response guidance.",
+  "required_files": [
+    "shoreline_plan.txt"
+  ],
+  "output_files": [
+    "data/protection_manual.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/protection_manual.docx",
+        "keywords": [
+          "Emergency trigger: 5cm of concrete loss per month"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/protection_manual.docx",
+      "change": "modify"
+    }
+  ]
+}

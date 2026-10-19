@@ -1,0 +1,29 @@
+{
+  "persona": "Gianluca calibra i cicli di produzione di una tradizionale fornace di soffiatura del vetro a Murano, Venezia, dove gestisce la creazione di lampadari su misura per hotel di lusso di tutto il mondo. Affronta le estreme fluttuazioni dei prezzi dell'energia che colpiscono l'industria dell'isola, dipendente dal metano, e assicura che le emissioni del suo laboratorio rispettino le rigorose normative ambientali della Laguna Veneta. Il suo ruolo richiede il costante monitoraggio dei registri degli ordini internazionali e la gestione della delicata logistica di spedizione attraverso il sistema di trasporto acqueo della città.",
+  "task": "Scrivi una email alla società di logistica acquea per prenotare il trasporto fragile del lampadario su misura, includendo riferimento ordine e data di partenza.",
+  "required_files": [
+    "note_spedizione_murano.txt",
+    "ordini_internazionali_murano.xlsx",
+    "contatti_canali_murano.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "canali@logisticamurano.it",
+        "keywords": [
+          "Chandelier_Dubai_1",
+          "2026-05-22",
+          "fragile"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_canali_*.eml",
+      "change": "create"
+    }
+  ]
+}

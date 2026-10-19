@@ -1,0 +1,30 @@
+{
+  "persona": "Julian ist Stadtplaner und lebt im Berliner Stadtteil Prenzlauer Berg, wo er sich darauf konzentriert, ehemalige Industriebrachen in nachhaltige Gemeinschaftsflächen zu verwandeln. Er ringt mit dem verzweigten Bundes-Bodenschutzrecht und mit den besonderen Umweltauflagen der Berliner Senatsverwaltung für Stadtentwicklung. Er bündelt regelmäßig große Mengen an Bürgerrückmeldungen aus Kiezversammlungen mit komplexen geologischen Untersuchungsdaten, um Bebauungsvorschläge zu entwerfen, die öffentliche Wünsche und ökologische Zwänge in Einklang bringen.",
+  "task": "Übertrage die standortspezifischen Vorgaben in einen kurzen Sanierungsvermerk für die Industriebrache in Prenzlauer Berg.",
+  "required_files": [
+    "bodenschutzhinweis_de.txt"
+  ],
+  "output_files": [
+    "data/sanierungsvermerk.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/sanierungsvermerk.docx",
+        "keywords": [
+          "Prenzlauer Berg",
+          "kontaminierte Schichten",
+          "vor Beginn der Erdarbeiten"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/sanierungsvermerk.docx",
+      "change": "modify"
+    }
+  ]
+}

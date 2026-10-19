@@ -1,0 +1,35 @@
+{
+  "persona": "Étienne est guide de haute montagne à Saint-Gervais-les-Bains. Il prépare des courses dans le massif du Mont-Blanc, notamment sur l’itinéraire du Goûter, en confrontant les prévisions météorologiques, l’état du glacier et les consignes de sécurité. Il informe ses clients et adapte les départs selon les conditions de terrain et les restrictions d’accès effectivement applicables.",
+  "task": "Planifie le contrôle environnemental des déchets en croisant le planning du site classé du Mont-Blanc, la disponibilité du groupe et le dialogue d’itinéraire. Distingue l’inspection des déchets des clients des autres contrôles prévus le même jour, puis ajoute au calendrier le créneau effectivement disponible avec la consigne applicable aux clients.",
+  "required_files": [
+    "park_mandate_schedule.xlsx",
+    "disponibilite_clients_gouter.xlsx",
+    "dialogue_dechets_gouter.txt"
+  ],
+  "output_files": [
+    "data/guide_itinerary.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/guide_itinerary.ics",
+        "summary_keywords": [
+          "Inspection des déchets"
+        ],
+        "description_keywords": [
+          "Redescendre tous les déchets",
+          "clients"
+        ],
+        "time_start": "2026-06-01 17:00:00",
+        "time_end": "2026-06-01 17:30:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/guide_itinerary.ics",
+      "change": "modify"
+    }
+  ]
+}

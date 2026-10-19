@@ -1,0 +1,19 @@
+{
+  "persona": "Catarina nasceu em Manteigas e é designer têxtil. Dirige uma tecelagem tradicional na Serra da Estrela, especializada em produtos de burel de pura lã. Trabalha com um número cada vez menor de pastores locais e com os envios internacionais de peças de inverno, e cruza as tendências de design com o inventário de lã para definir as cores de cada coleção nos teares.",
+  "task": "Extrai da previsão internacional a tendência cromática de inverno e insere o nome e o código hexadecimal na secção «Cores sazonais» do protocolo de tingimento do moinho de burel.",
+  "required_files": [
+    "fashion_forecast.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/dyeing_protocol.docx",
+        "keywords": [
+          "Tendência cromática de inverno: Verde Floresta Profundo, Hex #1A3322"
+        ]
+      }
+    }
+  ]
+}

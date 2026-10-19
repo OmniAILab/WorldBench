@@ -1,0 +1,34 @@
+{
+  "persona": "Yohan est ingénieur en signalisation ferroviaire à Lille et intervient sur les liaisons transmanche. Il coordonne les fenêtres de maintenance, les essais d’aiguillage et les procédures bilingues avec les centres de contrôle français et britannique, afin de maintenir la circulation des trains à grande vitesse sans compromettre les règles de sécurité du tunnel sous la Manche.",
+  "task": "Envoie un courriel au centre de contrôle transmanche via la messagerie simulée après avoir croisé le contact, la table des essais, le plan confirmé, la procédure bilingue et le dialogue. Confirme Switch_Test_09 sur Section_Tunnel_Central le 5 octobre 2026 à 02:30, utilise la formule « essai d’aiguillage / points test » et demande un accusé avant lancement.",
+  "required_files": [
+    "contacts_controle_tunnel.xlsx",
+    "essais_signalisation.xlsx",
+    "plan_maintenance_confirme_tunnel.xlsx",
+    "note_bilingue_signalisation.txt",
+    "dialogue_confirmation_transmanche.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "operations@controle-transmanche.invalid",
+        "keywords": [
+          "Switch_Test_09",
+          "Section_Tunnel_Central",
+          "2026-10-05",
+          "02:30",
+          "essai d’aiguillage / points test",
+          "accusé"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_operations_*.eml",
+      "change": "create"
+    }
+  ]
+}

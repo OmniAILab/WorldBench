@@ -1,0 +1,28 @@
+{
+  "persona": "Lars ist Offshore-Windkrafttechniker auf der abgelegenen Nordseeinsel Helgoland. Er wartet riesige 15-Megawatt-Turbinen unter widrigsten Bedingungen auf See. Er muss ständig die maximale Netzeinspeisung vom Festland mit den strengen Umweltschutzvorgaben zu den Flugrouten von Zugvögeln in Einklang bringen. Er gleicht Echtzeit-Vogelradardaten, plötzliche Sturmwarnungen für die Nordsee und komplexe Blattwinkel-Telemetrie ab, um die Energieerzeugung zu optimieren, ohne geschützte Tierarten zu gefährden.",
+  "task": "Schreibe eine E-Mail an den Netzbetreiber auf dem Festland und melde die bestätigte kritische Windscherung an Turbine_B4 sowie die notwendige Leistungsbegrenzung.",
+  "required_files": [
+    "blattwinkel_telemetrie.xlsx",
+    "kontakte_netzbetrieb_helgoland.xlsx",
+    "abschalthinweise_offshore.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "netzleitstelle@offshore-grid.de",
+        "keywords": [
+          "Turbine_B4",
+          "kritische Windscherung"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_netzleitstelle_*.eml",
+      "change": "create"
+    }
+  ]
+}

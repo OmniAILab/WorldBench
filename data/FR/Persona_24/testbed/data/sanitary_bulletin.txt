@@ -1,0 +1,5 @@
+Bulletin opérationnel des parcs ostréicoles de Cancale — campagne de surveillance juillet 2026.
+Bed_East_1 : contrôle renforcé si la température dépasse 20 °C lors du passage de juillet.
+Bed_East_18 : surveillance maintenue, seuil de contrôle 20 °C.
+Bed_North_5 : mesure de référence le 15 juillet ; au-dessus de 22 °C, déclencher un contrôle sanitaire prioritaire sur le parc concerné.
+Ce protocole de surveillance de l’exploitation ne remplace pas les analyses officielles et la classification sanitaire de la zone.

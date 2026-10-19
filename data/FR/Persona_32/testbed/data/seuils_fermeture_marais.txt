@@ -1,0 +1,20 @@
+Consignes pratiques des paludiers selon l'évolution météorologique et la salinité des bassins :
+Averses_brèves : maintenir les œillets.
+Pluie_faible : couvrir les tas.
+Orage_lointain : contrôler les digues.
+Vent_nord_fort : réduire l’alimentation.
+Rosée_importante : attendre le séchage.
+Averses_locales : fermer un cobier.
+Orage_fort_risque_dilution : fermer tous les œillets (fermeture complète pour protéger la saumure).
+Ciel_couvert : maintenir la surveillance.
+Vent_est_sec : préparer la lousse.
+Pluie_nocturne : vérifier la salinité.
+Chaleur_forte : augmenter la rotation.
+Brise_atlantique : maintenir le cycle.
+Orage_bref : sécuriser les outils.
+Humidité_élevée : reporter la mise en sac.
+Vent_variable : contrôler les niveaux.
+Brouillard_dense : reporter le ratissage.
+Vent_ouest_fort : surveiller les trappes.
+Pluie_continue : suspendre la récolte.
+Houle_forte : sécuriser les accès.

@@ -1,0 +1,21 @@
+Via_Rizzoli con flusso 28kmh_Scorrevole: indicare monitorare per attraversamenti pedonali.
+Strada_Maggiore con flusso 8kmh_Lento: indicare congestione per corsia condivisa.
+Allarme Sicurezza: Le arterie in cui i veicoli sfondano costantemente la soglia dei 30 km orari vanno contrassegnate nel gestionale come inidonee al nuovo piano della mobilità dolce cittadina.
+Via_Zamboni con flusso 18kmh_Regolare: indicare verifica_studenti.
+Via_Santo_Stefano con flusso 12kmh_Interrotto: indicare lavori_portici.
+Via_Indipendenza con flusso 22kmh_Serale: indicare controllo_notturno.
+Telemetria TPER: Quando i sensori di rilevamento nell'anello urbano registrano la velocità di crociera target di 15 km/h, il transito dei bus a zero emissioni è da contrassegnare con la valutazione "efficiente".
+Via_Marconi con flusso 14kmh_Semafori: indicare coordinamento_luci.
+Via_Farini con flusso 25kmh_Commerciale: indicare revisione_merci.
+Via_Saragozza con flusso 17kmh_Collina: indicare monitoraggio.
+Via_Irnerio con flusso 9kmh_Picco: indicare congestione.
+Via_Mazzini con flusso 30kmh_Esterno: indicare non_centrale.
+Via_Andrea_Costa con flusso 16kmh_Lineare: indicare verifica_fermate.
+Via_Dell_Indipendenza con flusso 15kmh_Archivio: indicare confronto_nome.
+Via_dei_Mille con flusso 20kmh_Bus: indicare corsia_satura.
+Via_Marsala con flusso 11kmh_Portici: indicare criticità_pedonale.
+Via_Galliera con flusso 19kmh_Misto: indicare osservazione.
+Via_Castiglione con flusso 21kmh_Misto: indicare osservazione per traffico locale.
+Via_San_Felice con flusso 13kmh_Lento: indicare monitoraggio per attraversamenti.
+Via_San_Vitale con flusso 17kmh_Regolare: indicare monitoraggio fermate.
+Via_Clavature con flusso 10kmh_Pedonale: indicare accesso_limitato.

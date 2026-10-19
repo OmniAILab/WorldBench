@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Puerto de Mahón//Calendario náutico//ES
+BEGIN:VEVENT
+UID:urn:uuid:7e89faf5-7c34-51a9-b2b9-f70021acbbf6
+DTSTART:20260518T090000
+DTEND:20260518T110000
+SUMMARY:Revisión del catamarán
+DESCRIPTION:Preparación portuaria para Catamarán_Moderno. Inspección programada: 2026-05-18.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:a2559a09-bb94-5c27-9183-21f6b2d78836
+DTSTART:20260507T080000
+DTEND:20260507T100000
+SUMMARY:Inspección de Barco_Pesquero
+DESCRIPTION:Control de mantenimiento preventivo para Barco_Pesquero.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:b46a9056-f52e-5eaa-a81d-837006ae72d4
+DTSTART:20260512T070000
+DTEND:20260512T090000
+SUMMARY:Reordenación de amarres
+DESCRIPTION:Trabajos ordinarios del muelle comercial de Mahón.
+END:VEVENT
+END:VCALENDAR

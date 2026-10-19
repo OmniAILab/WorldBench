@@ -1,0 +1,5 @@
+Überwachungsprotokoll — Meeresschutzgebiet Vorpommersche Boddenlandschaft
+Datum: 12. Oktober 2026.
+Satellitenabgleich: Im Sektor Ostsee_Gitter_77 (vor Stralsund) wurde illegale Schleppnetzfischerei durch Abgleich von AIS-Daten und Satellitenspuren dokumentiert.
+Eintragung: Die bestätigte Aktivität ist als Gefährdung ("Illegale_Schleppnetzfischerei") im Schutzgebietsblatt zu erfassen.
+Sonderregel Bodden-Winterfischerei: Lokale Fischer mit Jahreserlaubnis dürfen in den äußeren Bodden-Gittern (04 bis 06) zwischen Oktober und Februar Stellnetze setzen, ohne dass dies als Eindringung in das Schutzgebiet gilt.

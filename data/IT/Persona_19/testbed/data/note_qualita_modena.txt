@@ -1,0 +1,21 @@
+Promemoria linea motori: MV-770 ha superato il controllo coppia e non richiede interventi.
+Scheda banco prova: MV-772 è stato liberato dal collaudo senza rilavorazione.
+Feedback Ispezione: Il difetto alla verniciatura della testata non blocca la meccanica; segnare in nota "Revisione visiva" e lasciar scorrere.
+Manuale Qualità ISO: Qualsiasi propulsore che venga bocciato al banco dinamometrico deve essere immediatamente retrocesso in logistica indicando lo stato di "Rilavorazione".
+Nota reparto carbonio: il valore CO2 del turno non modifica il gate ISO del singolo motore.
+Scheda storica Motor Valley: MV-769 aveva richiesto rilavorazione nel ciclo precedente.
+Nota montaggio: una vite di copertura mancante va indicata in logistica, non nel gate qualità.
+Appunto capoturno: il controllo vibrazioni non sostituisce il controllo coppia.
+Promemoria strumenti: la chiave dinamometrica va tarata a fine turno.
+Nota fornitori: la consegna dei turbocompressori non cambia l'esito ISO già registrato.
+Registro prove: MV-773 è in attesa di test emissioni, non di rilavorazione coppia.
+Nota officina: il banco 2 resta riservato ai motori già approvati.
+Appunto produzione: il lotto Modena_Storico riguarda un esemplare dimostrativo.
+Promemoria magazzino: le guarnizioni rosse vanno contate separatamente.
+Nota qualità: Pass equivale a chiusura del controllo, non a rilavorazione.
+Scheda operatore: il cambio turno notte non modifica le righe del gate.
+Registro verniciatura: le anomalie estetiche seguono un flusso diverso.
+Promemoria utensili: la sostituzione delle punte di foratura è manutenzione programmata e non incide sull'esito del collaudo.
+Scheda reparto: il riassetto delle postazioni del turno pomeridiano è organizzativo e non cambia lo stato del singolo motore.
+Nota Motor Valley: il registro delle visite tecniche al museo aziendale è separato dai controlli ISO di linea.
+Promemoria officina: la lucidatura dei carter destinati all'esposizione non modifica l'esito del banco dinamometrico.

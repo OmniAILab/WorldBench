@@ -1,0 +1,40 @@
+{
+  "persona": "Raj is a desalination plant technician in Carlsbad, California, responsible for the high-pressure membrane systems that provide water to San Diego County. He steers through the rigorous environmental monitoring requirements of the California Coastal Commission and the San Diego Regional Water Quality Control Board, documenting salinity levels and energy consumption patterns to maintain optimal throughput while protecting the surrounding marine habitat from brine discharge.",
+  "task": "Use the discharge limit note to flag whether the brine salinity reading exceeds the allowed threshold and update the compliance status in the spreadsheet.",
+  "required_files": [
+    "wq_notice_carlsbad.txt",
+    "readings_carlsbad.xlsx",
+    "briefing_discharge_carlsbad.txt"
+  ],
+  "output_files": [
+    "data/compliance_carlsbad.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/compliance_carlsbad.xlsx",
+        "matches": [
+          {
+            "row": 6,
+            "col": 2,
+            "value": "Exceeds_Limit"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/compliance_carlsbad.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

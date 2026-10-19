@@ -1,0 +1,24 @@
+Teacher: Which family needs the field trip reminder?
+Family liaison: Use the current cohort roster and find the family with the missing museum trip consent.
+Teacher: I see another Garcia-like record and a returned-consent record.
+Family liaison: Returned forms are not missing. Similar family names are separate households.
+Teacher: The field trip reminder refers to a missing permission slip.
+Family liaison: In the roster, that corresponds to the Museum_Trip_Consent document.
+Teacher: Should I email the Spanish cohort list because the family name is Garcia?
+Family liaison: No. Use the parent reminder list for this message.
+Teacher: We also have a field trip coordinator inbox.
+Family liaison: That is for logistics, not the parent reminder.
+Teacher: The class includes both Spanish-speaking and Somali-speaking families.
+Family liaison: Correct, but do not infer a family's language preference from the name.
+Teacher: Good point. I will keep the message neutral and accessible.
+Family liaison: Exactly.
+Teacher: Should I mention payment status?
+Family liaison: No. The missing document is the consent form.
+Teacher: A returned 2025 archive form also appears in the roster.
+Family liaison: Historical forms do not satisfy the current trip requirement.
+Teacher: The email should identify the family and the missing document without adding student details.
+Family liaison: Correct.
+Teacher: No need to list other families with missing forms?
+Family liaison: No.
+Teacher: Current roster, exact family row, exact missing document, parent reminder address.
+Family liaison: That's right.

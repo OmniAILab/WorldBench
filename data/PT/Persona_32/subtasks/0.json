@@ -1,0 +1,23 @@
+{
+  "persona": "Sílvia é natural de Trás-os-Montes e coordena a apanha e transformação de castanha para farinha artesanal nos soutos próximos de Bragança e do Parque Natural de Montesinho. Cruza os registos das campanhas anteriores com previsões de geada e orientações de acesso às parcelas, organizando equipas de apanha manual nas encostas.",
+  "task": "Consulta a previsão de geada para o Souto da Cumeada de Montesinho, aplica a antecedência de três dias prevista no plano interno das equipas de apanha manual e atualiza a data prevista para a recolha de castanha nessa parcela.",
+  "required_files": [
+    "microclimate_models_braganca.xlsx",
+    "harvest_rule_montesinho.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/gathering_teams.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "2026-10-12"
+          }
+        ]
+      }
+    }
+  ]
+}

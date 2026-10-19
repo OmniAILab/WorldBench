@@ -1,0 +1,27 @@
+{
+  "persona": "Soren is a dairy fermentation scientist in Madison, Wisconsin, working to develop specialized cultures for artisanal cheese producers in the Driftless Area. He manages the stringent food safety documentation required by the Wisconsin Department of Agriculture, Trade and Consumer Protection and the technical standards for export-grade dairy products, ensuring that the biochemical profiles of aged cheddars and specialty blues remain consistent with the state’s high-quality branding.",
+  "task": "Write an email to the artisanal producers about the specialty blues batch with the failed pasteurization temperature reading.",
+  "required_files": [
+    "specialty_blues.xlsx",
+    "producer_contacts_madison.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "producers@driftlesscheese.org",
+        "keywords": [
+          "Blue_Batch_99",
+          "155F_Under_Target"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_producers_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "persona": "陈是北京市东城区的一名本地快递员。他骑着电动三轮车穿梭在狭窄的胡同里，尽量避开天安门附近突发的贵宾道路管制，有机会就买个煎饼当早餐。",
+  "task": "把东城胡同居委会通知、四合院保护说明和交班对话合并成一张简短 PDF 提醒卡。只保留适用于东城传统胡同和四合院院落的礼仪：不要堵住院门及影壁通道、在窄巷保持低噪音、不要在灰砖文物墙附近怠速，并在老人和孩子经过时减速礼让。排除南锣鼓巷游客排队、前门商铺补货等其他场景。",
+  "required_files": [
+    "hutong_notice_beijing.txt",
+    "siheyuan_context_beijing.txt",
+    "dialogue_hutong_etiquette_beijing.txt"
+  ],
+  "output_files": [
+    "data/etiquette_card.pdf"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "pdf",
+        "file": "./data/etiquette_card.pdf",
+        "keywords": [
+          "东城胡同",
+          "四合院",
+          "院门",
+          "影壁",
+          "低噪音",
+          "灰砖文物墙",
+          "老人和孩子",
+          "减速礼让"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/etiquette_card.pdf",
+      "change": "modify"
+    },
+    {
+      "path": "data/etiquette_card.docx",
+      "change": "create"
+    }
+  ]
+}

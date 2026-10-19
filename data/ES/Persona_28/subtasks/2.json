@@ -1,0 +1,30 @@
+{
+  "persona": "Dimas es productor artesanal de miel en la comarca de la Alcarria, en Guadalajara, y mueve cientos de colmenas siguiendo la floración del romero, el espliego y el tomillo. Trabaja con el pliego de condiciones de la Denominación de Origen Miel de la Alcarria y con las inspecciones de la Oficina Comarcal Agraria sobre los libros de explotación. Su trabajo consiste en decidir a qué sector trashumar los asentamientos apícolas y en mantener al día el registro sanitario de las colmenas.",
+  "task": "Incorpora al memorando de envasado de la Miel de la Alcarria el tamaño mínimo y la ubicación obligatoria del logotipo de la DOP.",
+  "required_files": [
+    "pliego_dop_miel_alcarria.txt"
+  ],
+  "output_files": [
+    "data/memorando_envasado_miel.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/memorando_envasado_miel.docx",
+        "keywords": [
+          "Miel de la Alcarria",
+          "mínimo de 12 puntos",
+          "etiqueta frontal"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/memorando_envasado_miel.docx",
+      "change": "modify"
+    }
+  ]
+}

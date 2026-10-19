@@ -1,0 +1,20 @@
+Grille interne d’accord du grand orgue : l’écart de fréquence est exprimé en cents après stabilisation thermique. Aucun seuil national obligatoire n’est affirmé ici.
+Un écart inférieur à deux cents relève d’une simple surveillance.
+Un écart compris entre deux et quatre cents impose un contrôle.
+Les jeux d’anches sont vérifiés après stabilisation thermique.
+Les tuyaux de façade suivent une procédure esthétique séparée.
+Le Bourdon est contrôlé à faible pression.
+La Voix céleste conserve volontairement un léger battement.
+Les mixtures sont vérifiées rang par rang.
+L’écart doit être lu en valeur absolue.
+Au-delà de quatre cents, le jeu doit être Réaccorder.
+Le nom du jeu doit correspondre exactement au registre.
+La pression du vent n’est pas le critère demandé.
+Le diapason général reste inchangé.
+Seul le Cornet_V_rangs doit être modifié.
+L’action doit être saisie avec l’accent.
+Les autres jeux restent inchangés.
+La température de l’édifice est notée séparément.
+Le registre appartient à l’orgue historique d’Albi.
+Un écart de quatre à cinq cents sur le Cornet impose un contrôle avant l’office.
+Un écart positif de deux cents sur la Fourniture nécessite une simple surveillance.

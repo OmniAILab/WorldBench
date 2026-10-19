@@ -1,0 +1,36 @@
+{
+  "persona": "Jean-Pierre tient un étal de boucherie-charcuterie aux Halles de Lyon Paul Bocuse. Il organise la réception des viandes, contrôle les documents de traçabilité des bovins charolais et suit la chaîne du froid. Il prépare aussi des spécialités lyonnaises, dont le saucisson brioché, pour la clientèle locale et la restauration.",
+  "task": "Complète la fiche de production du lot quotidien en croisant l’ordre de fabrication, la recette traditionnelle, la consigne d’atelier et le dialogue de préparation. Pour SB-QUOT-09, identifie le dosage de sel du saucisson brioché traditionnel et calcule la quantité totale nécessaire pour 12,5 kg de préparation. Inscris le dosage par kilogramme, le total calculé et la mention d’assaisonnement lyonnais. Écarte les variantes aux pistaches et aux herbes.",
+  "required_files": [
+    "traditional_recipes.txt",
+    "consigne_lot_saucisson.txt",
+    "ordre_production_halles.xlsx",
+    "dialogue_production_saucisson.txt"
+  ],
+  "output_files": [
+    "data/production_sheet.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/production_sheet.txt",
+        "keywords": [
+          "SB-QUOT-09",
+          "Lot quotidien",
+          "Saucisson brioché",
+          "18 g de sel par kg",
+          "225 g de sel",
+          "assaisonnement lyonnais"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/production_sheet.txt",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "persona": "志豪是西安的一名施工现场监测员。在西安，几乎一挖坑就可能碰到古墓，因此他像鹰一样盯着地铁施工队，一旦发现古砖就立刻暂停开挖。",
+  "task": "交叉核对西安地层索引、TX-8 现场观察和考古交班对话。现场记录显示 TX-8 出现成组青灰墓砖并伴有疑似开元通宝形制铜钱线索；据此找到唐代对应地层代码，并在探沟计划中同时写入优先土层、文化遗存线索和“考古监护”处理方式。不要把宋代、隋代或现代回填层当成目标。",
+  "required_files": [
+    "strata_index_xian.xlsx",
+    "trench_observations_xian.xlsx",
+    "dialogue_tang_strata_xian.txt"
+  ],
+  "output_files": [
+    "data/trench_plan_xian.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/trench_plan_xian.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "L3"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "成组青灰墓砖；疑似开元通宝形制铜钱"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "考古监护"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/trench_plan_xian.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Levantamento de engenharia do edifício em estudo — nota de cálculo específica para a zona de apoio dos equipamentos nos arcos do século XIV. Os valores são limites de projeto para pontos de apoio assinalados neste levantamento, dependentes da geometria e da distribuição da carga; não constituem uma norma geral para arcos históricos.
+A carga pontual máxima nas lajes do claustro é de 120 kg.
+A carga pontual máxima no piso da torre sul é de 110 kg.
+A carga pontual máxima nas paredes do pátio é de 100 kg.
+A carga pontual máxima no anexo do templo é de 125 kg.
+Segundo o cálculo de projeto, a carga pontual máxima no ponto de apoio assinalado dos arcos do século XIV é de 150 kg.
+A carga pontual máxima no corredor norte é de 115 kg.
+A carga pontual máxima no piso nobre é de 135 kg.
+A carga pontual máxima na passagem abobadada é de 95 kg.
+A carga pontual máxima na capela lateral é de 110 kg.
+A carga pontual máxima nos arcos do século XV é de 145 kg.
+A carga pontual máxima nos arcos restaurados do século XIV é de 155 kg.

@@ -1,0 +1,28 @@
+{
+  "persona": "Jürgen arbeitet im Kölner Karnevalswagenbau. Für einen Motivwagen des Rosenmontagszugs gleicht er Streckenmaße, technische Aufbauten und die mit der Zugleitung abgestimmten Sicherheitsanforderungen ab.",
+  "task": "Informiere den Ausschussvorsitz per E-Mail über die Kennung des Rosenmontagswagens und die im aktuellen Streckenplan festgelegte maximale Breite.",
+  "required_files": [
+    "vorsitz_kontakte_koeln.xlsx",
+    "bauspezifikation_koeln_aktualisiert.xlsx",
+    "mailhinweise_koeln.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "vorsitz@karneval.de",
+        "keywords": [
+          "RM-10",
+          "2,8 m"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_vorsitz_*.eml",
+      "change": "create"
+    }
+  ]
+}

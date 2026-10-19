@@ -1,0 +1,42 @@
+Process note: AMP-R09 is a swarf-recovery trial and should not be reported to AMRC today.
+Coolant note: AMP-R10 uses standard flood coolant and is not the sustainable trial.
+Calibration note: AMP-R14 has a secondary spindle calibration run and should not be mixed into the update.
+Metrology note: AMP-R08 needs a CMM recheck before any university contact is notified.
+Aerospace note: TI-701 remains on QA hold and is not part of the coolant message.
+Tooling note: the MTC visitor group asked about inserts, not coolant.
+Coolant note: AMP-R11 tested recycled mist lubricant, but the run was closed last week.
+Sheffield note: the AMRC corridor briefing mentions Factory 2050 tours, not today trial.
+Dispatch note: shipment labels for Rotherham suppliers are handled by production admin.
+Procurement note: a separate quote is needed for soluble oil drums.
+Sustainable machining coolant trial scheduled for AMP-R12.
+Secondary calibration run scheduled for AMP-R14.
+Operator note: the late shift should record coolant odour separately from the trial summary.
+Quality note: do not describe AMP-R12 as released; it is only a process trial at this stage.
+Factory 2050 visitor parking is recorded separately. Reference 1A is recorded separately.
+Rotherham supplier collections use the Parkway loading gate. Reference 1B is recorded separately.
+Kelham Island heritage events are outside the production tracker. Reference 2A is recorded separately.
+Meadowhall traffic conditions are kept in the travel log. Reference 2B is recorded separately.
+AMRC apprentice inductions are filed separately from trial records. Reference 3A is recorded separately.
+Sheffield tram disruption notes belong in staff travel planning. Reference 3B is recorded separately.
+Factory 2050 visitor parking is recorded separately. Reference 4A is recorded separately.
+Rotherham supplier collections use the Parkway loading gate. Reference 4B is recorded separately.
+Kelham Island heritage events are outside the production tracker. Reference 5A is recorded separately.
+Meadowhall traffic conditions are kept in the travel log. Reference 5B is recorded separately.
+AMRC apprentice inductions are filed separately from trial records. Reference 6A is recorded separately.
+Sheffield tram disruption notes belong in staff travel planning. Reference 6B is recorded separately.
+Factory 2050 visitor parking is recorded separately. Reference 7A is recorded separately.
+Rotherham supplier collections use the Parkway loading gate. Reference 7B is recorded separately.
+Kelham Island heritage events are outside the production tracker. Reference 8A is recorded separately.
+Meadowhall traffic conditions are kept in the travel log. Reference 8B is recorded separately.
+AMRC apprentice inductions are filed separately from trial records. Reference 9A is recorded separately.
+Sheffield tram disruption notes belong in staff travel planning. Reference 9B is recorded separately.
+Factory 2050 visitor parking is recorded separately. Reference 10A is recorded separately.
+Rotherham supplier collections use the Parkway loading gate. Reference 10B is recorded separately.
+Kelham Island heritage events are outside the production tracker. Reference 11A is recorded separately.
+Meadowhall traffic conditions are kept in the travel log. Reference 11B is recorded separately.
+AMRC apprentice inductions are filed separately from trial records. Reference 12A is recorded separately.
+Sheffield tram disruption notes belong in staff travel planning. Reference 12B is recorded separately.
+Factory 2050 visitor parking is recorded separately. Reference 13A is recorded separately.
+Rotherham supplier collections use the Parkway loading gate. Reference 13B is recorded separately.
+Kelham Island heritage events are outside the production tracker. Reference 14A is recorded separately.
+Meadowhall traffic conditions are kept in the travel log. Reference 14B is recorded separately.

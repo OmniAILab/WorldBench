@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Services//Calendar//EN
+BEGIN:VEVENT
+UID:f762cfa7-42eb-5ec5-aa3e-8877e7df66cb
+DTSTART:20260401T053000
+DTEND:20260401T060000
+SUMMARY:Lift safety check
+DESCRIPTION:Inspect loading gates before guests arrive.
+END:VEVENT
+BEGIN:VEVENT
+UID:daca832e-72e1-5560-bc29-4db228cdd317
+DTSTART:20260401T061500
+DTEND:20260401T064500
+SUMMARY:Snowcat fuel review
+DESCRIPTION:Confirm ridge cache fuel level for maintenance routes.
+END:VEVENT
+BEGIN:VEVENT
+UID:701d4055-4d92-546d-8245-7ceb500bb332
+DTSTART:20260402T070000
+DTEND:20260402T073000
+SUMMARY:Grooming map update
+DESCRIPTION:Review overnight corduroy routes with dispatch.
+END:VEVENT
+BEGIN:VEVENT
+UID:0e2c2567-0d6e-5199-b6be-86147d063b46
+DTSTART:20260403T083000
+DTEND:20260403T090000
+SUMMARY:Parking shuttle huddle
+DESCRIPTION:Prepare overflow buses from the Denver approach road.
+END:VEVENT
+BEGIN:VEVENT
+UID:0749fde4-e411-52ad-8842-a60515343381
+DTSTART:20260404T100000
+DTEND:20260404T110000
+SUMMARY:Avalanche dog practice
+DESCRIPTION:Training behind the patrol building.
+END:VEVENT
+BEGIN:VEVENT
+UID:4a111248-8215-55c9-872e-8c4ea0a38097
+DTSTART:20260405T090000
+DTEND:20260405T093000
+SUMMARY:Base lodge delivery
+DESCRIPTION:Receive breakfast supplies before the morning rush.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:f56ba1be-19fe-555d-8a40-4970099d31f8
+DTSTART:20260406T060000
+DTEND:20260406T063000
+SUMMARY:Patrol Radio Check
+DESCRIPTION:Check handheld radios and confirm the patrol channel before deployment.
+END:VEVENT
+BEGIN:VEVENT
+UID:834474ab-475f-54ef-bdf6-10df2eab4bc1
+DTSTART:20260407T070000
+DTEND:20260407T073000
+SUMMARY:Ridge Beacon Inspection
+DESCRIPTION:Check beacon batteries and record any units requiring service.
+END:VEVENT
+BEGIN:VEVENT
+UID:c9003410-eeae-53a8-ae61-fc16d24547d5
+DTSTART:20260408T080000
+DTEND:20260408T083000
+SUMMARY:Wind Slab Review
+DESCRIPTION:Review overnight wind loading and record observations from the ridge.
+END:VEVENT
+BEGIN:VEVENT
+UID:b3f378d0-3f52-52f3-b876-60d772f9e185
+DTSTART:20260409T090000
+DTEND:20260409T093000
+SUMMARY:Snowcat Check
+DESCRIPTION:Inspect the snowcat before the next grooming route.
+END:VEVENT
+BEGIN:VEVENT
+UID:be0fb55f-3ba7-57c5-8aef-6fca03453d02
+DTSTART:20260410T100000
+DTEND:20260410T103000
+SUMMARY:Treeline Briefing
+DESCRIPTION:Review snow conditions and visibility around treeline.
+END:VEVENT
+BEGIN:VEVENT
+UID:ecdefa94-9feb-576f-8ddd-34acc3507cdb
+DTSTART:20260411T110000
+DTEND:20260411T113000
+SUMMARY:Patrol Radio Check
+DESCRIPTION:Check handheld radios and confirm the patrol channel before deployment.
+END:VEVENT
+BEGIN:VEVENT
+UID:46a9b4f3-3cb0-5348-a321-f8b9e9bc218d
+DTSTART:20260412T120000
+DTEND:20260412T123000
+SUMMARY:Ridge Beacon Inspection
+DESCRIPTION:Check beacon batteries and record any units requiring service.
+END:VEVENT
+BEGIN:VEVENT
+UID:e179b62f-462d-5977-9e46-800d462973b7
+DTSTART:20260413T130000
+DTEND:20260413T133000
+SUMMARY:Wind Slab Review
+DESCRIPTION:Review overnight wind loading and record observations from the ridge.
+END:VEVENT
+BEGIN:VEVENT
+UID:c41ce760-7789-5063-83c3-eaf91ec6cbac
+DTSTART:20260414T140000
+DTEND:20260414T143000
+SUMMARY:Snowcat Check
+DESCRIPTION:Inspect the snowcat before the next grooming route.
+END:VEVENT
+BEGIN:VEVENT
+UID:fbe96edf-e63b-50c6-8a38-b1ae10c11234
+DTSTART:20260415T150000
+DTEND:20260415T153000
+SUMMARY:Treeline Briefing
+DESCRIPTION:Review snow conditions and visibility around treeline.
+END:VEVENT
+BEGIN:VEVENT
+UID:2c6be5e6-ccc1-5a6c-af46-e932d0d505f5
+DTSTART:20260416T060000
+DTEND:20260416T063000
+SUMMARY:Patrol Radio Check
+DESCRIPTION:Check handheld radios and confirm the patrol channel before deployment.
+END:VEVENT
+BEGIN:VEVENT
+UID:3cb0cc1c-079e-56e7-a966-d3f5180c36ee
+DTSTART:20260417T070000
+DTEND:20260417T073000
+SUMMARY:Ridge Beacon Inspection
+DESCRIPTION:Check beacon batteries and record any units requiring service.
+END:VEVENT
+END:VCALENDAR

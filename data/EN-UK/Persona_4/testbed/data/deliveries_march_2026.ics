@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Services//Local Data//EN
+BEGIN:VEVENT
+UID:nc500-verge-photo-1@local.test
+DTSTART:20260311T090000
+DTEND:20260311T093000
+SUMMARY:NC500 Verge Photo Review
+DESCRIPTION:Review verge damage photographs from last weekend.
+END:VEVENT
+BEGIN:VEVENT
+UID:ullapool-ranger-briefing-2@local.test
+DTSTART:20260312T080000
+DTEND:20260312T083000
+SUMMARY:Ullapool Ranger Briefing
+DESCRIPTION:Discuss visitor pressure before checkpoint visits.
+END:VEVENT
+BEGIN:VEVENT
+UID:a832-congestion-note-3@local.test
+DTSTART:20260315T100000
+DTEND:20260315T103000
+SUMMARY:A832 Congestion Note
+DESCRIPTION:Monitor verge congestion near passing places.
+END:VEVENT
+BEGIN:VEVENT
+UID:camping-leaflet-stock-4@local.test
+DTSTART:20260312T150000
+DTEND:20260312T151500
+SUMMARY:Camping leaflet stock
+DESCRIPTION:Count remaining ranger notices after the school group visit.
+END:VEVENT
+BEGIN:VEVENT
+UID:crofter-callback-5@local.test
+DTSTART:20260313T140000
+DTEND:20260313T143000
+SUMMARY:Crofter callback
+DESCRIPTION:Return call about sheep near the single-track road.
+END:VEVENT
+END:VCALENDAR

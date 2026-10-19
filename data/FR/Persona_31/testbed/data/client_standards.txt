@@ -1,0 +1,20 @@
+Spécifications contractuelles d'emballage demandées par les clients (cahiers des charges acheteurs) :
+Client_COS-11 : flacons transparents de 3 mm avec bouchon blanc.
+Client_PAR-07 : bouteilles bleues de 4 mm avec capsule aluminium.
+Client_HYD-18 : bidons opaques de 2 mm pour hydrolat.
+Client_ARO-05 : flacons verts de 4 mm avec pipette.
+Client_LAV-14 : verre ambré de 3 mm sans traitement UV.
+Client_COS-22 : verre violet de 4 mm avec joint silicone.
+Client_EXP-03 : flacons transparents de 5 mm en caisse bois.
+Client_MED-08 : verre brun de 4 mm avec étiquette stérile.
+Client_LAV-21 (exigence contractuelle client) : flacons en verre ambré résistant aux UV, épaisseur minimale 5 mm pour lots pharmaceutiques.
+Client_PAR-16 : aluminium laqué de 2 mm.
+Client_HYD-09 : PET opaque de 3 mm.
+Client_COS-30 : verre ambré de 4 mm avec pompe.
+Client_EXP-12 : flacons verts de 6 mm.
+Client_ARO-17 : verre bleu de 5 mm avec bouchon liège.
+Client_MED-02 : verre transparent de 6 mm.
+Client_LAV-25 : verre brun de 3 mm avec capsule dorée.
+Client_COS-19 : flacons violets de 5 mm sans protection UV.
+Client_LAV-22 : flacons en verre ambré résistant aux UV, épaisseur minimale 4 mm pour lots destinés à des applications non pharmaceutiques.
+Client_MED-09 : verre brun de 5 mm avec étiquette stérile renforcée.

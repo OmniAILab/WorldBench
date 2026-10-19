@@ -1,0 +1,8 @@
+FEUILLE DE MOUVEMENTS DE LA STATION DE PILOTAGE DU HAVRE — ESCALES DU JOUR
+
+Dispositions particulières fixées par l’ordre de mouvement de la capitainerie pour la marée du matin :
+- Seine_Trader (entrée bassin intérieur) : embarquement secteur Sainte-Adresse, fenêtre 05:10-05:40, veille VHF 10.
+- Normandie_Star (entrée Terminal de l’Atlantique) : approche extérieure, fenêtre 05:30-06:00, veille VHF 11.
+- Ocean_Mistral (manœuvre d’entrée vers Port 2000) : embarquement du pilote à la station de La Hève, fenêtre de marée 07:10-07:40, canal VHF 12.
+- Ocean_Mistral_II (mouvement décalé vers Port 2000) : embarquement du pilote à la station de La Hève, fenêtre de marée 07:50-08:20, canal VHF 12.
+- Ocean_Mistral (mouvement ultérieur de sortie / relève pilote au large d’Antifer) : fenêtre 19:10-19:40, canal VHF 11.

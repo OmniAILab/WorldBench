@@ -1,0 +1,32 @@
+{
+  "persona": "Silke ist Ingenieurin für Präzisionsoptik und arbeitet in einer hochmodernen Forschungseinrichtung in Jena in Thüringen. Sie entwickelt mikroskopische Linsensysteme für medizinische Diagnosegeräte. Sie kämpft mit den extremen Toleranzen der mikroskopischen Fertigung und mit den strengen Qualitätsvorgaben des Deutschen Instituts für Normung. Sie übersetzt dichte physikalische Fachaufsätze, experimentelle Materialbelastungstests und Anforderungen aus Kundenspezifikationen in umsetzbare Fertigungsvorgaben für das Produktionsteam.",
+  "task": "Füge dem internen Anlagenkalender des Jenaer Reinraums am verbindlichen Kalibrierungstermin eine Fertigungspause hinzu.",
+  "required_files": [
+    "anlagenmitteilung_jena.txt"
+  ],
+  "output_files": [
+    "data/optikkalender_jena.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/optikkalender_jena.ics",
+        "summary_keywords": [
+          "Fertigungspause"
+        ],
+        "description_keywords": [
+          "Laserkalibrierung"
+        ],
+        "time_start": "2026-06-15 08:00:00",
+        "time_end": "2026-06-15 12:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/optikkalender_jena.ics",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "persona": "Alessio concilia le complesse esigenze infrastrutturali del centro storico di Roma con gli obiettivi di pianificazione urbana a lungo termine dopo le celebrazioni del Giubileo 2025-2026. Si muove tra i livelli burocratici dell'amministrazione di Roma Capitale e gli specifici mandati di tutela della Soprintendenza Speciale per Archeologia, Belle Arti e Paesaggio. Il suo ruolo comprende la sintesi di migliaia di moduli di feedback pubblico e rapporti di fattibilità tecnica per sviluppare zone pedonali sostenibili attorno al Colosseo e al Foro Romano.",
+  "task": "Usa la nota di pianificazione urbana per aggiungere al calendario il sopralluogo al Foro Romano, con la data corretta.",
+  "required_files": [
+    "nota_pianificazione_roma.txt"
+  ],
+  "output_files": [
+    "data/calendario_infrastrutture_roma.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_infrastrutture_roma.ics",
+        "summary_keywords": [
+          "Sopralluogo",
+          "Foro Romano"
+        ],
+        "description_keywords": [],
+        "date": "2026-05-18"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_infrastrutture_roma.ics",
+      "change": "modify"
+    }
+  ]
+}

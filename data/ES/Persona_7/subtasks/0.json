@@ -1,0 +1,39 @@
+{
+  "persona": "Fran es responsable de mercancías en PLAZA (Plataforma Logística de Zaragoza), considerada la mayor plataforma logística de Europa, donde sincroniza el transporte ferroviario y por carretera en toda la península ibérica. Gestiona las restricciones de la Zona de Bajas Emisiones del Casco Histórico de Zaragoza y los cambios técnicos entre el ancho de vía europeo y el ibérico, para que la carga internacional atraviese sin interrupciones el corredor aragonés.",
+  "task": "Consulta la tabla de reglas de cambio de ancho de PLAZA, descarta las reglas derogadas y contrasta la vigente con la ficha técnica de ADIF para el sentido frontera francesa hacia la red convencional española. Asigna el método de transferencia correcto únicamente al envío PLZ-77 en el plan de envíos.",
+  "required_files": [
+    "reglas_cambio_ancho_plaza.xlsx",
+    "ficha_tecnica_ancho_zaragoza.txt"
+  ],
+  "output_files": [
+    "data/envios_zaragoza.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/envios_zaragoza.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Cambio_de_bogies"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/envios_zaragoza.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

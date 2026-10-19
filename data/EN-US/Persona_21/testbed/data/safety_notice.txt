@@ -1,0 +1,19 @@
+Manufacturer notice: imaging console driver update is due on 2026-07-19.
+Manufacturer notice: surgical camera cleaning module update is due on 2026-07-24.
+Manufacturer notice: backup database patch is due on 2026-07-30.
+Manufacturer notice: noncritical display firmware can be installed on 2026-08-03.
+Manufacturer notice: robotic arm torque check is recommended on 2026-08-07.
+Manufacturer notice: critical patch must be installed on 2026-08-12.
+Manufacturer notice: anesthesia integration update may be installed on 2026-08-16.
+Manufacturer notice: hospital network certificate rotation is due on 2026-08-20.
+Manufacturer notice: diagnostic camera patch is due on 2026-08-25.
+Manufacturer notice: OR tablet synchronization can occur on 2026-08-28.
+Manufacturer notice: endoscopy tower maintenance is scheduled on 2026-09-02.
+Manufacturer notice: sterile processing interface update is due on 2026-09-06.
+Manufacturer notice: archived case viewer update may occur on 2026-09-10.
+Manufacturer notice: surgeon console backup test is planned on 2026-09-14.
+Manufacturer notice: imaging bridge firmware check is due on 2026-09-18.
+Manufacturer notice: quality assurance export patch is due on 2026-09-22.
+Manufacturer notice: nonclinical training simulator update is scheduled on 2026-09-26.
+Manufacturer notice: downtime rehearsal is proposed for 2026-09-30.
+Local note: the downtime block must cover the critical patch, not the optional updates.

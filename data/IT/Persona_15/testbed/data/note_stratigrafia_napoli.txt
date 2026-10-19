@@ -1,0 +1,19 @@
+Promemoria stratigrafia: L4 è medievale e non contiene il materiale richiesto.
+Nota scavo: L1 è moderna e riguarda sottoservizi recenti.
+Appunto cantiere: M6-T2 non è la trincea da aggiornare.
+Promemoria Metro: il cronoprogramma lavori non identifica il livello archeologico.
+Nota Soprintendenza: non usare il numero della stazione come layer.
+Relazione Scavi Piazza Municipio: Le carotature dell'ultimo settore confermano che l'orizzonte abitativo risalente all'epoca classico-imperiale si stratifica in corrispondenza dell'unità L2.
+Appunto mappa: L3 è rinascimentale nel rilievo provvisorio.
+Promemoria Napoli: il tufo giallo non equivale automaticamente a periodo greco-romano.
+Nota deposito: i reperti ceramici non catalogati non sono nella tabella validata.
+Appunto PRG: la clausola di sospensione si usa dopo aver individuato il layer.
+Promemoria cantiere: la squadra Metro Linea 6 non modifica l'indice stratigrafico.
+Nota scavo: L5 non compare nel foglio corrente.
+Appunto archivio: nel settore precedente il layer era L3, ma non qui.
+Protocollo GIS di Cantiere: Il sistema informativo territoriale della metropolitana non tollera dizioni storiche; le quote a rischio vanno sempre taggate con la loro stringa identificativa a due caratteri.
+Nota topografica: piazza Municipio è contesto culturale, non valore da inserire.
+Appunto sicurezza: non aggiornare righe non riferite a M6-T1.
+Promemoria reperti: periodo medievale non è Greco-Roman.
+Promemoria reperti: il lavaggio dei frammenti ceramici è attività di laboratorio e non definisce l'unità da inserire.
+Appunto rilievo: la nuova fotogrammetria del settore è in elaborazione, ma non sostituisce il dato stratigrafico.

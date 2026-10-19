@@ -1,0 +1,19 @@
+La checklist concerne uniquement le Brie de Meaux AOP.
+Les règles de la marée ne s’appliquent pas aux fromages.
+Les scellés des camions de viande sont contrôlés ailleurs.
+Les palettes de fruits ne sont pas concernées.
+Les crochets de volailles suivent un protocole séparé.
+L’étiquette AOP doit être vérifiée.
+La température doit être mesurée à cœur.
+Un colis au-dessus du seuil doit être isolé.
+Retenir la ligne Brie_de_Meaux_AOP.
+Le seuil doit être exprimé en degrés Celsius.
+La checklist doit citer le pavillon des fromages.
+Le numéro de quai n’est pas requis.
+Le nom du fournisseur n’est pas fourni.
+La fiche doit rester courte.
+Aucun autre fromage ne doit être ajouté.
+La validation intervient après les trois contrôles.
+Le document est destiné à la réception matinale.
+Le Munster AOP possède ses propres critères de contrôle distincts du Brie.
+Le Reblochon Fermier est inspecté au pavillon fromages selon une fiche séparée.

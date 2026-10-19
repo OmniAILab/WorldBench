@@ -1,0 +1,28 @@
+{
+  "persona": "Anwen is a microchip production planner based at a semiconductor foundry in Newport. She maintains cleanroom metrics, logistics calendars, tolerance manuals, and production risk trackers.",
+  "task": "Insert the emergency ventilation trigger from the Newport foundry protocol into the air quality section of the cleanroom safety manual.",
+  "required_files": [
+    "foundry_protocol.txt"
+  ],
+  "output_files": [
+    "data/cleanroom_manual.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/cleanroom_manual.docx",
+        "keywords": [
+          "Emergency ventilation trigger: Particle count > 10 per cubic foot"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/cleanroom_manual.docx",
+      "change": "modify"
+    }
+  ]
+}

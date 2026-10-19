@@ -1,0 +1,27 @@
+{
+  "persona": "Sunita is a strategic urban designer in Birmingham working on the Big City Plan and the Curzon Street area. She updates design scores, corridor flags, briefing documents, workshop emails, and site-walk calendar notes.",
+  "task": "Write a professional partnership email confirming the next Curzon Street workshop and include the agenda item on pedestrianised zone phasing.",
+  "required_files": [
+    "partners_birmingham.xlsx",
+    "agenda_note.txt",
+    "email_templates_birmingham.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "ppp@curzon-partners.uk",
+        "keywords": [
+          "pedestrianised zone phasing"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_ppp_*.eml",
+      "change": "create"
+    }
+  ]
+}

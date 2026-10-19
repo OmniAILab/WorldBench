@@ -1,0 +1,16 @@
+Visitor badge colours are listed in reception guidance.	Newport cleanroom shift handover	South Wales semiconductor supply chain
+Packing-area humidity readings do not trigger emergency ventilation.	Duffryn industrial-estate maintenance	Newport wafer metrology check
+Routine filter inspection is scheduled each Friday.	Cardiff-Newport freight corridor	Celtic semiconductor skills briefing
+A particle count above 5 per cubic foot requires monitoring only.	Newport cleanroom shift handover	South Wales semiconductor supply chain
+Staff gowning reminders belong in the induction checklist.	Duffryn industrial-estate maintenance	Newport wafer metrology check
+Chemical spill kits are logged by facilities.	Cardiff-Newport freight corridor	Celtic semiconductor skills briefing
+Mask-store lighting levels are not air-quality triggers.	Newport cleanroom shift handover	South Wales semiconductor supply chain
+Emergency ventilation trigger: Particle count > 10 per cubic foot.	Duffryn industrial-estate maintenance	Newport wafer metrology check
+Photoresist arrival dates belong in logistics calendars.	Cardiff-Newport freight corridor	Celtic semiconductor skills briefing
+Canteen extraction fans are managed by building services.	Newport cleanroom shift handover	South Wales semiconductor supply chain
+Do not copy cleanroom tour notes into the manual.	Duffryn industrial-estate maintenance	Newport wafer metrology check
+Place the trigger under air quality procedures.	Cardiff-Newport freight corridor	Celtic semiconductor skills briefing
+Static control mats are inspected separately.	Newport cleanroom shift handover	South Wales semiconductor supply chain
+Packing-area alarms use a threshold of 25 particles per cubic metre.	Duffryn industrial-estate maintenance	Newport wafer metrology check
+A withdrawn 2023 protocol used a 15 per cubic foot trigger.	Cardiff-Newport freight corridor	Celtic semiconductor skills briefing
+Gowning-room particle counts are advisory and set no trigger.	Newport cleanroom shift handover	South Wales semiconductor supply chain

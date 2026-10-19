@@ -1,0 +1,62 @@
+{
+  "persona": "Aïcha est apicultrice transhumante en Corse, où elle produit du miel sous appellation Mele di Corsica – Miel de Corse AOP. Elle déplace ses ruches entre le maquis, la châtaigneraie et les zones de miellat, contrôle l’humidité du miel et suit les traitements sanitaires contre le varroa tout en préservant l’identité florale des récoltes insulaires.",
+  "task": "Détermine le statut d’extraction de Ruche_Maquis_09 en croisant son taux d’humidité, l'état d'operculation des cadres, la qualification AOP du lot, les règles de la miellerie et du cahier des charges AOP et le dialogue d'exploitation. Applique la règle spécifique AOP qui prévaut sur les repères génériques, puis mets à jour le statut, l’humidité retenue et l’operculation.",
+  "required_files": [
+    "regles_aop_miel_corse.txt",
+    "humidite_miel_corse.xlsx",
+    "certification_lots_miel_corse.xlsx",
+    "dialogue_extraction_miel_corse.txt"
+  ],
+  "output_files": [
+    "data/registre_extraction_miellerie.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/registre_extraction_miellerie.xlsx",
+        "matches": [
+          {
+            "row": 10,
+            "col": 2,
+            "value": "Prêt_pour_extraction"
+          },
+          {
+            "row": 10,
+            "col": 3,
+            "value": "17.5%"
+          },
+          {
+            "row": 10,
+            "col": 4,
+            "value": "Operculé"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/registre_extraction_miellerie.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "row_comment": "keep exact row",
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

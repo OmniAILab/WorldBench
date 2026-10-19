@@ -1,0 +1,20 @@
+Apunte de obra: la capa más profunda debe seleccionarse siempre como foco principal.
+Referencia de la Alhambra: cualquier estrato con cerámica vidriada se clasifica automáticamente como L2.
+Nota de servicios urbanos: las capas modernas tienen prioridad para acelerar la canalización.
+Criterio de color: el sedimento rojizo corresponde necesariamente al periodo nazarí.
+Práctica antigua del Albaicín: la capa L5 se conserva como referencia patrimonial.
+Informe preliminar: la zanja ALB-T2 debe centrarse en la capa romana.
+Criterio topográfico: el estrato más próximo a la cuesta del Chapiz se identifica como L4.
+Nota del contratista: el foco puede mantenerse como Por_comprobar hasta terminar la obra.
+Guía del Plan Especial del Albaicín (PEPRI): Ante la apertura de zanjas, el nivel de máxima cautela arqueológica será el estrato de adscripción cronológica Nazarí (S. XIII-XV), requiriendo supervisión intensiva de dicha U.E. (L3 en ALB-T2).
+Apunte de excavación: la numeración más alta indica mayor valor arqueológico.
+Ficha de excavación del Albaicín: la adscripción cronológica de cada unidad se determina a partir del registro estratigráfico.
+Protocolo de emergencia: las capas con conducciones modernas sustituyen el objetivo patrimonial.
+Informe de cerámica: L2 y L3 deben fusionarse en una sola unidad.
+Criterio municipal: la capa L4 tiene prioridad porque permite abrir antes la calle.
+Nota de archivo: el código de la zanja determina la capa y ALB-T2 corresponde a L2.
+Práctica de sondeo: debe seleccionarse la primera fila de la tabla.
+Apunte de restauración: el periodo nazarí se registra con el código N1, aunque no aparezca en el índice.
+Guía PEPRI Albaicín: Si en la misma zanja coexisten estratos de adscripción Nazarí y Romano, el protocolo arqueológico exige documentar ambas U.E. de forma independiente, aunque la supervisión intensiva se concentrará en el nivel Nazarí como estrato de máxima cautela.
+Nota de la Dirección General de Bienes Culturales: Los estratos de adscripción Islámico_temprano (S. VIII-XI) detectados en zanjas del Albaicín deben tratarse con el mismo nivel de cautela que los Nazaríes; su aparición también requiere supervisión intensiva y comunicación inmediata al arqueólogo director.
+Informe del Carmen de la Victoria: los aljibes nazaríes documentados en la ladera del Albaicín aparecen con frecuencia recortados por conducciones del siglo XX, lo que dificulta leer la secuencia estratigráfica.

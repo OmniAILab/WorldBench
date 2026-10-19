@@ -1,0 +1,4 @@
+Claire : Nous devons valider le lot d’absolue de jasmin de Grasse pour la pesée de l’essai Jasmin_24 (dossier Europe), dont la limite interne de formulation est fixée à 0,8 %.
+Assistante : Sur l’état des stocks, JAS-GR-11 est à 0,9 % donc hors spécification interne, et JAS-IT-03 est un jasmin d’Italie. Il reste trois lots de jasmin de Grasse conformes au plafond de 0,8 % : JAS-GR-09 (0,6 %), JAS-GR-07 (0,7 %) et JAS-GR-13 (0,8 %).
+Claire : Attention aux affectations du magasin : JAS-GR-09 est bloqué pour la production haute couture et JAS-GR-13 sert de flacon témoin analytique à l’orgue.
+Assistante : Seul JAS-GR-07 à 0,7 % est donc réellement libéré pour l’essai Jasmin_24. Je l’inscris dans la feuille de formule avec son taux de 0,7.

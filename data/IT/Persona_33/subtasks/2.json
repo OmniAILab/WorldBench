@@ -1,0 +1,30 @@
+{
+  "persona": "Beatrice monitora la distribuzione globale dei tartufi bianchi per una primaria casa commerciale di Alba, cuore della regione delle Langhe. Si muove tra i cicli di raccolta imprevedibili causati dalle variazioni climatiche nei boschi piemontesi e assicura che tutte le esportazioni rispettino le specifiche certificazioni sanitarie e di origine del Tartufo Bianco di Alba. La sua vita professionale richiede il costante monitoraggio dei prezzi delle aste internazionali e il rapido coordinamento della logistica a catena del freddo per consegnare i deperibili \"diamanti grigi\" agli chef di alto livello in tutto il mondo.",
+  "task": "Inserisci nel manuale operativo export il requisito di temperatura per la catena del freddo del tartufo bianco nel file ./data/manuale_export_tartufi.docx.",
+  "required_files": [
+    "documento_conformita_tartufo.txt"
+  ],
+  "output_files": [
+    "data/manuale_export_tartufi.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/manuale_export_tartufi.docx",
+        "keywords": [
+          "Regole catena del freddo",
+          "2-4 gradi Celsius",
+          "trasporto"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/manuale_export_tartufi.docx",
+      "change": "modify"
+    }
+  ]
+}

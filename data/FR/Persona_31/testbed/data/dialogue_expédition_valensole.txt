@@ -1,0 +1,5 @@
+Laure : On prépare le départ du lot LAV-21 depuis Valensole cet après-midi. Peux-tu mettre à jour le manuel d'expédition ?
+Technicien : Oui, je regarde le registre d'export. LAV-21 correspond à notre lot pharmaceutique courant attribué au Client_LAV-21.
+Laure : Vérifie bien son cahier des charges contractuel. Ce client impose un flaconnage très épais pour le transport.
+Technicien : En effet, son contrat demande des flacons en verre ambré résistant aux UV avec une épaisseur minimale 5 mm, contrairement au Client_LAV-22 qui prend du 4 mm pour des lots destinés à des applications non pharmaceutiques.
+Laure : C'est bien une exigence propre au contrat du client et non une norme réglementaire générale. Reporte ces mentions exactes dans le manuel.

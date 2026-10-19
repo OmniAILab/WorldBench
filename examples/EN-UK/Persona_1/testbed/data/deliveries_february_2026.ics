@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Everyday Agent Benchmark//Plausible Local Calendar//EN
+BEGIN:VEVENT
+UID:community-hall-key-collection-1@local.test
+DTSTART:20260213T090000
+DTEND:20260213T093000
+SUMMARY:Community hall key collection
+DESCRIPTION:Collect the side door key from the office before the Friday screening setup.
+END:VEVENT
+BEGIN:VEVENT
+UID:leaflet-translation-check-2@local.test
+DTSTART:20260213T100000
+DTEND:20260213T103000
+SUMMARY:Leaflet translation check
+DESCRIPTION:Check that the Urdu and Punjabi leaflet piles are ready for the volunteers.
+END:VEVENT
+BEGIN:VEVENT
+UID:privacy-screen-delivery-3@local.test
+DTSTART:20260213T113000
+DTEND:20260213T120000
+SUMMARY:Privacy screen delivery
+DESCRIPTION:Confirm the privacy screen is beside the blood pressure table.
+END:VEVENT
+BEGIN:VEVENT
+UID:volunteer-tea-table-check-4@local.test
+DTSTART:20260213T130000
+DTEND:20260213T133000
+SUMMARY:Volunteer tea table check
+DESCRIPTION:Keep hot drinks away from the screening forms.
+END:VEVENT
+BEGIN:VEVENT
+UID:prayer-hall-noticeboard-update-5@local.test
+DTSTART:20260213T143000
+DTEND:20260213T150000
+SUMMARY:Prayer hall noticeboard update
+DESCRIPTION:Add the clinic reminder near the entrance before the prayer rush.
+END:VEVENT
+BEGIN:VEVENT
+UID:community-room-handover-6@local.test
+DTSTART:20260213T153000
+DTEND:20260213T160000
+SUMMARY:Community room handover
+DESCRIPTION:Confirm the youth group can use the room after the clinic.
+END:VEVENT
+BEGIN:VEVENT
+UID:follow-up-call-list-review-7@local.test
+DTSTART:20260214T100000
+DTEND:20260214T103000
+SUMMARY:Follow up call list review
+DESCRIPTION:Review access questions that need private callbacks.
+END:VEVENT
+BEGIN:VEVENT
+UID:spare-handout-drop-off-8@local.test
+DTSTART:20260215T110000
+DTEND:20260215T113000
+SUMMARY:Spare handout drop off
+DESCRIPTION:Take spare handouts to the evening community group.
+END:VEVENT
+BEGIN:VEVENT
+UID:leaflet-stack-check-extra-1@local.test
+DTSTART:20260213T094500
+DTEND:20260213T100000
+SUMMARY:Leaflet stack check
+DESCRIPTION:Place translated handouts near the entrance table.
+END:VEVENT
+BEGIN:VEVENT
+UID:hall-seating-walkthrough-extra-2@local.test
+DTSTART:20260213T104500
+DTEND:20260213T110000
+SUMMARY:Hall seating walkthrough
+DESCRIPTION:Check that the side seating remains clear for older residents.
+END:VEVENT
+BEGIN:VEVENT
+UID:language-badge-collection-extra-3@local.test
+DTSTART:20260213T121500
+DTEND:20260213T123000
+SUMMARY:Language badge collection
+DESCRIPTION:Collect spare volunteer lanyards from the community cupboard.
+END:VEVENT
+BEGIN:VEVENT
+UID:leaflet-leftover-packup-extra-4@local.test
+DTSTART:20260213T160000
+DTEND:20260213T161500
+SUMMARY:Leaflet leftover pack up
+DESCRIPTION:Bundle unused handouts for the weekend advice desk.
+END:VEVENT
+BEGIN:VEVENT
+UID:folding-chair-count-extra-a@local.test
+DTSTART:20260213T081500
+DTEND:20260213T083000
+SUMMARY:Folding chair count
+DESCRIPTION:Check the spare chairs before volunteers arrive.
+END:VEVENT
+BEGIN:VEVENT
+UID:cupboard-key-return-extra-b@local.test
+DTSTART:20260215T140000
+DTEND:20260215T141500
+SUMMARY:Cupboard key return
+DESCRIPTION:Return the storage cupboard key after weekend leaflets are packed.
+END:VEVENT
+END:VCALENDAR

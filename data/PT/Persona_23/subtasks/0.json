@@ -1,0 +1,23 @@
+{
+  "persona": "Beatriz é geóloga de minas e trabalha nas galerias subterrâneas da mina de sal-gema de Campina de Cima, em Loulé. Acompanha a estabilidade dos pilares e tetos, interpreta campanhas de georradar e valida os critérios geotécnicos antes de autorizar o avanço de novas frentes de desmonte.",
+  "task": "Consulta o registo geotécnico da mina de sal-gema de Campina de Cima, aplica a regra de estabilidade à Galeria 7 - Cota de Extração Profunda e atualiza o estado do projeto de expansão.",
+  "required_files": [
+    "geology_log_loule.xlsx",
+    "tremor_rules_loule.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/radar_scans.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Suspender expansão e solicitar inspeção geotécnica"
+          }
+        ]
+      }
+    }
+  ]
+}

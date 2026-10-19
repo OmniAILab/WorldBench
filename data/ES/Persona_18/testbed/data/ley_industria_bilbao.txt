@@ -1,0 +1,20 @@
+Apunte de mantenimiento: basta con registrar la presión de la red de hidrógeno al final del turno.
+Protocolo de hornos: el bloqueo eléctrico solo se documenta cuando la línea supera los 9000 kWh.
+Recomendación del muelle: en instalaciones próximas a la ría puede sustituirse la detección de gases por ventilación natural.
+Práctica antigua de la acería: una firma del jefe de turno reemplaza el control de consignación.
+Criterio de subvención: para los expedientes FEDER solo debe anotarse el consumo energético.
+Nota del taller: los detectores portátiles no forman parte de la lista de transición.
+Procedimiento de parada: el etiquetado puede omitirse si el equipo permanece visible.
+Referencia histórica de Altos Hornos: el control se limita a revisar las válvulas de vapor.
+Extracto Ley 8/2004 de Industria del Gobierno Vasco: En intervenciones sobre redes de gas combustible es preceptivo registrar en el libro de mantenimiento el protocolo LOTO de bloqueo y etiquetado de los equipos, así como la medición de atmósferas explosivas mediante detección de gases.
+Nota de mantenimiento de las instalaciones próximas a la ría del Nervión: comprobar la consignación de energía antes de intervenir sobre tuberías de gas.
+Plan de conversión: la detección de gases se realiza únicamente después de introducir hidrógeno.
+Criterio de producción: una línea prioritaria puede seguir funcionando durante la comprobación.
+Nota de formación: basta con indicar que el personal conoce el procedimiento.
+Control de acceso: la tarjeta del operario sustituye el registro de bloqueo.
+Revisión semanal: solo es necesario comprobar el detector central de la nave.
+Propuesta del proveedor: el etiquetado se reemplaza por una señal luminosa verde.
+Informe ambiental: la medición de ruido industrial sustituye la comprobación de gases.
+Extracto Ley 8/2004 de Industria del Gobierno Vasco: Las revisiones periódicas del sistema de tuberías de hidrógeno deberán inscribirse igualmente en el libro de mantenimiento, pero no requieren la activación del protocolo LOTO cuando la red permanece despresurizada y bloqueada.
+Nota técnica de PRL (Prevención de Riesgos Laborales): La medición de atmósferas explosivas deberá realizarse con equipo calibrado según UNE-EN 60079-29-1; el registro en el libro de mantenimiento deberá incluir el valor de LEL medido y no solo la conformidad binaria.
+Memoria del Museo de la Industria de Bizkaia: los libros de mantenimiento de Altos Hornos de Vizcaya registraban el vaciado de gasómetros con un sello del capataz, práctica sin validez desde la Ley 8/2004.

@@ -1,0 +1,5 @@
+Dispositionsvermerk Logistik Stuttgart
+Aktueller Verkehrslagebericht (14. Oktober 2026): Die Autobahn A8 ist am Leonberger Dreieck in Fahrtrichtung Stuttgart wegen eines Lkw-Unfalls gesperrt.
+Manifestabgleich: Die erste Just-in-time-Lieferung nutzt planmäßig die Route Autobahn_A8_Leonberg.
+Eintrag für das Komponentenmanifest: "Wegen_Unfall_gesperrt" für diese Route hinterlegen.
+Sonderregel Lkw-Sperrung Esslingen: Bei ausgerufenem Feinstaubalarm für die Region Stuttgart gilt die B10 zwischen Esslingen-Mettingen und Untertürkheim als für schwere Nutzfahrzeuge über 7,5 Tonnen nicht befahrbar.

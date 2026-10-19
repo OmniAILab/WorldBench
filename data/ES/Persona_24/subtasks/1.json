@@ -1,0 +1,32 @@
+{
+  "persona": "Biel es experto en navegación tradicional en el Puerto de Mahón, Menorca, donde restaura y gobierna llauts históricos. Compagina los dictámenes de estabilidad de la Capitanía Marítima para las licencias de chárter con las normas ambientales del Consell Insular en la Reserva de Biosfera. Su trabajo consiste en elegir materiales de carenado compatibles con el medio marino y en encajar las inspecciones técnicas con el calendario del turismo náutico.",
+  "task": "Consulta la fecha de inspección del llaut histórico de Mahón y añade al calendario náutico un evento de preparación del puerto para ese mismo día.",
+  "required_files": [
+    "inspecciones_puerto_mahon.xlsx",
+    "aviso_calendario_mahon.txt"
+  ],
+  "output_files": [
+    "data/calendario_nautico_mahon.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_nautico_mahon.ics",
+        "summary_keywords": [
+          "Preparación del puerto"
+        ],
+        "description_keywords": [
+          "Llaut_Histórico"
+        ],
+        "date": "2026-05-10"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_nautico_mahon.ics",
+      "change": "modify"
+    }
+  ]
+}

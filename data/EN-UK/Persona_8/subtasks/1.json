@@ -1,0 +1,30 @@
+{
+  "persona": "Siobhan is a senior logistics coordinator at the Port of Belfast, overseeing the movement of goods between Northern Ireland and Great Britain. She updates routing sheets, vessel handovers, and berth coordination notes for Belfast Harbour terminal teams.",
+  "task": "Draft a concise Belfast Harbour Commissioners internal handover note for the terminal team, summarising the SeaHawk arrival window with the correct date and time.",
+  "required_files": [
+    "arrivals_irishsea.xlsx"
+  ],
+  "output_files": [
+    "data/terminal_handover.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/terminal_handover.docx",
+        "keywords": [
+          "SeaHawk",
+          "2026-03-10",
+          "06:30"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/terminal_handover.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+NOTA TÉCNICA DE EXPLORAÇÃO DO RESERVATÓRIO — CENTRAL GEOTÉRMICA DA RIBEIRA GRANDE (SÃO MIGUEL)
+Emitido por: Direção Técnica do Operador Geotérmico (Despacho Interno n.º 14/RG-2026)
+
+1. Regimes transitórios de carga
+- Durante ensaios noturnos de injeção ou calibração sísmica, limitar o escalão de entrega entre 10 e 11 megawatts.
+- Em períodos de limpeza de condutas ou manutenção de condensadores, operar no patamar técnico de 6 a 8 megawatts.
+- Para estabilizar a pressão de curto prazo no setor secundário, limitar temporariamente a entrega a 11,5 megawatts.
+
+2. Limite aprovado de sustentabilidade do reservatório
+- De acordo com o balanço de massa e entalpia aprovado pelo operador para a Central Geotérmica da Ribeira Grande: Para preservar o reservatório de vapor, reduzir a produção máxima para 12 megawatts.
+- Durante a fase subsequente de recuperação de pressão do campo, avaliar o teto operacional provisório de 12,5 megawatts apenas após validação trimestral dos poços de reinjeção.
+
+3. Atualização documental
+O limite aprovado de sustentabilidade deve constar na secção «Limites de produção» do manual operacional da central.

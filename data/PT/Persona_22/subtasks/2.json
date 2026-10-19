@@ -1,0 +1,20 @@
+{
+  "persona": "Marta é de Castelo Branco e trabalha há oito anos no acompanhamento operacional da albufeira de Castelo do Bode. Cruza leituras de caudal, previsões de precipitação e orientações de exploração, mantendo a segurança da barragem e as necessidades ecológicas do rio Zêzere como prioridades.",
+  "task": "Extrai do documento de manutenção a data do diagnóstico de eficiência da Turbina 3 e acrescenta ao calendário da albufeira um evento denominado «Análise operacional da Turbina 3».",
+  "required_files": [
+    "grid_maintenance.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/reservoir_calendar.ics",
+        "keywords": [
+          "Análise operacional da Turbina 3",
+          "20260622"
+        ]
+      }
+    }
+  ]
+}

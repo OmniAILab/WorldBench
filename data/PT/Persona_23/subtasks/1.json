@@ -1,0 +1,29 @@
+{
+  "persona": "Beatriz é geóloga de minas e trabalha nas galerias subterrâneas da mina de sal-gema de Campina de Cima, em Loulé. Acompanha a estabilidade dos pilares e tetos, interpreta campanhas de georradar e valida os critérios geotécnicos antes de autorizar o avanço de novas frentes de desmonte.",
+  "task": "Escreve um email aos encarregados dos túneis a comunicar a concentração de poeiras respiráveis no Filão de sal-gema B — zona de expansão e a ordem de suspender os trabalhos e ativar o procedimento de segurança na mina de Campina de Cima.",
+  "required_files": [
+    "mine_safety.xlsx",
+    "ventilation_actions_loule.txt",
+    "mine_contacts_loule.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_tunnel_foremen.txt",
+        "keywords": [
+          "No filão B, na zona de expansão, a concentração de poeiras respiráveis ultrapassou o limite interno de intervenção, expresso em mg/m³; suspender os trabalhos e ativar o procedimento de segurança."
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_tunnel_foremen.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

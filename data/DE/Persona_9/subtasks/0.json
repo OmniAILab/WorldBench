@@ -1,0 +1,39 @@
+{
+  "persona": "Sophie ist Koordinatorin für den Hochwasserschutz und am Dreiflüsseeck in Passau in Niederbayern stationiert. Sie beobachtet die steigenden Pegel, die während der Schneeschmelze im Frühjahr die historische Altstadt bedrohen. Sie hat es mit der schwer vorhersehbaren Hydrodynamik der Donau und mit den strengen Einsatzprotokollen der bayerischen Staatsregierung zu tun. Sie führt Niederschlagsprognosen aus dem Oberlauf, Bodensättigungsindizes und historische Karten früherer Hochwasserverläufe zusammen, um mobile Barrieretrupps vorausschauend in die am stärksten gefährdeten tief liegenden Gassen zu schicken.",
+  "task": "Nutze die Bodensättigungswerte am Passauer Dreiflüsseeck, ermittle den kritischsten Sektor und trage für diesen im Einsatzplan die Priorität 1 ein.",
+  "required_files": [
+    "bodensaettigung_passau.xlsx",
+    "einsatzhinweise_passau.txt"
+  ],
+  "output_files": [
+    "data/einsatzplan_passau.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/einsatzplan_passau.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "1"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/einsatzplan_passau.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

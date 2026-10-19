@@ -1,0 +1,8 @@
+Élise : La directive active est bien Procédure Grasse_2026 ?
+Responsable conformité : Oui.
+Élise : Elle interdit Lyral_Compound_B à partir du 1er juin 2026.
+Responsable conformité : Exact, c'est un ingrédient synthétique interdit.
+Élise : Je n’ajoute pas Coumarin_Test_D de la directive annexe.
+Responsable conformité : Correct.
+Élise : Le code Lyral_Compound_B appartient au dossier de formulation historique.
+Responsable conformité : Mets la restriction à jour dans le registre interne, sans prétendre qu’une nouvelle interdiction européenne entre en vigueur ce jour-là.

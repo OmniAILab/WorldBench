@@ -1,0 +1,20 @@
+PHC: Portland cement mortar may be used on a modern block wall behind a service alley.
+PHC: Type S mortar may suit a non-historic loading dock outside the district.
+PHC: Type N mortar may be considered for a twentieth-century garage.
+PHC: epoxy is limited to temporary crack monitoring.
+PHC: premixed adhesive is not approved for exposed eighteenth-century brick.
+PHC: tinted cement grout is reserved for contemporary additions.
+PHC: hydraulic cement is limited to emergency basement infiltration.
+PHC: sanded caulk is not a mortar substitute for exterior joints in Society Hill.
+Approved specification: SocietyHill_Rowhouse_5 must use Lime mortar for the eighteenth-century masonry.
+Philadelphia note: the Delancey Street alley is too narrow for a standard truck.
+Society Hill note: the reclaimed brick tone must match the local warm red.
+Site note: protect the mortar sample from rain before the Commission review.
+OldCity_Storefront_2 uses a different specification.
+QueenVillage_Wall_8 is not the SocietyHill_Rowhouse_5 site.
+A supplier note recommends Type O, with no regulatory weight.
+A 2024 trial mentions Hydraulic Lime but it is archived.
+Instruction: update SocietyHill_Rowhouse_5 only.
+Instruction: write the type value, not an explanatory sentence.
+Local context: the cobblestones and the tourist traffic around Independence Hall do not affect the mortar choice.
+Local context: the Commission overrides the supplier's preference.

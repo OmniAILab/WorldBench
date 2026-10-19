@@ -1,0 +1,33 @@
+{
+  "persona": "Julien est un entrepreneur technologique à Montpellier installé à la Halle Tropisme, où il développe des capteurs destinés à économiser l’eau dans l’agriculture méditerranéenne. Il gère les exigences administratives des aides de Bpifrance et les restrictions locales d’usage de l’eau imposées par la préfecture de l’Hérault pendant les alertes sécheresse, en veillant à la conformité de son matériel avec les directives environnementales européennes.",
+  "task": "Croise la consigne Bpifrance avec le registre de déploiement et le dialogue de suivi. Compte uniquement les prototypes dont le statut est exactement « Déployé » ; exclue ceux qui sont assemblés, stockés, retournés ou encore en cours de déploiement. Rédige une courte mise à jour du projet de la Halle Tropisme en indiquant le KPI et le nombre exact de prototypes déployés.",
+  "required_files": [
+    "bpi_notice.txt",
+    "deploiements_prototypes_montpellier.xlsx",
+    "dialogue_suivi_bpi_montpellier.txt"
+  ],
+  "output_files": [
+    "data/grant_update.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/grant_update.docx",
+        "keywords": [
+          "Halle Tropisme",
+          "prototypes déployés",
+          "Bpifrance",
+          "12 prototypes déployés"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/grant_update.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Shade ordinance: 30% morning coverage for temporary tents.
+Shade ordinance: 40% late-afternoon coverage for small transit shelters.
+Shade ordinance: 60% seasonal coverage for private courtyards.
+Shade ordinance: 25% trailhead canopy with no seating.
+Requirement that applies to the park: provide 50% midday coverage.
+Shade ordinance: 10% decorative shade for brief occupancy.
+Shade ordinance: 75% canopy coverage for cooling-center plazas.
+Shade ordinance: 20% shade for maintenance areas.
+Phoenix: send to the Maricopa_Shade_Review office.
+Phoenix: reuse "50% midday coverage" exactly.
+Phoenix: ask for a review, not a final approval.
+Phoenix: the context is urban heat island mitigation.
+Phoenix: Sonoran Desert sun exposure raises the stakes.
+The ADWR irrigation policy does not belong in the email.
+Permits@maricopa.gov is a different office.
+60% applies to a private courtyard, not to this park.
+Instruction: use the formal review request template.
+Instruction: do not add gallons.
+Instruction: include the exact phrase.
+Instruction: recipient shade@maricopa.gov.

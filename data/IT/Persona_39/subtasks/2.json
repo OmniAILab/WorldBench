@@ -1,0 +1,30 @@
+{
+  "persona": "Stefano è un pianificatore della mobilità urbana a Bologna e lavora agli interventi legati a «Bologna Città 30». Si occupa del Piano urbano della mobilità sostenibile, del trasporto pubblico elettrico e dei vincoli di accessibilità del centro storico. Incrocia i dati dei sensori di traffico con le frequentazioni del trasporto pubblico e gli orari dei collegamenti ferroviari regionali, per coordinare i flussi pendolari con le misure di riduzione del traffico e delle emissioni.",
+  "task": "Inserisci nel documento di specifica per l’acquisto dei bus elettrici il limite di altezza previsto per i passaggi a sagoma limitata del centro storico.",
+  "required_files": [
+    "note_portici_bologna.txt"
+  ],
+  "output_files": [
+    "data/specifica_acquisto_bus.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/specifica_acquisto_bus.docx",
+        "keywords": [
+          "Dimensioni veicolo",
+          "3,2 metri",
+          "portici storici"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/specifica_acquisto_bus.docx",
+      "change": "modify"
+    }
+  ]
+}

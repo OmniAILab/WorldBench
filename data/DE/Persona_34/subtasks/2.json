@@ -1,0 +1,31 @@
+{
+  "persona": "Clara arbeitet als Glasrestauratorin für ein Projekt an den historischen Fenstern des Kölner Doms. Sie beurteilt Zustandsberichte zu Bleiruten und Schutzverglasungen und stimmt notwendige Massnahmen mit den zuständigen Fachleuten der Dombauhütte ab.",
+  "task": "Nutze das Logistikmemo der Kölner Dombauhütte, gleiche den bestätigten Liefertermin mit behördlichen Sperrzeiten, älteren Lieferständen und bereits vorhandenen Kalendereinträgen ab und ergänze den Restaurierungskalender ausschließlich um die Vorbereitung der Gerüstbaustelle am tatsächlich bestätigten Liefertag.",
+  "required_files": [
+    "logistikmemo.txt"
+  ],
+  "output_files": [
+    "data/restoration_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/restoration_calendar.ics",
+        "summary_keywords": [
+          "Gerüstbaustelle vorbereiten"
+        ],
+        "description_keywords": [
+          "Kölner Dom"
+        ],
+        "date": "2026-04-28"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/restoration_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

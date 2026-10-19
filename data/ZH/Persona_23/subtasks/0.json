@@ -1,0 +1,32 @@
+{
+  "persona": "光是一名在酒泉附近戈壁沙漠中一个尘土飞扬的风电场工作的维护技术员。他攀爬巨大的风机，在手机上查看沙尘暴预警，并想念家乡热闹的城市生活。",
+  "task": "查看气象预测表，找到 1400_1800 时段的预测风速，并把该数值写入风电场预测风速登记表。",
+  "required_files": [
+    "meteo_forecast_jiuquan.xlsx",
+    "hexi_wind_dispatch_context.xlsx"
+  ],
+  "output_files": [
+    "data/uhv_transmission.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/uhv_transmission.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "25_mps"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/uhv_transmission.xlsx",
+      "change": "modify"
+    }
+  ]
+}

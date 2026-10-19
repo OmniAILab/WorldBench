@@ -1,0 +1,4 @@
+Capitainerie : Nous devons confirmer le poste à quai du porte-conteneurs Ocean_Mistral en tenant compte à la fois de la cote hydrographique pour son tirant d’eau en charge (14,2 m) et de l’allocation des terminaux.
+Rachid : À 14,2 m, tous les postes limités à 14,0 m comme Quai_H8 sont exclus d’office. Il reste trois postes ayant un tirant d’eau admissible supérieur : Port2000_Q4 (15,0 m), Port2000_Q5 (14,8 m) et Quai_Q17 (14,9 m).
+Capitainerie : Tout à fait, mais Port2000_Q5 est neutralisé pour travaux sur les rails de portique, et Quai_Q17 n’est pas équipé pour l’escale conteneurs d’Ocean_Mistral.
+Rachid : Seul Port2000_Q4 réunit donc la clairance hydrographique et la disponibilité opérationnelle. Je l’inscris sur la ligne d’Ocean_Mistral dans la feuille d’escales.

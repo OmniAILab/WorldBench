@@ -1,0 +1,14 @@
+ESPECIFICAÇÃO DE SUPORTE E CONTENÇÃO SUBTERRÂNEA — MINA DE CAMPINA DE CIMA (LOULÉ)
+Referência de projeto: Desenho Geotécnico DG-CC-2026-09 | Direção Técnica da Exploração
+
+1. Regras gerais por classe de estabilidade
+- Zonas de risco baixo e galerias de serviço: instalar pernos de ancoragem em aço e malha eletrossoldada de acordo com a malha padrão (espaçamento de 10 a 12 metros entre secções de controlo).
+- Zonas húmidas ou com sal friável: aplicar proteção anticorrosiva nos elementos metálicos e instalar placas de distribuição de carga.
+- Zonas de risco moderado: instalar escoramento metálico e ancoragens sistemáticas conforme o perfil tipo B.
+
+2. Galerias de risco elevado e frentes críticas
+- Nas galerias classificadas como de risco elevado, o reforço do suporte deve seguir o projeto geotécnico aprovado e ser validado pela direção técnica antes da retoma dos trabalhos.
+- Nas frentes profundas classificadas como críticas, a instalação de ancoragens duplas e suporte metálico complementar depende de levantamento prévio de georradar e assinatura da geóloga responsável.
+
+3. Registo documental
+Toda a alteração às estruturas de suporte deve ser transcrita para o manual de expansão da mina com referência ao desenho geotécnico aprovado.

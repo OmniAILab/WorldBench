@@ -1,0 +1,30 @@
+{
+  "persona": "Roser dirige una colla castellera en Tarragona, donde organiza la construcción de castells humanos para la diada de Santa Tecla en la Plaça de la Font. Compagina los manuales de prevención de la Coordinadora de Colles Castelleres con los permisos municipales de ocupación del espacio público y con las franjas de retransmisión de la televisión comarcal. Su trabajo consiste en asignar posiciones en la pinya según la categoría física de cada casteller y en llevar el expediente administrativo de la entidad.",
+  "task": "Añade al expediente administrativo de la colla castellera la cobertura mínima de responsabilidad civil exigida para los actos en la Plaça de la Font.",
+  "required_files": [
+    "decreto_alcaldia_tarragona.txt"
+  ],
+  "output_files": [
+    "data/expediente_administrativo_colla.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/expediente_administrativo_colla.docx",
+        "keywords": [
+          "Plaça de la Font",
+          "1,5 millones de euros",
+          "responsabilidad civil"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/expediente_administrativo_colla.docx",
+      "change": "modify"
+    }
+  ]
+}

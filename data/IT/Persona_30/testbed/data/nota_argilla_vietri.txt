@@ -1,0 +1,21 @@
+Appunti del laboratorio di Vietri sul Mare per ordini e consegne sulla SS163.
+Appunto: Per Delivery_Apr_30 usare 300kg_Bianca, ma appartiene ai piatti da degustazione.
+Promemoria: Il carico 450kg_Terracotta riguarda un ordine locale per un ristorante di Salerno.
+Nota operativa: Il codice 500kg_Gres non è compatibile con i colori vietresi tradizionali.
+Nota archivio: Per l'ordine Paris_Boutique_Project è prevista argilla bianca, non terracotta.
+Avviso interno: Il promemoria del corriere cita 520kg_Terracotta ma è un peso lordo con pallet.
+Appunto: La SS163 è lenta dopo Cetara, ma questo non cambia il materiale da riportare.
+Disposizione Maestro Fornaciaio: Il blocco logistico in arrivo il 4 maggio deve essere interamente stornato e riservato per la modellazione dei vasi destinati al grande resort statunitense.
+Promemoria: Il codice 480kg_Terracotta è una stima precedente dell'artigiano.
+Nota operativa: Per Amalfi_Shop_Restock usare 200kg_Terracotta, non l'ordine internazionale.
+Nota archivio: Il forno blu è riservato alle maioliche piccole e non modifica la colonna allocazione.
+Avviso interno: Il carico 600kg_Terracotta supera il limite del furgone e non va scelto.
+Appunto: Per Delivery_May_06 è indicato 500kg_Crema, materiale diverso dal target.
+Promemoria: Le piastrelle con limoni richiedono smalto giallo, ma la quantità di argilla resta separata.
+Nota operativa: Il mercato turistico di agosto usa un calendario distinto dal progetto hotel.
+Nota archivio: Il codice Delivery_May_03 è stato rinviato per traffico sulla costiera.
+Avviso interno: Il peso 510kg_Terracotta compare nel preventivo americano ma non nella consegna confermata.
+Appunto: La manutenzione del tornio elettrico è programmata a parte e non modifica la colonna allocazione.
+Promemoria: L'ordine di pennelli nuovi è amministrativo e non riguarda il materiale da riportare.
+Nota bottega: la pulizia delle vasche di decantazione dell'argilla è manutenzione e non modifica l'allocazione dell'ordine.
+Promemoria Costiera: la consegna delle cassette per l'imballaggio segue una pratica separata dalla fornitura di terracotta.

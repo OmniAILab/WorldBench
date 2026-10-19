@@ -1,0 +1,6 @@
+Auditprotokoll Logistikzentrum Halle
+Lagergang: Schwergeräte_B.
+Prüfbericht: Bei der manuellen Kommissionierung im Gang Schwergeräte_B wurde das gemäß aktueller Gefährdungsbeurteilung zulässige Maximalgewicht für Einzelhübe überschritten.
+Empfänger: schichtleitung@logistik-halle.de.
+Formulierung für die E-Mail: Bitte "Maximalgewicht überschritten" und "Schwergeräte_B" zwingend angeben.
+Sonderregel Hitzeschutz: Bei Außentemperaturen über 30 °C wird das Ablegen der Warnweste in belüftungsarmen Lagergängen nach interner Arbeitsschutzrichtlinie toleriert.

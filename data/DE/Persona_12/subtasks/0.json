@@ -1,0 +1,39 @@
+{
+  "persona": "Elena ist Analystin für Lieferketten in der Automobilindustrie und arbeitet im industriellen Zentrum von Stuttgart. Sie sorgt dafür, dass Hochvolt-Batteriekomponenten ohne Unterbrechung an die regionalen Montagelinien für Elektrofahrzeuge geliefert werden. Sie bewältigt die logistischen Albträume, die durch häufige Sperrungen im Bundesfernstraßennetz entstehen, und die strengen Emissionsgrenzen, die das Land Baden-Württemberg dem Schwerlastverkehr setzt. Sie bringt Produktionspläne der Zulieferer, aktuelle Verkehrsstörungsmeldungen und Emissionswerte der Fuhrparks laufend zusammen, um Just-in-time-Sequenzen ohne Bußgelder aufrechtzuerhalten.",
+  "task": "Gleiche die aktuellen Verkehrsstörungen rund um Stuttgart mit dem Komponentenmanifest ab und aktualisiere den Routenstatus der betroffenen Just-in-time-Lieferung.",
+  "required_files": [
+    "verkehrsstoerungen_stuttgart.xlsx",
+    "routenhinweise_stuttgart.txt"
+  ],
+  "output_files": [
+    "data/komponentenmanifest_stuttgart.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/komponentenmanifest_stuttgart.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Wegen_Unfall_gesperrt"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/komponentenmanifest_stuttgart.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

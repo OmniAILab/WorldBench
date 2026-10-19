@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Manufacture de tapisserie d’Aubusson//Calendrier opérationnel//FR
+BEGIN:VEVENT
+UID:7603fd3f-b204-5dd0-a33b-9b4e30a2614e
+DTSTART:20261103T100000
+DTEND:20261103T110000
+SUMMARY:Relevé des bains de teinture de laine
+DESCRIPTION:Vérification des fiches de pigments et de la traçabilité des bains à la manufacture.
+END:VEVENT
+BEGIN:VEVENT
+UID:8ce491d8-b183-5247-b14d-09b432959868
+DTSTART:20261104T143000
+DTEND:20261104T150000
+SUMMARY:Préparation des échantillons colorimétriques
+DESCRIPTION:Examen des échantillons destinés à la revue des pratiques de teinture patrimoniale.
+END:VEVENT
+END:VCALENDAR

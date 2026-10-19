@@ -1,0 +1,25 @@
+Ro-Ro Terminal — Operational Alert
+Subject: Terminal operational alert
+Hello,
+The MPA log identifies a shipment at your terminal requiring an operational update.
+Please adjust terminal coordination accordingly.
+Best regards,
+Harbor Operations Desk
+
+Note: identify the terminal in the MPA log first.
+Note: then pick the matching contact in the terminal_contacts sheet.
+Note: Delayed_Tide is different from Waiting_Customs.
+Note: Loaded is not a delay.
+Note: the message must contain the exact shipment identifier.
+Note: keep the status exactly, underscore included.
+Note: Dundalk and Seagirt have different contacts.
+Note: do not invent a new arrival time.
+Note: do not convert the status into a different cause.
+Note: the Chesapeake context may be mentioned briefly.
+Note: pilot operations remain a separate workflow.
+Note: lashing inspections are not tide delays.
+Note: do not use the Heavy_Lift contact unless instructed.
+Note: the correct recipient comes from the shipment's terminal.
+Note: keep a professional tone.
+Note: do not include other cargo.
+Note: ask for operational acknowledgement.

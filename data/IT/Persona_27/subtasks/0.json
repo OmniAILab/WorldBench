@@ -1,0 +1,40 @@
+{
+  "persona": "Domenico affronta le sfide di sostenibilità nella gestione di un \"albergo diffuso\" nei Sassi di Matera, dove le camere degli ospiti sono ricavate direttamente in antiche grotte di pietra calcarea. Garantisce che tutte le ristrutturazioni rispettino i rigorosi standard di conservazione dell'UNESCO e gli specifici regolamenti sulla gestione delle acque della regione Basilicata. Il suo lavoro comprende il costante coordinamento delle squadre di manutenzione artigianale locali e la gestione degli itinerari degli ospiti, conciliando le esperienze di lusso con la preservazione del delicato patrimonio sotterraneo della città.",
+  "task": "Usa il livello di umidità della camera nei Sassi per aggiornare la priorità di manutenzione artigianale nel foglio della Basilicata nel file ./data/acqua_basilicata_matera.xlsx per la camera Sasso_Barisano_4.",
+  "required_files": [
+    "note_umidita_matera.txt",
+    "log_strutturale_matera.xlsx",
+    "mappa_acqua_basilicata.xlsx"
+  ],
+  "output_files": [
+    "data/acqua_basilicata_matera.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/acqua_basilicata_matera.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Alta"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/acqua_basilicata_matera.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

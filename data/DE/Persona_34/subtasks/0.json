@@ -1,0 +1,39 @@
+{
+  "persona": "Clara arbeitet als Glasrestauratorin für ein Projekt an den historischen Fenstern des Kölner Doms. Sie beurteilt Zustandsberichte zu Bleiruten und Schutzverglasungen und stimmt notwendige Massnahmen mit den zuständigen Fachleuten der Dombauhütte ab.",
+  "task": "Gleiche den aktuellen Oxidationsbericht der Bleiruten mit dem historischen Fensterinventar, routinemäßigen Außenschäden und den Restaurierungshinweisen der Kölner Dombauhütte ab. Bestimme das tatsächlich akut betroffene Fensterfeld und aktualisiere ausschließlich dessen Warteschlangenstatus mit der verbindlichen Restaurierungsmaßnahme.",
+  "required_files": [
+    "oxidationsbericht.xlsx",
+    "restaurierungshinweise_dom.txt"
+  ],
+  "output_files": [
+    "data/fensterinventar.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/fensterinventar.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Dringender_Ausbau_erforderlich"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/fensterinventar.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "persona": "James is a freight forwarding coordinator from Eastleigh working at the Port of Southampton. He maintains refrigerated cargo sheets, customs workflow notes, transport updates, and driver emails.",
+  "task": "Insert the frozen-perishables border inspection clause from the revenue authority notice into the customs protocols section of the freight forwarding workflow document.",
+  "required_files": [
+    "revenue_authority_notice.txt"
+  ],
+  "output_files": [
+    "data/forwarding_workflow.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/forwarding_workflow.docx",
+        "keywords": [
+          "Frozen perishables require deep-core temp check at border"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/forwarding_workflow.docx",
+      "change": "modify"
+    }
+  ]
+}

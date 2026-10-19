@@ -1,0 +1,32 @@
+{
+  "persona": "Rémy est stratège céréalier à Chartres, capitale de la Beauce, et se concentre sur la logistique d’exportation du blé vers le marché européen. Il suit les fluctuations des prix des céréales sur Euronext et les certifications de qualité exigées par les normes meunières internationales. Son travail consiste à interpréter de vastes ensembles de données sur la santé des sols et les prévisions satellitaires de rendement afin d’optimiser les cycles de stockage et de transport des grandes coopératives céréalières de la région.",
+  "task": "Croise le seuil d’alerte commercial interne Wheat_Export_Trigger, la cotation Euronext courante et le dialogue marché. Si le prix courant est inférieur au seuil principal, rédige un e-mail à la flotte européenne en indiquant le seuil, le prix observé et que le seuil est franchi. N’utilise ni l’avertissement secondaire ni le seuil 2024.",
+  "required_files": [
+    "transport_contacts_chartres.xlsx",
+    "milling_standards.xlsx",
+    "market_note_chartres.txt",
+    "euronext_snapshot_chartres.xlsx",
+    "dialogue_marche_chartres.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "flotte-europeenne.cooperative@messagerie.invalid",
+        "keywords": [
+          "Wheat_Export_Trigger",
+          "Drop_Below_220_Euros",
+          "218,50 €/t",
+          "franchi"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_flotte_*.eml",
+      "change": "create"
+    }
+  ]
+}

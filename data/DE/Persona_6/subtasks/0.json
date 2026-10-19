@@ -1,0 +1,39 @@
+{
+  "persona": "Markus ist Elektriker und betreut unter anderem Altbauaufträge in der Münchner Altstadt. Er plant lärmintensive Arbeiten, prüft für historische Fassaden geeignete Leitungsführungen und stimmt Eingriffe in geschützte Bausubstanz ab.",
+  "task": "Lege für den Münchner Altstadt-Auftrag ALT-88 innerhalb des objektbezogen abgestimmten Arbeitszeitfensters einen Beginn fest und trage ihn in die Einsatzplanung ein.",
+  "required_files": [
+    "laermfenster_muenchen.xlsx",
+    "laermhinweise_muenchen.txt"
+  ],
+  "output_files": [
+    "data/auftraege_muenchen.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/auftraege_muenchen.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 3,
+            "value": "11:30"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/auftraege_muenchen.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

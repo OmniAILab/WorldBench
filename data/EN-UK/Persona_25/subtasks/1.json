@@ -1,0 +1,28 @@
+{
+  "persona": "Elena is a teacher at a secondary school in Headington, Oxford. She keeps trip transport sheets, staff emails, lesson planning notes, and parent communications for school activities.",
+  "task": "Write a friendly lesson-focus email to the Headington teaching staff about the EAL_Students progress benchmark, using the benchmark table and staff-email template.",
+  "required_files": [
+    "ofsted_benchmarks.xlsx",
+    "staff_contacts_headington.xlsx",
+    "email_templates_elena.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "staff@headington-school.uk",
+        "keywords": [
+          "Reading_Comprehension_Level_3",
+          "EAL_Students"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_staff_*.eml",
+      "change": "create"
+    }
+  ]
+}

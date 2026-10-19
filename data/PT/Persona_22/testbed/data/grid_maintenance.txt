@@ -1,0 +1,19 @@
+PLANO DE MANUTENÇÃO E ENSAIOS — CENTRAL DE CASTELO DO BODE (JUNHO/JULHO DE 2026)
+Emitido por: Direção de Manutenção Eletromecânica
+
+Semana de 15 a 21 de junho:
+- 2026-06-15: Diagnóstico geral da Turbina 1.
+- 2026-06-16: Inspeção mecânica da comporta norte.
+- 2026-06-18: Leitura e aferição dos sensores hidrométricos do Zêzere.
+- 2026-06-20: Revisão programada da Turbina 2.
+
+Semana de 22 a 28 de junho:
+- 2026-06-22: Diagnóstico de eficiência da Turbina 3 (requer agendamento de «Análise operacional da Turbina 3» pela equipa de análise da albufeira).
+- 2026-06-22: Verificação de rendimento da Turbina 2 (unidade adjacente).
+- 2026-06-23: Diagnóstico térmico da Turbina 3 e calibração do medidor de caudal.
+- 2026-06-25: Teste sob carga do gerador auxiliar.
+- 2026-06-27: Controlo técnico do canal ecológico.
+
+Semana de 29 de junho a 2 de julho:
+- 2026-06-30: Revisão dos registos mensais de produção.
+- 2026-07-02: Reunião mensal de segurança hidráulica.

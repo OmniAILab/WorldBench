@@ -1,0 +1,4 @@
+Coastal dune protection rule: keep machinery and event traffic off protected dune areas.
+For Town_and_Gown, record Rule_Added as Yes when this rule has been added to the event checklist.
+West Sands visitor-management notes are kept in a separate checklist.
+Alfred_Dunhill_Links uses a separate championship access protocol.

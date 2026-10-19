@@ -1,0 +1,39 @@
+{
+  "persona": "Dimas es productor artesanal de miel en la comarca de la Alcarria, en Guadalajara, y mueve cientos de colmenas siguiendo la floración del romero, el espliego y el tomillo. Trabaja con el pliego de condiciones de la Denominación de Origen Miel de la Alcarria y con las inspecciones de la Oficina Comarcal Agraria sobre los libros de explotación. Su trabajo consiste en decidir a qué sector trashumar los asentamientos apícolas y en mantener al día el registro sanitario de las colmenas.",
+  "task": "Selecciona el sector de la Alcarria con mayor floración de romero y actualiza la zona de despliegue de las colmenas de Dimas.",
+  "required_files": [
+    "floracion_alcarria.xlsx",
+    "boletin_fenologico_alcarria.txt"
+  ],
+  "output_files": [
+    "data/despliegue_colmenas.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/despliegue_colmenas.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Lomas_de_Brihuega"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/despliegue_colmenas.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

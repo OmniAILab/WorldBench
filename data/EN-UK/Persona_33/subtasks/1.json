@@ -1,0 +1,28 @@
+{
+  "persona": "Tobias is a heritage stonemason in York, working on repairs to medieval walls and Gothic masonry. He maintains quarry supply records, survey emails, restoration guidelines, and inspection calendars.",
+  "task": "Draft a formal structural survey request email to the York heritage survey contact for Micklegate_Bar, using the exact block coordinates from the masonry schedule.",
+  "required_files": [
+    "minster_conservation.xlsx",
+    "heritage_contacts_york.xlsx",
+    "email_templates_tobias.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "heritage.york@historicengland.org.uk",
+        "keywords": [
+          "Elevation_C_Row_12",
+          "Micklegate_Bar"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_heritage.york_*.eml",
+      "change": "create"
+    }
+  ]
+}

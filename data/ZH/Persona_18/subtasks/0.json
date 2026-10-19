@@ -1,0 +1,41 @@
+{
+  "persona": "思源是四川卧龙保护区的一名熊猫饲养员。她每天砍竹子、清理圈舍，并帮助研究人员为幼崽野化做准备，同时还要应对山间潮湿多雾的天气。",
+  "task": "根据基因测序表，将 WL-09 幼崽的遗传多样性标记写入野化名册中的放归准备状态字段。",
+  "required_files": [
+    "dna_sequencing_sichuan.xlsx",
+    "wolong_field_notes.txt",
+    "dialogue_wolong_genetics.txt",
+    "local_context_wolong_genetics.xlsx"
+  ],
+  "output_files": [
+    "data/rewilding_roster.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/rewilding_roster.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "High_Diversity"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/rewilding_roster.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

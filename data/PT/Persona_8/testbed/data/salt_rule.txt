@@ -1,0 +1,12 @@
+Procedimento interno de manutenção FV Algarve — campanha de verão de 2026. O índice de deposição salina é uma escala operacional do explorador, não um limite legal.
+Índice entre 40 e 49: manter a inspeção mensal habitual.
+Índice igual a 55: observar a acumulação após vento de levante.
+Índice igual a 60: confirmar a leitura antes do fim do turno.
+Índice entre 65 e 69: acompanhar a produção durante dois dias.
+Regra de manutenção costeira do explorador: lavar os painéis em locais costeiros quando o índice de deposição salina for superior a 70.
+Índice igual a 70: manter o local em observação sem lavagem imediata.
+Índice inferior a 40: não é necessária uma ação relacionada com sal.
+Durante o vento de norte: confirmar se a leitura do sensor é estável.
+Em locais interiores: usar a rotina de poeiras, não a rotina de sal.
+Índice entre 76 e 80: ponderar lavagem apenas se a procura turística estiver no pico.
+Índice superior a 70 em locais interiores: confirmar com o supervisor antes da lavagem.

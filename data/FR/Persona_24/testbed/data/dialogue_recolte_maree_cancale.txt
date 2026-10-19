@@ -1,0 +1,8 @@
+Gwenhael : La basse mer du 22 mars donne 04:00-07:30 ?
+Responsable marée : Oui.
+Gwenhael : Pour Bed_North_5, nous gardons quinze minutes de marge avant la remontée.
+Responsable marée : Exact, la fenêtre opérationnelle se termine donc à 07:15.
+Gwenhael : Le message part à marees@exploitation-cancale.invalid.
+Responsable marée : Oui, précise aussi la marge de sécurité de 15 minutes.
+Gwenhael : Si l’équipe termine à 07:15, elle regagne le passage avant 07:30.
+Chef de parc : C’est le sens de la marge retenue ; rappelle-la dans le message de marée.

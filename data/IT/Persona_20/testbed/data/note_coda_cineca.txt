@@ -1,0 +1,21 @@
+Promemoria coda: W1 dura 6 ore ed è più lunga del necessario.
+Nota cluster: la priorità alta del progetto non sostituisce il criterio della durata.
+Appunto Bologna: W3 dura 4 ore e non è la finestra più breve.
+Direttiva Tecnologica: Per evitare colli di bottiglia sul supercomputer, le elaborazioni climatiche padane devono agganciarsi tassativamente allo slot di calcolo libero che impegna il processore per il tempo più breve possibile.
+Registro EuroHPC: la finestra W4 è riservata alla manutenzione e non disponibile.
+Nota agricola: il bollettino grandine non modifica la scelta della coda.
+Promemoria tecnico: scegliere il codice della finestra, non il numero di ore.
+Scheda storage: il dataset IT_ONLY non riguarda la durata della coda.
+Nota CINECA: il run Demo_Po non è quello da aggiornare.
+Appunto sistema: W2 dura 3 ore nel foglio corrente.
+Promemoria meteo: non usare la finestra del mese precedente.
+Nota risorse: GPU_Lunga non è una finestra della tabella.
+Registro turni: l'assistenza notturna non cambia il piano run.
+Appunto modelli: PoValley_Run è il modello indicato nel foglio finale.
+Nota pianificazione: non inserire più di una finestra.
+Promemoria output: scrivere W2 senza descrizioni aggiuntive.
+Scheda infrastruttura: le ore vanno lette come numeri.
+Promemoria cluster: la pulizia delle cartelle temporanee è manutenzione ordinaria e non riguarda la scelta dello slot.
+Scheda sistema: l'aggiornamento del firmware dei nodi è pianificato a parte e non incide sulla durata delle finestre.
+Nota Tecnopolo Bologna: le prenotazioni delle sale tecniche non incidono sulla disponibilità delle finestre HPC.
+Promemoria cluster: la replica di backup su nastro segue una coda distinta da quella dei run climatici.

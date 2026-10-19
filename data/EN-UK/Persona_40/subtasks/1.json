@@ -1,0 +1,27 @@
+{
+  "persona": "Ewan is a senior compliance officer at a financial firm in Edinburgh’s Charlotte Square. He maintains digital asset ledgers, AML risk sheets, board advisory emails, and portfolio residency records.",
+  "task": "Draft a formal advisory email to the Investment Board using the revised CGT threshold from the Scottish Government notice.",
+  "required_files": [
+    "sgov_notice.txt",
+    "board_directory.xlsx",
+    "email_templates_ewan.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "board@charlottesquare.com",
+        "keywords": [
+          "£12,000"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_board_*.eml",
+      "change": "create"
+    }
+  ]
+}

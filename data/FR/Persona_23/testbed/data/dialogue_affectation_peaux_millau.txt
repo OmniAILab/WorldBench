@@ -1,0 +1,8 @@
+Cédric : Lambskin_White_01 est classé Grade_1_Parfaite avec un e final ?
+Responsable qualité : Oui, ce libellé exact mène à Haute_Couture.
+Cédric : Il ne faut donc pas utiliser Grade_1_Parfait qui mène à Série_Limitée.
+Responsable qualité : Exact.
+Cédric : La commande associée est Commande_Maison_Paris_X, collection Haute_Couture.
+Responsable qualité : Oui, inscrit aussi « Validée ».
+Cédric : Le classement doit être recopié sans supprimer le « e » final.
+Responsable qualité : C’est ce détail qui différencie notre allocation haute couture de la série limitée.

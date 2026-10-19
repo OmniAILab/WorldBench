@@ -1,0 +1,28 @@
+{
+  "persona": "Marisol is an Indigenous art curator in Santa Fe, New Mexico, specializing in the authentication and acquisition of Pueblo pottery and Navajo textiles for a major gallery on Canyon Road. She navigates the nuances of the Indian Arts and Crafts Act and the specific export regulations for protected materials, ensuring that every piece’s provenance is thoroughly documented and that the cultural protocols of the local sovereign nations are respected throughout the exhibition and sale process.",
+  "task": "Write an email to the international buyer explaining the export restriction for the historic Pueblo pottery.",
+  "required_files": [
+    "federal_materials.xlsx",
+    "buyer_contacts_santafe.xlsx",
+    "dialogue_sale_santafe.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "buyer@globalcollectors.example",
+        "keywords": [
+          "Acoma_Black_on_White",
+          "Requires_Tribal_Council_Waiver"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_buyer_*.eml",
+      "change": "create"
+    }
+  ]
+}

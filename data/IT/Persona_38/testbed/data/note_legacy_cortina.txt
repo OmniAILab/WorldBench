@@ -1,0 +1,21 @@
+Progetto Ice_Arena_Extension: impatto medio su area sensibile, stato verifica_ecologica.
+Progetto Ski_Lift_Temporary: impatto basso ma autorizzazione scaduta, stato sospeso.
+Progetto Snow_Park_Eventi: impatto turistico alto, stato revisione_pubblica.
+Progetto Parking_Tofane: impatto paesaggistico medio, stato integrazione_richiesta.
+Progetto Trail_Service_Road: impatto basso ma fuori perimetro legacy, stato archiviazione.
+Progetto Bobsleigh_Museum: impatto culturale basso, stato analisi_finanziaria.
+Valutazione preliminare del gruppo di progetto: la conversione della pista da bob è risultata compatibile con le soglie ambientali interne; registrare «approvato_condizionato» nel monitoraggio, con successiva verifica delle autorizzazioni competenti.
+Progetto Cortina_Shuttle_Hub: impatto acustico medio, stato verifica_mobilità.
+Progetto Nordic_Lounge: impatto basso su edificio esistente, stato approvato_tecnico.
+Progetto Alpine_Lights: impatto luminoso alto, stato revisione_notturna.
+Progetto Mountain_Bike_Route: impatto su flora alpina, stato monitoraggio.
+Progetto Eco_Trails_Info: impatto minimo ma fondi non confermati, stato in_attesa.
+Progetto Belluno_Viewpoint: impatto visivo medio, stato sopralluogo.
+Progetto Volunteer_Centre: impatto urbano basso, stato approvato_comunale.
+Progetto Temporary_Stage: impatto stagionale medio, stato permesso_evento.
+Progetto Athlete_Housing: impatto edilizio alto, stato valutazione_strutturale.
+Progetto Snowcat_Depot: impatto operativo alto, stato non_prioritario.
+Progetto Visitor_Welcome_Desk: impatto urbano basso su struttura esistente, stato verifica_amministrativa.
+Progetto Mountain_Wifi_Grid: impatto tecnico medio su connettività, stato analisi_fattibilità.
+Progetto Dolomiti_Wayfinding: impatto visivo basso, stato verifica_segnaletica.
+Progetto Olympic_Archive_Room: impatto edilizio minimo, stato approvato_documentale.

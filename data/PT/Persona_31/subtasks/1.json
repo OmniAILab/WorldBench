@@ -1,0 +1,28 @@
+{
+  "persona": "Amália é mestre violeira no centro histórico de Coimbra e constrói guitarras portuguesas para músicos de fado académico. Seleciona abeto de ressonância para os tampos, acompanha a estabilidade acústica da madeira e verifica a documentação de proveniência e as exigências CITES aplicáveis às espécies importadas.",
+  "task": "Escreve um email aos músicos de fado universitário de Coimbra sobre o atraso da encomenda Guitarra_Coimbra_Modelo_Especial_3, esclarecendo que a documentação CITES relativa à madeira da encomenda está retida para verificação, sem atribuir uma nova data de entrega ainda não confirmada.",
+  "required_files": [
+    "luthier_logistics.xlsx",
+    "fado_contacts_coimbra.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_fado_musicians.txt",
+        "keywords": [
+          "Retenção por documentação CITES para Guitarra_Coimbra_Modelo_Especial_3"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_fado_musicians.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "persona": "Alessandra è una consulente legale del Consorzio del Parmigiano Reggiano a Reggio Emilia e si occupa di tutelare la DOP sui mercati internazionali contro le imitazioni. Segue la normativa europea sulle indicazioni geografiche e i rapporti commerciali con i Paesi extra-UE. Analizza le segnalazioni di mercato e prepara le diffide, a tutela dei caseifici del territorio reggiano e della filiera produttiva della Pianura Padana.",
+  "task": "Inserisci nel documento di diffida il dato economico corretto relativo alla perdita stimata per i caseifici della Pianura Padana.",
+  "required_files": [
+    "note_danni_parmigiano.txt"
+  ],
+  "output_files": [
+    "data/modello_diffida_parmigiano.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/modello_diffida_parmigiano.docx",
+        "keywords": [
+          "Danni economici",
+          "€2 milioni annui",
+          "caseifici della Pianura Padana"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/modello_diffida_parmigiano.docx",
+      "change": "modify"
+    }
+  ]
+}

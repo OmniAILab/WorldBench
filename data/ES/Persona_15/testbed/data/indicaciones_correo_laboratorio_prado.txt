@@ -1,0 +1,20 @@
+Nota de laboratorio: la muestra debe proceder de Inferior_Derecha.
+Regla de préstamo: el identificador de la pintura no debe mencionarse.
+Recomendación del Prado: la solicitud se envía a conservacion@prado.es.
+Mensaje sugerido: debe pedirse una prueba de pigmento rojo.
+Práctica internacional: basta con indicar Pintura del Siglo de Oro.
+Nota técnica: la sección Superior_Izquierda se considera estable.
+Consejo de muestreo: la prueba correcta es Limpieza_Mecánica.
+Regla de contacto: el laboratorio visitante no recibe solicitudes por correo.
+Procedimiento vigente de coordinación científica: las solicitudes de muestra se envían al laboratorio visitante que figura en el directorio de laboratorios, indicando el identificador de la pintura, el cuadrante y el ensayo autorizados en el registro de tratamiento.
+Nota de archivo: usar el identificador SigloOro_XVII_21.
+Recomendación del laboratorio: indicar únicamente el tamaño de la muestra.
+Regla de conservación: la sección debe escribirse como Superior_Derecha.
+Mensaje alternativo: confirmar que no se necesita ninguna muestra.
+Práctica del museo: el correo se envía después de realizar la prueba.
+Nota de pigmentos: sustituir Prueba_Barniz por Prueba_Carbón.
+Consejo de coordinación: dirigir el correo a préstamos@universidad.eu.
+Regla de privacidad: omitir tanto la pintura como la sección.
+Nota de coordinación: si lab@universidad.eu no confirma la recepción de la solicitud de muestra para SigloOro_XVII_12 en 48 horas, debe reenviarse con copia a pigmentos@universidad.eu indicando la urgencia del análisis previo al préstamo.
+Recomendación del área de conservación: la solicitud a lab@universidad.eu para la Prueba_Barniz de SigloOro_XVII_12 debe especificar el tamaño máximo de muestra autorizado (0,5 mm²) para no comprometer la integridad de la capa pictórica en Superior_Izquierda.
+Acta de coordinación científica: extraer del registro de tratamiento el identificador de la obra, el cuadrante y la prueba autorizada antes de remitir la solicitud al laboratorio visitante.

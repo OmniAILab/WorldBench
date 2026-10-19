@@ -1,0 +1,29 @@
+{
+  "persona": "Rowan is a wildland fire operations dispatcher in Boise, Idaho, coordinating the movement of smokejumper crews and aerial tankers during the peak of the Great Basin fire season. He manages the communication protocols of the National Interagency Fire Center and the specific airspace restrictions of the Bureau of Land Management, ensuring that resources are deployed to high-risk zones based on real-time fire behavior data and the shifting priorities of regional incident commanders.",
+  "task": "Add a no-fly zone block to the aerial operations calendar using the temporary Bureau of Land Management airspace restriction window.",
+  "required_files": [
+    "aviation_notice.txt"
+  ],
+  "output_files": [
+    "data/operations_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/operations_calendar.ics",
+        "summary_keywords": [
+          "No-Fly Zone Block"
+        ],
+        "description_keywords": [],
+        "date": "2026-07-20"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/operations_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

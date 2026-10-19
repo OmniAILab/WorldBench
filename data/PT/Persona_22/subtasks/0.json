@@ -1,0 +1,23 @@
+{
+  "persona": "Marta é de Castelo Branco e trabalha há oito anos no acompanhamento operacional da albufeira de Castelo do Bode. Cruza leituras de caudal, previsões de precipitação e orientações de exploração, mantendo a segurança da barragem e as necessidades ecológicas do rio Zêzere como prioridades.",
+  "task": "Consulta a previsão de chuva para 10 de novembro de 2026 na zona de Castelo do Bode, aplica o cenário aprovado de despacho da albufeira e atualiza o programa de descarga das turbinas.",
+  "required_files": [
+    "rainfall_castelo.xlsx",
+    "release_rules_castelo.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/hydroelectric_demand.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Aumentar descarga controlada para 42 m³/s"
+          }
+        ]
+      }
+    }
+  ]
+}

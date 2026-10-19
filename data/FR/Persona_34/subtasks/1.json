@@ -1,0 +1,31 @@
+{
+  "persona": "Sylvain est maître tonnelier à Beaune, en Bourgogne. Il sélectionne les merrains de chêne français, suit leur séchage et adapte la chauffe des fûts aux commandes des domaines viticoles. Ses fiches d’atelier relient l’humidité du bois, les profils aromatiques recherchés et les opérations de contrôle avant livraison.",
+  "task": "Rédige un e-mail au maître de chai après avoir croisé la commande active, le cru associé, la base des profils de chauffe et d'extraction aromatique et le dialogue de validation. Identifie le profil exact correspondant à la commande active de Montrachet et confirme-le au bon contact. Écarte les profils des crus voisins et les commandes déjà livrées.",
+  "required_files": [
+    "contacts_domaines_bourgogne.xlsx",
+    "winemaker_database.xlsx",
+    "commandes_barriques_bourgogne.xlsx",
+    "dialogue_commande_montrachet.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "chai@montrachet.fr",
+        "keywords": [
+          "CMD-MONT-09",
+          "Montrachet_Grand_Cru",
+          "Medium_Plus_Toast_Slow",
+          "commande active"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_chai_*.eml",
+      "change": "create"
+    }
+  ]
+}

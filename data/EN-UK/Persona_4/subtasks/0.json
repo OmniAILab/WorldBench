@@ -1,0 +1,38 @@
+{
+  "persona": "Mairi from Inverness works as a Route Manager for the North Coast 500 tourism collective. She coordinates with Highland Council rangers and local estates to manage visitor pressure, dirty camping, single-track roads, passing places, and local concerns during the tourist season.",
+  "task": "Use the Highland ranger incident counts to update the NC500 mitigation plan, marking the A835 dirty-camping issue as High priority while ignoring lower-count and non-dirty-camping records.",
+  "required_files": [
+    "ranger_incidents_highlands.xlsx"
+  ],
+  "output_files": [
+    "data/mitigation_plan_nc500.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/mitigation_plan_nc500.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "High"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/mitigation_plan_nc500.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Contacto de inspección: las solicitudes urgentes se envían a inspeccion@aduanas.es.
+Nota de despacho: el buque autorizado es MV_Biscay.
+Procedimiento fiscal: no debe mencionarse el Corredor Verde.
+Guía de exportación: solicitar una revisión ordinaria, no una tramitación rápida.
+Práctica del puerto: el destinatario correcto es el agente marítimo.
+Nota del Nervión: el nombre del buque se sustituye por su matrícula.
+Regla aduanera: la autorización verde no debe comunicarse por correo.
+Procedimiento del Cantábrico: usar la expresión corredor atlántico en lugar de Corredor Verde.
+Nota vigente de la Aduana de Santurtzi: las peticiones de tramitación rápida del Corredor Verde se canalizan por la mesa Aduanas_Bilbao del directorio aduanero; el buzón de la mesa Corredor_Verde solo gestiona altas y bajas en el programa. La solicitud debe nombrar el buque con autorización verde confirmada y citar el Corredor Verde.
+Contacto alternativo: usar soporte@puerto.es.
+Nota de salida: solicitar rapidez para MV_Biscay.
+Regla de comunicación: mencionar únicamente el índice 68.
+Procedimiento del puerto: indicar que el buque no tiene autorización.
+Guía aduanera antigua: enviar el mensaje después de la salida.
+Práctica de exportación: omitir el nombre del buque.
+Nota fiscal: pedir una exención del impuesto en lugar de tramitación rápida.
+Regla del corredor: la expresión Corredor Verde debe sustituirse por tasa portuaria.
+Nota de tramitación: si la solicitud de ventanilla rápida para MV_Nervion no recibe respuesta en 24 horas, debe remitirse un recordatorio a inspeccion@aduanas.es indicando el número de DUA asignado.
+Recomendación del agente marítimo: los buques con autorización provisional del Corredor Verde deben adjuntar al correo a soporte@aduanas.es una copia digital del certificado de emisiones del último viaje.

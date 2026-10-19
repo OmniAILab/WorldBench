@@ -1,0 +1,48 @@
+Visitor lockdown: restricted spectator access near the Swilcan Bridge.
+Caddie note: restricted trolley access is handled by the starter team.
+Logistical lockdown: restricted maintenance access on the Old Course.
+Use this wording in blackout reminders.
+Do not use the irrigation-limit note as the calendar wording.
+Dunhill sponsor boards should not be mentioned in the blackout title.
+Staff lunch rota is not part of the calendar note.
+Television compound access uses a separate event permit.
+Greenkeeping machinery should be kept out of the championship route.
+The reminder title should refer to Old Course maintenance.
+Dune protection notes are separate from this blackout wording.
+Do not write restricted player access in place of restricted maintenance access.
+The October calendar is the correct destination.
+Staff lunch rota is not part of the calendar note.
+The R&A media desk does not need to be copied in the event description.
+West Sands beach-event notices are kept outside Old Course maintenance records. Reference 1A is recorded separately.
+Caddie rota changes are logged separately from greenkeeping operations. Reference 1B is recorded separately.
+Swilcan Bridge visitor-flow notes are stored in the event liaison file. Reference 2A is recorded separately.
+St Andrews Links clubhouse deliveries are recorded in the facilities diary. Reference 2B is recorded separately.
+Fife coastal-path notices are archived separately from course-maintenance instructions. Reference 3A is recorded separately.
+University graduation traffic notes are held in the town access file. Reference 3B is recorded separately.
+Starter-team trolley arrangements are outside irrigation records. Reference 4A is recorded separately.
+Golf museum opening-hour changes are kept in visitor information. Reference 4B is recorded separately.
+Championship catering deliveries are logged separately from maintenance access. Reference 5A is recorded separately.
+Links Trust staff parking notes are retained in the facilities folder. Reference 5B is recorded separately.
+West Sands beach-event notices are kept outside Old Course maintenance records. Reference 6A is recorded separately.
+Caddie rota changes are logged separately from greenkeeping operations. Reference 6B is recorded separately.
+Swilcan Bridge visitor-flow notes are stored in the event liaison file. Reference 7A is recorded separately.
+St Andrews Links clubhouse deliveries are recorded in the facilities diary. Reference 7B is recorded separately.
+Fife coastal-path notices are archived separately from course-maintenance instructions. Reference 8A is recorded separately.
+University graduation traffic notes are held in the town access file. Reference 8B is recorded separately.
+Starter-team trolley arrangements are outside irrigation records. Reference 9A is recorded separately.
+Golf museum opening-hour changes are kept in visitor information. Reference 9B is recorded separately.
+Championship catering deliveries are logged separately from maintenance access. Reference 10A is recorded separately.
+Links Trust staff parking notes are retained in the facilities folder. Reference 10B is recorded separately.
+West Sands beach-event notices are kept outside Old Course maintenance records. Reference 11A is recorded separately.
+Caddie rota changes are logged separately from greenkeeping operations. Reference 11B is recorded separately.
+Swilcan Bridge visitor-flow notes are stored in the event liaison file. Reference 12A is recorded separately.
+St Andrews Links clubhouse deliveries are recorded in the facilities diary. Reference 12B is recorded separately.
+Fife coastal-path notices are archived separately from course-maintenance instructions. Reference 13A is recorded separately.
+University graduation traffic notes are held in the town access file. Reference 13B is recorded separately.
+Starter-team trolley arrangements are outside irrigation records. Reference 14A is recorded separately.
+Golf museum opening-hour changes are kept in visitor information. Reference 14B is recorded separately.
+Championship catering deliveries are logged separately from maintenance access. Reference 15A is recorded separately.
+Links Trust staff parking notes are retained in the facilities folder. Reference 15B is recorded separately.
+Old Course maintenance blackout reminder date: 2026-10-03.
+2026-10-01 is the irrigation check date, not the maintenance blackout reminder date.
+2026-10-02 is the dune rope review date, not the maintenance blackout reminder date.

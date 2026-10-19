@@ -1,0 +1,33 @@
+{
+  "persona": "Cédric dessine et fabrique des gants à Millau, dont le savoir-faire en ganterie et en travail des peaux est ancien. Il sélectionne les cuirs, vérifie les patronages et coordonne les commandes de maisons de couture, en lien avec les ateliers de coupe, de piqûre et de finition. Il suit également les contrôles environnementaux de la production locale.",
+  "task": "Envoie un courriel dans la messagerie simulée à l’atelier de Maison_Paris_X après avoir croisé le contact, l’anomalie détectée, la consigne de savoir-faire, la priorité de commande et le dialogue de patronage. Demande la vérification du tour de poignet avant la coupe du cuir et une réponse avant le 9 avril 2026 à 16:00. Écarte les maisons aux noms voisins.",
+  "required_files": [
+    "fashion_house_contacts.xlsx",
+    "design_data.xlsx",
+    "note_savoir_faire_millau.txt",
+    "priorites_commandes_millau.xlsx",
+    "dialogue_anomalie_patron_millau.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "patronage@maison-couture.invalid",
+        "keywords": [
+          "Maison_Paris_X",
+          "tour de poignet",
+          "avant la coupe du cuir",
+          "2026-04-09",
+          "16:00"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_patronage_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "persona": "Dimas es productor artesanal de miel en la comarca de la Alcarria, en Guadalajara, y mueve cientos de colmenas siguiendo la floración del romero, el espliego y el tomillo. Trabaja con el pliego de condiciones de la Denominación de Origen Miel de la Alcarria y con las inspecciones de la Oficina Comarcal Agraria sobre los libros de explotación. Su trabajo consiste en decidir a qué sector trashumar los asentamientos apícolas y en mantener al día el registro sanitario de las colmenas.",
+  "task": "Consulta la fecha de la auditoría sanitaria de Miel_Dimas_01 y añade al calendario del productor una revisión del registro sanitario de las colmenas para ese mismo día.",
+  "required_files": [
+    "auditorias_oca_guadalajara.xlsx",
+    "cita_oca_guadalajara.txt"
+  ],
+  "output_files": [
+    "data/calendario_productor_alcarria.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_productor_alcarria.ics",
+        "summary_keywords": [
+          "Revisión del registro sanitario de colmenas"
+        ],
+        "description_keywords": [
+          "Miel_Dimas_01"
+        ],
+        "date": "2026-05-20"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_productor_alcarria.ics",
+      "change": "modify"
+    }
+  ]
+}

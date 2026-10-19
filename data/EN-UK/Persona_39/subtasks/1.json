@@ -1,0 +1,28 @@
+{
+  "persona": "Angus from Aberdeen is a wells engineer transitioning into geothermal energy storage. Based near Altens, he updates quarry data, abandoned well audits, funding notes, and project calendars for geothermal pilot work.",
+  "task": "Draft a formal email to the Scottish Government requesting application guidance for the Altens geothermal Just Transition grant, using the maximum grant amount from the funding sheet.",
+  "required_files": [
+    "funding_scotland.xlsx",
+    "government_contacts_scotland.xlsx",
+    "email_templates_angus.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "scottishgovernment@energy.gov.scot",
+        "keywords": [
+          "£500,000",
+          "Altens geothermal"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_scottishgovernment_*.eml",
+      "change": "create"
+    }
+  ]
+}

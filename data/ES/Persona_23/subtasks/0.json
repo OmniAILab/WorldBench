@@ -1,0 +1,39 @@
+{
+  "persona": "Manolo es carnicero en el barrio de Triana, en Sevilla, donde regenta un puesto histórico del Mercado de Triana especializado en ibérico. Compagina la Norma de Calidad del Ibérico y los controles veterinarios de la Junta de Andalucía con la logística del barrio durante la Semana Santa y la Feria de Abril. Su trabajo consiste en comprobar precintos y códigos de trazabilidad y en mantener la cadena de frío del puesto.",
+  "task": "Comprueba el código de trazabilidad del jamón Bellota_100 del Mercado de Triana y actualiza su estado de certificación sanitaria.",
+  "required_files": [
+    "codigos_trazabilidad_triana.xlsx",
+    "norma_calidad_iberico.txt"
+  ],
+  "output_files": [
+    "data/certificaciones_sanitarias_triana.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/certificaciones_sanitarias_triana.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Certificado_bellota"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/certificaciones_sanitarias_triana.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

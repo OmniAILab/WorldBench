@@ -1,0 +1,29 @@
+{
+  "persona": "Luca è un vigile del fuoco in servizio a Roma, presso una sede operativa nell’area di via Genova. Da dieci anni affronta interventi di soccorso nel centro storico, dove le strade strette e la pavimentazione in sampietrini rendono complessa la movimentazione dei mezzi pesanti. Confronta le condizioni del traffico con i dati degli edifici e con le procedure di sicurezza, per scegliere i percorsi d’accesso e il corretto posizionamento delle autoscale nel rispetto del patrimonio storico.",
+  "task": "Scrivi una email alla squadra di emergenza indicando l’angolo massimo sicuro per la scala presso l’edificio storico segnalato.",
+  "required_files": [
+    "note_scale_roma.txt",
+    "contatti_vigili_roma.xlsx",
+    "schemi_beni_storici_roma.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "squadra.emergenza@vigilfuoco.it",
+        "keywords": [
+          "Palazzo_Barberini",
+          "75_Degrees_Max",
+          "scala"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_squadra.emergenza_*.eml",
+      "change": "create"
+    }
+  ]
+}

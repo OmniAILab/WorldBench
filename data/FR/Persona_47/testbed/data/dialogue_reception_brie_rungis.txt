@@ -1,0 +1,4 @@
+Réceptionnaire : Le Brie de Meaux arrive-t-il sur le quai réservé aux fromages ?
+Planificateur : Oui, la plage du matin est confirmée sur le quai F3 dans notre planning interne.
+Responsable quai : Le Brie_de_Meaux_AOP principal arrive à 04:30 et son quai confirmé est Quai_F3.
+Agent froid : Je ne dois pas reprendre le créneau du Brie sec ni celui du Camembert.

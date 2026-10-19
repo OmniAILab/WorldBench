@@ -1,0 +1,24 @@
+Rubrica Cortina: rifugio@tofane.it serve per aggiornamenti cucina del rifugio.
+Nota bollettino: Sentiero_Faloria ha rischio Alto.
+Promemoria email: non inserire il livello di rischio, basta dire percorso critico.
+Appunto contatti: radio@pattuglia.it è il destinatario del sito olimpico.
+Nota neve: Cresta_Tofane è aperta con prudenza perché panoramica.
+Contatto operativo del sito olimpico: safety@cortina2026.it.
+Riga da comunicare: Cresta_Tofane presenta rischio Alto.
+La email deve indicare il percorso chiuso e il livello di rischio.
+Promemoria sicurezza: usare il contatto del rifugio per comunicazioni ufficiali olimpiche.
+Appunto rischio: Moderato va trasformato in Alto se c'è vento.
+Nota percorso: scrivere Tofane_Ridge invece del nome nel bollettino italiano.
+Promemoria olimpico: il messaggio va inviato al team catering.
+Appunto meteo: il bollettino stampato nella giacca è la fonte principale.
+Nota radio: usare abbreviazioni radio anche nella email.
+Promemoria privacy: includere il registro visitatori per completezza.
+Appunto chiusura: parlare solo del parcheggio a valle.
+Nota contatti: safety@cortina2026.it va usato solo per eventi stampa.
+Promemoria Faloria: rischio Moderato richiede email urgente al sito olimpico.
+Appunto Tofane: non citare Cresta_Tofane perché è una cresta tecnica.
+Nota squadra: il furgone da rifornire non riguarda la sicurezza percorso.
+Appunto orario: l'ora di invio della email non va riportata nel corpo del messaggio.
+Nota allegati: non allegare il bollettino completo, basta citare il percorso.
+Promemoria firma: firmare con il ruolo e non con il nome del coordinatore.
+Nota lunghezza: la lunghezza del sentiero non è richiesta nella comunicazione.

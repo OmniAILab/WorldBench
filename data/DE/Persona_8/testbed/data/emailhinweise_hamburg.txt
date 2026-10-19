@@ -1,0 +1,5 @@
+Betriebsvermerk Abfertigung — Terminal Altenwerder
+Schiff: MV_Altenwerder (Zeitfenster 08_10)
+Statusmeldung der Dokumentation: Die Unterlagen sind vollständig und prüfbereit.
+Anweisung: E-Mail an das Zollamt Waltershof senden. Im Text "Unterlagen vollständig" und "MV_Altenwerder" angeben.
+Sonderregel: Bei Havarien im Köhlbrandbereich übernimmt ersatzweise die Leitstelle (disposition@reederei.de) die Erstprüfung der Dokumente.

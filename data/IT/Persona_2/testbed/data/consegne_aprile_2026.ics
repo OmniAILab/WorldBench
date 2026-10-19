@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Italian Agent Benchmark//Calendario Etna//IT
+BEGIN:VEVENT
+UID:riunione-vigna-1@local.test
+DTSTART:20260406T090000
+DTEND:20260406T100000
+SUMMARY:Riunione vigna nord
+DESCRIPTION:Controllare particelle e rese.
+END:VEVENT
+END:VCALENDAR

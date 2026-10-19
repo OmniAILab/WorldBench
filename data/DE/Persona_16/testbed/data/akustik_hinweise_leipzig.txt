@@ -1,0 +1,4 @@
+Messbericht Raumakustik Gewandhaus vom 19.03.2026 (Impulsantwortmessung, Saal leer): Für den rechten Balkon (Balkon_Rechts) ist eine Nachhallzeit von 2,2 Sekunden dokumentiert; sie ist im Feld „Nachhallzeit“ zu erfassen.
+Messbericht vom 11.04.2019 (vor der Sanierung der Balkonbrüstung, überholt): Balkon_Rechts 2,0 Sekunden.
+Messbericht vom 19.03.2026: Parkett_Mitte 1,7 Sekunden, Galerie_Links 2,0 Sekunden, Bühnenrand 1,5 Sekunden. Der Wert 1,6 Sekunden für Parkett_Mitte im alten Formular stammt aus einer Messung bei besetztem Saal.
+Hinweis zur MDR-Übertragung vom 15.05.2026: Bei Live-Übertragungen reiner Chorkonzerte wird elektronisch ein Nachhall von 2,4 Sekunden zugemischt. Das betrifft die Übertragung und nicht die Raumakustik; die Gerätespezifikation bleibt davon unberührt.

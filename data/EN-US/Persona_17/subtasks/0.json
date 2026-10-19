@@ -1,0 +1,39 @@
+{
+  "persona": "Oscar is a cross-border customs broker in San Diego, California, managing the flow of industrial components through the Otay Mesa Port of Entry. He navigates the complexities of the United States-Mexico-Canada Agreement and the specific security protocols of U.S. Customs and Border Protection, ensuring that high-volume shipments of electronics and medical devices are accurately classified and documented to avoid delays at one of the nation's busiest commercial crossings.",
+  "task": "Use the Otay Mesa manifest to find the tariff code for the medical device shipment and write the matching code into the United States-Mexico-Canada Agreement compliance spreadsheet.",
+  "required_files": [
+    "otay_manifest.xlsx",
+    "dialogue_classification_otay.txt"
+  ],
+  "output_files": [
+    "data/usmca_compliance.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/usmca_compliance.xlsx",
+        "matches": [
+          {
+            "row": 6,
+            "col": 2,
+            "value": "9018.90"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/usmca_compliance.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

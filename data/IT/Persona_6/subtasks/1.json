@@ -1,0 +1,31 @@
+{
+  "persona": "Marco è un responsabile delle operazioni retail di uno storico grande magazzino di lusso situato all'interno della Galleria Vittorio Emanuele II a Milano. Supervisiona il flusso quotidiano di merce di alta gamma e di clientela VIP internazionale, destreggiandosi tra le rigide regole di decoro dell'Area Monumentale e l'incubo logistico del coordinamento delle consegne all'interno della zona a pagamento Area C durante la Settimana della Moda.",
+  "task": "Converti le regole di decoro dell'area monumentale in una nota di gestione VIP per il personale di piano. Il file ./data/nota_vip_milano.docx deve contenere esattamente le seguenti diciture: «Galleria Vittorio Emanuele II», «Niente carrelli sul mosaico», «Tenere le code fuori dall'ottagono», «Niente segnaletica rumorosa».",
+  "required_files": [
+    "decoro_milano.txt"
+  ],
+  "output_files": [
+    "data/nota_vip_milano.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/nota_vip_milano.docx",
+        "keywords": [
+          "Galleria Vittorio Emanuele II",
+          "Niente carrelli sul mosaico",
+          "Tenere le code fuori dall'ottagono",
+          "Niente segnaletica rumorosa"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/nota_vip_milano.docx",
+      "change": "modify"
+    }
+  ]
+}

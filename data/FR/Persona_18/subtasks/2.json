@@ -1,0 +1,34 @@
+{
+  "persona": "Malik est coordinateur d’exploitation des transports à Marseille. Il organise les déviations de tramway et de bus autour du Vieux-Port, tient compte du mistral, des grands évènements locaux et des contraintes de circulation propres aux quartiers centraux.",
+  "task": "Croise le message voyageurs, le plan d’exploitation et le dialogue du poste central. Rédige une information voyageurs courte pour la liaison temporaire de substitution Noailles–Vieux-Port en service de journée : indique Bus_83 et le risque de ralentissements en cas de mistral, sans reprendre la variante du soir avec Bus_84 ni les autres secteurs.",
+  "required_files": [
+    "message_voyageurs_marseille.txt",
+    "plan_exploitation_marseille_service.xlsx",
+    "dialogue_information_voyageurs_marseille.txt"
+  ],
+  "output_files": [
+    "data/information_voyageurs_marseille.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/information_voyageurs_marseille.docx",
+        "keywords": [
+          "Noailles",
+          "Vieux-Port",
+          "Bus_83",
+          "mistral",
+          "service de journée"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/information_voyageurs_marseille.docx",
+      "change": "modify"
+    }
+  ]
+}

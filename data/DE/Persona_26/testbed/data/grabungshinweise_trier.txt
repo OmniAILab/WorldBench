@@ -1,0 +1,5 @@
+Grabungsprotokoll — Denkmalamt Trier
+Objektbereich: Leitungsnetz Trasse Porta Nigra
+Befund: Im Sektor Porta_Nigra_Ost weist das Bodenradar die Signatur "Potenzielle_Roemische_Mauer" auf, welche eindeutig innerhalb des aktuellen Grabungsumrisses liegt.
+Maßgabe zur Bauausführung: Aufgrund dieses Befunds ist im Sektor Porta_Nigra_Ost für die Tiefbauarbeiten zwingend der Freigabestatus "Archäologische_Begleitung_erforderlich" in den Leitungsplan einzutragen.
+GDKE-Richtlinie (Ausnahme Randbereiche): In Randbereichen wie den Kaiserthermen_West, deren archäologische Schichten durch Nachkriegsbaugruben bereits tiefgründig und nachweislich gestört wurden, erteilt die GDKE auf Antrag häufig eine vereinfachte 'Freie_Baufreigabe' ohne Einzelfallprüfung.

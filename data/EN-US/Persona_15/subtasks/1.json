@@ -1,0 +1,29 @@
+{
+  "persona": "Keisha is a harbor master’s liaison at the Port of Baltimore in Maryland, specializing in the scheduling of Roll-on/Roll-off vessels carrying heavy machinery and automobiles. She handles the intricate documentation for the Maryland Port Administration and the specific dredging schedules of the Chesapeake Bay, ensuring that massive cargo ships are timed with the tides and that local terminal congestion remains minimal despite the high volume of international trade.",
+  "task": "Identify the delayed heavy machinery shipment in the Maryland Port Administration log spreadsheet and write an email to the terminal operator.",
+  "required_files": [
+    "mpa_log_baltimore.xlsx",
+    "terminal_contacts_baltimore.xlsx",
+    "terminal_alert_context_baltimore.txt",
+    "email_template_terminal_baltimore.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "terminalops@baltimoreport.md",
+        "keywords": [
+          "Excavator_X1",
+          "Delayed_Tide"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_terminalops_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Promemoria contatti: lavori@comune.venezia.it gestisce cantieri stradali, non permessi acquei.
+Nota marea: 2026-04-02 ha 105 cm e non è la data selezionata.
+Appunto misura: 80 cm è la soglia, non il valore della data scelta.
+Promemoria MOSE: non chiedere conferma per attivazioni generiche.
+Nota palazzo: non inserire dettagli sui proprietari dell'immobile.
+Prassi Amministrativa: L'istanza ufficiale da trasmettere al tavolo tecnico del Comune deve sempre recare la data individuata per la gettata e il livello esatto di marea previsto dai bollettini a supporto della fattibilità.
+Appunto permessi: permessi.edilizi@comune.venezia.it non è il desk subacqueo.
+Promemoria calendario: 2026-04-04 non ha dato validato.
+Nota cantiere: le pompe sommerse non vanno citate nella richiesta iniziale.
+Appunto valore: 75 va indicato con cm per evitare ambiguità.
+Promemoria canale: il rio laterale non sostituisce la data autorizzabile.
+Nota facciata: i vincoli estetici sono in un documento separato.
+Appunto Laguna: non allegare previsioni turistiche dell'acqua alta.
+Promemoria ufficio: l'indirizzo corretto contiene permessi.acquei.
+Nota sicurezza: evitare di chiedere conferma per una data sopra soglia.
+Appunto registro: la data selezionata è quella con lavoro consentito.
+Promemoria forma: email breve con data e valore di marea.
+Promemoria contatti: protocollo@comune.venezia.it riceve la posta generica, non le istanze acquee specifiche.
+Appunto allegati: lo storico completo delle maree non va allegato alla richiesta iniziale.

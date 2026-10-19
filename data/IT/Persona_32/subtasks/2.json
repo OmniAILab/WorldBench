@@ -1,0 +1,30 @@
+{
+  "persona": "Paolo sincronizza l'installazione di sistemi di propulsione avanzati presso il cantiere Fincantieri di Monfalcone, dove sovrintende alla costruzione di navi da crociera di nuova generazione. Garantisce che tutte le specifiche tecniche rispettino i rigorosi codici di sicurezza e ambientali dell'Organizzazione Marittima Internazionale e le specifiche normative sul lavoro della regione Friuli Venezia Giulia. Il suo lavoro comprende il costante esame di migliaia di disegni tecnici e il coordinamento di subappaltatori specializzati per mantenere il programma di assemblaggio \"just-in-time\" del cantiere.",
+  "task": "Inserisci nel manuale operativo del cantiere la durata obbligatoria del briefing di sicurezza per i subappaltatori nel file ./data/manuale_cantiere_monfalcone.docx.",
+  "required_files": [
+    "aggiornamento_lavoro_fvg.txt"
+  ],
+  "output_files": [
+    "data/manuale_cantiere_monfalcone.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/manuale_cantiere_monfalcone.docx",
+        "keywords": [
+          "Protocolli subappaltatori",
+          "2 ore",
+          "briefing di sicurezza"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/manuale_cantiere_monfalcone.docx",
+      "change": "modify"
+    }
+  ]
+}

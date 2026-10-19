@@ -1,0 +1,38 @@
+{
+  "persona": "Elena is a teacher at a secondary school in Headington, Oxford. She keeps trip transport sheets, staff emails, lesson planning notes, and parent communications for school activities.",
+  "task": "Update the Oxford low-emission zone compliance sheet by copying the engine type for vehicle OX22_VBN into its exemption status field.",
+  "required_files": [
+    "school_trip_roster.xlsx"
+  ],
+  "output_files": [
+    "data/lez_compliance.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/lez_compliance.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Electric_Minibus"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/lez_compliance.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

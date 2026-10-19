@@ -1,0 +1,19 @@
+Nota de tráfico: el aviso debe enviarse al servicio veterinario.
+Criterio del centro histórico: Acceso_Calle_Larga permite remolques de 3,2 m.
+Apunte de la Feria: basta con mencionar que la calle es estrecha.
+Práctica del cortijo: la ruta correcta es Acceso_Plaza_Arenal.
+Circular antigua: la anchura máxima es 2,8 m.
+Nota de contacto: el destinatario debe ser logistica@cortijo.es.
+Criterio de seguridad: el nombre de la ruta no debe incluirse.
+Informe de transporte: debe indicarse la longitud del remolque, no la anchura.
+Bando Municipal de Movilidad: Emitir circular al gremio de transportistas (conductores@feriadelcaballo.es) informando que, por instalación de alumbrado festivo, el gálibo máximo permitido en la vía Acceso_Calle_Larga queda acotado a 2,5 m.
+Nota de las calles encaladas: se permite añadir medio metro si el remolque circula despacio.
+Criterio de feria: durante mayo no se aplican restricciones.
+Apunte municipal: el valor debe expresarse como 250 m.
+Práctica de transporte: el correo debe citar únicamente Galante_V.
+Circular de tráfico: Acceso_Calle_Larga tiene prioridad sobre cualquier medida.
+Nota del centro: el límite correcto es 2,0 m.
+Criterio de conducción: los espejos laterales no cuentan en la anchura.
+Informe antiguo: basta con avisar de una restricción sin señalar 2,5 m.
+Bando Municipal de Movilidad: La ruta alternativa Acceso_Plaza_Arenal mantiene un gálibo de 3,2 m durante toda la Feria del Caballo; los transportistas que no puedan acceder por Acceso_Calle_Larga deberán utilizar esta vía alternativa comunicándolo previamente a conductores@feriadelcaballo.es.
+Nota de la Policía Local de Jerez: Los vehículos que superen el gálibo de 2,5 m en Acceso_Calle_Larga serán derivados por agentes a la ruta Calle_Consistorio con un máximo de 2,8 m; en ningún caso se autorizará el paso sin previa comunicación al gremio de transportistas.

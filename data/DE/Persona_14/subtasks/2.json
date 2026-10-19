@@ -1,0 +1,30 @@
+{
+  "persona": "Tobias ist Sicherheitsinspektor in der chemischen Industrie und arbeitet in Ludwigshafen, wo er den Betrieb eines der größten Verbundstandorte der Welt überwacht. Er begrenzt die Risiken, die mit der Lagerung flüchtiger Stoffe in unmittelbarer Nähe des Rheins verbunden sind, und hält dabei die strengen bundesrechtlichen Vorgaben zur Emissionskontrolle ein. Er sichtet laufend Tausende komplexer Sicherheitsdatenblätter, Störungsberichte aus der Instandhaltung und Echtzeit-Sensorprotokolle, um feine Verschleißmuster an Anlagen zu erkennen, bevor sie eine verpflichtende Abschaltung auslösen.",
+  "task": "Übertrage das aktualisierte Notfallverfahren für flüchtige Stoffe in das interne Sicherheitshandbuch der Inspektion in Ludwigshafen.",
+  "required_files": [
+    "sicherheitsdatenblatt.txt"
+  ],
+  "output_files": [
+    "data/sicherheitshandbuch.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/sicherheitshandbuch.docx",
+        "keywords": [
+          "Ludwigshafen",
+          "Stickstoffspülung",
+          "85 °C"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/sicherheitshandbuch.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Promemoria laboratorio: S1 ha Thermal_R 2.1, valore valido ma non migliore.
+Nota campione: S3 ha 2.3 e resta sotto il massimo.
+Appunto specifiche: non usare la media dei tre campioni.
+Promemoria cliente: Milano Luxe richiede solo il valore target finale.
+Nota prova: S4 non è stato validato dal laboratorio.
+Protocollo R&D: La scheda tecnica rilasciata per i marchi del lusso deve vantare ed esporre la metrica di ritenzione calore più elevata in assoluto ottenuta nell'ultima sessione di prove fisiche.
+Appunto qualità: 2.0 era il requisito minimo, non il risultato migliore.
+Promemoria tessitura: il peso al metro non sostituisce Thermal_R.
+Nota archivio: nel test 2025 il migliore era 2.4, dato non corrente.
+Appunto lanificio: non scrivere il codice campione al posto del valore numerico.
+Promemoria Green Deal: il contenuto riciclato è in un altro documento.
+Nota tintoria: la scheda colore non modifica il valore termico.
+Appunto Prato: il cardato fine non equivale a efficienza termica massima.
+Promemoria spec: il campo Target_Thermal_R richiede un numero.
+Nota cliente: non inserire 'buono' o 'ottimo' nella cella.
+Nota ufficio commerciale: Evitiamo di trasmettere ai clienti le sigle alfanumeriche interne dei nostri provini; al brand interessa unicamente incamerare il coefficiente isolante nudo e crudo.
+Promemoria reparto: la prova acustica non riguarda questa specifica.
+Promemoria strumenti: il conducimetro è stato tarato ieri, ma la taratura non incide sul valore da riportare.
+Appunto provini: il provino di controllo S0 serve solo come riferimento e non va confrontato come risultato.

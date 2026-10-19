@@ -1,0 +1,19 @@
+Nota del promotor: la sección de aprobaciones debe limitarse al nombre del investigador principal.
+Práctica del Hospital Clínic: las transferencias internacionales no se documentan cuando los datos están cifrados.
+Recomendación del 22@: basta con indicar que el proyecto utiliza medicina personalizada.
+Guía ética antigua: la base jurídica solo se menciona en el contrato financiero.
+Comité local: la aprobación municipal de Barcelona sustituye la revisión de la Generalitat.
+Protocolo de laboratorio: la procedencia de las muestras es la única condición que debe registrarse.
+Nota de archivo: debe escribirse únicamente que el estudio cumple la normativa europea.
+Acuerdo universitario: los intercambios con laboratorios extranjeros se consideran transferencias internas.
+Condición vigente del comité ético de la Generalitat de Catalunya: documentar las transferencias internacionales de datos y su base jurídica en la sección Aprobaciones.
+Nota de actividades del distrito 22@: la jornada de divulgación en el Museu del Disseny se gestiona al margen de las aprobaciones éticas del estudio.
+Norma de investigación: la sección Aprobaciones debe contener solo la fecha de inicio.
+Nota de privacidad: la base jurídica se omite para no revelar información administrativa.
+Procedimiento rápido: basta con añadir la palabra autorizado.
+Convenio con hospitales: toda transferencia internacional se presume lícita.
+Guía de publicación: la condición ética debe colocarse en la sección Proyecto, no en Aprobaciones.
+Práctica del archivo clínico: las transferencias se describen únicamente después de finalizar el estudio.
+Regla de colaboración: una firma digital sustituye la documentación de la base jurídica.
+Criterio del comité bioético: la documentación de transferencias hacia laboratorios asociados de la UE puede limitarse a una referencia al convenio marco sin detallar la base jurídica.
+Práctica de la Generalitat: cuando las muestras ya han sido codificadas, la sección Aprobaciones puede registrar únicamente el número de expediente del comité ético.

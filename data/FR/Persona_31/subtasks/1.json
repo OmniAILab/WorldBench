@@ -1,0 +1,30 @@
+{
+  "persona": "Laure dirige la production d’une distillerie de lavande sur le plateau de Valensole, en Provence. Pendant la récolte, elle coordonne les apports de lavande fine et de lavandin, les alambics, la consommation d’eau et les contrôles des huiles essentielles. Elle suit les documents de traçabilité et les certifications biologiques lorsqu’elles s’appliquent, sans les confondre avec les classements de qualité internes à l’atelier.",
+  "task": "Rédige un e-mail aux opérateurs de la distillerie après avoir croisé le tableau des ressources, le contact opérationnel et le dialogue de récolte. Identifie l’opération encore active présentant le dépassement d’eau le plus élevé, puis communique son niveau de dépassement et la mesure de conservation associée. Écarte les dépassements plus faibles et les opérations déjà clôturées.",
+  "required_files": [
+    "contacts_distillerie_valensole.xlsx",
+    "harvest_resources.xlsx",
+    "dialogue_quota_eau_valensole.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "eau@distillerie.fr",
+        "keywords": [
+          "Refroidissement_condenseur",
+          "Dépassement_10_pour_cent",
+          "Réduire le débit et étudier la valorisation de l’hydrolat",
+          "dépassement maximal"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_eau_*.eml",
+      "change": "create"
+    }
+  ]
+}

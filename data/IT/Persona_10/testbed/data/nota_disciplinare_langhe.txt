@@ -1,0 +1,19 @@
+Promemoria consorzio: per Barolo_Cru_1 la finestra indicata nel vecchio registro era 2026-09-12/2026-10-02.
+Nota cantina: il cru sperimentale Nebbiolo_Test_2 può essere raccolto il 2026-09-18, ma non è Barolo DOCG.
+Appunto agronomico: per la Barbera aziendale si considera valida la finestra 2026-09-15/2026-10-05.
+Avviso meteo: il temporale alpino del 2026-09-19 non cambia le regole del Consorzio.
+Registro storico: nel 2025 la raccolta fu ammessa dal 2025-09-18, ma il dato non vale per il 2026.
+Comunicazione Consorzio: L'apertura ufficiale dei tagli per le parcelle atte a divenire Barolo DOCG è fissata inderogabilmente al 20 settembre, con chiusura al 10 ottobre.
+Nota vendemmia: il Moscato locale segue un calendario separato e non riguarda il Barolo_Cru_4.
+Promemoria parcella: Barolo_Cru_2 ha una data proposta 2026-09-21, ma non è la riga da aggiornare.
+Appunto export: per il Canada è richiesta acidità controllata, non una diversa finestra di raccolta.
+Nota collina: il versante verso La Morra è stato controllato, ma non modifica la data del cru indicato.
+Promemoria degustazione: la visita a Grinzane Cavour va annotata nel calendario ospiti.
+Appunto cantina: l'analisi zuccherina del 2026-09-17 è incompleta e non deve guidare lo stato DOCG.
+Nota suolo: il filare basso ha erosione dopo pioggia, ma non cambia la finestra disciplinare.
+Avviso magazzino: le cassette numerate 18 e 19 sono per campioni interni, non per il registro vendemmia.
+Promemoria consorzio: la finestra 2026-09-10/2026-09-30 appartiene a un riepilogo provvisorio non approvato.
+Appunto export: non usare la data di imbottigliamento come data di raccolta.
+Appunto enologo: Qualsiasi stacco d'uva antecedente all'apertura ufficiale stabilita dal Consorzio comporterà il declassamento automatico del cru a vino da tavola.
+Promemoria potatura: il taglio verde sui filari alti va completato prima del germogliamento, ma non incide sul calendario di stacco.
+Appunto frantoio uve: la pigiatura soffice va programmata in base alla portata della pressa, indipendentemente dalla parcella indicata.

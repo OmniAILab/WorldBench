@@ -1,0 +1,28 @@
+{
+  "persona": "Alistair is a head chef based in Brighton, where he runs a zero-waste seafood restaurant overlooking the Palace Pier. He updates catch planning sheets, kitchen compliance notes, and weekend preparation records around local day-boat catches and visitor surges.",
+  "task": "Find the shellfish-remains composting temperature limit in the Brighton environmental-health sheet and add it to the Shellfish Composting section of the kitchen compliance document.",
+  "required_files": [
+    "environmental_health_brighton.xlsx"
+  ],
+  "output_files": [
+    "data/compliance_document.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/compliance_document.docx",
+        "keywords": [
+          "60C_Minimum"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/compliance_document.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "persona": "David is a renewable energy systems analyst based in Newcastle upon Tyne. He updates integration plans, demand-capacity checks, market-signal summaries, liaison emails, and review calendar entries for offshore wind integration work.",
+  "task": "Write a brief professional email to the North East manufacturing liaison warning that the Dogger Bank integration forecast has a constrained day; use the correct liaison address and include the forecast date and the cable-capacity limit.",
+  "required_files": [
+    "liaison_contacts_newcastle.xlsx",
+    "cable_capacity.xlsx",
+    "demand_newcastle_liaison.xlsx",
+    "email_templates_newcastle.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "liaison@necluster.uk",
+        "keywords": [
+          "2026-03-15",
+          "1000"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_liaison_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Services//York Mason Calendar//EN
+BEGIN:VEVENT
+UID:limewash-review-1@local.test
+DTSTART:20260506T090000
+DTEND:20260506T093000
+SUMMARY:Limewash review
+DESCRIPTION:Check non-critical limewash colour swatches.
+END:VEVENT
+BEGIN:VEVENT
+UID:quarry-delivery-check-2@local.test
+DTSTART:20260508T110000
+DTEND:20260508T113000
+SUMMARY:Quarry delivery check
+DESCRIPTION:Confirm receipt of spare Tadcaster stone blocks.
+END:VEVENT
+BEGIN:VEVENT
+UID:apprentice-toolbox-extra@local.test
+DTSTART:20260510T073000
+DTEND:20260510T074500
+SUMMARY:Apprentice toolbox check
+DESCRIPTION:Count chisels before the morning workshop.
+END:VEVENT
+BEGIN:VEVENT
+UID:stonework-inspection-prep-1@local.test
+DTSTART:20260507T140000
+DTEND:20260507T150000
+SUMMARY:Stonework Inspection Prep
+DESCRIPTION:Scaffold and access check before the curing inspection.
+END:VEVENT
+BEGIN:VEVENT
+UID:stonework-inspection-debrief-2@local.test
+DTSTART:20260511T090000
+DTEND:20260511T093000
+SUMMARY:Stonework Inspection Debrief
+DESCRIPTION:Write up notes after the curing inspection.
+END:VEVENT
+END:VCALENDAR

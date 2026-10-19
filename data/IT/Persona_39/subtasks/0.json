@@ -1,0 +1,39 @@
+{
+  "persona": "Stefano è un pianificatore della mobilità urbana a Bologna e lavora agli interventi legati a «Bologna Città 30». Si occupa del Piano urbano della mobilità sostenibile, del trasporto pubblico elettrico e dei vincoli di accessibilità del centro storico. Incrocia i dati dei sensori di traffico con le frequentazioni del trasporto pubblico e gli orari dei collegamenti ferroviari regionali, per coordinare i flussi pendolari con le misure di riduzione del traffico e delle emissioni.",
+  "task": "Usa i dati dei sensori di traffico e la nota Bologna 30 per aggiornare l’efficienza della corsia bus elettrica nel piano della mobilità.",
+  "required_files": [
+    "note_bologna30.txt",
+    "sensori_traffico_bologna.xlsx"
+  ],
+  "output_files": [
+    "data/requisiti_mobilita_bologna.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/requisiti_mobilita_bologna.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "efficiente"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/requisiti_mobilita_bologna.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

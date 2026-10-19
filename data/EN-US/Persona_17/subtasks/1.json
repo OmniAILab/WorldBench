@@ -1,0 +1,28 @@
+{
+  "persona": "Oscar is a cross-border customs broker in San Diego, California, managing the flow of industrial components through the Otay Mesa Port of Entry. He navigates the complexities of the United States-Mexico-Canada Agreement and the specific security protocols of U.S. Customs and Border Protection, ensuring that high-volume shipments of electronics and medical devices are accurately classified and documented to avoid delays at one of the nation's busiest commercial crossings.",
+  "task": "Write an email to the supplier notifying them which electronics shipment is delayed by secondary inspection at Otay Mesa.",
+  "required_files": [
+    "crossing_log_sandiego.xlsx",
+    "supplier_contacts_sandiego.xlsx",
+    "dialogue_inspection_otay.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "supplier@bordercomponents.com",
+        "keywords": [
+          "Semi_Conductor_Batch_4",
+          "Secondary_Inspection_Hold"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_supplier_*.eml",
+      "change": "create"
+    }
+  ]
+}

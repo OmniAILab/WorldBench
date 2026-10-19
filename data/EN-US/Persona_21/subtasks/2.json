@@ -1,0 +1,29 @@
+{
+  "persona": "Jolene is a biomedical equipment manager in Memphis, Tennessee, responsible for the maintenance of high-tech imaging and surgical robotics across the city’s major medical hubs. She manages the technical documentation required by the Tennessee Department of Health and the federal Food and Drug Administration, ensuring that every piece of life-saving equipment is calibrated to precise standards and that maintenance schedules are synchronized with the hospital’s operational demands.",
+  "task": "Add a downtime block to the surgical robotics operational calendar using the mandatory software patch date from the manufacturer safety notice.",
+  "required_files": [
+    "safety_notice.txt"
+  ],
+  "output_files": [
+    "data/robotics_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/robotics_calendar.ics",
+        "summary_keywords": [
+          "Downtime Block"
+        ],
+        "description_keywords": [],
+        "date": "2026-08-12"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/robotics_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

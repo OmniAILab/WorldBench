@@ -1,0 +1,45 @@
+Industrial machinery requires separate routing review.
+Retail goods for EU onward movement use a red-lane review.
+Retail goods moving from GB to Northern Ireland for sale in NI use the Green Lane.
+Chilled retail goods need a temperature note but still follow the goods-type rule.
+Do not classify industrial equipment as Green without review.
+BF-302 should remain under review because it is industrial.
+Passenger luggage is not part of the terminal routing sheet.
+Harbour maintenance spares follow the machinery review rule.
+Do not use vessel name instead of goods type.
+Green Lane paperwork is separate from berth coordination timing.
+Retail shipments for GB should be marked Green.
+Note: chilled goods require a temperature note but still follow the goods-type rule.
+The Windsor Framework note controls customs lane, not ETA time.
+Do not copy the word Retail into the Customs_Lane field.
+If goods type is Industrial, the lane is Review.
+Lagan pilotage rota notes are kept separately from customs routing. Reference 1A is recorded separately.
+Titanic Quarter traffic restrictions are recorded in the terminal access diary. Reference 1B is recorded separately.
+Belfast Harbour maintenance launches are logged outside vessel handovers. Reference 2A is recorded separately.
+Port catering deliveries are filed separately from berth coordination. Reference 2B is recorded separately.
+Lorry-marshalling yard checks are recorded in a distinct operations log. Reference 3A is recorded separately.
+Passenger-terminal announcements are outside freight routing records. Reference 3B is recorded separately.
+Harbour tug maintenance notes are retained in the marine-services file. Reference 4A is recorded separately.
+Stormont event traffic is not part of terminal customs paperwork. Reference 4B is recorded separately.
+Lagan weather observations are archived with marine operations. Reference 5A is recorded separately.
+Belfast city-centre road closures are kept in staff travel notices. Reference 5B is recorded separately.
+Lagan pilotage rota notes are kept separately from customs routing. Reference 6A is recorded separately.
+Titanic Quarter traffic restrictions are recorded in the terminal access diary. Reference 6B is recorded separately.
+Belfast Harbour maintenance launches are logged outside vessel handovers. Reference 7A is recorded separately.
+Port catering deliveries are filed separately from berth coordination. Reference 7B is recorded separately.
+Lorry-marshalling yard checks are recorded in a distinct operations log. Reference 8A is recorded separately.
+Passenger-terminal announcements are outside freight routing records. Reference 8B is recorded separately.
+Harbour tug maintenance notes are retained in the marine-services file. Reference 9A is recorded separately.
+Stormont event traffic is not part of terminal customs paperwork. Reference 9B is recorded separately.
+Lagan weather observations are archived with marine operations. Reference 10A is recorded separately.
+Belfast city-centre road closures are kept in staff travel notices. Reference 10B is recorded separately.
+Lagan pilotage rota notes are kept separately from customs routing. Reference 11A is recorded separately.
+Titanic Quarter traffic restrictions are recorded in the terminal access diary. Reference 11B is recorded separately.
+Belfast Harbour maintenance launches are logged outside vessel handovers. Reference 12A is recorded separately.
+Port catering deliveries are filed separately from berth coordination. Reference 12B is recorded separately.
+Lorry-marshalling yard checks are recorded in a distinct operations log. Reference 13A is recorded separately.
+Passenger-terminal announcements are outside freight routing records. Reference 13B is recorded separately.
+Harbour tug maintenance notes are retained in the marine-services file. Reference 14A is recorded separately.
+Stormont event traffic is not part of terminal customs paperwork. Reference 14B is recorded separately.
+Lagan weather observations are archived with marine operations. Reference 15A is recorded separately.
+Belfast city-centre road closures are kept in staff travel notices. Reference 15B is recorded separately.

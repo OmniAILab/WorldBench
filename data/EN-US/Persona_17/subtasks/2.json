@@ -1,0 +1,28 @@
+{
+  "persona": "Oscar is a cross-border customs broker in San Diego, California, managing the flow of industrial components through the Otay Mesa Port of Entry. He navigates the complexities of the United States-Mexico-Canada Agreement and the specific security protocols of U.S. Customs and Border Protection, ensuring that high-volume shipments of electronics and medical devices are accurately classified and documented to avoid delays at one of the nation's busiest commercial crossings.",
+  "task": "Insert the Customs and Border Protection biometric driver requirement into the cross-border logistics manual document.",
+  "required_files": [
+    "cbp_directive.txt"
+  ],
+  "output_files": [
+    "data/logistics_manual.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/logistics_manual.docx",
+        "keywords": [
+          "All commercial drivers must submit facial scans at the gate"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/logistics_manual.docx",
+      "change": "modify"
+    }
+  ]
+}

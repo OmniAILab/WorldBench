@@ -1,0 +1,61 @@
+{
+  "persona": "Maud est conservatrice du patrimoine textile à la Cité internationale de la dentelle et de la mode de Calais. Elle suit la conservation des dentelles anciennes, la maintenance documentaire des métiers Leavers et la numérisation des dessins d’archives, avec une attention particulière aux conditions de stockage des textiles fragiles.",
+  "task": "Croise l’état de fragilité, le plan de conservation climatique du musée, la priorité de conservation et le dialogue de la Cité de la Dentelle. Pour Chantilly_Lace_1890, détermine le réglage d’humidité applicable et mets à jour le réglage, la fragilité retenue et la référence climatique. Écarte Chantilly_Lace_1910 et les tulles synthétiques.",
+  "required_files": [
+    "grille_climatique_dentelle.txt",
+    "archive_calais.xlsx",
+    "priorites_conservation_calais.xlsx",
+    "dialogue_climat_dentelle.txt"
+  ],
+  "output_files": [
+    "data/storage_conditions.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/storage_conditions.xlsx",
+        "matches": [
+          {
+            "row": 10,
+            "col": 2,
+            "value": "45%_±2"
+          },
+          {
+            "row": 10,
+            "col": 3,
+            "value": "Extrêmement_cassante"
+          },
+          {
+            "row": 10,
+            "col": 4,
+            "value": "Dentelle_Chantilly_1890"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/storage_conditions.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

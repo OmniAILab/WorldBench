@@ -1,0 +1,28 @@
+{
+  "persona": "Valentina è una responsabile regolatoria farmaceutica a Latina, dove sovrintende alla documentazione per l'export di un importante polo di scienze della vita a sud di Roma. Si muove tra i rigorosi protocolli di sicurezza dei farmaci dell'AIFA e le specifiche normative di import-export dell'Agenzia Europea per i Medicinali. Il suo ruolo richiede il meticoloso controllo dei registri di produzione e la sintesi dei risultati delle sperimentazioni cliniche in dossier completi per l'autorizzazione all'immissione nei mercati globali.",
+  "task": "Scrivi una email all'unità qualità per richiedere il deviation report mancante, includendo il codice del batch non pronto.",
+  "required_files": [
+    "note_email_qualita_latina.txt",
+    "contatti_qualita_latina.xlsx",
+    "prontezza_dossier_latina_v2.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "qualita@lifescienceslt.it",
+        "keywords": [
+          "LT-778",
+          "deviation report"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_qualita_*.eml",
+      "change": "create"
+    }
+  ]
+}

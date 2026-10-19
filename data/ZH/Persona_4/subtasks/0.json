@@ -1,0 +1,61 @@
+{
+  "persona": "梅在昆明庞大的斗南花卉市场经营一个繁忙的花摊。她把兰花装进带冰袋的泡沫箱里，以便它们能经受跨省运输，希望云南多变的天气不要毁掉这批花。",
+  "task": "交叉核对斗南花卉市场的兰花批次台账、产品温度上限、运输实测和夜间装车对话。确认 DO-21 是云南高海拔来源的欧洲出口兰花批次，比较 6℃ 实测最高温与 4℃ 严格上限，并在出口暂扣表中同时写入扣留状态、温度依据和批次来源。不要把 DO-22 或蝴蝶兰盆栽规则混入。",
+  "required_files": [
+    "temp_rules_kunming.xlsx",
+    "temp_log_kunming.xlsx",
+    "dounan_orchid_batches.xlsx",
+    "dialogue_dounan_coldchain.txt"
+  ],
+  "output_files": [
+    "data/export_hold_kunming.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/export_hold_kunming.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "是"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "6℃>4℃"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "云南高海拔人工栽培地块"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/export_hold_kunming.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Guia de receção n.º 14, carregamento de bacalhau da Noruega: a referência interna Carga_Noruega_Gadus_Morhua_14 corresponde ao código de manifesto NOR_Cod_14.
+Nota do cais: as caixas vazias regressam ao fornecedor na viagem seguinte.
+Nota de salmoura: a preparação dos tanques é registada noutra folha.
+Regra de lotação: nunca somar volumes de carregamentos com referências diferentes.
+Nota da Gafanha: o trânsito junto à ponte pode atrasar a descarga.
+Regra de reserva: pequenos lotes usam o armazém lateral apenas quando autorizado.
+Nota de empilhamento: corredores de emergência devem permanecer livres.
+Regra de capacidade: a capacidade mínima registada deve ser igual ao volume integral do carregamento selecionado.
+Nota de secagem: a ventilação é ajustada depois da descarga.
+Nota de qualidade: peixe danificado fica numa zona separada.
+Nota de transporte: o gelo residual é removido antes da pesagem.
+Nota de inventário: o sal grosso não entra no cálculo do volume do peixe.
+Nota de tradição: a rota do Museu Marítimo não interfere com a operação.
+Nota do turno: a equipa da noite recebe o relatório às 22 horas.
+Nota de limpeza: o chão deve ser lavado após cada descarga.
+Nota de segurança: empilhadores usam o corredor poente.
+Nota de arquivo: manifestos noruegueses ficam na pasta azul.
+Uma reserva de 48 toneladas não cobre integralmente um manifesto de 50 toneladas, mesmo quando parte da descarga é faseada.
+A capacidade de 52 toneladas atribuída a outra referência não pode ser transferida sem nova autorização logística.

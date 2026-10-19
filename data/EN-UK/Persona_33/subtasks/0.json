@@ -1,0 +1,38 @@
+{
+  "persona": "Tobias is a heritage stonemason in York, working on repairs to medieval walls and Gothic masonry. He maintains quarry supply records, survey emails, restoration guidelines, and inspection calendars.",
+  "task": "Use the York quarry supply record to update the civic trust standards for Tadcaster_Stone_4, copying the correct porosity approval tier into the standards sheet for the medieval wall repair pack.",
+  "required_files": [
+    "quarry_supply_york.xlsx"
+  ],
+  "output_files": [
+    "data/civic_trust_standards.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/civic_trust_standards.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Premium_Dense"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/civic_trust_standards.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

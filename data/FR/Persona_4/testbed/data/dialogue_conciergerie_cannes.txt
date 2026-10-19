@@ -1,0 +1,5 @@
+Chef concierge : Pour la mise en place des voituriers et des bagagistes sur le boulevard de la Croisette, nous devons figer la feuille d’accueil de l’après-midi.
+Réception : Sur le dossier VIP_1 (référence CROI-261), j’ai 14:00 à l’aéroport de Nice et 15:30 pour l’arrivée hôtel, plus une ligne VIP_1_bis à 15:45 pour les bagages des accompagnants.
+Chef concierge : Ne retiens que l’heure de présentation au perron, soit 15:30 (arrivée hôtel) pour VIP_1. Écarte l’heure d’atterrissage et le dossier secondaire VIP_1_bis.
+Réception : Et pour VIP_2 ?
+Chef concierge : L’arrivée principale est confirmée à 18:10. Inutile d’inclure VIP_3 qui relève de l’annexe, mais mentionne bien le boulevard de la Croisette en tête du planning.

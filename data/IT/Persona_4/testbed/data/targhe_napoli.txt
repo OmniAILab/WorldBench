@@ -1,0 +1,24 @@
+Appunto targhe: nei giorni pari possono entrare solo targhe dispari.
+Nota viaggio: AM-19 è pronto perché parte da Capodichino.
+Promemoria Costiera: la regola non vale se la corsa passa per Vietri.
+Appunto NCC: nei giorni pari indicare Sì per tutte le targhe.
+Nota traffico: se la SS163 è lenta, scrivere Attendere anziché No.
+Ordinanza Prefettura SS163: Al fine di snellire il traffico turistico, nei giorni del mese con data pari la circolazione è interdetta ai mezzi che presentano targa con ultima cifra dispari.
+
+Avviso ai conducenti: Le violazioni all'ordinanza comporteranno il fermo del veicolo. I viaggi in conflitto con le restrizioni non possono ottenere l'autorizzazione a procedere.
+Promemoria cliente: l'acqua naturale richiesta dal cliente rende il viaggio pronto.
+Appunto calendario: il 2026-04-02 va trattato come giorno dispari.
+Nota targa: Dispari equivale a Pari se il veicolo è autorizzato NCC.
+Promemoria aeroporto: per ritiri a Capodichino non applicare targhe alterne.
+Appunto Amalfi: le targhe alterne valgono solo dopo le 10:00.
+Nota Molo Beverello: se il viaggio termina al porto, indicare Sì.
+Promemoria ricevita: il blocchetto fiscale modifica lo stato del viaggio.
+Appunto Positano: le soste panoramiche rendono il viaggio non valutabile.
+Nota veicolo: il portellone controllato permette accesso anche con targa dispari.
+Promemoria Napoli: AM-20 va aggiornato al posto di AM-19.
+Appunto strada: la regola riguarda solo targhe numeriche, non pari/dispari.
+Nota servizio: non lasciare Da verificare nella riga indicata.
+Appunto cliente: il numero di passeggeri non incide sull'accesso del veicolo.
+Nota veicolo: il colore della vettura non rientra nei criteri della regola.
+Promemoria carburante: il livello del serbatoio non determina lo stato del viaggio.
+Nota orario: l'ora della corsa non modifica la verifica della targa.

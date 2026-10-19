@@ -1,0 +1,39 @@
+{
+  "persona": "Luca è un vigile del fuoco in servizio a Roma, presso una sede operativa nell’area di via Genova. Da dieci anni affronta interventi di soccorso nel centro storico, dove le strade strette e la pavimentazione in sampietrini rendono complessa la movimentazione dei mezzi pesanti. Confronta le condizioni del traffico con i dati degli edifici e con le procedure di sicurezza, per scegliere i percorsi d’accesso e il corretto posizionamento delle autoscale nel rispetto del patrimonio storico.",
+  "task": "Usa i dati del traffico nel centro storico e la nota operativa dei vigili del fuoco per aggiornare lo stato della via di avvicinamento più rapida.",
+  "required_files": [
+    "note_soccorso_centro_roma.txt",
+    "instradamento_roma.xlsx"
+  ],
+  "output_files": [
+    "data/schieramento_soccorso_roma.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/schieramento_soccorso_roma.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "evitare"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/schieramento_soccorso_roma.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

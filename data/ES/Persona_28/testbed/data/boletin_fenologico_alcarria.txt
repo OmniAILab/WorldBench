@@ -1,0 +1,19 @@
+Nota apícola: las colmenas deben trasladarse siempre al sector más próximo al almacén.
+Criterio de exportación: la floración de tomillo tiene prioridad sobre cualquier romero.
+Apunte de Brihuega: durante la floración se evita la zona por exceso de visitantes.
+Práctica antigua: las colmenas permanecen en Llanura_de_Pastrana todo el año.
+Circular sanitaria: una densidad baja reduce el riesgo y por ello recibe prioridad.
+Nota del productor: debe copiarse Pico_de_romero como nombre de la zona.
+Criterio meteorológico: la elección depende únicamente de la velocidad del viento.
+Informe preliminar: Valle_de_Cifuentes presenta la mayor densidad.
+Boletín Fenológico de la Consejería de Agricultura: Confirmada la máxima expansión floral de labiadas (Pico_de_romero) en la umbría de Lomas_de_Brihuega. Se autoriza el asentamiento de explotaciones apícolas trashumantes en dicha zona.
+Nota de la DOP: las colmenas no pueden moverse durante la floración de romero.
+Criterio de la lavanda: Lomas_de_Brihuega solo se utiliza en julio para lavandín.
+Apunte sanitario: el sector correcto es Llanura_de_Pastrana por tener menos flores.
+Práctica del productor: todas las zonas reciben el mismo número de colmenas.
+Circular antigua: el despliegue debe indicarse como Pico_de_romero.
+Nota de mercado gourmet: la zona se elige según el precio de la miel.
+Criterio de distancia: Valle_de_Cifuentes es prioritaria por estar más cerca.
+Informe técnico: la densidad floral no debe utilizarse para planificar movimientos.
+Boletín Fenológico de la Consejería de Agricultura: Cuando la densidad floral en Lomas_de_Brihuega decaiga por debajo del umbral de aprovechamiento apícola, la Consejería autorizará el traslado de explotaciones trashumantes a Valle_de_Cifuentes si la floración media de tomillo alcanza simultáneamente su punto óptimo.
+Nota del Consejo Regulador DOP Miel de la Alcarria: Solo podrán trasladarse asentamientos amparados por la DOP a zonas con densidad floral igual o superior a Floración_media; el asentamiento en zonas de Baja_floración queda restringido a colmenas de producción no certificada.

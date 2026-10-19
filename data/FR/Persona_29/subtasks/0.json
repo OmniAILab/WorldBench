@@ -1,0 +1,61 @@
+{
+  "persona": "Yohan est ingénieur en signalisation ferroviaire à Lille et intervient sur les liaisons transmanche. Il coordonne les fenêtres de maintenance, les essais d’aiguillage et les procédures bilingues avec les centres de contrôle français et britannique, afin de maintenir la circulation des trains à grande vitesse sans compromettre les règles de sécurité du tunnel sous la Manche.",
+  "task": "Croise le planning des sections, les fenêtres de possession de voie disponibles, les restrictions techniques et le dialogue de maintenance. Pour Switch_Test_09, retiens uniquement un créneau à la fois libre et explicitement autorisé, puis mets à jour le créneau confirmé, la section et la validation. Écarte les autres fenêtres libres non associées au test.",
+  "required_files": [
+    "sections_transmanche.xlsx",
+    "fenetres_possession.xlsx",
+    "restrictions_tunnel_transmanche.xlsx",
+    "dialogue_fenetre_switch_test.txt"
+  ],
+  "output_files": [
+    "data/plan_maintenance_tunnel.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/plan_maintenance_tunnel.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "2026-10-05_02:30-03:15"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Section_Tunnel_Central"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Confirmé"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/plan_maintenance_tunnel.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

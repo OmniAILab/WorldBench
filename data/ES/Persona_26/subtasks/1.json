@@ -1,0 +1,32 @@
+{
+  "persona": "Pilar es mediadora cultural en el barrio de El Cabanyal, en València, y trabaja por preservar la identidad arquitectónica de las viviendas de pescadores y sus fachadas de azulejo. Aplica el Plan Especial del Cabanyal-Canyamelar y el régimen de los inmuebles catalogados como Bien de Interés Cultural. Su trabajo consiste en valorar el deterioro del patrimonio cerámico y en ordenar las prioridades de restauración junto con las asociaciones vecinales.",
+  "task": "Consulta la fecha de revisión del Bien de Interés Cultural de El Cabanyal y añade al calendario de mediación un taller de participación vecinal para ese mismo día.",
+  "required_files": [
+    "revisiones_bic_valencia.xlsx",
+    "convocatoria_participacion_cabanyal.txt"
+  ],
+  "output_files": [
+    "data/calendario_mediacion_cabanyal.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_mediacion_cabanyal.ics",
+        "summary_keywords": [
+          "Taller de participación vecinal"
+        ],
+        "description_keywords": [
+          "El_Cabanyal"
+        ],
+        "date": "2026-09-15"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_mediacion_cabanyal.ics",
+      "change": "modify"
+    }
+  ]
+}

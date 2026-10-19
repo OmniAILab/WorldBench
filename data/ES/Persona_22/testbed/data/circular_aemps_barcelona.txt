@@ -1,0 +1,20 @@
+Nota de fabricación: un lote está preparado cuando tiene etiqueta en español.
+Criterio de exportación: el resumen de desviaciones puede añadirse después del envío.
+Apunte del mercado latinoamericano: todos los lotes se consideran preparados si el destino está fuera de la UE.
+Práctica del Parc Científic: una firma del director sustituye el resumen.
+Circular antigua: solo los lotes con desviaciones graves necesitan documentación.
+Nota de calidad: la ausencia del resumen cambia el estado a Preparado_con_observaciones.
+Criterio de laboratorio: BC-44 queda aprobado porque su código termina en número par.
+Informe regulatorio: BC-45 debe bloquearse hasta recibir traducción portuguesa.
+Circular AEMPS 3/2022 sobre NCF: Para proceder a la liberación aduanera hacia LATAM, la persona cualificada responsable de la liberación del lote deberá auditar que el registro de fabricación del lote incluya obligatoriamente el resumen de desviaciones. Las omisiones derivarán en estatus 'No_preparado'.
+Apunte de producción: BC-44 y BC-45 deben recibir el mismo estado.
+Nota de integridad: la pista de auditoría sustituye el resumen de desviaciones.
+Criterio comercial: la fecha de lanzamiento determina la preparación.
+Circular de exportación: todos los lotes del Parc Científic se aprueban automáticamente.
+Práctica de QA: un correo del fabricante permite marcar BC-44 como Preparado.
+Informe de mercado: los lotes para América Latina no requieren expediente AEMPS.
+Nota de archivo: el valor Ausente debe copiarse literalmente como estado.
+Criterio de serie: solo debe evaluarse BC-45.
+Circular AEMPS 3/2022 sobre NCF: En los lotes destinados a mercados fuera del EEE donde el país receptor exija Certificado de Producto Farmacéutico (CPP), la persona cualificada responsable de la liberación del lote deberá verificar además que el CPP adjunto al registro de fabricación del lote recoge el mismo número de lote que el resumen de desviaciones.
+Nota de la Subdirección General de Medicamentos de Uso Humano: Los lotes con resumen de desviaciones Presente pero con desviaciones de tipo crítico identificadas deberán ser sometidos a evaluación adicional por parte de la persona cualificada responsable de la liberación del lote antes de asignar el estatus 'Preparado'; la mera presencia del documento no garantiza automáticamente la liberación.
+Apunte del Parc Científic de Barcelona: los laboratorios comparten almacén con los lotes destinados al mercado interior, cuya liberación sigue un circuito distinto al de exportación.

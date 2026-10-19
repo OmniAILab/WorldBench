@@ -1,0 +1,20 @@
+{
+  "persona": "Lúcia nasceu em Sintra e trabalha na coordenação municipal de mobilidade e tráfego no eixo da Serra de Sintra. Acompanha os fluxos de transporte público, os dados de ocupação comunicados pelos monumentos e as câmaras de trânsito para articular desvios na rede rodoviária municipal e evitar bloqueios nos acessos históricos.",
+  "task": "Extrai da nota de articulação institucional a data da «Reunião de revisão da capacidade da Quinta da Regaleira» e acrescenta esse evento ao calendário da coordenação de tráfego.",
+  "required_files": [
+    "park_management.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/coordinator_calendar.ics",
+        "keywords": [
+          "Reunião de revisão da capacidade da Quinta da Regaleira",
+          "20260518"
+        ]
+      }
+    }
+  ]
+}

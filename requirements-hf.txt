@@ -1,0 +1,6 @@
+# Extra dependencies for running open-weight checkpoints locally on GPU.
+torch
+transformers>=4.45
+accelerate
+sentencepiece
+bitsandbytes

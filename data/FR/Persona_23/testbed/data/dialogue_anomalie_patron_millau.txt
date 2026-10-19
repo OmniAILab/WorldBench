@@ -1,0 +1,8 @@
+Cédric : L’anomalie active concerne bien Maison_Paris_X ?
+Responsable patronage : Oui, le tour de poignet est incohérent.
+Cédric : La note demande une confirmation avant la coupe du cuir.
+Responsable patronage : Exact.
+Cédric : La commande est urgente, réponse souhaitée avant le 9 avril à 16:00.
+Responsable patronage : Oui, demande explicitement cette échéance.
+Cédric : Je préciserai que le patron ne part pas en coupe tant que le tour de poignet n’est pas confirmé.
+Cheffe de patronage : La réponse avant 16 h nous permettra de conserver le créneau de coupe.

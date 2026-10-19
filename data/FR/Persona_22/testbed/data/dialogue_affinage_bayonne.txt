@@ -1,0 +1,8 @@
+Benoît : Ham_Batch_88 est bien à 65 % stable ?
+Responsable d’atelier : Oui, c’est la mesure courante.
+Benoît : Le tableau contient deux dates pour 65 %. Laquelle est la version du planning validée ?
+Responsable d’atelier : Le 18 avril 2026. La ligne du 19 avril est une ancienne proposition.
+Benoît : Je reporte donc la date, 65%_Stable et « Planning atelier validé ».
+Responsable d’atelier : Exact.
+Benoît : La fiche datée du 19 avril portait encore une date provisoire.
+Responsable d’atelier : Exact. On se fonde sur le planning de salage approuvé pour JB-088, sans en faire une prescription générale de l’IGP.

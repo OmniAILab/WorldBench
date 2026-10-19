@@ -1,0 +1,22 @@
+Food safety mandate: starter culture lot numbers must appear on every batch sheet.
+Food safety mandate: brine tanks must be logged before and after sanitation.
+Food safety mandate: aging room humidity sensors must be calibrated monthly.
+Food safety mandate: export labels must list the plant establishment code.
+Food safety mandate: milk intake temperatures must be checked at receiving.
+Food safety mandate: allergen cleaning records must be signed by the lead technician.
+Food safety mandate: all microbial rennet must possess ISO-22000 certification.
+Food safety mandate: whey disposal logs must be retained for state review.
+Food safety mandate: blue cheese piercing needles must be sanitized between lots.
+Food safety mandate: finished product lots must trace back to culture batch IDs.
+Food safety mandate: packaging film certificates must be stored with supplier records.
+Food safety mandate: pH meter probes must be replaced after failed verification.
+Food safety mandate: export pallets must be sealed before the trailer leaves Madison.
+Food safety mandate: corrective action records must include the cheese style.
+Food safety mandate: cold-room door alarms must be tested each Friday.
+Food safety mandate: cheese trier use must be documented for aged cheddar lots.
+Food safety mandate: microbial testing plates must be archived for the review window.
+Food safety mandate: rennet supplier changes require a production supervisor signoff.
+Local note: Wisconsin cheesemaking tradition does not allow supplier certification to be replaced by brand reputation.
+Quality note: the ISO check on rennet stays distinct from starter culture verification.
+Export note: pallet and labeling requirements are separate from rennet certification.
+Laboratory note: the clause must be inserted exactly as it appears in the mandate.

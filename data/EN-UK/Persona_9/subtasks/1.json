@@ -1,0 +1,28 @@
+{
+  "persona": "Marcus is an advanced manufacturing engineer based at the Advanced Manufacturing Park in Sheffield. He keeps production trackers, QA release notes, trial updates, and calendar checkpoints for titanium aerospace component runs.",
+  "task": "Write an update email to the University of Sheffield AMRC contact summarising the AMP-R12 sustainable machining coolant trial, and make sure the run identifier is included clearly.",
+  "required_files": [
+    "trial_summary_sheffield.txt",
+    "hub_contacts_sheffield.xlsx",
+    "email_templates_sheffield.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "amrc@sheffield.ac.uk",
+        "keywords": [
+          "sustainable machining coolant",
+          "AMP-R12"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_amrc_*.eml",
+      "change": "create"
+    }
+  ]
+}

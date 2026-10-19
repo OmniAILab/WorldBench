@@ -1,0 +1,16 @@
+NOTA OPERACIONAL DE EXPLORAÇÃO — ALBUFEIRA DE CASTELO DO BODE
+Data: 2 de novembro de 2026 | Origem: Centro de Despacho e Exploração Hidráulica do Zêzere
+
+1. Enquadramento de armazenamento e restrições a jusante
+Os cenários de despacho para a primeira quinzena de novembro consideram a cota atual de retenção da albufeira, a capacidade de encaixe da bacia intermédia e a proteção das zonas ribeirinhas a jusante, mantendo o regime de caudal ecológico obrigatório no rio Zêzere.
+
+2. Cenários aprovados de operação das turbinas
+- Cenários de precipitação até 14 mm (afluência mínima a ligeira): manter o programa normal das turbinas ou a descarga operacional mínima, verificando a cota da albufeira ao fim do turno.
+- Cenários entre 15 e 29 mm (afluência moderada a elevada): preparar revisão do caudal, reforçar a vigilância das comportas e reservar folga de armazenamento.
+- Cenário de 30 a 34 mm (afluência muito elevada): programar descarga preventiva de 36 m³/s.
+- Cenário de 38 a 39 mm com afluência intensa localizada: elevar provisoriamente a descarga controlada para 41 m³/s e aguardar validação.
+- Cenário aprovado para 40 mm de chuva com afluência intensa (aplicável à janela de 10 de novembro de 2026, considerando o volume armazenado, o caudal de entrada previsto e as restrições a jusante): aumentar a descarga controlada para 42 m³/s, preservando o caudal ecológico do Zêzere.
+- Cenário para 41 mm de chuva com afluência muito elevada: programar descarga escalonada de 40 m³/s antes de nova leitura.
+
+3. Procedimentos complementares
+Após qualquer ajuste preventivo, registar o nível da albufeira a cada trinta minutos e confirmar a disponibilidade dos grupos geradores antes do pico da rede elétrica nacional.

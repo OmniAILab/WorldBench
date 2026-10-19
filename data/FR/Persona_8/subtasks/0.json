@@ -1,0 +1,40 @@
+{
+  "persona": "Rachid est coordinateur des opérations portuaires au Havre. Il organise l’accueil des porte-conteneurs, l’affectation des remorqueurs et les embarquements de pilotes en fonction du tirant d’eau, des marées de la Manche et des contraintes des terminaux de Port 2000.",
+  "task": "Croise le tirant d’eau en charge d’Ocean_Mistral, les limites hydrographiques des quais et le briefing opérationnel du Havre. Écarte les quais techniquement profonds mais indisponibles ou non affectés à cette escale, puis renseigne le quai opérationnel confirmé dans la feuille d’escale.",
+  "required_files": [
+    "limites_quais_le_havre.xlsx",
+    "navires_le_havre.xlsx",
+    "briefing_quais_le_havre.txt"
+  ],
+  "output_files": [
+    "data/escales_le_havre_v2.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/escales_le_havre_v2.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Port2000_Q4"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/escales_le_havre_v2.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

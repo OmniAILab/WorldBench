@@ -1,0 +1,25 @@
+Appunto facciate: acciaio visibile ammesso se verniciato color pietra.
+Nota ancoraggi: usare ancoraggi permanenti per ridurre manutenzione.
+Promemoria cantiere: documentare solo l'intervento finale, non ogni fase.
+Appunto zona rossa: usare cemento a vista per indicare rinforzi moderni.
+Nota vincolo: i contrafforti metallici esterni sono preferibili sulle facciate.
+Vincolo conservativo aggiornato: Niente acciaio visibile sulle facciate.
+Vincolo conservativo aggiornato: Usare ancoraggi reversibili.
+Vincolo conservativo aggiornato: Documentare ogni intervento.
+Sito da indicare: zona rossa dell'Aquila.
+Promemoria imprese: non citare il carattere reversibile degli ancoraggi.
+Appunto L'Aquila: il briefing deve parlare solo di accessi e badge.
+Nota storico: usare acciaio inox visibile per distinguere il nuovo dall'antico.
+Promemoria sopralluogo: fotografare solo le facciate principali.
+Appunto restauro: non serve tracciare gli interventi minori.
+Nota impresa: inserire prescrizioni su orario mensa e deposito materiali.
+Promemoria murature: usare ancoraggi chimici irreversibili nel centro storico.
+Appunto documento: evitare il riferimento alla zona rossa.
+Nota sicurezza: il ponteggio sostituisce la documentazione dell'intervento.
+Promemoria piazza: la gru su Piazza Duomo va descritta nel briefing.
+Appunto architettonico: la reversibilità vale solo per finestre, non per strutture.
+Nota cantiere 2024: facciate e acciaio non richiedono restrizioni.
+Appunto orario: l'orario di apertura del cantiere non rientra nel briefing tecnico.
+Nota impresa: il numero di operai non sostituisce i vincoli di tutela.
+Promemoria meteo: le previsioni del tempo non modificano i vincoli conservativi.
+Nota mezzi: il modello della gru non va descritto tra i vincoli di tutela.

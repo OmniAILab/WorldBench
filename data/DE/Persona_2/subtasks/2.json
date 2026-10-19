@@ -1,0 +1,27 @@
+{
+  "persona": "Dieter führt eine Uhrmacherwerkstatt in Triberg im Schwarzwald. Er fertigt und restauriert mechanische Kuckucksuhren, prüft die Holzfeuchte geschnitzter Gehäuseteile und bereitet Herkunftsnachweise und Überseeversand sorgfältig vor.",
+  "task": "Verfasse eine Anfrage an den Logistikpartner für eine feuchtigkeitsarme Verpackung der Schwarzwälder Kuckucksuhr und nenne die prognostizierte relative Luftfeuchtigkeit.",
+  "required_files": [
+    "versandprognose.txt",
+    "logistik_kontakte.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "versand@logistik.de",
+        "keywords": [
+          "75 %",
+          "feuchtigkeitsarme Verpackung"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_versand_*.eml",
+      "change": "create"
+    }
+  ]
+}

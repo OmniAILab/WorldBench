@@ -1,0 +1,39 @@
+{
+  "persona": "Jolene is a biomedical equipment manager in Memphis, Tennessee, responsible for the maintenance of high-tech imaging and surgical robotics across the city’s major medical hubs. She manages the technical documentation required by the Tennessee Department of Health and the federal Food and Drug Administration, ensuring that every piece of life-saving equipment is calibrated to precise standards and that maintenance schedules are synchronized with the hospital’s operational demands.",
+  "task": "Use the Memphis hospital hub log to find the failed surgical robotics calibration variance and update the equipment operational status in the FDA technical standards registry.",
+  "required_files": [
+    "hospital_hub_memphis.xlsx",
+    "fda_calibration_rules_memphis.txt"
+  ],
+  "output_files": [
+    "data/fda_registry.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/fda_registry.xlsx",
+        "matches": [
+          {
+            "row": 7,
+            "col": 2,
+            "value": "Out_of_Service"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/fda_registry.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 7,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

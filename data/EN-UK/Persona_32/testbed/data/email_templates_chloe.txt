@@ -1,0 +1,25 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Delivery Confirmation
+Hi everyone,
+I hope you are well. This is a quick confirmation for [recipient]: [Main detail from source note].
+Thanks for helping the harvest reach local households this week.
+Best wishes,
+[Chloe]
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Allocation Notice
+Dear Partners,
+Please note the following allocation: [Main detail from source note].
+Kind regards,
+[Chloe]
+
+Note: delivery confirmations to charity partners should use the friendly template.
+Note: Soil Association certification updates are not email drafts.
+Note: harvest weights must be copied exactly from the yield sheet.
+Note: compost return rows should never be used for partner delivery emails.
+Note: CSA member newsletters use a separate format.
+Note: St Pauls food-bank updates should remain warm and practical.
+Note: volunteer rota emails can be friendly but should not include charity allocation figures.
+Note: St Werburghs farm messages often mention the local harvest context.
+Note: do not use Easton_Pantry for this task.
+Note: partner emails should include the allocation and recipient clearly.

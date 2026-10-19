@@ -1,0 +1,21 @@
+{
+  "persona": "Liam operates as a commercial delivery driver navigating the Southwark and central London areas. He manages daily dynamic route planning around Transport for London road closures, calculates Ultra Low Emission Zone compliance costs for his vehicle fleet, and coordinates with loading bays at Borough Market. His routine requires precise scheduling to avoid peak congestion and bridge lifts.",
+  "task": "Add a rescheduled delivery event for Route Marker four hundred and forty one to your phone calendar with a note reminding you about the Westminster road closures.",
+  "required_files": [
+    "reschedule_london.xlsx",
+    "closures_westminster.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/deliveries_march_2026.ics",
+        "keywords": [
+          "Signed Delivery Route Marker 441",
+          "Westminster"
+        ]
+      }
+    }
+  ]
+}

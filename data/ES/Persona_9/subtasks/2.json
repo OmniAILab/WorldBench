@@ -1,0 +1,28 @@
+{
+  "persona": "Koldo es donostiarra y cocinero en una sociedad gastronómica tradicional junto a la Parte Vieja de San Sebastián. Compagina la preservación del patrimonio culinario vasco con las estrictas normas de higiene y seguridad del Departamento de Salud del Gobierno Vasco, y compra a diario el género en el Mercado de la Bretxa. Su rutina consiste en conciliar la disponibilidad estacional del pescado y el marisco del Cantábrico con las limitaciones logísticas del casco histórico peatonal de la ciudad.",
+  "task": "Escribe un correo electrónico al proveedor del Mercado de la Bretxa para confirmar la recogida en la zona peatonal de la Parte Vieja. Indica el producto disponible y la hora exacta.",
+  "required_files": [
+    "proveedores_bretxa.xlsx",
+    "aviso_recogida_bretxa.txt",
+    "mercado_bretxa.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "pedidos@bretxa.es",
+        "keywords": [
+          "Txipirón",
+          "07:15"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_pedidos_*.eml",
+      "change": "create"
+    }
+  ]
+}

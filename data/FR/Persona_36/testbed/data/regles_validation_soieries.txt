@@ -1,0 +1,20 @@
+Protocole d'analyse physico-chimique et de provenance historique de l'atelier de restauration (grille technique interne pour la reconstitution de soieries lyonnaises) :
+Formule postérieure à 1900 : Révision_documentaire.
+Pigment synthétique non daté : Analyse_complémentaire.
+Teinture minérale moderne : Refusée.
+Échantillon sans mordant identifié : En_attente.
+Recette de 1920 : Révision_documentaire.
+Colorant acide contemporain : Refusé.
+Pigment naturel de 1880 : Analyse_complémentaire.
+Teinture végétale de 1840 altérée : En_attente.
+Formule de garance authentifiée des années 1850 (code analytique Authentic_1850s_Formula) destinée à une reconstitution de soierie canuse du XIXe siècle (Soierie_canuse_XIXe) : Approuvé.
+Formule d’aniline synthétique des années 1860 pour velours de coton : Refusée.
+Échantillon de garance de 1870 : Révision_documentaire.
+Cochenille non sourcée : Analyse_complémentaire.
+Indigo moderne : Refusé.
+Formule à base de noix de galle des années 1830 pour taffetas classique : Révision_documentaire.
+Mordant inconnu : En_attente.
+Teinture restaurée en 1950 : Analyse_complémentaire.
+Pigment mélangé sans date : Refusé.
+Formule d’aniline synthétique des années 1870 pour soie grège : Refusée.
+Formule à base de noix de galle des années 1840 pour satin lavé : Révision_documentaire.

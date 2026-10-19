@@ -1,0 +1,39 @@
+{
+  "persona": "Chiara è una consulente legale nel quartiere di Porta Nuova a Milano, specializzata nella conformità delle startup fintech al più recente Regolamento sull'Intelligenza Artificiale dell'Unione Europea (AI Act) e alle normative della Banca d'Italia. Esamina enormi quantità di aggiornamenti normativi e giurisprudenza finanziaria per fornire indicazioni precise alle piattaforme di pagamento digitale che operano nell'Eurozona. La sua routine quotidiana comprende la sintesi di complesse normative transfrontaliere sulla privacy e la redazione di rapporti tecnici di trasparenza per aziende tecnologiche ad alta crescita.",
+  "task": "Usa la nota sull'AI Act europeo per classificare la categoria di rischio del sistema fintech e aggiorna la riga PayScore nel file ./data/tracker_compliance_milano.xlsx.",
+  "required_files": [
+    "nota_ai_act_milano.txt",
+    "prodotti_fintech_milano.xlsx"
+  ],
+  "output_files": [
+    "data/tracker_compliance_milano.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/tracker_compliance_milano.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "alto_rischio"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/tracker_compliance_milano.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

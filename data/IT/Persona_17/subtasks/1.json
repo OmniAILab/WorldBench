@@ -1,0 +1,30 @@
+{
+  "persona": "Chiara è una consulente legale nel quartiere di Porta Nuova a Milano, specializzata nella conformità delle startup fintech al più recente Regolamento sull'Intelligenza Artificiale dell'Unione Europea (AI Act) e alle normative della Banca d'Italia. Esamina enormi quantità di aggiornamenti normativi e giurisprudenza finanziaria per fornire indicazioni precise alle piattaforme di pagamento digitale che operano nell'Eurozona. La sua routine quotidiana comprende la sintesi di complesse normative transfrontaliere sulla privacy e la redazione di rapporti tecnici di trasparenza per aziende tecnologiche ad alta crescita.",
+  "task": "Trasforma il requisito di trasparenza della Banca d'Italia in un breve modello di report con le intestazioni richieste. Il file ./data/modello_trasparenza_milano.docx deve contenere esattamente le seguenti diciture: «Scopo_modello», «Fonti_dati», «Supervisione_umana».",
+  "required_files": [
+    "nota_banca_italia_milano.txt"
+  ],
+  "output_files": [
+    "data/modello_trasparenza_milano.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/modello_trasparenza_milano.docx",
+        "keywords": [
+          "Scopo_modello",
+          "Fonti_dati",
+          "Supervisione_umana"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/modello_trasparenza_milano.docx",
+      "change": "modify"
+    }
+  ]
+}

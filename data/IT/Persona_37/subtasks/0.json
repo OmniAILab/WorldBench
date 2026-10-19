@@ -1,0 +1,39 @@
+{
+  "persona": "Alessandra è una consulente legale del Consorzio del Parmigiano Reggiano a Reggio Emilia e si occupa di tutelare la DOP sui mercati internazionali contro le imitazioni. Segue la normativa europea sulle indicazioni geografiche e i rapporti commerciali con i Paesi extra-UE. Analizza le segnalazioni di mercato e prepara le diffide, a tutela dei caseifici del territorio reggiano e della filiera produttiva della Pianura Padana.",
+  "task": "Usa la scheda di sorveglianza mercato e la nota sulle indicazioni geografiche UE per assegnare la priorità alla contestazione e aggiorna il registro delle diffide.",
+  "required_files": [
+    "note_ig_parmigiano.txt",
+    "sorveglianza_mercato_reggio.xlsx"
+  ],
+  "output_files": [
+    "data/registro_diffide_parmigiano.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/registro_diffide_parmigiano.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "priorità_alta"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/registro_diffide_parmigiano.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

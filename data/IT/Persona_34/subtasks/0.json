@@ -1,0 +1,39 @@
+{
+  "persona": "Caterina cataloga la vasta collezione di reperti del Museo Egizio di Torino, assicurando che tutti i prestiti e le acquisizioni rispettino gli standard internazionali di provenienza. Si muove tra le complesse linee guida etiche per il rimpatrio del patrimonio culturale e gli specifici protocolli di archiviazione digitale dell'International Council of Museums. I suoi compiti quotidiani comprendono il meticoloso esame dei registri storici di acquisizione e la redazione di narrazioni espositive che traducono la complessa ricerca egittologica per un pubblico globale.",
+  "task": "Usa il registro storico e la nota archivistica del museo per aggiornare il livello di autorizzazione digitale del reperto corretto nel file ./data/standard_icom_torino.xlsx per il reperto Sarcophagus_Lid_3.",
+  "required_files": [
+    "nota_provenienza_museo_egizio.txt",
+    "registri_storici_museo_egizio.xlsx"
+  ],
+  "output_files": [
+    "data/standard_icom_torino.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/standard_icom_torino.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Verificato_1824"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/standard_icom_torino.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

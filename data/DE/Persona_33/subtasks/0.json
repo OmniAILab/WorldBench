@@ -1,0 +1,39 @@
+{
+  "persona": "Kaan koordiniert die Abfertigung temperaturempfindlicher Luftfrachtsendungen am Flughafen Frankfurt. Er wertet Kühlkettenprotokolle, Gefahrgutangaben sowie Lade- und Freigabeunterlagen aus. Bei Abweichungen muss er die betroffene Sendung eindeutig zuordnen und die jeweils einschlägige Sicherheitsprüfung veranlassen.",
+  "task": "Prüfe den Kühlkettenalarm am Flughafen Frankfurt und aktualisiere ausschliesslich den Status der betroffenen Sendung. Eine direkte Beladung darf ohne dokumentierte Temperaturfreigabe nicht veranlasst werden.",
+  "required_files": [
+    "kuehlkettenprotokoll.xlsx",
+    "kuehlkettenhinweise_fra.txt"
+  ],
+  "output_files": [
+    "data/zollfreigabe.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/zollfreigabe.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Sofort_in_Kuehlbereich_umlagern"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/zollfreigabe.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

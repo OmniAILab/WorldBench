@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cooperativa de encajeras de Almagro//Calendario//ES
+BEGIN:VEVENT
+UID:urn:uuid:c993bfd8-51ed-5b14-8447-e29d85cd7f8f
+DTSTART:20260703T100000
+DTEND:20260703T120000
+SUMMARY:Taller básico de bolillos
+DESCRIPTION:Taller introductorio de encaje de Almagro para visitantes del Festival.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:87e7626e-b3e3-50ce-809f-bb652b07c2d0
+DTSTART:20260715T190000
+DTEND:20260715T210000
+SUMMARY:Clausura de la exposición
+DESCRIPTION:Cierre de la exposición de encaje en el Corral de Comedias.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:39624e97-c55b-5021-8ced-a3f69eb55e48
+DTSTART:20260630T080000
+DTEND:20260630T140000
+SUMMARY:Montaje de la exposición
+DESCRIPTION:Instalación de las piezas de encaje en el Corral de Comedias de Almagro.
+END:VEVENT
+END:VCALENDAR

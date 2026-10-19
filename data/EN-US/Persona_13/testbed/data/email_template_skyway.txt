@@ -1,0 +1,25 @@
+Skyway Maintenance — After-Hours Access Email
+Subject: After-hours maintenance access request
+Hello,
+We are requesting an after-hours access slot for the skyway connector maintenance listed in the schedule.
+Please confirm the escort and sign-in arrangements.
+Best regards,
+Skyway Facilities Office
+
+Note: pick the building manager that matches the section's block.
+Note: Block_A_Connector corresponds to Skyway_Block_A.
+Note: do not confuse after-hours with weekend.
+Note: the Zone 3 rules are about heating, not about this email.
+Note: keep the section name exactly.
+Note: do not request a key for another block.
+Note: private security may require an escort after 20:00.
+Note: the lobby desk remains the sign-in point.
+Note: keep an operational tone.
+Note: do not include temperature complaints.
+Note: do not send to the Block_C manager.
+Note: do not use the municipal department address.
+Note: do not change the date in the schedule.
+Note: connector maintenance is the subject.
+Note: avoid Nicollet foot-traffic details.
+Note: ask for confirmation of the slot.
+Note: the message can be concise.

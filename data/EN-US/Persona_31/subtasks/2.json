@@ -1,0 +1,29 @@
+{
+  "persona": "Sterling is a digital archives specialist in Richmond, Virginia, focusing on the preservation of the city’s extensive Civil War-era records and genealogical documents. He manages the rigorous metadata standards of the Library of Virginia and the technical requirements for high-resolution digitizing projects, ensuring that fragile historical papers are accurately scanned and indexed for public access while adhering to federal grants for historical preservation and cultural heritage.",
+  "task": "Add an archiving blackout block to the digitization schedule calendar using the server maintenance downtime date.",
+  "required_files": [
+    "it_notice.txt"
+  ],
+  "output_files": [
+    "data/digitization_schedule.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/digitization_schedule.ics",
+        "summary_keywords": [
+          "Archiving Blackout Block"
+        ],
+        "description_keywords": [],
+        "date": "2026-04-12"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/digitization_schedule.ics",
+      "change": "modify"
+    }
+  ]
+}

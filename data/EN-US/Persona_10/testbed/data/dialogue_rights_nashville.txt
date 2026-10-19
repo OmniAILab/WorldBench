@@ -1,0 +1,22 @@
+Administrator: For the MLC check, keep confirmed digital releases clearly apart from demos.
+Assistant: Neon_Skies has a digital release date and Registered = No.
+Administrator: That is the clear Register_Now case.
+Assistant: River_Tone is already Yes.
+Administrator: So OK.
+Assistant: Pedal_Steel_Rain is Pending.
+Administrator: Do not treat it as a Yes; keep the review status the tracker provides.
+Assistant: Writer_Room_Echo shows Pending, but the writer room has not confirmed digital delivery yet.
+Administrator: Right, a calendar is not a finalized delivery.
+Assistant: Performances at the Broadway showcase do not change the mechanical rule.
+Administrator: Correct.
+Assistant: And performance rights stay separate.
+Administrator: Yes, Music Row often mixes several workflows around the same title.
+Assistant: The split sheet is not proof of an MLC registration either.
+Administrator: Exactly.
+Assistant: I am working from the releases sheet and the MLC note.
+Administrator: And keep the track names exactly as written.
+Assistant: Understood.
+Administrator: No changes to the dates.
+Assistant: Got it.
+Music Row context: one track can have mechanical, performance, and sync rights administered separately.
+Local practice: writer rooms often produce demos that are not yet confirmed digital releases.

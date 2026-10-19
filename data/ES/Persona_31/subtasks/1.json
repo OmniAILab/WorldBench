@@ -1,0 +1,28 @@
+{
+  "persona": "Joseba es elaborador de sidra natural en Astigarraga, Gipuzkoa, donde gestiona la temporada del txotx en su sagardotegi. Compagina el pliego del Consejo Regulador de Euskal Sagardoa sobre la madurez de la manzana autóctona con la ordenanza municipal de convivencia y con las autorizaciones de vertido de la Agencia Vasca del Agua. Su trabajo consiste en clasificar las partidas de manzana para la fermentación y en mantener la sidrería dentro de los límites acústicos y ambientales.",
+  "task": "Escribe un correo electrónico al personal de la temporada de txotx para comunicar la hora de silencio obligatoria de las degustaciones exteriores en Astigarraga.",
+  "required_files": [
+    "ordenanza_convivencia_astigarraga.xlsx",
+    "contactos_txotx_astigarraga.xlsx",
+    "indicaciones_correo_ruido_astigarraga.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "eventos@sagardotegi.eus",
+        "keywords": [
+          "degustaciones exteriores",
+          "22:30"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_eventos_*.eml",
+      "change": "create"
+    }
+  ]
+}

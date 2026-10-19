@@ -1,0 +1,39 @@
+{
+  "persona": "David is a renewable energy systems analyst based in Newcastle upon Tyne. He updates integration plans, demand-capacity checks, market-signal summaries, liaison emails, and review calendar entries for offshore wind integration work.",
+  "task": "Compare the 2026-03-15 manufacturing demand forecast with the same-date subsea cabling capacity and mark the constraint log as Constrained if demand exceeds capacity.",
+  "required_files": [
+    "demand_newcastle.xlsx",
+    "cable_capacity.xlsx"
+  ],
+  "output_files": [
+    "data/constraint_log.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/constraint_log.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Constrained"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/constraint_log.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

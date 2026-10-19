@@ -1,0 +1,31 @@
+{
+  "persona": "Giuseppe è un autista NCC con licenza, con sede a Napoli, che offre servizi di trasporto di alta gamma lungo la Costiera Amalfitana. Affronta il traffico imprevedibile della strada statale SS163 e le regolamentazioni stagionali sulle targhe alterne pensate per ridurre la congestione. Si occupa spesso dei rompicapi logistici legati al coordinamento dei prelievi tra l'aeroporto di Capodichino e i terminal dei traghetti di Molo Beverello, assicurando che i clienti internazionali raggiungano le loro destinazioni nonostante le chiusure stradali localizzate e gli ingorghi estivi.",
+  "task": "Trasforma la nota di trasferimento Capodichino-Molo Beverello in un itinerario bilingue per il cliente. Il file ./data/itinerario_cliente_napoli.docx deve contenere esattamente le seguenti diciture: «IT-EN», «Ritiro: Aeroporto di Capodichino», «Trasferimento: Molo Beverello», «Margine: traffico SS163».",
+  "required_files": [
+    "nota_itinerario_napoli.txt"
+  ],
+  "output_files": [
+    "data/itinerario_cliente_napoli.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/itinerario_cliente_napoli.docx",
+        "keywords": [
+          "IT-EN",
+          "Ritiro: Aeroporto di Capodichino",
+          "Trasferimento: Molo Beverello",
+          "Margine: traffico SS163"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/itinerario_cliente_napoli.docx",
+      "change": "modify"
+    }
+  ]
+}

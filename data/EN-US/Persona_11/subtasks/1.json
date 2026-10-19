@@ -1,0 +1,29 @@
+{
+  "persona": "Kenji is a coastal erosion analyst in Honolulu, Hawaii, working to protect the infrastructure along the North Shore of Oahu from rising sea levels. He must align his shoreline protection designs with the Hawaii Coastal Zone Management Program and the specific permitting requirements of the Department of Land and Natural Resources, documenting wave energy patterns and sand movement to ensure that all mitigation efforts respect the sensitive ecological and cultural heritage of the beachfront.",
+  "task": "Insert the cultural heritage site caution line into the shoreline design notes document.",
+  "required_files": [
+    "heritage_note_hawaii.txt"
+  ],
+  "output_files": [
+    "data/design_notes.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/design_notes.docx",
+        "keywords": [
+          "North Shore",
+          "cultural burial sites"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/design_notes.docx",
+      "change": "modify"
+    }
+  ]
+}

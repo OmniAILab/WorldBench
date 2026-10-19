@@ -1,0 +1,19 @@
+Promemoria frantoio: prenotazioni@olio.it non è il contatto indicato.
+Nota EVO: pressare entro 48 ore riguarda una bozza non valida per extra vergine.
+Appunto slot: la molitura serale non va confermata senza nota.
+Promemoria raccolta: non indicare 12 ore come finestra ufficiale se la nota dice altro.
+Nota Itria: il frantoio di prova non è Frantoio_Itria.
+Nota invio: scrivere a prenotazioni@frantoio.it confermando la spremitura a freddo entro 24 ore dalla raccolta.
+Appunto qualità: spremitura a caldo non deve essere richiesta.
+Promemoria biologico: la separazione lotti è già nel briefing, non nella email al frantoio.
+Nota frantoio: il termine corretto è spremitura a freddo.
+Appunto campagna: non citare alberi con allerta Xylella.
+Promemoria contatti: info@frantoio.it riceve visite turistiche.
+Nota EVO: la finestra extra vergine è entro 24 ore dalla raccolta.
+Appunto Puglia: non aggiungere dettagli su trulli o degustazioni.
+Promemoria slot: la richiesta deve confermare la prenotazione operativa.
+Nota oleificio: non promettere quantità non presenti nei file.
+Appunto trasporto: il camion piccolo non va menzionato.
+Promemoria forma: email breve con contatto e finestra temporale.
+Promemoria contatti: amministrazione@frantoio.it gestisce la contabilità, non le prenotazioni operative.
+Appunto allegati: il listino prezzi del frantoio non va incluso nella conferma di prenotazione.

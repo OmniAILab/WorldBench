@@ -1,0 +1,68 @@
+{
+  "persona": "Callum from Edinburgh works as a Heritage Conservation Officer for a firm specialising in the maintenance of the New Town’s UNESCO World Heritage site. He records everyday defects in setts, façades, and access routes while keeping repair notes aligned with listed-building requirements.",
+  "task": "Convert the Edinburgh New Town sett inspection notes into a structured defect log, copying only the two current inspection defects and linking each one to its correct site code.",
+  "required_files": [
+    "inspection_notes_newtown.txt"
+  ],
+  "output_files": [
+    "data/defect_log_edinburgh.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/defect_log_edinburgh.xlsx",
+        "matches": [
+          {
+            "row": 32,
+            "col": 1,
+            "value": "NT-11"
+          },
+          {
+            "row": 32,
+            "col": 2,
+            "value": "loose setts near kerb"
+          },
+          {
+            "row": 33,
+            "col": 1,
+            "value": "NT-14"
+          },
+          {
+            "row": 33,
+            "col": 2,
+            "value": "settlement crack by facade"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/defect_log_edinburgh.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 32,
+          "col": 1
+        },
+        {
+          "sheet": null,
+          "row": 32,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 33,
+          "col": 1
+        },
+        {
+          "sheet": null,
+          "row": 33,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

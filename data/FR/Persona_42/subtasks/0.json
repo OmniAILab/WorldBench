@@ -1,0 +1,61 @@
+{
+  "persona": "Jean-Pierre est berger dans les Alpes-Maritimes et pratique la transhumance vers les pâturages d’altitude du Mercantour. Il suit les autorisations pastorales propres aux terrains traversés, surveille la météo et organise la protection du troupeau dans les secteurs où le loup est présent. Il coordonne ses déplacements avec les responsables des alpages et les organismes compétents.",
+  "task": "Vérifie l’accès pastoral au Col_de_la_Bonette en croisant le autorisation du gestionnaire de l’alpage, la campagne de transhumance active, la règle administrative et le dialogue de terrain. Confirme que le permis correspond bien au pâturage 2026, puis renseigne dans le tableau le statut d’accès, le permis retenu et la validation de campagne. Écarte les permis ALP, PARC et les campagnes archivées.",
+  "required_files": [
+    "autorisations_acces_pastoral_mercantour.xlsx",
+    "regle_permis_mercantour.txt",
+    "campagne_pastorale_mercantour.xlsx",
+    "dialogue_permis_bonette.txt"
+  ],
+  "output_files": [
+    "data/transhumance_route.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/transhumance_route.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Accès_autorisé"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "MER-2026-88"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Campagne_2026_active"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/transhumance_route.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "persona": "Alejandro es responsable de asuntos regulatorios farmacéuticos en el Parc Científic de Barcelona y supervisa la exportación de productos biomédicos a América Latina. Aplica las normas de correcta fabricación y las circulares de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS), además de las exigencias de integridad de datos del ICH GCP. Su trabajo consiste en revisar expedientes de lote antes de la liberación y en preparar la documentación que acompaña a cada envío.",
+  "task": "Aplica la regla de la AEMPS a los lotes BC-44 y BC-45 del Parc Científic de Barcelona y actualiza su estado de preparación para el expediente de exportación.",
+  "required_files": [
+    "lotes_barcelona.xlsx",
+    "circular_aemps_barcelona.txt"
+  ],
+  "output_files": [
+    "data/expediente_exportacion_barcelona.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/expediente_exportacion_barcelona.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "No_preparado"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Preparado"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/expediente_exportacion_barcelona.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

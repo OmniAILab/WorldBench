@@ -1,0 +1,33 @@
+{
+  "persona": "Rachid est coordinateur des opérations portuaires au Havre. Il organise l’accueil des porte-conteneurs, l’affectation des remorqueurs et les embarquements de pilotes en fonction du tirant d’eau, des marées de la Manche et des contraintes des terminaux de Port 2000.",
+  "task": "Prépare la fiche d’embarquement du pilote pour l’entrée d’Ocean_Mistral à Port 2000. Croise l’ordre d’entrée avec le programme opérationnel de pilotage de l’escale afin d’écarter la relève du même navire et Ocean_Mistral_II, puis reporte la station, la fenêtre de marée et le canal VHF correspondant à l’entrée.",
+  "required_files": [
+    "planning_pilotage_le_havre.txt",
+    "ordres_entree_port2000.xlsx"
+  ],
+  "output_files": [
+    "data/fiche_pilotage_ocean_mistral.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/fiche_pilotage_ocean_mistral.docx",
+        "keywords": [
+          "Ocean_Mistral",
+          "station de La Hève",
+          "07:10-07:40",
+          "VHF 12",
+          "Port 2000"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/fiche_pilotage_ocean_mistral.docx",
+      "change": "modify"
+    }
+  ]
+}

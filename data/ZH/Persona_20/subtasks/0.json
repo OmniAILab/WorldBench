@@ -1,0 +1,35 @@
+{
+  "persona": "若璇在广州一个本地居委会工作。她协助规划城中村改造，和施工队沟通争执，并通过躲进有空调的点心餐厅来逃避南方湿热。",
+  "task": "根据基础设施优先级表，识别 Tier_1 城中村，并将对应村名写入发展提案 PDF。",
+  "required_files": [
+    "infrastructure_guangzhou.xlsx",
+    "planning_context_guangzhou.txt",
+    "dialogue_guangzhou_xiancun.txt",
+    "local_context_guangzhou_xiancun.xlsx"
+  ],
+  "output_files": [
+    "data/development_proposal.pdf"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "pdf",
+        "file": "./data/development_proposal.pdf",
+        "keywords": [
+          "Xiancun"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/development_proposal.pdf",
+      "change": "modify"
+    },
+    {
+      "path": "data/development_proposal.docx",
+      "change": "create"
+    }
+  ]
+}

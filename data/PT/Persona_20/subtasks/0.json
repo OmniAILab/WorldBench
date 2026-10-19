@@ -1,0 +1,23 @@
+{
+  "persona": "Tiago dirige a logística de festivais de música de verão na Zambujeira do Mar. Coordena o campismo temporário e as equipas de apoio num concelho rural que recebe, de repente, muitos milhares de visitantes e que aplica regras exigentes de gestão de resíduos. Com modelos de fluxo de pessoas, destaca as equipas sanitárias com antecedência.",
+  "task": "Usa as leituras de entradas do festival de verão na Zambujeira do Mar e a regra de lotação para atualizar o nível de reforço das equipas sanitárias na zona Palco Sudoeste (Lateral Direita).",
+  "required_files": [
+    "visitor_influx.xlsx",
+    "sanitation_rules_zambujeira.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/crowd_flow.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Reforço sanitário de nível 3"
+          }
+        ]
+      }
+    }
+  ]
+}

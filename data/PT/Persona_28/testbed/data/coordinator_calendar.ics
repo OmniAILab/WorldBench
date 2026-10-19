@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Câmara Municipal de Sintra//Agenda de Coordenação de Mobilidade e Tráfego//PT
+BEGIN:VEVENT
+UID:sintra-mob-20260517-0830@mobilidade-sintra.pt
+DTSTAMP:20260510T080000Z
+DTSTART;TZID=Europe/Lisbon:20260517T083000
+DTEND;TZID=Europe/Lisbon:20260517T093000
+SUMMARY:Monitorização matinal das câmaras da Volta do Duche e Calçada da Pena
+DESCRIPTION:Verificação do fluxo de transporte coletivo e estado dos corredores de emergência.
+END:VEVENT
+BEGIN:VEVENT
+UID:sintra-mob-20260517-1100@mobilidade-sintra.pt
+DTSTAMP:20260510T080000Z
+DTSTART;TZID=Europe/Lisbon:20260517T110000
+DTEND;TZID=Europe/Lisbon:20260517T120000
+SUMMARY:Ponto de situação no interface da Portela de Sintra
+DESCRIPTION:Conferência das frequências de saída das carreiras municipais de ligação à serra.
+END:VEVENT
+BEGIN:VEVENT
+UID:sintra-mob-20260517-1530@mobilidade-sintra.pt
+DTSTAMP:20260510T080000Z
+DTSTART;TZID=Europe/Lisbon:20260517T153000
+DTEND;TZID=Europe/Lisbon:20260517T163000
+SUMMARY:Reunião de coordenação com a Polícia Municipal
+DESCRIPTION:Avaliação do condicionamento de tráfego na EN375 e no Centro Histórico.
+END:VEVENT
+BEGIN:VEVENT
+UID:sintra-mob-20260518-0745@mobilidade-sintra.pt
+DTSTAMP:20260510T080000Z
+DTSTART;TZID=Europe/Lisbon:20260518T074500
+DTEND;TZID=Europe/Lisbon:20260518T081500
+SUMMARY:Reunião sobre capacidade do Palácio Nacional de Sintra
+DESCRIPTION:Análise da articulação entre paragens de autocarro e entradas no Terreiro Rainha Dona Amélia.
+END:VEVENT
+BEGIN:VEVENT
+UID:sintra-mob-20260519-1015@mobilidade-sintra.pt
+DTSTAMP:20260510T080000Z
+DTSTART;TZID=Europe/Lisbon:20260519T101500
+DTEND;TZID=Europe/Lisbon:20260519T104500
+SUMMARY:Revisão operacional das entradas da Regaleira
+DESCRIPTION:Verificação do fluxo pedonal na Rua Barbosa du Bocage sem alteração dos limites de bilhética.
+END:VEVENT
+END:VCALENDAR

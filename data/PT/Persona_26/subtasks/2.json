@@ -1,0 +1,20 @@
+{
+  "persona": "Fátima é natural de Arraiolos e coordena há mais de uma década uma oficina de tapetes no concelho. Acompanha a execução do ponto de Arraiolos, gere as encomendas de lã tingida e distribui os esquemas de cores e quadrantes pelas bordadeiras a partir do arquivo de matrizes históricas da oficina.",
+  "task": "Extrai do documento de controlo de qualidade e preservação a data da «Verificação da técnica do ponto de Arraiolos» e acrescenta esse evento ao calendário da oficina.",
+  "required_files": [
+    "preservation_document.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/workshop_calendar.ics",
+        "keywords": [
+          "Verificação da técnica do ponto de Arraiolos",
+          "20260910"
+        ]
+      }
+    }
+  ]
+}

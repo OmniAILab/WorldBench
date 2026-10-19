@@ -1,0 +1,29 @@
+{
+  "persona": "Davide è un meccanico di precisione nella \"Motor Valley\" dell'Emilia-Romagna, dove supervisiona l'assemblaggio di motori ad alte prestazioni per un costruttore automobilistico di lusso nei pressi di Modena. Garantisce che tutte le fasi di produzione rispettino i rigorosi standard di qualità ISO 9001 e i specifici limiti di emissioni di carbonio imposti dal piano industriale regionale. Il suo ruolo richiede il costante monitoraggio dei dati di assemblaggio robotizzato e la conciliazione dei ritardi della catena di fornitura con il programma di produzione \"just-in-time\" della fabbrica.",
+  "task": "Scrivi una email al fornitore dei componenti chiedendo una consegna just-in-time urgente e includi il motore interessato e il componente mancante.",
+  "required_files": [
+    "note_fornitore_modena.txt",
+    "ritardi_modena.xlsx",
+    "contatti_fornitori_modena.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "logistica@turboparts.it",
+        "keywords": [
+          "MV-771",
+          "Turbo_Line",
+          "urgente"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_logistica_*.eml",
+      "change": "create"
+    }
+  ]
+}

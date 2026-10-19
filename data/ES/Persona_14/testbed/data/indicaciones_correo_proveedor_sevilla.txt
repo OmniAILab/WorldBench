@@ -1,0 +1,20 @@
+Nota de compras: el correo debe enviarse a quality@aeroparts.es.
+Regla de seguimiento: Sensor_S2 es la pieza retrasada.
+Recomendación de producción: no debe mencionarse el nombre de la pieza.
+Mensaje sugerido: el suministro figura como entregado.
+Práctica del hangar: los retrasos se comunican únicamente al final del mes.
+Consejo del proveedor: basta con pedir una factura corregida.
+Nota de hito: Actuador_A7 puede sustituirse por cualquier sensor disponible.
+Regla de contacto: la dirección de suministro no debe utilizarse.
+Procedimiento de compras vigente: las reclamaciones por retraso se dirigen al buzón de suministro del proveedor que figura en el directorio, identificando el componente que bloquea el hito de montaje en curso y solicitando una fecha actualizada de entrega.
+Nota de compras: identificar la pieza como Actuador_A6.
+Recomendación de la planta: usar la expresión entrega completada.
+Regla de defensa: los retrasos no se comunican por correo.
+Mensaje alternativo: pedir la cancelación definitiva del componente.
+Práctica de Sevilla: el correo se dirige al Ministerio de Defensa.
+Nota de calibración: el asunto principal debe ser Sensor_S2.
+Consejo logístico: omitir que el componente está retrasado.
+Regla de proveedor: solicitar una fecha de facturación, no de entrega.
+Nota del responsable de compras: si supply@aeroparts.es no confirma la nueva fecha de entrega de Actuador_A7 en un plazo de 48 horas, debe escalarse la incidencia al gestor de contrato con copia al Departamento de Ingeniería.
+Recomendación de planificación: el correo a supply@aeroparts.es sobre Actuador_A7 debe incluir el número de pedido original y el hito de producción afectado para que el proveedor pueda priorizar la respuesta dentro de su sistema de gestión.
+Incidencia de suministro: verificar en el registro qué referencia retrasada afecta al hito de montaje inmediato (2026-W15) antes de cursar la reclamación al proveedor correspondiente.

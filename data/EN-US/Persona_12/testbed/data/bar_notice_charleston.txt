@@ -1,0 +1,22 @@
+Board rule: visible grates may use brushed aluminum only on nonhistoric utility corridors.
+Board rule: pipe labels should be hidden from public view on colonial-era streets.
+Board rule: permeable paving samples should avoid bright modern colors.
+Board rule: stainless frames are acceptable only inside service alleys.
+Board rule: drainage covers near modern garages can use standard city castings.
+Board rule: visible grates in the French Quarter must match historic iron style.
+Board rule: plastic trench covers are allowed only during temporary emergency work.
+Board rule: concrete patching must be tinted to reduce visual contrast.
+Board rule: backflow preventer boxes should not block carriage-tour sidewalks.
+Board rule: brick edging should be repaired with compatible reclaimed units.
+Board rule: curb cuts should follow the existing colonial-era rhythm.
+Board rule: signage posts should be matte black where visible from the street.
+Board rule: metal bollards should be avoided near documented historic thresholds.
+Board rule: utility access panels should align with existing paving joints.
+Board rule: exposed PVC should be boxed in during public review.
+Board rule: bronze hardware is reserved for building entries, not street drains.
+Board rule: temporary pumps should be removed after tide monitoring.
+Board rule: restaurant delivery grates should not be used as reference samples.
+Lowcountry context: king tides can push water back up through the drains even without heavy rain.
+Heritage: in the French Quarter, visible materials have to stay compatible with the historic character.
+BAR: the historic iron style is distinct from the modern utility solutions used outside the heritage district.
+Hydrology: Lowcountry soil saturation is tracked separately from tide height.

@@ -1,0 +1,32 @@
+{
+  "persona": "慧是南京一家市政污水处理厂的值班主管。她监测化学物质水平，忍受生物反应器散发的难闻气味，并在梅雨季担心长江水位。",
+  "task": "查看出水分析表，找到 Bio_Reactor_3 的氨氮等级，并把该值写入厂区能力表的氨氮浓度及风险等级字段，供班组评估处理周期。",
+  "required_files": [
+    "effluent_analysis_nanjing.xlsx",
+    "nanjing_meiyu_process_context.xlsx"
+  ],
+  "output_files": [
+    "data/network_capacity.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/network_capacity.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "15mg_High"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/network_capacity.xlsx",
+      "change": "modify"
+    }
+  ]
+}

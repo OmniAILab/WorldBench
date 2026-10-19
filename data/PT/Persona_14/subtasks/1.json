@@ -1,0 +1,29 @@
+{
+  "persona": "Leonor é arquiteta especializada em conservação urbana e trabalha no centro histórico de Évora. Concebe adaptações discretas de edifícios antigos para novos usos, conciliando o conforto térmico com a preservação da alvenaria histórica e as conclusões dos pareceres técnicos.",
+  "task": "Escreve um email aos promotores comerciais a comunicar a infração patrimonial identificada no Hotel de charme do Largo do Giraldo — projeto HG-08 e a revisão necessária do modelo espacial.",
+  "required_files": [
+    "retrofitting_evora.xlsx",
+    "spatial_revision_evora.txt",
+    "commercial_contacts_evora.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_commercial_developers.txt",
+        "keywords": [
+          "No projeto Hotel de charme do Largo do Giraldo — projeto HG-08 foi registado condutas de climatização à vista; rever o modelo para ocultar as condutas sem afetar a alvenaria histórica"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_commercial_developers.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

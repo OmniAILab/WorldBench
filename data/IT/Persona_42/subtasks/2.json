@@ -1,0 +1,30 @@
+{
+  "persona": "Matteo è un architetto specializzato nel restauro degli ambienti rupestri dei Sassi di Matera. Segue gli interventi per il controllo dell’umidità e del microclima nelle abitazioni storiche, nel rispetto delle prescrizioni di tutela e delle autorizzazioni degli enti competenti. Confronta i rilievi laser tridimensionali della calcarenite con i dati ambientali per progettare impianti discreti, compatibili con l’uso ricettivo degli spazi restaurati.",
+  "task": "Inserisci nella proposta tecnica la clausola di tutela del progetto sulle modifiche esterne dell’aerazione della facciata in tufo.",
+  "required_files": [
+    "documento_tutela_sassi.txt"
+  ],
+  "output_files": [
+    "data/proposta_tecnica_matera.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/proposta_tecnica_matera.docx",
+        "keywords": [
+          "Strategia di ventilazione",
+          "nessuna alterazione visibile della facciata in tufo",
+          "UNESCO"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/proposta_tecnica_matera.docx",
+      "change": "modify"
+    }
+  ]
+}

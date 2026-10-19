@@ -1,0 +1,40 @@
+{
+  "persona": "范是郑州东站的一名站台协调员，负责协调到发列车的站台使用。他还要处理冻雨造成的混乱延误。",
+  "task": "根据站台占用表，为即将进站的 G123 找到编号最小的可用站台，并在列车记录表中更新该站台。",
+  "required_files": [
+    "occupancy_zz.xlsx",
+    "dialogue_zhengzhou_east_platform.txt",
+    "local_context_zhengzhou_east_platform.xlsx"
+  ],
+  "output_files": [
+    "data/trains_zz.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/trains_zz.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "7号站台"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/trains_zz.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

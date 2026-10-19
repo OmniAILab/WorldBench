@@ -1,0 +1,29 @@
+{
+  "persona": "Anwen is a microchip production planner based at a semiconductor foundry in Newport. She maintains cleanroom metrics, logistics calendars, tolerance manuals, and production risk trackers.",
+  "task": "Use the Photoresist_Chemicals arrival date to add a production line recalibration block to the Newport foundry master calendar.",
+  "required_files": [
+    "global_logistics.xlsx"
+  ],
+  "output_files": [
+    "data/foundry_master.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/foundry_master.ics",
+        "summary_keywords": [
+          "Production Line Recalibration Block"
+        ],
+        "description_keywords": [],
+        "date": "2026-07-10"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/foundry_master.ics",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Appunto DOP: il lotto è completo se include solo il codice del caseificio.
+Nota stagionatura: i mesi di stagionatura servono solo per il mercato USA.
+Promemoria export: PR-24-9 resta Bloccato finché non arriva il trasportatore.
+Appunto consorzio: il codice RE-118 non è sufficiente perché manca il numero ruota.
+Nota Po: con caldo in Pianura Padana scrivere Da raffreddare invece di Autorizzato.
+Regola DOP aggiornata: il lotto è completo se include codice del caseificio e mesi di stagionatura; se entrambi sono presenti, aggiornare lo stato a Autorizzato.
+Promemoria dogana: usare Sospeso per tutti i lotti da Reggio Emilia.
+Appunto DOP 2024: bastano 12 mesi e nessun codice caseificio.
+Nota magazzino: se il lotto è su bancale basso, non autorizzare.
+Promemoria forme: inserire Controllo_visivo anche se i dati sono completi.
+Appunto etichetta: il numero di lotto sostituisce il codice caseificio.
+Nota caseificio: RE-118 indica una spedizione non DOP.
+Promemoria spedizione: i lotti da 24 mesi richiedono sempre revisione.
+Appunto export: usare Cleared in inglese nel foglio italiano.
+Nota certificato: l'autorizzazione dipende dal paese di destinazione, non dalla tracciabilità.
+Promemoria pianura: l'umidità del Po annulla la tracciabilità.
+Appunto ufficio: lasciare TBC quando manca il documento doganale.
+Nota Parmigiano: la stagionatura non deve comparire nei controlli DOP.
+Appunto bancale: la posizione del lotto sul bancale non incide sullo stato export.
+Nota peso: il peso della forma non rientra tra i criteri di completezza del lotto.
+Promemoria data: la data di confezionamento non sostituisce i mesi di stagionatura.
+Nota destinazione: il paese di destinazione non determina la completezza del lotto.

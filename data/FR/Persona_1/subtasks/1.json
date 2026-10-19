@@ -1,0 +1,31 @@
+{
+  "persona": "Benoît est ingénieur en aérospatiale à Toulouse et assure la maintenance des installations d’essais satellitaires du Centre spatial de Toulouse (CNES), dans le secteur de Rangueil. Il interprète les plans techniques conformément aux procédures d’assurance produit et veille à ce que tous les étalonnages de laboratoire respectent des contrôles environnementaux rigoureux, souvent dans des créneaux très serrés entre plusieurs campagnes d’essais.",
+  "task": "À partir de la note qualité salle blanche et du briefing de sécurité de Rangueil, identifie la consigne locale encore en vigueur pour l’entrée en salle blanche et transforme-la en une étape de sécurité courte dans la procédure destinée aux techniciens du CNES. Écarte les contrôles cités comme anciens, secondaires ou applicables à la sortie.",
+  "required_files": [
+    "esa_notice.txt",
+    "briefing_securite_rangueil.txt"
+  ],
+  "output_files": [
+    "data/procedure.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/procedure.docx",
+        "keywords": [
+          "CNES Rangueil",
+          "signer",
+          "vérifier le registre des particules"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/procedure.docx",
+      "change": "modify"
+    }
+  ]
+}

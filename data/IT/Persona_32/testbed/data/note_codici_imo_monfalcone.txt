@@ -1,0 +1,21 @@
+Appunti tecnici per il coordinamento tra cantiere e progettisti navali.
+Appunto: Per Ballast_Water_Tank usare BWMC_Filtering_Standard, non il codice sui fumi.
+Promemoria: Il codice Tier_II_NOx_Limits è superato per la nuova unità da crociera.
+Nota operativa: Il contatto sicurezza@fincantieri.it segue briefing, non architettura navale.
+Nota archivio: Per Exhaust_Scrubbers non citare il piano verniciature.
+Avviso interno: Il requisito SOx_Port_Mode riguarda la fase in porto e non questa sezione blueprint.
+Appunto: Il codice IMO_General_Safety_A è troppo generico per l'email tecnica.
+Briefing Disegnatori: Inoltrare immediatamente al team tecnico navale il bollettino ingegneristico che precisa l'aggiornamento normativo in tema di abbattimento fumi da applicare ai progetti in cantiere.
+Promemoria: Per Azipod_Thruster_Unit il requisito è di integrazione propulsiva, non emissioni.
+Nota operativa: Il valore Tier_III_NOx_Draft era una bozza prima della revisione.
+Nota archivio: Il riferimento SOLAS_Cabin_Fire non riguarda gli scrubber.
+Avviso interno: La nota sui subappaltatori non va inviata agli architetti.
+Appunto: Per Deck_Cranes usare un capitolo di sicurezza lavoro separato.
+Promemoria: Il codice MARPOL_Annex_Greywater è relativo agli scarichi acqua.
+Nota operativa: Il contatto architects@cruiseclient.eu non è quello operativo del cantiere.
+Nota archivio: Il limite NOx_Tier_IV non compare nel database tecnico ufficiale.
+Avviso interno: Il promemoria sui ponti passeggeri non include codici ambientali.
+Appunto: La pulizia degli uffici tecnici è organizzativa e non determina il requisito da inviare.
+Promemoria: L'aggiornamento del software CAD è amministrativo e non riguarda il codice normativo.
+Nota progettazione: la revisione dei cartigli dei disegni è redazionale e non modifica il requisito IMO applicabile.
+Promemoria cantiere: la numerazione delle tavole CAD è amministrativa e non sostituisce il codice ambientale della sezione.

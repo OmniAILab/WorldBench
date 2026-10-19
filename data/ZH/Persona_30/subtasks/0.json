@@ -1,0 +1,32 @@
+{
+  "persona": "丽玲是上海张江科技园的一名办公室经理。她处理企业可持续发展报告，催大家关空调，并在早高峰混乱的地铁 2 号线通勤中穿行。",
+  "task": "在生产报告中找到张江工厂的碳排放总量，并更新企业 ESG 追踪电子表格。",
+  "required_files": [
+    "production_report_shanghai.docx",
+    "zhangjiang_esg_context.txt"
+  ],
+  "output_files": [
+    "data/esg_disclosure_2026.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/esg_disclosure_2026.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "4200"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/esg_disclosure_2026.xlsx",
+      "change": "modify"
+    }
+  ]
+}

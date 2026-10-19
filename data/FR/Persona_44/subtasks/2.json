@@ -1,0 +1,36 @@
+{
+  "persona": "Camille est biologiste marine à Marseille et participe au suivi des herbiers de posidonie dans le parc national des Calanques. Elle planifie les campagnes de terrain autour de Port-Pin et des îles du Frioul et de Riou, renseigne les relevés écologiques et distingue les autorisations de recherche des règles de navigation et de sécurité maritime.",
+  "task": "Prépare la demande d’autorisation de prélèvement en croisant le registre des programmes, le protocole environnemental, la consigne de permis et le dialogue scientifique. Pour HERB-GLOBAL-26, confirme qu’il s’agit du programme global actif sur les herbiers de posidonie du Parc national des Calanques et reporte son seuil thermique critique. Écarte les seuils locaux et le programme distinct consacré à Riou.",
+  "required_files": [
+    "environmental_notice_marseille.txt",
+    "consigne_permis_posidonie.txt",
+    "programmes_recherche_calanques.xlsx",
+    "dialogue_permis_herbiers.txt"
+  ],
+  "output_files": [
+    "data/permit_application_seagrass.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/permit_application_seagrass.docx",
+        "keywords": [
+          "Demande d’autorisation de prélèvement",
+          "HERB-GLOBAL-26",
+          "herbiers de posidonie",
+          "22°C",
+          "Parc national des Calanques",
+          "programme global actif"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/permit_application_seagrass.docx",
+      "change": "modify"
+    }
+  ]
+}

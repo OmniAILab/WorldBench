@@ -1,0 +1,28 @@
+{
+  "persona": "Klaus ist traditioneller Metzger im historischen Marktviertel von Kassel, Hessen, und spezialisiert auf die berühmte Nordhessische Ahle Wurscht der Region. Er hält sich an die strengen Vorgaben für Luftfeuchtigkeit und Temperatur der traditionellen Reifung in der Lehmkammer sowie an die strengen Hygienevorschriften des örtlichen Veterinäramts. Er gleicht ständig hunderte regionale Schweinefleisch-Lieferscheine mit den täglichen Klimamessungen im Keller und den sich wandelnden g.g.A.-Konformitätsformularen der Europäischen Union ab, um den genauen Reifetermin jeder Charge vorherzusagen.",
+  "task": "Schreibe eine E-Mail an den hessischen Schlachtbetrieb und fordere eine Korrektur wegen des im Schweinefleisch-Lieferschein festgestellten Kühlverstoßes.",
+  "required_files": [
+    "schweinefleisch_lieferschein.xlsx",
+    "kontakte_schlachtbetriebe.xlsx",
+    "hygienehinweise_kassel.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "qualitaet@hesse-farms.de",
+        "keywords": [
+          "Hessen_Agrarhof",
+          "unzureichende Schlachtkörperkühlung"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_qualitaet_*.eml",
+      "change": "create"
+    }
+  ]
+}

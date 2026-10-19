@@ -1,0 +1,21 @@
+Promemoria per l'export degli agrumi destinati ai supermercati del Nord Europa.
+Appunto: La data 2026-11-28 riguarda il controllo dei bancali e non la certificazione fitosanitaria.
+Promemoria: Il prodotto Tarocco_Extra deve seguire un'etichetta interna, non la pratica PGI richiesta qui.
+Nota operativa: La scadenza 2026-12-12 è collegata ai limoni verdelli per il mercato francese.
+Nota archivio: Il contatto logistica@cooperativaetna.it segue i pallet, non la squadra di raccolta.
+Avviso interno: Per Blood_Orange_Bio la scheda indica 2026-12-01, ma non è il prodotto del lotto PGI.
+Appunto: Il registro del magazzino menziona 2026-12-07 per la chiusura celle, non per l'export.
+Avviso Doganale: Tutti i carichi di tarocco fregiati del bollino IGP non possono lasciare lo stabilimento senza che l'unità preposta al raccolto abbia prodotto e vidimato il lasciapassare sanitario entro i termini stabiliti dalla tabella ufficiale.
+Promemoria: Le cassette con fascia rossa vanno contate, ma non determinano la scadenza sanitaria.
+Nota operativa: Il supermercato scandinavo ha chiesto foto del calibro, ma non è il dato da inserire nella email.
+Nota archivio: La data 2026-12-15 è una riserva del laboratorio e non va usata nella comunicazione.
+Avviso interno: Il prodotto Arance_Navel_PGI non compare nella scheda export corrente.
+Appunto: Il contatto vendite@nordeuropa.example segue gli ordini, non la preparazione fitosanitaria.
+Promemoria: Per il lotto Sanguinello_Late usare il calendario di gennaio, non quello di dicembre.
+Nota operativa: La nota sul cartone alveolare non deve entrare nella email alla squadra.
+Nota archivio: Il codice PGI_Blood_Reserve è una prova commerciale e non identifica il prodotto principale.
+Avviso interno: Il promemoria del trasportatore cita 2026-12-03 per il ritiro, ma non per la certificazione.
+Appunto: La manutenzione del muletto in magazzino è logistica e non riguarda la pratica sanitaria.
+Promemoria: La fornitura di etichette adesive per le cassette è amministrativa e non determina la scadenza.
+Nota cooperativa: il controllo del grado Brix è commerciale e non sostituisce la certificazione fitosanitaria.
+Promemoria Etna: la sanificazione delle celle frigorifere segue un registro separato e non modifica la scadenza export.

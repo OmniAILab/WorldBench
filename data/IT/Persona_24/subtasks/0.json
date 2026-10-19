@@ -1,0 +1,40 @@
+{
+  "persona": "Roberto facilita il commercio internazionale come spedizioniere doganale presso il Porto di Trieste, snodo cruciale per i collegamenti della \"Via della Seta Marittima\" verso l'Europa Centrale. Si muove tra il particolare status giuridico delle zone di libero scambio del Porto Vecchio e gli specifici obblighi di deposito elettronico dell'Agenzia delle Dogane e dei Monopoli. Le sue operazioni quotidiane comprendono la rapida interpretazione di complessi codici tariffari e la sincronizzazione dei manifesti di carico tra molteplici giurisdizioni legali, per prevenire colli di bottiglia nella rete di trasporto transeuropea.",
+  "task": "Usa la tabella tariffaria del Porto Vecchio per assegnare il codice doganale elettronico al container in arrivo da Trieste nel file ./data/tariffe_porto_vecchio.xlsx per il container Silk_Road_01.",
+  "required_files": [
+    "note_tariffe_trieste.txt",
+    "logistica_trieste.xlsx",
+    "mappa_tariffe_trieste.xlsx"
+  ],
+  "output_files": [
+    "data/tariffe_porto_vecchio.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/tariffe_porto_vecchio.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "ADM-HI"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/tariffe_porto_vecchio.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

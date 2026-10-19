@@ -1,0 +1,20 @@
+Grille de réglage interne de l’atelier de Besançon, utilisée pour les mesures stabilisées ; elle ne constitue pas une certification métrologique légale.
+Une dérive supérieure à vingt secondes exige une révision complète.
+Une dérive comprise entre quinze et vingt secondes relève du réglage standard.
+Les pendules comtoises sont contrôlées sur une durée plus longue.
+Les chronographes doivent être désarmés avant mesure.
+Les mesures prises pendant le transport ne sont pas valides.
+Les mouvements de réserve suivent une procédure distincte.
+Une dérive comprise entre dix et quatorze secondes relève du réglage intermédiaire.
+Le calibre doit être identifié exactement.
+Une dérive inférieure ou égale à neuf secondes relève du Réglage_fin.
+Le boîtier ne modifie pas le niveau de réglage.
+La lubrification est contrôlée dans une autre fiche.
+La réserve de marche n’est pas le critère demandé.
+Seul le mouvement ciblé doit être mis à jour.
+Le statut doit être saisi avec le trait de soulignement.
+Les pendules d’exposition ne sont pas concernées.
+La valeur de dérive ne doit pas être recopiée dans le registre.
+Le Musée du Temps conserve la fiche finale.
+Une dérive de seize secondes par jour relève du réglage standard après nettoyage.
+Une dérive de neuf secondes par jour ne nécessite qu’une surveillance mensuelle.

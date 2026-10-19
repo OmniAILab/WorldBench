@@ -1,0 +1,31 @@
+{
+  "persona": "Rocío es administradora de fincas en Palma de Mallorca y está especializada en la gestión de posesiones rurales tradicionales (possessions) de la Serra de Tramuntana. Se mueve entre las estrictas limitaciones de uso del suelo del paisaje cultural declarado Patrimonio Mundial por la UNESCO y la normativa de alquiler vacacional de la Conselleria de Turisme del Govern balear. Su trabajo consiste en coordinar cuadrillas de oficios tradicionales, como la piedra en seco, y organizar la logística de los huéspedes en una comarca donde la escasez de agua y el impuesto de turismo sostenible condicionan cada decisión.",
+  "task": "Incorpora al documento de bienvenida de la finca de la Serra de Tramuntana el aviso vigente para reducir el consumo de agua de los huéspedes.",
+  "required_files": [
+    "bando_sequia_palma.txt",
+    "ficha_finca_palma.xlsx"
+  ],
+  "output_files": [
+    "data/dossier_bienvenida.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/dossier_bienvenida.docx",
+        "keywords": [
+          "Serra de Tramuntana",
+          "limitar las duchas",
+          "reutilizar las toallas"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/dossier_bienvenida.docx",
+      "change": "modify"
+    }
+  ]
+}

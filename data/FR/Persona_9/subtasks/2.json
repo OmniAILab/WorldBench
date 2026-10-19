@@ -1,0 +1,35 @@
+{
+  "persona": "Claire est maître parfumeuse à Grasse. Elle compose des concentrés à partir de matières emblématiques telles que le jasmin de Grasse et la rose de mai, contrôle la conformité des lots aux limites internes d’allergènes et coordonne les essais de stabilité avant la mise en production.",
+  "task": "Ajoute au calendrier le contrôle de macération principal de Jasmin_24. Croise le planning de stabilité avec le briefing du laboratoire pour écarter la session annexe du 14 avril et Jasmin_25, puis utilise la date, l’heure, la durée de macération et le lieu de la session principale.",
+  "required_files": [
+    "planning_stabilite_grasse.txt",
+    "briefing_laboratoire_grasse.txt"
+  ],
+  "output_files": [
+    "data/calendrier_laboratoire_grasse.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendrier_laboratoire_grasse.ics",
+        "summary_keywords": [
+          "Contrôle de macération Jasmin_24"
+        ],
+        "description_keywords": [
+          "48 h",
+          "laboratoire de Grasse",
+          "session principale"
+        ],
+        "time_start": "2026-04-07 09:30:00",
+        "time_end": "2026-04-07 10:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendrier_laboratoire_grasse.ics",
+      "change": "modify"
+    }
+  ]
+}

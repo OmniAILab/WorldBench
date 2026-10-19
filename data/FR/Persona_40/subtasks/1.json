@@ -1,0 +1,37 @@
+{
+  "persona": "Aïcha est apicultrice transhumante en Corse, où elle produit du miel sous appellation Mele di Corsica – Miel de Corse AOP. Elle déplace ses ruches entre le maquis, la châtaigneraie et les zones de miellat, contrôle l’humidité du miel et suit les traitements sanitaires contre le varroa tout en préservant l’identité florale des récoltes insulaires.",
+  "task": "Complète la fiche d’étiquetage en croisant le registre des analyses polliniques et origines florales, la validation AOP du lot et le dialogue d’étiquetage. Pour Maquis_Corse_24, reporte uniquement la gamme variétale et le profil floral validés ainsi que son ancrage géographique. Écarte les lots Balagne, Niolu et les mélanges hors appellation.",
+  "required_files": [
+    "origines_florales_corse.txt",
+    "validation_lots_aop_corse.xlsx",
+    "dialogue_etiquetage_miel_corse.txt"
+  ],
+  "output_files": [
+    "data/fiche_etiquetage_miel_aop.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/fiche_etiquetage_miel_aop.docx",
+        "keywords": [
+          "Mele di Corsica",
+          "Maquis_Corse_24",
+          "maquis de printemps",
+          "bruyère blanche",
+          "lavande maritime",
+          "Corse",
+          "lot",
+          "AOP validé"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/fiche_etiquetage_miel_aop.docx",
+      "change": "modify"
+    }
+  ]
+}

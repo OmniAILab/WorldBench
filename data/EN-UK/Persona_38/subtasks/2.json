@@ -1,0 +1,29 @@
+{
+  "persona": "Gareth is a secondary school teacher in the Canton district of Cardiff. He maintains student progress sheets, bilingual education notes, curriculum planning documents, and faculty calendar entries.",
+  "task": "Use the Term_1_Moderation deadline to add a staff marking moderation session to the Cardiff faculty calendar.",
+  "required_files": [
+    "framework_deadlines.xlsx"
+  ],
+  "output_files": [
+    "data/faculty_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/faculty_calendar.ics",
+        "summary_keywords": [
+          "Staff Marking Moderation Session"
+        ],
+        "description_keywords": [],
+        "date": "2026-11-05"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/faculty_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

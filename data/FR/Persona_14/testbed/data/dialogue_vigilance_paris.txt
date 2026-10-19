@@ -1,0 +1,8 @@
+Adrien : Deux fournisseurs sont marqués « Élevé ». Lequel est dans le périmètre de cette campagne ?
+Sophie : Tier2_Textiles uniquement. Tier2_Packaging sera traité lors du cycle emballages.
+Adrien : Notre plan de vigilance prévoit un examen renforcé du fournisseur textile à risque élevé pour ce cycle.
+Sophie : Exact.
+Marc : Le registre doit aussi conserver le motif de la décision.
+Sophie : Oui, inscris « Risque élevé ».
+Adrien : Je modifie donc uniquement Tier2_Textiles dans cette campagne.
+Sophie : Correct.

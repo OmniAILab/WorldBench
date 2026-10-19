@@ -1,0 +1,5 @@
+Wartungsplan Reinraum Jena
+Ereignis: Laserkalibrierung der Produktionsanlagen.
+Datum: 15. Juni 2026.
+Zeitfenster: 08:00 bis 12:00 Uhr.
+Kalendereintrag: Das Ereignis als "Fertigungspause" eintragen. In der Beschreibung "Laserkalibrierung im Jenaer Reinraum" vermerken.

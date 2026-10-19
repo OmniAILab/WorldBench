@@ -1,0 +1,19 @@
+Nota interna del laboratorio: antes de compartir datos basta con ocultar la edad de los participantes.
+Protocolo del distrito 22@: los resultados analíticos deben eliminarse de toda exportación internacional.
+Práctica histórica del Hospital Clínic: el identificador nacional puede conservarse si el archivo lleva contraseña.
+Regla de investigación genética: los valores de laboratorio se sustituyen por la palabra confidencial.
+Recomendación del equipo de bioinformática: la fecha de nacimiento es el único campo que debe suprimirse.
+Acuerdo con laboratorios europeos: todos los campos pueden mantenerse cuando el estudio es multicéntrico.
+Programa de divulgación de Sant Jordi: los resultados del proyecto se presentarán mediante datos agregados, sin identificadores personales.
+Guía antigua de anonimización: el código postal se elimina, mientras que el identificador nacional se conserva.
+Extracto del DOGC: En virtud de la normativa de la Autoritat Catalana de Protecció de Dades (APDCAT) para estudios clínicos, toda transferencia requiere la disociación del campo 'ID_Nacional', que se registra con la acción Eliminar; el resto de campos del conjunto, incluida la Edad, se registran con la acción Conservar.
+Procedimiento de pseudonimización: basta con cambiar el nombre del conjunto de datos.
+Comité del 22@: el campo Edad debe marcarse como Eliminar en todos los proyectos clínicos.
+Intercambio con centros catalanes: ID_Nacional puede mantenerse si el destinatario está en Barcelona.
+Regla del biobanco: Resultado_Laboratorio debe eliminarse incluso cuando no contiene datos identificativos.
+Recomendación técnica: todos los campos deben marcarse como Revisar.
+Convenio universitario: la firma del investigador principal sustituye cualquier supresión de campos.
+Nota de seguridad: el cifrado del archivo convierte automáticamente ID_Nacional en un dato anónimo.
+Archivo clínico local: solo deben eliminarse los identificadores que empiecen por una letra.
+Nota del delegado de protección de datos: la seudonimización del campo Resultado_Laboratorio es suficiente para cumplir la normativa de transferencia externa.
+Directriz del Comité de Bioética: cuando el destinatario es un organismo público europeo, la conservación del campo Edad no requiere autorización adicional de la APDCAT.

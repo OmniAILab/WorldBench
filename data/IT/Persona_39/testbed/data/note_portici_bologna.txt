@@ -1,0 +1,21 @@
+Vincolo deposito Due_Madonne: altezza massima cancello 4,1 metri.
+Vincolo sottopasso Stalingrado: altezza operativa 3,8 metri.
+Vincolo pensilina Centrale: altezza copertura 3,6 metri.
+Vincolo portico laterale archivio: altezza storica 2,9 metri.
+Vincolo officina TPER: altezza sollevatore 4,5 metri.
+Vincolo via Rizzoli evento: altezza allestimenti 3,0 metri.
+Capitolato tecnico del servizio: sui collegamenti del centro storico con passaggi a sagoma limitata, l’altezza massima ammissibile dei minibus è fissata a 3,2 metri; verificare l’itinerario prima dell’assegnazione dei mezzi.
+Vincolo fiera temporanea: altezza stand 2,7 metri.
+Vincolo strada collinare: altezza rami 3,4 metri.
+Vincolo parcheggio Tanari: altezza varco 3,3 metri.
+Vincolo pensilina università: altezza copertura 3,1 metri.
+Vincolo portico fotografico: altezza rilevata 3,5 metri.
+Vincolo deposito periferico: altezza massima 4,0 metri.
+Vincolo attraversamento Zamboni: altezza cavi 3,7 metri.
+Vincolo fermata provvisoria: altezza segnaletica 2,8 metri.
+Vincolo corridoio manutenzione: altezza interna 3,9 metri.
+Vincolo magazzino batterie: altezza scaffali 2,6 metri.
+Vincolo rimessa nord: altezza massima portone 4,2 metri.
+Vincolo pensilina fiera: altezza copertura provvisoria 3,0 metri.
+Vincolo portico San Luca urbano: altezza rilevata 3,4 metri per mezzo manutenzione.
+Vincolo cortile comunale: altezza arco 3,5 metri per accesso tecnico.

@@ -1,0 +1,39 @@
+{
+  "persona": "Julian ist Stadtplaner und lebt im Berliner Stadtteil Prenzlauer Berg, wo er sich darauf konzentriert, ehemalige Industriebrachen in nachhaltige Gemeinschaftsflächen zu verwandeln. Er ringt mit dem verzweigten Bundes-Bodenschutzrecht und mit den besonderen Umweltauflagen der Berliner Senatsverwaltung für Stadtentwicklung. Er bündelt regelmäßig große Mengen an Bürgerrückmeldungen aus Kiezversammlungen mit komplexen geologischen Untersuchungsdaten, um Bebauungsvorschläge zu entwerfen, die öffentliche Wünsche und ökologische Zwänge in Einklang bringen.",
+  "task": "Nutze die informelle Bürgerabstimmung in Prenzlauer Berg, ermittle das meistgewünschte Element und setze seine Priorität im internen Bebauungsvorschlag auf Hoch.",
+  "required_files": [
+    "buergerabstimmung_berlin.xlsx",
+    "buergerhinweise_berlin.txt"
+  ],
+  "output_files": [
+    "data/bebauungsvorschlag_berlin.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/bebauungsvorschlag_berlin.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Hoch"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/bebauungsvorschlag_berlin.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

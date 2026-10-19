@@ -1,0 +1,30 @@
+{
+  "persona": "Francesca è una forestale urbana a Torino, responsabile dell'attuazione del progetto \"ForestaMi\" per ampliare la copertura verde della città. Si destreggia tra gli standard tecnici per la mitigazione delle isole di calore urbane e le specifiche licenze di utilizzo dell'acqua rilasciate dall'Autorità di Distretto del Fiume Po. Il suo lavoro comprende l'analisi di immagini satellitari ad alta risoluzione dei livelli di umidità del suolo e il coordinamento con le squadre di manutenzione comunali per garantire la sopravvivenza di migliaia di alberi appena piantati, nelle estati piemontesi sempre più calde.",
+  "task": "Scrivi una email alla squadra comunale del verde pubblico assegnando la zona di irrigazione prioritaria e includendo il tetto settimanale in litri.",
+  "required_files": [
+    "note_email_verde_torino.txt",
+    "contatti_verde_torino.xlsx",
+    "piano_irrigazione_torino_report.xlsx",
+    "manutenzione_torino_v2.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "verde@comune.torino.it",
+        "keywords": [
+          "Z_B",
+          "3000",
+          "litri"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_verde_*.eml",
+      "change": "create"
+    }
+  ]
+}

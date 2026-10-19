@@ -1,0 +1,30 @@
+{
+  "persona": "Mairi from Inverness works as a Route Manager for the North Coast 500 tourism collective. She coordinates with Highland Council rangers and local estates to manage visitor pressure, dirty camping, single-track roads, passing places, and local concerns during the tourist season.",
+  "task": "Draft a concise NC500 Ranger Notice for Highland Council rangers, using only the passing-place and dirty-camping safety lines and leaving out café, ferry, and tourist-service details.",
+  "required_files": [
+    "key_points_nc500.txt"
+  ],
+  "output_files": [
+    "data/ranger_notice.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/ranger_notice.docx",
+        "keywords": [
+          "NC500 Ranger Notice",
+          "Use passing places",
+          "No dirty camping near verges"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/ranger_notice.docx",
+      "change": "modify"
+    }
+  ]
+}

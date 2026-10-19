@@ -1,0 +1,38 @@
+{
+  "persona": "David is a renewable energy systems analyst based in Newcastle upon Tyne. He updates integration plans, demand-capacity checks, market-signal summaries, liaison emails, and review calendar entries for offshore wind integration work.",
+  "task": "Read the ESO ramp-rate limit for Dogger Bank and update the Newcastle integration plan with the exact numeric value in MW per minute.",
+  "required_files": [
+    "eso_notice.txt"
+  ],
+  "output_files": [
+    "data/integration_plan_newcastle.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/integration_plan_newcastle.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": 5
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/integration_plan_newcastle.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Specialist: The BR-North sector is our target in the landowner advisory.
+Forester: Yes, the current severity is Critical.
+Specialist: BR-Ridge is High, so close but lower.
+Forester: Correct.
+Specialist: Pisgah has several sectors with similar names.
+Forester: Always verify the exact identifier.
+Specialist: The hemlock woolly adelgid hits the hemlocks hard.
+Forester: Yes, but the document asks for the sector severity, not a treatment.
+Specialist: Private roads can delay the crew.
+Forester: Access context only.
+Specialist: The prescribed burn units stay separate.
+Forester: Correct.
+Specialist: I am putting BR-North and Critical in the advisory.
+Forester: Exactly.
+Specialist: Not BR-HemlockCreek, despite the name.
+Forester: That is a different sector.
+Specialist: I am keeping the severity class wording as it stands.
+Forester: Yes.
+Specialist: Short document for the landowner.
+Forester: Perfect.
+Blue Ridge context: eastern hemlock is heavily affected by the hemlock woolly adelgid across the Appalachians.
+Pisgah: forest roads, slopes, and private access make treatment rounds harder to schedule.

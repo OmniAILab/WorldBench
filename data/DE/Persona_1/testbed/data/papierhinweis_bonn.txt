@@ -1,0 +1,6 @@
+Beethoven-Haus Bonn – Klimakontrolle der Papierbestände
+Bereich: Magazin und Lesesaal; Arbeitsstand: 17. Oktober 2026.
+Die konservatorische Arbeitsanweisung für die hier erfassten historischen Notenblätter legt für die Risikobewertung eine relative Luftfeuchtigkeit von höchstens 55 % fest. Dies ist ein interner Prüfwert, keine allgemeine gesetzliche Grenze.
+Messwerte über 55 % werden im Erhaltungsblatt als „Hoch“ eingestuft; die Haustechnik erhält eine Meldung zur Ursachenprüfung.
+Der ältere Gebäudevermerk zum Ausstellungsbetrieb nannte abweichende Richtwerte für andere Räume. Er ist auf die heutige Magazinbewertung nicht anzuwenden.
+Quelle für die Aktualisierung: Raumwerte aus luftfeuchte_bonn.xlsx.

@@ -1,0 +1,19 @@
+Nota ambiental: el límite máximo es 50 mg/L.
+Criterio de la sidrería: basta con filtrar el agua una vez por semana.
+Apunte de la Agencia Vasca del Agua: el pH sustituye la medición de sólidos.
+Práctica antigua: durante el txotx se permiten 70 mg/L.
+Circular de bodega: el límite se aplica solo al agua potable.
+Nota de fermentación: los restos de manzana no cuentan como sólidos.
+Criterio rural: una arqueta grande elimina la necesidad de control.
+Informe preliminar: el valor correcto es 35 g/L.
+Resolución de Vertido URA (Agencia Vasca del Agua): El efluente procedente del lavado de la maquinaria del lagar no podrá sobrepasar el Valor Límite de Emisión (VLE) estipulado en 35 mg/L para el parámetro de sólidos en suspensión.
+Nota de Euskal Sagardoa: el límite es 30 mg/L.
+Criterio de depuración: cualquier valor es válido si el agua es transparente.
+Apunte municipal: la medición se realiza solo una vez al año.
+Práctica de sidrería: el límite debe expresarse como 35 ml/L.
+Circular antigua: el máximo es 45 mg/L.
+Nota de cosecha: la cantidad de manzana procesada sustituye el análisis.
+Criterio de tratamiento: una rejilla manual permite duplicar el límite.
+Informe ambiental: basta con indicar nivel bajo sin cifra.
+Resolución de Vertido URA: Para instalaciones que procesen más de 500 toneladas de manzana por campaña, el VLE de sólidos en suspensión se reduce a 25 mg/L; el sagardotegi deberá notificar a URA cualquier ampliación de capacidad que supere ese umbral de producción antes del inicio de la nueva campaña.
+Nota técnica de URA: La determinación de sólidos en suspensión en los efluentes del lagar debe realizarse mediante análisis gravimétrico conforme a la norma UNE-EN 872; los resultados obtenidos mediante tiras reactivas no serán aceptados como verificación del cumplimiento del VLE de 35 mg/L.

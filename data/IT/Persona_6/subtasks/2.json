@@ -1,0 +1,27 @@
+{
+  "persona": "Marco è un responsabile delle operazioni retail di uno storico grande magazzino di lusso situato all'interno della Galleria Vittorio Emanuele II a Milano. Supervisiona il flusso quotidiano di merce di alta gamma e di clientela VIP internazionale, destreggiandosi tra le rigide regole di decoro dell'Area Monumentale e l'incubo logistico del coordinamento delle consegne all'interno della zona a pagamento Area C durante la Settimana della Moda.",
+  "task": "Scrivi una email al corriere indicando l'approccio di consegna e includendo sia il vincolo Area C sia la regola di decoro sul mosaico.",
+  "required_files": [
+    "contatti_corrieri_milano.xlsx",
+    "istruzioni_corriere_milano.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "ops@luxecourier.it",
+        "keywords": [
+          "Area C",
+          "Niente carrelli sul mosaico"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_ops_*.eml",
+      "change": "create"
+    }
+  ]
+}

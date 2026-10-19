@@ -1,0 +1,29 @@
+{
+  "persona": "Inés es técnica de enlace patrimonial en Granada y coordina la relación entre las obras de servicios urbanos y la conservación del Albaicín, declarado Patrimonio Mundial. Aplica el Plan Especial de Protección y Reforma Interior (PEPRI) y las resoluciones del Patronato de la Alhambra y el Generalife. Su trabajo consiste en leer índices estratigráficos, decidir qué unidades requieren supervisión arqueológica intensiva y frenar la maquinaria cuando aparecen estructuras históricas.",
+  "task": "Escribe un correo electrónico a la empresa de servicios para solicitar la paralización de la zanja ALB-T2 e indicar la capa nazarí identificada.",
+  "required_files": [
+    "contactos_obra_granada.xlsx",
+    "zanjas_granada_v2.xlsx",
+    "indicaciones_correo_obra_granada.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "obra@contrata.es",
+        "keywords": [
+          "ALB-T2",
+          "L3",
+          "paralización"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_obra_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+Promemoria contatti: support@cineca.it è interno e non è il referente EuroHPC.
+Nota coda: W1 era disponibile ma non è stata selezionata.
+Appunto modello: Demo_Po non è il run da comunicare.
+Procedura di Notifica: Ogni schedulazione sul cluster richiede una comunicazione immediata alle controparti europee, chiarendo quale simulatore è stato lanciato e il rispettivo codice di slot orario.
+Registro finestre: W3 può essere usata per test secondari.
+Nota sovranità: non includere dettagli sui dataset IT_ONLY nella email sintetica.
+Promemoria Bologna: citare il modello esattamente come nel foglio piano run.
+Scheda comunicazioni: non allegare credenziali HPC.
+Nota EuroHPC: il contatto liaison riceve aggiornamenti di pianificazione.
+Appunto calendario: il meeting del consorzio non modifica la finestra scelta.
+Promemoria output: usare un tono operativo.
+Registro tecnico: la durata di W2 non deve sostituire il codice finestra.
+Nota agricola: non inserire dati di previsione meteo non richiesti.
+Appunto sicurezza: evitare percorsi di file interni nel testo della email.
+Promemoria policy: non dichiarare esportazioni autorizzate se non richieste.
+Scheda run: il piano contiene una sola riga da comunicare.
+Nota ufficio: il nome del supercomputer non è keyword obbligatoria.
+Promemoria contatti: helpdesk@cineca.it gestisce le segnalazioni tecniche generiche, non i referenti del consorzio.
+Scheda comunicazioni: il bollettino settimanale automatico non sostituisce la notifica di pianificazione.
+Nota Bologna: il briefing interno del Tecnopolo non sostituisce la comunicazione al referente europeo.
+Promemoria CINECA: le statistiche mensili di utilizzo del cluster non vanno incluse nell'aggiornamento della singola schedulazione.

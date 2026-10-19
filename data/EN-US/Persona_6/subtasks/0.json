@@ -1,0 +1,38 @@
+{
+  "persona": "Joaquín is an arid-landscaping architect in Phoenix, Arizona, who designs drought-tolerant public spaces that mitigate the urban heat island effect. He must adhere to the stringent groundwater management policies of the Arizona Department of Water Resources and the specific shade-structure ordinances of the Maricopa County Planning and Development Department, selecting native flora that thrives in extreme heat while documenting the long-term water savings of each installation.",
+  "task": "Use the groundwater policy limit to set the maximum irrigation budget for the park plan and update the value in the spreadsheet.",
+  "required_files": [
+    "adwr_notice.txt"
+  ],
+  "output_files": [
+    "data/park_plan_phoenix.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/park_plan_phoenix.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "1200"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/park_plan_phoenix.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

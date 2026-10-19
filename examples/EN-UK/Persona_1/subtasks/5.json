@@ -1,0 +1,19 @@
+{
+  "persona": "Hamza from Glasgow serves as a Community Health Liaison based in the Pollokshields area, focusing on bridging the gap between NHS Greater Glasgow and Clyde and the city’s diverse immigrant populations. He navigates the complexities of the Scottish Index of Multiple Deprivation (SIMD) to advocate for resource allocation while coordinating with local Gurdwaras and Mosques to deliver health screenings. His daily workflow involves translating complex Scottish healthcare rights into multiple community languages during the bustling Friday rush before communal prayers.",
+  "task": "Add the spare leaflet box note to the small storage reminder file.",
+  "required_files": [
+    "minor_storage_note_pollokshields.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/hamza_storage_reminder.txt",
+        "keywords": [
+          "spare leaflets are in the blue box"
+        ]
+      }
+    }
+  ]
+}

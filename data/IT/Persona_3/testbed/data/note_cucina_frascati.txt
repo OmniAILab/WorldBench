@@ -1,0 +1,22 @@
+Appunto cucina: scegliere il primo prodotto disponibile, anche se non è verdura.
+Nota fraschetta: il pane del forno vecchio può sostituire la verdura del giorno.
+Promemoria Tusculum: usare Carciofi_Tusculum anche se oggi non sono disponibili.
+Appunto Castelli: Cicoria_Castelli vale come chilometro zero anche se non viene da Tusculum.
+Nota lavagna: scrivere solo 'verdura locale' senza nome prodotto.
+Direttiva dello Chef Paolo: Da oggi in poi, per la voce "Verdura del giorno", peschiamo esclusivamente le primizie attualmente disponibili e consegnate dalle tenute di Tusculum.
+Promemoria sala: scegliere Pomodori_Grottaferrata perché sono disponibili.
+Appunto cantina: il Frascati_DOCG_CoOp va indicato come verdura del giorno.
+Nota chef: se due prodotti sono disponibili, preferire quello consegnato dal forno.
+Promemoria mercato: usare il prodotto più richiesto dai clienti del tavolo cinque.
+Appunto dispensa: il formaggio locale può essere registrato come ortaggio.
+Nota tradizione: la porchetta dei Castelli va sulla riga Verdura del giorno.
+Promemoria ZTL: scegliere il prodotto consegnato prima delle 07:30.
+Appunto menu: lasciare la riga Today_Veg invariata se ci sono dubbi.
+Nota Frascati: usare Carciofi_Tusculum perché più tipici della stagione.
+Promemoria orto: le zucchine non vanno scritte se il fornitore passa nel pomeriggio.
+Appunto cucina fredda: indicare Insalata_Centro anche se non compare nel foglio produttori.
+Nota dolci: la crostata di visciole non riguarda la voce verdura.
+Appunto stagione: i prodotti di stagione cambiano ogni due settimane sul registro.
+Nota prezzo: il prezzo di vendita del piatto non si scrive sulla lavagna del menù.
+Promemoria allergeni: la verdura del giorno non richiede dicitura allergeni.
+Nota fornitore: il nome del corriere non va riportato accanto al prodotto.

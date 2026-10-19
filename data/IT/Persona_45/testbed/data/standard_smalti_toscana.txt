@@ -1,0 +1,21 @@
+Tintoria_Lucca per Textile_Dye: protocollo smaltimento CODE-TX4.
+Tintoria_Prato per Lana_Sporca: protocollo smaltimento CODE-WL2.
+Tintoria_Empoli per Textile_Dye: protocollo smaltimento CODE-TX7.
+Tintoria_Prato per Solvente_Leggero: protocollo smaltimento CODE-SV3.
+Tintoria_Firenze per Textile_Dye: protocollo smaltimento CODE-TX8.
+Tintoria_Prato archivio 2025 per Textile_Dye: protocollo CODE-TX5.
+Registro interno dei subappaltatori: alle vasche di tintura esaurite è associato il codice gestionale CODE-TX9, da riconciliare con il pertinente codice EER e con la documentazione ambientale prescritta prima del conferimento.
+Macrolotto_Wash per Textile_Dye: protocollo smaltimento CODE-TX6.
+Tintoria_Prato per Acqua_Lavaggio: protocollo smaltimento CODE-AQ1.
+Tintoria_Pistoia per Textile_Dye: protocollo smaltimento CODE-TX2.
+Tintoria_Prato per Pigmento_Naturale: protocollo smaltimento CODE-NAT.
+Subappalto_Rifinizione per Textile_Dye: protocollo CODE-RF1.
+Tintoria_Prato per Fango_Tessile: protocollo smaltimento CODE-FG4.
+Tintoria_Arezzo per Textile_Dye: protocollo smaltimento CODE-TX3.
+Tintoria_Prato per Imballaggi: protocollo smaltimento CODE-PK1.
+Tintoria_Prato per Test_Lab: protocollo smaltimento CODE-LB9.
+Tintoria_Siena per Textile_Dye: protocollo smaltimento CODE-TX1.
+Tintoria_Prato per Vernice_Acrilica: protocollo smaltimento CODE-VA2.
+Tintoria_Montecatini per Textile_Dye: protocollo smaltimento CODE-TX0.
+Tintoria_Campi per Textile_Dye: protocollo smaltimento CODE-TX8B.
+Tintoria_Prato per Fibre_Miste: protocollo smaltimento CODE-FM2.

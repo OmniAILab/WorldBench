@@ -1,0 +1,38 @@
+{
+  "persona": "Matteo è un coordinatore logistico di un’azienda tessile di alta gamma nel distretto del Macrolotto di Prato. Gestisce le movimentazioni di tessuti destinati alle maison internazionali, mantenendo i contatti con fornitori, tintorie e subappaltatori locali. Deve conciliare le scadenze delle consegne per Milano con la tracciabilità dei materiali e con la corretta gestione dei residui delle lavorazioni tessili secondo gli obblighi ambientali applicabili.",
+  "task": "Usa il documento tecnico sui rifiuti tessili per aggiornare nel registro del subappaltatore il codice gestionale interno relativo ai residui della tintura.",
+  "required_files": [
+    "standard_smalti_toscana.txt"
+  ],
+  "output_files": [
+    "data/registro_subappaltatori_prato.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/registro_subappaltatori_prato.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "CODE-TX9"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/registro_subappaltatori_prato.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

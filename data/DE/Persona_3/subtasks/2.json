@@ -1,0 +1,28 @@
+{
+  "persona": "Johannes bewirtschaftet Rieslingparzellen am Niersteiner Roten Hang in Rheinhessen. Für die seltene Eisweinlese stimmt er Frostmessungen, Mostgewicht, Leseplanung und die Abläufe im Kelterhaus aufeinander ab.",
+  "task": "Verfasse an die Nachtmannschaft eine E-Mail, mit der du die geplante Eisweinlese wegen unzureichenden Frosts absagst und die verwendete Temperaturgrenze nennst.",
+  "required_files": [
+    "mannschaft_nierstein.xlsx",
+    "absagehinweis_nierstein.txt",
+    "ernte_nierstein_aktualisiert.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "mannschaft@weingut.de",
+        "keywords": [
+          "-7 °C",
+          "absagen"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_mannschaft_*.eml",
+      "change": "create"
+    }
+  ]
+}

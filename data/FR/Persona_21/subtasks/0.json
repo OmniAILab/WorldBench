@@ -1,0 +1,34 @@
+{
+  "persona": "Morgane est lissière dans une manufacture de tapisserie d’Aubusson, où elle réalise des commandes contemporaines de grand format. Elle interprète les cartons d’artistes, contrôle la tension des fils de chaîne et suit les bains de teinture de laine. Elle documente les étapes de tissage afin de préserver le savoir-faire inscrit au patrimoine culturel immatériel de l’UNESCO et de répondre aux exigences des collectionneurs et des institutions patrimoniales.",
+  "task": "Croise le contrat final du collectionneur, la fiche des réglages validés du métier et le dialogue d’atelier. Pour « Ondes d’Aubusson », conserve les dimensions contractuelles 400 cm × 250 cm, calcule la largeur de chaîne en ajoutant 6 cm de marge de chaque côté et mets à jour le document de réglage. Écarte les anciennes marges et les commandes voisines.",
+  "required_files": [
+    "collector_contract.txt",
+    "reglages_metier_aubusson.xlsx",
+    "dialogue_reglage_metier_aubusson.txt"
+  ],
+  "output_files": [
+    "data/loom_setup.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/loom_setup.docx",
+        "keywords": [
+          "Ondes d’Aubusson",
+          "400 cm",
+          "250 cm",
+          "412 cm",
+          "version contractuelle finale"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/loom_setup.docx",
+      "change": "modify"
+    }
+  ]
+}

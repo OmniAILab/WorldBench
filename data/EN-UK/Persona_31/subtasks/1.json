@@ -1,0 +1,28 @@
+{
+  "persona": "Martha is a sustainability consultant in Manchester, working on the reuse of former cotton mills as low-carbon residential hubs. She updates structural audit sheets, BREEAM notes, council strategy documents, and developer emails.",
+  "task": "Insert the Manchester council heat-pump requirement into the Heating Systems section of the redevelopment proposal.",
+  "required_files": [
+    "mcc_strategy_update.txt"
+  ],
+  "output_files": [
+    "data/redevelopment_proposal.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/redevelopment_proposal.docx",
+        "keywords": [
+          "Minimum 50kW heat pump required for residential hubs"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/redevelopment_proposal.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "persona": "Beatriz es responsable de cumplimiento normativo en el Málaga TechPark y acompaña a empresas emergentes internacionales en sus traslados a la Costa del Sol. Tramita expedientes de extranjería al amparo de la Ley 14/2013 de apoyo a los emprendedores ante la Subdelegación del Gobierno y asesora sobre el régimen fiscal especial para trabajadores desplazados del artículo 93 de la LIRPF, conocido como Ley Beckham. Su trabajo consiste en cuadrar la documentación de residencia de cada persona con los plazos telemáticos de la Administración.",
+  "task": "Escribe un correo electrónico al contacto de recursos humanos de la empresa emergente para solicitar el documento que falta en el expediente ML-88.",
+  "required_files": [
+    "contactos_rrhh_malaga.xlsx",
+    "documentos_visado_malaga.xlsx",
+    "indicaciones_correo_rrhh_malaga.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "hr@startup.es",
+        "keywords": [
+          "ML-88",
+          "Contrato_de_vivienda"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_hr_*.eml",
+      "change": "create"
+    }
+  ]
+}

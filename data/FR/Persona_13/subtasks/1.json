@@ -1,0 +1,35 @@
+{
+  "persona": "Amélie est restauratrice de textiles de mode à Paris et travaille dans un atelier spécialisé du quartier du Sentier. Elle recherche des soies et des fils anciens rares, en documentant la provenance des matières et en appliquant les procédures de sécurité chimique de son atelier. Elle veille ainsi à préserver des pièces historiques de couture destinées au Musée Galliera sans contrevenir aux exigences contemporaines de durabilité.",
+  "task": "Croise la procédure de traçabilité des matières liée au dossier « Made in France », le registre de provenance des matières et le dialogue de restauration. Pour la pièce Robe_Galliera_1928, rédige une courte fiche destinée à l’atelier du Sentier qui trace séparément l’origine du fil et l’origine de la soie ; n’utilise ni le pays d’assemblage ni la provenance de la doublure comme substitut.",
+  "required_files": [
+    "provenance_note.txt",
+    "provenances_materiaux_paris.xlsx",
+    "dialogue_provenance_sentier.txt"
+  ],
+  "output_files": [
+    "data/restoration_record.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/restoration_record.docx",
+        "keywords": [
+          "Sentier",
+          "Made in France",
+          "origine du fil",
+          "origine de la soie",
+          "Lyon",
+          "Saint-Étienne"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/restoration_record.docx",
+      "change": "modify"
+    }
+  ]
+}

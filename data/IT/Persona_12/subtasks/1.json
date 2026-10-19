@@ -1,0 +1,39 @@
+{
+  "persona": "Francesca è una forestale urbana a Torino, responsabile dell'attuazione del progetto \"ForestaMi\" per ampliare la copertura verde della città. Si destreggia tra gli standard tecnici per la mitigazione delle isole di calore urbane e le specifiche licenze di utilizzo dell'acqua rilasciate dall'Autorità di Distretto del Fiume Po. Il suo lavoro comprende l'analisi di immagini satellitari ad alta risoluzione dei livelli di umidità del suolo e il coordinamento con le squadre di manutenzione comunali per garantire la sopravvivenza di migliaia di alberi appena piantati, nelle estati piemontesi sempre più calde.",
+  "task": "Individua la zona di impianto più secca dalla tabella satellitare e indicala come priorità di irrigazione nella riga della settimana 2026-W14 del file ./data/manutenzione_torino.xlsx.",
+  "required_files": [
+    "note_umidita_torino.txt",
+    "umidita_torino.xlsx"
+  ],
+  "output_files": [
+    "data/manutenzione_torino.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/manutenzione_torino.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Z_B"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/manutenzione_torino.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

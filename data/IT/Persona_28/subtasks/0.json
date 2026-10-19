@@ -1,0 +1,39 @@
+{
+  "persona": "Rosalia monitora la produzione agricola di una cooperativa agrumicola ad alta tecnologia all'ombra dell'Etna, in Sicilia, specializzata nelle Arance Rosse di Sicilia IGP. Interpreta dati in tempo reale provenienti dai sensori dei suoli vulcanici e gestisce la distribuzione delle risorse idriche secondo le quote stabilite dal Consorzio di Bonifica. Il suo lavoro comprende la costante conciliazione dei raccolti con le richieste variabili delle catene di supermercati del Nord Europa e con gli specifici standard fitosanitari per l'export internazionale.",
+  "task": "Usa le letture dei sensori vulcanici e la nota del Consorzio di Bonifica per individuare il settore che richiede integrazione irrigua e aggiorna il foglio delle quote nel file ./data/quote_consorzio_agrumi.xlsx per il settore Versante_Est_B.",
+  "required_files": [
+    "nota_irrigazione_arance_rosse.txt",
+    "sensori_etna_agrumi.xlsx"
+  ],
+  "output_files": [
+    "data/quote_consorzio_agrumi.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/quote_consorzio_agrumi.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": "Deficit_15"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/quote_consorzio_agrumi.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

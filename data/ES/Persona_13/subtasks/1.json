@@ -1,0 +1,30 @@
+{
+  "persona": "Jordi es ingeniero estructural en Barcelona y está especializado en la rehabilitación de edificios históricos del Eixample. Se asegura de que toda intervención respete la normativa de protección del patrimonio de la Generalitat de Catalunya y el Catálogo del Ajuntament, así como las actuaciones de pacificación de las Superilles y los Eixos Verds. Su trabajo consiste en revisar planos técnicos y mediar entre las certificaciones de sostenibilidad y la conservación de los materiales originales del siglo XIX.",
+  "task": "Incorpora al documento para contratistas del Eixample la norma vigente de acceso a las calles peatonales de la Superilla.",
+  "required_files": [
+    "decreto_movilidad_superilla.txt",
+    "flota_obra_eixample.xlsx"
+  ],
+  "output_files": [
+    "data/documento_contratistas.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/documento_contratistas.docx",
+        "keywords": [
+          "Eixample",
+          "antes de las 09:00"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/documento_contratistas.docx",
+      "change": "modify"
+    }
+  ]
+}

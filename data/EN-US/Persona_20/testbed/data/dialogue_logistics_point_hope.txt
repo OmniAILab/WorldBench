@@ -1,0 +1,22 @@
+Dispatch: The clinic project being tracked today is the one at Point Hope.
+Logistics coordinator: Which inventory item is involved?
+Dispatch: The clinic insulation panels, Clinic_Insulation_Panels.
+Coordinator: I need to find their current status in the inventory, not assume it.
+Dispatch: Yes.
+Coordinator: Then contact the Point Hope council from the communities table.
+Dispatch: Correct.
+Coordinator: The clinic door frames are ready, but they are not the delayed materials in question.
+Dispatch: Correct.
+Coordinator: The flight-ready medical supplies are not the target either.
+Dispatch: Correct.
+Coordinator: Bush transport depends heavily on weather windows and remote runways.
+Dispatch: Yes, especially for communities off the road system.
+Coordinator: But the email has to carry the exact inventory status.
+Dispatch: Yes.
+Coordinator: I will not promise a firmer date than the status supports.
+Dispatch: Very important.
+Coordinator: The recipient is the community council, not the depot or the shop.
+Dispatch: Correct.
+Coordinator: I cite the item and the delay.
+Dispatch: Yes.
+Coordinator: Short, operational message.

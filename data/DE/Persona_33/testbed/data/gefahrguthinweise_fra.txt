@@ -1,0 +1,8 @@
+Gefahrgutkontrolle – Flughafen Frankfurt, 16. Oktober 2026
+Abfertigungsprotokoll: Für Palettenposition_P1 wurde der Befund „Kennzeichnung UN1845 fehlt“ festgestellt. Die Position enthält eine Sendung mit Trockeneis als Kühlmittel.
+Prüfschritt Gefahrgut: Kennzeichnung, angegebene Trockeneismasse und die nach dem einschlägigen Luftverkehrsregelwerk erforderlichen Angaben müssen vor der Verladung geprüft werden.
+Frachtkontrolle P2: Beschädigtes gewöhnliches Versandlabel; separate Korrektur, kein bestätigter UN1845-Fehler.
+Frachtkontrolle P3: Beschädigtes Ladungsnetz; gesonderte technische Sperrprüfung.
+Zollabgleich P9: Unvollständige MRN, die vor Zollfreigabe zu berichtigen ist. Daraus folgt kein Kennzeichnungsfehler zu Trockeneis.
+Aktuelle Anweisung: Palettenposition_P1 bis zur korrekten Gefahrgutkennzeichnung und erneuten Abnahme nicht verladen; Rampenabfertigung unter ramp@fra-cargo.de informieren.
+Die Adressen des internen Kontaktverzeichnisses sind für reale externe Zustellungen vorab zu verifizieren.

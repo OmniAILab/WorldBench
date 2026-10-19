@@ -1,0 +1,20 @@
+Receiving task: count the zipper cartons before line 2.
+Receiving task: compare the hangtags against the marketing request.
+Receiving task: set aside mislabeled yarn cones.
+Receiving task: sweep the bay after the rainwater has drained.
+Receiving task: confirm the length of the recycled polyester rolls.
+Receiving task: hold the waterproof membranes until the lab test.
+Receiving task: photograph crushed cartons.
+Receiving task: notify production if the cut schedule changes.
+Port of Portland checklist - step 1: Verify the seal number.
+Port of Portland checklist - step 2: Check for moisture damage.
+Port of Portland checklist - step 3: Log the arrival time.
+Portland: Pacific Northwest rain can hide moisture in the cartons.
+Portland: the floor checklist must be concise.
+Portland: mention Port of Portland.
+Domestic components do not follow this import checklist.
+The color inspection is not one of the three steps.
+Counting the zippers is a separate floor task.
+Instruction: keep the order of the three steps.
+Instruction: do not turn the checklist into a long narrative.
+Instruction: include all three checks without omitting any.

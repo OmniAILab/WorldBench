@@ -1,0 +1,28 @@
+{
+  "persona": "Elin is a tidal energy site manager in Swansea Bay. She maintains telemetry sheets, tidal-window emails, environmental compliance documents, and maintenance priority trackers for submerged turbines.",
+  "task": "Draft a formal deployment email to the underwater engineering divers using the safe maintenance window for 2026-03-22.",
+  "required_files": [
+    "tidal_patterns.xlsx",
+    "diver_contacts_swansea.xlsx",
+    "email_templates_elin.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "divers@swanseabaytidal.wales",
+        "keywords": [
+          "14:00_to_15:30_Slack_Tide",
+          "2026-03-22"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_divers_*.eml",
+      "change": "create"
+    }
+  ]
+}

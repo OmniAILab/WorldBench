@@ -1,0 +1,29 @@
+{
+  "persona": "Lucía es agricultora ecológica en el Campo de Cartagena (Región de Murcia) y gestiona rotaciones de cultivo sostenibles bajo la estricta vigilancia de la Ley de Recuperación y Protección del Mar Menor. Lucha contra el déficit hídrico estructural de la cuenca del Segura y contra las exigentes obligaciones de declarar la carga de nitrógeno, tratando de mantener viables sus variedades tradicionales frente a olas de calor cada vez más frecuentes y a cuotas de agua desalada en constante cambio.",
+  "task": "Identifica en el registro de cumplimiento la parcela señalada por exceso de nitrógeno, obtén su carga medida de la hoja de nitrógeno y localiza al técnico agrónomo en el directorio de la cooperativa. Escríbele informando del código de la parcela y de su carga en kg, sin dirigirte a los responsables de agua, suelos, ventas o asesoría ambiental.",
+  "required_files": [
+    "contactos_cooperativa.xlsx",
+    "nitrogeno_murcia.xlsx",
+    "indicaciones_correo_murcia.txt",
+    "cumplimiento_murcia_v2.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "tecnico@cooperativa.es",
+        "keywords": [
+          "F1",
+          "92 kg"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_tecnico_*.eml",
+      "change": "create"
+    }
+  ]
+}

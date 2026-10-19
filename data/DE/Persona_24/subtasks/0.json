@@ -1,0 +1,39 @@
+{
+  "persona": "Mathias ist traditioneller Kahnführer in den labyrinthischen Wasserläufen des Biosphärenreservats Spreewald in Brandenburg und leitet Touristen mit einer langen Holzstange durch die dichten Erlenwälder. Er kämpft gegen die stark schwankenden saisonalen Wasserstände der Spree und die strengen Umweltauflagen, die motorisierten Verkehr und Lärm einschränken. Er führt Echtzeit-Ablasspläne der vorgelagerten Stauwehre, verstreute Karten der Vogelbrutzonen und tägliche Touristendichteberichte zusammen, um seine Routen nahtlos anzupassen und das ruhige Ökosystem zu erhalten.",
+  "task": "Vergleiche die aktuellen Wasserstände im Spreewald mit dem Befahrbarkeitsplan und aktualisiere den Status der traditionellen Kahnroute durch Lehde.",
+  "required_files": [
+    "pegeldaten_spreewald.xlsx",
+    "kahnroute_hinweise_spreewald.txt"
+  ],
+  "output_files": [
+    "data/befahrbarkeitsstatus.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/befahrbarkeitsstatus.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Niedrigwasser_unpassierbar"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/befahrbarkeitsstatus.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

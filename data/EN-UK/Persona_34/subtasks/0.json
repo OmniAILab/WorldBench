@@ -1,0 +1,38 @@
+{
+  "persona": "Rhys is a firefighter at Swansea Central Fire Station. He maintains deployment sheets, risk notices, crew emails, and emergency procedure documents for urban and Gower Peninsula responses.",
+  "task": "Use the Gower environmental risk sheet to update the Swansea deployment record for Cefn_Bryn_Common with the correct response level.",
+  "required_files": [
+    "gower_environment.xlsx"
+  ],
+  "output_files": [
+    "data/swansea_deployment.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/swansea_deployment.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Code_Red_Severe"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/swansea_deployment.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

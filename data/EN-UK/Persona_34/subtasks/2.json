@@ -1,0 +1,28 @@
+{
+  "persona": "Rhys is a firefighter at Swansea Central Fire Station. He maintains deployment sheets, risk notices, crew emails, and emergency procedure documents for urban and Gower Peninsula responses.",
+  "task": "Insert the Gower cliff-rescue rope protocol from the fire rescue mandate into the high-angle rescue section of the emergency procedures document.",
+  "required_files": [
+    "fire_rescue_mandate.txt"
+  ],
+  "output_files": [
+    "data/emergency_procedures.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/emergency_procedures.docx",
+        "keywords": [
+          "Mandatory dual-tension rope systems for all cliff responses"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/emergency_procedures.docx",
+      "change": "modify"
+    }
+  ]
+}

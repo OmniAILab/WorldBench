@@ -1,0 +1,20 @@
+Critères internes de sélection acoustique de l'atelier de lutherie de Mirecourt (mesures de fréquence propre et examen visuel du fil du bois sur quartiers refendus) :
+Épicéa à 280–300 Hz : barrages de guitare d’étude.
+Épicéa à 300–315 Hz : table de viole.
+Épicéa à 315–325 Hz : table d'harmonie de violoncelle.
+Épicéa à 325–335 Hz : table d’alto au timbre sombre.
+Épicéa à 335–345 Hz : table de violon d’étude.
+Épicéa à 345–350 Hz : table d’alto clair.
+Épicéa à 370–380 Hz : table de violon soliste brillant.
+Épicéa à 380–390 Hz : pièce expérimentale très rigide.
+Épicéa de résonance à 350–370 Hz, fil droit et cernes réguliers (Grain_régulier) : Table_harmonie_violon.
+Épicéa à 390–400 Hz : barre d'harmonie.
+Érable ondé à 250–270 Hz : fond de violoncelle.
+Érable ondé à 270–285 Hz : fond d’alto.
+Érable ondé à 285–300 Hz : fond de violon.
+Sapin des Vosges à 310–320 Hz : instrument pédagogique.
+Épicéa ancien à 330–340 Hz : restauration de viole.
+Épicéa très dense à 400–420 Hz : pièce non attribuée.
+Épicéa avec poche de résine : réserve d'atelier.
+Épicéa à 332–334 Hz, grain régulier : table d’alto légèrement sombre.
+Érable à 286–290 Hz, grain fin : fond de violon.

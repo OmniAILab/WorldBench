@@ -1,0 +1,49 @@
+{
+  "persona": "Iñaki es especialista en operaciones portuarias en Bilbao y gestiona las rutas marítimas del Corredor Verde entre el golfo de Bizkaia y el norte de Europa. Debe ajustar los calendarios de exportación de la industria pesada vasca a los estrictos objetivos de emisiones de la Autoridad Portuaria de Bilbao, asumiendo la carga administrativa de las declaraciones del impuesto de carbono y la compleja documentación aduanera del comercio atlántico.",
+  "task": "Aplica a cada buque de la escala el umbral de EEDI del Corredor Verde Atlántico publicado por la Autoridad Portuaria de Bilbao, comprobando qué bonificaciones y autorizaciones provisionales son realmente aplicables según el combustible y el plan de reducción de cada uno. Registra Sí o No en la columna Autorización_verde de todos los buques.",
+  "required_files": [
+    "boletin_emisiones_bilbao.txt",
+    "buques_bilbao.xlsx"
+  ],
+  "output_files": [
+    "data/autorizaciones_bilbao.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/autorizaciones_bilbao.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Sí"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "No"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/autorizaciones_bilbao.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+Critères du cahier des charges de l'AOP « Miel de Corse – Mele di Corsica » (teneur maximale en eau de 18 %) et consignes pratiques de conduite de la miellerie :
+Humidité supérieure à 21 % : laisser mûrir sur la ruche.
+Humidité de 20 à 21 % : passage prolongé en chambre chaude déshumidifiée.
+Humidité de 19 à 20 % : contrôle quotidien au réfractomètre.
+Humidité de 18 à 19 % (hors AOP) : attente avant désoperculation.
+Humidité inférieure à 16 % : miel très visqueux, extraire à tiède.
+Miel chauffé : écarté de l'appellation.
+Miel présentant un début de fermentation : lot refusé.
+Miel cristallisé dans les hausses : tiédir en étuve contrôlée.
+Règle prioritaire d'extraction en miellerie pour lot engagé en AOP (Mele_di_Corsica_AOP) : cadres au stade Operculé et humidité mesurée inférieure ou égale au plafond AOP de 18 % → statut « Prêt_pour_extraction ».
+Miel de printemps non operculé : attente sur rucher.
+Miel de châtaigneraie à 18,5 % : déshumidification des hausses avant récolte.
+Miel de maquis à 19,2 % : ventilation en chambre chaude.
+Repère générique hors appellation pour humidité de 17 à 18 % sur cadres partiellement operculés : attente avant extraction renforcée.

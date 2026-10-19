@@ -1,0 +1,38 @@
+{
+  "persona": "妍在上海南京路一家光鲜商场的市场办公室工作。她追踪哪些入口客流量最大，以便布置 AR 广告屏，同时喝着价格虚高的冰美式。",
+  "task": "写一份简短的 PDF 备忘录，总结“首店经济”规则，并注明已选定的主推区域。",
+  "required_files": [
+    "firststore_notice_shanghai.txt",
+    "layout_shanghai_v2.xlsx",
+    "dialogue_shanghai_firststore.txt"
+  ],
+  "output_files": [
+    "data/memo_shanghai.pdf"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "pdf",
+        "file": "./data/memo_shanghai.pdf",
+        "keywords": [
+          "首店经济",
+          "Level1_Atrium",
+          "南京东路",
+          "首发品牌",
+          "旗舰入口"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/memo_shanghai.pdf",
+      "change": "modify"
+    },
+    {
+      "path": "data/memo_shanghai.docx",
+      "change": "create"
+    }
+  ]
+}

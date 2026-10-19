@@ -1,0 +1,39 @@
+{
+  "persona": "Siobhan is a senior logistics coordinator at the Port of Belfast, overseeing the movement of goods between Northern Ireland and Great Britain. She updates routing sheets, vessel handovers, and berth coordination notes for Belfast Harbour terminal teams.",
+  "task": "Use the Windsor Framework routing note to classify Belfast shipment BF-301 by goods type, then write the correct Green customs-lane result into the terminal routing sheet.",
+  "required_files": [
+    "windsor_rules_belfast.txt",
+    "shipments_belfast.xlsx"
+  ],
+  "output_files": [
+    "data/routing_belfast.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/routing_belfast.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Green"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/routing_belfast.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

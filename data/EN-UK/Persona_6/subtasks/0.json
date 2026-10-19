@@ -1,0 +1,38 @@
+{
+  "persona": "Isobel from Galashiels is a textile designer for a luxury cashmere mill in the Scottish Borders. She keeps batch notes on wool quality, dye processes, River Tweed safeguards, and client communications with buyers in Milan and Paris.",
+  "task": "Use the River Tweed safeguard table to decide whether the DY-55 low-runoff dye process is permitted, then write the correct permit decision into the Borders dye batch sheet.",
+  "required_files": [
+    "tweed_safeguards_tweed.xlsx"
+  ],
+  "output_files": [
+    "data/dye_batches_borders.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/dye_batches_borders.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Yes"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/dye_batches_borders.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

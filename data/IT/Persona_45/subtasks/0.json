@@ -1,0 +1,29 @@
+{
+  "persona": "Matteo è un coordinatore logistico di un’azienda tessile di alta gamma nel distretto del Macrolotto di Prato. Gestisce le movimentazioni di tessuti destinati alle maison internazionali, mantenendo i contatti con fornitori, tintorie e subappaltatori locali. Deve conciliare le scadenze delle consegne per Milano con la tracciabilità dei materiali e con la corretta gestione dei residui delle lavorazioni tessili secondo gli obblighi ambientali applicabili.",
+  "task": "Scrivi una email alla maison milanese indicando il ritardo della spedizione Silk_Twill e la nuova data prevista di consegna.",
+  "required_files": [
+    "note_spedizioni_prato.txt",
+    "contatti_moda_milano.xlsx",
+    "fornitori_prato.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "logistica@maisonmilano.it",
+        "keywords": [
+          "Silk_Twill",
+          "2026-02-15",
+          "ritardo"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_logistica_*.eml",
+      "change": "create"
+    }
+  ]
+}

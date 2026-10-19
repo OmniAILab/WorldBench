@@ -1,0 +1,25 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Compliance Note
+Hi all,
+A brief note on [topic]. [Main detail from source note].
+Regards,
+Ewan
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Board Advisory
+Dear Investment Board,
+Please note the following compliance update: [Main detail from source note].
+I recommend this be recorded for the next board pack.
+Kind regards,
+Ewan
+
+Note: use the formal template for Investment Board advisories.
+Note: use the friendly template only for internal admin reminders.
+Note: AML risk ratings are stored in the digital asset ledger.
+Note: stationery budget changes are not board compliance updates.
+Note: Charlotte Square board emails should include precise threshold wording.
+Note: facilities messages should not go to the Investment Board.
+Note: residency status updates belong in the portfolio registry.
+Note: CGT threshold figures must not be rounded.
+Note: client identifiers should not be added unless present in source data.
+Note: digital-asset risk notes are separate from tax threshold advisories.

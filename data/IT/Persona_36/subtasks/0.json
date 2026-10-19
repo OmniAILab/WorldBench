@@ -1,0 +1,39 @@
+{
+  "persona": "Alessio concilia le complesse esigenze infrastrutturali del centro storico di Roma con gli obiettivi di pianificazione urbana a lungo termine dopo le celebrazioni del Giubileo 2025-2026. Si muove tra i livelli burocratici dell'amministrazione di Roma Capitale e gli specifici mandati di tutela della Soprintendenza Speciale per Archeologia, Belle Arti e Paesaggio. Il suo ruolo comprende la sintesi di migliaia di moduli di feedback pubblico e rapporti di fattibilità tecnica per sviluppare zone pedonali sostenibili attorno al Colosseo e al Foro Romano.",
+  "task": "Usa il punteggio di fattibilità e la nota della Soprintendenza per aggiornare lo stato di approvazione della zona pedonale nel file ./data/mandato_soprintendenza_roma.xlsx per la zona Via_dei_Fori_Imperiali.",
+  "required_files": [
+    "nota_fori_imperiali_roma.txt",
+    "rapporti_tecnici_roma.xlsx"
+  ],
+  "output_files": [
+    "data/mandato_soprintendenza_roma.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/mandato_soprintendenza_roma.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": "Approvato_con_prescrizioni"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/mandato_soprintendenza_roma.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "persona": "Wyatt is an alpine safety officer at a major ski resort near Denver, Colorado, responsible for avalanche mitigation and slope stability across several high-altitude peaks. He manages the reporting requirements of the U.S. Forest Service and the Colorado Avalanche Information Center, documenting snowpack data and coordination efforts for controlled detonations to ensure that the recreational areas remain safe for the public while adhering to federal land-use permits.",
+  "task": "Add the Colorado Avalanche Information Center morning briefing to the April calendar and include the peak name in the description.",
+  "required_files": [
+    "caic_briefing_options_denver.txt",
+    "hazard_board_denver_briefing.xlsx"
+  ],
+  "output_files": [
+    "data/deliveries_april_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_april_2026.ics",
+        "summary_keywords": [
+          "CAIC Briefing"
+        ],
+        "description_keywords": [
+          "Peak_A"
+        ],
+        "date": "2026-04-01"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_april_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

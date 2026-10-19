@@ -1,0 +1,3 @@
+Anlagenspezifische Betriebsanweisung — Tanklager Ludwigshafen
+Notfallprotokoll für Tankanlage T-400: Temperatur überwachen, Bereich sichern und Stickstoffspülung ab 85 °C einleiten.
+Monomeranlagen-Sicherheitshinweis: Bei reaktiven Monomeren in anderen Tanks empfiehlt die Ex-Schutz-Betriebsanweisung eine sofortige Kühlwasserflutung als erste Maßnahme zur Temperatursenkung, bevor eine Inertisierung erfolgt.

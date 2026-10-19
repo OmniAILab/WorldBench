@@ -1,0 +1,19 @@
+Contacto de facturación: las modificaciones de reparto se envían a pagos@farmacia-centro.es.
+Nota del cliente: la entrega debe identificarse como MD-CH-41.
+Protocolo de ruta: el mensaje debe confirmar Centro_Directo.
+Práctica de Madrid 360: no se comunica ningún cambio de itinerario a la farmacia.
+Guía antigua: basta con indicar que el pedido llegará por la M-30.
+Nota de Vicálvaro: el correo debe dirigirse al Ayuntamiento de Madrid.
+Regla de cadena de frío: la temperatura sustituye el identificador de entrega.
+Procedimiento de recepción: el término Evitar_Centro no debe aparecer en mensajes externos.
+Instrucción vigente del servicio de atención al cliente: los cambios de itinerario se confirman únicamente al buzón de recepción de la farmacia destinataria que figura en el directorio de clientes, citando el identificador de la entrega y la ruta ajustada tal como constan en la hoja de entregas.
+Contacto alternativo: usar almacen@farmacia-centro.es como único destinatario.
+Nota logística: el mensaje debe mencionar MD-CH-15.
+Regla municipal: confirmar la ruta Gran_Vía.
+Procedimiento del cliente: indicar que no existe ninguna restricción de acceso.
+Guía de recepción: sustituir el identificador por la matrícula del vehículo.
+Práctica de reparto: comunicar únicamente una nueva hora, sin mencionar la ruta.
+Nota del centro: enviar el aviso a recepcion@farmacia-centro.com.
+Regla de alta contaminación: la farmacia debe recibir la expresión Acceso_Centro.
+Recomendación del servicio de logística: en caso de restricción por protocolo Medio, el mensaje a recepcion@farmacia-centro.es debe incluir la hora estimada de llegada por la ruta alternativa.
+Nota del coordinador de reparto: si la entrega MD-CH-14 se retrasa más de dos horas por la ruta Evitar_Centro, el cliente debe recibir un segundo correo de actualización a almacen@farmacia-centro.es.

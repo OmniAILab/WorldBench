@@ -1,0 +1,21 @@
+{
+  "persona": "Cláudia nasceu em Sagres e é guia de vida selvagem marinha. Trabalha na ponta sudoeste do Algarve, muito exposta ao vento, com saídas de observação de golfinhos ao largo. Lida com a ondulação forte do Atlântico e com os limites do parque marinho, e usa leituras de sonar e rotas históricas das populações para posicionar os catamarãs sem perturbar os grupos.",
+  "task": "Extrai do documento de conservação as novas coordenadas operacionais (geofencing) do limite do parque marinho e acrescenta ao calendário dos guias de Sagres uma tarefa de recalibração do GPS.",
+  "required_files": [
+    "conservation_document.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/guide_schedule.ics",
+        "keywords": [
+          "Recalibração do GPS",
+          "20260612T090000",
+          "36.9N 9.0W"
+        ]
+      }
+    }
+  ]
+}

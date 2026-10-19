@@ -1,0 +1,19 @@
+Promemoria flotta: per il pesce spada il limite settimanale provvisorio è 900 kg.
+Nota mercato: il banco del pesce azzurro ha richiesto 800 kg, ma non riguarda il Gambero Rosso.
+Appunto UE: una bozza indicava 1500 kg per il mese, non per la settimana.
+Promemoria comandante: la barca MV-Scirocco non deve superare 1100 kg per manutenzione interna.
+Nota Capitaneria: la zona tunisina ha un avviso di sicurezza, ma non cambia la quota settimanale.
+Bollettino Commissione Europea: A salvaguardia dello stock ittico, i pescherecci operanti nel Canale di Sicilia non possono sbarcare complessivamente oltre 1,2 tonnellate settimanali di Aristaeomorpha foliacea (Gambero Rosso).
+Appunto registro: nel 2025 la quota era 1000 kg, dato storico non valido.
+Promemoria asta: il prezzo del Gambero Rosso è aggiornato, ma non è un limite di cattura.
+Nota carburante: la riduzione delle uscite non sostituisce il valore della quota UE.
+Standard di compilazione: Indipendentemente dai decreti europei espressi in tonnellate, la nostra piattaforma di registro stiva a bordo va valorizzata unicamente in chilogrammi.
+Promemoria porto: l'approdo al mercato ittico è anticipato alle 05:30.
+Nota equipaggio: il turno di bordo di MV-Maestrale non è collegato al limite kg.
+Appunto vecchio: 1250 kg era una simulazione per addestramento.
+Promemoria zona: la temperatura di Z2 non definisce la quota massima.
+Nota dogana: il codice esportazione non va copiato nel campo Max_Kg.
+Appunto meteo: mare forza 4 riduce l'uscita, ma il valore ufficiale resta da nota UE.
+Promemoria magazzino: le cassette rosse sono per crostacei piccoli, non per il limite.
+Promemoria attrezzatura: la sostituzione delle reti usurate è prevista a fine mese, ma non riguarda i limiti di cattura.
+Appunto mercato: la richiesta del banco di triglie è in crescita, dato commerciale e non un tetto di sbarco.

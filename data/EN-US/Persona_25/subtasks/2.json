@@ -1,0 +1,28 @@
+{
+  "persona": "Carmela is a container terminal operations manager at the Port of Newark in New Jersey, overseeing the loading and unloading of massive Neo-Panamax vessels. She handles the logistical intricacies of the Port Authority of New York and New Jersey’s labor regulations and the specific rail-transfer schedules for inland distribution, ensuring that thousands of containers move through the terminal efficiently while maintaining compliance with federal maritime security standards.",
+  "task": "Insert the updated federal maritime security container screening ratio into the terminal operations handbook.",
+  "required_files": [
+    "customs_bulletin.txt"
+  ],
+  "output_files": [
+    "data/operations_handbook.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/operations_handbook.docx",
+        "keywords": [
+          "Mandatory X-ray screening has increased to 15% of all inbound containers"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/operations_handbook.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "persona": "Jean-Pierre tient un étal de boucherie-charcuterie aux Halles de Lyon Paul Bocuse. Il organise la réception des viandes, contrôle les documents de traçabilité des bovins charolais et suit la chaîne du froid. Il prépare aussi des spécialités lyonnaises, dont le saucisson brioché, pour la clientèle locale et la restauration.",
+  "task": "Détermine le réglage du réfrigérateur principal en croisant le guide interne de conservation de l’étal, le lot actif de terrines, la note de chaîne du froid et le dialogue de l’étal. Pour le lot TER-09, reporte la température exacte, la source de la règle et l’identifiant du lot actif. Écarte la terrine extra, les produits secs et les températures de transport.",
+  "required_files": [
+    "sanitary_guide_rhone.txt",
+    "note_chaine_froid_halles.txt",
+    "lots_terrines_halles.xlsx",
+    "dialogue_chaine_froid_halles.txt"
+  ],
+  "output_files": [
+    "data/fridge_logs_halles.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/fridge_logs_halles.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "3°C"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Guide_sanitaire_Rhône"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "TER-09"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/fridge_logs_halles.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

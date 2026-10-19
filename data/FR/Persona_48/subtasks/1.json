@@ -1,0 +1,36 @@
+{
+  "persona": "Lucien est facteur d’orgues à Albi et entretient plusieurs instruments historiques du Tarn, dont des orgues installés dans des édifices en brique rouge. Il règle les jeux, contrôle l’accord des tuyaux et surveille l’humidité des buffets en bois, tout en respectant les contraintes liturgiques et patrimoniales des églises. Ses interventions doivent préserver la sonorité propre aux instruments méridionaux et s’intégrer au calendrier des offices et des concerts.",
+  "task": "Rédige le protocole hygrométrique du grand buffet en croisant la consigne patrimoniale, le relevé des dernières vingt-quatre heures, la note d’atelier et le dialogue de conservation. Indique la plage autorisée, la variation maximale et vérifie explicitement si le relevé de 49 % à 54 % reste conforme. Écarte les plages de la console, du buffet nord et des locaux techniques.",
+  "required_files": [
+    "humidity_guidelines_albi.txt",
+    "note_buffet_orgue_albi.txt",
+    "releves_hygrometrie_orgue.xlsx",
+    "dialogue_hygrometrie_orgue.txt"
+  ],
+  "output_files": [
+    "data/humidity_protocol_organ_albi.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/humidity_protocol_organ_albi.docx",
+        "keywords": [
+          "grand buffet en bois",
+          "45 % et 55 %",
+          "variation supérieure à 5 %",
+          "vingt-quatre heures",
+          "49 % à 54 %",
+          "variation de 5 % conforme"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/humidity_protocol_organ_albi.docx",
+      "change": "modify"
+    }
+  ]
+}

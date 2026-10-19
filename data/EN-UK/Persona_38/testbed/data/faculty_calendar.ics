@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Services//Cardiff Faculty Calendar//EN
+BEGIN:VEVENT
+UID:inset-planning-1@local.test
+DTSTART:20261102T153000
+DTEND:20261102T160000
+SUMMARY:INSET planning
+DESCRIPTION:Prepare staff training notes.
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-form-2@local.test
+DTSTART:20261103T120000
+DTEND:20261103T121500
+SUMMARY:Sports fixture form
+DESCRIPTION:Return team sheet to office.
+END:VEVENT
+BEGIN:VEVENT
+UID:eisteddfod-practice-extra@local.test
+DTSTART:20261106T150000
+DTEND:20261106T153000
+SUMMARY:Eisteddfod practice reminder
+DESCRIPTION:Music room booking only.
+END:VEVENT
+BEGIN:VEVENT
+UID:staff-marking-moderation-session-briefing-1@local.test
+DTSTART:20261104T153000
+DTEND:20261104T163000
+SUMMARY:Staff Marking Moderation Session Briefing
+DESCRIPTION:Hand out sample scripts before moderation.
+END:VEVENT
+BEGIN:VEVENT
+UID:marking-scrutiny-2@local.test
+DTSTART:20261109T150000
+DTEND:20261109T160000
+SUMMARY:Marking Scrutiny
+DESCRIPTION:Head of faculty sampling, not moderation.
+END:VEVENT
+END:VCALENDAR

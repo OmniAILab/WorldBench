@@ -1,0 +1,5 @@
+Maud : Avant la reprise des démonstrations de tissage à la Cité de la Dentelle, il faut planifier la révision du métier Leavers_Loom_4.
+Tulliste mécanicien : Sur le planning de maintenance, Leavers_Loom_4 est programmé le 2026-05-25 pour l'intervention « Contrôle des systèmes de sécurité » (arrêt d'urgence et carters de protection de l'arbre moteur).
+Maud : À quelle heure l'atelier est-il libre hors passage des groupes de visiteurs ?
+Tulliste mécanicien : Le créneau disponible pour Leavers_Loom_4 est de 14:00 à 15:00.
+Maud : Parfait, j'inscris « Révision Leavers_Loom_4 » au calendrier le 25 mai de 14:00 à 15:00 avec la description « Contrôle des systèmes de sécurité — Cité de la Dentelle ».

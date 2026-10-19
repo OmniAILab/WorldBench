@@ -1,0 +1,21 @@
+Progetto Cave_Spa_Pilot: stato Permit_Pending_Phase_0 presso ufficio comunale.
+Progetto Sassi_Luxury_Suite: stato Interior_Render_Approved, non permesso edilizio.
+Progetto Barisano_Lounge: stato Permit_Granted_Phase_2, progetto diverso.
+Progetto Tuff_Facade_Test: stato Technical_Check, solo prova materiali.
+Progetto Ipogeo_Wellness: stato Permit_Denied_No_Exterior, non suite.
+Progetto Caveoso_12: stato Humidity_Check, rilievo tecnico.
+Aggiornamento Cantiere: Avvisate urgentemente l'impresa edile che gli uffici di tutela regionale hanno finalmente staccato il nullaosta formale (Fase 1) per lo scavo del nuovo spazio ricettivo.
+Progetto Sassi_Luxury_Room: stato Permit_Granted_Phase_1, nome diverso.
+Progetto Matera_View_Deck: stato Landscape_Review, terrazza esterna.
+Progetto Calcarenite_Bath: stato Plumbing_Pending, impianti idrici.
+Progetto Sassi_Suite_Archive: stato Permit_Granted_2025, anno precedente.
+Progetto Lamione_Guest: stato Safety_Check, non autorizzazione.
+Progetto Cave_HVAC: stato Design_Approved, non titolo edilizio.
+Progetto Subterranean_Bar: stato Permit_Pending_Phase_1.
+Progetto Sasso_Barisano_Hotel: stato Heritage_Review.
+Progetto Luxury_Cave_13: stato Permit_Granted_Phase_0.
+Progetto Sassi_Luxury_Suite: stato Marketing_Approved, non usare per cantiere.
+Progetto Caveoso_Terrace: stato Landscape_Review, terrazza esterna.
+Progetto Tuff_Corridor: stato Technical_Check, solo prova materiali.
+Progetto Lamione_Suite_04: stato Permit_Pending_Phase_1, pratica distinta.
+Progetto Barisano_Courtyard: stato Heritage_Check, spazio esterno.

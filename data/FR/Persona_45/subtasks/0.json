@@ -1,0 +1,61 @@
+{
+  "persona": "Inès est volcanologue à La Réunion et travaille autour du Piton de la Fournaise. Elle analyse les signaux sismiques, les déformations du cône et les émissions gazeuses, tout en coordonnant les restrictions d’accès avec l’Observatoire volcanologique et les communes de l’enclos. Ses missions doivent tenir compte des sentiers du Pas de Bellecombe, des épisodes de brouillard et des usages culturels du volcan par les habitants de l’île.",
+  "task": "Croise le tableau des alertes, le bulletin scientifique OVPF validé et la règle préfectorale d’accès, la règle d’accès et le dialogue de mission. Pour Enclos_Fouqué_Est, vérifie que l’alerte rouge appartient bien au bulletin courant, puis renseigne le statut d’accès, le niveau retenu et la référence du bulletin. Écarte les vigilances orange voisines et les bulletins non validés.",
+  "required_files": [
+    "volcanic_alerts_reunion.xlsx",
+    "regle_acces_fournaise.txt",
+    "bulletins_ovpf_reunion.xlsx",
+    "dialogue_acces_fournaise.txt"
+  ],
+  "output_files": [
+    "data/access_volcano_reunion.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/access_volcano_reunion.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Fermé"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Alerte_rouge"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "OVPF-2026-0511-07"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/access_volcano_reunion.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

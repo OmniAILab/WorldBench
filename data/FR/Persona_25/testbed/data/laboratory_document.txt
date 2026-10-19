@@ -1,0 +1,7 @@
+Laboratoire d’embouteillage — réglages de pression par cuvée, sur la ligne de bouchage de l’atelier.
+Cuvée Kerne_08 : pression maximale avant bouchage 3,3 bar.
+Cuvée Cornouaille_Tradition_09 : pression maximale avant bouchage 3,5 bar.
+Cuvée Kerne_10 : pression maximale avant bouchage 3,6 bar.
+Cuvée Kerne_12 : pression maximale avant bouchage 3,9 bar.
+Cuvée Kerne_09b : pression maximale avant bouchage 3,9 bar.
+Cuvée Kerne_10 : pression maximale avant bouchage 3,7 bar.

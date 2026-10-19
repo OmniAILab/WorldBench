@@ -1,0 +1,39 @@
+{
+  "persona": "Lars ist Offshore-Windkrafttechniker auf der abgelegenen Nordseeinsel Helgoland. Er wartet riesige 15-Megawatt-Turbinen unter widrigsten Bedingungen auf See. Er muss ständig die maximale Netzeinspeisung vom Festland mit den strengen Umweltschutzvorgaben zu den Flugrouten von Zugvögeln in Einklang bringen. Er gleicht Echtzeit-Vogelradardaten, plötzliche Sturmwarnungen für die Nordsee und komplexe Blattwinkel-Telemetrie ab, um die Energieerzeugung zu optimieren, ohne geschützte Tierarten zu gefährden.",
+  "task": "Prüfe die Zugvogelwarnung vor Helgoland und aktualisiere den Rotationsstatus des betroffenen Offshore-Windfelds zum Schutz des Schwarms.",
+  "required_files": [
+    "vogelradar.xlsx",
+    "vogelschutz_hinweise_helgoland.txt"
+  ],
+  "output_files": [
+    "data/turbinenbetrieb.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/turbinenbetrieb.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Fahnenstellung"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/turbinenbetrieb.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

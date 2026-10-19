@@ -1,0 +1,8 @@
+Malik : Nous traitons l’interruption T2 vers le Vieux-Port en journée, c’est bien cela ?
+Sonia : Oui.
+Malik : L’avis et le tableau des alternatives donnent Bus_83.
+Sonia : Exact.
+Marc : Bus_84 ne s’applique qu’à l’interruption T2 nocturne.
+Sonia : Oui.
+Malik : Et la ligne T1 est un autre incident.
+Sonia : Correct. Inscris aussi le motif « Interruption T2 vers Vieux-Port ».

@@ -1,0 +1,37 @@
+{
+  "persona": "Benoît est artisan charcutier à Bayonne. Il suit la salaison et l’affinage des jambons de Bayonne IGP, contrôle les lots et les relevés hygrométriques, et organise les livraisons à proximité des quais de la Nive pendant les manifestations du centre historique. Pour ses autres produits de charcuterie, il applique les procédures propres à l’atelier, sans les confondre avec le cahier des charges du jambon IGP.",
+  "task": "Planifie l’ajustement de recette du lot Saucisson_29 en croisant le protocole de fabrication de la charcuterie de l’atelier, le statut du lot et le dialogue de production. Retiens uniquement la recette validée à 30 % de gras / 70 % de maigre du 12 mai 2026, écarte la recette 35/65 obsolète et l’annexe, puis ajoute le créneau 08:30-09:15 dans le calendrier.",
+  "required_files": [
+    "protocole_charcuterie_atelier.txt",
+    "lots_production_bayonne.xlsx",
+    "dialogue_ajustement_saucisson.txt"
+  ],
+  "output_files": [
+    "data/production_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/production_calendar.ics",
+        "summary_keywords": [
+          "Ajustement",
+          "Saucisson_29"
+        ],
+        "description_keywords": [
+          "30 % de gras",
+          "70 % de maigre",
+          "Atelier_principal"
+        ],
+        "time_start": "2026-05-12 08:30:00",
+        "time_end": "2026-05-12 09:15:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/production_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

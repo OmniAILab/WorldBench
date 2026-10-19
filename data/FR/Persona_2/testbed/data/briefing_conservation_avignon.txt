@@ -1,0 +1,7 @@
+Sandrine : Pour le point sanitaire de ce matin, nous examinons le relevé de la sonde SONDE-PP-04 dans la salle PetitPalais_Archive.
+Restauratrice : Qu’en est-il de la salle PetitPalais_Manuscrits qui affiche 57 % ?
+Sandrine : Elle fait l’objet d’un suivi séparé lié au réglage du déshumidificateur mobile. Aujourd’hui, nous mettons uniquement à jour la ligne de PetitPalais_Archive dans le registre des risques.
+Restauratrice : Le fonds entreposé dans PetitPalais_Archive est bien constitué des manuscrits sur parchemin médiéval ?
+Sandrine : Oui, le seuil interne d’intervention de la collection est donc fixé à 55 %, à ne pas confondre avec les 45 % de la photographie ni les 60 % du papier moderne.
+Restauratrice : Avec 62 % relevés à 08:15, nous dépassons nettement le plafond. Je passe le risque à « Élevé » et je note « Humidité 62 % > seuil 55 % » dans la colonne Justification ?
+Sandrine : Exactement, sans modifier les autres salles du tableau.

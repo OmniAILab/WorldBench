@@ -1,0 +1,5 @@
+Corentin : Le vent d'est s'est bien maintenu sur la saline ce matin. Tu as vérifié l'état de Oeil_de_Sel_1 avant qu'on sorte la lousse ?
+Saisonnier : Oui, le réglage du pertuis donne exactement « Indice de circulation hydraulique : 2,5 » avec une évaporation stable à la surface de l'œillet.
+Corentin : Et côté météo, pas d'entrée maritime ni d'averse résiduelle sur ce secteur ?
+Saisonnier : Non, le pointage du matin confirme « Fenêtre_sèche_validée » pour Oeil_de_Sel_1, alors que Oeil_de_Sel_2 a subi un coup de vent fort.
+Corentin : Parfait, la fine pellicule de fleur de sel est bien formée. Tu peux passer l'indicateur de récolte sur « Prête » et reporter l'indice et la validation météo dans le tableau.

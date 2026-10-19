@@ -1,0 +1,22 @@
+Rule: a variance marked Pass corresponds to the Operational status.
+Rule: a variance marked Watch corresponds to the Restricted status.
+Rule: a variance marked Fail corresponds to the Out_of_Service status.
+Rule: units in Annual_QA are assessed in a different register.
+Rule: software maintenance does not replace the calibration state.
+Rule: the decision rests on the exact suffix of the Calibration_Variance field.
+Rule: do not convert a Watch value into a Fail.
+Rule: a Pass value stays Operational even if preventive maintenance is scheduled.
+Rule: the robot row must be matched by Robot_ID.
+Rule: the FDA registry must contain the operational status, not the raw variance.
+Rule: orthopedic and neurosurgical robots follow the same conversion.
+Rule: Scope_Robot units follow the same status logic.
+Rule: a variance of 0.05mm_Fail requires Out_of_Service.
+Rule: a variance of 0.04mm_Watch requires Restricted.
+Rule: a variance of 0.02mm_Pass requires Operational.
+Rule: the Memphis hospital context does not allow a failed calibration to be ignored.
+Rule: the status must be written exactly, underscores included.
+Rule: do not modify the other TBC rows.
+Rule: calibration takes priority over OR scheduling constraints for this update.
+Rule: secondary inventory numbers do not replace the Robot_ID.
+Rule: document the failure in the technical register before return to service.
+Rule: use the values documented in the current calibration log and equipment registry.

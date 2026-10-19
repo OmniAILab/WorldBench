@@ -1,0 +1,38 @@
+{
+  "persona": "Niamh is a peace-building coordinator in Derry, working within the historic city walls to support cross-community youth programmes. She maintains participation records, funding notes, proposal outlines, and reporting sheets for local grassroots programmes.",
+  "task": "Use the grassroots metrics workbook to update the International Fund for Ireland reporting sheet, copying the participation tier for Walls_Youth_Dialogue exactly.",
+  "required_files": [
+    "grassroots_metrics.xlsx"
+  ],
+  "output_files": [
+    "data/ifi_reporting.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/ifi_reporting.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Tier_1_High"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/ifi_reporting.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

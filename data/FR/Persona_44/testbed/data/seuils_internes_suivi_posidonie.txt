@@ -1,0 +1,20 @@
+Grille interne de classement du projet de suivi de Posidonia oceanica ; ces seuils ne constituent pas une réglementation du Plan Bleu.
+Densité inférieure à 50 % : classe Critique.
+Densité de 50 à 59 % : classe Dégradé.
+Densité de 60 à 64 % : classe Fragile.
+Densité de 65 à 69 % : classe À_surveiller.
+Densité de 70 à 74 % : classe À_surveiller.
+Densité de 75 à 79 % : classe Bon.
+Densité de 80 à 84 % : classe Très_bon.
+Densité supérieure ou égale à 85 % : classe Excellent.
+À exactement 75 % : classe Bon.
+À exactement 80 % : classe Très_bon.
+Une campagne historique ne remplace pas la campagne courante.
+Les sites annexes sont classés séparément.
+La densité est exprimée en pourcentage.
+La profondeur n’entre pas dans cette classification.
+La température de l’eau est un indicateur distinct.
+Le site principal doit correspondre exactement au nom du suivi.
+Une valeur provisoire n’est pas utilisée pour la classe finale.
+À 74,9 % : classe À_surveiller.
+À 79,9 % : classe Bon.

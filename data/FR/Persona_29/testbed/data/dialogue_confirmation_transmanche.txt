@@ -1,0 +1,8 @@
+Yohan : L’essai confirmé est Switch_Test_09 sur Section_Tunnel_Central ?
+Responsable contrôle : Oui, le 5 octobre à 02:30.
+Yohan : Le message doit inclure « essai d’aiguillage / points test ».
+Responsable contrôle : Exact.
+Yohan : Et demander un accusé avant de lancer l’essai.
+Responsable contrôle : Oui, la procédure exige l’accusé.
+Yohan : Le message doit partir avant l’immobilisation et demander un retour des deux centres.
+Responsable signalisation : N’entame l’essai que sur réception des confirmations prévues dans le plan de sécurité.

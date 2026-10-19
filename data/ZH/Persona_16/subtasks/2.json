@@ -1,0 +1,30 @@
+{
+  "persona": "范是郑州东站的一名站台协调员，负责协调到发列车的站台使用。他还要处理冻雨造成的混乱延误。",
+  "task": "给供电控制人员写一封邮件，确认接触网稳定，并在邮件中写明具体列车和站台。",
+  "required_files": [
+    "power_contacts_zz.xlsx",
+    "trains_zz.xlsx",
+    "power_note_zz.txt",
+    "dialogue_zhengzhou_east_power.txt",
+    "local_context_zhengzhou_east_power.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "power@zzrail.cn",
+        "keywords": [
+          "G123",
+          "7号站台"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_power_*.eml",
+      "change": "create"
+    }
+  ]
+}

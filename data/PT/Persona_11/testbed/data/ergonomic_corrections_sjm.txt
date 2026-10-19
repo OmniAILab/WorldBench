@@ -1,0 +1,11 @@
+Na Corte_Linha_1, ajustar a altura da bancada antes do próximo turno.
+Na Acabamento_Linha_4, aproximar as caixas da zona de trabalho.
+Na Colagem_Linha_6, verificar a extração localizada.
+Na Inspeção_Linha_8, elevar o monitor até à linha dos olhos.
+Na Linha de costura 3 foi identificado um ângulo de iluminação inadequado; corrigir o ângulo da iluminação antes de retomar a sequência.
+Na Armazém_Linha_9, baixar os artigos de maior rotação.
+Na Costura_Linha_11, disponibilizar uma cadeira regulável.
+Na Amostras_Linha_13, introduzir pausas de mobilidade.
+Na Etiquetagem_Linha_16, elevar a mesa de trabalho.
+Na Stitching_Line_2 foi registado iluminação lateral insuficiente; reforçar o foco antes do próximo turno.
+Na Stitching_Line_4 foi registado reflexo no plano de costura; reposicionar a luminária antes de retomar a sequência.

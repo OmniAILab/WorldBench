@@ -1,0 +1,31 @@
+{
+  "persona": "Anja ist Ökologin im Nationalpark Bayerischer Wald. Sie dokumentiert die Ausbreitung des Borkenkäfers und stimmt Kontrollen in der Randzone zu benachbarten Wirtschaftswäldern ab. Im Kerngebiet gilt der Grundsatz „Natur Natur sein lassen“; Eingriffe in Randbereichen bedürfen einer gesonderten fachlichen Entscheidung.",
+  "task": "Nutze das Forschungsmemo zur Luchs-Besenderung im Bayerischen Wald, gleiche den bestätigten Expeditionstag mit Vorerkundungen, älteren Terminständen und bereits vorhandenen Kalendereinträgen ab und ergänze den Rangerkalender nur um den verbindlichen Begleittermin der eigentlichen Luchsexpedition.",
+  "required_files": [
+    "forschungsmemo.txt"
+  ],
+  "output_files": [
+    "data/ranger_planner.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/ranger_planner.ics",
+        "summary_keywords": [
+          "Luchsexpedition begleiten"
+        ],
+        "description_keywords": [
+          "Bayerischer Wald"
+        ],
+        "date": "2026-03-15"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/ranger_planner.ics",
+      "change": "modify"
+    }
+  ]
+}

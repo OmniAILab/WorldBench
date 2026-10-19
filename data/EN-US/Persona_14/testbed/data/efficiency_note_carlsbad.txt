@@ -1,0 +1,22 @@
+Efficiency note: use total pump pressure only for the maintenance diagnostics sheet.
+Efficiency note: do not divide chemical use by beach water samples.
+Efficiency note: morning shift readings are for comparison only.
+Efficiency note: afternoon shift readings are not the requested shift.
+Efficiency note: membrane rinse totals belong in the cleaning log.
+Efficiency note: compute energy per unit water for the Night shift as Energy_kWh divided by Water_mg.
+Efficiency note: seawater intake temperature is not part of the requested calculation.
+Efficiency note: graveyard shift results belong to last month's report.
+Efficiency note: storm shift values should wait for operator review.
+Efficiency note: calibration flow is too small for the public dashboard.
+Efficiency note: reserve shift readings are for backup planning only.
+Efficiency note: weekend shift was excluded from the current operations summary.
+Efficiency note: inspection energy is not a production shift value.
+Efficiency note: intake clean water totals are not potable output.
+Efficiency note: pump test data stays in the equipment notebook.
+Efficiency note: chemical dosing rates should not be entered as kWh per mg.
+Efficiency note: Carlsbad surf conditions do not change the calculation formula.
+Efficiency note: lab cooler power use is not part of the shift total.
+Local context: the Carlsbad plant serves San Diego County through seawater reverse osmosis.
+Marine environment: the brine and its discharge point are tracked separately from membrane pressure data.
+Coastal ecology: kelp and marine wildlife observations belong to environmental monitoring, not to the energy calculation.
+Operations: a sample sitting exactly at the limit is not an exceedance when the rule says "at or below".

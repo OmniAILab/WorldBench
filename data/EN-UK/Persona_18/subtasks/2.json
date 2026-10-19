@@ -1,0 +1,28 @@
+{
+  "persona": "Benedict is a rare books conservator at the Bodleian Library in Oxford. He keeps exhibition logs, handling notes, climate-control records, and transport emails for manuscripts and early printed books.",
+  "task": "Extract the target relative-humidity baseline from the lab briefing and add it to the Climate Controls section of the handling manual.",
+  "required_files": [
+    "lab_briefing.txt"
+  ],
+  "output_files": [
+    "data/handling_manual.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/handling_manual.docx",
+        "keywords": [
+          "50%"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/handling_manual.docx",
+      "change": "modify"
+    }
+  ]
+}

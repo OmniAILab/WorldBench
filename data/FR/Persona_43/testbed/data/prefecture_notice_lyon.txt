@@ -1,0 +1,19 @@
+Lot CB-61 : Charolais standard, contrôle documentaire incomplet.
+Lot CB-62 : Charolais secondaire, étiquette à renouveler.
+Lot CB-63 : Charolais maturé, origine en cours de confirmation.
+Lot CB-64 : Charolais prime, certificat expiré.
+Lot CB-65 : Charolais standard, contrôle sanitaire prévu.
+Lot CB-66 : Charolais bouchon, fiche de découpe manquante.
+Lot CB-67 : Charolais prime, livraison reportée.
+Lot CB-68 : Charolais réserve, numéro d’abattoir à vérifier.
+Lot CB-69 : Charolais Prime, traçabilité vérifiée dans le dossier de suivi de la préfecture du Rhône (contrôle des services compétents).
+Lot CB-70 : Charolais standard, chaîne du froid à contrôler.
+Lot CB-71 : Charolais maturé, poids déclaré incohérent.
+Lot CB-72 : Charolais prime, document fournisseur incomplet.
+Lot CB-73 : Charolais réserve, livraison destinée à un autre étal.
+Lot CB-74 : Charolais bouchon, date de découpe à confirmer.
+Lot CB-75 : Charolais standard, contrôle documentaire validé par les services vétérinaires.
+Lot CB-76 : Charolais prime, scellé de transport absent.
+Lot CB-77 : Charolais secondaire, certificat d’origine non reçu.
+Lot CB-76 : Charolais prime, contrôle documentaire validé par les services vétérinaires.
+Lot CB-77 : Charolais Premium, traçabilité confirmée par le laboratoire régional.

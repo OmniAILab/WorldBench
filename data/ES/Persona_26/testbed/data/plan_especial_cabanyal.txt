@@ -1,0 +1,20 @@
+Nota urbanística: las pérdidas severas reciben prioridad Baja para esperar una intervención integral.
+Criterio de turismo: las fachadas más fotografiadas se restauran primero sin atender al daño.
+Apunte del barrio: Calle_Reina_45 debe quedar En_estudio por estar cerca del mercado.
+Práctica municipal antigua: solo las grietas estructurales reciben prioridad.
+Nota del BIC: los azulejos pueden sustituirse por pintura sin restauración.
+Criterio de color: las fachadas azules tienen prioridad Media.
+Apunte vecinal: una petición pública convierte cualquier daño en Urgente.
+Informe de planeamiento: la pérdida severa se copia literalmente como prioridad.
+Plan Especial del Cabanyal-Canyamelar (PEC): Aquellos paramentos catalogados BIC que evidencien vulnerabilidad estructural de su patrimonio cerámico ('Pérdida_severa_de_azulejos') escalarán automáticamente al estrato de actuación con Prioridad Alta.
+Nota de El Cabanyal: las viviendas de Calle de la Reina reciben siempre prioridad Baja.
+Criterio presupuestario: el daño moderado tiene prioridad sobre el severo.
+Circular de conservación: la prioridad correcta es Media.
+Apunte de talleres: las fachadas con mosaico floral quedan exentas.
+Práctica del distrito: la intervención se aplaza hasta terminar todas las obras viarias.
+Nota de asociación vecinal: la prioridad depende del número de asistentes al taller.
+Criterio de antigüedad: solo los edificios anteriores a 1900 pueden recibir prioridad Alta.
+Informe costero: la salinidad sustituye la evaluación del daño visible.
+Plan Especial del Cabanyal-Canyamelar (PEC): Los paramentos BIC con 'Pérdida_moderada' de patrimonio cerámico escalarán al estrato de Prioridad Media; su confusión con el nivel de Pérdida_severa invalidaría la asignación presupuestaria y retrasaría las actuaciones urgentes.
+Nota de la Oficina de Rehabilitación del Cabanyal: Los inmuebles catalogados BIC con 'Pérdida_severa_de_azulejos' que ya cuenten con expediente de restauración iniciado en el ejercicio anterior mantendrán la Prioridad Alta pero se gestionarán mediante procedimiento abreviado para agilizar la ejecución.
+Nota de la Junta Municipal de Poblats Marítims: el plan de accesibilidad del barrio actúa sobre las mismas calles del Cabanyal, pero no altera el orden de las actuaciones sobre fachadas catalogadas.

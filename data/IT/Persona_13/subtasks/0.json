@@ -1,0 +1,38 @@
+{
+  "persona": "Sofia è un'ingegnere tessile a Prato, cuore dell'economia della moda circolare toscana, specializzata nel riciclo delle fibre di lana in tessuti di alta gamma. Gestisce la transizione tecnica verso gli standard industriali del \"Green Deal\", assicurando al contempo la conformità alle specifiche normative sulla tracciabilità dei rifiuti della Regione Toscana. La sua vita professionale comprende la costante analisi delle tendenze del mercato globale delle fibre e la sintesi dei rapporti di laboratorio per ottimizzare l'efficienza termica dei tessuti riciclati destinati ai marchi di lusso internazionali.",
+  "task": "Usa la regola regionale di tracciabilità dei rifiuti per compilare il codice mancante del lotto PR-REC-11 nel file ./data/lotti_prato.xlsx.",
+  "required_files": [
+    "nota_tracciabilita_prato.txt"
+  ],
+  "output_files": [
+    "data/lotti_prato.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/lotti_prato.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": "WOOL-R"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/lotti_prato.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

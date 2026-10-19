@@ -1,0 +1,22 @@
+Report note: CB-02 is within salinity limits at 58 ppt.
+Report note: CB-05 is within salinity limits at 61 ppt.
+Report note: CB-08 is within salinity limits at 64 ppt.
+Report note: CB-11 is within salinity limits at 65 ppt.
+Report note: CB-14 exceeded the brine salinity limit with a value of 70 ppt.
+Report note: CB-17 is within salinity limits at 60 ppt.
+Report note: CB-20 is within salinity limits at 62 ppt.
+Report note: CB-23 is within salinity limits at 63 ppt.
+Report note: CB-26 is within salinity limits at 59 ppt.
+Report note: CB-29 is within salinity limits at 64 ppt.
+Report note: CB-32 is within salinity limits at 57 ppt.
+Report note: CB-35 is within salinity limits at 65 ppt.
+Report note: CB-38 is within salinity limits at 61 ppt.
+Report note: CB-41 is within salinity limits at 60 ppt.
+Report note: CB-44 is within salinity limits at 62 ppt.
+Report note: CB-47 is within salinity limits at 64 ppt.
+Report note: CB-50 is within salinity limits at 58 ppt.
+Local context: the Carlsbad plant serves San Diego County through seawater reverse osmosis.
+Marine environment: the brine and its discharge point are tracked separately from membrane pressure data.
+Coastal ecology: kelp and marine wildlife observations belong to environmental monitoring, not to the energy calculation.
+Operations: a sample sitting exactly at the limit is not an exceedance when the rule says "at or below".
+Energy: the requested ratio uses only Energy_kWh divided by Water_mg for the designated shift.

@@ -1,0 +1,34 @@
+{
+  "persona": "振在苏州经营一家小型传统缂丝织造作坊。他要应对要求严苛的时装客户、难处理的天然染料和本地环保检查员，同时在运河边喝着碧螺春绿茶。",
+  "task": "根据环境安全说明，将纺织染料的重金属限值写入作坊染料手册的安全余量部分。",
+  "required_files": [
+    "chemical_standards.txt",
+    "dialogue_suzhou_dye_limit.txt",
+    "local_context_suzhou_dye_limit.xlsx"
+  ],
+  "output_files": [
+    "data/dye_manual.pdf"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "pdf",
+        "file": "./data/dye_manual.pdf",
+        "keywords": [
+          "0.05 ppm"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/dye_manual.pdf",
+      "change": "modify"
+    },
+    {
+      "path": "data/dye_manual.docx",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "persona": "Tiago é de Ponta Delgada e trabalha há quinze anos como coordenador de frota na ilha de São Miguel. Gere diariamente a complexidade das frentes meteorológicas variáveis do Atlântico Norte e das rigorosas quotas de captura da União Europeia, processando modelos marítimos complexos para otimizar a mobilização das embarcações, manter as tripulações em segurança e assegurar rendimentos dentro dos limites legais.",
+  "task": "Consulta o boletim do Atlântico Norte e a regra de segurança da frota de São Miguel, cancela a saída insegura da embarcação com o código interno SM-Boat-5 em 2026-04-03 e atualiza o quadro do porto de Ponta Delgada.",
+  "required_files": [
+    "weather_azores.xlsx",
+    "safety_rule_azores.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/fleet_board.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Cancelada"
+          }
+        ]
+      }
+    }
+  ]
+}

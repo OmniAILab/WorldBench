@@ -1,0 +1,22 @@
+Agent: Which supplier should I notify about the electronics lot currently on hold?
+Supervisor: The semiconductor lot being tracked today belongs to Border Components.
+Agent: Should I confirm its status in the crossing log first?
+Supervisor: Yes. The supplier must only be told the status actually on record.
+Agent: Secondary inspections at Otay Mesa are distinct from plain documentation reviews.
+Supervisor: Exactly.
+Agent: Lots with a random X-ray or a tariff query are not the target.
+Supervisor: Correct.
+Agent: Once the Shipment_Ref is identified, I check the contacts table.
+Supervisor: Yes, use the Border Components address.
+Agent: The message has to quote the exact Shipment_Ref.
+Supervisor: Yes.
+Agent: And repeat the status wording without rephrasing it.
+Supervisor: Yes, cross-border tracking relies on those codes.
+Agent: FAST lanes and Siempre Viva Road traffic stay local context.
+Supervisor: They do not replace the CBP status.
+Agent: I am not writing to the suppliers of the other pallets.
+Supervisor: Correct.
+Agent: So I check the crossing log, then the supplier, then the address.
+Supervisor: That is the right sequence.
+Agent: The email stays short and operational.
+Supervisor: Perfect.

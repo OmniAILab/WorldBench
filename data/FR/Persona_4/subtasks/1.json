@@ -1,0 +1,34 @@
+{
+  "persona": "Manon est responsable de l’hospitalité de luxe à Cannes et dirige un hôtel-boutique haut de gamme sur le boulevard de la Croisette. Elle concilie les fortes contraintes saisonnières du Festival de Cannes avec les consignes d’exploitation relatives au bruit et aux déchets, tout en coordonnant les arrivées internationales dans les conditions de circulation difficiles de la Côte d’Azur.",
+  "task": "Prépare le planning de conciergerie en croisant la liste d’arrivées avec le dialogue d’exploitation. Pour VIP_1, utilise l’arrivée à l’hôtel et non l’arrivée à l’aéroport ni VIP_1_bis ; pour VIP_2, utilise l’arrivée principale confirmée. Reporte les deux horaires et précise le boulevard de la Croisette.",
+  "required_files": [
+    "arrivals_cannes.xlsx",
+    "dialogue_conciergerie_cannes.txt"
+  ],
+  "output_files": [
+    "data/concierge_schedule.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/concierge_schedule.docx",
+        "keywords": [
+          "boulevard de la Croisette",
+          "VIP_1",
+          "15:30",
+          "arrivée hôtel",
+          "VIP_2",
+          "18:10"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/concierge_schedule.docx",
+      "change": "modify"
+    }
+  ]
+}

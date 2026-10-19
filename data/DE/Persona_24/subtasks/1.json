@@ -1,0 +1,30 @@
+{
+  "persona": "Mathias ist traditioneller Kahnführer in den labyrinthischen Wasserläufen des Biosphärenreservats Spreewald in Brandenburg und leitet Touristen mit einer langen Holzstange durch die dichten Erlenwälder. Er kämpft gegen die stark schwankenden saisonalen Wasserstände der Spree und die strengen Umweltauflagen, die motorisierten Verkehr und Lärm einschränken. Er führt Echtzeit-Ablasspläne der vorgelagerten Stauwehre, verstreute Karten der Vogelbrutzonen und tägliche Touristendichteberichte zusammen, um seine Routen nahtlos anzupassen und das ruhige Ökosystem zu erhalten.",
+  "task": "Übertrage die verbindliche Sperrkoordinate des Eisvogel-Brutplatzes im Spreewald in die internen Beiblätter der Touristeninformation für die Kahnfahrt.",
+  "required_files": [
+    "naturschutzvorgaben.txt"
+  ],
+  "output_files": [
+    "data/touristeninformation.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/touristeninformation.docx",
+        "keywords": [
+          "51.8N 14.0E",
+          "Eisvogel-Brutplatz",
+          "Zutritt verboten"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/touristeninformation.docx",
+      "change": "modify"
+    }
+  ]
+}

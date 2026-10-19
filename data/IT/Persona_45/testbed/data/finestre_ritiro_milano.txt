@@ -1,0 +1,21 @@
+Cliente Milano_Luxe: ritiro programmato il 2026-02-12 nella finestra 11:00-13:00.
+Cliente Armani_Casa: finestra magazzino 14:00-16:00 per resi.
+Cliente Prada_Home: ritiro programmato il 2026-02-13 nella finestra 09:00-11:00.
+Cliente Armani_Casa archivio: ritiro programmato il 2025-02-12.
+Cliente Versace_Living: ritiro programmato il 2026-02-12 nella finestra 10:00-12:00.
+Cliente Armani_Casa: consegna interna Prato il 2026-02-11.
+Piano Logistico: I corrieri espressi si presenteranno alle banchine di carico giovedì 12 mattina, specificamente nella forbice oraria che va tra le nove e le undici, per prendere in consegna i tessuti destinati al celebre marchio lombardo.
+Cliente Ferragamo_Home: ritiro programmato il 2026-02-14.
+Cliente Armani_Casa campione: ritiro programmato il 2026-02-12 nella finestra 08:00-09:00.
+Cliente Milano_Showroom: ritiro programmato il 2026-02-15.
+Cliente Gucci_Decor: ritiro programmato il 2026-02-12 nella finestra 13:00-15:00.
+Cliente Armani_Casa: finestra contabile 09:00-11:00 senza ritiro fisico.
+Cliente Macrolotto_Interno: ritiro programmato il 2026-02-12.
+Cliente Maison_Milano: consegna prevista il 2026-02-15.
+Cliente Armani_Casa: ritiro provvisorio il 2026-02-19.
+Cliente Luxury_House_X: ritiro programmato il 2026-02-12 nella finestra 09:00-11:00.
+Cliente Seta_Napoletana: finestra 09:00-11:00 ma destinazione Napoli.
+Cliente Etro_Home: ritiro programmato il 2026-02-13 nella finestra 11:00-13:00.
+Cliente Armani_Casa: finestra documentale 16:00-17:00 senza ritiro fisico.
+Cliente Bottega_Veneta_Home: ritiro programmato il 2026-02-16 nella finestra 10:00-12:00.
+Cliente Dolce_Gabbana_Casa: ritiro programmato il 2026-02-17 nella finestra 09:30-11:30.

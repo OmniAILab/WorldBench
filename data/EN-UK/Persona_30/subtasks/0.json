@@ -1,0 +1,38 @@
+{
+  "persona": "Hamish is a biomedical scientist at the Queen Elizabeth University Hospital in Glasgow. He keeps laboratory timing sheets, HTA compliance records, research calendars, and clinical safety report drafts.",
+  "task": "Update the HTA regulations sheet by copying the processing time for DNA_Seq_88 into its compliance tier field.",
+  "required_files": [
+    "qeuh_laboratory.xlsx"
+  ],
+  "output_files": [
+    "data/hta_regulations.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/hta_regulations.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "48_Hours"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/hta_regulations.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

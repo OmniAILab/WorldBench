@@ -1,0 +1,61 @@
+{
+  "persona": "Laure dirige la production d’une distillerie de lavande sur le plateau de Valensole, en Provence. Pendant la récolte, elle coordonne les apports de lavande fine et de lavandin, les alambics, la consommation d’eau et les contrôles des huiles essentielles. Elle suit les documents de traçabilité et les certifications biologiques lorsqu’elles s’appliquent, sans les confondre avec les classements de qualité internes à l’atelier.",
+  "task": "Croise le relevé de distillation, l’identification des matières, la grille interne de qualité et le dialogue de validation. Repère la cuve correspondant au lot pharmaceutique courant de lavande fine certifiée biologique, détermine le classement interne applicable à partir de sa température validée et mets à jour le grade, la température retenue et la matière validée. Écarte les cuves de Haute-Provence, le lavandin et les relevés antérieurs.",
+  "required_files": [
+    "grille_ecocert_valensole.txt",
+    "extraction_log_provence.xlsx",
+    "lots_lavande_valensole.xlsx",
+    "dialogue_validation_ecocert_valensole.txt"
+  ],
+  "output_files": [
+    "data/ecocert_certification.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/ecocert_certification.xlsx",
+        "matches": [
+          {
+            "row": 10,
+            "col": 2,
+            "value": "Grade_Pharmaceutique_A"
+          },
+          {
+            "row": 10,
+            "col": 3,
+            "value": "105C"
+          },
+          {
+            "row": 10,
+            "col": 4,
+            "value": "Lavande_fine_Ecocert"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/ecocert_certification.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

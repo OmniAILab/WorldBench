@@ -1,0 +1,31 @@
+{
+  "persona": "Giacomo è un responsabile dell'export per un consorzio del Parmigiano Reggiano con sede a Reggio Emilia. Facilita la distribuzione globale delle forme stagionate, assicurando che ogni lotto soddisfi i requisiti di tracciabilità della Denominazione di Origine Protetta (DOP) e muovendosi tra le diverse normative sulla sicurezza alimentare all'importazione dei vari continenti, gestendo al contempo le variazioni stagionali della produzione locale influenzate dal clima della Pianura Padana.",
+  "task": "Converti la nota di importazione della destinazione in una checklist per le etichette di imballaggio del magazzino di Reggio Emilia. Il file ./data/checklist_etichette_parmigiano.docx deve contenere esattamente le seguenti diciture: «Parmigiano Reggiano», «Dichiarazione allergeni», «Numero lotto», «Paese di origine».",
+  "required_files": [
+    "nota_importazione_parmigiano.txt"
+  ],
+  "output_files": [
+    "data/checklist_etichette_parmigiano.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/checklist_etichette_parmigiano.docx",
+        "keywords": [
+          "Parmigiano Reggiano",
+          "Dichiarazione allergeni",
+          "Numero lotto",
+          "Paese di origine"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/checklist_etichette_parmigiano.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Messprotokoll Ausstellung vom 15.10.2026, 11:15 Uhr (Luxmeter an der Textiloberfläche): In Vitrine_Karolingische_Tunika liegt die Beleuchtung über 50 Lux. Der Wert gilt seit der Öffnung um 10:00 Uhr bei Dauerbeleuchtung; der Richtwert des Hauses für lichtempfindliche Textilien beträgt 50 Lux.
+Messprotokoll vom 15.10.2026: Vitrine_Ottonischer_Schleier 45 Lux stabil, Vitrine_Schatzkreuz kurzzeitig 48 Lux, Vitrine_Elfenbein_Reliquiar: UV-Filter prüfen.
+Messprotokoll vom 02.09.2026 (überholt): Vitrine_Karolingische_Tunika 45 Lux. Seither wurde die Beleuchtung nach einem Leuchtmitteltausch verändert.

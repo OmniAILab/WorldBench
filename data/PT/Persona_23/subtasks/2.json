@@ -1,0 +1,19 @@
+{
+  "persona": "Beatriz é geóloga de minas e trabalha nas galerias subterrâneas da mina de sal-gema de Campina de Cima, em Loulé. Acompanha a estabilidade dos pilares e tetos, interpreta campanhas de georradar e valida os critérios geotécnicos antes de autorizar o avanço de novas frentes de desmonte.",
+  "task": "Extrai da especificação geotécnica da mina a exigência de reforço para galerias classificadas como de risco elevado e insere a frase completa na secção «Estruturas de suporte» do manual de expansão.",
+  "required_files": [
+    "mining_authority.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/expansion_manual.docx",
+        "keywords": [
+          "Nas galerias classificadas como de risco elevado, o reforço do suporte deve seguir o projeto geotécnico aprovado e ser validado pela direção técnica antes da retoma dos trabalhos."
+        ]
+      }
+    }
+  ]
+}

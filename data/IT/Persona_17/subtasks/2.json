@@ -1,0 +1,32 @@
+{
+  "persona": "Chiara è una consulente legale nel quartiere di Porta Nuova a Milano, specializzata nella conformità delle startup fintech al più recente Regolamento sull'Intelligenza Artificiale dell'Unione Europea (AI Act) e alle normative della Banca d'Italia. Esamina enormi quantità di aggiornamenti normativi e giurisprudenza finanziaria per fornire indicazioni precise alle piattaforme di pagamento digitale che operano nell'Eurozona. La sua routine quotidiana comprende la sintesi di complesse normative transfrontaliere sulla privacy e la redazione di rapporti tecnici di trasparenza per aziende tecnologiche ad alta crescita.",
+  "task": "Scrivi una email al CTO della fintech indicando la classificazione di rischio del sistema e le intestazioni di trasparenza richieste dal modello.",
+  "required_files": [
+    "note_email_cto_milano.txt",
+    "contatti_cto_milano.xlsx",
+    "tracker_compliance_milano_v2.xlsx",
+    "nota_banca_italia_milano_report.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "cto@startup.it",
+        "keywords": [
+          "PayScore",
+          "alto_rischio",
+          "Scopo_modello",
+          "Fonti_dati",
+          "Supervisione_umana"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_cto_*.eml",
+      "change": "create"
+    }
+  ]
+}

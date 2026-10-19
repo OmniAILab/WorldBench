@@ -1,0 +1,20 @@
+USFWS threshold: if Wolf_Signs reach at least 7, schedule a call with the regional biologist.
+USFWS threshold: if Wolf_Signs reach at least 6, check whether night penning is possible.
+USFWS threshold: if Wolf_Signs reach at least 5, review guard dog placement.
+Grizzly threshold: at 4 Grizzly_Signs or more, move feed away from the creek line.
+Grizzly threshold: at 3 Grizzly_Signs or more, check the bear-resistant storage.
+Total activity threshold: at 8 predator signs or more, request a county range rider.
+Elk damage threshold: more than 4 fence breaks trigger a repair crew.
+Coyote threshold: more than 6 tracks add night listening posts.
+Rule to apply to the actions sheet: Wolf_Signs >= 4 means Fladry_Required = Yes.
+Rule to apply to the actions sheet: Wolf_Signs < 4 means Fladry_Required = No.
+Bozeman note: the ranch's informal preference does not replace the USFWS rule.
+Yellowstone note: the red flags must be stored in the tack room after use.
+Montana note: wind off the Gallatin Range can complicate the installation, without changing the threshold.
+Field note: a grizzly sighting on its own does not trigger fladry under this rule.
+Field note: do not use the threshold of 5 reserved for guard dogs.
+Field note: do not use the threshold of 6 reserved for night penning.
+Field note: do not use the threshold of 7 reserved for the biologist call.
+Field note: Pasture_13 at exactly 4 must be marked Yes.
+Field note: zeros must be marked No.
+Field note: update every pasture present in the actions sheet.

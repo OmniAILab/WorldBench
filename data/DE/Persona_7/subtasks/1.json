@@ -1,0 +1,28 @@
+{
+  "persona": "Fabian unterstützt ein Medizintechnikunternehmen im Raum Nürnberg bei der Qualitätssicherung klinischer Unterlagen. Er bewertet pseudonymisierte Sicherheitsereignisse und achtet auf eine nachvollziehbare datenschutzgerechte Dokumentation.",
+  "task": "Ergänze den Abschnitt „Datenverarbeitung“ des klinischen Dossierdeckblatts um die konkrete Anforderung zur Entfernung direkter Identifikatoren vor der Weitergabe.",
+  "required_files": [
+    "datenschutzhinweis_de.txt"
+  ],
+  "output_files": [
+    "data/deckblatt.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/deckblatt.docx",
+        "keywords": [
+          "direkte Identifikatoren entfernen"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deckblatt.docx",
+      "change": "modify"
+    }
+  ]
+}

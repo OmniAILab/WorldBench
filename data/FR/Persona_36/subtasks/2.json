@@ -1,0 +1,35 @@
+{
+  "persona": "Amandine travaille à Lyon dans la conservation du patrimoine de la soierie. En lien avec un atelier de la Croix-Rousse, elle étudie les cartons Jacquard, les armures et les échantillons de tissus des anciens canuts. Elle coordonne les recherches d’archives, les essais de teinture et la reproduction de motifs historiques pour des collections patrimoniales.",
+  "task": "Mets à jour le manuel de reproduction en croisant le catalogue du projet, la synthèse d’archives, la note technique et le dialogue d’atelier. Pour REP-CANUT-09, identifie le motif floral canut dans sa version validée, récupère la densité de chaîne correspondante et formule une consigne de calibration courte. Écarte le motif à grandes feuilles, les motifs secondaires et les versions non validées.",
+  "required_files": [
+    "archival_synthesis.txt",
+    "note_reproduction_soie.txt",
+    "catalogue_reproduction_canut.xlsx",
+    "dialogue_calibration_canut.txt"
+  ],
+  "output_files": [
+    "data/reproduction_manual.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/reproduction_manual.docx",
+        "keywords": [
+          "Atelier de canuts de Lyon",
+          "motif floral canut",
+          "120 fils par centimètre",
+          "Carton_1858_V3",
+          "version validée"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/reproduction_manual.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Quick Note
+Hi [Name],
+Just a quick note about [topic]. [Main detail from source note].
+Best,
+[Name]
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Drafting Clarification
+Dear Planning Team,
+I am writing regarding [topic]. Please note the following proposed wording: [Main detail from source note].
+I should be grateful if you could confirm whether this is acceptable.
+Yours faithfully,
+[Name]
+
+Note: Section 106 correspondence with Leeds City Council should use the formal template.
+Note: informal internal notes about The Headrow can use the friendly template.
+Note: Highways bond correspondence should not be mixed with planning wording.
+Note: title schedule follow-ups require a separate letter template.
+Note: WYCA briefing updates are not sent as council emails.
+Note: formal drafting emails should preserve quoted wording exactly.
+Note: finance queries should go to the S106 finance team, not Planning.
+Note: client-facing emails use a separate firm template.

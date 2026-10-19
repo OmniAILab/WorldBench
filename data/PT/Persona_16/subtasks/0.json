@@ -1,0 +1,23 @@
+{
+  "persona": "João é de Peniche e dirige há vinte anos a frota de pesca comercial sediada no porto. Acompanha as correntes do canhão submarino, as quotas de sardinha e a descarga na lota, e transforma as imagens de satélite da temperatura da água em cartas de navegação diárias para os mestres das embarcações de cerco.",
+  "task": "Usa as imagens de temperatura do canhão submarino ao largo de Peniche e o registo da ecossonda para localizar o cardume favorável e atualiza as coordenadas recomendadas na carta diária das embarcações de cerco.",
+  "required_files": [
+    "satellite_imagery.xlsx",
+    "echosounder_log_peniche.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/navigation_charts.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "39,38° N; 9,45° O"
+          }
+        ]
+      }
+    }
+  ]
+}

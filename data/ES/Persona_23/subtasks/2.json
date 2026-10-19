@@ -1,0 +1,31 @@
+{
+  "persona": "Manolo es carnicero en el barrio de Triana, en Sevilla, donde regenta un puesto histórico del Mercado de Triana especializado en ibérico. Compagina la Norma de Calidad del Ibérico y los controles veterinarios de la Junta de Andalucía con la logística del barrio durante la Semana Santa y la Feria de Abril. Su trabajo consiste en comprobar precintos y códigos de trazabilidad y en mantener la cadena de frío del puesto.",
+  "task": "Incorpora al manual operativo del puesto del Mercado de Triana la temperatura máxima de almacenamiento del cerdo ibérico crudo.",
+  "required_files": [
+    "protocolo_seguridad_alimentaria.txt"
+  ],
+  "output_files": [
+    "data/manual_operativo_puesto.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/manual_operativo_puesto.docx",
+        "keywords": [
+          "Mercado de Triana",
+          "temperatura máxima",
+          "4 °C",
+          "cerdo ibérico crudo"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/manual_operativo_puesto.docx",
+      "change": "modify"
+    }
+  ]
+}

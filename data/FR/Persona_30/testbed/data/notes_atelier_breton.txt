@@ -1,0 +1,8 @@
+Atelier 01 : demat signifie bonjour.
+Atelier 02 : kenavo signifie au revoir.
+Atelier 03 : trugarez signifie merci.
+Atelier 04 : mar plij signifie s’il vous plaît.
+Atelier 08 : degemer mat signifie bienvenue.
+Atelier Accueil_Bilingue_09 : « Degemer mat e Kemper » signifie « Bienvenue à Quimper » et « Trugarez deoc’h » signifie « Merci à vous ».
+Atelier Accueil_Bilingue_18 : « Degemer mat e Brest » signifie « Bienvenue à Brest ».
+Atelier 19 : « Kenavo ar wech all » signifie « au revoir, à la prochaine fois ».

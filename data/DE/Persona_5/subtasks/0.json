@@ -1,0 +1,38 @@
+{
+  "persona": "Marlene inszeniert am Deutschen Nationaltheater in Weimar. Bei der Probenplanung stimmt sie Bühneneffekte, Szenenwechsel und praktische Sicherheitsprüfungen mit der technischen Leitung ab.",
+  "task": "Prüfe den geplanten Bühneneffekt für die betreffende Aufführung anhand des internen Sicherheitsstands des Deutschen Nationaltheaters Weimar und aktualisiere den Zulassungsstatus.",
+  "required_files": [
+    "brandschutzhinweis_weimar.txt"
+  ],
+  "output_files": [
+    "data/effekte_weimar.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/effekte_weimar.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Nein"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/effekte_weimar.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

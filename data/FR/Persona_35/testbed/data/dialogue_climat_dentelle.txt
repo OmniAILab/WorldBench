@@ -1,0 +1,5 @@
+Maud : Nous devons régler le caisson climatique pour la pièce « Dentelle de Chantilly — pièce d’inventaire 1890 » (identifiée sous le code Chantilly_Lace_1890 au registre).
+Régisseuse : La soie noire chargée aux sels métalliques de cette époque s'est beaucoup dégradée : la fiche d'état indique « Extrêmement_cassante ».
+Maud : C'est exact. Selon notre plan de conservation interne à la Cité internationale de la dentelle et de la mode, quelle consigne d'hygrométrie applique-t-on ?
+Régisseuse : On stabilise à « 45%_±2 » avec la référence climatique « Dentelle_Chantilly_1890 », sans confondre avec la pièce Chantilly_Lace_1910 moins dégradée.
+Maud : Parfait, mets à jour la ligne correspondante dans le fichier des conditions de stockage.

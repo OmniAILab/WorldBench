@@ -1,0 +1,40 @@
+{
+  "persona": "俊是山城重庆的一名社区巡检员。他爬着数不清的台阶，检查本地立交桥和单轨支柱是否因浓雾和高湿度而生锈，通常一边工作一边想着晚上吃一顿麻辣火锅。",
+  "task": "把本地勘测警报、雨后边坡复核表和班组对话整理成一份简短 PDF 安全通报。通报对象是李子坝轨道穿楼附近的立交桥墩 P4：说明连续降雨后检测到边坡位移，写入 12 mm 的当前复核值，并要求维修队先确认坡面稳定、穿防滑雨靴、两人同行后再靠近桥墩。排除普通返潮、排水堵塞和游客客流提示。",
+  "required_files": [
+    "survey_alert_cq.txt",
+    "slope_recheck_cq.xlsx",
+    "dialogue_slope_safety_cq.txt"
+  ],
+  "output_files": [
+    "data/safety_bulletin.pdf"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "pdf",
+        "file": "./data/safety_bulletin.pdf",
+        "keywords": [
+          "李子坝",
+          "桥墩 P4",
+          "边坡位移",
+          "12 mm",
+          "坡面稳定",
+          "防滑雨靴",
+          "两人同行"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/safety_bulletin.pdf",
+      "change": "modify"
+    },
+    {
+      "path": "data/safety_bulletin.docx",
+      "change": "create"
+    }
+  ]
+}

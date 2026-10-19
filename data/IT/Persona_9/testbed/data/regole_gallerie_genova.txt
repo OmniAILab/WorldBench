@@ -1,0 +1,23 @@
+Appunto tunnel: la classe 9 non può passare nelle gallerie storiche.
+Nota container: GNV-45 deve andare in superficie perché è più recente.
+Promemoria porto: la classe 3 può passare nei tunnel se il traffico è basso.
+Appunto Genova: tutti i container con sigla GNV restano su Tunnel.
+Nota merci: classe 3 richiede scorta, non cambio percorso.
+Regola gallerie aggiornata: i container di classe 3 non possono essere instradati nelle gallerie storiche.
+Valore da inserire nel piano quando la classe è vietata: Superficie.
+Promemoria dogana: il piano percorso va aggiornato solo per documenti ADM-7.
+Appunto gallerie: le gallerie antiche vietano classe 8.
+Nota porto antico: se il container arriva al mattino può usare Tunnel.
+Promemoria sicurezza: scrivere Deviato invece di Superficie.
+Appunto varco: GNV-44 usa Tunnel perché è già nel piano.
+Nota soste: container refrigerati non cambiano percorso.
+Promemoria merci: classe 9 è più pericolosa della classe 3 per questo piano.
+Appunto tunnel 2024: vietate le classi 1 e 7, non 3.
+Nota Lanterna: il percorso superficiale è riservato ai passeggeri.
+Promemoria turno: il supervisore decide dopo le 05:40, non ora.
+Appunto container: aggiornare entrambe le righe a Superficie.
+Nota banchina: lasciare Tunnel se la cella è già compilata.
+Appunto peso: il peso del container non determina il divieto nelle gallerie storiche.
+Nota colore: il colore del container non rientra tra i criteri del piano percorsi.
+Promemoria orario: l'orario di arrivo del container non modifica il percorso vietato.
+Nota terminal: il terminal di provenienza non incide sull'instradamento in galleria.

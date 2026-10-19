@@ -1,0 +1,14 @@
+RELATÓRIO DE INSPEÇÃO METALÚRGICA E MANUTENÇÃO — CENTRAIS DA RIBEIRA GRANDE E PICO VERMELHO
+Método de avaliação: Ensaios não destrutivos (ultrassons de feixe angular e líquidos penetrantes nas pás e discos de rotor)
+
+1. Unidades em regime de acompanhamento
+- Índices de desgaste até 40% (Carcaça da Turbina 1, Pás da Turbina 2, Separador de Vapor 1): manter o plano de inspeção trimestral e limpeza química programada.
+- Índices entre 41% e 60% (Válvula da Turbina 3, Carcaça da Turbina 6, Conduta de Vapor C): preparar avaliação técnica para a próxima paragem planeada.
+
+2. Unidades com deterioração severa ou crítica
+- O Rotor Auxiliar da Turbina a Vapor 4 apresenta deterioração severa (76%); manter o componente em reserva técnica e aguardar peritagem do fabricante.
+- O Rotor da Turbina a Vapor 5 apresenta deterioração elevada (78%); limitar a carga do grupo e preparar intervenção programada com autorização da direção técnica.
+- Rotor da Turbina a Vapor 4: O rotor da turbina a vapor 4 apresenta deterioração classificada como crítica no relatório de inspeção; retirar a unidade de serviço até decisão da equipa técnica.
+
+3. Comunicação de despacho
+Qualquer indisponibilidade de grupo gerador deve ser comunicada por email aos operadores da rede insular para redistribuição de reserva girante em São Miguel.

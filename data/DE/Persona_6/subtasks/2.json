@@ -1,0 +1,27 @@
+{
+  "persona": "Markus ist Elektriker und betreut unter anderem Altbauaufträge in der Münchner Altstadt. Er plant lärmintensive Arbeiten, prüft für historische Fassaden geeignete Leitungsführungen und stimmt Eingriffe in geschützte Bausubstanz ab.",
+  "task": "Verfasse eine Anfrage an die zuständige Münchner Denkmalfachstelle zur Prüfung des verdeckten Leitungsplans. Nenne die Auftrags-ID und die Vorgabe zum Erhalt des Fassadenbilds.",
+  "required_files": [
+    "denkmalschutzhinweis_bayern.txt",
+    "kontakte_muenchen.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "denkmalschutz@muenchen.de",
+        "keywords": [
+          "Fassadenbild erhalten",
+          "ALT-88"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_denkmalschutz_*.eml",
+      "change": "create"
+    }
+  ]
+}

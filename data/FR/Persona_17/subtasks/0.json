@@ -1,0 +1,51 @@
+{
+  "persona": "Anaïs est paludière à Guérande et gère plusieurs œillets dans les marais salants. Elle surveille la salinité, les coefficients de marée et la qualité de la fleur de sel, tout en respectant les pratiques traditionnelles du pays guérandais et les exigences de la coopérative locale.",
+  "task": "Croise le seuil interne de salinité retenu par la coopérative pour la fleur de sel, le relevé de l’œillet, le coefficient de marée et le dialogue de récolte. Pour Oeillet_Traict_07, valide la récolte uniquement si la salinité atteint le seuil et si le coefficient confirmé est suffisant pour la levée. Mets à jour le statut et une justification chiffrée dans le registre.",
+  "required_files": [
+    "seuil_fleur_de_sel.txt",
+    "salinite_guerande.xlsx",
+    "marees_guerande.xlsx",
+    "dialogue_recolte_guerande.txt"
+  ],
+  "output_files": [
+    "data/registre_recolte_guerande.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/registre_recolte_guerande.xlsx",
+        "matches": [
+          {
+            "row": 5,
+            "col": 2,
+            "value": "Prêt"
+          },
+          {
+            "row": 5,
+            "col": 3,
+            "value": "322 g/L ; coefficient 82"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/registre_recolte_guerande.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 5,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

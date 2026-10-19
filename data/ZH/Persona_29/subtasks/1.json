@@ -1,0 +1,30 @@
+{
+  "persona": "伟在东莞经营一家硬件原型制作店。他从深圳华强北市场采购便宜电子零件，经常和装配线机器人较劲，并靠泡面维持生活。",
+  "task": "使用 MicroPower 电机原型的到货日期，在项目日历中添加名为“MicroPower 交付”的事件。",
+  "required_files": [
+    "supplier_log_shenzhen.xlsx",
+    "pr_delta_supplier_context.xlsx"
+  ],
+  "output_files": [
+    "data/prototype_schedule_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/prototype_schedule_2026.ics",
+        "summary_keywords": [
+          "MicroPower 交付"
+        ],
+        "description_keywords": [],
+        "date": "2026-02-15"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/prototype_schedule_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

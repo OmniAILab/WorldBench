@@ -1,0 +1,33 @@
+{
+  "persona": "小小在杭州经营一家小型服装精品店，每晚都在抖音直播带货。她不断调整直播话术，避免被平台严格的算法封禁，同时还会喊着“三、二、一，链接在主页！”",
+  "task": "核对杭州平台规则、湖滨宋韵春装专场信息和场控对话，只替换直播脚本标题中的违规价格承诺。保留“杭州丝绸”“宋韵通勤”和西湖烟柳配色等商品文化说明，将“全国最低价”改为批准的中性表述“限时优惠”，不要把龙井、桂花等场景词误当成价格替换语。",
+  "required_files": [
+    "platform_notice_hangzhou.txt",
+    "hangzhou_show_theme.xlsx",
+    "dialogue_song_style_livestream_hangzhou.txt"
+  ],
+  "output_files": [
+    "data/script_hangzhou.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/script_hangzhou.docx",
+        "keywords": [
+          "限时优惠",
+          "杭州丝绸",
+          "宋韵通勤",
+          "西湖烟柳配色"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/script_hangzhou.docx",
+      "change": "modify"
+    }
+  ]
+}

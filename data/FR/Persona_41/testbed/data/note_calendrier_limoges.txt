@@ -1,0 +1,19 @@
+Le calendrier contient plusieurs contrôles de décoration.
+La vérification des cartons relève du service logistique.
+Le contrôle du cobalt ne concerne pas la feuille d’or.
+La cuisson biscuit précède la décoration.
+Le cachet IG est contrôlé dans une autre séance.
+La palette du musée ne fait pas partie de l’expédition visée.
+Les anses dorées sont vérifiées lors de l’assemblage.
+Le vernis final possède son propre rendez-vous.
+Retenir la ligne Révision_feuille_d_or_export.
+Le titre doit être « Contrôle qualité feuille d’or ».
+La description doit rappeler l’expédition internationale.
+La durée peut rester courte.
+Aucun autre contrôle ne doit être déplacé.
+Le format de date du calendrier doit être compact.
+La série destinée au gala suit un autre calendrier.
+Le contrôle des pigments n’est pas demandé.
+Le nouvel événement doit être ajouté au calendrier existant.
+Le contrôle de la feuille or annexe est prévu le 14 juin avant l’expédition.
+Le contrôle de l’émail or s’effectue sur pièces cuites lors d’une séance séparée.

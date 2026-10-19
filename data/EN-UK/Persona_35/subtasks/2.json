@@ -1,0 +1,28 @@
+{
+  "persona": "Elin is a tidal energy site manager in Swansea Bay. She maintains telemetry sheets, tidal-window emails, environmental compliance documents, and maintenance priority trackers for submerged turbines.",
+  "task": "Insert the Welsh regulator acoustic-noise limit into the environmental limits section of the Swansea Bay operational compliance document.",
+  "required_files": [
+    "welsh_regulator_doc.txt"
+  ],
+  "output_files": [
+    "data/operational_compliance.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/operational_compliance.docx",
+        "keywords": [
+          "Maximum underwater acoustic limit: 120 decibels during cetacean migration"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/operational_compliance.docx",
+      "change": "modify"
+    }
+  ]
+}

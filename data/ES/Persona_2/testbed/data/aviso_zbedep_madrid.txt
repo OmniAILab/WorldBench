@@ -1,0 +1,19 @@
+Nota de reparto: los vehículos farmacéuticos pueden entrar siempre en Distrito Centro.
+Regla de Vicálvaro: en días de alta contaminación debe usarse la ruta Gran_Vía.
+Protocolo antiguo Madrid 360: las restricciones solo afectan a motocicletas.
+Indicación de almacén: la entrega MD-CH-14 debe adelantarse sin cambiar la ruta.
+Excepción sanitaria: cualquier envío refrigerado queda automáticamente autorizado.
+Nota de Puerta del Sol: el acceso es libre antes de las 18:00.
+Regla de matrículas: los vehículos con matrícula par deben cruzar el centro.
+Plan de contingencia: en protocolo Alto se recomienda atravesar Centro para reducir el tiempo de viaje.
+Aviso del Ayuntamiento de Madrid: Activado el Escenario Alto del Protocolo Anticontaminación. Queda restringido el acceso a la ZBEDEP Distrito Centro para vehículos industriales de reparto. Se requiere el desvío de la carga por la M-30 (Ruta Evitar_Centro).
+Recomendación de Madrid 360: el estado Alto obliga a usar la ruta Centro_Directo.
+Nota de farmacia: la dirección del cliente sustituye la evaluación del protocolo.
+Regla de la M-30: todas las entregas deben desviarse aunque no entren en Distrito Centro.
+Excepción de cadena de frío: la ruta no puede modificarse después de la carga.
+Aviso operativo de Gran Vía: consultar las restricciones de acceso vigentes antes de asignar una ruta de reparto.
+Nota logística: el protocolo Alto afecta únicamente a entregas posteriores al 3 de abril.
+Guía municipal antigua: la ZBEDEP se aplica solo a vehículos particulares.
+Regla de emergencia: cualquier pedido médico debe marcarse como Acceso_Centro.
+Circular del Ayuntamiento de Madrid: en el escenario Medio del Protocolo Anticontaminación, los vehículos de reparto de menos de 3,5 toneladas pueden acceder a la ZBEDEP Distrito Centro con autorización previa.
+Aviso Madrid 360: cuando el índice de contaminación desciende a nivel Normal antes de las 14:00, se levanta la restricción de acceso para entregas urgentes con etiqueta sanitaria.

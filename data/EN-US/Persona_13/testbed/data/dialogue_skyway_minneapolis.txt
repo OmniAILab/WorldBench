@@ -1,0 +1,22 @@
+Technician: Today's sub-zero alert covers Zone 3.
+Coordinator: Yes, the Skyway has to put that zone in Emergency.
+Technician: Zone 6 only has a private vestibule complaint.
+Coordinator: That is not an emergency trigger.
+Technician: Zone 4 has a door closer to repair.
+Coordinator: Separate maintenance.
+Technician: The connectors run through several private buildings.
+Coordinator: Which is why zone number and access block must not be confused.
+Technician: Foot traffic at Nicollet is heavy.
+Coordinator: That does not change the thermal mode.
+Technician: Doors left open can drop the temperature.
+Coordinator: Yes, but the current instruction is still Zone 3.
+Technician: I am writing Emergency exactly.
+Coordinator: Yes.
+Technician: And I am keeping Normal for the zones with no alert.
+Coordinator: Change only what was asked for.
+Technician: Understood.
+Coordinator: The escort rules after 20:00 belong to another workflow.
+Technician: Got it.
+Coordinator: Update the control log.
+Local context: the Skyway links private buildings whose access rules can differ from block to block.
+Winter: sub-zero spells raise the heating load and the sensitivity to doors left propped open.

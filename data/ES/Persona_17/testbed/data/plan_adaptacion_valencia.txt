@@ -1,0 +1,20 @@
+Regla de prioridad: el segmento con el índice térmico más bajo recibe prioridad Alta.
+Nota de las Fallas: Turia_Este debe priorizarse por su cercanía a la Ciudad de las Artes.
+Recomendación urbana: todos los segmentos deben marcarse con prioridad Media.
+Práctica municipal: Turia_Oeste se atiende primero por estar aguas arriba.
+Regla de sombra: un índice de 61 representa la mayor isla de calor.
+Nota del Jardín del Turia: el centro no necesita nuevas zonas verdes.
+Consejo de obras: la prioridad se decide por orden alfabético.
+Protocolo antiguo: los valores superiores a 70 se consideran normales.
+Plan de Adaptación Climática (València Capital Verda): Los fondos de renaturalización se inyectarán con prioridad Alta en el tramo urbano que arroje el pico térmico satelital más severo.
+Nota de riego: el segmento con mayor disponibilidad de agua debe priorizarse.
+Recomendación de movilidad: Turia_Este recibe prioridad Alta por tener más ciclistas.
+Regla de capital verde: todos los segmentos se marcan Baja.
+Práctica de verano: se utiliza el promedio de los tres índices.
+Consejo de planificación: el segmento central se excluye por obras anteriores.
+Nota de las Fallas: el calor se evalúa solo durante marzo.
+Regla del Júcar: la prioridad depende de la dotación de riego, no del calor.
+Protocolo de parques: Turia_Oeste debe marcarse Alta sin comparar valores.
+Plan de Adaptación Climática (València Capital Verda): si dos segmentos presentan índices térmicos a menos de tres puntos de diferencia, los fondos se distribuirán proporcionalmente entre ambos priorizando el que cuente con menor cobertura arbórea actual.
+Nota técnica del Servei de Parcs i Jardins: el índice térmico satelital se recalcula trimestralmente; el tramo que registre el mayor incremento interanual recibirá prioridad Alta en la siguiente convocatoria de fondos de renaturalización.
+Nota de planificación urbana: contrastar los índices térmicos de todos los segmentos en la tabla satelital y asignar la prioridad Alta al tramo de mayor valor.

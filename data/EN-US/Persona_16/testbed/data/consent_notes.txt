@@ -1,0 +1,22 @@
+Consent note: Landowner Brown is still reviewing the packet.
+Consent note: Landowner Davis granted access for a trail camera only.
+Consent note: Landowner Miller denied access for spring treatment.
+Consent note: Landowner Wilson granted verbal access but has not signed.
+Consent note: Landowner Smith: Consent Granted for Smith.
+Consent note: Landowner Taylor requested a later visit date.
+Consent note: Landowner Anderson needs a paper copy mailed.
+Consent note: Landowner Thomas granted consent for a different parcel.
+Consent note: Landowner Moore is waiting on a property map.
+Consent note: Landowner Jackson declined a controlled burn visit.
+Consent note: Landowner White approved a phone call only.
+Consent note: Landowner Harris asked for U.S. Forest Service clarification.
+Consent note: Landowner Martin needs smoke information before signing.
+Consent note: Landowner Thompson is out of town until next week.
+Consent note: Landowner Garcia granted access to the driveway, not the forest stand.
+Consent note: Landowner Robinson is pending attorney review.
+Consent note: Landowner Clark signed an outdated form.
+Consent note: Landowner Lewis wants a site walk before consent.
+Blue Ridge context: eastern hemlock is heavily affected by the hemlock woolly adelgid across the Appalachians.
+Pisgah: forest roads, slopes, and private access make treatment rounds harder to schedule.
+Prescribed fire: the burn type must be cross-checked against the exact USFS plan coordinate.
+Smoke: valley inversions can change dispersion without changing the planned burn type.

@@ -1,0 +1,29 @@
+{
+  "persona": "Catriona from the Isle of Skye is a crofting consultant based near Portree. She advises new-entry tenants on crofting paperwork while keeping practical notes on peatland condition, local land use, and pressure from blackhouse holiday conversions.",
+  "task": "Write a brief professional email to the SK-17 Portree tenant about pressure from blackhouse holiday conversions, using the tenant contact sheet and including both action lines from the Skye housing note.",
+  "required_files": [
+    "housing_note_skye.txt",
+    "tenants_portree.xlsx",
+    "email_templates_catriona.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "tenant17@portree.croft",
+        "keywords": [
+          "blackhouse",
+          "Action: document intended land use",
+          "Action: keep tenancy communications archived"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_tenant17_*.eml",
+      "change": "create"
+    }
+  ]
+}

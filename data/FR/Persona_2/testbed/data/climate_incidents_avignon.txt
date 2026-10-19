@@ -1,0 +1,7 @@
+JOURNAL DES INCIDENTS CLIMATIQUES — MUSÉES D’AVIGNON (JUILLET 2026)
+
+- Réserve photographique : légère dérive hygrométrique stabilisée après vidange du bac.
+- Salle gothique : baisse ponctuelle de température nocturne sans franchissement de seuil.
+- PetitPalais_Archive : le risque élevé du PetitPalais_Archive est lié à une humidité supérieure au seuil de conservation du parchemin médiéval (62 % mesurés contre 55 % maximum).
+- Chapelle_Manuscrits : le risque élevé du Chapelle_Manuscrits est lié à une variation de température récente près de la verrière haute.
+- Lambert_Salle_1 : le risque modéré est lié à un défaut de ventilation ponctuel sur la centrale d’air.

@@ -1,0 +1,20 @@
+Seuils internes d’interruption des opérations de prélèvement, définis par le protocole du projet HERB-GLOBAL-26 ; ils ne constituent pas une réglementation générale applicable aux plongeurs.
+Seuil de prélèvement pour la mission locale Sormiou : 20°C.
+Seuil de prélèvement pour Morgiou : 21°C.
+Seuil de prélèvement pour En-Vau : 19°C.
+Seuil de prélèvement pour le Frioul : 23°C.
+Seuil de prélèvement pour Planier : 18°C.
+Seuil de prélèvement pour Riou : 24°C.
+Seuil de prélèvement pour Maire : 20.5°C.
+Seuil de prélèvement pour Jarre : 21.5°C.
+Seuil de prélèvement pour le programme global Herbiers de posidonie : 22°C.
+Seuil de prélèvement pour Port-Miou : 19.5°C.
+Seuil de prélèvement pour Cap Croisette : 23.5°C.
+Seuil de prélèvement pour Devenson : 18.5°C.
+Seuil de prélèvement pour Pomègues : 21.2°C.
+Seuil de prélèvement pour Ratonneau : 20.8°C.
+Seuil de prélèvement pour Tiboulen : 22.5°C.
+Seuil de prélèvement pour Calseraigne : 24.5°C.
+Seuil de prélèvement pour la Baie des Singes : 19.8°C.
+Seuil de prélèvement pour la mission locale Morgiou : 21°C.
+Seuil de prélèvement pour le programme global Herbiers de Riou : 23°C.

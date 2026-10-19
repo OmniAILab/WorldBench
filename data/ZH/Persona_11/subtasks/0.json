@@ -1,0 +1,50 @@
+{
+  "persona": "宁是宁德一家电动自行车电池厂的采购文员。她密切关注镍价以安排下单时间，并填写出口电池所需的无穷无尽的回收文件。",
+  "task": "根据运输规则判断每批电池是否需要回收证书，并在出库记录表中填写“是”或“否”。",
+  "required_files": [
+    "recycling_notice.txt",
+    "dialogue_ningde_recycling.txt",
+    "ningde_shipment_context.xlsx"
+  ],
+  "output_files": [
+    "data/outbound_ningde.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/outbound_ningde.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 3,
+            "value": "是"
+          },
+          {
+            "row": 3,
+            "col": 3,
+            "value": "否"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/outbound_ningde.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "persona": "Massimo armonizza le operazioni creative e commerciali di uno studio di ceramica a Vietri sul Mare, porta d'accesso alla Costiera Amalfitana. Affronta le sfide logistiche della strada costiera SS163 per la consegna dell'argilla grezza, assicurando che tutti i disegni rispettino i tradizionali motivi dei \"colori vietresi\". La sua routine quotidiana comprende la gestione di ordini personalizzati ad alto volume da parte di interior designer internazionali e l'adattamento dei programmi di produzione ai picchi stagionali del mercato turistico regionale.",
+  "task": "Inserisci nel manuale di produzione la data finale di cottura indicata dal bollettino per il picco turistico estivo nel file ./data/manuale_produzione_ceramiche.docx.",
+  "required_files": [
+    "bollettino_costiera_vietri.txt"
+  ],
+  "output_files": [
+    "data/manuale_produzione_ceramiche.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/manuale_produzione_ceramiche.docx",
+        "keywords": [
+          "Scadenze stagionali",
+          "2026-07-25",
+          "cottura finale"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/manuale_produzione_ceramiche.docx",
+      "change": "modify"
+    }
+  ]
+}

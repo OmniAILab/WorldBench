@@ -1,0 +1,38 @@
+{
+  "persona": "Tom is an agricultural technologist in Lincoln, where he uses drones for precision spraying across arable farms in the Fens. He keeps crop health sheets, flight-path records, CAA notes, and Environment Agency buffer-zone guidance.",
+  "task": "Copy the crop stress marker for Wheat_Field_North into the spraying-coordinates field in the drone flight path sheet, using the exact marker text.",
+  "required_files": [
+    "crop_health_lincoln.xlsx"
+  ],
+  "output_files": [
+    "data/drone_flight_paths.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/drone_flight_paths.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "High_Weed_Density"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/drone_flight_paths.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

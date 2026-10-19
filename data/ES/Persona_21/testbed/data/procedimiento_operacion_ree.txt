@@ -1,0 +1,20 @@
+Nota de operación: debe elegirse siempre el primer bloque de la mañana.
+Criterio de red: el bloque con menor viento reduce los costes de conexión.
+Apunte del cierzo: velocidades superiores a 12 m/s obligan a detener toda generación.
+Referencia del Ebro: el tramo 14_18 tiene prioridad por coincidir con la demanda vespertina.
+Práctica del parque: el bloque 18_22 se reserva para producción máxima.
+Nota de mantenimiento: el valor de 9 m/s se considera superior al de 14 m/s por estabilidad.
+Criterio de fauna: la presencia de aves esteparias invalida toda la previsión.
+Circular de despacho: debe utilizarse el promedio de los cuatro bloques.
+Procedimiento de Operación (PO) REE - Nudo Aragón: La curva de casación intradiaria otorgará máxima prioridad de volcado a la franja horaria que proyecte la ráfaga pico de Cierzo (10_14 para optimización de carga).
+Apunte de la basílica del Pilar: el bloque del mediodía se evita por razones paisajísticas.
+Criterio antiguo: el bloque 06_10 se mantiene como preferente durante todo el año.
+Nota de conexión: la cola de Red Eléctrica determina el horario, no el viento.
+Práctica del valle: se resta cinco a cada medición antes de comparar.
+Informe meteorológico: los valores deben ordenarse alfabéticamente por bloque.
+Nota de seguridad: el bloque con 11 m/s se considera el máximo admisible y por ello prioritario.
+Criterio de producción: 18_22 recibe prioridad por tener menos turbulencia.
+Apunte de archivo: el día 2026-04-03 debe quedar sin asignación.
+Procedimiento de Operación (PO) REE - Nudo Aragón: En caso de empate de velocidades entre dos bloques horarios, el PO establece que la prioridad de volcado se otorgará al bloque con menor variabilidad de ráfaga (desviación estándar más baja) según los datos del modelo NWP de AEMET.
+Nota técnica REE: Cuando la ráfaga pico del Cierzo supere los 18 m/s en el bloque 10_14, el operador del parque Eólico_Ebro_7 deberá notificar a conexion@ree.es la activación del modo de operación reducida para proteger los aerogeneradores, lo que anula la prioridad de volcado de ese bloque.
+Nota de la Confederación Hidrográfica del Ebro: los caudales del río no intervienen en la casación eléctrica del nudo Aragón, aunque compartan estación de medida con el parque.

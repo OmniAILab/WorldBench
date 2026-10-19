@@ -1,0 +1,4 @@
+Loïc : On a une avarie majeure cette nuit sur le phare d'atterrissage : la lampe principale du Créac'h vient de s'éteindre et le feu tourne actuellement sur le dispositif de secours à portée réduite.
+Chef de subdivision : Les petits soucis de ventilation ou d'humidité (INC-412, INC-417) relèvent de notre maintenance interne, mais l'extinction de la lampe principale d'un grand phare d'atterrissage affecte la sécurité maritime dans le rail d'Ouessant.
+Loïc : Tout à fait. Dans le registre, c'est l'incident INC-409 rattaché au site Phare_du_Créac’h (attention à ne pas confondre avec la ligne du Phare_du_Stiff qui porte le même numéro d'enregistrement).
+Chef de subdivision : Envoie tout de suite le message d'alerte opérationnelle au CROSS Corsen (operations@cross-corsen.fr) pour signalement immédiat, avec la référence INC-409, le site Phare_du_Créac’h, la panne Lampe_principale_hors_service et la position 48.459N_5.129W.

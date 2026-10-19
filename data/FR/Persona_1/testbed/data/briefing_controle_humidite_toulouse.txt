@@ -1,0 +1,5 @@
+Responsable installations : Le contrôle d’humidité préalable doit être inscrit le jour même de l’étalonnage sous vide thermique principal, et non à la date de l’essai secondaire du 19 avril.
+Benoît : Sur le planning, l’étalonnage sous vide thermique est fixé au 5 avril 2026. À quelle heure devons-nous faire le relevé ?
+Responsable installations : De 07:30 à 08:00, juste avant la fermeture de porte et la mise sous vide.
+Benoît : Je retiens bien le seuil du caisson sous vide thermique, soit une humidité en dessous de 45 %, sans confondre avec les 40 % du banc optique ni les 47 % du vide partiel ?
+Responsable installations : Exactement. Intitule le créneau « Contrôle humidité — étalonnage vide thermique » et précise dans la description le site de Rangueil ainsi que la consigne « humidité en dessous de 45 % ».

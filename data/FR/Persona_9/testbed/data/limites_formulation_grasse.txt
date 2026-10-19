@@ -1,0 +1,8 @@
+CAHIER INTERNE DE FORMULATION — ATELIER DE COMPOSITION DE GRASSE
+
+Note : Ces plafonds constituent des limites internes de formulation propres au cahier des charges de la maison, distinctes des standards généraux de l’IFRA.
+- Accord lavande fine : plafond interne de l’indicateur d’allergènes fixé à 0,5 %.
+- Accord tubéreuse : plafond interne fixé à 0,7 %.
+- Spécification interne de l’essai Jasmin_24 (dossier Europe) : utiliser un lot d’absolue de jasmin de Grasse dont l’indicateur interne d’allergènes est inférieur ou égal à 0,8 %.
+- Variante export Asie de l’essai Jasmin_24 : plafond interne ramené à 0,5 %.
+- Essai voisin Jasmin_25 : plafond interne fixé à 0,8 %.

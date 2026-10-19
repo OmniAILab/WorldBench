@@ -1,0 +1,39 @@
+{
+  "persona": "Dirk ist Instandhaltungsingenieur am Hauptdepot der Wuppertaler Schwebebahn in Nordrhein-Westfalen und sorgt für die tägliche Sicherheit der ältesten elektrischen Hängebahn der Welt. Er bekämpft die enorme Materialermüdung durch die über der Wupper schwingenden Züge und hält sich an die strengen städtischen Verkehrssicherheitsvorgaben des Eisenbahn-Bundesamts. Er wertet umfangreiche Datensätze zur Ultraschall-Schienenspannung, historische Verschleißmuster der Aufhängungen und anstehende städtische Veranstaltungstermine aus, um gezielt Streckenabschnitte für die nächtliche vorbeugende Verstärkung zu bestimmen.",
+  "task": "Vergleiche die Ultraschall-Stresswerte der Wuppertaler Schwebebahn mit den internen Sicherheitsgrenzen und aktualisiere die Priorität der nächtlichen Verstärkung.",
+  "required_files": [
+    "schwebebahn_messwerte.xlsx",
+    "sicherheitshinweise_schwebebahn.txt"
+  ],
+  "output_files": [
+    "data/sicherheitsmargen.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/sicherheitsmargen.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Höchste_Priorität"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/sicherheitsmargen.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

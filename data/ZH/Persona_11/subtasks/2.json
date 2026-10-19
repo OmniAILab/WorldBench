@@ -1,0 +1,30 @@
+{
+  "persona": "宁是宁德一家电动自行车电池厂的采购文员。她密切关注镍价以安排下单时间，并填写出口电池所需的无穷无尽的回收文件。",
+  "task": "给工厂计划员写一封邮件，建议由于镍价上涨调整排产，并包含已计算出的准确成本。",
+  "required_files": [
+    "planners_ningde.xlsx",
+    "cost_ningde_v2.xlsx",
+    "schedule_note_ningde.txt",
+    "dialogue_ningde_schedule.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "planner@gigafactory.cn",
+        "keywords": [
+          "76800",
+          "排产调整",
+          "宁德新能源电池产线"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_planner_*.eml",
+      "change": "create"
+    }
+  ]
+}

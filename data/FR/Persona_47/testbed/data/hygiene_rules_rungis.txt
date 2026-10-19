@@ -1,0 +1,19 @@
+Pavillon marée : vérifier la glace au sol avant déchargement.
+Pavillon viandes : contrôler les scellés des camions.
+Pavillon fruits : retirer les palettes humides.
+Pavillon légumes : vérifier les bacs de lavage.
+Pavillon volailles : désinfecter les crochets.
+Zone fleurs : séparer les produits phytosanitaires.
+Zone emballages : contrôler les cartons endommagés.
+Pavillon fromages : vérifier les étiquettes de lot.
+Brie_de_Meaux_AOP : mesurer la température à cœur, vérifier l’étiquette AOP et isoler tout colis au-dessus de 6°C.
+Roquefort_AOP : mesurer la température en surface, vérifier l’intégrité de la moisissure bleue et isoler les emballages déchirés.
+Comté_24_mois : sonder la pâte au marteau, vérifier le numéro de meule et écarter toute pièce présentant des fissures profondes.
+Camembert_Normandie : vérifier la date d’emballage, inspecter le couvercle en bois et rejeter les boîtes humides.
+Chèvre_frais : maintenir les bacs fermés.
+Beurre_AOP : vérifier la date de fabrication.
+Crème_fraîche : contrôler les couvercles.
+Morbier : vérifier la bande centrale.
+Reblochon : contrôler le marquage du producteur.
+Munster_AOP : vérifier la croûte lavée, contrôler l’odeur caractéristique et isoler tout colis présentant une moisissure anormale.
+Reblochon_Fermier : mesurer la souplesse à la pression, vérifier l’étiquette de producteur et rejeter les meules fissurées.

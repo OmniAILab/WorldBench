@@ -1,0 +1,31 @@
+{
+  "persona": "Mairi from Inverness works as a Route Manager for the North Coast 500 tourism collective. She coordinates with Highland Council rangers and local estates to manage visitor pressure, dirty camping, single-track roads, passing places, and local concerns during the tourist season. Her role requires balancing visitor access with the everyday realities of local crofters and livestock on narrow roads.",
+  "task": "Schedule the A835 NC500 checkpoint visit with Highland Council rangers on the planned date and include the livestock-delay contingency note in the calendar description.",
+  "required_files": [
+    "checkpoint_plan_nc500.xlsx"
+  ],
+  "output_files": [
+    "data/deliveries_march_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_march_2026.ics",
+        "summary_keywords": [
+          "A835 Checkpoint Visit"
+        ],
+        "description_keywords": [
+          "livestock"
+        ],
+        "date": "2026-03-12"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_march_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "persona": "Marcus is an advanced manufacturing engineer based at the Advanced Manufacturing Park in Sheffield. He keeps production trackers, QA release notes, trial updates, and calendar checkpoints for titanium aerospace component runs.",
+  "task": "Use the Sheffield aviation QA threshold to decide whether titanium batch TI-700 should be released or held, then write the Release decision into the AMP release tracker.",
+  "required_files": [
+    "titanium_batches_sheffield.xlsx",
+    "qa_thresholds_aero.xlsx"
+  ],
+  "output_files": [
+    "data/release_tracker_amp.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/release_tracker_amp.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Release"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/release_tracker_amp.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

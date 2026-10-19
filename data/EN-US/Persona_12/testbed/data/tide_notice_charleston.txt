@@ -1,0 +1,22 @@
+Retrofit board rule: mark drains as Monitor at tide heights of 7.0 ft or below; other cleaning and inspection actions are tracked separately.
+King tide rule: schedule inlet cleaning when tide height reaches 6.6 ft.
+King tide rule: inspect brick catch basins when tide height reaches 6.8 ft.
+King tide rule: photograph standing water when tide height reaches 6.9 ft.
+King tide rule: install backflow if tide height is above 7.0 ft.
+King tide rule: record soil saturation only when tide height is 5.9 ft.
+King tide rule: notify tour carriage operators when streets close for filming.
+King tide rule: sweep leaves from grates after the afternoon thunderstorm.
+King tide rule: reset cones near the French Quarter market entrance.
+King tide rule: keep permeable paver samples outside the meeting room.
+King tide rule: compare rainfall totals before changing the board memo.
+King tide rule: note sandbag pickup times at the city yard.
+King tide rule: use caution tape near uneven colonial-era sidewalks.
+King tide rule: notify the restaurant loading zone about temporary access.
+King tide rule: check sump pumps only after power is restored.
+King tide rule: move historic iron grate samples to the office shelf.
+King tide rule: log sewer odors separately from tide-height triggers.
+King tide rule: inspect low bricks after saltwater recedes.
+Lowcountry context: king tides can push water back up through the drains even without heavy rain.
+Heritage: in the French Quarter, visible materials have to stay compatible with the historic character.
+BAR: the historic iron style is distinct from the modern utility solutions used outside the heritage district.
+Hydrology: Lowcountry soil saturation is tracked separately from tide height.

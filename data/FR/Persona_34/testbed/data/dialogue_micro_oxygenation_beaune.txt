@@ -1,0 +1,5 @@
+Sylvain : On doit finaliser la fiche d'assurance qualité pour la pièce bourguignonne GC-09 fabriquée ici à Beaune.
+Compagnon tonnelier : Dans le registre de suivi, GC-09 est classée en type Grand_Cru avec un élevage long (18 à 24 mois sur lies).
+Sylvain : Attention à ne pas prendre la ligne des chardonnays à élevage court. Pour une barrique de Grand Cru à élevage long, quelle est notre cible d'apport d'oxygène ?
+Compagnon tonnelier : Le référentiel technique de l'atelier fixe un échange cible de 20–30 mg/L par an, accompagné d'un contrôle annuel des fonds et des joints de douelles.
+Sylvain : Parfait, inscris ces données pour GC-09 dans le manuel qualité.

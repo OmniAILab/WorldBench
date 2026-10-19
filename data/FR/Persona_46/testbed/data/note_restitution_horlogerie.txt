@@ -1,0 +1,19 @@
+Les pendules comtoises sont restituées par transport spécialisé.
+La montre école reste à l’atelier pédagogique.
+Le chronographe possède une date différente.
+Le régulateur d’observatoire sera livré séparément.
+Les objets de réserve ne passent pas par l’accueil.
+Le calibre musée n’est pas le calibre BX9.
+La documentation reçoit uniquement les rapports.
+Le service de médiation ne gère pas les restitutions.
+Retenir la date associée au Calibre_Complication_BX9.
+Le destinataire est le service restauration.
+Le message doit mentionner la restitution.
+Aucun coût de transport ne doit être ajouté.
+Le numéro de vitrine n’est pas fourni.
+Les autres objets ne doivent pas être cités.
+La date doit rester au format ISO.
+Le courriel doit être bref.
+La restauration est considérée comme achevée.
+La pendule comtoise de 1790 est restituée le 3 octobre par transport spécialisé.
+Le régulateur d’observatoire sera livré le 12 octobre séparément du calibre BX9.

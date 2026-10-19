@@ -1,0 +1,22 @@
+Dive lead: For this week's transplant, the active nursery sector is Turtle_Canyon.
+Ecologist: So I pull its pH status from the reef monitoring sheet?
+Dive lead: Yes. Do not take Kaimana_Transect even though its pH is lower.
+Ecologist: Nor Sand_Island_Outer, which is also acidic but outside the nursery sector concerned.
+Dive lead: Correct.
+Ecologist: The monitoring runs in the context of the Waikiki Marine Life Conservation District.
+Dive lead: Yes, and operations have to stay compatible with the local permits.
+Ecologist: The pH value is the basis for the viability field in the growth sheet.
+Dive lead: That is the format this sheet uses.
+Ecologist: So I copy the exact status, not just the numeric part.
+Dive lead: Yes.
+Ecologist: The Queens, Ala Wai, and Kewalo sectors are comparators, not the target.
+Dive lead: Correct.
+Ecologist: Swell conditions can shift the dive window, but not the pH reading.
+Dive lead: Correct.
+Ecologist: Local cultural and ecological protocols still apply during the outplanting.
+Dive lead: Yes, but they do not change the value to be entered.
+Ecologist: I am editing Turtle_Canyon only.
+Dive lead: Yes.
+Ecologist: And I leave the other sectors TBC.
+Dive lead: Perfect.
+Ecologist: I will match on the exact sector name.

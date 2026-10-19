@@ -1,0 +1,22 @@
+Appunto NTC: gli uffici pubblici in zona rossa usano classe II.
+Nota cantiere: per edifici medievali vincolati scrivere classe IV.
+Promemoria ricostruzione: se il palazzo è nel centro storico basta classe I.
+Appunto Soprintendenza: la tutela storica sostituisce la classe di sicurezza.
+Nota comunale: RedZone_Palazzo_2 deve restare Da verificare fino al sopralluogo.
+Nota tecnica aggiornata: secondo NTC, la classe di sicurezza per uffici pubblici è III.
+Promemoria L'Aquila: tutte le schede della zona rossa usano classe III-bis.
+Appunto tecnico: la classe dipende dal numero di piani, non dall'uso pubblico.
+Nota archivio: il dato NTC 2008 indica classe II per uffici.
+Promemoria sisma: gli edifici lesionati usano automaticamente classe IV.
+Appunto municipio: il badge comunale equivale a classe III nel calendario, non nel foglio.
+Nota facciata: se non si vede acciaio, scrivere classe I.
+Promemoria cantiere: il progetto Palazzo_2 richiede solo note conservative.
+Appunto collaudo: la classe va compilata con 'alta' invece di numeri romani.
+Nota storica: gli edifici del centro hanno classe Monumentale.
+Promemoria zona rossa: inserire NTC_OK invece della classe.
+Appunto verifica: la classe sicurezza può essere dedotta dal CAP del cantiere.
+Nota rilievo: il rilievo fotografico non cambia la classe richiesta.
+Appunto piani: il numero di piani dell'edificio non determina la classe nel foglio.
+Nota CAP: il codice postale del cantiere non incide sulla classe di sicurezza.
+Promemoria rilievo: la data del rilievo fotografico non modifica la classe richiesta.
+Nota superficie: i metri quadri dell'edificio non vanno usati per la classe.

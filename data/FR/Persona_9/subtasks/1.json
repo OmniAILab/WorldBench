@@ -1,0 +1,33 @@
+{
+  "persona": "Claire est maître parfumeuse à Grasse. Elle compose des concentrés à partir de matières emblématiques telles que le jasmin de Grasse et la rose de mai, contrôle la conformité des lots aux limites internes d’allergènes et coordonne les essais de stabilité avant la mise en production.",
+  "task": "Croise la composition des accords avec le registre de la séance d’évaluation pour identifier l’accord actif exact. Prépare la fiche olfactive de Grasse_06 en reprenant uniquement ses trois matières principales, sans mélanger Grasse_07 ni Grasse_06_bis, et indique qu’il s’agit de la séance principale.",
+  "required_files": [
+    "accords_olfactifs_grasse.txt",
+    "registre_seances_grasse.xlsx"
+  ],
+  "output_files": [
+    "data/fiche_olfactive_grasse06.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/fiche_olfactive_grasse06.docx",
+        "keywords": [
+          "Grasse_06",
+          "jasmin de Grasse",
+          "rose de mai",
+          "bergamote",
+          "séance principale"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/fiche_olfactive_grasse06.docx",
+      "change": "modify"
+    }
+  ]
+}

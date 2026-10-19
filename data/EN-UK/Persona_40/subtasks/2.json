@@ -1,0 +1,38 @@
+{
+  "persona": "Ewan is a senior compliance officer at a financial firm in Edinburgh’s Charlotte Square. He maintains digital asset ledgers, AML risk sheets, board advisory emails, and portfolio residency records.",
+  "task": "Match client EH2-99 in the Edinburgh audit sheet and copy the exact residency status into the portfolio registry.",
+  "required_files": [
+    "audit_edinburgh.xlsx"
+  ],
+  "output_files": [
+    "data/portfolio_registry.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/portfolio_registry.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Scottish Resident"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/portfolio_registry.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

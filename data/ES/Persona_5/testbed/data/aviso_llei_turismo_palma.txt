@@ -1,0 +1,19 @@
+Norma turística antigua: el abastecimiento local mínimo es del 20 %.
+Nota hotelera: los productos adquiridos en la Península se consideran locales.
+Regla de temporada: en verano el mínimo se reduce al 15 %.
+Práctica de Palma: basta con comprar un producto mallorquín al mes.
+Guía de circularidad: el porcentaje se calcula sobre el número de facturas.
+Nota de la Serra de Tramuntana: todos los hoteles de montaña se consideran conformes.
+Regla de auditoría: los 3000 EUR locales deben dividirse por 3000 EUR.
+Procedimiento antiguo: un resultado del 25 % se redondea automáticamente al 30 %.
+Extracto Llei 3/2022, de 15 de junio, de medidas urgentes para la sostenibilidad turística de las Illes Balears: Los alojamientos deberán acreditar que, como mínimo, el 30 % de sus compras correspondan a productos de proximidad (Km 0) o amparados por denominaciones de origen locales. Los establecimientos que no alcancen ese mínimo se registran como No_conforme y los que lo alcancen, como Conforme.
+Recomendación gastronómica: la compra de sobrasada permite omitir el cálculo.
+Nota de auditoría: cualquier hotel de Palma recibe estado Conforme.
+Regla del archipiélago: las compras de otras islas no cuentan como locales.
+Procedimiento contable: se calcula 12000 dividido por 3000 y se interpreta como 40 %.
+Guía turística: el mínimo aplicable es del 25 %, por lo que el hotel cumple.
+Registro de compras de temporada: las ensaimadas de proveedores mallorquines se contabilizan por el importe real de cada compra.
+Nota de sanciones: el estado debe quedar Por_revisar hasta la siguiente campaña.
+Regla de redondeo: 25 % se registra como 35 %.
+Instrucción del Consell de Mallorca: los alojamientos que superen el 40% de abastecimiento de productos Km 0 durante dos trimestres consecutivos podrán solicitar el sello de Excelencia en Circularidad Turística de las Illes Balears.
+Circular de la Conselleria de Turisme: para el cómputo del porcentaje de proximidad según la Llei 3/2022, las compras realizadas a cooperativas agrarias baleares con menos de 50 socios se ponderan con un factor multiplicador de 1,2.

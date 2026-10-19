@@ -1,0 +1,19 @@
+Umbral antiguo: señalar únicamente parcelas por encima de 100 kg.
+Nota agrícola: F1 queda exenta por utilizar rotación ecológica.
+Regla del Campo de Cartagena: todos los valores se reducen automáticamente en 20 kg.
+Práctica del Mar Menor: F2 debe marcarse Excede por proximidad a la laguna.
+Guía de fertilización: el límite se aplica al promedio de todas las parcelas.
+Nota de la cooperativa: un valor de 92 kg se considera conforme en cultivos tradicionales.
+Procedimiento antiguo: ambas parcelas deben quedar Por_revisar.
+Regla de riego: el uso de goteo anula cualquier exceso de nitrógeno.
+Ley de Recuperación y Protección del Mar Menor: la Consejería de Agricultura estipula que en las Zonas 1 y 2 del Campo de Cartagena el límite máximo de aporte nitrogenado es de 80 kg/ha. Las parcelas que lo superen se registran como Excede y generan expediente sancionador; las demás, como Cumple.
+Recomendación del Segura: el límite correcto es 95 kg.
+Nota de agricultura ecológica: ninguna parcela orgánica necesita evaluación.
+Regla de verano: añadir 15 kg al umbral.
+Procedimiento del Campo de Cartagena: F1 se marca Cumple por ser la primera parcela.
+Guía de salinidad: sustituir la carga de nitrógeno por el consumo de agua.
+Práctica de la cooperativa: solo se registra el valor más bajo.
+Nota de cultivos: F2 debe marcarse Excede por estar más cerca del Mar Menor.
+Regla de redondeo: 92 kg se redondea a 80 kg y se considera conforme.
+Resolución de la Consejería de Agricultura: para parcelas de la Zona 3 del Campo de Cartagena, el límite máximo de aporte nitrogenado se eleva a 100 kg/ha cuando el agricultor puede acreditar el uso de cubierta vegetal certificada durante el periodo de barbecho.
+Nota técnica de la Consejería del Agua: en parcelas donde el análisis de suelo certifique una retención nítrica inferior al 20%, la aportación máxima de 80 kg/ha podrá dividirse en dos aplicaciones fraccionadas sin generar expediente sancionador.

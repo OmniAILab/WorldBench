@@ -1,0 +1,30 @@
+{
+  "persona": "Sofia svolge il ruolo di coordinatrice della sicurezza in montagna e guida alpina a Cortina d'Ampezzo, preparando il territorio in vista dei prossimi Giochi Olimpici Invernali. Valuta i rischi di valanga e l'accessibilità dei percorsi nel gruppo delle Tofane, assicurando che tutti i protocolli di sicurezza siano conformi alle specifiche ordinanze di protezione civile della Regione Veneto e alle tutele ambientali di alta quota delle Dolomiti.",
+  "task": "Trasforma la nota dell'ordinanza veneta in un breve copione radio per le pattuglie. Il file ./data/copione_radio_cortina.docx deve contenere esattamente le seguenti diciture: «Pattuglia Cortina», «entro 30 minuti», «Protezione Civile».",
+  "required_files": [
+    "ordinanza_veneto_cortina.txt"
+  ],
+  "output_files": [
+    "data/copione_radio_cortina.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/copione_radio_cortina.docx",
+        "keywords": [
+          "Pattuglia Cortina",
+          "entro 30 minuti",
+          "Protezione Civile"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/copione_radio_cortina.docx",
+      "change": "modify"
+    }
+  ]
+}

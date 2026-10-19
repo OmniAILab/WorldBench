@@ -1,0 +1,8 @@
+Contrats de commandes — manufacture d’Aubusson. Les dimensions indiquées sont celles du carton final approuvé pour chaque commande.
+Commande Galerie_Rive_Gauche : dimensions prévues 360 cm × 220 cm.
+Commande Collection_Limoges : dimensions prévues 420 cm × 240 cm.
+Commande Musée_de_Lyon : dimensions prévues 410 cm × 230 cm.
+Commande Fondation_Atlas : dimensions prévues 380 cm × 250 cm.
+Commande Salon_Aubusson : dimensions prévues 405 cm × 245 cm.
+Commande Ondes d’Aubusson : dimensions finales obligatoires 400 cm × 250 cm.
+Commande Collection_Limoges_Annexe : dimensions prévues 420 cm × 238 cm.

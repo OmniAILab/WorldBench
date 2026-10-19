@@ -1,0 +1,21 @@
+Riferimento marchio Parmesan_Style_AU: etichetta descrittiva con origine dichiarata, priorità_media.
+Riferimento marchio Grana_like_CA: confezione generica senza richiamo al consorzio, priorità_bassa.
+Riferimento marchio Reggiano_Deli_UK: uso in menù interno non destinato alla vendita al dettaglio, priorità_media.
+Report Distributori: Le segnalazioni tedesche in cui il prodotto falso risulta già rimosso fisicamente dagli scaffali non necessitano di iter legali e possono essere derubricate.
+Riferimento marchio Valley_Cheese_US: richiamo alla Pianura Padana assente, priorità_bassa.
+Riferimento marchio Parmesan_Grated_BR: nome comune ma nessun simbolo DOP, priorità_media.
+Ufficio Legale: I casi di contraffazione packaging scoperti in territorio nordamericano vanno immediatamente etichettati a gestionale con codice "priorità_alta" per avviare le diffide legali.
+Riferimento marchio DOP_Imitazione_FR: pratica chiusa dopo rettifica volontaria, priorità_archivio.
+Riferimento marchio Parmisan_US: grafica simile ma prodotto non ancora importato, priorità_media.
+Riferimento marchio Reggio_Style_NZ: origine italiana citata solo in descrizione turistica, priorità_bassa.
+Riferimento marchio Parmesano_MX: scaffale online rimosso dopo avviso informale, priorità_archivio.
+Riferimento marchio Cheese_King_US: slogan generico senza segni consortili, priorità_bassa.
+Riferimento marchio Parmigiana_CA: prodotto vegetale non caseario, priorità_media.
+Riferimento marchio Parma_Wheel_UK: fotografia errata ma nome corretto assente, priorità_media.
+Riferimento marchio Dairy_Po_US: richiamo alla Pianura Padana ma nessun uso di Parmesan, priorità_bassa.
+Riferimento marchio ParmigianoRe_USA: segnalazione duplicata del mese precedente, priorità_archivio.
+Riferimento marchio HardCheese_EU: prodotto conforme con origine DOP verificata, priorità_bassa.
+Riferimento marchio Gran_Sapore_US: dicitura generica su confezione regalo natalizia, priorità_bassa.
+Riferimento marchio Italian_Hard_AU: scheda prodotto incompleta nel portale grossista, priorità_media.
+Riferimento marchio Formaggio_Emilia_JP: confezione locale senza simboli DOP, priorità_bassa.
+Riferimento marchio Po_Valley_Deli_CH: descrizione geografica generica in catalogo, priorità_media.

@@ -1,0 +1,20 @@
+Regla de fondeo: se necesitan al menos cinco detecciones para registrar una infracción.
+Nota de verano: las detecciones de ZLF-1 se consideran ruido de embarcaciones.
+Práctica de Formentera: un único fondeo está permitido junto a una boya.
+Recomendación de vigilancia: solo se marcan infracciones durante la noche.
+Regla antigua: ZLF-2 debe marcarse siempre como Sí por precaución.
+Aviso a patrones de llaüts: comprobar las restricciones de fondeo señaladas sobre las praderas de posidonia de Formentera.
+Consejo acústico: tres detecciones se redondean a cero.
+Protocolo turístico: en agosto se permiten hasta cuatro fondeos.
+Conselleria de Medi Ambient: Tolerancia cero. Si los hidrófonos registran el garreo de un ancla (detecciones > 0), se cursará Infracción (Sí). La ausencia de detecciones se marcará como No.
+Nota de control: la infracción depende del tamaño de la embarcación.
+Regla de cala: solo las detecciones superiores a diez minutos cuentan.
+Práctica del puerto: ZLF-1 se marca No si hay boyas próximas.
+Recomendación de sensores: utilizar el promedio entre ZLF-1 y ZLF-2.
+Regla de temporada baja: ninguna detección se considera infracción.
+Nota ambiental: basta con enviar un aviso sin actualizar el registro.
+Consejo de vigilancia: la ausencia de detecciones debe marcarse Pendiente.
+Protocolo antiguo: las detecciones acústicas no pueden utilizarse como evidencia.
+Conselleria de Medi Ambient: en zonas ZLF donde se registren detecciones repetidas en más de tres jornadas consecutivas, además de la Infracción (Sí), se remitirá un expediente de seguimiento a la Capitanía Marítima para valorar la suspensión temporal del acceso de embarcaciones.
+Nota del servicio de inspección marina: las detecciones de garreo registradas en zonas ZLF durante episodios de viento superior a fuerza 5 deben anotarse con la condición meteorológica para que el instructor del expediente pueda valorar circunstancias atenuantes.
+Parte de vigilancia acústica: aplicar el criterio de tolerancia cero a cada zona según las detecciones de garreo registradas por los hidrófonos.

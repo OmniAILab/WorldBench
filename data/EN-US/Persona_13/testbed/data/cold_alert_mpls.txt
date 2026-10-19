@@ -1,0 +1,22 @@
+Heating note: Zone 1 should remain in normal heat during the lunch commute.
+Heating note: Zone 5 should switch to extended comfort mode for a weekend event.
+Heating note: Zone 8 needs a thermostat battery check before the evening rush.
+Heating note: Zone 2 should stay in normal mode despite the wind advisory.
+Heating note: Zone 6 has a private lobby complaint but no emergency trigger.
+Heating note: sub-zero alert requires Zone 3 to be set to emergency heat.
+Heating note: Zone 4 needs a door-closer repair near the Nicollet connector.
+Heating note: Zone 7 should be monitored because a storefront is propping open doors.
+Heating note: Zone 9 is already warm after boiler service.
+Heating note: Zone 10 needs a filter change, not emergency mode.
+Heating note: Zone 11 has normal temperatures despite heavy foot traffic.
+Heating note: Zone 12 should be checked after security unlocks the bridge.
+Heating note: Zone 13 has a sensor drift that belongs in the maintenance log.
+Heating note: Zone 14 needs a snow-mat reset near the escalator.
+Heating note: Zone 15 is affected by a private building vestibule draft.
+Heating note: Zone 16 should be reviewed after the morning skyway count.
+Heating note: Zone 17 has a frozen floor drain in a side corridor.
+Heating note: Zone 18 is tied to a separate landlord agreement.
+Local context: the Skyway links private buildings whose access rules can differ from block to block.
+Winter: sub-zero spells raise the heating load and the sensitivity to doors left propped open.
+Access: after business hours, a private lobby desk or a security officer can become mandatory.
+Downtown: Nicollet and major events can change pedestrian flow without changing the technical setting.

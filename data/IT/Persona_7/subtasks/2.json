@@ -1,0 +1,31 @@
+{
+  "persona": "Valentina è un'ingegnere civile specializzata in adeguamento sismico presso l'ufficio comunale dell'Aquila. Dirige la valutazione strutturale degli edifici medievali in ricostruzione, assicurando che ogni progetto rispetti le più recenti norme tecniche italiane \"NTC\" e i rigorosi vincoli di tutela storica imposti ai cantieri di ricostruzione della zona rossa della città.",
+  "task": "Aggiungi al calendario di aprile l'appuntamento per il sopralluogo strutturale, usando il titolo e la descrizione indicati nella nota di accesso alla zona rossa. Aggiorna ./data/calendario_aquila_aprile_2026.ics.",
+  "required_files": [
+    "accesso_zona_rossa_aquila.txt"
+  ],
+  "output_files": [
+    "data/calendario_aquila_aprile_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_aquila_aprile_2026.ics",
+        "summary_keywords": [
+          "Sopralluogo strutturale zona rossa"
+        ],
+        "description_keywords": [
+          "badge comunale"
+        ],
+        "date": "2026-04-05"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_aquila_aprile_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

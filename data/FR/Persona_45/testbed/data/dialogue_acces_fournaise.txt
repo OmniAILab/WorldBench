@@ -1,0 +1,4 @@
+Agent : Le bulletin volcanologique entraîne-t-il à lui seul une interdiction réglementaire ?
+Responsable : Non, la restriction d’accès relève de l’arrêté préfectoral applicable ; le bulletin sert à qualifier l’alerte.
+Volcanologue : Le bulletin OVPF-2026-0511-07 est la référence validée pour Enclos_Fouqué_Est.
+Sécurité : Avec l’alerte rouge, le statut à saisir est Fermé.

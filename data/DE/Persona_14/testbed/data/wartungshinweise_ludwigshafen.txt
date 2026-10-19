@@ -1,0 +1,5 @@
+Instandhaltungsbericht — Werk Ludwigshafen
+Anlagenbezeichnung: Kuehlleitung_B (Auftrag #4592).
+Befund: Bei der Inspektion wurden Mikrorisse festgestellt.
+Zuständiges Team: technik@werk-ludwigshafen.de.
+Maßnahme: E-Mail an das technische Einsatzteam senden. Im Text die Anlage "Kuehlleitung_B" und den Befund "Mikrorisse festgestellt" zwingend nennen.

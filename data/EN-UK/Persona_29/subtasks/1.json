@@ -1,0 +1,28 @@
+{
+  "persona": "Priya is a compliance manager at a major retail bank in Leeds city centre. She updates product risk spreadsheets, FCA alert emails, consumer duty manuals, and internal compliance trackers.",
+  "task": "Write an alert email to the audit team for Commercial_Basic accounts, using the FCA directives table and the compliance email template.",
+  "required_files": [
+    "fca_directives.xlsx",
+    "audit_contacts_leeds.xlsx",
+    "email_templates_priya_bank.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "audit@leedsbank.uk",
+        "keywords": [
+          "£10,000_Limit",
+          "Commercial_Basic"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_audit_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+Promemoria ricambi: MV-772 attende un sensore estetico, non Turbo_Line.
+Scheda fornitori: freni@componenti.it riguarda pinze freno, non il componente richiesto.
+Nota produzione: il ritardo MV-770 è già stato chiuso dal magazzino.
+Allerta di Linea: La produzione è bloccata! Il propulsore in catena è fermo in attesa dell'unità turbocompressore. Sollecitare il fornitore specializzato intimando un ripristino scorte in modalità just-in-time.
+Appunto linea: evitare di citare il banco prova se si scrive al fornitore.
+Registro Motor Valley: TurboParts gestisce linee turbo e consegne urgenti.
+Promemoria turno: la richiesta per MV-773 è ordinaria e non just-in-time.
+Nota magazzino: il codice Turbo_Line non va sostituito con Linea_Turbo.
+Scheda contatti: acquisti@fabbrica.it è interno e non riceve email fornitore.
+Nota logistica: non citare il cliente finale del veicolo.
+Appunto qualità: lo stato Rilavorazione non basta senza componente mancante.
+Promemoria consegne: usare il contatto logistico del fornitore, non quello amministrativo.
+Nota officina: la ruota fonica non è il pezzo indicato dal foglio ritardi.
+Registro precedente: MV-771 aveva anche un controllo coppia, ma qui serve la consegna componenti.
+Appunto magazzino: non allegare listini prezzi nella email.
+Nota turno notte: mantenere il messaggio breve e operativo.
+Promemoria ricambi: la scorta standard non copre Turbo_Line.
+Promemoria contatti: amministrazione@turboparts.it gestisce le fatture, non gli ordini di linea.
+Scheda magazzino: l'inventario dei bulloni di scorta è logistico e non riguarda il componente in attesa.
+Nota Motor Valley: la consegna dei cataloghi tecnici per il museo non riguarda la linea Turbo_Line.
+Promemoria fornitori: il corriere delle minuterie di carrozzeria usa un canale logistico distinto da TurboParts.

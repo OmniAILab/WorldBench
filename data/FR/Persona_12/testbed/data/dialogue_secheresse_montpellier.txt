@@ -1,0 +1,8 @@
+Julien : Tropisme_S1 est-il rattaché à la zone littorale pour cette campagne ?
+Sophie : Non. Le déploiement actif relève de l’alerte sécheresse générale de l’Hérault.
+Julien : J’utilise donc le plafond de 30 minutes et non les 28 minutes de la zone littorale.
+Sophie : Exact.
+Marc : La valeur de 35 minutes correspond seulement à la vigilance simple.
+Sophie : Oui, elle n’est pas applicable aujourd’hui.
+Julien : Après modification, j’inscris « Alerte appliquée » dans le statut.
+Sophie : C’est la validation attendue.

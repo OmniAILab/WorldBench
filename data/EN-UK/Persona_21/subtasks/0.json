@@ -1,0 +1,38 @@
+{
+  "persona": "Isla is a decommissioning engineer based in Aberdeen. She keeps practical spreadsheets for North Sea infrastructure, vessel planning, exclusion zones, and weather-related calendar holds.",
+  "task": "Use the North Sea legacy infrastructure sheet to copy the cutting depth for Platform_Bravo_Legs into the matching mobilisation-status field in the vessel capacity sheet.",
+  "required_files": [
+    "legacy_infrastructure.xlsx"
+  ],
+  "output_files": [
+    "data/vessel_capacities.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/vessel_capacities.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "150_Meters"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/vessel_capacities.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

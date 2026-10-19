@@ -1,0 +1,24 @@
+Appunto bollettino: rischio Alto equivale a Prudenza se il percorso è panoramico.
+Nota Faloria: rischio Moderato equivale a Aperto.
+Promemoria Misurina: rischio Basso va scritto come Chiuso.
+Appunto Olimpiadi: tutte le rotte delle Tofane restano aperte per prove tecniche.
+Nota neve: se il rifugio è rifornito, il percorso può risultare Aperto.
+Regola pubblica aggiornata: rischio Alto equivale a Chiuso.
+Regola pubblica aggiornata: rischio Moderato equivale a Prudenza.
+Non aggiornare percorsi tecnici interni nel pannello pubblico.
+Promemoria pubblico: usare colori invece di parole nel foglio di stato.
+Appunto pattuglia: non aggiornare Cresta_Tofane perché è troppo tecnica.
+Nota Dolomiti: Canalone_vecchio deve essere aggiunto al pannello pubblico.
+Promemoria valanghe: rischio Alto equivale a Sorvegliato.
+Appunto piste: Pista_servizio va pubblicata come Prudenza.
+Nota parcheggio: il parcheggio pieno richiede Chiuso per Sentiero_Faloria.
+Promemoria radio: la batteria scarica della pattuglia determina lo stato dei percorsi.
+Appunto Veneto: le ordinanze non cambiano i termini pubblici.
+Nota meteo: la nebbia trasforma Moderato in Chiuso.
+Promemoria cartelli: usare Attenzione per tutte le righe.
+Appunto guida: solo i percorsi con nome inglese vanno aggiornati.
+Nota rifugio: la consegna del pane non modifica il rischio.
+Appunto orario: l'ora di emissione del bollettino non cambia lo stato del percorso.
+Nota quota: l'altitudine del sentiero non incide sulla pubblicazione dello stato.
+Promemoria lunghezza: la lunghezza del percorso non va riportata nel pannello pubblico.
+Nota pattuglia: il numero di addetti in servizio non determina lo stato del percorso.

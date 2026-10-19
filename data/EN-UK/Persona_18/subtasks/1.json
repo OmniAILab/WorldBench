@@ -1,0 +1,27 @@
+{
+  "persona": "Benedict is a rare books conservator at the Bodleian Library in Oxford. He keeps exhibition logs, handling notes, climate-control records, and transport emails for manuscripts and early printed books.",
+  "task": "Write a short coordination email to the Bodleian exhibition curators, using the correct curator contact and stating the vehicle availability date for Michaelmas_Week_1 exactly.",
+  "required_files": [
+    "academic_logistics.xlsx",
+    "curator_contacts_oxford.xlsx",
+    "email_templates_bodleian.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "curators@bodleian.ox.ac.uk",
+        "keywords": [
+          "Transport available on 2026-10-05"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_curators_*.eml",
+      "change": "create"
+    }
+  ]
+}

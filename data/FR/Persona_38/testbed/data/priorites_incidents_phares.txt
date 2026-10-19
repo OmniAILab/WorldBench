@@ -1,0 +1,14 @@
+Protocole d'escalade entre la maintenance courante (subdivision des Phares et Balises) et les alertes opérationnelles de sécurité de la navigation (CROSS Corsen pour émission d'AVURNAV) :
+Batterie secondaire faible : maintenance interne Phares et Balises.
+Rotation lente : maintenance programmée.
+Condensation optique : inspection locale.
+Feu interrompu sur bouée : avis nautique.
+Capteur vent hors service : suivi technique interne.
+Lampe secours instable : maintenance prioritaire Phares et Balises.
+Antenne secondaire faible : contrôle radio.
+Alarme porte : contrôle sûreté interne.
+Lampe principale hors service sur phare d'atterrissage actif : signalement immédiat au CROSS Corsen (diffusion d'information urgente aux navigateurs sur le dispositif de séparation du trafic d'Ouessant).
+Moteur bruyant : inspection mécanique.
+Humidité local technique : maintenance bâtiment.
+Ventilation encrassée : nettoyage courant.
+Lampe principale défaillante sur feu secondaire en essai : maintenance locale.

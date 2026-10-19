@@ -1,0 +1,20 @@
+LMA-45 already has BC-778.
+LMA-46 already has BC-779.
+LMA-47 already has BC-780.
+LMA-48 already has BC-781.
+LMA-44 is the sample whose barcode is missing from the main tracking sheet.
+For LMA-44, use BC-553 from the lookup table.
+LMA-49 already has BC-782.
+LMA-50 already has BC-783.
+LMA-51 already has BC-784.
+BC-535 belongs to an old print test and must not be used.
+LMA-54 has BC-787 and is not missing a code.
+Boston: Longwood Medical Area couriers must not hand-write a barcode.
+Boston: the freezer log is separate from the sample registry.
+Boston: hospital shuttle delays do not change the code.
+Boston: resolve the entry through the lookup table only.
+Boston: do not modify the sample identifier.
+Boston: keep the BC prefix.
+Boston: the multi-site registry must match the lookup.
+Instruction: update LMA-44 only.
+Instruction: do not copy a neighboring code by row position.

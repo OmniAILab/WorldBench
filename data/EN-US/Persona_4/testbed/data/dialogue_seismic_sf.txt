@@ -1,0 +1,20 @@
+Caleb: I am looking for a seismic failure, not routine maintenance.
+Field engineer: SF-SS-4 is the only row with Pass = No.
+Caleb: But SF-SS-10 has work scheduled.
+Field engineer: Yes, though its seismic check passed.
+Caleb: And SF-SS-12 has corrosion.
+Field engineer: That is a maintenance item, not a checklist failure.
+Caleb: So the Sunset fog has no bearing here.
+Field engineer: None.
+Caleb: The tracker status has to be Blocked.
+Field engineer: For SF-SS-4 only.
+Caleb: I am not blocking the Pass = Yes rows.
+Field engineer: Correct.
+Caleb: The Bay Area drill is on another calendar.
+Field engineer: Yes.
+Caleb: A Bay Bridge delay can hold up the crew, not change the status.
+Field engineer: Exactly.
+Caleb: I am keeping the identifier exact.
+Field engineer: That matters for the CPUC file.
+Caleb: I am editing only the target cell.
+Field engineer: Perfect.

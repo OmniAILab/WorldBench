@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Oficina de Tapetes de Arraiolos//Agenda de Produção e Qualidade//PT
+BEGIN:VEVENT
+UID:arr-oficina-20260909-0830@tapetes-arraiolos.pt
+DTSTAMP:20260901T080000Z
+DTSTART;TZID=Europe/Lisbon:20260909T083000
+DTEND;TZID=Europe/Lisbon:20260909T093000
+SUMMARY:Distribuição de meadas e matrizes por quadrante
+DESCRIPTION:Entrega dos lotes de lã tingida e conferência das folhas de quadrante com as bordadeiras.
+END:VEVENT
+BEGIN:VEVENT
+UID:arr-oficina-20260909-1100@tapetes-arraiolos.pt
+DTSTAMP:20260901T080000Z
+DTSTART;TZID=Europe/Lisbon:20260909T110000
+DTEND;TZID=Europe/Lisbon:20260909T120000
+SUMMARY:Conferência de tensão da tela de juta
+DESCRIPTION:Verificação da preparação das telas antes do início dos motivos centrais.
+END:VEVENT
+BEGIN:VEVENT
+UID:arr-oficina-20260909-1500@tapetes-arraiolos.pt
+DTSTAMP:20260901T080000Z
+DTSTART;TZID=Europe/Lisbon:20260909T150000
+DTEND;TZID=Europe/Lisbon:20260909T160000
+SUMMARY:Revisão de encomendas e acabamento de franjas
+DESCRIPTION:Inspeção das peças prontas para entrega na exposição de setembro.
+END:VEVENT
+BEGIN:VEVENT
+UID:arr-oficina-20260910-0745@tapetes-arraiolos.pt
+DTSTAMP:20260901T080000Z
+DTSTART;TZID=Europe/Lisbon:20260910T074500
+DTEND;TZID=Europe/Lisbon:20260910T081500
+SUMMARY:Revisão do ponto de contorno
+DESCRIPTION:Avaliação técnica das bordaduras antes da inspeção principal do ponto de Arraiolos.
+END:VEVENT
+BEGIN:VEVENT
+UID:arr-oficina-20260911-0930@tapetes-arraiolos.pt
+DTSTAMP:20260901T080000Z
+DTSTART;TZID=Europe/Lisbon:20260911T093000
+DTEND;TZID=Europe/Lisbon:20260911T100000
+SUMMARY:Controlo de lotes da tinturaria
+DESCRIPTION:Verificação de uniformidade de cor nos fios carmesim e índigo.
+END:VEVENT
+END:VCALENDAR

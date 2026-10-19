@@ -1,0 +1,5 @@
+Sylvain : On passe au brasero les pièces issues du lot de merrains Tronçais_Oak_9. Tu as contrôlé l'hygrométrie des douelles après séchage sur parc ?
+Compagnon tonnelier : Oui, le lot est mesuré à 14%_Ready. Dans le carnet de commandes, ces fûts sont réservés pour un élevage de Grand_Cru (Commande_active).
+Sylvain : Très bien. Pour du chêne de Tronçais à grain fin stabilisé à 14 % et destiné à un Grand_Cru, notre recette maison prévoit une chauffe douce et pénétrante.
+Compagnon tonnelier : La fiche d'atelier indique exactement « Chauffe_Moyenne_45_min ».
+Sylvain : Note bien Chauffe_Moyenne_45_min, 14%_Ready et Grand_Cru sur la ligne de Tronçais_Oak_9.

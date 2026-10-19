@@ -1,0 +1,5 @@
+Befahrbarkeitsbericht Biosphärenreservat Spreewald
+Messdatum: 14. August 2026
+Hydrologische Bewertung: Der drastisch gefallene Spreepegel führt in mehreren Sektoren zu Befahrbarkeitsbeschränkungen.
+Anweisung für den Lehde_Hauptkanal: Aufgrund der aktuellen Pegeldaten ist für den Lehde_Hauptkanal der Routenstatus zwingend auf Niedrigwasser_unpassierbar zu setzen.
+Interner Vermerk Renaturierung: Der in unseren Plänen als "Gurkenradweg_Wasserarm" bezeichnete Fließ (interner Abschnittsname für den uferparallelen Abzugsgraben) wird im Anschluss an die Hochsaison routinemäßig auf den Zustand Saisonpause gesetzt, um Trittschäden im Uferbereich zu vermeiden und die Erlenvegetation zu schützen.

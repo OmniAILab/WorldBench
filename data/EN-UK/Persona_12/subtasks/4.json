@@ -1,0 +1,32 @@
+{
+  "persona": "Julian is a Bristol-based heritage conservation consultant working on Grade II listed warehouses and Victorian merchant houses in Clifton and Redcliffe. He maintains survey trackers, impact assessments, material requests, and calendar notes for conservation projects.",
+  "task": "Add a Clifton photographic survey session to the March calendar and include the Bristol climate-emergency wording about low-impact interventions in the event description.",
+  "required_files": [
+    "climate_note_bristol.txt"
+  ],
+  "output_files": [
+    "data/deliveries_march_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_march_2026.ics",
+        "summary_keywords": [
+          "Clifton Photo Survey"
+        ],
+        "description_keywords": [
+          "low-impact interventions"
+        ],
+        "time_start": "2026-03-13 11:00:00",
+        "time_end": "2026-03-13 12:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_march_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

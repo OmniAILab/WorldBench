@@ -1,0 +1,20 @@
+Chef: Today's sheet is for West Loop Bistro.
+Elena: I see several restaurants in the note.
+Chef: Do not take the Fulton Market Bar order.
+Elena: That one has chuck roll, flat iron, Denver steak.
+Chef: Right, that is not us.
+Elena: For West Loop Bistro: ribeye first.
+Chef: Yes.
+Elena: Then short ribs.
+Chef: Yes.
+Elena: Then marrow bones.
+Chef: In that order.
+Elena: The old order with brisket is archived.
+Chef: Do not use it.
+Elena: I am not adding oxtail.
+Chef: No.
+Elena: Or skirt steak.
+Chef: Not that either.
+Elena: The sheet stays compact for the butcher block.
+Chef: Perfect.
+Elena: I am keeping the cut names as they are.

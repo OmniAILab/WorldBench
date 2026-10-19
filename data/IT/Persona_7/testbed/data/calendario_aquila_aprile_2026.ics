@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Italian Agent Benchmark//Calendario Aquila//IT
+BEGIN:VEVENT
+UID:riunione-comune-1@local.test
+DTSTART:20260404T100000
+DTEND:20260404T110000
+SUMMARY:Riunione ufficio ricostruzione
+DESCRIPTION:Aggiornare elenco pratiche.
+END:VEVENT
+END:VCALENDAR

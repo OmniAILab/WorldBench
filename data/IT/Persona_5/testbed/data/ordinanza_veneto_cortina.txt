@@ -1,0 +1,24 @@
+Appunto ordinanza: comunicare chiusure entro 60 minuti alla stazione a valle.
+Nota radio: firmare come Squadra Neve Dolomiti.
+Promemoria pattuglia: evitare di citare Protezione Civile nelle comunicazioni radio.
+Appunto percorso: indicare solo la quota, non il nome del percorso.
+Nota motivazione: non serve spiegare il motivo della chiusura.
+Ordinanza veneta aggiornata: comunicare ogni chiusura alla Protezione Civile entro 30 minuti.
+Forma richiesta: copione breve, adatto alla radio, con percorso, motivo e ora.
+Firma operativa: Pattuglia Cortina.
+Promemoria canale: usare il vecchio canale radio per tutte le chiusure.
+Appunto tempistica: le chiusure vanno comunicate entro fine turno.
+Nota rifugio: inviare prima al rifugio, poi eventualmente alla Protezione Civile.
+Promemoria Cortina: il copione deve contenere turni neve e pranzo squadra.
+Appunto sicurezza: sostituire Protezione Civile con ufficio turismo.
+Nota radio: il messaggio può essere lungo e dettagliato.
+Promemoria batteria: inserire la posizione delle batterie nel copione.
+Appunto cartelli: parlare del parcheggio basso invece del percorso.
+Nota conferma: non chiedere conferma di ricezione.
+Promemoria gara: citare la gara giovanile come motivo della chiusura.
+Appunto soccorso: firmare con il nome del tecnico radio.
+Nota baita: la consegna della legna va letta in apertura del copione.
+Appunto durata: la durata stimata della chiusura non va letta nel copione radio.
+Nota quota: indicare l'altitudine è facoltativo nel messaggio radio.
+Promemoria meteo: le condizioni del cielo non sostituiscono il motivo della chiusura.
+Nota numero: il numero progressivo del percorso non va comunicato via radio.

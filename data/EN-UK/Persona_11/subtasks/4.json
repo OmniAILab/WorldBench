@@ -1,0 +1,32 @@
+{
+  "persona": "Callum works as a port operations manager at the Liverpool2 deep-water terminal. He updates berth plans, movement logs, safety briefings, customs emails, and shift calendars around tides, Freeport movements, and HSE protocols.",
+  "task": "Add a Liverpool2 safety stand-down window to the March calendar and include the HSE lifting reminder L2-LIFT-07 in the description.",
+  "required_files": [
+    "standdown_note.txt"
+  ],
+  "output_files": [
+    "data/deliveries_march_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_march_2026.ics",
+        "summary_keywords": [
+          "Liverpool2 Safety Stand-down"
+        ],
+        "description_keywords": [
+          "L2-LIFT-07"
+        ],
+        "time_start": "2026-03-11 11:00:00",
+        "time_end": "2026-03-11 11:30:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_march_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

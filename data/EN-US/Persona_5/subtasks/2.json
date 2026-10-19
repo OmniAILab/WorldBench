@@ -1,0 +1,30 @@
+{
+  "persona": "Siobhan is a clinical trials liaison in Boston, Massachusetts, operating within the Longwood Medical Area to synchronize research data across several world-renowned teaching hospitals. She manages the rigorous documentation standards of the Massachusetts Department of Public Health and the institutional review board protocols for multi-site studies, ensuring that participant records and biological sample tracking remain consistent across diverse institutional databases and federal privacy frameworks.",
+  "task": "Write an email to the IRB coordinator requesting confirmation of the multi-site amendment and include the study code from the tracker.",
+  "required_files": [
+    "irb_contacts_boston.xlsx",
+    "studies_boston.xlsx",
+    "amendment_notes_boston.txt",
+    "email_template_irb_boston.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "irb@longwood.edu",
+        "keywords": [
+          "MSO-12",
+          "amendment",
+          "confirmation"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_irb_*.eml",
+      "change": "create"
+    }
+  ]
+}

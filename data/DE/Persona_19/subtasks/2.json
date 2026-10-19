@@ -1,0 +1,29 @@
+{
+  "persona": "Sven ist Lotse an den Holtenau-Schleusen in Kiel und führt riesige Containerschiffe durch die meistbefahrene künstliche Wasserstraße der Welt, den Nord-Ostsee-Kanal. Er bewältigt die schweren winterlichen Nebelbänke der Ostsee und die strengen Vorgaben des Emissionskontrollgebiets, die das Bundesamt für Seeschifffahrt und Hydrographie (BSH) vorschreibt. Er gleicht fortlaufend Echtzeit-Sichtmeldungen, den Tiefgang einlaufender Schiffe und die wechselnden Verfügbarkeiten der Schleusentore ab, um sichere Passiermanöver an den vorgesehenen Ausweichstellen des Kanals zu koordinieren.",
+  "task": "Übertrage den verbindlichen Schwefelgrenzwert des ECA-Gebiets in die Lotseneinweisung für den Nord-Ostsee-Kanal.",
+  "required_files": [
+    "bsh_vorgabe.txt"
+  ],
+  "output_files": [
+    "data/lotsen_briefing.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/lotsen_briefing.docx",
+        "keywords": [
+          "Nord-Ostsee-Kanal",
+          "Schwefelgrenzwert im ECA-Gebiet: 0,10 % m/m"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/lotsen_briefing.docx",
+      "change": "modify"
+    }
+  ]
+}

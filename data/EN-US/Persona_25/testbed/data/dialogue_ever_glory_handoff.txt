@@ -1,0 +1,25 @@
+Day planner: Which vessel is the active discharge-to-rail handoff for the Newark terminal this shift?
+Rail coordinator: Ever_Glory. The others with similar Ever names are on separate berth plans.
+Day planner: I saw Ever_Grace and Ever_Globe in the manifest too.
+Day planner: Should I use the discharge figure exactly as it appears in the terminal manifest?
+Rail coordinator: Yes. Do not estimate from crane moves or yard density.
+Day planner: The ExpressRail desk mentioned congestion near the Port Newark-Elizabeth complex.
+Rail coordinator: That affects timing, not the manifest value.
+Day planner: The Kill Van Kull traffic window also came up in the morning call.
+Rail coordinator: Same point. Vessel traffic does not change the recorded discharge figure.
+Day planner: One clerk suggested using the highest volume vessel on the sheet.
+Rail coordinator: Do not do that. Match the exact vessel name.
+Day planner: Bayonne_Star is higher volume, so that would be a bad shortcut.
+Rail coordinator: Correct.
+Day planner: The rail workbook should only be updated on the Ever_Glory row?
+Rail coordinator: Yes, leave the other TBC rows unchanged.
+Day planner: The overnight report used a draft estimate from the previous call.
+Rail coordinator: Ignore draft estimates. The current manifest is authoritative.
+Day planner: There is also an Elizabeth overflow move later today.
+Rail coordinator: Separate move, separate record.
+Day planner: I will preserve the manifest formatting exactly.
+Rail coordinator: Good. The receiving team reconciles those strings literally.
+Day planner: No conversion to a different rail unit?
+Rail coordinator: Use the matching value requested by the schedule field.
+Day planner: Understood. Exact vessel match, current manifest, one-row update.
+Rail coordinator: Exactly.

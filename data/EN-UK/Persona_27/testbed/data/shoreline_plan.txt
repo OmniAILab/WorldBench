@@ -1,0 +1,16 @@
+Bench repair note: promenade seating faults are tracked by facilities.	Promenade storm-watch note	Constitution Hill access check
+Wave overtopping note: sandbags may be deployed when access steps flood.	Ceredigion coastal liaison	North Beach maintenance round
+Inspection note: hairline cracks should be photographed but not treated as an emergency.	Aberystwyth harbour inspection	Clarach Bay monitoring
+Drainage note: blocked gullies are handled by highways.	Promenade storm-watch note	Constitution Hill access check
+Shingle note: beach re-profiling is reviewed after spring tides.	Ceredigion coastal liaison	North Beach maintenance round
+Emergency trigger: 5cm of concrete loss per month.	Aberystwyth harbour inspection	Clarach Bay monitoring
+Railings note: repainting does not trigger emergency escalation.	Promenade storm-watch note	Constitution Hill access check
+Storm log note: wind direction should be recorded with each incident.	Ceredigion coastal liaison	North Beach maintenance round
+Harbour note: marina wall defects use a separate harbour form.	Aberystwyth harbour inspection	Clarach Bay monitoring
+Cliff path note: fencing requests go to the access officer.	Promenade storm-watch note	Constitution Hill access check
+Public notice note: warning signs are printed by the communications team.	Ceredigion coastal liaison	North Beach maintenance round
+Survey note: seasonal movement below 1cm remains routine monitoring.	Aberystwyth harbour inspection	Clarach Bay monitoring
+Final instruction: insert only the emergency trigger under erosion response guidance.	Promenade storm-watch note	Constitution Hill access check
+Monitoring note: 2cm of concrete loss per month remains routine.	Ceredigion coastal liaison	North Beach maintenance round
+Archive note: a withdrawn plan set the trigger at 8cm per month.	Aberystwyth harbour inspection	Clarach Bay monitoring
+Railings note: 5cm of paint loss is cosmetic only.	Promenade storm-watch note	Constitution Hill access check

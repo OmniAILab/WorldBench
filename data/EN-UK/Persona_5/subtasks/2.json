@@ -1,0 +1,31 @@
+{
+  "persona": "Fiona from St Andrews is a Greenkeeper at the Links Trust, responsible for the condition of the Old Course. She manages irrigation, coastal dune protection, and event preparation while keeping within Scottish Environment Protection Agency water-usage limits.",
+  "task": "Add an Old Course maintenance blackout reminder for the Alfred Dunhill Links Championship to the October calendar, using the exact restricted-maintenance-access wording from the St Andrews lockdown note.",
+  "required_files": [
+    "lockdown_wording_standrews.txt"
+  ],
+  "output_files": [
+    "data/deliveries_october_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_october_2026.ics",
+        "summary_keywords": [
+          "Old Course Maintenance Blackout"
+        ],
+        "description_keywords": [
+          "restricted maintenance access"
+        ],
+        "date": "2026-10-03"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_october_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

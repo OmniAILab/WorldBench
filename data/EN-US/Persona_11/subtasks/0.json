@@ -1,0 +1,40 @@
+{
+  "persona": "Kenji is a coastal erosion analyst in Honolulu, Hawaii, working to protect the infrastructure along the North Shore of Oahu from rising sea levels. He must align his shoreline protection designs with the Hawaii Coastal Zone Management Program and the specific permitting requirements of the Department of Land and Natural Resources, documenting wave energy patterns and sand movement to ensure that all mitigation efforts respect the sensitive ecological and cultural heritage of the beachfront.",
+  "task": "Use the wave energy table to identify the highest-risk shoreline segment and update the permit priority list in the spreadsheet.",
+  "required_files": [
+    "wave_priority_note_hawaii.txt",
+    "wave_hawaii.xlsx",
+    "briefing_shoreline_oahu.txt"
+  ],
+  "output_files": [
+    "data/permit_priority.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/permit_priority.xlsx",
+        "matches": [
+          {
+            "row": 7,
+            "col": 2,
+            "value": "High"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/permit_priority.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 7,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

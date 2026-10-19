@@ -1,0 +1,28 @@
+{
+  "persona": "Elena ist Analystin für Lieferketten in der Automobilindustrie und arbeitet im industriellen Zentrum von Stuttgart. Sie sorgt dafür, dass Hochvolt-Batteriekomponenten ohne Unterbrechung an die regionalen Montagelinien für Elektrofahrzeuge geliefert werden. Sie bewältigt die logistischen Albträume, die durch häufige Sperrungen im Bundesfernstraßennetz entstehen, und die strengen Emissionsgrenzen, die das Land Baden-Württemberg dem Schwerlastverkehr setzt. Sie bringt Produktionspläne der Zulieferer, aktuelle Verkehrsstörungsmeldungen und Emissionswerte der Fuhrparks laufend zusammen, um Just-in-time-Sequenzen ohne Bußgelder aufrechtzuerhalten.",
+  "task": "Schreibe eine E-Mail an den Logistikdienstleister und nenne das betroffene Schwerlastfahrzeug sowie die gemessene Grenzwertüberschreitung im Realbetrieb.",
+  "required_files": [
+    "flottenbericht_stuttgart.xlsx",
+    "dienstleister_kontakte_stuttgart.xlsx",
+    "emissionshinweise_stuttgart.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "compliance@spedition-stuttgart.de",
+        "keywords": [
+          "HG_Transport_04",
+          "NOx-Grenzwert überschritten"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_compliance_*.eml",
+      "change": "create"
+    }
+  ]
+}

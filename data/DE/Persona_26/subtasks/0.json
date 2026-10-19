@@ -1,0 +1,39 @@
+{
+  "persona": "Valentin ist römischer Archäologe und im städtischen Denkmalamt Trier tätig, wo er Notgrabungen betreut, die durch moderne unterirdische Infrastrukturmaßnahmen nahe der Porta Nigra ausgelöst werden. Er steht zwischen dem extremen Zeitdruck kommerzieller Bauverzögerungen und den strengen Vorgaben der Generaldirektion Kulturelles Erbe Rheinland-Pfalz für den Umgang mit Fundstücken. Er gleicht wechselnde Bodenradar-Anomalien, umfangreiche historische römische Stadtpläne und aktuelle Leitungsnetzpläne ab, um die Grabungsteams präzise um wertvolle Mosaike herumzuführen, ohne das moderne Glasfasernetz der Stadt zu beschädigen.",
+  "task": "Vergleiche die Bodenradar-Anomalie östlich der Porta Nigra mit dem Leitungsplan und aktualisiere die Sicherheitsfreigabe der Notgrabung.",
+  "required_files": [
+    "bodenradar_trier.xlsx",
+    "grabungshinweise_trier.txt"
+  ],
+  "output_files": [
+    "data/leitungsplan.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/leitungsplan.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Archäologische_Begleitung_erforderlich"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/leitungsplan.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

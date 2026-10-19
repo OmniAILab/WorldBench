@@ -1,0 +1,19 @@
+Promemoria contatti: il laboratorio degustazioni usa degustazioni@albalab.it, ma non gestisce profili export.
+Nota campione: Barolo_Cru_2 deve essere analizzato il 2026-09-21, non è la parcella richiesta.
+Appunto export: il test fenolico interno non sostituisce il profilo_export.
+Promemoria cantina: inviare a magazzino@azienda.it solo richieste di cassette.
+Nota consorzio: la data 2026-10-10 riguarda il termine finestra, non il campione da inviare.
+Procedura export: I campioni destinati al mercato extra-UE vanno spediti ad Alba Lab; allegare sempre il nome catastale del cru e la data presunta di raccolta per poter calibrare correttamente l'ossidazione fenolica.
+Aggiornamento logistico: I trattori per il Nebbiolo_Test_2 sono confermati per il giorno 18, assicuratevi che i mastelli di raccolta siano igienizzati.
+Promemoria laboratorio: storico@torinolab.it è un contatto storico non attivo per Alba.
+Nota meteo: la grandine del 2026-09-16 non va citata se non riguarda il campione.
+Appunto export: non richiedere certificati doganali nella prima email al laboratorio.
+Promemoria cantina: il campione di prova si chiama Nebbiolo_Test_2.
+Nota archivio: il file vendemmia 2025 indica 2025-09-18, non usare quella data.
+Appunto referente: il laboratorio di Asti non segue questa azienda.
+Promemoria tecnico: il test di acidità volatile è separato dal profilo export richiesto.
+Nota trasporto: il corriere passa da Alba alle 11:00, ma non serve nella email.
+Appunto ospiti: la visita a Barolo non va inserita nella richiesta di analisi.
+Promemoria cantina: non confondere la data di raccolta con la data di consegna del campione.
+Promemoria contatti: spedizioni@albalab.it gestisce solo i ritiri dei colli, non le richieste analitiche.
+Appunto laboratorio: il test polifenolico ha tempi di refertazione più lunghi e non va sollecitato in questa comunicazione.

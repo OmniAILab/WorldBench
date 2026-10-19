@@ -1,0 +1,30 @@
+{
+  "persona": "Lucía es técnica aeroespacial en el Parque Tecnológico Aeroespacial de Andalucía, en Sevilla, y trabaja en la línea de montaje final de aviones militares de transporte. Comprueba que cada componente cumpla los estándares de seguridad de la Agencia Europea de Seguridad Aérea (EASA) y los protocolos de contratación del Ministerio de Defensa. Su trabajo consiste en vigilar los registros de calibración de precisión y encajar los retrasos de suministro con los hitos de entrega de la planta.",
+  "task": "Incorpora al documento del hito de entrega del programa aeroespacial de Sevilla el requisito vigente del Ministerio de Defensa.",
+  "required_files": [
+    "clausula_dgam_sevilla.txt"
+  ],
+  "output_files": [
+    "data/documento_hito.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/documento_hito.docx",
+        "keywords": [
+          "Aeronaves de transporte",
+          "declaración de conformidad",
+          "cada envío"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/documento_hito.docx",
+      "change": "modify"
+    }
+  ]
+}

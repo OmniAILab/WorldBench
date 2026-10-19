@@ -1,0 +1,5 @@
+Betriebsprotokoll Messwarte — Ludwigshafen
+Aktueller Sensordatenabgleich: Der Sensor im Bereich Rhein_Lager_9 meldet eine Druckspitze von 15 bar.
+Abgleichregel: Dieser Wert überschreitet den anlagenspezifischen Auslegungsgrenzwert.
+Zielwert für die Dokumentation: 15 bar – kritisch (in der Tabelle als "15_bar_kritisch" hinterlegen).
+Kühlwassertemperatur-Hinweis: In Sommerwochen mit Rheinpegelabfall unter 2,0 m wurden in den BASF-Südtanks wiederholt Druckspitzen zwischen 10 und 12 bar gemessen, die werksintern als erhöhter Normalzustand geführt werden.

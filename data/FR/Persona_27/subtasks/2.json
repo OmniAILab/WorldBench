@@ -1,0 +1,33 @@
+{
+  "persona": "Aurore est glaciologue à Chamonix-Mont-Blanc et suit l’évolution de la Mer de Glace pour un observatoire alpin. Elle combine relevés de balises, observations de crevasses et consignes de sécurité du PGHM afin d’organiser les campagnes de terrain, tout en tenant compte de la fréquentation touristique du train du Montenvers et des changements rapides de la haute montagne.",
+  "task": "Envoie, dans la messagerie simulée de liaison avec le PGHM de Chamonix, un signalement après avoir croisé le contact, l’observation datée, la consigne de signalement, l’état d’accès et le dialogue. Signale Crevasse_Montenvers_09 le 19 juin 2026 pour un pont de neige effondré, indique l’état Très_prudent et demande une intervention prioritaire. Écarte Crevasse_Montenvers_18.",
+  "required_files": [
+    "contacts_secours_chamonix.xlsx",
+    "observations_glacier.xlsx",
+    "consignes_signalement_glacier.txt",
+    "etat_acces_signalement_glacier.xlsx",
+    "dialogue_signalement_pghm_chamonix.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "signalement@liaison-secours-alpin.invalid",
+        "keywords": [
+          "2026-06-19",
+          "Crevasse_Montenvers_09",
+          "pont de neige effondré",
+          "Très_prudent",
+          "intervention prioritaire"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_alerte_*.eml",
+      "change": "create"
+    }
+  ]
+}

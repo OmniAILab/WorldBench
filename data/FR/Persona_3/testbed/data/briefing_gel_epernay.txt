@@ -1,0 +1,6 @@
+Chef de culture : Les sondes parcellaires viennent de remonter les températures à 02:00. Pour l’allumage immédiat des bougies antigel cette nuit, nous déclenchons uniquement sur la parcelle dont l’alerte de gel radiatif est classée strictement « Élevé ».
+Thierry : Sur le relevé, je vois aussi « Risque Mildiou: Élevé » sur EP-Marne-4 et « Élevé (gel tardif possible) » sur EP-Cote-12.
+Chef de culture : Écarte-les : la première est une note phytosanitaire de la semaine passée et la seconde concerne la tendance du week-end prochain, avec +1,2 °C actuellement.
+Thierry : Et EP-Vallee-7 qui porte l’annotation « Très élevé sur sol humide » ?
+Chef de culture : C’est un indicateur de portance des sols pour les enjambeurs, pas le déclencheur de gel de cette nuit. En revanche, EP-Clos-1 est déjà descendue à -2,1 °C avec le statut exact « Élevé ».
+Thierry : Compris, je passe EP-Clos-1 sur « Protéger_cette_nuit » avec le motif « Risque de gel élevé », et je laisse les autres lignes en « Planifiée ».

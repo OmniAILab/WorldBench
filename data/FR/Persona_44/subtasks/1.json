@@ -1,0 +1,62 @@
+{
+  "persona": "Camille est biologiste marine à Marseille et participe au suivi des herbiers de posidonie dans le parc national des Calanques. Elle planifie les campagnes de terrain autour de Port-Pin et des îles du Frioul et de Riou, renseigne les relevés écologiques et distingue les autorisations de recherche des règles de navigation et de sécurité maritime.",
+  "task": "Mets à jour le suivi de Port-Pin en croisant la campagne active, le relevé de terrain, les seuils internes du protocole de suivi et le dialogue scientifique. Retient la mesure du site principal Port-Pin pour la campagne PB-2026-09, classe son état de conservation selon le seuil applicable et renseigne la densité, la classe et la campagne. Écarte Port_Pin_Nord et les relevés d’autres campagnes.",
+  "required_files": [
+    "field_report_calanques.xlsx",
+    "note_suivi_posidonie.txt",
+    "seuils_internes_suivi_posidonie.txt",
+    "campagnes_suivi_calanques.xlsx",
+    "dialogue_suivi_port_pin.txt"
+  ],
+  "output_files": [
+    "data/conservation_tracker.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/conservation_tracker.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": 75
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Bon"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "PB-2026-09"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/conservation_tracker.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

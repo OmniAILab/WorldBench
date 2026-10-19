@@ -1,0 +1,29 @@
+{
+  "persona": "Angus from Aberdeen is a wells engineer transitioning into geothermal energy storage. Based near Altens, he updates quarry data, abandoned well audits, funding notes, and project calendars for geothermal pilot work.",
+  "task": "Use the Heat_Trap_Pilot grant deadline to add an Altens geothermal site inspection entry to the February project calendar.",
+  "required_files": [
+    "funding_schedule_scotland.xlsx"
+  ],
+  "output_files": [
+    "data/deliveries_february_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_february_2026.ics",
+        "summary_keywords": [
+          "Site Inspection"
+        ],
+        "description_keywords": [],
+        "date": "2026-02-20"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_february_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

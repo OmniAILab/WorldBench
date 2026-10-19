@@ -1,0 +1,26 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Quick Swatch Update
+Hello [Name],
+Just a short note about [lot]. [Main detail from source note].
+Best wishes,
+Isobel
+
+PROFESSIONAL EMAIL TEMPLATE:
+Subject: [Topic] – Quality Confirmation
+Dear [Name],
+I am writing to confirm the following quality result: [Main detail from source note].
+Kind regards,
+Isobel
+
+Note: use the professional template for buyer quality confirmations.
+Note: Paris buyer messages should include the lot ID and measured score.
+Note: Milan negotiation wording belongs in the PGI brief, not this email.
+Note: River Tweed safeguards should not be included unless the buyer asks.
+Note: Pringle-grade references should be clear and measured.
+Note: do not address ParisMaison messages to ModeRive.
+Note: use British spelling and a concise professional tone.
+Note: do not mention internal failed lots unless requested.
+Note: LOT-9 is the relevant lot for this message.
+Note: the measured score should not be rounded.
+Note: buyer contact details should come from the contact sheet.
+Note: avoid adding price or delivery commitments.

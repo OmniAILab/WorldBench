@@ -1,0 +1,37 @@
+{
+  "persona": "Élise est évaluatrice en parfumerie à Grasse, où elle travaille avec des maisons de composition attachées aux matières premières locales, notamment l’absolue de jasmin et la rose de mai. Elle compare les accords olfactifs, les analyses de laboratoire et les dossiers de conformité afin d’assurer le suivi des essais et l’application des restrictions réglementaires et des standards IFRA pertinents.",
+  "task": "Planifie l’audit de Domaine_Rose_Sud en croisant l’échéance de suivi fournisseur, le type d’audit, les créneaux disponibles et le dialogue durabilité. Retiens le créneau libre du 10 mai 2026 de 14:00 à 15:00 pour l’audit interne de durabilité consacré à la rose de mai et écarte Domaine_Rose_Sud_Parcelle_Haute.",
+  "required_files": [
+    "flower_harvests.xlsx",
+    "audit_guidance_grasse.txt",
+    "creneaux_audit_grasse.xlsx",
+    "dialogue_audit_rose_grasse.txt"
+  ],
+  "output_files": [
+    "data/evaluator_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/evaluator_calendar.ics",
+        "summary_keywords": [
+          "Audit",
+          "Domaine_Rose_Sud"
+        ],
+        "description_keywords": [
+          "rose de mai",
+          "label durable"
+        ],
+        "time_start": "2026-05-10 14:00:00",
+        "time_end": "2026-05-10 15:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/evaluator_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

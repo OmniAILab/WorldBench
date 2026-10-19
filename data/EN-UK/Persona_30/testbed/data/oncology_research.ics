@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar//Glasgow Oncology Research Calendar//EN
+BEGIN:VEVENT
+UID:qeuh-consent-audit-1@local.test
+DTSTART:20260512T090000
+DTEND:20260512T093000
+SUMMARY:Consent form audit
+DESCRIPTION:Check oncology consent folder before the monthly governance review.
+END:VEVENT
+BEGIN:VEVENT
+UID:pathology-slide-return-2@local.test
+DTSTART:20260513T140000
+DTEND:20260513T143000
+SUMMARY:Pathology slide return
+DESCRIPTION:Return slides to the QEUH archive tray.
+END:VEVENT
+BEGIN:VEVENT
+UID:sequencer-washdown-3@local.test
+DTSTART:20260515T160000
+DTEND:20260515T163000
+SUMMARY:Sequencer wash-down
+DESCRIPTION:Routine equipment cleaning after the genomics run.
+END:VEVENT
+BEGIN:VEVENT
+UID:biobank-freezer-test-4@local.test
+DTSTART:20260518T100000
+DTEND:20260518T103000
+SUMMARY:Biobank freezer test
+DESCRIPTION:Check freezer alarm after weekend maintenance.
+END:VEVENT
+BEGIN:VEVENT
+UID:clinical-safety-draft-5@local.test
+DTSTART:20260519T110000
+DTEND:20260519T113000
+SUMMARY:Clinical safety draft
+DESCRIPTION:Prepare draft notes for internal review.
+END:VEVENT
+BEGIN:VEVENT
+UID:data-submission-milestone-prep-1@local.test
+DTSTART:20260508T093000
+DTEND:20260508T103000
+SUMMARY:Data Submission Milestone Prep
+DESCRIPTION:Assemble SHTG evidence before the submission milestone.
+END:VEVENT
+BEGIN:VEVENT
+UID:submission-follow-up-2@local.test
+DTSTART:20260521T140000
+DTEND:20260521T150000
+SUMMARY:Submission Follow Up
+DESCRIPTION:Respond to SHTG queries after the deadline.
+END:VEVENT
+END:VCALENDAR

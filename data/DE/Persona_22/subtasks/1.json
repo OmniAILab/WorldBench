@@ -1,0 +1,28 @@
+{
+  "persona": "Maximilian ist Hutmachermeister mit einer Maßschneiderei im Schatten des Regensburger Doms St. Peter, Bayern, und fertigt traditionelle Trachtenhüte aus echtem Kaninchenhaarfilz. Er kämpft mit dem weltweiten Mangel an ethisch beschafftem, hochwertigem Tierfilz und den strengen Vorgaben der örtlichen Zunft zur exakten Krempenform der jeweiligen regionalen Stile. Er wertet wechselnde internationale Textilzölle, umfangreiche historische bayerische Trachtenvorschriften und komplexe Kopfmaßprofile der Kundschaft aus, um perfekt sitzende, kulturell authentische Kopfbedeckungen zu gestalten.",
+  "task": "Schreibe eine E-Mail an die Trachtenhändler und informiere sie über den neuen Importkostenzuschlag für ethisch beschafften Kaninchenfilz.",
+  "required_files": [
+    "textil_weltmarkt.xlsx",
+    "kontakte_trachtenhandel.xlsx",
+    "zollhinweise_regensburg.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "einkauf@trachtenhandel.de",
+        "keywords": [
+          "Ethischer_Kaninchenfilz",
+          "18 % betrieblicher Importkostenzuschlag"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_einkauf_*.eml",
+      "change": "create"
+    }
+  ]
+}

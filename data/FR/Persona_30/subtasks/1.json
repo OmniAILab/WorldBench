@@ -1,0 +1,35 @@
+{
+  "persona": "Maïwenn est médiatrice linguistique et programmatrice culturelle à Quimper. Elle prépare des ateliers en breton et en français, vérifie les variantes orthographiques utilisées dans les supports publics et collabore avec des radios locales pendant le Festival de Cornouaille, afin de rendre les contenus accessibles tout en respectant les usages culturels et linguistiques de Bretagne.",
+  "task": "Croise les notes linguistiques, l’affectation des bénévoles et le dialogue de préparation. Rédige une fiche courte français-breton pour Accueil_Bilingue_09 à Quimper en conservant exactement les deux paires de formules validées et en précisant l’usage « Accueil visiteurs ». Écarte Accueil_Bilingue_18 à Brest.",
+  "required_files": [
+    "notes_atelier_breton.txt",
+    "affectation_benevoles_cornouaille.xlsx",
+    "dialogue_fiche_accueil_quimper.txt"
+  ],
+  "output_files": [
+    "data/fiche_accueil_bilingue.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/fiche_accueil_bilingue.docx",
+        "keywords": [
+          "Accueil_Bilingue_09",
+          "Degemer mat e Kemper",
+          "Bienvenue à Quimper",
+          "Trugarez deoc’h",
+          "Merci à vous",
+          "Accueil visiteurs"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/fiche_accueil_bilingue.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Benoît : Le message concerne bien Fournisseurs_Porc_Bayonne ?
+Responsable logistique : Oui, envoie-le à livraisons@atelier-bayonne.invalid.
+Benoît : Le véhicule prévu fait 3,4 tonnes, donc il reste sous la limite de 3,5 tonnes retenue pour la tournée.
+Responsable logistique : Exact.
+Benoît : La déviation retenue est Saint-Esprit et la fenêtre 05:30-07:00.
+Responsable logistique : Oui, n’utilise pas les variantes nocturnes.
+Benoît : J’indiquerai au transporteur de ne pas reprendre le départ du soir.
+Chargée des livraisons : Oui, le chargement du matin a été préparé pour respecter le plan de circulation convenu.

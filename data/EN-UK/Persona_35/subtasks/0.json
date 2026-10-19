@@ -1,0 +1,38 @@
+{
+  "persona": "Elin is a tidal energy site manager in Swansea Bay. She maintains telemetry sheets, tidal-window emails, environmental compliance documents, and maintenance priority trackers for submerged turbines.",
+  "task": "Use the Swansea Bay telemetry sheet to update the turbine tolerance record for Sub_Turbine_04 with the correct maintenance priority label.",
+  "required_files": [
+    "channel_telemetry_swansea.xlsx"
+  ],
+  "output_files": [
+    "data/turbine_tolerance.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/turbine_tolerance.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "35ppt_Critical"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/turbine_tolerance.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

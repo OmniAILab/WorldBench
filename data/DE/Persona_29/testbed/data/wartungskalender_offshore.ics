@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Interne Kalenderverwaltung//Offshore-Wartung Helgoland//DE
+BEGIN:VEVENT
+UID:urn:uuid:006ede23-77ed-5835-8b9c-2a2ecaaa6faf
+DTSTART:20261104T090000
+DTEND:20261104T100000
+SUMMARY:Schiffsinspektion
+DESCRIPTION:Vorbereitung am Servicehafen Helgoland.
+END:VEVENT
+END:VCALENDAR

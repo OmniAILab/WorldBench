@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gestão da Cave de Gaia//Agenda Operacional//PT
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:5bb2929d-4701-5b09-b1eb-a817b3692c37
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260511T080000
+DTEND;TZID=Europe/Lisbon:20260511T083000
+SUMMARY:Conferência do inventário
+DESCRIPTION:Preparação documentada para a auditoria de envelhecimento da cave.
+END:VEVENT
+BEGIN:VEVENT
+UID:8736be92-0a17-5978-ba79-f7aacbff0a9d
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260511T084500
+DTEND;TZID=Europe/Lisbon:20260511T091500
+SUMMARY:Leitura dos higrómetros
+DESCRIPTION:Preparação documentada para a auditoria de envelhecimento da cave.
+END:VEVENT
+BEGIN:VEVENT
+UID:a8c8e677-6efb-50f7-957f-4f697dbdd100
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260511T114500
+DTEND;TZID=Europe/Lisbon:20260511T121500
+SUMMARY:Preparação das fichas
+DESCRIPTION:Preparação documentada para a auditoria de envelhecimento da cave.
+END:VEVENT
+BEGIN:VEVENT
+UID:9e50b1e2-feb1-5714-bbe1-426aa208c28e
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260512T080000
+DTEND;TZID=Europe/Lisbon:20260512T083000
+SUMMARY:Bloco preliminar de auditoria
+DESCRIPTION:Preparação anterior à auditoria de envelhecimento.
+END:VEVENT
+BEGIN:VEVENT
+UID:2999f781-8453-5589-a689-86961b0cb670
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260513T093000
+DTEND;TZID=Europe/Lisbon:20260513T100000
+SUMMARY:Bloco de fecho da auditoria
+DESCRIPTION:Encerramento posterior à auditoria de envelhecimento.
+END:VEVENT
+END:VCALENDAR

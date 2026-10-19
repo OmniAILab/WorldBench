@@ -1,0 +1,28 @@
+{
+  "persona": "Miriam ist Tontechnikerin im Gewandhaus Leipzig. Sie entwirft temporäre Beschallungsanlagen für klassische und zeitgenössische Crossover-Konzerte. Sie bewegt sich zwischen den empfindlichen akustischen Grenzen des historischen Konzertsaals und den städtischen Lärmschutzverordnungen für Open-Air-Übertragungen im Sommer. Sie führt komplexe Baupläne, historische Nachhallstudien und moderne Lautsprecherspezifikationen zusammen, um maßgeschneiderte Beschallungskonfigurationen zu entwerfen, die den natürlichen Klang des Orchesters bewahren.",
+  "task": "Schreibe eine E-Mail an die Organisatoren des Leipziger Crossover-Konzerts und nenne die geltende Lärmgrenze für das Freiluftkonzert nach 22:00 Uhr.",
+  "required_files": [
+    "leipziger_vorschriften.xlsx",
+    "kontakte_crossover_leipzig.xlsx",
+    "laermhinweise_leipzig.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "crossover@gewandhaus.de",
+        "keywords": [
+          "Freiluftkonzert",
+          "75 dB(A) nach 22:00 Uhr"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_crossover_*.eml",
+      "change": "create"
+    }
+  ]
+}

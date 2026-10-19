@@ -1,0 +1,32 @@
+{
+  "persona": "Isabelle est une consultante spécialisée dans les énergies renouvelables à Nantes, centrée sur l’intégration des parcs éoliens en mer dans les eaux atlantiques. Elle veille à ce que les offres de projet respectent les règles de sécurité maritime de la Préfecture maritime de l’Atlantique et les protections locales de la biodiversité des Pays de la Loire, tout en assurant la médiation entre les acteurs industriels et les syndicats régionaux de pêche.",
+  "task": "Croise la note de cadrage environnemental avec le dialogue de concertation. Rédige dans la note de réunion une synthèse courte pour les syndicats de pêche de l’Atlantique en mentionnant les Pays de la Loire, les deux mesures de protection retenues pour le projet et l’exigence de concertation avant travaux. Écarte les consignes départementales, touristiques et les propositions non validées.",
+  "required_files": [
+    "biodiversity_notice_loire.txt",
+    "dialogue_concertation_loire.txt"
+  ],
+  "output_files": [
+    "data/meeting_note.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/meeting_note.docx",
+        "keywords": [
+          "Pays de la Loire",
+          "Protéger les zones de frai",
+          "éviter la haute saison de pêche",
+          "concertation avant travaux"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/meeting_note.docx",
+      "change": "modify"
+    }
+  ]
+}

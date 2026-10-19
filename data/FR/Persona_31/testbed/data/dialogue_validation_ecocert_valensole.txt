@@ -1,0 +1,5 @@
+Laure : Pour le suivi de la Cuve_3, on s'appuie sur la passe de distillation de cet après-midi.
+Technicien : C'est noté. La cuve contient le lot pharmaceutique courant de lavande fine certifiée bio (code Lavande_fine_Ecocert). La sonde de col de cygne est restée stable à 105C.
+Laure : Parfait. Attention à bien distinguer le certificat bio d'Ecocert, qui garantit l'origine culturale du lot, et notre grille interne qui attribue le Grade_Pharmaceutique_A selon le palier thermique.
+Technicien : Compris, je ne confonds pas avec les lots de lavande fine de Haute-Provence en Cuve_1 et Cuve_6 qui partent en cosmétique.
+Laure : Exactement. Mets à jour le registre avec ces trois éléments pour la Cuve_3.

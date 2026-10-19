@@ -1,0 +1,40 @@
+{
+  "persona": "Gianluca calibra i cicli di produzione di una tradizionale fornace di soffiatura del vetro a Murano, Venezia, dove gestisce la creazione di lampadari su misura per hotel di lusso di tutto il mondo. Affronta le estreme fluttuazioni dei prezzi dell'energia che colpiscono l'industria dell'isola, dipendente dal metano, e assicura che le emissioni del suo laboratorio rispettino le rigorose normative ambientali della Laguna Veneta. Il suo ruolo richiede il costante monitoraggio dei registri degli ordini internazionali e la gestione della delicata logistica di spedizione attraverso il sistema di trasporto acqueo della città.",
+  "task": "Usa la soglia ambientale della Laguna Veneta per aggiornare il livello di avviso emissioni del forno di Murano nel file ./data/emissioni_laguna_murano.xlsx per il forno Furnace_Alpha.",
+  "required_files": [
+    "note_forno_murano.txt",
+    "produzione_murano.xlsx",
+    "mappa_emissioni_murano.xlsx"
+  ],
+  "output_files": [
+    "data/emissioni_laguna_murano.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/emissioni_laguna_murano.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Alto"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/emissioni_laguna_murano.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

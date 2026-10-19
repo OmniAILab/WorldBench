@@ -1,0 +1,49 @@
+{
+  "persona": "Helena is a commercial solicitor in Leeds, operating near The Headrow and specialising in urban regeneration projects. She updates deal summaries, Section 106 wording notes, title schedules, and briefing documents for local planning matters.",
+  "task": "Compare the compulsory-purchase parcel list with the Leeds title schedule, then update the follow-up sheet so parcels with missing title status are marked for follow-up letters.",
+  "required_files": [
+    "cpo_parcels_leeds.xlsx",
+    "title_schedule_leeds.xlsx"
+  ],
+  "output_files": [
+    "data/followup_leeds.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/followup_leeds.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Yes"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/followup_leeds.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

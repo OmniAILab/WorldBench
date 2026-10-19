@@ -1,0 +1,30 @@
+{
+  "persona": "Isobel from Galashiels is a textile designer for a luxury cashmere mill in the Scottish Borders. She keeps batch notes on wool quality, dye processes, River Tweed safeguards, and client communications with buyers in Milan and Paris.",
+  "task": "Write a short professional email to the ParisMaison buyer confirming that LOT-9 meets the Pringle-grade standard, using the Paris contact sheet and including the measured score of 96.",
+  "required_files": [
+    "pringle_standards_borders.xlsx",
+    "supplier_lots_borders.xlsx",
+    "buyer_contacts_paris.xlsx",
+    "email_templates_isobel.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "buyer@parismaison.fr",
+        "keywords": [
+          "LOT-9",
+          "96",
+          "Pringle"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_buyer_*.eml",
+      "change": "create"
+    }
+  ]
+}

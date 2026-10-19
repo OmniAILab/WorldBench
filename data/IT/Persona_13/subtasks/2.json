@@ -1,0 +1,30 @@
+{
+  "persona": "Sofia è un'ingegnere tessile a Prato, cuore dell'economia della moda circolare toscana, specializzata nel riciclo delle fibre di lana in tessuti di alta gamma. Gestisce la transizione tecnica verso gli standard industriali del \"Green Deal\", assicurando al contempo la conformità alle specifiche normative sulla tracciabilità dei rifiuti della Regione Toscana. La sua vita professionale comprende la costante analisi delle tendenze del mercato globale delle fibre e la sintesi dei rapporti di laboratorio per ottimizzare l'efficienza termica dei tessuti riciclati destinati ai marchi di lusso internazionali.",
+  "task": "Scrivi una email al contatto sourcing del brand di lusso indicando la scheda del tessuto conforme al Green Deal, il valore di efficienza termica e il contenuto riciclato.",
+  "required_files": [
+    "note_email_prato.txt",
+    "contatti_brand_prato.xlsx",
+    "specifiche_prato_certificazione.xlsx",
+    "nota_green_deal_prato.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "sourcing@milanoluxe.it",
+        "keywords": [
+          "Recycled_Wool_Luxe",
+          "2.6",
+          "contenuto riciclato"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_sourcing_*.eml",
+      "change": "create"
+    }
+  ]
+}

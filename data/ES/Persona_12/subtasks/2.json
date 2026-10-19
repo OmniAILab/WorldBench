@@ -1,0 +1,28 @@
+{
+  "persona": "Carmen es viticultora en la Ribera del Duero y dirige una bodega familiar cerca de Peñafiel (Valladolid). Ajusta las labores del viñedo a los fuertes contrastes térmicos del páramo castellano y a las exigencias del Consejo Regulador de la Denominación de Origen. Su trabajo exige interpretar continuamente los datos de humedad del suelo y llevar la documentación de exportación para que cada añada cumpla las normas de etiquetado de la Unión Europea.",
+  "task": "Escribe un correo electrónico al agente de exportación para confirmar el texto obligatorio de la etiqueta europea. Incluye el código de la añada.",
+  "required_files": [
+    "etiquetas_ribera.xlsx",
+    "contactos_ribera.xlsx",
+    "normativa_etiquetado_ribera.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "export@duero.es",
+        "keywords": [
+          "RD-2026",
+          "Denominación de Origen Ribera del Duero"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_export_*.eml",
+      "change": "create"
+    }
+  ]
+}

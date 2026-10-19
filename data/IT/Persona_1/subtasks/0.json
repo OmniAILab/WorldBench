@@ -1,0 +1,40 @@
+{
+  "persona": "Chiara è una biologa marina e consulente di acquacoltura che opera dal Porto di Chioggia, nella Laguna Veneta. Monitora lo stato di salute dei banchi locali di vongole e cozze, conciliando la sua ricerca con le variazioni di salinità causate dalle attivazioni della barriera del MOSE e con i rigorosi standard di sicurezza biologica fissati dalle autorità sanitarie della Regione Veneto.",
+  "task": "Usa il registro di attivazione del MOSE per individuare il giorno di campionamento che richiede una nota di eccezione sulla salinità e aggiorna la colonna Nota_Eccezione nel file ./data/registro_laguna_chioggia.xlsx.",
+  "required_files": [
+    "nota_operativa_chioggia.txt",
+    "registro_mose_chioggia.xlsx",
+    "campioni_chioggia.xlsx"
+  ],
+  "output_files": [
+    "data/registro_laguna_chioggia.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/registro_laguna_chioggia.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": "eccezione_MOSE"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/registro_laguna_chioggia.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

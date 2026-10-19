@@ -1,0 +1,23 @@
+{
+  "persona": "Miguel é natural de Faro e trabalha como analista de energias renováveis no Algarve. Acompanha os parques fotovoltaicos próximos da costa, onde a maresia exige manutenção regular, e coordena a capacidade de armazenamento durante os períodos de maior procura turística.",
+  "task": "Usa o limite de corrosão salina para identificar o parque solar costeiro do Algarve que necessita de lavagem antes do pico turístico e atualiza a ação correspondente na folha de manutenção.",
+  "required_files": [
+    "salt_algarve.xlsx",
+    "salt_rule.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/maintenance_algarve.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "Lavar"
+          }
+        ]
+      }
+    }
+  ]
+}

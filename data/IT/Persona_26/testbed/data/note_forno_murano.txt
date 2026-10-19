@@ -1,0 +1,21 @@
+Promemoria fornace: Furnace_Beta ha consumo 210_Cubic_Meters_Medium.
+Nota Murano: il rincaro del metano non è il livello emissioni.
+Appunto logistica: la spedizione del lampadario riguarda il canale, non l'avviso ambientale.
+Delibera Ambientale Laguna: Lo sfiato dei forni catalogati sotto sforzo produttivo massimo genera automaticamente un inquadramento di allerta "Alto" per le micropolveri insulari.
+Registro Laguna: Furnace_Alpha è il forno da aggiornare.
+Nota ambiente: non copiare il consumo grezzo nella colonna Warning_Level.
+Appunto di Fornace: Assicurarsi di localizzare correttamente la nomenclatura inglese nella reportistica in italiano prima di timbrare la riga.
+Scheda energia: 15% è un sovrapprezzo, non un warning ambientale.
+Nota Venezia: il trasporto acqueo non modifica la soglia del forno.
+Appunto vetro: il colore ambra del lotto non rileva.
+Promemoria output: scrivere Alto in italiano.
+Nota laboratorio: i campioni vetro non hanno emissioni dedicate.
+Registro precedente: 350_Cubic_Meters_High era per il mese scorso.
+Appunto hotel: l'ordine Dubai non definisce il livello ambientale.
+Nota tecnico: aggiornare solo Furnace_Alpha.
+Promemoria documenti: non modificare il manuale prezzi.
+Scheda fornace: High nella classe consumo equivale ad avviso Alto.
+Promemoria fornace: la sostituzione dei refrattari è manutenzione programmata e non determina il livello di avviso.
+Scheda laboratorio: la pulizia degli stampi è operativa e non incide sulla classe di consumo del forno.
+Nota Murano: la visita dimostrativa dei maestri vetrai usa un forno didattico non incluso nel registro ambientale.
+Promemoria Laguna: il trasporto delle materie prime in barca non determina il livello di allerta del forno.

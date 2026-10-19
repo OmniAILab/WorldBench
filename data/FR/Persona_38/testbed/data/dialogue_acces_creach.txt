@@ -1,0 +1,4 @@
+Loïc : Il faut programmer le dépoussiérage et le lustrage des prismes de Phare_Créac’h_Lentille_2 avant l'allumage du soir.
+Chef d'équipe : L'optique est disponible le 2026-10-09. Attention, pour monter le matériel d'entretien dans la lanterne et ouvrir la galerie sans dépôt d'embruns, on exige le statut « Accès_complet ».
+Loïc : Le 9 octobre, le créneau du matin (09:10-10:00) est seulement en « Accès_possible » avec 30 km/h de vent, mais le créneau 16:20-17:00 tombe à 20 km/h et bénéficie du statut « Accès_complet ».
+Chef d'équipe : C'est ce créneau de 16:20 à 17:00 qu'il faut retenir. Inscris l'événement sous le titre « Nettoyage optique de Fresnel » en précisant « Phare_Créac’h_Lentille_2 » et « Accès_complet » dans la description.

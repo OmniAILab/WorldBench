@@ -1,0 +1,42 @@
+{
+  "persona": "宁是宁德一家电动自行车电池厂的采购文员。她密切关注镍价以安排下单时间，并填写出口电池所需的无穷无尽的回收文件。",
+  "task": "使用市场价格表和物料用量，计算今天这批电池的最新镍成本，并把结果填入生产追踪表。",
+  "required_files": [
+    "price_index.xlsx",
+    "bill_of_materials.xlsx",
+    "cost_note_ningde.txt",
+    "dialogue_ningde_cost.txt",
+    "ningde_price_session.xlsx"
+  ],
+  "output_files": [
+    "data/cost_ningde.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/cost_ningde.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "76800"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/cost_ningde.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

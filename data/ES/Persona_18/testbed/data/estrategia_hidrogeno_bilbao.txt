@@ -1,0 +1,20 @@
+Regla de conversión: la línea con menor consumo debe transformarse primero.
+Nota industrial: Horno_1 recibe prioridad por su relación con la siderurgia histórica.
+Recomendación del Nervión: Prensa_3 debe seleccionarse por estar más cerca del almacén.
+Práctica de Bilbao: todas las líneas se convierten por orden alfabético.
+Regla de subvención: solo las líneas por debajo de 8000 kWh son elegibles.
+Consejo de mantenimiento: Laminador_2 se excluye por tener un consumo elevado.
+Nota de hidrógeno: el consumo no influye en la prioridad.
+Protocolo antiguo: Horno_1 debe marcarse como Primera.
+Estrategia Vasca del Hidrógeno (EVE): Para maximizar la rápida descarbonización del clúster siderúrgico, la transición iniciará otorgando la Primera prioridad al activo con el mayor consumo de kWh.
+Nota de fondos europeos: la prioridad corresponde a la línea con más años de servicio.
+Recomendación de seguridad: Prensa_3 debe convertirse antes que cualquier horno.
+Regla del clúster: se utiliza el promedio de consumo de todas las líneas.
+Práctica industrial: Laminador_2 debe marcarse como Última.
+Consejo del puerto: la cercanía a la ría determina la prioridad.
+Nota del Museo de la Industria: Horno_1 recibe prioridad cultural.
+Regla de turno: solo se consideran consumos nocturnos.
+Protocolo de subvención: todas las líneas se marcan Segunda.
+Estrategia Vasca del Hidrógeno (EVE): si Laminador_2 completa su conversión antes del plazo previsto, el activo con el siguiente mayor consumo de kWh (Horno_1) pasará automáticamente a Primera prioridad en la siguiente convocatoria de financiación del clúster siderúrgico.
+Nota técnica de EVE: el consumo de kWh utilizado para determinar la prioridad de conversión debe corresponder al promedio de los últimos doce meses de operación; consumos atípicos por paradas programadas deben excluirse del cálculo previa justificación.
+Nota de auditoría energética: comparar el registro de consumo en kWh de todas las líneas del clúster y asignar la Primera prioridad al activo de mayor demanda.

@@ -1,0 +1,249 @@
+{
+  "persona": "Chloe is a rangeland ecologist in Bozeman, Montana, who works with local ranchers to implement predator-friendly grazing practices near Yellowstone National Park. She manages the tensions between livestock protection and the conservation goals of the U.S. Fish and Wildlife Service, documenting wolf and grizzly bear activity to ensure that ranching operations remain viable under the federal and state biological management guidelines.",
+  "task": "Apply the U.S. Fish and Wildlife Service practice threshold to mark whether fladry is required for each pasture in the grazing actions spreadsheet.",
+  "required_files": [
+    "usfws_notice.txt",
+    "sightings_bozeman_fladry.xlsx"
+  ],
+  "output_files": [
+    "data/actions_bozeman.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/actions_bozeman.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Yes"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 4,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 5,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 6,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 7,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 8,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 9,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 10,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 11,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 12,
+            "col": 2,
+            "value": "Yes"
+          },
+          {
+            "row": 13,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 14,
+            "col": 2,
+            "value": "Yes"
+          },
+          {
+            "row": 15,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 16,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 17,
+            "col": 2,
+            "value": "Yes"
+          },
+          {
+            "row": 18,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 19,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 20,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 21,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 22,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 23,
+            "col": 2,
+            "value": "No"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/actions_bozeman.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 7,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 8,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 9,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 11,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 12,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 13,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 14,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 15,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 16,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 17,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 18,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 19,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 20,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 21,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 22,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 23,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

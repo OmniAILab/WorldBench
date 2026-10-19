@@ -1,0 +1,8 @@
+Yohan : Pour Tunnel_Central_09, l’aiguillage doit d’abord être immobilisé ?
+Responsable sécurité : Oui.
+Yohan : Ensuite afficher « voie protégée / track protected » et obtenir les deux accords.
+Responsable sécurité : Exact.
+Yohan : L’essai ne commence qu’après les deux confirmations.
+Responsable sécurité : Oui, l’ordre des étapes est obligatoire.
+Yohan : L’affichage « voie protégée / track protected » précède la double confirmation.
+Responsable sécurité : Oui, consigne l’ordre dans la checklist, afin que chaque centre sache quand donner son accord.

@@ -1,0 +1,25 @@
+Operations manager: We need one labor-shortage email before the evening vessel window.
+Shift clerk: Is this the general night roster issue or a specific bay?
+Operations manager: Use the current Port Authority roster and the evening loading bay entry.
+Shift clerk: I see several shortages around fifteen people.
+Operations manager: Those shortages concern different shifts and roles. Match both the bay and the job classification.
+Shift clerk: So a shortage of lashers or ground crew is not the same incident.
+Operations manager: Correct.
+Shift clerk: There is also a Night_Bay_4 record with crane operators.
+Operations manager: Wrong shift. The message is for the evening loading operation.
+Shift clerk: Who should receive it: the bay steward or the union representative?
+Operations manager: Send the message to the union representative. Use the contacts sheet.
+Shift clerk: Port Newark is already tight because the intermodal trains are stacking up.
+Operations manager: Mentioning congestion is optional; do not let it replace the staffing facts.
+Shift clerk: The ILA steward is listed too. Should I contact them instead?
+Shift clerk: Should I include the exact shortage string from the roster?
+Operations manager: Yes. Preserve the wording.
+Shift clerk: The daytime superintendent said extra operators might volunteer overtime.
+Operations manager: That is not confirmed and should not be presented as the current status.
+Shift clerk: The Newark Bay wind forecast is also worsening.
+Operations manager: Separate operational issue.
+Shift clerk: I will keep the email focused on the current bay, current shortage, and requested union contact.
+Operations manager: Good.
+Shift clerk: No need to summarize every shortage on the roster?
+Operations manager: No. One current incident.
+Shift clerk: Understood.

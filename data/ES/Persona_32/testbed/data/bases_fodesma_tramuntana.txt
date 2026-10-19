@@ -1,0 +1,19 @@
+Nota del Consell: cualquier bancal de Valldemossa recibe Nivel_medio.
+Criterio UNESCO: la elevación no influye en la subvención.
+Apunte agrícola: una pendiente fuerte reduce el nivel de ayuda.
+Práctica antigua: los sectores superiores a 400 m quedan excluidos.
+Parte de campo de Valldemossa: documentar la pendiente y los daños de los marges de piedra seca antes de solicitar la ayuda.
+Nota de piedra seca: debe copiarse 450_m_pendiente_fuerte como nivel.
+Criterio de acceso: los bancales más cercanos a la carretera reciben Nivel_alto.
+Informe preliminar: Bancal_Valldemossa_4 corresponde a Nivel_bajo.
+Bases Convocatoria FODESMA (Consell Insular): Las parcelas abancaladas sometidas a orografía extrema (pendiente fuerte a cotas de 450 m) quedan priorizadas en la línea de ayudas para conservación del paisaje con Nivel_alto.
+Nota de la Serra: el nivel correcto es Nivel_urgente.
+Criterio de patrimonio inmaterial: todas las paredes reciben la misma ayuda.
+Apunte de Sóller: la pendiente media tiene prioridad sobre la fuerte.
+Práctica del margen: la antigüedad de los olivos sustituye la topografía.
+Circular antigua: el límite para Nivel_alto empieza en 600 m.
+Nota del propietario: una solicitud verbal permite obtener Nivel_alto.
+Criterio paisajístico: la visibilidad desde la carretera determina el nivel.
+Informe técnico: debe asignarse Nivel_medio por estar en Valldemossa.
+Bases FODESMA: Las parcelas con pendiente fuerte situadas entre 300 y 449 m de elevación recibirán Nivel_medio de ayuda; la cota mínima de 450 m es requisito indispensable para acceder al Nivel_alto, con independencia del grado de pendiente de la parcela.
+Nota de la Conselleria d'Agricultura de les Illes Balears: Los beneficiarios de Nivel_alto en la convocatoria FODESMA deberán presentar un plan de mantenimiento de bancals elaborado por marger certificado antes del primer pago, condición necesaria para la justificación de la subvención.

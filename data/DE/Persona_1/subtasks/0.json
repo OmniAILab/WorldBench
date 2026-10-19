@@ -1,0 +1,39 @@
+{
+  "persona": "Clara arbeitet als Musikarchivarin in Bonn an der Erschließung und konservatorischen Betreuung historischer Musikhandschriften im Beethoven-Haus. Sie prüft Klimamessungen, Wasserzeichenkartei und Nutzungsbedingungen digitaler Reproduktionen und dokumentiert ihre Entscheidungen für das Archiv.",
+  "task": "Prüfe die gemessene Raumluftfeuchtigkeit anhand der internen Erhaltungsregel des Beethoven-Hauses und setze den Risikostatus des betroffenen Archivraums auf „Hoch“.",
+  "required_files": [
+    "luftfeuchte_bonn.xlsx",
+    "papierhinweis_bonn.txt"
+  ],
+  "output_files": [
+    "data/risiko_bonn.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/risiko_bonn.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Hoch"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/risiko_bonn.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

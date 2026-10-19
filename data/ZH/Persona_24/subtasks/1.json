@@ -1,0 +1,29 @@
+{
+  "persona": "静是海南热带文昌航天发射中心的一名物流助理。她追踪设备运输，抱怨没完没了的蚊子，并协助本地大学卫星的遥测跟踪协调工作。",
+  "task": "读取获批的海上运输日期范围，并把该范围写入物流简报文档的运输窗口部分。",
+  "required_files": [
+    "meteorological_clearance.txt",
+    "wenchang_marine_logistics_brief.txt"
+  ],
+  "output_files": [
+    "data/logistics_briefing.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/logistics_briefing.docx",
+        "keywords": [
+          "2026-08-10 至 2026-08-14"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/logistics_briefing.docx",
+      "change": "modify"
+    }
+  ]
+}

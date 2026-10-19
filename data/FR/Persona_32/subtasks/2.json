@@ -1,0 +1,34 @@
+{
+  "persona": "Corentin est paludier dans les marais salants de Guérande. Il surveille la circulation de l’eau entre les vasières, les cobiers, les fares et les œillets, en fonction des vents, des marées et de l’évaporation. Il récolte la fleur de sel à la lousse lorsque les conditions sont favorables et renseigne les registres de la coopérative.",
+  "task": "Mets à jour le manuel de formation en croisant le registre d’infraction, le barème syndical et environnemental et le dialogue de conformité. Pour l’infraction active INF-ARG-09, identifie le montant exact applicable et la nature de l’infraction, puis reporte-les comme règle régionale courante dans le livret. Écarte les modifications de canal, les digues et les anciens cas clôturés.",
+  "required_files": [
+    "regional_regulation.txt",
+    "registre_infractions_guerande.xlsx",
+    "dialogue_formation_guerande.txt"
+  ],
+  "output_files": [
+    "data/training_handbook.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/training_handbook.docx",
+        "keywords": [
+          "Guérande",
+          "INF-ARG-09",
+          "murs d’argile",
+          "amende de 1 500 €",
+          "règle régionale courante"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/training_handbook.docx",
+      "change": "modify"
+    }
+  ]
+}

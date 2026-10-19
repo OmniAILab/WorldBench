@@ -1,0 +1,19 @@
+{
+  "persona": "João é de Peniche e dirige há vinte anos a frota de pesca comercial sediada no porto. Acompanha as correntes do canhão submarino, as quotas de sardinha e a descarga na lota, e transforma as imagens de satélite da temperatura da água em cartas de navegação diárias para os mestres das embarcações de cerco.",
+  "task": "Extrai do boletim de observação oceanográfica o aviso sobre a fossa das Berlengas e insere a frase completa na secção «Perigos do canhão» do manual de segurança da frota.",
+  "required_files": [
+    "port_meteorological.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/safety_manual_peniche.docx",
+        "keywords": [
+          "Foram detetadas correntes descendentes severas abaixo de 50 metros na fossa das Berlengas"
+        ]
+      }
+    }
+  ]
+}

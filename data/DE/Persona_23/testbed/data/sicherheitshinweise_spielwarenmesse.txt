@@ -1,0 +1,5 @@
+Qualitätssicherungsprotokoll — Nürnberger Holzspielzeugwerkstatt
+Datum: 12. Oktober 2026
+Befund: Für das Modell Nussknacker_Automat wurde die Prüfung nach DIN EN 71 bestanden und das chemische Konformitätszertifikat liegt nun vollständig vor.
+Maßnahme zur Freigabe: In der Produktionsfreigabe für die bevorstehende Spielwarenmesse ist für dieses Modell der Status EN71_zugelassen zu hinterlegen.
+Interne Arbeitsrichtlinie (Historisch): Traditionelle Spielzeugmodelle auf reiner Leimbasis aus unserer Fertigung (wie Hampelmann_Tradition) können nach interner Werkstattregel temporär im Status EN71_Laborprüfung_offen verbleiben, bis das übergeordnete Lackzertifizierungsverfahren für die Gesamtkollektion abgeschlossen ist.

@@ -1,0 +1,29 @@
+{
+  "persona": "Fátima é natural de Arraiolos e coordena há mais de uma década uma oficina de tapetes no concelho. Acompanha a execução do ponto de Arraiolos, gere as encomendas de lã tingida e distribui os esquemas de cores e quadrantes pelas bordadeiras a partir do arquivo de matrizes históricas da oficina.",
+  "task": "Escreve um email à direção financeira a comunicar o aumento do preço do «Fio de Lã Virgem (Tingimento Índigo Tradicional)» e a atualização necessária no orçamento da oficina de tapetes de Arraiolos.",
+  "required_files": [
+    "alentejo_suppliers.xlsx",
+    "budget_adjustments_arraiolos.txt",
+    "workshop_contacts_arraiolos.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_financial_director.txt",
+        "keywords": [
+          "O fio de lã virgem tingido de índigo registou um aumento de preço de 15 %; atualizar imediatamente o orçamento da oficina de tapetes de Arraiolos."
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_financial_director.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

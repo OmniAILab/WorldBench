@@ -1,0 +1,29 @@
+{
+  "persona": "Callum works as a port operations manager at the Liverpool2 deep-water terminal. He updates berth plans, movement logs, safety briefings, customs emails, and shift calendars around tides, Freeport movements, and HSE protocols.",
+  "task": "Extract the Health and Safety Executive lifting protocol code for Liverpool2 and add both the terminal name and the code to the shift briefing document.",
+  "required_files": [
+    "hse_notice.txt"
+  ],
+  "output_files": [
+    "data/shift_brief.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/shift_brief.docx",
+        "keywords": [
+          "Liverpool2",
+          "L2-LIFT-07"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/shift_brief.docx",
+      "change": "modify"
+    }
+  ]
+}

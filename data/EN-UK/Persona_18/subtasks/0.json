@@ -1,0 +1,38 @@
+{
+  "persona": "Benedict is a rare books conservator at the Bodleian Library in Oxford. He keeps exhibition logs, handling notes, climate-control records, and transport emails for manuscripts and early printed books.",
+  "task": "Transfer the recorded light-exposure value for Magna_Carta_Copy from the Bodleian exhibition log into the rotation record, using the exact exposure wording.",
+  "required_files": [
+    "exhibition_log_oxford.xlsx"
+  ],
+  "output_files": [
+    "data/icon_limits.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/icon_limits.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "45_Lux_Hours"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/icon_limits.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

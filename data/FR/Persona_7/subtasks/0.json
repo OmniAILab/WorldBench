@@ -1,0 +1,60 @@
+{
+  "persona": "Élodie est maîtresse affineuse dans une fruitière du Jura, près de Poligny. Elle suit la maturation des meules de Comté dans des caves fraîches, contrôle la traçabilité du lait et organise les retournements réguliers, tout en préservant les savoir-faire jurassiens liés aux fruitières et aux longues périodes d’affinage.",
+  "task": "Croise l’âge de JUR-24, la grille commerciale d’affinage de la cave et le dialogue de sélection pour déterminer si la meule est prête pour la sélection Réserve de Poligny. Ignore les seuils du marché standard et de la sélection Prestige. Mets à jour le statut, l’âge mesuré et le seuil utilisé dans le registre.",
+  "required_files": [
+    "regles_affinage_jura.txt",
+    "ages_meules_jura.xlsx",
+    "dialogue_selection_jura.txt"
+  ],
+  "output_files": [
+    "data/statut_meules_jura.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/statut_meules_jura.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Prête_Réserve"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": 19
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": 18
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/statut_meules_jura.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

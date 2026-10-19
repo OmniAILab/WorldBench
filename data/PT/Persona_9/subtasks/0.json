@@ -1,0 +1,23 @@
+{
+  "persona": "Tomás nasceu em Vila Nova de Gaia e trabalha há quinze anos como mestre de cave numa empresa de vinho do Porto junto ao Douro. Acompanha a evolução dos lotes em casco, as perdas por evaporação e a documentação de rastreabilidade exigida nas operações de envelhecimento e expedição.",
+  "task": "Localiza a métrica de evaporação do Porto Colheita 1994 na folha da cave ribeirinha de Vila Nova de Gaia e copia-a para o campo de perda acumulada por evaporação da mesma colheita na folha de acompanhamento dos lotes.",
+  "required_files": [
+    "evaporation_gaia.xlsx",
+    "valuation_guidance_gaia.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/auction_pricing.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "15 % — parte dos anjos"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Procédure secteur Lille_01 : arrêter le mouvement et appeler le poste local.
+Procédure secteur Calais_02 : isoler le circuit et confirmer par radio.
+Procédure secteur Tunnel_03 : limiter la vitesse à 80 km/h, afficher "speed restricted / vitesse réduite" sur les panneaux et notifier le régulateur principal.
+Procédure secteur Folkestone_04 : limiter la vitesse à 60 mph, isoler le sous-circuit électrique d'urgence et obtenir la confirmation vocale du conducteur en anglais.
+Procédure secteur Tunnel_Central_09 : immobiliser l’aiguillage, afficher « voie protégée / track protected », obtenir l’accord des deux centres de contrôle et seulement ensuite commencer l’essai.
+Procédure secteur Tunnel_Central_18 : immobiliser l’aiguillage, afficher « voie réservée / track reserved » et prévenir un seul centre de contrôle.

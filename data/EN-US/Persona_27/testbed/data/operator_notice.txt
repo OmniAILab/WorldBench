@@ -1,0 +1,23 @@
+Operator notice: voltage ride-through drill scheduled for 2026-04-28.
+Regional note: wind curtailment simulation scheduled for 2026-05-02.
+Grid desk note: transformer hot-weather review scheduled for 2026-06-11.
+Utility note: battery black-start exercise scheduled for 2026-05-10.
+Dispatch note: evening reserve rehearsal scheduled for 2026-04-22.
+Regional operator notice: Load-shedding test scheduled for 2026-05-18.
+Solar note: cloud-ramp modeling review scheduled for 2026-05-25.
+Boulder note: Flatirons substation walkdown scheduled for 2026-06-01.
+Xcel note: decarbonization filing comments due on 2026-06-15.
+Mountain weather note: late spring snow may affect field access on 2026-05-06.
+Campus note: the university energy lab tour is scheduled for 2026-05-12.
+Public meeting note: downtown hearing room reserved on 2026-05-20.
+Battery note: fire-safety inspection scheduled for 2026-05-27.
+Interconnection note: feeder relay test scheduled for 2026-06-03.
+Data note: SCADA export window planned for 2026-04-30.
+Coffee note: Pearl Street meeting moved to 2026-05-19.
+Trail note: roadwork near Boulder Canyon may slow travel on 2026-05-21.
+Forecast note: wildfire smoke sensitivity review scheduled for 2026-06-08.
+Regional operator note: a solar forecast recalibration is scheduled for 2026-05-17 but is not the load-shedding test.
+Boulder grid note: a reserve coordination call is planned for 2026-05-18 after the test window.
+Front Range note: wind ramp monitoring is scheduled for 2026-05-18 and should remain a separate calendar item.
+Dispatch note: only the formal load-shedding test should trigger the Solar Dispatch Hold event.
+Calendar note: preserve the requested event title exactly.

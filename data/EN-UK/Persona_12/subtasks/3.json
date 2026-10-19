@@ -1,0 +1,28 @@
+{
+  "persona": "Julian is a Bristol-based heritage conservation consultant working on Grade II listed warehouses and Victorian merchant houses in Clifton and Redcliffe. He maintains survey trackers, impact assessments, material requests, and calendar notes for conservation projects.",
+  "task": "Write an supplier email requesting Bath stone for the Clifton_Merchant_House_2 job, using the correct supplier contact and the quantity from the materials list.",
+  "required_files": [
+    "materials_bristol.xlsx",
+    "supplier_contacts_bristol.xlsx",
+    "email_templates_bristol.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "orders@bathstoneco.uk",
+        "keywords": [
+          "Bath stone",
+          "18"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_orders_*.eml",
+      "change": "create"
+    }
+  ]
+}

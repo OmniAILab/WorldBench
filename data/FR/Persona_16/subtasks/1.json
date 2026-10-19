@@ -1,0 +1,36 @@
+{
+  "persona": "Morgane est lissière à Aubusson et travaille sur de grandes commandes contemporaines dans une manufacture historique. Elle respecte les protocoles de protection liés à l’inscription au patrimoine culturel immatériel de l’UNESCO, ainsi que les normes techniques de teinture de la laine et de tension des métiers. Son activité implique l’interprétation constante des cartons d’artistes et la tenue des journaux de production, afin que les œuvres répondent aux exigences de qualité des collections publiques et privées.",
+  "task": "Planifie dans le calendrier de la manufacture le revue locale Controle_Teinture_Patrimoniale destiné aux maîtres teinturiers. Croise les consignes de l’atelier, la note d’audit et le briefing d’atelier pour distinguer ce contrôle de UNESCO_Documentation_Check et de State_Heritage_Review. Utilise le créneau confirmé et mentionne le contrôle des bains de teinture dans la description.",
+  "required_files": [
+    "atelier_contacts_aubusson.xlsx",
+    "state_requirements.xlsx",
+    "audit_note_aubusson.txt",
+    "briefing_controle_unesco_aubusson.txt"
+  ],
+  "output_files": [
+    "data/calendrier_atelier_aubusson.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendrier_atelier_aubusson.ics",
+        "summary_keywords": [
+          "Controle_Teinture_Patrimoniale"
+        ],
+        "description_keywords": [
+          "maîtres teinturiers",
+          "bains de teinture"
+        ],
+        "time_start": "2026-11-05 09:00:00",
+        "time_end": "2026-11-05 10:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendrier_atelier_aubusson.ics",
+      "change": "modify"
+    }
+  ]
+}

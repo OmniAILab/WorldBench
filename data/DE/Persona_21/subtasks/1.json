@@ -1,0 +1,28 @@
+{
+  "persona": "Leon ist Textilrestaurator am Aachener Domschatz und widmet sein Fachwissen der Erhaltung karolingischer Seidenreliquien. Er kämpft gegen die zerstörerische Wirkung mikroskopisch kleiner Pilzsporen und hält sich an die strengen Vorgaben der Denkmalpflege im Rheinland. Er gleicht nahtlos jahrzehntelange Studien zum Farbstoffabbau, Echtzeit-Klimasensordaten der Reliquiare und historische liturgische Aufzeichnungen ab, um hochspezifische, schonende Lösungsmittelverhältnisse für die Reinigung zu entwickeln.",
+  "task": "Schreibe eine E-Mail an das Ausstellungsteam des Aachener Domschatzes und fordere eine sofortige Anpassung der Beleuchtung für die betroffene Vitrine.",
+  "required_files": [
+    "denkmalschutzprotokoll.xlsx",
+    "kontakte_domschatz_aachen.xlsx",
+    "lichtschutz_hinweise_aachen.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "ausstellung@domschatz-aachen.de",
+        "keywords": [
+          "Vitrine_Karolingische_Tunika",
+          "über 50 Lux"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_ausstellung_*.eml",
+      "change": "create"
+    }
+  ]
+}

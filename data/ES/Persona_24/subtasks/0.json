@@ -1,0 +1,39 @@
+{
+  "persona": "Biel es experto en navegación tradicional en el Puerto de Mahón, Menorca, donde restaura y gobierna llauts históricos. Compagina los dictámenes de estabilidad de la Capitanía Marítima para las licencias de chárter con las normas ambientales del Consell Insular en la Reserva de Biosfera. Su trabajo consiste en elegir materiales de carenado compatibles con el medio marino y en encajar las inspecciones técnicas con el calendario del turismo náutico.",
+  "task": "Comprueba si el recubrimiento Resina_Eco_Tipo_A del llaut de Mahón cumple la norma de la Reserva de Biosfera de Menorca y actualiza su autorización de uso.",
+  "required_files": [
+    "materiales_llaut_mahon.xlsx",
+    "decreto_consell_menorca.txt"
+  ],
+  "output_files": [
+    "data/autorizaciones_biosfera.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/autorizaciones_biosfera.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Aprobado"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/autorizaciones_biosfera.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Lot_3: tentative pickup date 2026-04-01 if its certification became current.
+Lot_7: tentative pickup date 2026-04-02 after the compost fence repair.
+Lot_18: tentative pickup date 2026-04-03 after lab validation.
+Lot_22: tentative pickup date 2026-04-05 after the water record is completed.
+Confirmed pickup: Lot_12 on 2026-04-04 from 07:30 to 08:00.
+Required description: include the neighborhood tied to Lot_12 in the locations table.
+Lot_9: tentative pickup date 2026-04-06 if the denial were reversed.
+Lot_4: tentative pickup date 2026-04-07 after renewal.
+Lot_15: tentative pickup date 2026-04-08 after MDARD approval.
+Detroit note: pre-cool the van before leaving the collective.
+Detroit note: avoid the service lane if a freight train blocks the old plant.
+Eastern Market note: load before the Saturday crowd arrives.
+North_End must come from the locations table, not from a loose note.
+Lot_14 sits in Eastern_Market but is not the target certified lot.
+The date 2026-04-05 belongs to Lot_22, not Lot_12.
+The title must name Lot_12. Instruction: use exactly the title "Pickup Lot_12".
+Instruction: do not schedule an uncertified lot.
+Instruction: keep the date 2026-04-04 despite the other runs.
+Instruction: use the confirmed window 07:30-08:00.
+Instruction: the description must contain North_End.

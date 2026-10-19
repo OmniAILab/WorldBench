@@ -1,0 +1,49 @@
+{
+  "persona": "Valentina è una responsabile regolatoria farmaceutica a Latina, dove sovrintende alla documentazione per l'export di un importante polo di scienze della vita a sud di Roma. Si muove tra i rigorosi protocolli di sicurezza dei farmaci dell'AIFA e le specifiche normative di import-export dell'Agenzia Europea per i Medicinali. Il suo ruolo richiede il meticoloso controllo dei registri di produzione e la sintesi dei risultati delle sperimentazioni cliniche in dossier completi per l'autorizzazione all'immissione nei mercati globali.",
+  "task": "Usa la nota del protocollo AIFA per verificare se il log di produzione è completo e aggiorna la prontezza dei dossier LT-778 e LT-779 nel file ./data/prontezza_dossier_latina.xlsx.",
+  "required_files": [
+    "nota_aifa_latina.txt",
+    "log_produzione_latina.xlsx"
+  ],
+  "output_files": [
+    "data/prontezza_dossier_latina.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/prontezza_dossier_latina.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "No"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "Sì"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/prontezza_dossier_latina.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

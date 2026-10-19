@@ -1,0 +1,61 @@
+{
+  "persona": "Karim est restaurateur de films et projectionniste à la Cinémathèque française à Paris. Il inspecte des copies argentiques, notamment des bobines nitrate, prépare des séances patrimoniales et coordonne les accompagnements musicaux de films muets, en respectant les contraintes de conservation, de sécurité incendie et de présentation propres aux archives du cinéma.",
+  "task": "Croise l’inventaire, la grille de priorités de conservation, l’inspection d’état et le dialogue de conservation. Pour Voyage_dans_la_Lune_09, distingue le cas nitrate 7 °C avec début de décomposition des autres règles à 7 °C, puis mets à jour la priorité, l’état du support et la zone de stockage.",
+  "required_files": [
+    "inventaire_bobines_cinematheque.xlsx",
+    "regles_stockage_films.txt",
+    "inspection_nitrate_cinematheque.xlsx",
+    "dialogue_conservation_nitrate.txt"
+  ],
+  "output_files": [
+    "data/priorites_conservation.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/priorites_conservation.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Critique"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Début_de_décomposition"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Nitrate_Froid_2"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/priorites_conservation.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

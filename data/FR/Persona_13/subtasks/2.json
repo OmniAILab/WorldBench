@@ -1,0 +1,32 @@
+{
+  "persona": "Amélie est restauratrice de textiles de mode à Paris et travaille dans un atelier spécialisé du quartier du Sentier. Elle recherche des soies et des fils anciens rares, en documentant la provenance des matières et en appliquant les procédures de sécurité chimique de son atelier. Elle veille ainsi à préserver des pièces historiques de couture destinées au Musée Galliera sans contrevenir aux exigences contemporaines de durabilité.",
+  "task": "Rédige un e-mail professionnel au service de la régie des collections du Palais Galliera. Vérifie dans la feuille d’approbation que Noir_X est refusée, puis croise le plan de restauration et le dialogue pour confirmer qu’elle ne sera pas utilisée sur Robe_Galliera_1928 et que l’option retenue est Indigo_Atelier. Écarte les anciennes propositions de réintroduction de Noir_X.",
+  "required_files": [
+    "galliera_contacts.xlsx",
+    "approvals_paris_galleria.xlsx",
+    "note_email_galliera.txt",
+    "plan_restauration_paris.xlsx",
+    "dialogue_validation_galliera.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "registrar.collections@messagerie.invalid",
+        "keywords": [
+          "Noir_X",
+          "ne sera pas utilisée",
+          "Indigo_Atelier",
+          "Robe_Galliera_1928"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_registre_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "persona": "Federica è responsabile degli affari regolatori in un’azienda biofarmaceutica del polo di Latina, impegnata anche nelle esportazioni verso il Nord America. Verifica la conformità della produzione alle norme di buona fabbricazione, alle procedure di qualità applicabili e alle richieste delle autorità sanitarie dei mercati di destinazione. Controlla i registri di lotto e le condizioni della catena del freddo per preservare l’integrità dei prodotti biologici durante il trasporto.",
+  "task": "Usa i registri di produzione e la nota AIFA per aggiornare lo stato di clearance del lotto biologico destinato alla filiera globale.",
+  "required_files": [
+    "note_aifa_biologici.txt",
+    "registri_lotti_latina.xlsx"
+  ],
+  "output_files": [
+    "data/protocolli_aifa_latina.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/protocolli_aifa_latina.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "autorizzato"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/protocolli_aifa_latina.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

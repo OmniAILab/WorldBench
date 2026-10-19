@@ -1,0 +1,31 @@
+{
+  "persona": "Elara ist Schiffbauingenieurin in einem Überführungsprojekt der Meyer Werft in Papenburg. Sie bewertet Wasserstandsprognosen, Tiefgang und Kielfreiheit bei der Fahrt über die Ems und stimmt technische Entscheidungen mit der Überführungsplanung ab. Die Freigabe einer Passage setzt aktuelle Betriebsdaten und die erforderlichen Abstimmungen am Emssperrwerk voraus.",
+  "task": "Übertrage den für den 22. Oktober 2026 bestätigten internen Planungstermin des Emssperrwerks in den Werftkalender. Erhalte bestehende Einträge und kennzeichne die erforderliche externe Abstimmung vor dem tatsächlichen Einsatz.",
+  "required_files": [
+    "mitteilung_wasserstrassenbehoerde.txt"
+  ],
+  "output_files": [
+    "data/werftkalender.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/werftkalender.ics",
+        "summary_keywords": [
+          "Emssperrwerk im Einsatz"
+        ],
+        "description_keywords": [
+          "Papenburg"
+        ],
+        "date": "2026-10-22"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/werftkalender.ics",
+      "change": "modify"
+    }
+  ]
+}

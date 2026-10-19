@@ -1,0 +1,4 @@
+Amandine : Le financement de JAC-REST-19 relève-t-il du fonds interne de restauration ?
+Gestionnaire : Oui, le programme de numérisation et le dossier archivé ne correspondent pas à cette intervention.
+Responsable : Pour JAC-REST-19, la ligne active est Fonds_interne_patrimoine_Jacquard.
+Technicien : Je récupère donc sa date dans le tableau des subventions et j’écris au service financier du patrimoine.

@@ -1,0 +1,8 @@
+Rémy : Quelle cotation faut-il comparer au Wheat_Export_Trigger ?
+Claire : La clôture du 1er avril 2026 pour le blé tendre export : 218,50 €/t.
+Rémy : Le seuil principal est Drop_Below_220_Euros.
+Claire : Oui. 218,50 est inférieur à 220, le seuil est donc franchi.
+Marc : Wheat_Export_Warning à 225 euros n’est qu’un avertissement secondaire.
+Claire : Exact.
+Rémy : Et le seuil 2024 ne doit pas être utilisé.
+Claire : Correct.

@@ -1,0 +1,12 @@
+Registo de acompanhamento dos cascos — cave de Vila Nova de Gaia. As percentagens referem-se à perda acumulada por evaporação, não a uma previsão de preço de leilão.
+Para os vinhos de 1985, usar a ficha de evaporação apenas como referência histórica.
+Para os vinhos de 1997, confirmar o lote antes de rever a estimativa.
+Para os vinhos de 1982, verificar o nível do casco antes de registar o valor.
+Para os vinhos de 1991, rever o estado da rolha antes da avaliação.
+Para o Porto Colheita 1994, copiar a métrica de evaporação registada para o campo de perda acumulada por evaporação.
+Para os vinhos de 2001, utilizar a prova de cave do mês anterior.
+Para os vinhos de 2005, manter o registo de mercado sem alterações.
+Para os vinhos de 2011, não usar a evaporação como preço de reserva.
+Para os vinhos de 2004, aguardar a próxima ronda de propostas.
+Para o 1994_Vintage, registar a evaporação apenas após confirmação do mestre de cave.
+Para o 1993_Tawny, aguardar a próxima leitura antes de copiar a taxa.

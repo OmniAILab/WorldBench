@@ -1,0 +1,28 @@
+{
+  "persona": "Adelfa es líder comunitaria y artesana en el Sacromonte, en Granada, especializada en la tradición de la zambra gitana y en la gestión de las casas-cueva del barrio. Compagina el Plan Especial de Protección del Sacromonte, que limita el aforo de las cuevas en obras de consolidación, con las convocatorias municipales de ayuda a la conservación del flamenco. Su trabajo consiste en ajustar la capacidad turística de cada cueva y en coordinar a la cooperativa de artistas del barrio.",
+  "task": "Escribe un correo electrónico a la cooperativa de artistas del Sacromonte para recordar la fecha límite de la ayuda municipal destinada a la conservación del flamenco.",
+  "required_files": [
+    "convocatorias_ayuda_granada.xlsx",
+    "contactos_artistas_sacromonte.xlsx",
+    "indicaciones_correo_ayudas_sacromonte.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "artistas@sacromonte.es",
+        "keywords": [
+          "Conservación_del_Flamenco",
+          "30 de agosto de 2026"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_artistas_*.eml",
+      "change": "create"
+    }
+  ]
+}

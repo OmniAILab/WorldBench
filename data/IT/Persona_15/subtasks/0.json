@@ -1,0 +1,39 @@
+{
+  "persona": "Antonio è un referente per il patrimonio civico a Napoli e lavora per la Soprintendenza Archeologia Belle Arti e Paesaggio per gestire l'intersezione tra l'espansione della metropolitana e la tutela delle rovine greco-romane. Si muove tra le complessità burocratiche del Piano Regolatore Generale supervisionando le squadre archeologiche che operano a fianco delle imprese di costruzione della Linea 6 della metropolitana. Il suo lavoro comprende il meticoloso esame delle mappe stratigrafiche e la mediazione tra le moderne esigenze di trasporto della città e la protezione del patrimonio sotterraneo napoletano.",
+  "task": "Usa l'indice della mappa stratigrafica per individuare il livello con materiale greco-romano e aggiorna la priorità di scavo nella riga M6-T1 del file ./data/trincea_napoli.xlsx.",
+  "required_files": [
+    "note_stratigrafia_napoli.txt",
+    "strati_napoli.xlsx"
+  ],
+  "output_files": [
+    "data/trincea_napoli.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/trincea_napoli.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "L2"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/trincea_napoli.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

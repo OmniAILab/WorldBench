@@ -1,0 +1,22 @@
+Analyst: The North Shore winter swell has driven energy up on several segments.
+Manager: The ranking has to come from the index, not from how popular the surf break is.
+Analyst: NorthShore_B has the highest index.
+Manager: So that is the High priority.
+Analyst: NorthShore_P has a surf contest permit.
+Manager: That does not make it an erosion priority.
+Analyst: NorthShore_V has a cultural monitor request.
+Manager: Keep that constraint separate.
+Analyst: The turtle nesting markings stay protected.
+Manager: Yes, but they do not replace the energy index.
+Analyst: The dunes shifted after the last swell.
+Manager: Note that in the observation, not in the priority cell.
+Analyst: Lifeguard access is separate as well.
+Manager: Correct.
+Analyst: I am confirming the segment really is NorthShore_B.
+Manager: It is.
+Analyst: And I am not confusing tradewinds with long-period swell.
+Manager: Perfect.
+Analyst: I am leaving the other statuses unchanged unless asked.
+Manager: That is the right scope.
+Local context: the North Shore of Oahu takes powerful winter swells that should not be confused with the daily tradewinds.
+Heritage: shoreline work must account for cultural sites and documented traditional burials.

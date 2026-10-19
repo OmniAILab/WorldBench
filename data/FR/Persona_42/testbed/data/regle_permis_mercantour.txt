@@ -1,0 +1,20 @@
+Les références MER-2026 sont des autorisations enregistrées par le gestionnaire du pâturage concerné, sous réserve de leur correspondance avec le terrain et la campagne en cours. Leur préfixe n’établit aucune compétence générale de l’ONF.
+Les permis ALP concernent les études de terrain.
+Les permis de 2024 sont archivés.
+Les autorisations transfrontalières suivent une autre procédure.
+Les permis PARC ne valent pas autorisation de pâturage.
+Les permis MER-2025 sont expirés pour cette campagne.
+Les zones forestières nécessitent un contrôle supplémentaire.
+Les passages de véhicules ne sont pas couverts par le permis pastoral.
+La zone demandée doit correspondre exactement au registre.
+Une autorisation MER-2026 correspondant à la zone de pâturage et à la campagne active autorise l’accès pastoral pour le terrain concerné.
+Le numéro doit être vérifié dans le registre du gestionnaire pastoral.
+La présence du loup ne modifie pas le statut administratif.
+Les prévisions météo sont traitées séparément.
+Les dates de montée sont inscrites dans le calendrier pastoral.
+Seule la ligne Col_de_la_Bonette doit être mise à jour.
+Ne pas recopier le numéro du permis dans la colonne de statut.
+Le statut attendu doit être saisi sans phrase supplémentaire.
+Les autres zones doivent rester inchangées.
+Les permis MER-2026 de la Braisse sont valides pour la campagne en cours.
+Un permis ALP-2026 obtenu tardivement n’autorise pas le pâturage immédiat.

@@ -1,0 +1,28 @@
+{
+  "persona": "Maya is the founder of a social enterprise in Peckham, London, repurposing surplus textiles into affordable community uniforms. She maintains supplier sheets, sewing collective updates, market cost notes, and grant paperwork.",
+  "task": "Write a friendly financial update email to the Peckham sewing collectives about the Rye Lane stall vendor fee, using the market-cost bulletin and the community-uniform tone.",
+  "required_files": [
+    "peckham_bulletin.xlsx",
+    "collective_contacts_peckham.xlsx",
+    "email_templates_maya.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "collectives@peckhamsews.uk",
+        "keywords": [
+          "£45_Per_Day",
+          "Rye_Lane_Stall"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_collectives_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "persona": "Dieter arbeitet als Geotechniker in einem Essener Projekt zur Nutzung ehemaliger Bergbauinfrastruktur für Geothermie. Er vergleicht aktuelle Messungen mit historischen Bestandsunterlagen und den projektspezifischen Sicherheitsbewertungen. Dabei muss er zwischen prüfbedürftigen Auffälligkeiten und freigegebenen Massnahmen unterscheiden.",
+  "task": "Gleiche den aktuellen Grubenwasserbefund in Essen mit den Messstellen, den regionalen Wasserhinweisen und den abweichenden Betriebsnotizen ab. Ermittle den im Projekt für eine Meldung vorgesehenen Messort sowie die bestätigte Belastung und schreibe ausschließlich an die im Projekt hinterlegte Grubenwasseraufsicht eine E-Mail mit beiden Angaben.",
+  "required_files": [
+    "grubenwasserbefund.xlsx",
+    "kontakte_umwelt_nrw.xlsx",
+    "grubenwasserhinweise_essen.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "grubenwasser@umwelt.nrw.de",
+        "keywords": [
+          "Sohle_7_Pumpstation",
+          "erhöhte Eisen-Sulfat-Belastung"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_grubenwasser_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "persona": "梅在昆明庞大的斗南花卉市场经营一个繁忙的花摊。她把兰花装进带冰袋的泡沫箱里，以便它们能经受跨省运输，希望云南多变的天气不要毁掉这批花。",
+  "task": "把斗南市场种植实践、兰花来源台账和出口认证交班对话整理成正式 DOCX 清单。清单必须体现斗南作为云南鲜花集散场景下的可追溯要求：避免野生资源枯竭、记录高海拔来源地块、减少农药漂移，并保留每批兰花来源记录；同时明确只接受人工栽培来源，不把游客采购、鲜花饼或冷链冰袋当成生态认证条目。",
+  "required_files": [
+    "coop_practices_kunming.txt",
+    "orchid_origin_kunming.xlsx",
+    "dialogue_export_certification_kunming.txt"
+  ],
+  "output_files": [
+    "data/biodiversity_checklist.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/biodiversity_checklist.docx",
+        "keywords": [
+          "斗南花卉市场",
+          "云南",
+          "人工栽培",
+          "避免野生资源枯竭",
+          "高海拔来源地块",
+          "减少农药漂移",
+          "每批兰花来源记录"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/biodiversity_checklist.docx",
+      "change": "modify"
+    }
+  ]
+}

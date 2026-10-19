@@ -1,0 +1,20 @@
+{
+  "persona": "Teresa é de Moura e dirige há quinze anos uma cooperativa de olivicultores no Alentejo. Acompanha as leituras de humidade das parcelas, distribui os turnos de rega previstos no plano interno da cooperativa para a campanha do Alqueva e supervisiona a qualidade e a rastreabilidade do azeite.",
+  "task": "Extrai a data da reunião de planeamento de emergência da rega e acrescenta ao calendário da direção da cooperativa um evento com esse mesmo título.",
+  "required_files": [
+    "alqueva_allowance.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "ics",
+        "file": "./data/director_calendar_moura.ics",
+        "keywords": [
+          "Reunião de planeamento de emergência da rega",
+          "20260701"
+        ]
+      }
+    }
+  ]
+}

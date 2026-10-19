@@ -1,0 +1,24 @@
+Policy analyst: Which developer needs the missing-document email today?
+Filing coordinator: The current project is Boulder_Canyon_Wind.
+Policy analyst: I see a Phase 1 contact and an operations contact with similar names.
+Filing coordinator: Those entries refer to other project phases or contacts. Use the exact project contact from the developer sheet.
+Policy analyst: The filing log has several interconnection-related documents.
+Filing coordinator: Match the current project row. Do not substitute a draft from another project.
+Policy analyst: The Rocky Mountain grid team circulated a regional appendix this morning.
+Filing coordinator: Useful background, but it is not the missing project filing.
+Policy analyst: Should the email ask for a new study or the missing item already named in the log?
+Filing coordinator: Request the missing item exactly as listed.
+Policy analyst: Xcel's queue discussion included a different feeder study yesterday.
+Filing coordinator: Separate proceeding.
+Policy analyst: Boulder Canyon roadwork might delay a field visit.
+Filing coordinator: That does not change the filing deficiency.
+Policy analyst: There are also wildfire and avian documents in the log.
+Filing coordinator: Different projects.
+Policy analyst: The message should stay concise and regulatory in tone?
+Filing coordinator: Yes.
+Policy analyst: No need to include the entire filing history?
+Filing coordinator: Correct.
+Policy analyst: Exact project, exact missing document, exact developer address.
+Filing coordinator: Exactly.
+Policy analyst: I will avoid using a similarly named Phase 1 project.
+Filing coordinator: Good.

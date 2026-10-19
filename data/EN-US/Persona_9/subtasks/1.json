@@ -1,0 +1,29 @@
+{
+  "persona": "Wyatt is an alpine safety officer at a major ski resort near Denver, Colorado, responsible for avalanche mitigation and slope stability across several high-altitude peaks. He manages the reporting requirements of the U.S. Forest Service and the Colorado Avalanche Information Center, documenting snowpack data and coordination efforts for controlled detonations to ensure that the recreational areas remain safe for the public while adhering to federal land-use permits.",
+  "task": "Insert the U.S. Forest Service permit condition line into the controlled detonation plan document.",
+  "required_files": [
+    "usfs_notice_denver.txt"
+  ],
+  "output_files": [
+    "data/detonation_plan.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/detonation_plan.docx",
+        "keywords": [
+          "USFS",
+          "detonation times and locations"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/detonation_plan.docx",
+      "change": "modify"
+    }
+  ]
+}

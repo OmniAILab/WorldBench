@@ -1,0 +1,31 @@
+{
+  "persona": "振在苏州经营一家小型传统缂丝织造作坊。他要应对要求严苛的时装客户、难处理的天然染料和本地环保检查员，同时在运河边喝着碧螺春绿茶。",
+  "task": "根据生态检查表，找到不合格染料批次，并给对应织工合作社写一封暂停使用邮件。",
+  "required_files": [
+    "ecology_inspection_jiangsu.xlsx",
+    "weaver_contacts_suzhou.xlsx",
+    "pause_note_suzhou.txt",
+    "dialogue_suzhou_dye_pause.txt",
+    "local_context_suzhou_dye_pause.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "taihu.weavers@suzhou-kesi.cn",
+        "keywords": [
+          "Dye_Red_44",
+          "Failed_Toxicity",
+          "暂停使用"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_taihu.weavers_*.eml",
+      "change": "create"
+    }
+  ]
+}

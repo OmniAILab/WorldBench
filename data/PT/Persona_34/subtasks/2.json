@@ -1,0 +1,19 @@
+{
+  "persona": "Rodrigo é arqueólogo subaquático, natural da ilha Terceira, e trabalha no património marítimo da Baía de Angra. Estuda vestígios de naufrágios dos séculos XVI e XVII, relaciona transcrições de manifestos históricos com levantamentos de sonar e prepara operações de mergulho sujeitas a condições de mar e autorizações patrimoniais.",
+  "task": "A partir da transcrição de trabalho do manifesto atribuído ao sítio de inventário GA-SJ-01, identifica a linha que refere as barras de prata e os astrolábios e regista-a na secção «Achados esperados» do registo da Baía de Angra como indício documental não confirmado por escavação.",
+  "required_files": [
+    "national_archives_translation.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/artifact_registry.docx",
+        "keywords": [
+          "O manifesto em estudo refere 50 lingotes de prata e 2 astrolábios como possíveis achados, ainda não confirmados"
+        ]
+      }
+    }
+  ]
+}

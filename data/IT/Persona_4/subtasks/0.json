@@ -1,0 +1,38 @@
+{
+  "persona": "Giuseppe è un autista NCC con licenza, con sede a Napoli, che offre servizi di trasporto di alta gamma lungo la Costiera Amalfitana. Affronta il traffico imprevedibile della strada statale SS163 e le regolamentazioni stagionali sulle targhe alterne pensate per ridurre la congestione. Si occupa spesso dei rompicapi logistici legati al coordinamento dei prelievi tra l'aeroporto di Capodichino e i terminal dei traghetti di Molo Beverello, assicurando che i clienti internazionali raggiungano le loro destinazioni nonostante le chiusure stradali localizzate e gli ingorghi estivi.",
+  "task": "Usa la regola delle targhe alterne per stabilire se il veicolo del viaggio AM-19 può accedere nel giorno indicato e aggiorna lo stato del viaggio nel file ./data/viaggi_napoli.xlsx.",
+  "required_files": [
+    "targhe_napoli.txt"
+  ],
+  "output_files": [
+    "data/viaggi_napoli.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/viaggi_napoli.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 4,
+            "value": "No"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/viaggi_napoli.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Procedure: a simple gust with the runway open does not ground the whole fleet.
+Procedure: a localized low ceiling can trigger a sector delay, not a general block.
+Procedure: light freezing drizzle requires a reassessment before departure.
+Procedure: a local blowing-snow advisory may close only the destination concerned.
+Procedure: severe whiteout conditions trigger a Fleet Grounding Block for the bush fleet.
+Procedure: isolated reduced visibility can be handled with a local hold.
+Procedure: runway icing is handled through runway status and allowable load.
+Procedure: coastal winds are assessed by destination.
+Procedure: marine fog does not automatically ground the whole fleet.
+Procedure: ground frost without a visibility restriction stays a local risk.
+Procedure: snow squalls can close one particular air route.
+Procedure: coastal fog at Yakutat is not a general trigger.
+Procedure: a crosswind warning at Cold Bay stays specific to that field.
+Procedure: blowing snow at Point Hope calls for a runway review.
+Procedure: ice fog around Anchorage can lead to a separate dispatch decision.
+Procedure: any general grounding must be added to the flight calendar.
+Procedure: the standard title for the general event is Fleet Grounding Block.
+Procedure: use the date of the weather alert that triggers the whiteout.
+Procedure: do not reuse a date from an earlier alert.
+Procedure: do not create a general block for a simple snow-clearing delay.
+Procedure: Alaska DOT dispatch remains the source of the date.
+Procedure: leave the other calendar operations intact.

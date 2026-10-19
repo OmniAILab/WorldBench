@@ -1,0 +1,39 @@
+{
+  "persona": "Finn betreut die Nährstoff- und Klimatechnik einer vertikalen Kräuterproduktion im Hamburger St.-Pauli-Bunker. Er dokumentiert Sensorwerte, beurteilt Risiken für Basilikum und andere Kulturen und aktualisiert die betrieblichen Anbau- und Erntepläne. Aussagen über eine EU-Öko-Zertifizierung müssen gesondert nachgewiesen werden.",
+  "task": "Gleiche die Nährstoffwarnungen der hydroponischen Anlage im St.-Pauli-Bunker mit den Ertragsprognosen, den zonenspezifischen Klimahinweisen und älteren Betriebsnotizen ab. Bestimme die tatsächlich betroffene Kulturzone und aktualisiere ausschließlich deren Ernterisiko mit der verbindlich bestätigten Nährstoffwarnung.",
+  "required_files": [
+    "duengeprotokoll.xlsx",
+    "naehrstoffhinweise_bunkerfarm.txt"
+  ],
+  "output_files": [
+    "data/ertragsprognosen.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/ertragsprognosen.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Risiko_Kalziumblockade"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/ertragsprognosen.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

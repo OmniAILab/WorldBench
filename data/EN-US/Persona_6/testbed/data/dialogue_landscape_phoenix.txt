@@ -1,0 +1,20 @@
+Joaquín: I am not just looking for heat-tolerant plants.
+Landscape architect: We also need Native_Status = Yes.
+Joaquín: And approval for HeatIsland_Park_A.
+Landscape architect: Exactly.
+Joaquín: Palo_Verde meets all three criteria.
+Landscape architect: Yes.
+Joaquín: Desert_Marigold does as well.
+Landscape architect: Yes.
+Joaquín: A High species that is not native would be excluded.
+Landscape architect: Yes.
+Joaquín: And so would a native species not approved for this project.
+Landscape architect: Correct.
+Joaquín: Monsoon bloom and color are not selection criteria.
+Landscape architect: No.
+Joaquín: The irrigation budget is covered in the park plan.
+Landscape architect: Separate.
+Joaquín: I am keeping the underscores in the names.
+Landscape architect: That is better for the review.
+Joaquín: The document must name HeatIsland_Park_A.
+Landscape architect: And only the selected plants.

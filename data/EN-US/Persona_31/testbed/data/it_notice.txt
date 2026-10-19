@@ -1,0 +1,23 @@
+IT notice: image server offline on 2026-03-29 for patching.
+Digital lab note: OCR queue paused on 2026-04-02.
+Repository note: metadata export window scheduled for 2026-04-08.
+Network note: reading room Wi-Fi upgrade scheduled for 2026-04-10.
+Backup note: checksum audit scheduled for 2026-04-11.
+IT department notice: Server offline on 2026-04-12 for maintenance.
+Scanner note: overhead scanner calibration scheduled for 2026-04-13.
+Archives note: fragile Civil War boxes moved on 2026-04-15.
+Grant note: preservation team call scheduled for 2026-04-17.
+Public access note: database search test scheduled for 2026-04-19.
+Richmond note: downtown street closure may affect staff on 2026-04-20.
+Collection note: genealogical ledger intake scheduled for 2026-04-22.
+Metadata note: Library of Virginia authority file update scheduled for 2026-04-24.
+Climate note: humidity alarm test scheduled for 2026-04-25.
+Security note: badge reader maintenance scheduled for 2026-04-26.
+Storage note: offsite box pickup scheduled for 2026-04-27.
+Training note: digitization intern session scheduled for 2026-04-28.
+Equipment note: replacement light table bulbs arrive on 2026-04-29.
+IT note: a storage-array health check is planned for 2026-04-12 after the maintenance window.
+Archives note: the reading-room catalog remains available during the image server outage.
+Digitization note: scanning work that depends on server ingest must pause during the offline window.
+Library of Virginia note: local workstation cleanup is not a substitute for the server maintenance blackout.
+Calendar note: the standardized title for the requested entry is Archiving Blackout Block; add only that block and do not cancel unrelated archival events.

@@ -1,0 +1,41 @@
+{
+  "persona": "妍在上海南京路一家光鲜商场的市场办公室工作。她追踪哪些入口客流量最大，以便布置 AR 广告屏，同时喝着价格虚高的冰美式。",
+  "task": "根据客流量数据，选择最繁忙的非员工区域，并把它写入商场布局电子表格的主推位置。",
+  "required_files": [
+    "heatmap_shanghai.xlsx",
+    "layout_rule_shanghai.txt",
+    "dialogue_shanghai_layout.txt",
+    "shanghai_zone_registry.xlsx"
+  ],
+  "output_files": [
+    "data/layout_shanghai.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/layout_shanghai.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Level1_Atrium"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/layout_shanghai.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

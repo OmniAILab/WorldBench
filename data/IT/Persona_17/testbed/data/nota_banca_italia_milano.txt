@@ -1,0 +1,19 @@
+Promemoria Banca d'Italia: includere solo il nome del modello non basta.
+Nota report: la sezione ricavi non è richiesta dal requisito trasparenza.
+Appunto fintech: il logo della startup non deve diventare heading.
+Promemoria dati: usare 'dataset' senza fonti non è sufficiente.
+Nota compliance: audit interno non sostituisce supervisione umana.
+Circolare Vigilanza Bankitalia: I prospetti informativi legati al fintech devono palesare agli ispettori tre capitoli inderogabili: le finalità di business dell'algoritmo, i serbatoi informativi impiegati per l'addestramento e il perimetro di interruttore lasciato all'operatore in carne ed ossa.
+Appunto Porta Nuova: non inserire mappa uffici nel template.
+Promemoria AI Act: categoria rischio è in tracker, non nel template base.
+Nota vecchia: il modello 2024 aveva heading Privacy, ma la nota corrente no.
+Appunto tecnico: non usare acronimi non spiegati nei titoli.
+Promemoria report: gli heading devono essere presenti nel documento.
+Nota legale: finalità commerciale non equivale a scopo del modello.
+Appunto Banca: fonti dati e supervisione umana sono requisiti separati.
+Promemoria cliente: non includere nomi di utenti o casi individuali.
+Nota template: il documento deve essere breve e riutilizzabile.
+Appunto revisione: non sostituire Supervisione_umana con Automazione_totale.
+Promemoria file: mantenere i titoli coerenti con la nota.
+Promemoria layout: la scelta del font del template è una preferenza grafica e non un requisito di trasparenza.
+Appunto archivio: la versione precedente del documento resta consultabile, ma non definisce le intestazioni correnti.

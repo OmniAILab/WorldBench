@@ -1,0 +1,12 @@
+Centro operacional do Entroncamento — circular de encaminhamento de mercadorias. Aplicar os tempos de retenção indicados antes da autorização do posto de sinalização.
+A rota Sines_Entroncamento_Cargo deve aguardar 20 minutos antes da entrada no eixo principal.
+A rota Setúbal_Palmela_Cargo deve aguardar 25 minutos antes da janela de mercadorias.
+A rota Guarda_Aveiro_Cargo deve aguardar 35 minutos antes de seguir.
+A rota Lisboa_Sines_Cargo deve aguardar 10 minutos após a passagem de passageiros.
+A rota Mercadorias Lisboa–Porto (serviço MLP-045) deve aguardar 45 minutos antes de atravessar o nó ferroviário do Entroncamento.
+A rota Porto_Braga_Cargo deve aguardar 20 minutos na zona de carga.
+A rota Vilar_Formoso_Aveiro_Cargo deve aguardar 25 minutos junto ao posto.
+A rota Leixões_Gaia_Cargo deve aguardar 10 minutos antes do cais.
+A rota Faro_Tunes_Cargo deve aguardar 30 minutos na zona de resguardo.
+A rota Coimbra_Porto_Cargo deve aguardar 45 minutos no posto técnico antes do desvio.
+A rota Lisboa_Porto_Regional deve aguardar 40 minutos antes de atravessar o nó ferroviário do Entroncamento.

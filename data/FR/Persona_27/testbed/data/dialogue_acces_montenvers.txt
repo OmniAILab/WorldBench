@@ -1,0 +1,8 @@
+Aurore : Crevasse_Montenvers_09 est mesurée à 6,9 cm/jour ?
+Responsable liaison de secours : Oui, cela correspond à Très_prudent.
+Aurore : Le bulletin demande en plus un contrôle toutes les deux heures.
+Responsable liaison de secours : Exact.
+Aurore : Je renseigne l’état, 6,9_cm_jour et Toutes_les_2h.
+Responsable liaison de secours : Oui.
+Aurore : Je conserve le relevé de déplacement de la balise 09 et le passage toutes les deux heures.
+Responsable de terrain : L’appréciation d’accès est celle de notre équipe ; un déclenchement de secours resterait traité avec les organismes compétents.

@@ -1,0 +1,9 @@
+Cidrerie — durées indicatives du protocole de fermentation interne, selon la mesure °Brix. Ces durées ne découlent pas directement du cahier des charges de l’AOP.
+12 Brix : fermentation de 16 jours.
+13 Brix : fermentation de 18 jours.
+15 Brix : fermentation de 24 jours.
+16 Brix : fermentation de 27 jours.
+17 Brix : fermentation de 30 jours.
+14 Brix : fermentation de 21 jours.
+13,5 Brix : fermentation de 19 jours.
+14,5 Brix : fermentation de 22 jours.

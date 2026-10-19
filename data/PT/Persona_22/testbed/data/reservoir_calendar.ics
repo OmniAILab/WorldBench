@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Centro de Exploração do Zêzere//Agenda da Albufeira de Castelo do Bode//PT
+BEGIN:VEVENT
+UID:cb-ops-20260621-0800@operacoes-castelodobode.pt
+DTSTAMP:20260615T080000Z
+DTSTART;TZID=Europe/Lisbon:20260621T080000
+DTEND;TZID=Europe/Lisbon:20260621T090000
+SUMMARY:Conferência de cotas e caudais do turno da manhã
+DESCRIPTION:Verificação das leituras limnimétricas da albufeira e do caudal ecológico lançado a jusante.
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-ops-20260621-1030@operacoes-castelodobode.pt
+DTSTAMP:20260615T080000Z
+DTSTART;TZID=Europe/Lisbon:20260621T103000
+DTEND;TZID=Europe/Lisbon:20260621T113000
+SUMMARY:Inspeção técnica da comporta norte
+DESCRIPTION:Vistoria das guias e atuadores hidráulicos com a equipa de manutenção mecânica.
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-ops-20260621-1430@operacoes-castelodobode.pt
+DTSTAMP:20260615T080000Z
+DTSTART;TZID=Europe/Lisbon:20260621T143000
+DTEND;TZID=Europe/Lisbon:20260621T153000
+SUMMARY:Reunião de articulação com a equipa ambiental
+DESCRIPTION:Análise dos registos de monitorização no troço de Constância.
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-ops-20260621-1730@operacoes-castelodobode.pt
+DTSTAMP:20260615T080000Z
+DTSTART;TZID=Europe/Lisbon:20260621T173000
+DTEND;TZID=Europe/Lisbon:20260621T181500
+SUMMARY:Fecho do boletim diário de exploração
+DESCRIPTION:Consolidação dos volumes turbinados e validação das reservas para o pico noturno.
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-ops-20260622-0745@operacoes-castelodobode.pt
+DTSTAMP:20260615T080000Z
+DTSTART;TZID=Europe/Lisbon:20260622T074500
+DTEND;TZID=Europe/Lisbon:20260622T081500
+SUMMARY:Verificação térmica da Turbina 3
+DESCRIPTION:Avaliação complementar do perfil térmico das chumaceiras antes dos ensaios de rendimento.
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-ops-20260623-0900@operacoes-castelodobode.pt
+DTSTAMP:20260615T080000Z
+DTSTART;TZID=Europe/Lisbon:20260623T090000
+DTEND;TZID=Europe/Lisbon:20260623T093000
+SUMMARY:Análise operacional da Turbina 2
+DESCRIPTION:Revisão de desempenho da unidade adjacente após intervenção programada.
+END:VEVENT
+END:VCALENDAR

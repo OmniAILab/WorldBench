@@ -1,0 +1,21 @@
+Via_Nazionale con schema Slow_Yellow: stato percorso prudenza.
+Via_dei_Fori_Imperiali con schema Tourist_Dense: stato percorso monitorare.
+Via_del_Corso con schema Clear_Morning: stato percorso disponibile solo prima delle 07:00.
+Via_Genova con schema Depot_Clear: stato percorso partenza.
+Via_Frattina con schema Narrow_Blue: stato percorso auto_leggera.
+Corso_Vittorio con schema Moderate: stato percorso alternativo.
+Protocollo Interventi VVF: Le autopompe di prima partenza non devono mai essere incanalate nelle arterie congestionate e contrassegnate dalla Polizia Locale come zone rosse impraticabili.
+Via_del_Tritone con schema Slow_Yellow: stato percorso prudenza.
+Via_Babuino con schema Pedestrian_Event: stato percorso chiuso_evento.
+Via_del_Corso_Archivio con schema Impassable_Red_Zone: stato percorso storico.
+Via_Sistina con schema Narrow: stato percorso scala_piccola.
+Piazza_Venezia con schema Crowd_Orange: stato percorso coordinare.
+Via_Merulana con schema Clear: stato percorso disponibile.
+Via_Condotti con schema Protected_Area: stato percorso evitare_scala.
+Via_Giulia con schema Cobblestone: stato percorso valutare_peso.
+Via_Quattro_Fontane con schema Slope: stato percorso cautela.
+Via_del_Plebiscito con schema Bus_Lane: stato percorso autorizzazione.
+Via_Veneto con schema Slow_Yellow: stato percorso prudenza.
+Via_Cavour con schema Moderate: stato percorso alternativo.
+Via_Panisperna con schema Narrow_Cobblestone: stato percorso mezzo_leggero.
+Via_Torino con schema Moderate_Clear: stato percorso alternativo.

@@ -1,0 +1,28 @@
+{
+  "persona": "Callum works as a port operations manager at the Liverpool2 deep-water terminal. He updates berth plans, movement logs, safety briefings, customs emails, and shift calendars around tides, Freeport movements, and HSE protocols.",
+  "task": "Write an email to Liverpool2 customs coordination warning that Atlantic high winds may create a border-check delay risk.",
+  "required_files": [
+    "weather_risk_notice.txt",
+    "customs_contacts.xlsx",
+    "email_templates_liverpool.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "customs@liverpool2.uk",
+        "keywords": [
+          "high winds",
+          "border-check"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_customs_*.eml",
+      "change": "create"
+    }
+  ]
+}

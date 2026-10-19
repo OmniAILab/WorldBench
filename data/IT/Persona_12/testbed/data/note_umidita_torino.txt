@@ -1,0 +1,19 @@
+Promemoria satellite: Z_A ha indice 0.42 e quindi non è la più secca.
+Nota manutenzione: Z_C è vicina alla passerella, ma il suo indice non è il minimo.
+Appunto sensore: un valore più alto indica più umidità, non maggiore urgenza.
+Promemoria irrigazione: la zona Z_D non è validata nel rilievo settimanale.
+Nota Comune: non usare il numero di alberi per scegliere la priorità.
+Linee guida agronomo cittadino: Le autobotti vanno dirottate con massima urgenza nel quadrante cittadino che, stando al report satellitare odierno, mostra il grado di aridità più grave in assoluto.
+Appunto caldo: l'isola di calore del centro non è nel foglio umidità.
+Regola di convalida dati: Il sistema non elabora descrizioni discorsive o nomi propri; la cella delle priorità accetta unicamente le sigle alfanumeriche della mappatura urbanistica.
+Nota vivaio: la squadra ha preferito Z_A, ma la tabella non lo conferma.
+Appunto storico: nel 2025 la zona critica era Z_C.
+Promemoria registro: non scrivere 'zona centrale' nel campo Priority_Zone.
+Nota meteo: il temporale previsto non cambia l'indice già registrato.
+Appunto tecnico: 0.37 è medio e non supera l'urgenza del minimo.
+Promemoria squadra: non aggiornare settimane diverse da 2026-W14.
+Nota sensore: una lettura mancante non deve essere inventata.
+Appunto parco: la zona vicino al vecchio stabilimento FIAT non è un codice valido.
+Promemoria annaffiatura: la quantità d'acqua è gestita in un altro foglio.
+Promemoria sensori: il sensore Z_E è in calibrazione e la sua lettura non entra nel confronto settimanale.
+Appunto manto: il taglio dell'erba nei viali è programmato a parte e non modifica gli indici registrati.

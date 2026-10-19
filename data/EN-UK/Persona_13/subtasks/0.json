@@ -1,0 +1,38 @@
+{
+  "persona": "Sunita is a strategic urban designer in Birmingham working on the Big City Plan and the Curzon Street area. She updates design scores, corridor flags, briefing documents, workshop emails, and site-walk calendar notes.",
+  "task": "Use the environmental cooling target note to update the Curzon_Street design score with the required Celsius reduction.",
+  "required_files": [
+    "cooling_notice.txt"
+  ],
+  "output_files": [
+    "data/design_scores_birmingham.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/design_scores_birmingham.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": 3
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/design_scores_birmingham.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

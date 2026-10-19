@@ -1,0 +1,30 @@
+{
+  "persona": "Biel es experto en navegación tradicional en el Puerto de Mahón, Menorca, donde restaura y gobierna llauts históricos. Compagina los dictámenes de estabilidad de la Capitanía Marítima para las licencias de chárter con las normas ambientales del Consell Insular en la Reserva de Biosfera. Su trabajo consiste en elegir materiales de carenado compatibles con el medio marino y en encajar las inspecciones técnicas con el calendario del turismo náutico.",
+  "task": "Añade al documento de seguridad para visitantes del puerto de Mahón el límite máximo de pasajeros autorizado para un llaut histórico.",
+  "required_files": [
+    "despacho_capitania_mahon.txt"
+  ],
+  "output_files": [
+    "data/documento_seguridad_visitantes.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/documento_seguridad_visitantes.docx",
+        "keywords": [
+          "Puerto de Mahón",
+          "llaut histórico",
+          "máximo de 6 pasajeros"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/documento_seguridad_visitantes.docx",
+      "change": "modify"
+    }
+  ]
+}

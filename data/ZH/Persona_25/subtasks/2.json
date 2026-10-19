@@ -1,0 +1,30 @@
+{
+  "persona": "志明是深圳前海一家金融科技初创公司里压力很大的 IT 人员。他靠能量饮料续命，不停监控数字支付服务器延迟，并抱怨离谱的房租。",
+  "task": "使用 Cross_Border_Data 审计截止日期，在日历中添加名为“最终漏洞扫描”的事件。",
+  "required_files": [
+    "gba_compliance.xlsx",
+    "qianhai_audit_matrix.xlsx"
+  ],
+  "output_files": [
+    "data/architect_schedule.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/architect_schedule.ics",
+        "summary_keywords": [
+          "最终漏洞扫描"
+        ],
+        "description_keywords": [],
+        "date": "2026-09-20"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/architect_schedule.ics",
+      "change": "modify"
+    }
+  ]
+}

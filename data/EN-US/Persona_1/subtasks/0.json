@@ -1,0 +1,33 @@
+{
+  "persona": "Chloe is a rangeland ecologist in Bozeman, Montana, who works with local ranchers to implement predator-friendly grazing practices near Yellowstone National Park. She manages the tensions between livestock protection and the conservation goals of the U.S. Fish and Wildlife Service, documenting wolf and grizzly bear activity to ensure that ranching operations remain viable under the federal and state biological management guidelines.",
+  "task": "Use the weekly wildlife sightings to generate a short range-rider plan document that assigns patrol focus to the highest-activity pasture for the current reporting week.",
+  "required_files": [
+    "week_note_bozeman.txt",
+    "sightings_bozeman.xlsx",
+    "dialogue_ranch_bozeman.txt"
+  ],
+  "output_files": [
+    "data/rider_plan.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/rider_plan.docx",
+        "keywords": [
+          "2026-W14",
+          "Pasture_7",
+          "combined activity",
+          "6"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/rider_plan.docx",
+      "change": "modify"
+    }
+  ]
+}

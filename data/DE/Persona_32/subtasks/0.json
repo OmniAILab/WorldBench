@@ -1,0 +1,39 @@
+{
+  "persona": "Anja ist Ökologin im Nationalpark Bayerischer Wald. Sie dokumentiert die Ausbreitung des Borkenkäfers und stimmt Kontrollen in der Randzone zu benachbarten Wirtschaftswäldern ab. Im Kerngebiet gilt der Grundsatz „Natur Natur sein lassen“; Eingriffe in Randbereichen bedürfen einer gesonderten fachlichen Entscheidung.",
+  "task": "Gleiche die aktuellen Borkenkäfer-Ausbreitungsdaten im Bayerischen Wald mit den Pufferzonen, den Eigentumsgrenzen und den sektorbezogenen Sonderhinweisen ab. Bestimme, welcher Grenzsektor tatsächlich eine Intervention erfordert, und aktualisiere ausschließlich dessen verbindliche Eingriffspriorität im Pufferzonenblatt.",
+  "required_files": [
+    "drohnenaufnahmen.xlsx",
+    "pufferzonenhinweise_bayerischer_wald.txt"
+  ],
+  "output_files": [
+    "data/pufferzonenblatt.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/pufferzonenblatt.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Kritische_Sanitaetsfaellung"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/pufferzonenblatt.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

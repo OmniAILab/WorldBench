@@ -1,0 +1,12 @@
+Delivery note: delivery bag labels are reviewed monthly.	QMC discharge liaison	Nottingham medicines-optimisation note
+Fridge note: cold-chain readings are recorded twice daily.	Lenton practice coordination	Beeston care-home round
+QMC discharge note: reconciliation should happen after hospital discharge.	Nottingham formulary review	Primary-care network briefing
+Flu clinic note: consent forms are stored in the vaccination folder.	QMC discharge liaison	Nottingham medicines-optimisation note
+Dosette note: tray assembly logs are checked weekly.	Lenton practice coordination	Beeston care-home round
+Consultation frequency note: use the medication review interval exactly.	Nottingham formulary review	Primary-care network briefing
+Mandatory structured medication reviews every 6 months.	QMC discharge liaison	Nottingham medicines-optimisation note
+Repeat prescription note: ordering windows depend on the practice system.	Lenton practice coordination	Beeston care-home round
+Controlled-drug note: stock counts are separate from patient protocol text.	Nottingham formulary review	Primary-care network briefing
+Outreach note: blood pressure checks follow a separate schedule.	QMC discharge liaison	Nottingham medicines-optimisation note
+Note: the old annual-only wording must not be used.	Lenton practice coordination	Beeston care-home round
+Staff note: locum induction notes are not part of patient care protocol.	Nottingham formulary review	Primary-care network briefing

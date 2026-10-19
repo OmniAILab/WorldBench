@@ -1,0 +1,31 @@
+{
+  "persona": "博是北京海淀区一家繁忙科技补习学校的 IT 管理员。他要应对焦虑的家长，管理学校的在线门户，并清理学生数据，以免违反新的隐私法律。",
+  "task": "根据课程更新通知，把海淀校区新增的官方职业课程模块标题写入课程大纲文档。",
+  "required_files": [
+    "curriculum_notice_beijing.txt",
+    "dialogue_haidian_curriculum.txt",
+    "haidian_module_register.xlsx"
+  ],
+  "output_files": [
+    "data/course_outline.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/course_outline.docx",
+        "keywords": [
+          "海淀",
+          "工业机器人调试"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/course_outline.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "persona": "Marcus is an advanced manufacturing engineer based at the Advanced Manufacturing Park in Sheffield. He keeps production trackers, QA release notes, trial updates, and calendar checkpoints for titanium aerospace component runs.",
+  "task": "Add the AMP-R12 production checkpoint to the May calendar and include the QA hold reminder in the event description so the titanium run is not shipped prematurely.",
+  "required_files": [
+    "run_schedule_sheffield.xlsx"
+  ],
+  "output_files": [
+    "data/deliveries_may_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_may_2026.ics",
+        "summary_keywords": [
+          "AMP-R12 Checkpoint"
+        ],
+        "description_keywords": [
+          "QA hold"
+        ],
+        "time_start": "2026-05-06 10:00:00",
+        "time_end": "2026-05-06 10:30:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_may_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

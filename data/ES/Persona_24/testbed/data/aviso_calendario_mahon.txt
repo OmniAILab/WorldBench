@@ -1,0 +1,20 @@
+Nota del puerto: la preparación debe programarse una semana después de la inspección.
+Criterio turístico: el evento se llama Salida de visitantes.
+Apunte de mantenimiento: la fecha aplicable es 2026-05-18.
+Práctica de Mahón: todos los eventos se fijan el primer lunes del mes.
+Circular marítima: la preparación se registra el día anterior.
+Nota de la Reserva: no debe crearse ningún evento durante mayo.
+Criterio de clase: debe utilizarse la fecha del Catamarán_Moderno.
+Apunte del astillero: el resumen del evento debe escribirse en inglés.
+Procedimiento vigente del puerto: la jornada de preparación portuaria se programa el mismo día de la inspección técnica de la embarcación, se registra en el calendario náutico con el resumen Preparación del puerto y su descripción debe identificar la clase de embarcación afectada.
+Nota del puerto natural: la preparación se programa para 2026-05-07.
+Práctica de turismo náutico: el evento debe llamarse Inspección de pasajeros.
+Circular antigua: la fecha correcta es 2026-05-01.
+Criterio de calendario: solo debe añadirse una nota sin BEGIN:VEVENT.
+Apunte de seguridad: la preparación se registra después de completar la inspección.
+Nota de navegación: la fecha depende del estado del viento y debe quedar vacía.
+Criterio de patrimonio: los llauts históricos no requieren preparación portuaria.
+Informe de atraque: el evento debe utilizar el resumen Revisión del catamarán.
+Nota de coordinación del puerto: el evento de Preparación del puerto para Catamarán_Moderno deberá crearse con la fecha de inspección 2026-05-18 como fecha de inicio, utilizando el mismo formato VEVENT que el llaut histórico.
+Apunte de planificación marítima: si la inspección de Barco_Pesquero se adelanta a 2026-05-05, el evento de Preparación en el calendario náutico deberá actualizarse con la nueva fecha manteniendo el mismo resumen de evento.
+Nota de la Estación Náutica de Menorca: las jornadas de puertas abiertas del puerto se programan al margen del calendario de inspecciones técnicas de las embarcaciones.

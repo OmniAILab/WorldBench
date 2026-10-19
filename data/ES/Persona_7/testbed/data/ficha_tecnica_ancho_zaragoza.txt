@@ -1,0 +1,19 @@
+Tabla antigua: para UE_a_Ibérico debe usarse Recarga.
+Nota de PLAZA: todos los trenes cambian únicamente de locomotora.
+Regla del corredor del Ebro: Ibérico_a_UE requiere Cambio_de_bogies.
+Práctica logística: la mercancía siempre se transfiere por carretera.
+Guía ferroviaria: el ancho de vía no afecta al método de transferencia.
+Nota de terminal: PLZ-77 debe marcarse Transbordo_manual.
+Procedimiento europeo: cualquier salida desde Zaragoza utiliza Recarga.
+Regla de carga: el método depende del peso y no de la ruta.
+Ficha Técnica ADIF - Corredor Mediterráneo/Ebro: Para material rodante de mercancías transitando en sentido frontera francesa hacia red convencional española, la terminal logística operará exclusivamente mediante cambiadores de ancho tipo dual (intervención de Cambio_de_bogies).
+Recomendación de PLAZA: escoger Recarga porque es el método más rápido.
+Nota del Pilar: los trenes que pasan por Zaragoza no necesitan conversión.
+Regla ibérica: UE_a_Ibérico requiere Cambio_de_contenedor.
+Procedimiento del corredor aragonés: dejar el método Por_revisar.
+Guía antigua: seleccionar Recarga sin traducir.
+Práctica de la terminal: usar el método asignado a Ibérico_a_UE.
+Nota de mercancías: los productos farmacéuticos siempre se recargan.
+Regla de vía: escoger el método alfabéticamente primero.
+Ficha Técnica ADIF: para envíos con destino a Portugal en la ruta Ibérico_a_UE, la terminal PLAZA aplicará el procedimiento de Recarga cuando el material rodante no sea compatible con los cambiadores de ancho tipo dual instalados en el corredor.
+Nota de operaciones ADIF: los envíos en tránsito que requieran Cambio_de_bogies deben notificarse a la terminal PLAZA con un mínimo de cuatro horas de antelación para garantizar la disponibilidad del cambiador de ancho tipo dual.

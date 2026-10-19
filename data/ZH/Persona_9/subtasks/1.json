@@ -1,0 +1,34 @@
+{
+  "persona": "帅是沈阳一名工厂车间技术员，正努力改造老旧焊接机器人以争取政府补贴。他要处理不稳定的 5G 连接、严格的网络安全规则，以及东北刺骨的寒冬。",
+  "task": "把网络安全备忘录整理成一张简短的项目符号交接卡，供操作焊接工位的工人使用。",
+  "required_files": [
+    "cyber_notice_shenyang.txt",
+    "dialogue_shenyang_handover.txt",
+    "shenyang_welding_station_registry.xlsx"
+  ],
+  "output_files": [
+    "data/handover_card.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/handover_card.docx",
+        "keywords": [
+          "铁西",
+          "机器人焊接工位",
+          "锁好 PLC 柜",
+          "每周轮换操作员密码",
+          "禁用未使用的 5G 模块"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/handover_card.docx",
+      "change": "modify"
+    }
+  ]
+}

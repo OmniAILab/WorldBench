@@ -1,0 +1,29 @@
+{
+  "persona": "Vasco nasceu em Angra do Heroísmo e gere uma cooperativa leiteira na ilha Terceira. Organiza a recolha nas pastagens, incluindo as encostas da Serreta, e articula o transporte em condições sanitárias adequadas com a capacidade disponível das cubas de transformação.",
+  "task": "Escreve um email aos motoristas da cooperativa a comunicar a falha sanitária do camião-cisterna identificado e a suspensão da recolha de leite na ilha Terceira.",
+  "required_files": [
+    "milk_collection.xlsx",
+    "spoilage_warning_terceira.txt",
+    "cooperative_contacts.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_cooperative_drivers.txt",
+        "keywords": [
+          "Foi registado avaria do sistema de refrigeração no Cisterna 04; não iniciar a recolha de leite na Terceira devido ao risco de deterioração"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_cooperative_drivers.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

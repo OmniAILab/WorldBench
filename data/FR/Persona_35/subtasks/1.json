@@ -1,0 +1,36 @@
+{
+  "persona": "Maud est conservatrice du patrimoine textile à la Cité internationale de la dentelle et de la mode de Calais. Elle suit la conservation des dentelles anciennes, la maintenance documentaire des métiers Leavers et la numérisation des dessins d’archives, avec une attention particulière aux conditions de stockage des textiles fragiles.",
+  "task": "Planifie la révision technique de Leavers_Loom_4 en croisant le registre de maintenance des métiers à dentelle, les créneaux de l’atelier Boulart et le dialogue de conservation. Identifie la date, le créneau réellement disponible et l’intervention prévue, puis ajoute l’évènement au calendrier. Écarte les entretiens des autres métiers.",
+  "required_files": [
+    "machine_maintenance.xlsx",
+    "creneaux_atelier_calais.xlsx",
+    "dialogue_revision_leavers.txt"
+  ],
+  "output_files": [
+    "data/conservator_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/conservator_calendar.ics",
+        "summary_keywords": [
+          "Révision",
+          "Leavers_Loom_4"
+        ],
+        "description_keywords": [
+          "Contrôle des systèmes de sécurité",
+          "Cité de la Dentelle"
+        ],
+        "time_start": "2026-05-25 14:00:00",
+        "time_end": "2026-05-25 15:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/conservator_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

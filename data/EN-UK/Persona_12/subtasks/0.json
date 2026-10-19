@@ -1,0 +1,38 @@
+{
+  "persona": "Julian is a Bristol-based heritage conservation consultant working on Grade II listed warehouses and Victorian merchant houses in Clifton and Redcliffe. He maintains survey trackers, impact assessments, material requests, and calendar notes for conservation projects.",
+  "task": "Match Redcliffe_Warehouse_7 to its Grade II listing constraint and update the Bristol intervention checklist with the correct restriction label.",
+  "required_files": [
+    "listings_bristol.xlsx"
+  ],
+  "output_files": [
+    "data/checklist_bristol.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/checklist_bristol.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Preserve_Facade"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/checklist_bristol.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

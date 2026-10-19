@@ -1,0 +1,7 @@
+Consignes de patronage pour les commandes de gants sur mesure — vérifier les mesures avant la coupe du cuir.
+Le modèle Opéra demande une vérification de la longueur de l’index.
+Le modèle Gala demande une vérification de la largeur de paume.
+Le modèle Héritage demande une vérification de la courbure du pouce.
+Pour Maison_Paris_X, demander la confirmation du tour de poignet avant la coupe du cuir.
+Le modèle Madeleine demande une vérification de la paume.
+Pour Maison_Paris_Y, demander la confirmation de la largeur de paume avant la coupe.

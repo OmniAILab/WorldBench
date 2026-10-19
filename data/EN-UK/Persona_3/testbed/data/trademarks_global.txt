@@ -1,0 +1,45 @@
+Phrase: North_Stream. Market: UK. Status: internal working title only.
+Phrase: Northstreamer. Market: EU. Status: low priority archive tag.
+Phrase: MediaCity North. Market: UK. Status: monitor.
+Phrase: NorthStream.
+Market: US.
+Check naming risk before external launch.
+Status should be recorded as Raised.
+ North_Stream is the internal working title.
+Do not use the Salford studio postcode as the market.
+NorthStream should not be filed under Canada.
+A social hashtag review is not the same as trademark risk.
+The legal team contact is not the phrase to log.
+Do not mark the item as Resolved before launch review.
+The risk register needs phrase, market, and status only.
+The BBC regional quota decision is separate from this naming risk.
+MediaCityUK studio-booking changes are logged in the production diary. Reference 1A is recorded separately.
+Dock10 audience-arrival notes are kept outside campaign compliance files. Reference 1B is recorded separately.
+Salford Quays tram disruption is recorded in the travel channel. Reference 2A is recorded separately.
+Lowry theatre event timings are not part of campaign rights records. Reference 2B is recorded separately.
+Studio catering orders are filed separately from legal and rights checks. Reference 3A is recorded separately.
+Quayside location-weather notes are stored with production logistics. Reference 3B is recorded separately.
+BBC building-access passes are handled in a separate facilities workflow. Reference 4A is recorded separately.
+Manchester edit-suite bookings are tracked independently of campaign status. Reference 4B is recorded separately.
+Publicity photography call sheets are stored outside compliance registers. Reference 5A is recorded separately.
+Salford production parking permits are recorded in the facilities folder. Reference 5B is recorded separately.
+MediaCityUK studio-booking changes are logged in the production diary. Reference 6A is recorded separately.
+Dock10 audience-arrival notes are kept outside campaign compliance files. Reference 6B is recorded separately.
+Salford Quays tram disruption is recorded in the travel channel. Reference 7A is recorded separately.
+Lowry theatre event timings are not part of campaign rights records. Reference 7B is recorded separately.
+Studio catering orders are filed separately from legal and rights checks. Reference 8A is recorded separately.
+Quayside location-weather notes are stored with production logistics. Reference 8B is recorded separately.
+BBC building-access passes are handled in a separate facilities workflow. Reference 9A is recorded separately.
+Manchester edit-suite bookings are tracked independently of campaign status. Reference 9B is recorded separately.
+Publicity photography call sheets are stored outside compliance registers. Reference 10A is recorded separately.
+Salford production parking permits are recorded in the facilities folder. Reference 10B is recorded separately.
+MediaCityUK studio-booking changes are logged in the production diary. Reference 11A is recorded separately.
+Dock10 audience-arrival notes are kept outside campaign compliance files. Reference 11B is recorded separately.
+Salford Quays tram disruption is recorded in the travel channel. Reference 12A is recorded separately.
+Lowry theatre event timings are not part of campaign rights records. Reference 12B is recorded separately.
+Studio catering orders are filed separately from legal and rights checks. Reference 13A is recorded separately.
+Quayside location-weather notes are stored with production logistics. Reference 13B is recorded separately.
+BBC building-access passes are handled in a separate facilities workflow. Reference 14A is recorded separately.
+Manchester edit-suite bookings are tracked independently of campaign status. Reference 14B is recorded separately.
+Publicity photography call sheets are stored outside compliance registers. Reference 15A is recorded separately.
+Salford production parking permits are recorded in the facilities folder. Reference 15B is recorded separately.

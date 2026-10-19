@@ -1,0 +1,39 @@
+{
+  "persona": "Salvo è un medico specializzato in epidemiologia marina con base a Palermo, dove monitora la salute degli stock di pesce lungo la costa siciliana. Gestisce l'intersezione tra le direttive sanitarie dell'Unione Europea e gli specifici protocolli sanitari regionali dell'Assessorato della Salute della Regione Siciliana per prevenire epidemie negli ecosistemi mediterranei locali. La sua routine quotidiana comprende l'interpretazione di grandi quantità di dati biologici longitudinali e di rapporti di analisi chimica dell'acqua di mare, per emettere allerte precoci alle cooperative locali, assicurando che le essenziali esportazioni ittiche dell'isola restino conformi agli standard di sicurezza globali.",
+  "task": "Usa la soglia di attenzione prevista dal protocollo sanitario di monitoraggio e l'analisi chimica dell'acqua per aggiornare lo stato di conformità export del settore costiero nel file ./data/conformita_export_pesca.xlsx per il settore Gulf_of_Palermo.",
+  "required_files": [
+    "nota_direttiva_sanitaria_mare.txt",
+    "monitor_costa_sicilia.xlsx"
+  ],
+  "output_files": [
+    "data/conformita_export_pesca.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/conformita_export_pesca.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": "Conforme"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/conformita_export_pesca.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

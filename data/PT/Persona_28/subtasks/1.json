@@ -1,0 +1,29 @@
+{
+  "persona": "Lúcia nasceu em Sintra e trabalha na coordenação municipal de mobilidade e tráfego no eixo da Serra de Sintra. Acompanha os fluxos de transporte público, os dados de ocupação comunicados pelos monumentos e as câmaras de trânsito para articular desvios na rede rodoviária municipal e evitar bloqueios nos acessos históricos.",
+  "task": "Escreve um email aos operadores de autocarros turísticos a comunicar a imobilização na «Curva de Acesso ao Palácio de Monserrate (EN375)» e o encaminhamento pela variante da EN247 até ao interface de Colares.",
+  "required_files": [
+    "historical_ascents_log.xlsx",
+    "traffic_diversions_sintra.txt",
+    "tour_operator_contacts_sintra.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_tour_operators.txt",
+        "keywords": [
+          "Na Curva de Acesso ao Palácio de Monserrate (EN375) regista-se uma imobilização de 30 minutos; desviar os autocarros turísticos autorizados pela EN247 até ao interface de Colares."
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_tour_operators.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

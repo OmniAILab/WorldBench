@@ -1,0 +1,19 @@
+Promemoria contatti: parchi@comune.torino.it riceve segnalazioni generiche, non la squadra operativa.
+Nota zona: Z_A è usata per il turno di controllo, non per l'irrigazione prioritaria.
+Appunto cap: 2500 litri riguarda Parco Valentino.
+Promemoria settimana: 2026-W13 è già stata chiusa.
+Nota squadra: non inviare dettagli sui volontari del quartiere.
+Procedura d'intervento: Istruire la squadra manutentori fornendo sempre due direttive inequivocabili: l'area di massimo stress idrico verso cui dirigersi e il budget d'acqua disponibile che non possono superare.
+Appunto sito: ForestaMi_ParcoDora resta il sito, ma l'email deve riportare zona e tetto.
+Promemoria Comune: verde@torino.it è un indirizzo breve non presente nei contatti.
+Nota manutenzione: Z_C è seconda priorità e non va assegnata come principale.
+Appunto licenza: 3000 non indica il numero di piante.
+Promemoria acqua: non convertire i litri in metri cubi nella email.
+Nota meteo: non citare la pioggia prevista senza richiesta.
+Appunto vivaio: la consegna pacciamatura non va nell'email.
+Promemoria squadra: il turno del sabato è separato dal messaggio operativo.
+Nota parco: il cantiere vicino a Parco Dora non cambia la zona prioritaria.
+Appunto registro: la zona prioritaria va scritta come Z_B.
+Promemoria stile: email breve, nessun allegato necessario.
+Promemoria contatti: stampa@comune.torino.it cura le comunicazioni pubbliche, non le squadre di campo.
+Appunto allegati: la planimetria generale del parco è troppo pesante e non va inserita nella email operativa.

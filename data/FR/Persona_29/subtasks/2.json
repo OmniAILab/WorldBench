@@ -1,0 +1,36 @@
+{
+  "persona": "Yohan est ingénieur en signalisation ferroviaire à Lille et intervient sur les liaisons transmanche. Il coordonne les fenêtres de maintenance, les essais d’aiguillage et les procédures bilingues avec les centres de contrôle français et britannique, afin de maintenir la circulation des trains à grande vitesse sans compromettre les règles de sécurité du tunnel sous la Manche.",
+  "task": "Croise la procédure bilingue, la matrice d’autorisations et le dialogue sécurité. Rédige une checklist courte pour Tunnel_Central_09 qui respecte l’ordre obligatoire : immobiliser l’aiguillage, afficher « voie protégée / track protected », obtenir l’accord des deux centres de contrôle, puis seulement commencer l’essai. Écarte Tunnel_Central_18.",
+  "required_files": [
+    "procedure_bilingue_tunnel.txt",
+    "matrice_autorisations_tunnel.xlsx",
+    "dialogue_checklist_tunnel.txt"
+  ],
+  "output_files": [
+    "data/checklist_signalisation_tunnel.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/checklist_signalisation_tunnel.docx",
+        "keywords": [
+          "Tunnel_Central_09",
+          "voie protégée / track protected",
+          "deux centres de contrôle",
+          "immobiliser l’aiguillage",
+          "commencer l’essai",
+          "ordre",
+          "obligatoire"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/checklist_signalisation_tunnel.docx",
+      "change": "modify"
+    }
+  ]
+}

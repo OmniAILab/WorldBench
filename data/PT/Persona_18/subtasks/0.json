@@ -1,0 +1,23 @@
+{
+  "persona": "Catarina nasceu em Manteigas e é designer têxtil. Dirige uma tecelagem tradicional na Serra da Estrela, especializada em produtos de burel de pura lã. Trabalha com um número cada vez menor de pastores locais e com os envios internacionais de peças de inverno, e cruza as tendências de design com o inventário de lã para definir as cores de cada coleção nos teares.",
+  "task": "Usa o inventário de lã dos pastores da Serra da Estrela e a regra de produção do moinho de Manteigas para atualizar a capacidade dos teares para o Burel Gramagem Pesada (Chumbo).",
+  "required_files": [
+    "shepherd_supply.xlsx",
+    "loom_capacity_manteigas.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/dye_combinations.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "10 lotes de tear"
+          }
+        ]
+      }
+    }
+  ]
+}

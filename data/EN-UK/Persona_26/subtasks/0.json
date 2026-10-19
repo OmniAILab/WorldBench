@@ -1,0 +1,38 @@
+{
+  "persona": "Finlay is a location manager for a television production company in Edinburgh. He handles filming permits, equipment access notes, sound restrictions, and logistics during the busy festival season.",
+  "task": "Update the Edinburgh closes access permit sheet by copying the access classification for Crane_Camera_Rig into the permit clearance field.",
+  "required_files": [
+    "tv_logistics_edinburgh.xlsx"
+  ],
+  "output_files": [
+    "data/closes_access.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/closes_access.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Heavy_Restricted"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/closes_access.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

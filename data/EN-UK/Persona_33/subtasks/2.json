@@ -1,0 +1,29 @@
+{
+  "persona": "Tobias is a heritage stonemason in York, working on repairs to medieval walls and Gothic masonry. He maintains quarry supply records, survey emails, restoration guidelines, and inspection calendars.",
+  "task": "Use the restoration guideline date to add a York stonework inspection event to the mason calendar, noting that it relates to curing after medieval wall repairs.",
+  "required_files": [
+    "restoration_guidelines.txt"
+  ],
+  "output_files": [
+    "data/mason_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/mason_calendar.ics",
+        "summary_keywords": [
+          "Stonework Inspection"
+        ],
+        "description_keywords": [],
+        "date": "2026-05-10"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/mason_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

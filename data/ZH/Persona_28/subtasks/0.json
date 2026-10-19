@@ -1,0 +1,32 @@
+{
+  "persona": "勇是宜昌三峡大坝的一名维护工。他检查混凝土应力传感器，协调嘈杂的水下维修，并吃辣味湖北热干面，在潮湿的峡谷里暖身。",
+  "task": "查看传感器遥测表，找到 Gate_14_Lower 的应力值，并把该值写入水下维护日志的应力值字段。",
+  "required_files": [
+    "sensor_telemetry_yichang.xlsx",
+    "three_gorges_gate_context.xlsx"
+  ],
+  "output_files": [
+    "data/maintenance_log.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/maintenance_log.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "85_MPa"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/maintenance_log.xlsx",
+      "change": "modify"
+    }
+  ]
+}

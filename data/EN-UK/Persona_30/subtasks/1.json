@@ -1,0 +1,29 @@
+{
+  "persona": "Hamish is a biomedical scientist at the Queen Elizabeth University Hospital in Glasgow. He keeps laboratory timing sheets, HTA compliance records, research calendars, and clinical safety report drafts.",
+  "task": "Add an SHTG data submission milestone to the oncology research calendar using the clinical notice deadline, and do not use the microscope booking date.",
+  "required_files": [
+    "clinical_notice.txt"
+  ],
+  "output_files": [
+    "data/oncology_research.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/oncology_research.ics",
+        "summary_keywords": [
+          "Data Submission Milestone"
+        ],
+        "description_keywords": [],
+        "date": "2026-05-14"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/oncology_research.ics",
+      "change": "modify"
+    }
+  ]
+}

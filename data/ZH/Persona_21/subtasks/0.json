@@ -1,0 +1,41 @@
+{
+  "persona": "振在苏州经营一家小型传统缂丝织造作坊。他要应对要求严苛的时装客户、难处理的天然染料和本地环保检查员，同时在运河边喝着碧螺春绿茶。",
+  "task": "根据合作社台账，将 Wujiang_Artisans 的产能写入丝绸订单表的月产能字段。",
+  "required_files": [
+    "cooperative_ledger_suzhou.xlsx",
+    "kesi_note_suzhou.txt",
+    "dialogue_suzhou_kesi_capacity.txt",
+    "local_context_suzhou_kesi_capacity.xlsx"
+  ],
+  "output_files": [
+    "data/kesi_orders.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/kesi_orders.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "50_Meters_Monthly"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/kesi_orders.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

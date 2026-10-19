@@ -1,0 +1,28 @@
+{
+  "persona": "Callum from Edinburgh works as a Heritage Conservation Officer for a firm specialising in the maintenance of the New Town’s UNESCO World Heritage site. He records everyday defects in setts, façades, and access routes while keeping repair notes aligned with listed-building requirements.",
+  "task": "Use the City of Edinburgh Council consent register to insert the exact listed-building consent status for NT-11 into the consent field of the New Town work order brief.",
+  "required_files": [
+    "consent_register_edinburgh.xlsx"
+  ],
+  "output_files": [
+    "data/work_order_brief.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/work_order_brief.docx",
+        "keywords": [
+          "Granted"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/work_order_brief.docx",
+      "change": "modify"
+    }
+  ]
+}

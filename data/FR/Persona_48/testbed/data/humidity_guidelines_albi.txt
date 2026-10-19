@@ -1,0 +1,20 @@
+Objectifs hygrométriques du plan local de conservation du grand buffet de l’orgue de Sainte-Cécile d’Albi ; ces valeurs ne constituent pas une norme légale générale.
+Buffet nord en chêne massif : maintenir entre 42 % et 52 % d’humidité relative et surveiller toute apparition de condensation nocturne.
+Console mobile et pédalier : maintenir entre 38 % et 48 % d’humidité relative et éviter une exposition directe aux courants d’air sur douze heures.
+Réserve des tuyaux : maintenir entre 40 % et 50 %.
+Tribune secondaire : maintenir entre 43 % et 53 %.
+Sommiers anciens en noyer : maintenir entre 41 % et 49 % d’humidité relative et limiter les variations brusques dues au chauffage de l’église.
+Soufflerie : maintenir entre 35 % et 45 %.
+Local des moteurs : maintenir entre 30 % et 40 %.
+Buffet de chœur : maintenir entre 44 % et 54 %.
+Grand buffet en bois de l’orgue d’Albi : maintenir entre 45 % et 55 % d’humidité relative et éviter toute variation supérieure à 5 % en vingt-quatre heures.
+Armoire des anches : maintenir entre 40 % et 48 %.
+Réserve des peaux : maintenir entre 42 % et 50 %.
+Tribune ouest : maintenir entre 43 % et 51 %.
+Buffet positif : maintenir entre 44 % et 52 %.
+Local technique : maintenir entre 36 % et 46 %.
+Coffre des claviers : maintenir entre 41 % et 49 %.
+Galerie haute : maintenir entre 39 % et 47 %.
+Atelier mobile : maintenir entre 37 % et 45 %.
+Buffet nord en chêne de remplacement : maintenir entre 42 % et 52 % d’humidité relative et limiter les variations nocturnes.
+Console mobile de répétition : maintenir entre 38 % et 48 % d’humidité relative et éviter les courants d’air directs.

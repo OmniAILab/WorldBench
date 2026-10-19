@@ -1,0 +1,39 @@
+{
+  "persona": "Enzo es estratega de energías renovables en Zaragoza y se ocupa de la expansión de los parques eólicos del valle del Ebro. Combina las previsiones del cierzo con los procedimientos de operación de Red Eléctrica para el nudo de Aragón y con las declaraciones de impacto ambiental del INAGA que protegen a la avifauna esteparia de los Monegros. Su trabajo consiste en decidir franjas de despacho y en llevar los expedientes de acceso y conexión a la red.",
+  "task": "Compara la previsión del cierzo en el valle del Ebro, selecciona el bloque con mayor velocidad de viento y actualiza el plan de despacho del 3 de abril de 2026.",
+  "required_files": [
+    "prevision_cierzo_zaragoza.xlsx",
+    "procedimiento_operacion_ree.txt"
+  ],
+  "output_files": [
+    "data/plan_despacho_zaragoza.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/plan_despacho_zaragoza.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "10_14"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/plan_despacho_zaragoza.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "persona": "Curro es responsable ecuestre en Jerez de la Frontera y se ocupa del entrenamiento y la logística de los caballos de Pura Raza Española de un cortijo de la zona. Compagina las guías de movimiento internacional que tramita la Oficina Comarcal Agraria con la normativa europea de bienestar animal en el transporte, y con las restricciones de circulación del centro histórico durante la Feria del Caballo. Su trabajo consiste en comprobar inscripciones en el libro genealógico y en planificar los desplazamientos de los animales.",
+  "task": "Añade al manual de transporte internacional del cortijo de Jerez de la Frontera el límite general de viaje por carretera en vehículos estándar que el reglamento europeo fija para los équidos domésticos no registrados, sin confundirlo con la duración de la parada obligatoria en puesto de control.",
+  "required_files": [
+    "reglamento_bienestar_equino.txt"
+  ],
+  "output_files": [
+    "data/manual_transporte_cortijo.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/manual_transporte_cortijo.docx",
+        "keywords": [
+          "Jerez de la Frontera",
+          "équidos domésticos no registrados",
+          "máximo de 8 horas",
+          "tránsito continuo"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/manual_transporte_cortijo.docx",
+      "change": "modify"
+    }
+  ]
+}

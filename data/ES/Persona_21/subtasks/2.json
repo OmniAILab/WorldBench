@@ -1,0 +1,29 @@
+{
+  "persona": "Enzo es estratega de energías renovables en Zaragoza y se ocupa de la expansión de los parques eólicos del valle del Ebro. Combina las previsiones del cierzo con los procedimientos de operación de Red Eléctrica para el nudo de Aragón y con las declaraciones de impacto ambiental del INAGA que protegen a la avifauna esteparia de los Monegros. Su trabajo consiste en decidir franjas de despacho y en llevar los expedientes de acceso y conexión a la red.",
+  "task": "Escribe un correo electrónico a Red Eléctrica para solicitar el estado de la cola de conexión del proyecto Eólico_Ebro_7 e incluir su código.",
+  "required_files": [
+    "cola_conexion_zaragoza.xlsx",
+    "contactos_ree.xlsx",
+    "indicaciones_correo_ree.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "conexion@ree.es",
+        "keywords": [
+          "Eólico_Ebro_7",
+          "REE-Q-19",
+          "estado de la cola"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_conexion_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "persona": "Joseba es elaborador de sidra natural en Astigarraga, Gipuzkoa, donde gestiona la temporada del txotx en su sagardotegi. Compagina el pliego del Consejo Regulador de Euskal Sagardoa sobre la madurez de la manzana autóctona con la ordenanza municipal de convivencia y con las autorizaciones de vertido de la Agencia Vasca del Agua. Su trabajo consiste en clasificar las partidas de manzana para la fermentación y en mantener la sidrería dentro de los límites acústicos y ambientales.",
+  "task": "Aplica la regla de Euskal Sagardoa al nivel de azúcar de la manzana Errezila y actualiza su clasificación para la fermentación de sidra natural.",
+  "required_files": [
+    "cosecha_manzana_astigarraga.xlsx",
+    "pliego_euskal_sagardoa.txt"
+  ],
+  "output_files": [
+    "data/clasificacion_fermentacion.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/clasificacion_fermentacion.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Óptima_para_fermentación"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/clasificacion_fermentacion.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "persona": "Sophie ist Koordinatorin für den Hochwasserschutz und am Dreiflüsseeck in Passau in Niederbayern stationiert. Sie beobachtet die steigenden Pegel, die während der Schneeschmelze im Frühjahr die historische Altstadt bedrohen. Sie hat es mit der schwer vorhersehbaren Hydrodynamik der Donau und mit den strengen Einsatzprotokollen der bayerischen Staatsregierung zu tun. Sie führt Niederschlagsprognosen aus dem Oberlauf, Bodensättigungsindizes und historische Karten früherer Hochwasserverläufe zusammen, um mobile Barrieretrupps vorausschauend in die am stärksten gefährdeten tief liegenden Gassen zu schicken.",
+  "task": "Füge dem internen Einsatzkalender einen Termin für den mobilen Hochwasserschutz in Passau hinzu und nenne den Einsatzsektor Inn_Gasse in der Beschreibung.",
+  "required_files": [
+    "einsatzplan_passau_kalender.xlsx",
+    "kalenderhinweise_passau.txt"
+  ],
+  "output_files": [
+    "data/termine_april_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/termine_april_2026.ics",
+        "summary_keywords": [
+          "Mobiler Hochwasserschutz"
+        ],
+        "description_keywords": [
+          "Inn_Gasse"
+        ],
+        "time_start": "2026-04-08 07:30:00",
+        "time_end": "2026-04-08 08:30:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/termine_april_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

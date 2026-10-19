@@ -1,0 +1,50 @@
+{
+  "persona": "Claire est maître parfumeuse à Grasse. Elle compose des concentrés à partir de matières emblématiques telles que le jasmin de Grasse et la rose de mai, contrôle la conformité des lots aux limites internes d’allergènes et coordonne les essais de stabilité avant la mise en production.",
+  "task": "Applique la limite interne de formulation de Jasmin_24 puis croise les lots conformes avec le dialogue de sélection afin d’identifier le lot réellement libéré pour cet essai. Écarte les lots conformes mais réservés à d’autres usages, puis renseigne le code retenu et son indicateur d’allergènes.",
+  "required_files": [
+    "limites_formulation_grasse.txt",
+    "lots_matieres_grasse.xlsx",
+    "dialogue_selection_jasmin.txt"
+  ],
+  "output_files": [
+    "data/formule_jasmin_24.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/formule_jasmin_24.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "JAS-GR-07"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": 0.7
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/formule_jasmin_24.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

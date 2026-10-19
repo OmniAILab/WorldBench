@@ -1,0 +1,23 @@
+{
+  "persona": "Leonor é arquiteta especializada em conservação urbana e trabalha no centro histórico de Évora. Concebe adaptações discretas de edifícios antigos para novos usos, conciliando o conforto térmico com a preservação da alvenaria histórica e as conclusões dos pareceres técnicos.",
+  "task": "Compara o registo térmico do Estrutura Anexa ao Templo de Diana com a ficha de parametrização do equipamento de arrefecimento aprovada para esse espaço e atualiza a potência do sistema oculto na folha de controlo climático.",
+  "required_files": [
+    "thermal_dynamics_evora.xlsx",
+    "concealed_cooling_rule_evora.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/climate_control.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 2,
+            "value": "8 kW"
+          }
+        ]
+      }
+    }
+  ]
+}

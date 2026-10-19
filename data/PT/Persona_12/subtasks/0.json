@@ -1,0 +1,23 @@
+{
+  "persona": "Vasco nasceu em Angra do Heroísmo e gere uma cooperativa leiteira na ilha Terceira. Organiza a recolha nas pastagens, incluindo as encostas da Serreta, e articula o transporte em condições sanitárias adequadas com a capacidade disponível das cubas de transformação.",
+  "task": "Compara o rendimento de leite das pastagens da Serreta com a capacidade disponível da cuba correspondente e atualiza o estado da rota de recolha segundo a regra da cooperativa da ilha Terceira.",
+  "required_files": [
+    "pasture_yields.xlsx",
+    "routing_rule_terceira.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/vat_capacities.xlsx",
+        "matches": [
+          {
+            "row": 9,
+            "col": 3,
+            "value": "Recolha prioritária"
+          }
+        ]
+      }
+    }
+  ]
+}

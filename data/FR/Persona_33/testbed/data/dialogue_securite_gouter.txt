@@ -1,0 +1,5 @@
+Étienne : Je fais le point au bureau des guides avant le départ vers Tête Rousse. Qu'est-ce que donne le dernier relevé terrain sur le Grand_Couloir ?
+Collègue guide : Les capteurs ont enregistré 15cm_Instable avec des purges fréquentes faute de regel nocturne. Le PGHM a émis un bulletin d'alerte déconseillant formellement la traversée.
+Étienne : Dans notre grille interne de sécurité, dès qu'on dépasse 10 cm ou que le secteur est instable sur Grand_Couloir, on suspend toutes les cordées.
+Collègue guide : Exact. Ne confonds pas avec la ligne Couloir_Gouter à 7cm_Variable qui correspond à un ancien relevé de bordure. Pour Grand_Couloir, on passe le statut sur Fermé_PGHM avec le motif Seuil_PGHM_dépassé.
+Étienne : C'est clair, je mets à jour le tableau de sécurité immédiatement.

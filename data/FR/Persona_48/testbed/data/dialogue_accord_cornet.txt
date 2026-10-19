@@ -1,0 +1,4 @@
+Facteur d’orgues : Le relevé du Cornet V rangs est-il thermiquement stabilisé ?
+Organiste : Oui, la mesure validée peut être comparée à la tolérance interne exprimée en cents.
+Facteur d’orgues : La mesure de Cornet_V_rangs est validée après stabilisation thermique.
+Assistant : Je prends la valeur absolue de 5,4 cents et j’applique la règle au-delà de quatre cents.

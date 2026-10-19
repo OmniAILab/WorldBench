@@ -1,0 +1,7 @@
+Fiche de préparation de l’équipe de terrain, établie pour la coordination des opérations à proximité du Montenvers. Le PGHM est l’interlocuteur de secours, non l’autorité délivrant une autorisation ordinaire de progression.
+Secteur Leschaux : emporter une corde de 30 m et deux broches.
+Secteur Géant : emporter une corde de 40 m et trois broches.
+Secteur Tacul : emporter une corde de 50 m et quatre broches.
+Secteur Crevasse_Montenvers_09 : emporter une corde de 45 m, quatre broches à glace et progresser encordés depuis la sortie du train du Montenvers.
+Secteur Montenvers : emporter une corde de 55 m et quatre broches.
+Secteur Géant_Annexe : emporter une corde de 40 m et deux broches.

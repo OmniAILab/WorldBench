@@ -1,0 +1,24 @@
+Outreach coordinator: Which neighborhood is the subject of the elders email?
+Data specialist: Use the current health outcomes table and the neighborhood flagged for the lowest current uptake in this outreach cycle.
+Outreach coordinator: I see a historical Phillips_West archive row that is even lower.
+Data specialist: Historical data is not the current outreach record.
+Outreach coordinator: Northeast Market West is also below forty percent.
+Data specialist: It is a subarea record, not the neighborhood entry referenced for this campaign.
+Outreach coordinator: The community elders address is in the contact sheet?
+Data specialist: Yes. Use the requested Community_Elders group, not the general outreach or interpreter inbox.
+Outreach coordinator: Cedar-Riverside has strong Somali-language outreach networks.
+Data specialist: That is relevant context for communication style, but do not alter the data status.
+Outreach coordinator: Should the email include personal medical information?
+Data specialist: No. Keep it neighborhood-level and outreach-focused.
+Outreach coordinator: Can I say the neighborhood is 'low' without the status string?
+Data specialist: Include the exact uptake status from the health outcomes sheet.
+Outreach coordinator: There are several neighborhoods below fifty percent.
+Data specialist: That is why you must use the correct row, not a broad threshold guess.
+Outreach coordinator: The email should be respectful and concise.
+Data specialist: Yes.
+Outreach coordinator: No ranking of individual families?
+Data specialist: Correct.
+Outreach coordinator: Current neighborhood row, exact uptake status, community elders recipient.
+Data specialist: Exactly.
+Outreach coordinator: I will leave unrelated transportation and interpreter requests out.
+Data specialist: Good.

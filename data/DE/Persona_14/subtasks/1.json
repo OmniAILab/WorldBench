@@ -1,0 +1,28 @@
+{
+  "persona": "Tobias ist Sicherheitsinspektor in der chemischen Industrie und arbeitet in Ludwigshafen, wo er den Betrieb eines der größten Verbundstandorte der Welt überwacht. Er begrenzt die Risiken, die mit der Lagerung flüchtiger Stoffe in unmittelbarer Nähe des Rheins verbunden sind, und hält dabei die strengen bundesrechtlichen Vorgaben zur Emissionskontrolle ein. Er sichtet laufend Tausende komplexer Sicherheitsdatenblätter, Störungsberichte aus der Instandhaltung und Echtzeit-Sensorprotokolle, um feine Verschleißmuster an Anlagen zu erkennen, bevor sie eine verpflichtende Abschaltung auslösen.",
+  "task": "Schreibe eine E-Mail an das technische Einsatzteam und nenne die betroffene Kühlleitung sowie das festgestellte Degradationsmuster aus der aktuellen Inspektion.",
+  "required_files": [
+    "instandhaltungsberichte_ludwigshafen.xlsx",
+    "technik_kontakte_ludwigshafen.xlsx",
+    "wartungshinweise_ludwigshafen.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "technik@werk-ludwigshafen.de",
+        "keywords": [
+          "Kuehlleitung_B",
+          "Mikrorisse festgestellt"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_technik_*.eml",
+      "change": "create"
+    }
+  ]
+}

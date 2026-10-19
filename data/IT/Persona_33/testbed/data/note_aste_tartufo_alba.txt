@@ -1,0 +1,21 @@
+Registro rapido prezzi per tartufi bianchi destinati ai mercati internazionali.
+Appunto: Il prezzo €5200_Per_100g appartiene all'asta di Singapore e non è il picco.
+Promemoria: Per Tokyo_Private_Sale usare €5800_Per_100g ma non è un'asta pubblica.
+Nota operativa: Il valore €6000_Per_kg è un errore di unità e non va comunicato.
+Nota archivio: Il contatto buyers@auction.hk segue acquirenti, non chef destinatari.
+Avviso interno: Il prezzo €6100_Per_100g era una voce non confermata prima della chiusura.
+Appunto: Per Paris_Chef_Table il dato è €4800_Per_100g.
+Mailblast Clientela Vip: Preparate un dispaccio per la lista delle cucine stellate informandoli del record sbalorditivo staccato dal martelletto nell'ultima e più remunerativa kermesse asiatica.
+Promemoria: Il mercato Milan_Expo_Tasting non è internazionale.
+Nota operativa: Il valore €5900_Per_100g riguarda tartufi neri pregiati, non bianchi.
+Nota archivio: La nota sul ghiaccio secco non va nella email prezzo.
+Avviso interno: Il codice Hong_Kong_Auction_Trial è una simulazione.
+Appunto: Il prezzo €600_Per_100g manca di uno zero nel vecchio foglio.
+Promemoria: Il contatto export@albatruffles.it gestisce spedizioni, non comunicazioni chef.
+Nota operativa: Per New_York_Private_Client è indicato €5700_Per_100g.
+Nota archivio: Il prezzo di Alba locale è separato dalla distribuzione globale.
+Avviso interno: Il valore €6300_Per_100g è un'offerta ritirata.
+Appunto: Il rinnovo dell'abbonamento alla piattaforma d'asta è amministrativo e non riguarda il prezzo di picco.
+Promemoria: La sostituzione della bilancia di precisione è tecnica e non modifica il dato da comunicare.
+Nota asta: la stampa del catalogo dei lotti è organizzativa e non modifica il prezzo di aggiudicazione registrato.
+Promemoria Langhe: il controllo dei contenitori isotermici riguarda la spedizione e non determina il mercato con il prezzo di picco.

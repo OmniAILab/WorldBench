@@ -1,0 +1,38 @@
+{
+  "persona": "Matteo è un responsabile della logistica marittima presso il Porto di Genova, il varco più trafficato del Mar Ligure. Coordina il movimento delle navi portacontainer attraverso gli stretti accessi del porto, gestendo al contempo le complesse pratiche burocratiche richieste dall'Agenzia delle Dogane e dall'Autorità di Sistema Portuale del Mar Ligure Occidentale. Il suo lavoro richiede la costante conciliazione dei dati sul traffico navale in tempo reale con i turni di lavoro variabili e con le specifiche normative di sicurezza che regolano il trasporto di merci pericolose attraverso le antiche gallerie della città.",
+  "task": "Usa la nota doganale per aggiornare il codice documento richiesto per la nave MV_Liguria nel foglio di sdoganamento ./data/arrivi_genova.xlsx.",
+  "required_files": [
+    "nota_dogane_genova.txt"
+  ],
+  "output_files": [
+    "data/arrivi_genova.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/arrivi_genova.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "ADM-7"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/arrivi_genova.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

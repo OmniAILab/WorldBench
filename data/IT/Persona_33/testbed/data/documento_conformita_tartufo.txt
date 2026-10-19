@@ -1,0 +1,21 @@
+Indicazioni per trasporto refrigerato dei lotti deperibili.
+Appunto: Il range 4-6 gradi Celsius vale per formaggi stagionati, non tartufi freschi.
+Promemoria: Il valore 0-2 gradi Celsius rischia di danneggiare l'aroma del lotto.
+Nota operativa: La nota su -18 gradi Celsius riguarda campioni congelati.
+Nota archivio: Per il trasporto urbano entro Alba è indicata solo borsa termica, senza range.
+Avviso interno: Il range 3-5 gradi Celsius compare in un contratto superato.
+Appunto: La temperatura 8 gradi Celsius è un limite di allarme, non la regola operativa.
+Standard Catena del Freddo: Per non alterare l'esalazione dei composti solforati, il cuore della confezione stivata nei furgoni isotermici deve oscillare unicamente in un intervallo compreso tra i due e i quattro gradi centigradi positivi.
+Promemoria: Il ghiaccio secco va evitato, ma non è il dato da inserire come metrica.
+Nota operativa: Il range 2-6 gradi Celsius è troppo ampio rispetto alla certificazione sanitaria.
+Nota archivio: La nota sul magazzino doganale non riguarda il trasporto.
+Avviso interno: Il valore 5 gradi Celsius fissi è una media giornaliera, non un requisito.
+Appunto: Per tartufi neri estivi usare un protocollo diverso.
+Promemoria: Il sensore logger deve essere acceso, ma il manuale richiede anche il range.
+Nota operativa: Il range 1-3 gradi Celsius è una proposta del corriere non approvata.
+Nota archivio: La temperatura ambiente durante confezionamento non va inserita nel capitolo export.
+Avviso interno: Il valore 6-8 gradi Celsius è per agrumi refrigerati.
+Appunto: La manutenzione del data logger è tecnica e non sostituisce il range da inserire.
+Promemoria: La fornitura di borse termiche nuove è logistica e non determina la metrica di trasporto.
+Nota logistica: la sanificazione dei furgoni isotermici è manutenzione e non modifica l'intervallo di temperatura prescritto.
+Promemoria Alba: la sostituzione delle etichette dei sensori è tecnica e non determina il range della catena del freddo.

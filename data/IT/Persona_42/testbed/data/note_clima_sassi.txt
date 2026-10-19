@@ -1,0 +1,21 @@
+Grotta Sasso_Barisano_03 con umidità 65%_Stable: parametro ventilazione_minima.
+Grotta Civita_01 con umidità 72%_Medium: parametro monitoraggio_settimanale.
+Grotta Sasso_Caveoso_10 con umidità 80%_Humidity_High: parametro verifica_tubi.
+Grotta Sasso_Caveoso_12 con temperatura 18C_Stable: parametro nessuna_modifica.
+Grotta Ipogeo_Archivio con umidità 85%_Critical: parametro chiusura_temporanea.
+Grotta Suite_02 con umidità 60%_Dry: parametro umidificazione_leggera.
+Scelte Impiantistiche: Nelle camere ipogee in cui l'igrometro segna livelli di allerta pari all'80%, è imperativo predisporre una "deumidificazione_invisibile", celando totalmente gli split d'aria per salvaguardare l'estetica millenaria della roccia calcarea.
+Grotta Sasso_Barisano_08 con umidità 78%_High: parametro drenaggio_esterno.
+Grotta Cantina_Storica con umidità 90%_High: parametro esclusa_ospitalità.
+Grotta Sasso_Caveoso_11 con umidità 80%_Humidity_High: parametro deumidificazione_visibile.
+Grotta Belvedere_05 con umidità 70%_Medium: parametro sensore_extra.
+Grotta Sasso_Caveoso_12 con rilievo incompleto: parametro ripetere_scansione.
+Grotta Lamione_01 con umidità 75%_High: parametro deumidificazione_portatile.
+Grotta Calcarenite_04 con umidità 62%_Stable: parametro archivio.
+Grotta Sasso_Barisano_14 con umidità 82%_High: parametro pompa_non_invasiva.
+Grotta Suite_Lux_07 con umidità 68%_Medium: parametro controllo_ospiti.
+Grotta Sasso_Caveoso_2 con anagrafica simile: parametro verifica_nome.
+Grotta Sasso_Barisano_19 con umidità 64%_Stable: parametro ventilazione_minima.
+Grotta Civita_07 con umidità 71%_Medium: parametro monitoraggio_settimanale.
+Grotta Sasso_Barisano_21 con umidità 69%_Medium: parametro controllo_mensile.
+Grotta Civita_09 con umidità 63%_Stable: parametro ventilazione_minima.

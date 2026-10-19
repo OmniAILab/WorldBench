@@ -1,0 +1,30 @@
+{
+  "persona": "Gareth is from Cardiff and works as a self-employed electrician specialising in heat pumps and electric vehicle charging points across the Valleys. He keeps job sheets, inspection notes, and retrofit evidence packs for ageing terraced houses.",
+  "task": "Generate the Part P completion checklist for Cardiff job VLY-21, pre-filling the ageing terraced property type and EV charger installation details from the Valleys job sheet.",
+  "required_files": [
+    "jobs_valleys.xlsx"
+  ],
+  "output_files": [
+    "data/checklist_template_partp.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/checklist_template_partp.docx",
+        "keywords": [
+          "VLY-21",
+          "Ageing_Terraced",
+          "EV_Charger"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/checklist_template_partp.docx",
+      "change": "modify"
+    }
+  ]
+}

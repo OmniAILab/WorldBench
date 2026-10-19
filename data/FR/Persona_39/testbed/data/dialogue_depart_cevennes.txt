@@ -1,0 +1,4 @@
+Chloé : La rame voyageurs est à quai à Saint-Jean-du-Gard. Le mécanicien a terminé la visite de préparation sur la Loco_Cevennes_09 ?
+Chef de dépôt : Oui, la grille de boîte à fumée a été montée ce matin. Le pointage courant validé au journal est : « 12.5_bar|Eau_normale|Pare_escarbilles_oui » (la ligne à 11.8_bar sans pare-escarbilles datait d'hier soir à l'atelier).
+Chloé : Parfait, selon notre règlement d'exploitation interne et les consignes de prévention des feux de forêt en période sèche, la machine est au timbre nominal avec ses organes de sécurité.
+Chef de dépôt : Tu peux inscrire « Autorisé », « 12.5_bar » et « Eau_normale|Pare_escarbilles_oui » sur la première ligne correspondant à Loco_Cevennes_09 (ligne 10 du tableau).

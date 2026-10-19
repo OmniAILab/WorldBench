@@ -1,0 +1,4 @@
+Responsable : Quel transporteur a été affecté au Brie de Meaux ce matin ?
+Agent de quai : Le transporteur désigné figure dans le registre des accès et doit utiliser la porte du créneau attribué.
+Dispatch : La livraison demandée est le service matinal de Brie_Transport_77.
+Logistique : Je dois donc utiliser Porte_C4 à 04:25 et ignorer le service nocturne.

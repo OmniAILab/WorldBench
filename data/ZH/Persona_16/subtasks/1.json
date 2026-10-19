@@ -1,0 +1,36 @@
+{
+  "persona": "范是郑州东站的一名站台协调员，负责协调到发列车的站台使用。他还要处理冻雨造成的混乱延误。",
+  "task": "将车站恶劣天气规程整理成一份给候车乘客使用的广播稿，提醒郑州东站在冻雨期间的安全安排。",
+  "required_files": [
+    "weather_protocol_zz.txt",
+    "dialogue_zhengzhou_east_weather.txt",
+    "local_context_zhengzhou_east_weather.xlsx"
+  ],
+  "output_files": [
+    "data/announcement_script.pdf"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "pdf",
+        "file": "./data/announcement_script.pdf",
+        "keywords": [
+          "郑州东",
+          "冻雨",
+          "延长追踪间隔"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/announcement_script.pdf",
+      "change": "modify"
+    },
+    {
+      "path": "data/announcement_script.docx",
+      "change": "create"
+    }
+  ]
+}

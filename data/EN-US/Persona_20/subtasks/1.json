@@ -1,0 +1,28 @@
+{
+  "persona": "Gunnar is a logistics coordinator for a bush aviation service based in Anchorage, Alaska, managing the delivery of essential supplies to off-grid Arctic communities. He oversees the complexities of Federal Aviation Administration flight regulations for remote terrain and the logistical hurdles of the Alaska Department of Transportation, ensuring that fuel, medicine, and building materials are synchronized with fluctuating weather windows and the limited runway capacities of isolated gravel strips.",
+  "task": "Write an email to the community council with a status update on the delayed building materials needed for the off-grid clinic.",
+  "required_files": [
+    "warehouse_inventory.xlsx",
+    "community_contacts_anchorage.xlsx",
+    "dialogue_logistics_point_hope.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "council@pointhope-ak.gov",
+        "keywords": [
+          "Clinic_Insulation_Panels",
+          "Backordered_2_Weeks"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_council_*.eml",
+      "change": "create"
+    }
+  ]
+}

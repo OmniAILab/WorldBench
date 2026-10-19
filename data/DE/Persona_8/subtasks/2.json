@@ -1,0 +1,28 @@
+{
+  "persona": "Sabine ist Koordinatorin für Hafenlogistik und arbeitet im Hamburger Speicherstadtviertel. Sie steuert die verzweigten Warenströme, die über das Containerterminal Altenwerder laufen. Zu ihren täglichen Aufgaben gehört es, die Ankünfte der Hochseeschiffe mit den schwankenden tidebedingten Tiefgängen der Elbe in Einklang zu bringen und die strengen Zolldokumentationsvorgaben der zuständigen Abfertigungsstellen lückenlos einzuhalten. Sie gleicht eingehende Frachtmanifeste laufend mit sich ändernden internationalen Handelszöllen und Daten zur Hafenauslastung ab, um Sendungen kurzfristig umzuleiten.",
+  "task": "Schreibe eine E-Mail an das zuständige Zollamt und bestätige, dass die Unterlagen für das einlaufende Schiff vollständig und zur Prüfung bereit sind.",
+  "required_files": [
+    "hpa_kontakte.xlsx",
+    "liegeplatz_hamburg.xlsx",
+    "emailhinweise_hamburg.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "waltershof@zoll.de",
+        "keywords": [
+          "MV_Altenwerder",
+          "Unterlagen vollständig"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_zoll_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "persona": "Naima is a supply chain coordinator for an urban agriculture collective in Detroit, Michigan, managing the distribution of fresh produce from repurposed industrial lots to local markets. She oversees the conversion of vacant land under the city’s Right to Farm Act and manages the logistical hurdles of the Michigan Department of Agriculture and Rural Development, ensuring that soil quality certifications and distribution schedules remain synchronized across the city's sprawling neighborhoods.",
+  "task": "Turn the Right to Farm compliance note into a simple checklist document for volunteers at the repurposed lots.",
+  "required_files": [
+    "righttofarm_notice.txt"
+  ],
+  "output_files": [
+    "data/volunteer_checklist.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/volunteer_checklist.docx",
+        "keywords": [
+          "Detroit",
+          "Post the operator contact",
+          "Keep the compost area fenced",
+          "Log the water source"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/volunteer_checklist.docx",
+      "change": "modify"
+    }
+  ]
+}

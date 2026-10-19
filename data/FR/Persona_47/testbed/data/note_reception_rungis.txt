@@ -1,0 +1,20 @@
+Le quai F3 est une affectation interne du planning de réception du pavillon des fromages, non une obligation propre à l’AOP Brie de Meaux.
+Les produits de la mer sont dirigés vers le pavillon marée.
+Les viandes utilisent un quai distinct.
+Les fruits ne passent pas par la chambre des fromages.
+Les volailles sont contrôlées dans un autre secteur.
+Le Roquefort possède son propre créneau.
+Le Camembert arrive avant le Brie.
+Le Comté est stocké sur une autre travée.
+Le chèvre du Loir-et-Cher ne correspond pas au produit demandé.
+Retenir la ligne Brie_de_Meaux_AOP.
+Le créneau doit être copié sans modification.
+Le planning frigorifique concerne le pavillon des fromages.
+Aucun produit de la mer ne doit être ajouté.
+La température est contrôlée à l’arrivée.
+Le numéro de quai n’est pas fourni.
+Le marché fonctionne avant l’aube.
+Seule la ligne demandée doit être modifiée.
+L’heure doit conserver le format HH:MM.
+Le Brie de Meaux AOP Sec arrive à 03:20 et passe par le même pavillon.
+Le Camembert de Normandie arrive avant le Brie et suit un autre créneau frigorifique.

@@ -1,0 +1,20 @@
+Manutenção do circuito de Guimarães em 2026-11-10 das 01:00 às 02:00.
+Teste de redundância de Braga em 2026-11-10 das 03:00 às 04:00.
+Atualização do posto de Chaves em 2026-11-11 das 02:00 às 03:00.
+Revisão do enlace de Montalegre em 2026-11-11 das 04:00 às 05:00.
+Intervenção no circuito de Amarante em 2026-11-12 das 00:00 às 01:30.
+Teste do posto de Melgaço em 2026-11-12 das 02:00 às 03:30.
+Atualização da rota de Valença em 2026-11-13 das 01:00 às 02:00.
+Manutenção regional da rede agendada para 2026-11-14 das 02:00 às 04:00; suspender implementações nas clínicas rurais durante este período.
+Teste de latência do Gerês em 2026-11-14 das 05:00 às 06:00.
+Revisão do circuito de Boticas em 2026-11-15 das 01:00 às 02:30.
+Atualização do enlace de Monção em 2026-11-15 das 03:00 às 04:00.
+Teste de segurança de Vila Verde em 2026-11-16 das 02:00 às 03:00.
+Manutenção do posto de Arcos em 2026-11-16 das 04:00 às 05:00.
+Revisão da fibra de Ponte da Barca em 2026-11-17 das 01:00 às 02:00.
+Atualização do circuito de Terras de Bouro em 2026-11-17 das 03:00 às 04:30.
+Teste de redundância de Cabeceiras em 2026-11-18 das 02:00 às 03:00.
+Manutenção do enlace de Celorico em 2026-11-18 das 04:00 às 05:00.
+Atualização do posto de Póvoa de Lanhoso em 2026-11-19 das 01:00 às 02:00.
+Intervenção intermunicipal prevista para 2026-11-14 das 01:30 às 03:30; limitar apenas novas cópias de segurança.
+Teste de continuidade regional marcado para 2026-11-14 das 04:00 às 05:30; manter as implementações sob supervisão.

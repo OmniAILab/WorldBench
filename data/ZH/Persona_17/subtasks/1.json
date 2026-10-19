@@ -1,0 +1,41 @@
+{
+  "persona": "露露是敦煌莫高窟的一名导游协调员。她负责控制客流，并在游客呼吸产生的二氧化碳（CO₂）水平可能损害古代壁画时协助关闭洞窟。",
+  "task": "根据洞窟空气监测规则，判断 Cave_16 是否因二氧化碳超标需要关闭，并在保护日志中写入建议。",
+  "required_files": [
+    "sensor_rules_dunhuang.xlsx",
+    "cave_sensors_dunhuang.xlsx",
+    "dialogue_dunhuang_co2.txt",
+    "local_context_dunhuang_co2.xlsx"
+  ],
+  "output_files": [
+    "data/preservation_log.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/preservation_log.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Close_for_CO2"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/preservation_log.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

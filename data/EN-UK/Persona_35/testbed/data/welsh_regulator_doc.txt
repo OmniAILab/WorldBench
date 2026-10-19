@@ -1,0 +1,16 @@
+Harbour café deliveries are not part of tidal-energy site compliance.	Swansea Bay harbour coordination	Gower cetacean watch
+Routine pontoon lighting checks are handled by port facilities.	Mumbles tide-gauge review	Tawe marine maintenance note
+General vessel noise should be logged separately from turbine works.	Bristol Channel weather briefing	Port Talbot marine liaison
+A 130 decibel construction-note is archived and should not be used.	Swansea Bay harbour coordination	Gower cetacean watch
+Cetacean watch reports are stored in the environmental log.	Mumbles tide-gauge review	Tawe marine maintenance note
+Maintenance boat refuelling has no acoustic threshold.	Bristol Channel weather briefing	Port Talbot marine liaison
+Slack tide notices do not set noise limits.	Swansea Bay harbour coordination	Gower cetacean watch
+Maximum underwater acoustic limit: 120 decibels during cetacean migration.	Mumbles tide-gauge review	Tawe marine maintenance note
+Visitor pontoon announcements are public-facing, not operational limits.	Bristol Channel weather briefing	Port Talbot marine liaison
+Turbine salinity alerts belong in the tolerance tracker.	Swansea Bay harbour coordination	Gower cetacean watch
+Do not use air-noise values for underwater acoustic compliance.	Mumbles tide-gauge review	Tawe marine maintenance note
+Insert the acoustic limit under environmental limits.	Bristol Channel weather briefing	Port Talbot marine liaison
+Wave-height notes belong to weather planning, not noise compliance.	Swansea Bay harbour coordination	Gower cetacean watch
+Maximum airborne acoustic limit: 120 decibels during pile driving.	Mumbles tide-gauge review	Tawe marine maintenance note
+An archived 125 decibel underwater value was withdrawn in 2024.	Bristol Channel weather briefing	Port Talbot marine liaison
+Underwater monitoring outside the migration season has no fixed threshold.	Swansea Bay harbour coordination	Gower cetacean watch

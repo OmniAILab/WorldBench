@@ -1,0 +1,30 @@
+{
+  "persona": "Marco è un produttore di olio d'oliva biologico nella Valle d'Itria, in Puglia, e gestisce la protezione degli uliveti secolari dall'epidemia di Xylella fastidiosa. Si muove tra i decreti regionali di emergenza fitosanitaria e gli specifici requisiti di certificazione biologica dell'ICEA. Il suo lavoro comprende il costante monitoraggio dei dati dei sensori dei singoli alberi e il coordinamento delle squadre di raccolta per garantire che la spremitura a freddo avvenga entro le ristrette finestre consentite per la denominazione Extra Vergine.",
+  "task": "Inserisci la regola ICEA per la gestione dei lotti biologici nel briefing di raccolta per il team della Valle d'Itria. Il file ./data/briefing_raccolta_puglia.docx deve contenere esattamente le seguenti diciture: «Valle d'Itria», «lotti biologici separati», «etichettati».",
+  "required_files": [
+    "nota_icea_puglia.txt"
+  ],
+  "output_files": [
+    "data/briefing_raccolta_puglia.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/briefing_raccolta_puglia.docx",
+        "keywords": [
+          "Valle d'Itria",
+          "lotti biologici separati",
+          "etichettati"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/briefing_raccolta_puglia.docx",
+      "change": "modify"
+    }
+  ]
+}

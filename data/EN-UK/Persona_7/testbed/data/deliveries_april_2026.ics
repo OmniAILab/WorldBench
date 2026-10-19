@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Services//Local Data//EN
+BEGIN:VEVENT
+UID:vly22-heat-pump-check-1@local.test
+DTSTART:20260405T090000
+DTEND:20260405T093000
+SUMMARY:Heat Pump Check VLY-22
+DESCRIPTION:Rear alley access for heat pump inspection.
+END:VEVENT
+BEGIN:VEVENT
+UID:cardiff-supplier-run-2@local.test
+DTSTART:20260402T073000
+DTEND:20260402T080000
+SUMMARY:Cardiff supplier run
+DESCRIPTION:Collect EV charger labels before Valleys visits.
+END:VEVENT
+BEGIN:VEVENT
+UID:orp-paperwork-review-3@local.test
+DTSTART:20260403T150000
+DTEND:20260403T153000
+SUMMARY:ORP paperwork review
+DESCRIPTION:Review evidence packs after site visits.
+END:VEVENT
+BEGIN:VEVENT
+UID:vly20-access-note-4@local.test
+DTSTART:20260403T100000
+DTEND:20260403T103000
+SUMMARY:VLY-20 access note
+DESCRIPTION:Steep steps, bring hand tools.
+END:VEVENT
+BEGIN:VEVENT
+UID:partp-certificates-file-5@local.test
+DTSTART:20260404T160000
+DTEND:20260404T163000
+SUMMARY:Part P certificates file
+DESCRIPTION:File completed certificates for previous jobs.
+END:VEVENT
+END:VCALENDAR

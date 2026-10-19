@@ -1,0 +1,8 @@
+Chronique_01 : prononcer « Kemper » avec l’accent sur la première syllabe.
+Chronique_04 : prononcer « Kerne » avec un e ouvert.
+Chronique_06 : prononcer « Fest-noz » en deux éléments.
+Chronique_08 : prononcer « Sonerien » en trois syllabes.
+Brezhoneg_09 : annoncer le titre « Degemer mat e Kemper » et prononcer « Kemper » comme « Kèm-per ».
+Chronique_10 : prononcer « Kan ha diskan » distinctement.
+Brezhoneg_18 : annoncer le titre « Degemer mat e Brest » et prononcer « Brest » à la française.
+Chronique_19 : prononcer « Kemper » comme « Kèm-peur » en fin de phrase.

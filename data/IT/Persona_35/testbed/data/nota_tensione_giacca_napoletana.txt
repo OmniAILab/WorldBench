@@ -1,0 +1,21 @@
+Appunti dell'atelier dei Quartieri Spagnoli sui tessuti per clienti internazionali.
+Appunto: Per Low_Tension_Linen usare 2.4_metri, ma non è il tessuto del cliente indicato.
+Promemoria: Il valore 3.0_metri riguarda lana media senza spalla morbida napoletana.
+Nota operativa: Per High_Tension_Wool non usare il metraggio delle giacche doppiopetto.
+Nota archivio: Il codice Client_UK_02 appartiene a un lino estivo.
+Avviso interno: Il metraggio 3.5_metri è riservato a cappotti e non a giacche.
+Appunto: Il tessuto Silk_Blend_Light richiede 2.6_metri.
+Tabella Taglio Tessuti: Qualora il committente opti per lane di grammatura pesante, il sarto è tenuto a riservare un taglio di stoffa da tre metri e venti per poter governare a dovere le pieghe del giromanica.
+Promemoria: La nota sul vicolo dei motorini non modifica il consumo tessuto.
+Nota operativa: Per Client_US_01 non usare la scheda prova del 2025.
+Nota archivio: Il valore 2.8_metri appartiene alla giacca destrutturata corta.
+Avviso interno: Il mercante Seta_Napoletana_Co riguarda fodere, non il tessuto principale.
+Appunto: Se tensione è Medium_Tension_Wool, usare 3.0_metri.
+Promemoria: Il codice High_Tension_Linen non compare nelle misure correnti.
+Nota operativa: Il promemoria sul bottone in corno non va nella colonna metraggio.
+Nota archivio: Per giacca cerimonia lunga usare altro cartamodello.
+Avviso interno: Il metraggio 3.1_metri era una stima prima della prova spalla.
+Appunto: La manutenzione della macchina da cucire è tecnica e non modifica il metraggio richiesto.
+Promemoria: L'ordine di aghi e filo è logistico e non determina il consumo di tessuto.
+Nota atelier: la stiratura intermedia delle tele è una fase di lavorazione e non modifica il metraggio assegnato al cliente.
+Promemoria Napoli: la consegna dei bottoni artigianali segue una filiera separata dal calcolo del tessuto principale.

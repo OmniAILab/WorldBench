@@ -1,0 +1,4 @@
+Inspektionsbericht Arbeitsauftrag #WSW-492 — Schwebebahndepot Wuppertal
+Bauteilort: Alter_Markt_Weiche
+Visueller Befund: Bei der manuellen Strukturprüfung der Alter_Markt_Weiche wurden sichtbare Mikrorisse in der Schweißnaht an der tragenden Aufhängung festgestellt.
+Maßnahme: Sende umgehend eine E-Mail an das technische Depotteam (technik@schwebebahn.de), um eine sofortige Reparatur in der Nachtschicht einzuplanen. Im Betreff oder Text zwingend "Alter_Markt_Weiche" und den Befund "sichtbare Mikrorisse" nennen, damit Ersatzteile korrekt disponiert werden.

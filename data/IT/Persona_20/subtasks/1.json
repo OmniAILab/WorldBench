@@ -1,0 +1,39 @@
+{
+  "persona": "Simona è un'architetta di dati a Bologna e lavora per il consorzio CINECA per gestire l'integrazione delle risorse di supercalcolo per la modellazione climatica regionale. Si muove tra i requisiti tecnici dell'impresa comune EuroHPC e le specifiche leggi italiane sulla sovranità dei dati. Il suo lavoro quotidiano comprende la gestione di enormi insiemi di dati provenienti dalla rete satellitare Copernicus e l'ottimizzazione dei cicli di calcolo ad alte prestazioni per fornire previsioni ambientali accurate al settore agricolo della Pianura Padana.",
+  "task": "Seleziona la finestra HPC disponibile più breve nella tabella della coda e aggiorna il piano di esecuzione del modello della Pianura Padana nel file ./data/piano_run_bologna.xlsx per il modello PoValley_Run.",
+  "required_files": [
+    "note_coda_cineca.txt",
+    "coda_cineca.xlsx"
+  ],
+  "output_files": [
+    "data/piano_run_bologna.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/piano_run_bologna.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "W2"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/piano_run_bologna.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

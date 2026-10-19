@@ -1,0 +1,42 @@
+{
+  "persona": "欣怡是三亚一个阳光充足的农业试验农场的研究员。她在海边的盐碱地里种植实验水稻，填写没完没了的文件，并在海南热带高温中避免晒伤。",
+  "task": "根据土壤盐度数据和试验规则，为新的海水稻选择最佳高盐地块，并写入试验记录表。",
+  "required_files": [
+    "salinity_sanya.xlsx",
+    "trial_rules_sanya.xlsx",
+    "salinity_note_sanya.txt",
+    "dialogue_sanya_salinity.txt",
+    "sanya_plot_context.xlsx"
+  ],
+  "output_files": [
+    "data/trials_sanya.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/trials_sanya.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "ST-2"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/trials_sanya.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

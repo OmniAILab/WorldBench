@@ -1,0 +1,30 @@
+{
+  "persona": "Joseba es elaborador de sidra natural en Astigarraga, Gipuzkoa, donde gestiona la temporada del txotx en su sagardotegi. Compagina el pliego del Consejo Regulador de Euskal Sagardoa sobre la madurez de la manzana autóctona con la ordenanza municipal de convivencia y con las autorizaciones de vertido de la Agencia Vasca del Agua. Su trabajo consiste en clasificar las partidas de manzana para la fermentación y en mantener la sidrería dentro de los límites acústicos y ambientales.",
+  "task": "Añade al manual de la sidrería de Astigarraga el límite máximo de sólidos en suspensión permitido en las aguas residuales.",
+  "required_files": [
+    "resolucion_vertido_ura.txt"
+  ],
+  "output_files": [
+    "data/manual_sidreria_astigarraga.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/manual_sidreria_astigarraga.docx",
+        "keywords": [
+          "Astigarraga",
+          "35 mg/L",
+          "sólidos en suspensión"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/manual_sidreria_astigarraga.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "persona": "Hillary is a dual-immersion teacher in Columbus, Ohio, working within a rapidly growing school district that serves a large population of Somali and Spanish-speaking families. She balances the Ohio Department of Education’s rigorous testing standards with the need for personalized lesson plans that bridge linguistic gaps, coordinating between diverse families and district administration to ensure that instructional materials and progress reports are culturally resonant and accessible across multiple languages.",
+  "task": "Use the Ohio benchmark spreadsheet to find the recorded reading status and intervention tier for Student_S_04 and enter that value in the bilingual progress log.",
+  "required_files": [
+    "ode_benchmarks_columbus.xlsx"
+  ],
+  "output_files": [
+    "data/progress_log.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/progress_log.xlsx",
+        "matches": [
+          {
+            "row": 6,
+            "col": 2,
+            "value": "Below_Proficiency_Tier_3"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/progress_log.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

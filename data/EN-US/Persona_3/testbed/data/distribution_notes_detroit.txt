@@ -1,0 +1,20 @@
+Run Corktown_Tue: Lot_3 is not eligible because the certification is not current.
+Run Midtown_Wed: Lot_7 is set aside because the compost log is incomplete.
+Run Hamtramck_Thu: Lot_18 is still waiting on the lead result.
+Run Southwest_Fri: Lot_22 is missing the water source record.
+Run Eastern_Market_Mon: select a lot with certification Yes AND Harvest_Ready = Yes.
+Run Jefferson_Sat: Lot_9 received a certification denial.
+Lot_12: current certification and harvest readiness confirmed for Eastern Market.
+Lot_25: current certification but harvest not ready this week.
+Lot_27: current certification but reserved for a school distribution.
+Lot_29: current certification but post-harvest cooling not validated.
+Detroit note: the Eastern Market labels must carry the lot number.
+Detroit note: do not mix collard greens from uncertified beds.
+Detroit note: reused crates must get new lot labels.
+Detroit note: the gate on the repurposed industrial lot sticks after rain.
+A Pending status is not the same as Yes.
+An Expired certificate is not current.
+Neighborhood preference does not replace certification.
+A lot that is certified but not ready must not supply this run.
+Instruction: update Eastern_Market_Mon only.
+Instruction: copy the identifier of the selected lot exactly.

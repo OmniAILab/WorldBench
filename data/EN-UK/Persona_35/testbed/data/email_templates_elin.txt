@@ -1,0 +1,25 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Deployment Note
+Hi team,
+A short note on [operation]. [Main detail from source note].
+Thanks,
+Elin
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Tidal Deployment Window
+Dear Divers,
+Please be advised of the approved deployment window: [Main detail from source note].
+No underwater work should begin outside the confirmed slack tide window.
+Regards,
+Elin
+
+Note: use the formal template for underwater engineering dive deployment.
+Note: use the friendly template for routine toolbox reminders.
+Note: salinity alerts are logged in the turbine tolerance tracker.
+Note: cetacean migration limits belong in environmental compliance.
+Note: café deliveries are not part of the tidal-energy work plan.
+Note: always state both day and safe window.
+Note: maintenance boat refuelling is handled by harbour services.
+Note: Swansea Bay turbine IDs should not be renamed.
+Note: tide windows must not be approximated.
+Note: diver deployment messages must stay operationally clear.

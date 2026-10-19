@@ -1,0 +1,21 @@
+Requisitos de segurança contra incêndios do contrato de transporte de madeira da fábrica de celulose.
+A Madeiras_Centro_Lda deve substituir o extintor fora de validade.
+A Cargas_Mondego_SA deve completar o plano de rota.
+A Floresta_Rápida_Lda deve reforçar o kit de água.
+A Transportes_Pinhal_SA deve atualizar o registo dos pneus.
+A Eucalipto_Norte_Lda deve testar o rádio.
+A Camiões_Leiria_SA deve entregar o documento de carga.
+A Rota_Verde_Lda deve concluir a formação pendente.
+A empresa Transportes Madeireiros do Centro, Lda. opera sem para-chamas; suspender imediatamente o transporte de madeira durante a época seca até à correção e nova inspeção.
+A Bosque_Seguro_SA deve completar a sinalização.
+A Carga_Florestal_Lda deve realizar a inspeção atrasada.
+A Madeira_Atlântica_SA deve testar a mangueira.
+A Pinhal_Logística_Lda deve substituir o mapa de risco.
+A Frota_Celulose_SA deve repor o colete em falta.
+A Eucalipto_Expresso_Lda deve verificar o alarme.
+A Transportes_Quiaios_SA deve completar o registo de turno.
+A Carga_Pombal_Lda deve completar o kit de primeiros socorros.
+A Frota_Mondego_SA deve atualizar o telefone de emergência.
+A Madeira_Figueira_Lda deve concluir a inspeção dos travões.
+A Transportes Florestais do Mondego, Lda. tem o para-chamas com homologação expirada; restringir viagens até à substituição.
+A Madeiras em Rota do Centro, S.A. apresenta a rede de fagulhas danificada; retirar apenas o veículo inspecionado.

@@ -1,0 +1,7 @@
+Attention sur la section Abstract_Wave_Left : référez-vous bien au code couleur du carton mis à jour ce matin et appliquez sa tension.
+La section Abstract_Wave_Right utilise un bleu voisin mais un réglage distinct.
+La bordure géométrique doit suivre la référence Aubusson_Grey_12.
+Le champ inférieur utilise Aubusson_Green_27.
+La ligne dorée utilise Aubusson_Ochre_19.
+Une ancienne version du carton attribuait Aubusson_Blue_42 à la vague gauche.
+Aubusson_Blue_40 appartient à un échantillon de réserve.

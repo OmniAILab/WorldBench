@@ -1,0 +1,22 @@
+MLC rule note: catalog-only vinyl reissues should be reviewed during quarterly cleanup.
+MLC rule note: demo recordings without release dates can wait for publisher reconciliation.
+MLC rule note: live rehearsal tapes should not be registered until the release is confirmed.
+MLC rule note: radio-only promotional cuts need a separate performance-rights check.
+MLC rule note: register mechanicals before digital release when the release is not yet registered.
+MLC rule note: old session stems should be archived under the studio project number.
+MLC rule note: songwriter phone numbers belong in the private contact sheet, not the tracker.
+MLC rule note: Grand Ole Opry guest passes are handled by the venue desk.
+MLC rule note: split-sheet corrections should wait until all writers approve the percentages.
+MLC rule note: publishing advances should be kept out of the release tracker.
+MLC rule note: duplicate ISRC entries should be reviewed during the Friday admin block.
+MLC rule note: physical-only cassette runs can be checked after digital deliveries.
+MLC rule note: backup vocal credits are not the trigger for mechanical registration.
+MLC rule note: session musician parking reimbursements belong in the payroll file.
+MLC rule note: Music Row courier pickups should be logged by package number.
+MLC rule note: streaming artwork approvals should be sent to the design folder.
+MLC rule note: private showcase set lists do not create a mechanical filing action.
+MLC rule note: producer lunch receipts from Broadway should be saved separately.
+Music Row context: one track can have mechanical, performance, and sync rights administered separately.
+Local practice: writer rooms often produce demos that are not yet confirmed digital releases.
+Administration: the split sheet must distinguish songwriter, session musician, and publisher.
+Nashville context: studio sessions and showcases do not automatically amount to a commercial release.

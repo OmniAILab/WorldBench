@@ -1,0 +1,33 @@
+{
+  "persona": "Pierrick est maître de chai dans une cidrerie de Cornouaille, en Bretagne. Il suit la récolte des pommes à cidre, notamment la variété Kermerrien, les fermentations, l’embouteillage et la traçabilité des cuvées. Pour les lots concernés, il vérifie le respect du cahier des charges de l’AOP Cidre de Cornouaille et distingue ces exigences des consignes internes de la cidrerie.",
+  "task": "Envoie un courriel dans la messagerie simulée à l’équipe d’embouteillage après avoir croisé le contact, l’instruction de maquette pour cette gamme, la note explicative, le lot programmé et le dialogue. Pour la cuvée CT-09, demande que Mention_Titre_Alcoométrique soit imprimée en caractères gras d’au moins 14 points avant l’embouteillage du 15 avril 2026. Écarte la règle « Bis ».",
+  "required_files": [
+    "bottling_contacts.xlsx",
+    "compliance_labeling.xlsx",
+    "note_etiquetage_cidre.txt",
+    "planning_embouteillage_cornouaille.xlsx",
+    "dialogue_etiquetage_cidre.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "embouteillage@cidrerie-cornouaille.invalid",
+        "keywords": [
+          "CT-09",
+          "Mention_Titre_Alcoométrique",
+          "14 points",
+          "gras",
+          "2026-04-15"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_embouteillage_*.eml",
+      "change": "create"
+    }
+  ]
+}

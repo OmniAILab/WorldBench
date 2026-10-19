@@ -1,0 +1,8 @@
+Rémy : La dernière prévision pour North_Beauce_Fields est bien 4500_Tonnes_Peak ?
+Luc : Oui.
+Rémy : Le silo dédié est SILO-NB-4 avec une capacité de 4 800 tonnes.
+Luc : Exact, il peut absorber la prévision.
+Marc : SILO-NB-3 correspond à North_Beauce_Annex, pas au secteur principal.
+Luc : Oui.
+Rémy : J’inscris donc la prévision exacte et SILO-NB-4 dans le registre.
+Luc : C’est l’allocation validée.

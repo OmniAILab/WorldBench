@@ -1,0 +1,28 @@
+{
+  "persona": "Nils ist Lagerleiter im Onlinehandel und arbeitet in einem großen Logistikzentrum vor den Toren von Halle an der Saale. Er organisiert die Sortierung und den Versand von täglich Tausenden Paketen mit Unterhaltungselektronik. Er steht vor der ständigen Herausforderung, verlässliche Saisonkräfte zu gewinnen und zugleich die strengen Arbeitsschutzvorschriften der sachsen-anhaltischen Landesbehörden einzuhalten. Er wertet wechselnde Kauftrends, schwer planbare Kapazitäten der Lieferpartner und interne Schichtpläne aus, um Personal kurzfristig auf die am stärksten belasteten Sortiergänge umzuverteilen.",
+  "task": "Schreibe eine E-Mail an die Schichtleitungen und nenne den betroffenen Lagergang sowie die festgestellte Überschreitung des zulässigen Maximalgewichts gemäß Gefährdungsbeurteilung.",
+  "required_files": [
+    "pruefbericht_halle.xlsx",
+    "schichtleitung_kontakte_halle.xlsx",
+    "auditnotizen_halle.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "schichtleitung@logistik-halle.de",
+        "keywords": [
+          "Schwergeräte_B",
+          "Maximalgewicht überschritten"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_schichtleitung_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "persona": "帅是沈阳一名工厂车间技术员，正努力改造老旧焊接机器人以争取政府补贴。他要处理不稳定的 5G 连接、严格的网络安全规则，以及东北刺骨的寒冬。",
+  "task": "给工厂 IT 人员写一封邮件，请他们对 5G 模块进行受控关机测试，并引用准确的协议代码。",
+  "required_files": [
+    "it_contacts_shenyang.xlsx",
+    "protocol_note_shenyang.txt",
+    "dialogue_shenyang_5g_shutdown.txt",
+    "shenyang_protocol_versions.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "it@shenyangplant.cn",
+        "keywords": [
+          "ICS-SEGMENT-5G",
+          "关机测试",
+          "铁西机器人焊接工位"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_it_*.eml",
+      "change": "create"
+    }
+  ]
+}

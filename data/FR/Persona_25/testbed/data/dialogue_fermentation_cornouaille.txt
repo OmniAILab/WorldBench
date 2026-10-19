@@ -1,0 +1,8 @@
+Pierrick : Kermerrien_12 est bien à 14 Brix ?
+Responsable cuverie : Oui, la procédure de fermentation de la cidrerie donne 21 jours.
+Pierrick : La cuve est à 11,8 °C et marquée Stable.
+Responsable cuverie : Exact, aucune correction de durée n’est nécessaire.
+Pierrick : Je renseigne 21_jours, 14_Brix et « Conduite validée ».
+Responsable cuverie : Oui.
+Pierrick : La cuve reste stable à 11,8 °C ; je n’applique pas le réglage de la cuve 18.
+Responsable de chai : Note la durée issue de notre tableau de conduite, distinct du cahier des charges AOP.

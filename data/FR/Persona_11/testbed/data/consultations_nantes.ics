@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Concertation littorale des Pays de la Loire//Calendrier opérationnel//FR
+BEGIN:VEVENT
+UID:5716a87b-91d7-5e89-977b-ccad5830639b
+DTSTART:20260402T100000
+DTEND:20260402T110000
+SUMMARY:Point cartographique avec les pêcheurs de La Turballe
+DESCRIPTION:Relecture des cartes des zones de frai et des couloirs de navigation pour ATL-WIND-3.
+END:VEVENT
+BEGIN:VEVENT
+UID:cf0e2d03-bc4b-52a4-9201-1166a96ea392
+DTSTART:20260407T093000
+DTEND:20260407T100000
+SUMMARY:Préparation du dossier de consultation ATL-WIND-3
+DESCRIPTION:Vérification de la fiche de sécurité maritime et des éléments soumis à la concertation.
+END:VEVENT
+END:VCALENDAR

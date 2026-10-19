@@ -1,0 +1,21 @@
+Note di coordinamento sicurezza per il cantiere navale.
+Appunto: Il briefing da 30 minuti vale per visitatori occasionali, non subappaltatori tecnici.
+Promemoria: Una sessione di 1 ora è indicata per i fornitori già accreditati.
+Nota operativa: Il promemoria sulle pause mensa non va nel manuale operativo.
+Nota archivio: Il controllo badge dura 15 minuti e resta separato dal briefing.
+Avviso interno: Per i verniciatori esterni è prevista una formazione diversa.
+Appunto: La durata di 3 ore appartiene al corso antincendio annuale.
+Direttiva Sicurezza sul Lavoro: Nessun team esternalizzato può impugnare un utensile se prima non ha assorbito integralmente le centoventi minuti di formazione frontale sui rischi del comparto metalmeccanico.
+Promemoria: Il manuale vecchio cita 90 minuti ma non è più aggiornato.
+Nota operativa: Il briefing può avvenire in aula rossa, ma la stanza non va inserita come requisito.
+Nota archivio: La nota sul casco obbligatorio è già presente in un altro capitolo.
+Avviso interno: Il valore 45 minuti riguarda la consegna DPI in portineria.
+Appunto: Per il personale interno usare il corso aziendale ordinario.
+Promemoria: Il turno notte ha lo stesso obbligo, ma non una durata diversa.
+Nota operativa: Il controllo ponteggio è tecnico e non sostituisce il briefing.
+Nota archivio: Il registro presenze va firmato, ma non è la frase da inserire.
+Avviso interno: Il corso IMO ambientale non riguarda la sicurezza dei subappaltatori.
+Appunto: La prenotazione dell'aula formazione è logistica e non modifica la durata obbligatoria.
+Promemoria: La fornitura di proiettori per le sessioni è tecnica e non sostituisce la frase da inserire.
+Nota sicurezza: la verifica periodica degli estintori è obbligatoria ma non modifica la durata del briefing dei subappaltatori.
+Promemoria FVG: la consegna dei pass mensa è amministrativa e non sostituisce la formazione preventiva richiesta.

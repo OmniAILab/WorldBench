@@ -1,0 +1,29 @@
+{
+  "persona": "Fabio svolge il ruolo di responsabile archeologico presso il Parco Archeologico di Pompei, dove sovrintende alla messa in sicurezza delle ville di recente scavo nella Regio IX. Documenta ogni reperto secondo i rigorosi protocolli del Ministero della Cultura, gestendo al contempo la pressione logistica del turismo di massa durante l'alta stagione mediterranea. Il suo lavoro richiede il costante esame delle analisi stratigrafiche e il coordinamento di team di ricerca internazionali che devono operare entro i delicati vincoli del sito Patrimonio Mondiale dell'UNESCO.",
+  "task": "Scrivi una email ai team di ricerca internazionali segnalando la zona di maggiore congestione turistica e la conseguente limitazione di accesso.",
+  "required_files": [
+    "note_accessi_pompei.txt",
+    "flussi_visitatori_pompei.xlsx",
+    "contatti_ricerca_pompei.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "research@pompei.it",
+        "keywords": [
+          "Via_dell_Abbondanza",
+          "Critical_Red",
+          "accesso limitato"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_research_*.eml",
+      "change": "create"
+    }
+  ]
+}

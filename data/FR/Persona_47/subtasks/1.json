@@ -1,0 +1,37 @@
+{
+  "persona": "Samira est responsable logistique au Marché international de Rungis, où elle coordonne les arrivages matinaux de produits frais. Elle veille au respect de la chaîne du froid, des créneaux d’accès aux pavillons et des contrôles sanitaires, en particulier pour les fromages AOP, les produits de la mer et les viandes destinées aux restaurateurs franciliens. Son activité commence avant l’aube et exige une synchronisation précise avec les transporteurs et les grossistes.",
+  "task": "Transforme les règles sanitaires en checklist après avoir croisé le lot attendu, les consignes du Brie_de_Meaux_AOP, la note de réception et le dialogue du pavillon. Pour BRIE-090, conserve uniquement les contrôles applicables au Brie de Meaux AOP : température à cœur, étiquette AOP et isolement au-dessus du seuil. Mentionne qu’il s’agit de la réception matinale du pavillon des fromages et écarte les critères des autres fromages.",
+  "required_files": [
+    "hygiene_rules_rungis.txt",
+    "consigne_checklist_rungis.txt",
+    "lots_reception_fromages.xlsx",
+    "dialogue_checklist_brie.txt"
+  ],
+  "output_files": [
+    "data/inspection_checklist_rungis.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/inspection_checklist_rungis.docx",
+        "keywords": [
+          "BRIE-090",
+          "Brie_de_Meaux_AOP",
+          "température à cœur",
+          "étiquette AOP",
+          "au-dessus de 6°C",
+          "pavillon des fromages",
+          "réception matinale"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/inspection_checklist_rungis.docx",
+      "change": "modify"
+    }
+  ]
+}

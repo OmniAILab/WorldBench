@@ -1,0 +1,31 @@
+{
+  "persona": "Gianluca calibra i cicli di produzione di una tradizionale fornace di soffiatura del vetro a Murano, Venezia, dove gestisce la creazione di lampadari su misura per hotel di lusso di tutto il mondo. Affronta le estreme fluttuazioni dei prezzi dell'energia che colpiscono l'industria dell'isola, dipendente dal metano, e assicura che le emissioni del suo laboratorio rispettino le rigorose normative ambientali della Laguna Veneta. Il suo ruolo richiede il costante monitoraggio dei registri degli ordini internazionali e la gestione della delicata logistica di spedizione attraverso il sistema di trasporto acqueo della città.",
+  "task": "Inserisci nel manuale prezzi dei lampadari il sovrapprezzo energetico applicato dal fornitore di metano dell'isola. Il file ./data/manuale_prezzi_murano.docx deve contenere esattamente le seguenti diciture: «Costi energia», «15%», «ore di punta».",
+  "required_files": [
+    "note_metano_murano.txt",
+    "avviso_metano_murano.txt"
+  ],
+  "output_files": [
+    "data/manuale_prezzi_murano.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/manuale_prezzi_murano.docx",
+        "keywords": [
+          "Costi energia",
+          "15%",
+          "ore di punta"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/manuale_prezzi_murano.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Oficina de Azulejaria de Estremoz//Agenda Operacional//PT
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:6d9b63e5-0456-54d9-8b65-b622adb2ab03
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260409T080000
+DTEND;TZID=Europe/Lisbon:20260409T083000
+SUMMARY:Preparação dos moldes
+DESCRIPTION:Preparação documentada para os ensaios de vidrado e a moldagem na oficina.
+END:VEVENT
+BEGIN:VEVENT
+UID:87197619-aa63-5bb2-937f-5aff4e992a30
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260409T093000
+DTEND;TZID=Europe/Lisbon:20260409T100000
+SUMMARY:Revisão dos pigmentos
+DESCRIPTION:Preparação documentada para os ensaios de vidrado e a moldagem na oficina.
+END:VEVENT
+BEGIN:VEVENT
+UID:a7103621-7f82-5140-8259-17a219622c23
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260409T114500
+DTEND;TZID=Europe/Lisbon:20260409T121500
+SUMMARY:Teste do vidrado
+DESCRIPTION:Preparação documentada para os ensaios de vidrado e a moldagem na oficina.
+END:VEVENT
+BEGIN:VEVENT
+UID:3b2cdb7a-cae2-5101-9745-ce5ba7bd041d
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260408T080000
+DTEND;TZID=Europe/Lisbon:20260408T083000
+SUMMARY:Bloco preliminar de moldagem
+DESCRIPTION:Preparação anterior à entrega de pó de mármore.
+END:VEVENT
+BEGIN:VEVENT
+UID:30b92c79-3b65-5518-b657-fbdb6db1ed82
+DTSTAMP:20260301T100000Z
+DTSTART;TZID=Europe/Lisbon:20260411T093000
+DTEND;TZID=Europe/Lisbon:20260411T100000
+SUMMARY:Bloco de moldagem complementar
+DESCRIPTION:Acompanhamento da entrega complementar de mármore de Borba.
+END:VEVENT
+END:VCALENDAR

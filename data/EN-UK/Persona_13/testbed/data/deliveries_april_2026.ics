@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Workplace Calendar//Birmingham Design Calendar//EN
+BEGIN:VEVENT
+UID:curzon-workshop-prep@local.test
+DTSTART:20260401T093000
+DTEND:20260401T100000
+SUMMARY:Curzon Workshop Prep
+DESCRIPTION:Prepare drawings for pedestrianised-zone discussion.
+END:VEVENT
+BEGIN:VEVENT
+UID:green-corridor-review@local.test
+DTSTART:20260402T110000
+DTEND:20260402T113000
+SUMMARY:Green Corridor Review
+DESCRIPTION:Check GC-2 redesign flags before the design meeting.
+END:VEVENT
+BEGIN:VEVENT
+UID:nppf-briefing-update@local.test
+DTSTART:20260404T140000
+DTEND:20260404T143000
+SUMMARY:NPPF Briefing Update
+DESCRIPTION:Insert sustainable transport and healthy streets policy wording.
+END:VEVENT
+BEGIN:VEVENT
+UID:tree-canopy-review@local.test
+DTSTART:20260405T093000
+DTEND:20260405T100000
+SUMMARY:Tree Canopy Review
+DESCRIPTION:Review canopy uplift separately from the site walk.
+END:VEVENT
+END:VCALENDAR

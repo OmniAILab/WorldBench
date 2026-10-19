@@ -1,0 +1,27 @@
+{
+  "persona": "Silas is a forest health specialist in Asheville, North Carolina, working to mitigate the impact of invasive species and wildfire risks within the Blue Ridge Mountains. He manages the coordination between the U.S. Forest Service and local private landowners, documenting the spread of the hemlock woolly adelgid and planning controlled burns that adhere to the North Carolina Forest Service’s strict air quality and smoke management regulations.",
+  "task": "Read the private landowner consent status from the coordination notes document and write an email to the NC Forest Service.",
+  "required_files": [
+    "consent_notes.txt",
+    "nc_forest_contacts.xlsx",
+    "handover_consent_asheville.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "compliance@ncforestservice.gov",
+        "keywords": [
+          "Consent Granted for Smith"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_compliance_*.eml",
+      "change": "create"
+    }
+  ]
+}

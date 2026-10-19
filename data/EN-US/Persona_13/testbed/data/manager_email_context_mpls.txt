@@ -1,0 +1,22 @@
+Access request: Block_C_Connector is a daytime maintenance section.
+Access request: Block_D_Connector is a daytime maintenance section.
+Access request: Block_E_Connector is a weekend maintenance section.
+Access request: Block_F_Connector is a daytime maintenance section.
+Access request: Block_B_Connector is a daytime maintenance section.
+Access request: Block_A_Connector requires an after-hours access slot with the private building manager.
+Access request: Block_G_Connector is a daytime maintenance section.
+Access request: Block_H_Connector is a daytime maintenance section.
+Access request: Block_I_Connector is a daytime maintenance section.
+Access request: Block_J_Connector is scheduled for weekend access.
+Access request: Block_K_Connector has normal private lobby access.
+Access request: Block_L_Connector is not part of the after-hours work.
+Access request: Block_M_Connector is tied to a heating filter change.
+Access request: Block_N_Connector is waiting for a snow-mat delivery.
+Access request: Block_O_Connector is controlled by a different landlord.
+Access request: Block_P_Connector needs a security camera review.
+Access request: Block_Q_Connector is a follow-up inspection only.
+Local context: the Skyway links private buildings whose access rules can differ from block to block.
+Winter: sub-zero spells raise the heating load and the sensitivity to doors left propped open.
+Access: after business hours, a private lobby desk or a security officer can become mandatory.
+Downtown: Nicollet and major events can change pedestrian flow without changing the technical setting.
+Operations: heating zones have to be distinguished from maintenance connectors.

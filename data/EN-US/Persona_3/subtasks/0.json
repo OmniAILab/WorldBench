@@ -1,0 +1,41 @@
+{
+  "persona": "Naima is a supply chain coordinator for an urban agriculture collective in Detroit, Michigan, managing the distribution of fresh produce from repurposed industrial lots to local markets. She oversees the conversion of vacant land under the city’s Right to Farm Act and manages the logistical hurdles of the Michigan Department of Agriculture and Rural Development, ensuring that soil quality certifications and distribution schedules remain synchronized across the city's sprawling neighborhoods.",
+  "task": "Use the soil certification list to mark which lot can supply the Eastern Market run and update the distribution sheet.",
+  "required_files": [
+    "soil_cert_detroit.xlsx",
+    "distribution_notes_detroit.txt",
+    "harvest_status_detroit.xlsx",
+    "dialogue_eastern_market_detroit.txt"
+  ],
+  "output_files": [
+    "data/runs_detroit.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/runs_detroit.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Lot_12"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/runs_detroit.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Traffic: avoid Lower Wacker before 10:00 because of bridge work.
+Traffic: avoid Lake Shore Drive during the morning race closure.
+Traffic: avoid the Kennedy inbound before noon because of a construction lane.
+Traffic: avoid Randolph Street before lunch because of deliveries.
+West Loop warning: avoid the expressway bottleneck after 15:00.
+Traffic: avoid the Dan Ryan during the evening game rush.
+Traffic: avoid Fulton Market at 18:00 when restaurant deliveries stack up.
+Traffic: avoid Halsted during the festival setup.
+Chicago: the target farm is Prairie_Regenerative.
+Chicago: include the West Loop warning in the email.
+Chicago: the shop is in the West Loop.
+Chicago: keep "after 15:00" exactly.
+The Lower Wacker warning covers a different window.
+Fulton Market at 18:00 is not the target instruction.
+The Dan Ryan is a different route.
+Instruction: confirm the pickup time from the dedicated schedule.
+Instruction: do not send to a different farm.
+Instruction: use a professional logistics tone.
+Instruction: do not include the IDOA temperature rule.
+Instruction: the warning should help the farm plan its departure.

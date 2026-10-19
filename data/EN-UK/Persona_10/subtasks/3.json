@@ -1,0 +1,28 @@
+{
+  "persona": "Helena is a commercial solicitor in Leeds, operating near The Headrow and specialising in urban regeneration projects. She updates deal summaries, Section 106 wording notes, title schedules, and briefing documents for local planning matters.",
+  "task": "Insert the exact High Court precedent citation from the Leeds case note into the Precedent section of the West Yorkshire Combined Authority briefing document.",
+  "required_files": [
+    "case_note_leeds.txt"
+  ],
+  "output_files": [
+    "data/wyca_brief.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/wyca_brief.docx",
+        "keywords": [
+          "R v Secretary of State [2024] EWHC 120"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/wyca_brief.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "persona": "Sasha is the facilities coordinator for the Minneapolis Skyway System in Minnesota, overseeing the maintenance and climate control of the world’s largest contiguous enclosed bridge network. She manages the logistical challenges of syncing private property access agreements with municipal safety codes, ensuring that thousands of commuters can navigate the downtown core comfortably during sub-zero temperatures while balancing the energy demands of multiple heating zones and security protocols.",
+  "task": "Use the sub-zero heating alert to set the skyway heating zone to emergency mode and update the control log spreadsheet.",
+  "required_files": [
+    "cold_alert_mpls.txt",
+    "zones_minneapolis.xlsx",
+    "dialogue_skyway_minneapolis.txt"
+  ],
+  "output_files": [
+    "data/control_log.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/control_log.xlsx",
+        "matches": [
+          {
+            "row": 7,
+            "col": 2,
+            "value": "Emergency"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/control_log.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 7,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

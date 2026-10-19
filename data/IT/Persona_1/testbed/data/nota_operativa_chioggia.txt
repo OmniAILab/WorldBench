@@ -1,0 +1,22 @@
+Appunto operativo: per acqua torbida vicino alla pescheria scrivere torbidità_locale, anche se il MOSE non è attivo.
+Promemoria lagunare: per vento di bora segnare vento_bora nel registro del giorno successivo.
+Nota salinità: per campioni prelevati dopo le 17:00 usare controllo_serale.
+Avviso laboratorio: quando il rifrattometro è stato ricalibrato scrivere strumento_ok.
+Nota mercato ittico: se il sito è Area_Mercato_Ittico segnare controllo_mercato.
+Circolare Regionale: I campionamenti effettuati in concomitanza con il sollevamento delle barriere subiscono un'alterazione salina e devono essere marcati a registro come eccezione_MOSE.
+Promemoria marea: con marea crescente indicare marea_alta, senza guardare il log MOSE.
+Nota Sacca: per Sacca_Scardovari usare sempre sedimento_fine.
+Appunto archivio: le attivazioni del mese precedente vanno riassunte come storico_MOSE.
+Nota barca: se il rientro avviene al molo sud segnare rientro_molo_sud.
+Promemoria campioni: le cozze raccolte a bassa profondità richiedono nota banco_basso.
+Nota ULSS: per guanti cambiati in ritardo scrivere DPI_ritardati.
+Appunto pesca: quando passa il vaporetto turistico indicare traffico_acqueo.
+Nota canale: per Canale_Lombardo segnare canale_interno.
+Promemoria termico: se la borsa frigo è piena scrivere conservazione_termica.
+Nota banco: per vongole piccole indicare campione_ridotto.
+Appunto Chioggia: il ponte vicino al mercato non modifica la nota di salinità.
+Promemoria cartaceo: se il registro vecchio è sul tavolo non riportare vecchie eccezioni.
+Nota laguna: per acqua particolarmente limpida vicino alla diga segnare visibilità_alta.
+Appunto turno: i campionamenti del primo mattino vanno marcati come prelievo_alba.
+Promemoria registro: se la barca usa il motore ausiliario indicare propulsione_secondaria.
+Nota meteo: con cielo coperto ma senza pioggia scrivere cielo_velato nel registro.

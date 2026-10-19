@@ -1,0 +1,34 @@
+{
+  "persona": "Aurore est glaciologue à Chamonix-Mont-Blanc et suit l’évolution de la Mer de Glace pour un observatoire alpin. Elle combine relevés de balises, observations de crevasses et consignes de sécurité du PGHM afin d’organiser les campagnes de terrain, tout en tenant compte de la fréquentation touristique du train du Montenvers et des changements rapides de la haute montagne.",
+  "task": "Croise la fiche de préparation de terrain, l’état d’accès courant et le dialogue de terrain. Rédige un protocole court pour Crevasse_Montenvers_09 qui conserve exactement la corde de 45 m, les quatre broches à glace, la progression encordée depuis la sortie du train du Montenvers et la surveillance toutes les deux heures. Écarte les secteurs voisins.",
+  "required_files": [
+    "note_pghm_chamonix.txt",
+    "etat_acces_montenvers.xlsx",
+    "dialogue_protocole_pghm_montenvers.txt"
+  ],
+  "output_files": [
+    "data/protocole_glacier.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/protocole_glacier.docx",
+        "keywords": [
+          "Crevasse_Montenvers_09",
+          "corde de 45 m",
+          "quatre broches à glace",
+          "progresser encordés",
+          "Toutes_les_2h"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/protocole_glacier.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Technician: The discharge threshold is at or below 65 ppt.
+Compliance lead: So 65 is not an exceedance.
+Technician: CB-14 is at 70 ppt.
+Lead: That is the Exceeds_Limit sample.
+Technician: CB-11 and CB-35 are at exactly 65.
+Lead: They stay within the limit.
+Technician: Kelp has built up on the intake screens.
+Lead: Separate environmental observation.
+Technician: Membrane pressure also fluctuated.
+Lead: Separate maintenance.
+Technician: I am not mixing salinity with temperature.
+Lead: Correct.
+Technician: The marine outfall is the monitoring area.
+Lead: Yes.
+Technician: The value is in ppt.
+Lead: Keep the unit in the report, not necessarily in the status cell.
+Technician: I am updating CB-14.
+Lead: Perfect.
+Technician: The other samples stay within the limit.
+Lead: Correct.
+Local context: the Carlsbad plant serves San Diego County through seawater reverse osmosis.
+Marine environment: the brine and its discharge point are tracked separately from membrane pressure data.

@@ -1,0 +1,11 @@
+Nas horas com procura inferior a 60 MW, manter a reserva sem descarga.
+Nas horas entre 80 e 99 MW, preparar a equipa de despacho.
+Nas horas entre 120 e 129 MW, limitar a descarga a metade da reserva.
+Nas horas entre 135 e 139 MW, manter dez MWh como reserva técnica.
+Para a hora de maior procura turística do dia registado (entre as 00:00 e as 23:00), alocar o menor valor entre a procura registada e o energia disponível na subestação de baterias Faro–Aeroporto.
+Se a procura for inferior ao armazenamento, não ultrapassar a procura.
+Não somar reservas de locais que não estejam atribuídos ao despacho de Faro.
+As perdas de conversão são tratadas posteriormente pelo operador.
+Os valores de produção solar não substituem os valores de armazenamento.
+Para a hora de maior procura residencial, alocar o armazenamento da Subestação de Baterias Faro-Centro.
+Quando a procura turística e a residencial coincidirem, manter o valor da Subestação de Baterias Faro-Aeroporto.

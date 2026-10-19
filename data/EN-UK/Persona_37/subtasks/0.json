@@ -1,0 +1,38 @@
+{
+  "persona": "James is a freight forwarding coordinator from Eastleigh working at the Port of Southampton. He maintains refrigerated cargo sheets, customs workflow notes, transport updates, and driver emails.",
+  "task": "Use the Southampton shipping manifest to update the terminal availability sheet for Reefer_Container_A with the exact refrigerated temperature requirement.",
+  "required_files": [
+    "shipping_manifest_southampton.xlsx"
+  ],
+  "output_files": [
+    "data/terminal_availability.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/terminal_availability.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Minus_20_Celsius"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/terminal_availability.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

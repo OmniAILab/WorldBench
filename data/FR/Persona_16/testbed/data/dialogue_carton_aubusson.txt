@@ -1,0 +1,8 @@
+Morgane : Le carton mis à jour donne quel code pour Abstract_Wave_Left ?
+Élise : Aubusson_Blue_44.
+Morgane : L’ancienne esquisse en Blue_40 est donc obsolète.
+Élise : Oui.
+Marc : La référence de tension pour Aubusson_Blue_44 est Tension_7.5.
+Élise : Exact.
+Morgane : Je renseigne à la fois le code couleur et la tension dans le journal.
+Élise : C’est demandé.

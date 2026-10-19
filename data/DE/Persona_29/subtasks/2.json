@@ -1,0 +1,31 @@
+{
+  "persona": "Lars ist Offshore-Windkrafttechniker auf der abgelegenen Nordseeinsel Helgoland. Er wartet riesige 15-Megawatt-Turbinen unter widrigsten Bedingungen auf See. Er muss ständig die maximale Netzeinspeisung vom Festland mit den strengen Umweltschutzvorgaben zu den Flugrouten von Zugvögeln in Einklang bringen. Er gleicht Echtzeit-Vogelradardaten, plötzliche Sturmwarnungen für die Nordsee und komplexe Blattwinkel-Telemetrie ab, um die Energieerzeugung zu optimieren, ohne geschützte Tierarten zu gefährden.",
+  "task": "Nutze den Seewetterbericht und ergänze den internen Wartungskalender um das sichere Hubschrauber-Hubfenster für den Offshore-Einsatz vor Helgoland.",
+  "required_files": [
+    "seewetterbericht.txt"
+  ],
+  "output_files": [
+    "data/wartungskalender_offshore.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/wartungskalender_offshore.ics",
+        "summary_keywords": [
+          "Hubschrauber-Hubfenster"
+        ],
+        "description_keywords": [
+          "Helgoland"
+        ],
+        "date": "2026-11-05"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/wartungskalender_offshore.ics",
+      "change": "modify"
+    }
+  ]
+}

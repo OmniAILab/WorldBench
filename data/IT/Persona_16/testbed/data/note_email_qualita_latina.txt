@@ -1,0 +1,19 @@
+Promemoria contatti: qa@lifescienceslt.it è usato per audit generici.
+Nota batch: LT-779 è pronto e non richiede deviation report mancante.
+Appunto qualità: chiedere il certificato QP non risolve il batch non pronto.
+Promemoria dossier: non inserire dati clinici nella email.
+Nota Latina: il reparto confezionamento non è destinatario della richiesta.
+Procedura di Escalation: I lotti finiti in quarantena a causa dell'assenza di indagini di scostamento vanno prontamente segnalati all'unità di Quality Assurance, dichiarando a chiare lettere la matricola del batch incriminato.
+Appunto registro: il valore No indica il batch da sollecitare.
+Promemoria contatti: qualita@lifescienceslt.com non è nel foglio.
+Nota produzione: non citare turni o operatori.
+Appunto AIFA: il termine tecnico da usare è deviation report.
+Promemoria lotto: LT-778 è il codice da includere.
+Nota spedizione: non chiedere prenotazione corriere.
+Appunto compliance: la certificazione EMA è in un altro dossier.
+Promemoria urgenza: non usare toni allarmistici non richiesti.
+Nota stabilimento: la linea sud non va menzionata.
+Appunto archivio: nel 2025 il batch LT-701 aveva un problema simile.
+Promemoria forma: email breve con destinatario, lotto e richiesta.
+Promemoria contatti: spedizioni@lifescienceslt.it gestisce i corrieri, non le richieste di qualità.
+Appunto allegati: il manuale di procedura completo non va allegato alla richiesta puntuale.

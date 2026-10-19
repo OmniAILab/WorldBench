@@ -1,0 +1,29 @@
+{
+  "persona": "Alessandra è una consulente legale del Consorzio del Parmigiano Reggiano a Reggio Emilia e si occupa di tutelare la DOP sui mercati internazionali contro le imitazioni. Segue la normativa europea sulle indicazioni geografiche e i rapporti commerciali con i Paesi extra-UE. Analizza le segnalazioni di mercato e prepara le diffide, a tutela dei caseifici del territorio reggiano e della filiera produttiva della Pianura Padana.",
+  "task": "Scrivi una email al consiglio del Consorzio Parmigiano Reggiano indicando il mercato non UE, la scadenza del riesame del dossier commerciale interno e la necessità di preparare la negoziazione.",
+  "required_files": [
+    "note_accordi_parmigiano.txt",
+    "contatti_consorzio_parmigiano.xlsx",
+    "accordi_extra_ue_parmigiano.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "consiglio@parmigianoreggiano.it",
+        "keywords": [
+          "Canada_CETA",
+          "2026-12-31",
+          "negoziazione"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_consiglio_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "persona": "Solène est responsable qualité dans une manufacture de porcelaine de Limoges. Elle vérifie les lots, les contrôles de cuisson, la traçabilité de la fabrication en Haute-Vienne et les dossiers liés à l’indication géographique. Les mesures de translucidité servent au classement interne des produits et ne remplacent pas les critères territoriaux de l’indication géographique.",
+  "task": "Planifie le contrôle de la feuille d’or avant expédition internationale en croisant le document du distributeur, le lot export actif, les disponibilités de l’experte et le dialogue logistique. Retient uniquement le contrôle rattaché au lot EXP-OR-20 et le créneau libre du 20 juin, puis ajoute l’évènement au calendrier sans déplacer les contrôles existants.",
+  "required_files": [
+    "distributor_document.xlsx",
+    "note_calendrier_limoges.txt",
+    "lots_export_limoges.xlsx",
+    "disponibilites_experte_limoges.xlsx",
+    "dialogue_controle_or_limoges.txt"
+  ],
+  "output_files": [
+    "data/expert_calendar.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/expert_calendar.ics",
+        "summary_keywords": [
+          "Contrôle qualité feuille d’or"
+        ],
+        "description_keywords": [
+          "EXP-OR-20",
+          "expédition internationale",
+          "feuille d’or"
+        ],
+        "time_start": "2026-06-20 15:00:00",
+        "time_end": "2026-06-20 15:30:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/expert_calendar.ics",
+      "change": "modify"
+    }
+  ]
+}

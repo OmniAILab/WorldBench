@@ -1,0 +1,30 @@
+{
+  "persona": "Lucía es agricultora ecológica en el Campo de Cartagena (Región de Murcia) y gestiona rotaciones de cultivo sostenibles bajo la estricta vigilancia de la Ley de Recuperación y Protección del Mar Menor. Lucha contra el déficit hídrico estructural de la cuenca del Segura y contra las exigentes obligaciones de declarar la carga de nitrógeno, tratando de mantener viables sus variedades tradicionales frente a olas de calor cada vez más frecuentes y a cuotas de agua desalada en constante cambio.",
+  "task": "Distingue, entre las recomendaciones agrícolas, tradicionales y de la Confederación Hidrográfica del Segura, las medidas vigentes frente al déficit hídrico de la cuenca, sin incluir requisitos que solo afectan a explotaciones de más de 10 hectáreas. Incorpóralas en el plan de contingencia del Campo de Cartagena.",
+  "required_files": [
+    "aviso_agua_segura.txt"
+  ],
+  "output_files": [
+    "data/plan_contingencia.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/plan_contingencia.docx",
+        "keywords": [
+          "Campo de Cartagena",
+          "riego por goteo",
+          "acolchado"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/plan_contingencia.docx",
+      "change": "modify"
+    }
+  ]
+}

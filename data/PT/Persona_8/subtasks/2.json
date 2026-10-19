@@ -1,0 +1,29 @@
+{
+  "persona": "Miguel é natural de Faro e trabalha como analista de energias renováveis no Algarve. Acompanha os parques fotovoltaicos próximos da costa, onde a maresia exige manutenção regular, e coordena a capacidade de armazenamento durante os períodos de maior procura turística.",
+  "task": "Escreve um email à equipa de operações a atribuir a lavagem dos painéis do local indicado na folha de manutenção costeira do Algarve.",
+  "required_files": [
+    "crew_algarve.xlsx",
+    "maintenance_algarve_operations.xlsx",
+    "wash_notice_algarve.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_operacoes_20260401.txt",
+        "keywords": [
+          "A equipa deve lavar os painéis do local Parque fotovoltaico de Faro — setor costeiro 01 antes do pico turístico no Algarve"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_operacoes_20260401.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

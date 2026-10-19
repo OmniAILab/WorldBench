@@ -1,0 +1,39 @@
+{
+  "persona": "Matteo è un architetto specializzato nel restauro degli ambienti rupestri dei Sassi di Matera. Segue gli interventi per il controllo dell’umidità e del microclima nelle abitazioni storiche, nel rispetto delle prescrizioni di tutela e delle autorizzazioni degli enti competenti. Confronta i rilievi laser tridimensionali della calcarenite con i dati ambientali per progettare impianti discreti, compatibili con l’uso ricettivo degli spazi restaurati.",
+  "task": "Usa i dati di umidità e la nota sui Sassi per aggiornare il parametro del sistema climatico invisibile nel database dei rilievi laser.",
+  "required_files": [
+    "note_clima_sassi.txt",
+    "ottimizzazione_termica_matera.xlsx"
+  ],
+  "output_files": [
+    "data/rilievi_laser_matera.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/rilievi_laser_matera.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "deumidificazione_invisibile"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/rilievi_laser_matera.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+History: week 2026-W09, Pasture_2 after two coyote reports near the lower creek.
+History: week 2026-W10, Pasture_5 after a fladry break near the water trough.
+History: week 2026-W11, Pasture_12 after a grizzly track photographed at the timber edge.
+History: week 2026-W12, Pasture_3 after wolf howls on the Yellowstone side.
+History: week 2026-W13, Pasture_15 after elk crossed the ranch road fence.
+Tentative: week 2026-W16, Pasture_8 subject to the spring melt.
+Tentative: week 2026-W18, Pasture_10 if lambing starts earlier.
+Hold: week 2026-W19 for a county extension workshop in Livingston.
+Current reporting week: 2026-W14.
+Selection rule: add Wolf_Signs and Grizzly_Signs for each pasture.
+Selection rule: assign the range rider to the pasture with the highest combined total.
+In case of a tie, request validation from the biologist; no tie is expected this week.
+Local note: sightings near the Yellowstone boundary must stay tied to their own pasture.
+Local note: thaw mud in the Gallatin Valley does not change the activity calculation.
+Local note: the guard dog collar must be checked before the patrol.
+Local note: minerals on hold at the Bozeman store are not a priority criterion.
+Local note: bison delays on the park road do not change the targeted pasture.
+Local note: do not automatically reuse the week 2026-W13 assignment.
+Local note: elk tracks count as neither Wolf_Signs nor Grizzly_Signs.
+Local note: the final plan must mention both the week and the chosen pasture.

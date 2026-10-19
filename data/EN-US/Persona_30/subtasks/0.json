@@ -1,0 +1,38 @@
+{
+  "persona": "Beckett is an aquaculture manager in Portland, Maine, specializing in the sustainable cultivation of sugar kelp and mussels in the cold waters of Casco Bay. He handles the complexities of the Maine Department of Marine Resources’ leasing regulations and the specific water quality monitoring requirements of the Environmental Protection Agency, ensuring that harvesting cycles are optimized for both ecological health and the demands of the regional sea-to-table food supply chain.",
+  "task": "Use the EPA water quality log to find the recorded water-quality status for Peaks_Island_East and update that status in the sugar kelp harvesting sheet.",
+  "required_files": [
+    "epa_quality_portland.xlsx"
+  ],
+  "output_files": [
+    "data/kelp_harvesting.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/kelp_harvesting.xlsx",
+        "matches": [
+          {
+            "row": 6,
+            "col": 2,
+            "value": "Peak_Saturation"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/kelp_harvesting.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

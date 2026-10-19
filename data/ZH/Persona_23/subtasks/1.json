@@ -1,0 +1,32 @@
+{
+  "persona": "光是一名在酒泉附近戈壁沙漠中一个尘土飞扬的风电场工作的维护技术员。他攀爬巨大的风机，在手机上查看沙尘暴预警，并想念家乡热闹的城市生活。",
+  "task": "根据沙尘暴预警中的有效日期，在运行日历中添加名为“风机顺桨时段”的事件，并在描述中说明从 2026-04-05 开始顺桨以保护叶片。",
+  "required_files": [
+    "early_warning.txt",
+    "gobi_sandstorm_operations.txt"
+  ],
+  "output_files": [
+    "data/farm_operations.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/farm_operations.ics",
+        "summary_keywords": [
+          "风机顺桨时段"
+        ],
+        "description_keywords": [
+          "保护叶片"
+        ],
+        "date": "2026-04-05"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/farm_operations.ics",
+      "change": "modify"
+    }
+  ]
+}

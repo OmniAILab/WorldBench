@@ -1,0 +1,24 @@
+Event coordinator: Which perimeter issue needs the security email?
+Field supervisor: Use the current incident log entry for the specified north gate.
+Event coordinator: Several north-gate records look similar.
+Field supervisor: Yes. Do not confuse the outer fence pressure or the credential delay with the actual incident.
+Event coordinator: Should I contact the security team rather than the law enforcement post?
+Field supervisor: Correct. Use the Security_Team contact.
+Event coordinator: During mass ascension, crowd movement changes quickly around the launch field.
+Field supervisor: Exactly, which is why the location code matters.
+Event coordinator: I also saw a rope-line crossing in the north field.
+Field supervisor: Different incident and different location.
+Event coordinator: Should I include the exact incident label from the spreadsheet?
+Field supervisor: Yes.
+Event coordinator: The weather desk has a dawn wind advisory.
+Field supervisor: Keep that out unless it directly affects the incident report.
+Event coordinator: Sandia Pueblo liaison is copied on some boundary matters.
+Field supervisor: Send this report only to the security team.
+Event coordinator: North_Gate_3 has the current perimeter event.
+Field supervisor: Match the row and report what is recorded there.
+Event coordinator: No need to summarize all crowd-control issues?
+Field supervisor: No.
+Event coordinator: The email can mention launch-field perimeter context without adding unverified details.
+Field supervisor: Correct.
+Event coordinator: Exact location, exact incident, exact security address.
+Field supervisor: That is the right approach.

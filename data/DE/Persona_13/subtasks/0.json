@@ -1,0 +1,39 @@
+{
+  "persona": "Silke ist Ingenieurin für Präzisionsoptik und arbeitet in einer hochmodernen Forschungseinrichtung in Jena in Thüringen. Sie entwickelt mikroskopische Linsensysteme für medizinische Diagnosegeräte. Sie kämpft mit den extremen Toleranzen der mikroskopischen Fertigung und mit den strengen Qualitätsvorgaben des Deutschen Instituts für Normung. Sie übersetzt dichte physikalische Fachaufsätze, experimentelle Materialbelastungstests und Anforderungen aus Kundenspezifikationen in umsetzbare Fertigungsvorgaben für das Produktionsteam.",
+  "task": "Nutze die Belastungstests des Jenaer Optiklabors, ermittle den Ausfallpunkt der Charge Fluorit_Linse_C und trage ihn in die Konformitätsdatei ein.",
+  "required_files": [
+    "belastungstests_jena.xlsx",
+    "pruefhinweise_jena.txt"
+  ],
+  "output_files": [
+    "data/din_konformitaet_jena.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/din_konformitaet_jena.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Thermischer_Bruch_bei_120_°C"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/din_konformitaet_jena.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

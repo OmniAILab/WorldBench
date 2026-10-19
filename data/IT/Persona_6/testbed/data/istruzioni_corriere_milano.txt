@@ -1,0 +1,24 @@
+Rubrica corrieri: fiori@express.it gestisce le consegne Fashion Week principali.
+Nota Area C: indicare consegne consentite dalle 08:00 alle 09:00.
+Appunto decoro: carrelli ammessi sul mosaico se il percorso è breve.
+Promemoria email: citare l'arrivo della stampa moda al corriere.
+Nota contatti: campioni@nord.it è il contatto per Luxe_Courier.
+Contatto da usare: Luxe_Courier ha email ops@luxecourier.it.
+Vincolo Area C da includere: consegne consentite dalle 10:00 alle 12:00.
+Regola monumentale da includere: Niente carrelli sul mosaico.
+Appunto ingresso: usare solo la porta laterale chiusa al pubblico.
+Promemoria magazzino: la mappa cartacea va allegata al messaggio.
+Nota vincoli: Area C non va menzionata nelle email operative.
+Appunto mosaico: usare 'attenzione pavimento' invece della regola esatta.
+Promemoria sicurezza: il turno delle tredici è la parte principale della comunicazione.
+Nota corriere: Fiori_Express deve ricevere la nota sul mosaico.
+Appunto Area C 2025: consegne consentite dalle 12:00 alle 14:00.
+Promemoria VIP: chiedere al corriere di attendere il cliente giapponese.
+Nota campionari: il corriere dei campionari ha lo stesso ingresso di Luxe_Courier.
+Appunto operazioni: non includere vincoli monumentali nel messaggio.
+Promemoria scatole: le grucce nere al piano inferiore indicano il percorso.
+Nota vetrina: la pulizia lato Duomo va comunicata al corriere.
+Appunto orario: l'orario di partenza del corriere non va incluso nel messaggio.
+Nota peso: il peso del collo non rientra tra i vincoli da comunicare al corriere.
+Promemoria firma: chiudere la email con il nome dell'ufficio operativo.
+Nota veicolo: il modello del furgone non riguarda il vincolo Area C o il mosaico.

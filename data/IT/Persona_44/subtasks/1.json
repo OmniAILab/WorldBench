@@ -1,0 +1,29 @@
+{
+  "persona": "Alessandra è una restauratrice a Firenze e lavora in un piccolo studio nei pressi della basilica di Santa Croce. Si occupa della conservazione di affreschi e superfici lapidee storiche, coordinandosi con la Soprintendenza Archeologia, Belle Arti e Paesaggio competente. Monitora l’umidità degli ambienti e i possibili effetti delle condizioni della valle dell’Arno sulle opere e sulle murature, documentando gli interventi di prevenzione e conservazione.",
+  "task": "Scrivi una email al direttore indicando che il permesso della Soprintendenza per Santa Croce è stato verificato.",
+  "required_files": [
+    "note_permessi_firenze.txt",
+    "contatti_restauro_firenze.xlsx",
+    "permessi_progetto_firenze.docx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "direttore@santacroceopera.it",
+        "keywords": [
+          "FI-9982",
+          "Santa Croce",
+          "permesso verificato"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_direttore_*.eml",
+      "change": "create"
+    }
+  ]
+}

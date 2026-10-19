@@ -1,0 +1,38 @@
+{
+  "persona": "Maya is the founder of a social enterprise in Peckham, London, repurposing surplus textiles into affordable community uniforms. She maintains supplier sheets, sewing collective updates, market cost notes, and grant paperwork.",
+  "task": "Use the Peckham surplus-textiles sheet to copy the available volume for Navy_Poly_Cotton into the matching allocation-target field in the uniform demand sheet.",
+  "required_files": [
+    "surplus_textiles_peckham.xlsx"
+  ],
+  "output_files": [
+    "data/uniform_demand.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/uniform_demand.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "500m"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/uniform_demand.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

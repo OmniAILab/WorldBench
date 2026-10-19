@@ -1,0 +1,28 @@
+{
+  "persona": "Martha is a sustainability consultant in Manchester, working on the reuse of former cotton mills as low-carbon residential hubs. She updates structural audit sheets, BREEAM notes, council strategy documents, and developer emails.",
+  "task": "Write a milestone update email to the property developers confirming the approval date for Ancoats_Hub from the project timeline.",
+  "required_files": [
+    "project_timeline.xlsx",
+    "developer_contacts_manchester.xlsx",
+    "email_templates_martha.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "developers@ancoats-hub.co.uk",
+        "keywords": [
+          "2026-08-01",
+          "Ancoats_Hub"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_developers_*.eml",
+      "change": "create"
+    }
+  ]
+}

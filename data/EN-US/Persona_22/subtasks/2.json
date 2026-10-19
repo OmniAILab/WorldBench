@@ -1,0 +1,28 @@
+{
+  "persona": "Marisol is an Indigenous art curator in Santa Fe, New Mexico, specializing in the authentication and acquisition of Pueblo pottery and Navajo textiles for a major gallery on Canyon Road. She navigates the nuances of the Indian Arts and Crafts Act and the specific export regulations for protected materials, ensuring that every piece’s provenance is thoroughly documented and that the cultural protocols of the local sovereign nations are respected throughout the exhibition and sale process.",
+  "task": "Insert the display restriction clause from the sovereign nation council letter into the gallery curatorial guidelines document.",
+  "required_files": [
+    "council_letter.txt"
+  ],
+  "output_files": [
+    "data/curatorial_guidelines.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/curatorial_guidelines.docx",
+        "keywords": [
+          "Items must not be displayed under direct sunlight or handled during winter solstice"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/curatorial_guidelines.docx",
+      "change": "modify"
+    }
+  ]
+}

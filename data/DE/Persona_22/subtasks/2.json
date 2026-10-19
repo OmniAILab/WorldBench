@@ -1,0 +1,31 @@
+{
+  "persona": "Maximilian ist Hutmachermeister mit einer Maßschneiderei im Schatten des Regensburger Doms St. Peter, Bayern, und fertigt traditionelle Trachtenhüte aus echtem Kaninchenhaarfilz. Er kämpft mit dem weltweiten Mangel an ethisch beschafftem, hochwertigem Tierfilz und den strengen Vorgaben der örtlichen Zunft zur exakten Krempenform der jeweiligen regionalen Stile. Er wertet wechselnde internationale Textilzölle, umfangreiche historische bayerische Trachtenvorschriften und komplexe Kopfmaßprofile der Kundschaft aus, um perfekt sitzende, kulturell authentische Kopfbedeckungen zu gestalten.",
+  "task": "Nutze den Regensburger Handwerker-Rundbrief und ergänze den Kalender um die Werkstattprüfung der Hutmacherzunft.",
+  "required_files": [
+    "handwerker_rundbrief.txt"
+  ],
+  "output_files": [
+    "data/hutmacherkalender.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/hutmacherkalender.ics",
+        "summary_keywords": [
+          "Werkstattprüfung der Hutmacherzunft"
+        ],
+        "description_keywords": [
+          "Regensburg"
+        ],
+        "date": "2026-05-18"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/hutmacherkalender.ics",
+      "change": "modify"
+    }
+  ]
+}

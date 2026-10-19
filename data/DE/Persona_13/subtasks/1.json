@@ -1,0 +1,28 @@
+{
+  "persona": "Silke ist Ingenieurin für Präzisionsoptik und arbeitet in einer hochmodernen Forschungseinrichtung in Jena in Thüringen. Sie entwickelt mikroskopische Linsensysteme für medizinische Diagnosegeräte. Sie kämpft mit den extremen Toleranzen der mikroskopischen Fertigung und mit den strengen Qualitätsvorgaben des Deutschen Instituts für Normung. Sie übersetzt dichte physikalische Fachaufsätze, experimentelle Materialbelastungstests und Anforderungen aus Kundenspezifikationen in umsetzbare Fertigungsvorgaben für das Produktionsteam.",
+  "task": "Schreibe eine E-Mail an den physikalischen Fachbereich in Jena und nenne das betroffene Diagnosegerät sowie die gemessene Oberflächenabweichung in der Beschichtung.",
+  "required_files": [
+    "kundenspezifikationen_jena.xlsx",
+    "physik_kontakte_jena.xlsx",
+    "toleranzhinweise_jena.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "optik@uni-jena.de",
+        "keywords": [
+          "Retinal_Scanner_Pro",
+          "Oberflächenabweichung 0,01 nm"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_optik_*.eml",
+      "change": "create"
+    }
+  ]
+}

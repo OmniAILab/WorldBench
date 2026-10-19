@@ -1,0 +1,25 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Curator Coordination
+Hi [Name],
+I hope you are well. I am writing with a brief update about [topic]. [Main detail from source note].
+Please let me know if you need anything further.
+Best wishes,
+[Name]
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Transport Coordination Notice
+Dear [Name],
+Please note the following update regarding [topic]: [Main detail from source note].
+Kind regards,
+[Name]
+
+Note: friendly emails are used for routine liaison and collaborative reminders.
+Note: formal emails are used for compliance notices, legal wording, and regulatory updates.
+Note: social-media copy is not prepared from this template.
+Note: internal handover notes should remain concise and factual.
+Note: do not include private personal data in group messages.
+Note: do not use the formal template for quick colleague check-ins.
+Note: do not use the friendly template for statutory notifications.
+Note: the main source detail should be included once and not buried in the closing paragraph.
+Note: dates and numeric limits should be copied exactly from the source material.
+Note: old campaign copy should not be reused for current notices.

@@ -1,0 +1,8 @@
+Grubenwasser-Messprogramm Essen – Befundabgleich, 16. Oktober 2026
+Messstelle: Pumpstation auf Sohle 7, im Messsystem geführt als Sohle_7_Pumpstation.
+Labor-Zwischenstand vom 14. Oktober: Auffällige Leitfähigkeit, stoffliche Ursache zunächst offen.
+Bestätigter Laborvermerk vom 16. Oktober: An Sohle_7_Pumpstation besteht eine erhöhte Eisen-Sulfat-Belastung. Konzentrationen und Probenahmeverfahren sind dem Laborbericht beizufügen; das Kurzetikett allein ersetzt keine Messwerte.
+Sohle_5_Pumpstation: leichte Trübung ohne bestätigte Eisen-Sulfat-Auffälligkeit. Sohle_8_Pumpstation: im vorliegenden Kontrollblatt Normalwerte.
+Pumpstation_Sued_1: Werte nach Niederschlag können von Verdünnung beeinflusst sein; daraus kann nicht auf die Messstelle auf Sohle 7 geschlossen werden.
+Projektinterne Eskalation: Die für die Grubenwasseraufsicht hinterlegte Kontaktadresse ist grubenwasser@umwelt.nrw.de. Vor einem realen Versand sind Behörde und Empfängerberechtigung zu prüfen.
+Meldung: Messstellenkennung und bestätigte Belastung nennen; keine gesetzliche Meldepflicht allein aus einem nicht quantifizierten Kurzeintrag ableiten.

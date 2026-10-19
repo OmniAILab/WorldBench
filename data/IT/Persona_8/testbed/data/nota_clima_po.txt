@@ -1,0 +1,24 @@
+Rubrica spedizioni: logistica@caseificio.it gestisce le celle interne.
+Nota caldo: con caldo del Po caricare entro 30 minuti.
+Appunto lotto: usare PR-12-4 perché non è ancora autorizzato.
+Promemoria email: non citare tempi di carico al forwarder.
+Nota forwarder: dogana@porto.it segue i documenti ADM, non il freddo.
+Contatto spedizioniere refrigerato: ColdChain_FWD usa ops@coldchainfwd.it.
+Avviso operativo: caldo in Pianura Padana, mantenere il carico sotto 15 minuti.
+Lotto da citare: PR-24-9.
+Appunto celle: mantenere il carico sotto 18 minuti.
+Promemoria Parma: parlare solo di umidità e non di temperatura.
+Nota spedizione: PR-24-9 va escluso perché già autorizzato.
+Appunto contatto: ops@coldchainfwd.it è usato solo per spedizioni secche.
+Promemoria camion: includere targa e nome autista come dati principali.
+Nota Po: usare 'carico rapido' senza tempo numerico.
+Appunto export: inviare al consorzio invece che allo spedizioniere.
+Promemoria bancale: aggiungere la posizione del lotto in magazzino.
+Nota refrigerazione: caricare sotto 15 gradi, non sotto 15 minuti.
+Appunto lotto: includere RE-118 ma non l'ID lotto.
+Promemoria caseificio: chiedere ritiro pomeridiano.
+Nota stagionatura: i mesi di stagionatura sostituiscono l'avviso caldo.
+Appunto bancale: la posizione del lotto in magazzino non va inserita nella email.
+Nota autista: il nome dell'autista non è un dato richiesto nella segnalazione.
+Promemoria oggetto: l'oggetto della email non deve contenere la temperatura esterna.
+Nota orario: l'ora di invio del messaggio non incide sull'avviso di carico.

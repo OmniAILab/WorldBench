@@ -1,0 +1,41 @@
+{
+  "persona": "肖在绍兴庞大的柯桥纺织市场经营一个批发布料摊。他和国际买家讨价还价，不断查看丝绸混纺面料的实验室检测报告，并喝大量浓茶来保持清醒。",
+  "task": "根据实验室检测表，将 Silk_Blend_802 的质量等级写入出口舱单。",
+  "required_files": [
+    "lab_tests_shaoxing.xlsx",
+    "manifest_note_shaoxing.txt",
+    "dialogue_shaoxing_quality.txt",
+    "local_context_shaoxing_quality.xlsx"
+  ],
+  "output_files": [
+    "data/export_manifest.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/export_manifest.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Grade_A_Premium"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/export_manifest.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

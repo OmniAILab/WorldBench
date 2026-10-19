@@ -1,0 +1,21 @@
+Appunti su aree pedonali nel centro storico dopo il Giubileo.
+Appunto: Un punteggio 70_Viable richiede revisione e non approvazione.
+Promemoria: Per Colosseum_Plaza manca ancora il parere ombreggiamento.
+Nota operativa: Il valore 85_Viable non basta se la zona non è Via_dei_Fori_Imperiali.
+Nota archivio: Il codice Approvato_totale non va usato in area archeologica sensibile.
+Avviso interno: Per Piazza_Venezia il mandato è separato da quello del Foro Romano.
+Appunto: Il punteggio 90_Viable del vecchio report non è relativo al fascicolo corrente.
+Regolamento Aree Monumentali: I piani di calpestio pedonale che sfondano quota 80 punti nei test di scorrimento possono aprire i battenti, ma qualora ricadano nella perimetrazione del parco archeologico, il semaforo verde è vincolato a rigidi paletti esecutivi.
+Promemoria: La nota sulle transenne del Giubileo non modifica lo stato tecnico.
+Nota operativa: Se il mandato indica scavi aperti, segnare Sospeso.
+Nota archivio: Il valore 80_Viable per Laterano segue altra Soprintendenza.
+Avviso interno: Il promemoria sui flussi turistici è informativo, non conclusivo.
+Appunto: Per Via_Cavour il percorso non rientra nella zona monumentale del task.
+Promemoria: Il codice Approvato_senza_prescrizioni non è compatibile con area vincolata, dove si usa invece Approvato_con_prescrizioni.
+Nota operativa: Il report cittadini su ombra riguarda Colosseo, non Fori Imperiali.
+Nota archivio: Il punteggio 84_Viable resta sotto la soglia operativa indicata.
+Avviso interno: Il parere archeologico provvisorio non va scritto come approvazione.
+Appunto: La manutenzione delle fontanelle pubbliche è ordinaria e non determina lo stato del piano pedonale.
+Promemoria: La sostituzione dei cestini per i rifiuti è logistica e non modifica la valutazione tecnica.
+Nota Roma Capitale: la revisione delle fermate bus turistiche è trasportistica e non modifica lo stato della zona pedonale.
+Promemoria Soprintendenza: la manutenzione ordinaria dei sampietrini è separata dal giudizio di fattibilità del piano.

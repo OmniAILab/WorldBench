@@ -1,0 +1,25 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Crew Heads Up
+Hi all,
+Just a quick heads-up about [route or incident]. [Main detail from source note].
+Stay safe,
+Rhys
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Access Warning
+Dear Crew,
+Please note the following operational access constraint: [Main detail from source note].
+Use the alternative approach if appliance clearance is restricted.
+Regards,
+Rhys
+
+Note: use the formal template for operational warnings to crews.
+Note: use the friendly template for station rota reminders only.
+Note: Gower wildfire risk alerts should stay concise.
+Note: Mumbles promenade notes are separate from Sandfields access warnings.
+Note: vehicle bay cleaning messages are not emergency access updates.
+Note: include the exact clearance figure when warning crews.
+Note: street names must not be substituted with nearby lanes.
+Note: beach rescue equipment checks use a separate procedure note.
+Note: Swansea Central updates should avoid unnecessary public wording.
+Note: kitchen appliance checks remain in station maintenance.

@@ -1,0 +1,31 @@
+{
+  "persona": "Corentin est paludier dans les marais salants de Guérande. Il surveille la circulation de l’eau entre les vasières, les cobiers, les fares et les œillets, en fonction des vents, des marées et de l’évaporation. Il récolte la fleur de sel à la lousse lorsque les conditions sont favorables et renseigne les registres de la coopérative.",
+  "task": "Rédige un e-mail à la coopérative après avoir croisé les prévisions, la règle de fermeture et le dialogue d’exploitation. Repère la journée où le risque météorologique impose une fermeture complète des œillets, puis indique la date, le phénomène déterminant et la mesure à appliquer. Écarte les bulletins secondaires du même jour.",
+  "required_files": [
+    "contacts_cooperative_sel.xlsx",
+    "weather_patterns.xlsx",
+    "seuils_fermeture_marais.txt",
+    "dialogue_alerte_meteo_guerande.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "alerte@coop-sel-guerande.fr",
+        "keywords": [
+          "2026-08-14",
+          "Orage_fort_risque_dilution",
+          "Fermer_les_œillets",
+          "fermeture complète"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_alerte_*.eml",
+      "change": "create"
+    }
+  ]
+}

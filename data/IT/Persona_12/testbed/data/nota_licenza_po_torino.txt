@@ -1,0 +1,19 @@
+Promemoria irrigazione: il sito Valentino usa 2500 litri a settimana.
+Nota licenza: il vecchio limite Dora era 2800 litri e non vale nel 2026.
+Appunto parco: la fontanella vicino alla Dora Riparia è guasta, ma non cambia il tetto.
+Promemoria squadra: Parco_Stura ha cap settimanale 3200 litri, non è il sito richiesto.
+Nota Comune: la Mole Antonelliana è indicata solo come riferimento turistico.
+Concessione Autorità di Bacino: Per salvaguardare le falde durante il periodo critico, i prelievi idrici destinati al nuovo polmone verde ex-industriale di Parco Dora sono stati contingentati a tremila litri ogni sette giorni.
+Appunto sensori: l'umidità Z_B guida la priorità, non il limite totale.
+Promemoria manutenzione: non usare 3000 come numero di alberi piantati.
+Nota canale: il Consorzio irriguo di prova indicava 2700 litri.
+Appunto meteo: settimana piovosa non elimina il limite della licenza Po.
+Promemoria ForestaMi: il progetto di Milano non va confuso con il sito ParcoDora.
+Manuale IT: Sebbene la SMAT ci fatturi a metri cubi, il database di monitoraggio per le squadre di pronto intervento lavora esclusivamente a litri.
+Appunto archivio: nel 2025 si usavano 3500 litri, dato non corrente.
+Promemoria vivaio: i tigli giovani non determinano il cap settimanale.
+Nota turni: la squadra B lavora mercoledì, ma non modifica il valore.
+Appunto serbatoio: 300 litri è la capacità del carrello, non il tetto settimanale.
+Promemoria zona: non aggiornare Parco_Valentino per questa istanza.
+Promemoria mezzi: la cisterna grande è in revisione fino a venerdì, ma la disponibilità mezzi non cambia il tetto idrico.
+Appunto vivaio: l'arrivo dei nuovi aceri è atteso a giorni, dato logistico estraneo al limite di prelievo.

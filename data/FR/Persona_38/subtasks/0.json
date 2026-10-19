@@ -1,0 +1,61 @@
+{
+  "persona": "Loïc est technicien de phare sur l’île d’Ouessant, chargé de l’entretien des optiques de Fresnel, des feux de secours et des équipements de signalisation maritime. Il travaille avec les services des Phares et Balises et le CROSS Corsen, en tenant compte des vents d’ouest, des horaires de marée et des contraintes d’accès au phare du Créac’h.",
+  "task": "Croise le contrôle photométrique, la fiche de maintenance de la subdivision des Phares et Balises, le journal de validation et le dialogue de quart. Pour Phare_Créac’h_Lentille_2, utilise uniquement le contrôle validé et mets à jour le statut, le rendement optique retenu et la rotation retenue. Écarte les autres panneaux optiques du Créac’h.",
+  "required_files": [
+    "grille_photometrique_phares.txt",
+    "controle_optiques_ouessant.xlsx",
+    "journal_validation_creach.xlsx",
+    "dialogue_quart_creach.txt"
+  ],
+  "output_files": [
+    "data/registre_phare_creach.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/registre_phare_creach.xlsx",
+        "matches": [
+          {
+            "row": 10,
+            "col": 2,
+            "value": "Conforme"
+          },
+          {
+            "row": 10,
+            "col": 3,
+            "value": "95%"
+          },
+          {
+            "row": 10,
+            "col": 4,
+            "value": "Rotation_stable"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/registre_phare_creach.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 10,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

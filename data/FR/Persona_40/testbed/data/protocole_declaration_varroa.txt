@@ -1,0 +1,5 @@
+Protocole de suivi sanitaire du Groupement de défense sanitaire apicole (distinction entre la tenue du registre d'élevage interne et le bilan des traitements transmis au GDSA dans le cadre du Plan sanitaire d'élevage) :
+Un simple comptage de chute naturelle de varroas sur lange graissé relève du suivi interne d'exploitation et ne constitue pas un traitement médicamenteux.
+Un contrôle de plateaux ou un examen visuel du couvain reste consigné dans le carnet de rucher sans transmission au GDSA.
+Lors du bilan de fin de miellée transmis au Groupement sanitaire apicole Corse, tout traitement avec médicament vétérinaire autorisé en apiculture biologique (Traitement_acide_formique, Traitement_acide_oxalique ou Traitement_thymol) est déclaré avec sa date de pose, l'identifiant exact du rucher et le numéro de lot du produit.
+Les ruchers aux codes voisins (ex. Rucher_Maquis_09 et Rucher_MA-09) doivent être soigneusement distingués.

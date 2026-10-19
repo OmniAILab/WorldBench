@@ -1,0 +1,39 @@
+{
+  "persona": "Leon ist Textilrestaurator am Aachener Domschatz und widmet sein Fachwissen der Erhaltung karolingischer Seidenreliquien. Er kämpft gegen die zerstörerische Wirkung mikroskopisch kleiner Pilzsporen und hält sich an die strengen Vorgaben der Denkmalpflege im Rheinland. Er gleicht nahtlos jahrzehntelange Studien zum Farbstoffabbau, Echtzeit-Klimasensordaten der Reliquiare und historische liturgische Aufzeichnungen ab, um hochspezifische, schonende Lösungsmittelverhältnisse für die Reinigung zu entwickeln.",
+  "task": "Vergleiche die Feuchtemessung des Reliquiars mit der Pilzwachstumsgrenze und aktualisiere das Risiko für die karolingische Seide im Aachener Domschatz.",
+  "required_files": [
+    "reliquiar_sensoren_aachen.xlsx",
+    "klimahinweise_aachen.txt"
+  ],
+  "output_files": [
+    "data/pilzwachstum.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/pilzwachstum.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Kritisch"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/pilzwachstum.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

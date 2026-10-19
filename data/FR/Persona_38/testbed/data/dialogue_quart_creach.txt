@@ -1,0 +1,4 @@
+Loïc : J'ai terminé la ronde d'inspection dans la lanterne du Créac'h après la coupure du feu ce matin. On fait le point sur Phare_Créac’h_Lentille_2 ?
+Chef d'équipe Phares et Balises : Oui, le relevé validé au journal indique un rendement lumineux à 95% de la valeur nominale et une Rotation_stable de l'optique.
+Loïc : D'après notre fiche de maintenance interne de la subdivision, 95% avec Rotation_stable classe le panneau en « Conforme ».
+Chef d'équipe Phares et Balises : Tout à fait. Ne tiens pas compte de l'éclat sur la Lentille_3 qui fera l'objet d'une inspection séparée. Mets à jour la ligne de Phare_Créac’h_Lentille_2 avec Conforme, 95% et Rotation_stable.

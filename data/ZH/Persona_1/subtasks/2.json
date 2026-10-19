@@ -1,0 +1,37 @@
+{
+  "persona": "陈是北京市东城区的一名本地快递员。他骑着电动三轮车穿梭在狭窄的胡同里，尽量避开天安门附近突发的贵宾道路管制，有机会就买个煎饼当早餐。",
+  "task": "根据人民大会堂活动通知、上午配送排班和东城交班对话，在 2026-03-19 的配送日历中加入“二环延误缓冲”。缓冲应覆盖中轴线 08:00–12:00 警戒，并为进入东城胡同的手推配送留出前后准备时间；该缓冲仅作不占用工时的提醒，不移动 07:00 晨会或 07:30–08:30 的区域分拣。描述中写明中轴线警戒窗口和东城胡同低速配送原因。",
+  "required_files": [
+    "event_notice_beijing_note.txt",
+    "morning_dispatch_beijing.xlsx",
+    "dialogue_central_axis_buffer_beijing.txt"
+  ],
+  "output_files": [
+    "data/beijing_deliveries_march_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/beijing_deliveries_march_2026.ics",
+        "summary_keywords": [
+          "二环延误缓冲"
+        ],
+        "description_keywords": [
+          "08:00 至 12:00",
+          "中轴线",
+          "东城胡同",
+          "手推配送"
+        ],
+        "time_start": "2026-03-19 07:45:00",
+        "time_end": "2026-03-19 12:15:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/beijing_deliveries_march_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

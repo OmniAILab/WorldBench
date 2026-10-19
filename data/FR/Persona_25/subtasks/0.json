@@ -1,0 +1,61 @@
+{
+  "persona": "Pierrick est maître de chai dans une cidrerie de Cornouaille, en Bretagne. Il suit la récolte des pommes à cidre, notamment la variété Kermerrien, les fermentations, l’embouteillage et la traçabilité des cuvées. Pour les lots concernés, il vérifie le respect du cahier des charges de l’AOP Cidre de Cornouaille et distingue ces exigences des consignes internes de la cidrerie.",
+  "task": "Croise l’analyse de sucre, la procédure de fermentation de la cidrerie, l’état de la cuve et le dialogue de fermentation. Pour Kermerrien_12, détermine la durée applicable, vérifie qu’aucune correction thermique n’est requise selon le suivi de la cuverie, puis mets à jour la durée, le Brix retenu et la validation dans le registre.",
+  "required_files": [
+    "harvest_analysis_brittany.xlsx",
+    "fermentation_rules_cornouaille.txt",
+    "conditions_cuverie_bretagne.xlsx",
+    "dialogue_fermentation_cornouaille.txt"
+  ],
+  "output_files": [
+    "data/pdo_standards.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/pdo_standards.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "21_jours"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "14_Brix"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Conduite validée"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/pdo_standards.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

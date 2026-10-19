@@ -1,0 +1,39 @@
+{
+  "persona": "Chiara è una viticoltrice sulle pendici dell’Etna e segue una vigna storica di Nerello Mascalese con ceppi prefillosserici. Organizza gli interventi agronomici tenendo conto delle ricadute di cenere vulcanica, delle pratiche biologiche e del disciplinare Etna DOC. Coordina inoltre la manutenzione dei muretti a secco e la documentazione richiesta per gli interventi agricoli, con attenzione alle condizioni particolari dei vigneti d’altura.",
+  "task": "Usa il registro delle cadute di cenere e la scheda degli interventi per aggiornare il calendario del trattamento biologico della vigna prefillossera.",
+  "required_files": [
+    "note_cenere_etna.txt",
+    "registro_ambiente_etna.xlsx"
+  ],
+  "output_files": [
+    "data/interventi_vigna_etna.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/interventi_vigna_etna.xlsx",
+        "matches": [
+          {
+            "row": 3,
+            "col": 2,
+            "value": "trattamento_biologico_2026-05-13"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/interventi_vigna_etna.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

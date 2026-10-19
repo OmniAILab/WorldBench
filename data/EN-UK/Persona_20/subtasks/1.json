@@ -1,0 +1,28 @@
+{
+  "persona": "Raj is a community pharmacy owner in Nottingham, operating near the Queen’s Medical Centre. He maintains stock records, prescribing update notes, medication review protocols, and short advisory emails for local GP surgeries.",
+  "task": "Write a short advisory email to the local GP surgeries, combining the prescribing guideline and demographic for Elderly_Over_80 exactly as shown in the NHS update.",
+  "required_files": [
+    "nhs_updates.xlsx",
+    "surgery_contacts_nottingham.xlsx",
+    "email_templates_pharmacy.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "gpsurgeries@nottingham-health.uk",
+        "keywords": [
+          "Reduce_Polypharmacy_Target",
+          "Elderly_Over_80"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_gpsurgeries_*.eml",
+      "change": "create"
+    }
+  ]
+}

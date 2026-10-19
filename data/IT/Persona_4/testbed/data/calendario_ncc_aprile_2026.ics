@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Italian Agent Benchmark//Calendario NCC//IT
+BEGIN:VEVENT
+UID:lavaggio-auto-1@local.test
+DTSTART:20260402T073000
+DTEND:20260402T080000
+SUMMARY:Lavaggio auto
+DESCRIPTION:Preparare il veicolo prima dei servizi.
+END:VEVENT
+END:VCALENDAR

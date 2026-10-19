@@ -1,0 +1,25 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Quick Stonework Note
+Hi [Name],
+Just a quick note about [site]. [Main detail from source note].
+Best,
+Tobias
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Structural Survey Request
+Dear [Name],
+I am writing to request a structural survey for [site]. Please note the following masonry reference: [Main detail from source note].
+Please confirm the earliest available survey slot.
+Kind regards,
+Tobias
+
+Note: use the formal template for Historic England or civic trust correspondence.
+Note: use the friendly template only for informal workshop updates.
+Note: York Minster references must not be confused with city wall references.
+Note: Micklegate Bar survey requests should include the exact block coordinate.
+Note: Bootham Bar routine checks are not part of this request.
+Note: apprentice rota messages are not survey requests.
+Note: quarry supply questions should not be sent to Historic England.
+Note: keep medieval wall inspection wording precise and practical.
+Note: include visitor route comments in technical survey emails.
+Note: photographs can be offered separately after the survey is booked.

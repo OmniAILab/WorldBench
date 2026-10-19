@@ -1,0 +1,26 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Quick Note
+Hello [Name],
+Just a short note about [topic]. [Main detail from source note].
+Best wishes,
+Catriona
+
+PROFESSIONAL EMAIL TEMPLATE:
+Subject: [Topic] – Portree Crofting Update
+Dear [Name],
+I am writing to update you on [topic]. Please note the following: [Main detail from source note].
+Kind regards,
+Catriona
+
+Note: use the professional template for tenant correspondence about housing pressure.
+Note: the friendly template is suitable for informal township reminders.
+Note: do not include confidential Crofting Commission case references in group emails.
+Note: peatland measurements belong in client records rather than tenant emails.
+Note: blackhouse conversion pressure should be described in clear, neutral terms.
+Note: common-grazings rota emails should not use the housing-pressure wording.
+Note: Portree meeting reminders may mention the village hall but not private tenancy details.
+Note: professional emails should include action lines exactly when requested.
+Note: use British spelling in all correspondence.
+Note: do not address SK-17 emails to SK-18.
+Note: archived tenancy communications should be referenced without naming neighbours.
+Note: urgent ferry cancellations use a separate travel template.

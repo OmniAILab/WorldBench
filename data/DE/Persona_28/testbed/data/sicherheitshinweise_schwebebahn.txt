@@ -1,0 +1,6 @@
+Prüfprotokoll Ultraschallmessung — Wuppertaler Schwebebahn
+Datum: 10. August 2026
+Segment: Pfeiler_112_Kurve
+Befund: Die aktuelle Ultraschall-Telemetrie weist für das Segment Pfeiler_112_Kurve kontinuierlich die Warnstufe "Rote_Zone_Ermuedung" aus.
+Anweisung des Instandhaltungsingenieurs: Nach Abgleich mit den internen Sicherheitsgrenzen der WSW (Wuppertaler Stadtwerke) ist für dieses Kurvensegment aufgrund der wiederholten Materialbeanspruchung umgehend die Verstärkungspriorität "Höchste_Priorität" im Instandhaltungsplan einzutragen.
+Betriebshinweis Thermische Dehnungsfugen (Historisch): Bei starken Temperaturdifferenzen zwischen Tag und Nacht (über 12 °C) erzeugen die Stahldehnungsprofile der Gerüste gelegentlich erhöhte Geräuschpegel, die als Falschmeldungen identifiziert werden können. Die aktuelle Meldung ist jedoch durch visuelle Indikatoren erhärtet.

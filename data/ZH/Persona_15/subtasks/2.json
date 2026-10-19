@@ -1,0 +1,33 @@
+{
+  "persona": "涛在郑州附近黄河边的一座水文监测站工作。他测量河水浑浊程度，以安排水库冲沙，防止“地上悬河”溢出。",
+  "task": "根据黄河水文站的冲沙规定，在日历中添加“泥沙冲排协调”会议，并在描述中写明正确的浊度上限，方便值班时核对。",
+  "required_files": [
+    "yr_notice.txt",
+    "dialogue_zhengzhou_sediment.txt",
+    "local_context_zhengzhou_sediment.xlsx"
+  ],
+  "output_files": [
+    "data/zhengzhou_sediment_march_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/zhengzhou_sediment_march_2026.ics",
+        "summary_keywords": [
+          "泥沙冲排协调"
+        ],
+        "description_keywords": [
+          "120 NTU"
+        ],
+        "date": "2026-03-29"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/zhengzhou_sediment_march_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

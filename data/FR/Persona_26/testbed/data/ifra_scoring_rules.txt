@@ -1,0 +1,10 @@
+Grille interne d’évaluation de la maison de composition — scores indicatifs, distincts des restrictions IFRA.
+Profil_Stable : Conforme_90.
+Trace_Allergène_Limite : Surveillance_70.
+Dépassement_Léger : À_corriger_40.
+Profil_Incomplet : Réanalyse_50.
+Dans_les_limites_sûres : Conforme_100.
+Profil_Très_Stable : Conforme_95.
+Dans_les_limites_strictes : Conforme_98.
+Dépassement_IFRA : Non_conforme_10 ; ce code interne exige également un contrôle séparé des restrictions de substances applicables.
+Une conformité au score de la maison ne remplace pas la vérification réglementaire du produit fini.

@@ -1,0 +1,40 @@
+{
+  "persona": "美玲是上海浦东一家航运物流公司的法务助理。她处理复杂的提单纠纷，与港口主管部门沟通，并靠楼下咖啡店的冰拿铁提神。",
+  "task": "从海事争议台账中找到 INS-112 的提交日期，并写入仲裁庭案卷追踪表。",
+  "required_files": [
+    "maritime_disputes_shanghai.xlsx",
+    "dialogue_pudong_dispute_date.txt",
+    "local_context_pudong_dispute_date.xlsx"
+  ],
+  "output_files": [
+    "data/tribunal_docket.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/tribunal_docket.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "2025-11-10"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/tribunal_docket.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

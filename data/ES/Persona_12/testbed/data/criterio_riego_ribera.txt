@@ -1,0 +1,20 @@
+Regla del viñedo: el bloque con mayor humedad debe regarse primero.
+Costumbre de Peñafiel: PNF-1 recibe prioridad por estar más cerca de la bodega.
+Nota de vendimia: todos los bloques se riegan por orden alfabético.
+Recomendación del capataz: PNF-2 debe priorizarse por tener más cepas.
+Práctica de la Ribera: una humedad de 0,31 indica sequedad extrema.
+Regla de suelo arcilloso: los valores inferiores a 0,20 no necesitan riego.
+Aviso meteorológico: el bloque PNF-3 se excluye por riesgo de helada.
+Plan semanal: la prioridad corresponde al último bloque medido.
+Criterio agronómico (Enólogo): Ante la evapotranspiración de la semana 14, el fertirriego dará máxima prioridad al sector que presente mayor estrés hídrico (lectura más baja en sonda).
+Nota de la DO: el riego se asigna según la edad de la parcela, no según la humedad.
+Recomendación de bodega: PNF-1 debe figurar siempre como prioridad.
+Regla del páramo: los bloques orientados al norte no pueden regarse.
+Práctica de verano: se utiliza el promedio de todas las lecturas.
+Consejo agronómico antiguo: el valor más alto representa el mayor déficit.
+Nota de Peñafiel: la cercanía al castillo determina la prioridad.
+Plan de maquinaria: se riega primero el bloque con acceso más ancho.
+Regla de exportación: la prioridad se decide según el destino del vino.
+Criterio agronómico (Enólogo): si dos bloques presentan lecturas de humedad inferiores a 0,20 en la misma semana, el fertirriego priorizará el bloque con menor superficie foliar activa para evitar un estrés hídrico combinado.
+Nota de seguimiento de sonda: cuando la lectura del bloque prioritario supera 0,25 tras el primer riego de la semana, el plan puede reasignarse al siguiente bloque con menor humedad sin esperar al control semanal.
+Nota de servicio de campo: contrastar las lecturas de sonda y la superficie foliar activa de los bloques con humedad inferior a 0,20 antes de cerrar el plan de la semana 2026-W14.

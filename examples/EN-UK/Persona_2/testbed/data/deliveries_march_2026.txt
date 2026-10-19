@@ -1,0 +1,102 @@
+CALENDAR
+Version: 2.0
+Product ID: -//Everyday Agent Benchmark//Plausible Local Calendar//EN
+Total Events: 14
+
+Event 1
+  Title: Depot frozen load check
+  Start: 2026-03-05 07:00:00
+  End: 2026-03-05 07:30:00
+  Description: Confirm ice packs and loading order before leaving Southwark.
+  UID: depot-frozen-load-check-1@local.test
+
+Event 2
+  Title: Borough Market bay slot
+  Start: 2026-03-05 08:30:00
+  End: 2026-03-05 09:00:00
+  Description: Use the short loading window before the market crowds build.
+  UID: borough-market-bay-slot-2@local.test
+
+Event 3
+  Title: Westminster closure review
+  Start: 2026-03-06 10:00:00
+  End: 2026-03-06 10:30:00
+  Description: Check whether Whitehall remains closed before assigning the route.
+  UID: westminster-closure-review-3@local.test
+
+Event 4
+  Title: Customer call near Victoria
+  Start: 2026-03-06 13:30:00
+  End: 2026-03-06 14:00:00
+  Description: Phone reception from the kerb before unloading.
+  UID: customer-call-near-victoria-4@local.test
+
+Event 5
+  Title: Standard Delivery Logistics
+  Start: 2026-03-07 09:00:00
+  End: 2026-03-07 10:00:00
+  Description: Routine delivery planning for the Southwark depot.
+  UID: standard-delivery-logistics-5@local.test
+
+Event 6
+  Title: Bridge delay check
+  Start: 2026-03-08 11:00:00
+  End: 2026-03-08 11:30:00
+  Description: Review river crossing delays after the morning coach traffic.
+  UID: bridge-delay-check-6@local.test
+
+Event 7
+  Title: End of shift route board update
+  Start: 2026-03-09 16:00:00
+  End: 2026-03-09 16:30:00
+  Description: Add any closure notes before returning the keys.
+  UID: end-of-shift-route-board-update-7@local.test
+
+Event 8
+  Title: Diesel van charge review
+  Start: 2026-03-10 07:30:00
+  End: 2026-03-10 08:00:00
+  Description: Check the daily charge before entering central London.
+  UID: diesel-van-charge-review-8@local.test
+
+Event 9
+  Title: Van clean check
+  Start: 2026-03-07 07:30:00
+  End: 2026-03-07 07:45:00
+  Description: Remove empty crates before starting the delivery round.
+  UID: van-clean-check-extra-1@local.test
+
+Event 10
+  Title: Market trolley return
+  Start: 2026-03-07 10:15:00
+  End: 2026-03-07 10:30:00
+  Description: Return the hand trolley to the depot cage after the morning drop.
+  UID: market-trolley-return-extra-2@local.test
+
+Event 11
+  Title: Fuel receipt filing
+  Start: 2026-03-07 15:00:00
+  End: 2026-03-07 15:15:00
+  Description: Clip the receipt to the daily vehicle sheet.
+  UID: fuel-receipt-filing-extra-3@local.test
+
+Event 12
+  Title: Driver radio check
+  Start: 2026-03-08 08:00:00
+  End: 2026-03-08 08:15:00
+  Description: Confirm the cab radio is charged before departure.
+  UID: driver-radio-check-extra-4@local.test
+
+Event 13
+  Title: Depot paperwork sort
+  Start: 2026-03-07 07:15:00
+  End: 2026-03-07 07:30:00
+  Description: Tidy unused delivery slips before the morning route board is checked.
+  UID: depot-paperwork-sort-extra-a@local.test
+
+Event 14
+  Title: Empty crate return
+  Start: 2026-03-09 09:30:00
+  End: 2026-03-09 09:45:00
+  Description: Move spare crates back to the loading cage after the early drop.
+  UID: empty-crate-return-extra-b@local.test

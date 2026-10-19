@@ -1,0 +1,28 @@
+{
+  "persona": "Priya is a compliance manager at a major retail bank in Leeds city centre. She updates product risk spreadsheets, FCA alert emails, consumer duty manuals, and internal compliance trackers.",
+  "task": "Insert the FCA vulnerability review timeline into the retail banking product manual under Customer Care Protocols.",
+  "required_files": [
+    "fca_bulletin.txt"
+  ],
+  "output_files": [
+    "data/product_manual.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/product_manual.docx",
+        "keywords": [
+          "Mandatory vulnerability review every 12 months"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/product_manual.docx",
+      "change": "modify"
+    }
+  ]
+}

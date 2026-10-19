@@ -1,0 +1,50 @@
+{
+  "persona": "Théo est régisseur lumière à Lyon et prépare des installations pour la Fête des Lumières. Il coordonne les essais sur les façades historiques, respecte les plafonds de puissance et les horaires patrimoniaux, et travaille avec les services municipaux autour de la Presqu’île et de Fourvière.",
+  "task": "Croise la consigne patrimoniale locale du gestionnaire de Fourvière, le tableau des créneaux et le dialogue de validation. Pour Basilique_Fourviere, distingue le créneau d’essai lumineux conforme des créneaux sonores, annexes et anciennes versions, puis mets à jour le créneau retenu et son statut de validation patrimoniale.",
+  "required_files": [
+    "contrainte_fourviere.txt",
+    "slots_lumiere_lyon.xlsx",
+    "dialogue_validation_fourviere.txt"
+  ],
+  "output_files": [
+    "data/plan_lumiere_lyon.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/plan_lumiere_lyon.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": "21:00-21:30"
+          },
+          {
+            "row": 4,
+            "col": 3,
+            "value": "Patrimoine conforme"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/plan_lumiere_lyon.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Jean-Pierre : Le bulletin concerne-t-il la route de la Bonette ou la variante du Boréon ?
+Responsable pastoral : La route de la Bonette est active ; les coordonnées du repli doivent être celles de cet itinéraire.
+Responsable pastoral : L’itinéraire actif est Route_Bonette sous alerte blizzard.
+Berger : J’utilise donc le point obligatoire de l’itinéraire principal, sans ajouter les refuges secondaires.

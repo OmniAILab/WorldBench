@@ -1,0 +1,49 @@
+{
+  "persona": "Isabelle est consultante spécialisée dans les énergies renouvelables à Nantes et travaille sur l’intégration de parcs éoliens en mer dans les eaux atlantiques. Elle veille à ce que les offres respectent les consignes de sécurité nautique applicables au plan d’eau et les protections de la biodiversité des Pays de la Loire, en assurant la médiation entre industriels et organisations de pêcheurs.",
+  "task": "Croise la consigne de sécurité maritime de l’opération avec le tableau des phases du projet ATL-WIND-3. Retiens uniquement la règle applicable au chantier principal, en écartant les opérations préparatoires, annexes et ATL-WIND-2, puis renseigne la zone d’exclusion et la phase correspondante dans la liste de contrôle de l’offre.",
+  "required_files": [
+    "prefecture_notice_nantes.txt",
+    "phases_atl_wind.xlsx"
+  ],
+  "output_files": [
+    "data/bid_checklist.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/bid_checklist.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": 500
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "Chantier principal"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/bid_checklist.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

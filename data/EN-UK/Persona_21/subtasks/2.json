@@ -1,0 +1,31 @@
+{
+  "persona": "Isla is a decommissioning engineer based in Aberdeen. She keeps practical spreadsheets for North Sea infrastructure, vessel planning, exclusion zones, and weather-related calendar holds.",
+  "task": "Use the gale-force wind window in the weather forecast to add a Subsea Operations Halt event to the decommissioning project calendar.",
+  "required_files": [
+    "meteo_forecast.txt"
+  ],
+  "output_files": [
+    "data/decommissioning_project.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/decommissioning_project.ics",
+        "summary_keywords": [
+          "Subsea Operations Halt"
+        ],
+        "description_keywords": [
+          "2026-10-18"
+        ],
+        "date": "2026-10-15"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/decommissioning_project.ics",
+      "change": "modify"
+    }
+  ]
+}

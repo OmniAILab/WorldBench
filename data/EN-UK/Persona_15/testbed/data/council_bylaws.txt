@@ -1,0 +1,12 @@
+Glass-bin note: broken glass should not be mixed with food waste.	Lace Market reuse hub	Trent Basin heat-network note
+Lace Market flats note: textile scraps are handled through business symbiosis, not composting.	Broadmarsh public-realm works	Hockley business forum
+Student accommodation note: pizza boxes with food residue are a paper-stream issue.	Sneinton Market maker space	Nottingham Castle ward briefing
+Castle Wharf note: balcony planters are outside communal compost rules.	Lace Market reuse hub	Trent Basin heat-network note
+Green-bag note: household garden waste uses a separate collection calendar.	Broadmarsh public-realm works	Hockley business forum
+Anaerobic digestion note: commercial food waste has a separate limit.	Sneinton Market maker space	Nottingham Castle ward briefing
+Composting rule: write the shared-bin threshold clearly in resident-facing material.	Lace Market reuse hub	Trent Basin heat-network note
+Maximum compost contamination threshold: 5%.	Broadmarsh public-realm works	Hockley business forum
+Brown-bin note: heavy soil should not be added to food caddies.	Sneinton Market maker space	Nottingham Castle ward briefing
+Trent Basin note: district-heating leaflets should not be inserted here.	Lace Market reuse hub	Trent Basin heat-network note
+Broadmarsh note: construction waste is not part of residential composting.	Broadmarsh public-realm works	Hockley business forum
+Note: the former 8% trial threshold must not be used.	Sneinton Market maker space	Nottingham Castle ward briefing

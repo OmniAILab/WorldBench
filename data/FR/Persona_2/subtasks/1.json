@@ -1,0 +1,32 @@
+{
+  "persona": "Sandrine est conservatrice du patrimoine à Avignon et supervise la préservation des manuscrits à la Collection Lambert et au Petit Palais. Elle gère les exigences complexes de régulation climatique du parchemin médiéval dans des bâtiments historiques en pierre et coordonne les demandes de financement auprès de la Direction régionale des affaires culturelles, notamment pendant l’afflux de visiteurs lié au Festival d’Avignon.",
+  "task": "À partir de la note du Festival et de l’échange entre conservation et accueil, rédige dans le document existant une brève note d’accueil pour la présentation des manuscrits fragiles au Petit Palais. Ne conserve que les deux mesures explicitement validées pour les manuscrits et exclus les consignes destinées aux peintures, aux cadres ou aux flux généraux.",
+  "required_files": [
+    "festival_note_avignon.txt",
+    "dialogue_accueil_avignon.txt"
+  ],
+  "output_files": [
+    "data/visitor_brief.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/visitor_brief.docx",
+        "keywords": [
+          "Petit Palais",
+          "Festival d’Avignon",
+          "réduire les manipulations",
+          "limiter la durée d’exposition"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/visitor_brief.docx",
+      "change": "modify"
+    }
+  ]
+}

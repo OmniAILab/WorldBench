@@ -1,0 +1,31 @@
+{
+  "persona": "Alessandra è una restauratrice a Firenze e lavora in un piccolo studio nei pressi della basilica di Santa Croce. Si occupa della conservazione di affreschi e superfici lapidee storiche, coordinandosi con la Soprintendenza Archeologia, Belle Arti e Paesaggio competente. Monitora l’umidità degli ambienti e i possibili effetti delle condizioni della valle dell’Arno sulle opere e sulle murature, documentando gli interventi di prevenzione e conservazione.",
+  "task": "Aggiungi al calendario dello studio l’ispezione della Soprintendenza per la risposta all’umidità della valle dell’Arno.",
+  "required_files": [
+    "avviso_soprintendenza_firenze.txt"
+  ],
+  "output_files": [
+    "data/calendario_studio_firenze.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_studio_firenze.ics",
+        "summary_keywords": [
+          "Ispezione Soprintendenza"
+        ],
+        "description_keywords": [
+          "umidità Arno"
+        ],
+        "date": "2026-02-25"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_studio_firenze.ics",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "persona": "Ayan is a public health outreach coordinator in Minneapolis, Minnesota, focusing on infectious disease prevention within the city’s diverse East African immigrant communities. She manages the documentation requirements of the Minnesota Department of Health and the specific cultural communication guidelines for local clinics, ensuring that health screenings and vaccination information are distributed through trusted community channels while maintaining accurate records of health outcomes and linguistic accessibility.",
+  "task": "Use the community screening log to find the number of patients who prefer Somali at Cedar_Riverside and record that count in the clinic resource matrix.",
+  "required_files": [
+    "screening_log_minneapolis.xlsx",
+    "dialogue_language_resource_handoff.txt"
+  ],
+  "output_files": [
+    "data/resource_matrix.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/resource_matrix.xlsx",
+        "matches": [
+          {
+            "row": 6,
+            "col": 2,
+            "value": "85_Patients"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/resource_matrix.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

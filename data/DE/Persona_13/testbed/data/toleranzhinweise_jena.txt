@@ -1,0 +1,6 @@
+Prüfbericht Qualitätskontrolle — Medizintechnik Jena
+Gerätebezeichnung: Retinal_Scanner_Pro.
+Spezifikation: Die Messung der optischen Komponenten ergab eine Oberflächenabweichung von 0,01 nm in der Beschichtung.
+Zuständiger Fachbereich für Rückfragen: optik@uni-jena.de.
+Formulierung für die E-Mail: "Retinal_Scanner_Pro" und "Oberflächenabweichung 0,01 nm" angeben.
+Medizinproduktegesetz-Hinweis: Für ältere Modelle der Basic-Reihe wird im klinischen Einsatz eine Abweichung von bis zu 0,05 nm toleriert, was jedoch für die zertifizierte Pro-Serie strikt untersagt ist.

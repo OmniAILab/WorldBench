@@ -1,0 +1,28 @@
+{
+  "persona": "Hendrik ist Meeresschützer mit Sitz in Stralsund an der Ostseeküste und widmet sich dem Schutz der Seegraswiesen im Flachwasser. Er bringt die gegenläufigen Interessen der kommerziellen Fischereiflotten und die strengen Vorgaben des Bundesamts für Naturschutz für Meeresschutzgebiete in Einklang. Er führt verstreute Feldbeobachtungen, Datensätze zum Salzgehalt des Wassers und Satellitenspuren lokaler Fischereifahrzeuge zusammen, um gefährdete ökologische Zonen zu kartieren und Empfehlungen für Schutzmaßnahmen zu entwerfen.",
+  "task": "Schreibe eine E-Mail an den regionalen Meeresschutzbeirat und nenne das betroffene Flachwassergebiet bei Rügen sowie den gemeldeten ökologisch kritischen Salzgehaltszustand.",
+  "required_files": [
+    "ostsee_datensaetze.xlsx",
+    "gremien_kontakte_stralsund.xlsx",
+    "salinitaetshinweise_stralsund.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "meeresschutz@mv.de",
+        "keywords": [
+          "Ruegen_Flachwasser",
+          "Tödlicher Süßwassereintrag"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_meeresschutz_*.eml",
+      "change": "create"
+    }
+  ]
+}

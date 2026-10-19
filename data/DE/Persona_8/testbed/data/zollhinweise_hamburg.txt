@@ -1,0 +1,7 @@
+Betriebsvermerk interne Vorkalkulation — Terminal Altenwerder
+Sendung: HB-77 (Warengruppe Elektronik)
+Grundwert: 10.000 EUR
+Zollsatz: Gemäß interner Vereinfachungsrichtlinie für Vorabkalkulationen wird für Elektronik ein Zollsatz von 7 Prozent angesetzt.
+Berechnung: Endbetrag = Grundwert + (Grundwert * Zollsatz).
+Freigabehinweis: Für HB-77 ergibt sich damit ein kalkulierter Endbetrag von 10.700 EUR zur Hinterlegung.
+Historischer Zollvermerk: Die frühere Freihafenregelung ist seit dem 1. Januar 2013 nicht mehr anwendbar; für die finale Abfertigung gelten die regulären Verfahren des Zollgebiets der Union.

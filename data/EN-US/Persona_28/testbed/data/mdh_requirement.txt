@@ -1,0 +1,23 @@
+Language update: appointment reminder calls should be logged by clinic location.
+Translation note: routine wellness flyers may be bundled for weekly review.
+Accessibility memo: font size must be checked for printed screening notices.
+Community guideline: radio announcements should use trusted local speakers.
+Clinic note: vaccine card instructions should be reviewed before outreach events.
+Minnesota Department of Health update: All critical health notices must be translated within 24 hours.
+Somali outreach note: Cedar-Riverside distribution tables are busiest after Friday prayers.
+Spanish outreach note: family school packets should include plain-language summaries.
+Data note: do not mix screening counts with transportation requests.
+Volunteer note: interpreters need badge pickup before the evening clinic.
+Weather note: snow may delay door-to-door outreach in Phillips West.
+Transit note: light rail delays can affect appointment arrival times.
+Printing note: the color copier is low on toner for multilingual handouts.
+Clinic note: privacy screens should be set up before registration opens.
+Food note: community dinner invitations are separate from health notices.
+School note: backpack flyers must be approved by the district office.
+Phone note: voicemail scripts should not include detailed medical information.
+Records note: outcome spreadsheets must use the same neighborhood names.
+MDH clarification: the 24-hour clock begins when a critical notice is approved for public release.
+Cedar-Riverside note: Somali and English versions should be posted through the same clinic distribution cycle.
+Community communication note: routine event flyers are not classified as critical health notices.
+Accessibility note: translated notices should preserve hotline numbers and appointment instructions exactly.
+Records note: translation completion time should be documented separately from printing time.

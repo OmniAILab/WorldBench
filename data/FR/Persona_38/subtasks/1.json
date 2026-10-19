@@ -1,0 +1,36 @@
+{
+  "persona": "Loïc est technicien de phare sur l’île d’Ouessant, chargé de l’entretien des optiques de Fresnel, des feux de secours et des équipements de signalisation maritime. Il travaille avec les services des Phares et Balises et le CROSS Corsen, en tenant compte des vents d’ouest, des horaires de marée et des contraintes d’accès au phare du Créac’h.",
+  "task": "Planifie le nettoyage de Phare_Créac’h_Lentille_2 en croisant les créneaux d’accès, la disponibilité de l’optique et le dialogue du phare. Retiens uniquement un créneau autorisant l’accès complet, puis ajoute au calendrier la date, l’heure et l’optique concernée. Écarte les créneaux seulement « possibles » ou limités.",
+  "required_files": [
+    "creneaux_acces_creach.xlsx",
+    "planning_optique_creach.xlsx",
+    "dialogue_acces_creach.txt"
+  ],
+  "output_files": [
+    "data/calendrier_phare_ouessant.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendrier_phare_ouessant.ics",
+        "summary_keywords": [
+          "Nettoyage optique de Fresnel"
+        ],
+        "description_keywords": [
+          "Créac’h",
+          "Lentille_2",
+          "Accès_complet"
+        ],
+        "time_start": "2026-10-09 16:20:00",
+        "time_end": "2026-10-09 17:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendrier_phare_ouessant.ics",
+      "change": "modify"
+    }
+  ]
+}

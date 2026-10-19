@@ -1,0 +1,36 @@
+{
+  "persona": "Isabelle est une consultante spécialisée dans les énergies renouvelables à Nantes, centrée sur l’intégration des parcs éoliens en mer dans les eaux atlantiques. Elle veille à ce que les offres de projet respectent les règles de sécurité maritime de la Préfecture maritime de l’Atlantique et les protections locales de la biodiversité des Pays de la Loire, tout en assurant la médiation entre les acteurs industriels et les syndicats régionaux de pêche.",
+  "task": "Planifie la consultation ATL-WIND-3 avec le syndicat de pêche dans le calendrier de projet. Croise le créneau explicitement retenu, le groupe de contact, la zone d’exclusion de l’offre et le briefing de concertation ; écarte les créneaux seulement proposés ou envisagés. La description doit identifier le syndicat « Peche_Atlantique » et rappeler la zone d’exclusion de 500 m.",
+  "required_files": [
+    "syndicate_contacts.xlsx",
+    "bid_checklist.xlsx",
+    "consultation_slots_nantes.txt",
+    "briefing_consultation_nantes.txt"
+  ],
+  "output_files": [
+    "data/consultations_nantes.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/consultations_nantes.ics",
+        "summary_keywords": [
+          "Consultation ATL-WIND-3"
+        ],
+        "description_keywords": [
+          "Peche_Atlantique",
+          "500 m"
+        ],
+        "time_start": "2026-04-08 14:30:00",
+        "time_end": "2026-04-08 15:30:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/consultations_nantes.ics",
+      "change": "modify"
+    }
+  ]
+}

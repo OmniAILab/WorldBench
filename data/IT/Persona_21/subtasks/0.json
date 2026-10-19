@@ -1,0 +1,39 @@
+{
+  "persona": "Alessia è una stratega dell'ospitalità sulla Costiera Amalfitana e gestisce un portafoglio di ville di lusso e residenze storiche a Positano. Affronta le sfide logistiche stagionali della strada statale SS163 e gli specifici regolamenti comunali che disciplinano i livelli di rumore costiero e i permessi per il turismo del patrimonio. Il suo lavoro comprende l'attenta sincronizzazione degli itinerari degli ospiti con gli orari dei traghetti regionali e il coordinamento dei fornitori artigiani locali per garantire un'esperienza impeccabile all'altezza delle elevate aspettative dei viaggiatori internazionali.",
+  "task": "Usa il foglio degli arrivi degli ospiti per aggiornare lo stato del transfer privato con orario e porto corretti nel file ./data/transfer_positano.xlsx per la Famiglia_Smith.",
+  "required_files": [
+    "note_transfer_positano.txt",
+    "itinerari_positano.xlsx"
+  ],
+  "output_files": [
+    "data/transfer_positano.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/transfer_positano.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "14:30_Molo_Beverello"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/transfer_positano.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

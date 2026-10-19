@@ -1,0 +1,31 @@
+{
+  "persona": "Priya is a creative content strategist at Salford's MediaCityUK, where she oversees multi-platform campaigns for independent production companies. She manages licence checks, regional production commitments, and campaign files for streaming and social media releases.",
+  "task": "Prepare the MediaCityUK rights-clearance summary for the North_Stream campaign by merging each North_Stream asset with its licence status, making clear which clip is cleared and which remains pending.",
+  "required_files": [
+    "licences_salford.xlsx",
+    "assets_mediacity.xlsx"
+  ],
+  "output_files": [
+    "data/rights_summary.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/rights_summary.docx",
+        "keywords": [
+          "North_Stream",
+          "CL-204",
+          "CL-311"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/rights_summary.docx",
+      "change": "modify"
+    }
+  ]
+}

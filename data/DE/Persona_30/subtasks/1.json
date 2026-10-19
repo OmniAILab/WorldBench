@@ -1,0 +1,28 @@
+{
+  "persona": "Greta leitet die Mälzerei einer Bamberger Rauchbierbrauerei. Sie kennt die traditionelle Trocknung von Malz über Buchenholzfeuer und koordiniert die Wartung der Darr- und Abluftanlagen. Bei Abweichungen prüft sie die Anlagenprotokolle und leitet bestätigte Störungen an die zuständige Technik weiter.",
+  "task": "Prüfe die aktuelle Emissionslage der Bamberger Rauchbierbrauerei, gleiche die Messwerte mit den betrieblichen, historischen und behördlichen Hinweisen ab und identifiziere die tatsächlich betroffene Anlage sowie die verbindlich bestätigte Fehlerart. Schreibe anschließend ausschließlich an die zuständige Wartungstechnik eine E-Mail mit Anlage, Fehlerart und der notwendigen unmittelbaren Reaktion.",
+  "required_files": [
+    "emissionsmesswerte.xlsx",
+    "kontakte_brauerei_bamberg.xlsx",
+    "emissionshinweise_bamberg.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "wartung@rauchbier-bamberg.de",
+        "keywords": [
+          "Beechwood_Kiln_2",
+          "Druckverlust am CO2-Wäscher"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_wartung_*.eml",
+      "change": "create"
+    }
+  ]
+}

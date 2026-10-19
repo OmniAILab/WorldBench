@@ -1,0 +1,28 @@
+{
+  "persona": "Elena es maestra de primaria en un pequeño pueblo del Valle del Jerte, en el norte de Cáceres (Extremadura), donde lleva un aula multigrado dentro de un Centro Rural Agrupado (CRA). Armoniza el calendario agrícola de la comarca, marcado por la floración y la recogida de la cereza, con el currículo educativo autonómico, y supera el aislamiento geográfico y la escasa conectividad digital para ofrecer un aprendizaje personalizado a alumnado de distintas edades.",
+  "task": "Comprueba en el plan de clase la semana en la que ha quedado registrada la visita al cerezal y averigua qué buzón debe recibir la logística de las salidas según la dirección del CRA. Escribe a las familias explicando la logística de la visita al cerezal e indicando esa semana, sin dirigir el aviso al AMPA, a la dirección, al comedor ni al transporte escolar.",
+  "required_files": [
+    "contactos_cra_jerte.xlsx",
+    "plan_clase_jerte_v2.xlsx",
+    "indicaciones_correo_jerte.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "familias@cra-jerte.es",
+        "keywords": [
+          "2026-W18",
+          "visita al cerezal"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_familias_*.eml",
+      "change": "create"
+    }
+  ]
+}

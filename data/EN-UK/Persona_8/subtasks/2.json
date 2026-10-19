@@ -1,0 +1,32 @@
+{
+  "persona": "Siobhan is a senior logistics coordinator at the Port of Belfast, overseeing the movement of goods between Northern Ireland and Great Britain. She updates routing sheets, vessel handovers, and berth coordination notes for Belfast Harbour terminal teams.",
+  "task": "Add the SeaHawk berth coordination slot to the Belfast March calendar and include a note reminding the terminal team to complete the Green Lane paperwork check before berth release.",
+  "required_files": [
+    "berth_plan_belfast.xlsx",
+    "greenlane_check_note.txt"
+  ],
+  "output_files": [
+    "data/deliveries_march_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_march_2026.ics",
+        "summary_keywords": [
+          "SeaHawk Berth Coordination"
+        ],
+        "description_keywords": [
+          "Green Lane paperwork"
+        ],
+        "date": "2026-03-10"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_march_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "persona": "Leo is a stormwater management consultant in Charleston, South Carolina, focusing on the preservation of the historic French Quarter during king tide events. He navigates the complexities of the Charleston Board of Architectural Review and the city’s specialized drainage ordinances, coordinating the installation of backflow preventers and permeable paving while ensuring all modifications respect the colonial-era aesthetic and the specific soil saturation levels of the Lowcountry.",
+  "task": "Turn the architectural review note into a one-paragraph materials guidance document that respects the colonial-era aesthetic.",
+  "required_files": [
+    "bar_notice_charleston.txt"
+  ],
+  "output_files": [
+    "data/materials_guidance.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/materials_guidance.docx",
+        "keywords": [
+          "French Quarter",
+          "historic iron"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/materials_guidance.docx",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Curator: The active provenance review this morning is Textile_Navajo_09.
+Registrar: I should retrieve the acquisition year and verified status associated with that exact identifier?
+Curator: Yes. Do not choose another textile simply because it is also marked Verified.
+Registrar: Several Navajo textiles have similar status values, so the exact Item_ID controls the match.
+Curator: Correct.
+Registrar: The result goes into the provenance database used for Indian Arts and Crafts Act documentation.
+Curator: Yes.
+Registrar: I should not infer a community, workshop, or cultural attribution that is not documented.
+Curator: Correct. Use only the provenance data in the files.
+Registrar: Canyon Road context does not replace documentary verification.
+Curator: Exactly.
+Registrar: Pueblo pottery and basket entries in the ledger are separate records.
+Curator: Correct.
+Registrar: I preserve the complete year_status value.
+Curator: That is what the database expects.
+Registrar: I update only Textile_Navajo_09.
+Curator: Yes.
+Registrar: The remaining acquisitions stay TBC.
+Curator: Correct.
+Registrar: I also verify that the status is Verified, not Pending or Review.
+Curator: Good.
+Registrar: I will proceed.

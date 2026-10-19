@@ -1,0 +1,33 @@
+{
+  "persona": "Martina interpreta l'evoluzione delle leggi immobiliari della Sardegna per assistere i \"nomadi digitali\" internazionali nel trasferimento nei villaggi interni più remoti dell'isola. Si muove tra gli specifici criteri di un programma privato di sostegno al trasferimento denominato «Work from Sardinia» e le complessità dei sistemi catastali locali nella regione della Barbagia. Le sue attività quotidiane comprendono la sintesi dei requisiti di residenza e la gestione dei permessi di ristrutturazione per le case storiche in pietra, assicurando che i nuovi arrivati si integrino in modo sostenibile nel tessuto della comunità locale.",
+  "task": "Usa la nota regionale sui sopralluoghi per aggiungere al calendario il sopralluogo alla casa in pietra da ristrutturare nel villaggio interno della Barbagia, con la data corretta.",
+  "required_files": [
+    "nota_permessi_barbagia.txt"
+  ],
+  "output_files": [
+    "data/calendario_consulente_sardegna.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendario_consulente_sardegna.ics",
+        "summary_keywords": [
+          "Sopralluogo",
+          "casa",
+          "pietra"
+        ],
+        "description_keywords": [
+          "Barbagia"
+        ],
+        "date": "2026-05-12"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendario_consulente_sardegna.ics",
+      "change": "modify"
+    }
+  ]
+}

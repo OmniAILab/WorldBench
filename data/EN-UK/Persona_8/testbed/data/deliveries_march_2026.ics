@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Services//Local Data//EN
+BEGIN:VEVENT
+UID:northstar-berth-plan-1@local.test
+DTSTART:20260311T070000
+DTEND:20260311T073000
+SUMMARY:NorthStar Berth Plan
+DESCRIPTION:Prepare berth documents for the later vessel.
+END:VEVENT
+BEGIN:VEVENT
+UID:laganwave-night-arrival-2@local.test
+DTSTART:20260309T233000
+DTEND:20260310T000000
+SUMMARY:LaganWave Night Arrival
+DESCRIPTION:Check night-shift pilotage note.
+END:VEVENT
+BEGIN:VEVENT
+UID:belfast-trader-document-check-3@local.test
+DTSTART:20260310T060000
+DTEND:20260310T061500
+SUMMARY:Belfast Trader Document Check
+DESCRIPTION:Review standard terminal handover paperwork.
+END:VEVENT
+BEGIN:VEVENT
+UID:greenlane-rules-brief-4@local.test
+DTSTART:20260310T050000
+DTEND:20260310T053000
+SUMMARY:Green Lane Rules Brief
+DESCRIPTION:Brief terminal team on Windsor Framework routing notes.
+END:VEVENT
+BEGIN:VEVENT
+UID:berth-release-review-5@local.test
+DTSTART:20260310T090000
+DTEND:20260310T093000
+SUMMARY:Berth Release Review
+DESCRIPTION:Review berth clearances after morning arrivals.
+END:VEVENT
+END:VCALENDAR

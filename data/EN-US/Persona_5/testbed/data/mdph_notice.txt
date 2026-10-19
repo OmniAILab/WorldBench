@@ -1,0 +1,20 @@
+MDPH: keep temperature logs for 2 years after the freezer is decommissioned.
+MDPH: keep courier badges for 1 year after expiration.
+MDPH: keep de-identified screening logs for 3 years after closeout.
+MDPH: keep certain calendars for 5 years in case of a funding audit.
+MDPH requirement: Longwood Medical Area study binders must keep signed consent forms for 7 years.
+MDPH: keep cafeteria receipts for 90 days under vendor policy.
+MDPH: archive calibration labels for 4 years after maintenance.
+MDPH: keep shipping receipts for 18 months unless there is a sample deviation.
+An internal hospital policy mentions 6 years but does not replace MDPH.
+Parking forms are not signed consent forms.
+Boston: the document must mention Longwood Medical Area.
+Boston: a Red Line delay does not change the retention period.
+Boston: the IRB file and the MDPH binder must stay consistent.
+Boston: the period to use is 7 years.
+Boston: do not shorten it based on local habit.
+Boston: the result belongs in a document, not a spreadsheet.
+Boston: keep the compliance wording concise.
+Instruction: do not use the 5 years that apply to calendars.
+Instruction: do not use the 3 years that apply to screening logs.
+Instruction: state the signed consent forms clearly.

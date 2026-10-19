@@ -1,0 +1,20 @@
+Nota turística: un llaut histórico puede transportar hasta diez pasajeros en verano.
+Criterio del patrón: la capacidad depende únicamente del número de chalecos disponibles.
+Apunte del puerto: los menores no cuentan para el límite.
+Práctica tradicional: la capacidad máxima es ocho personas además de la tripulación.
+Circular antigua: se permiten doce pasajeros en aguas interiores.
+Nota de la Reserva: las excursiones ecológicas quedan exentas de límite.
+Criterio de eslora: cualquier embarcación de más de seis metros admite nueve pasajeros.
+Apunte de Mahón: el patrón puede ampliar la capacidad con autorización verbal.
+Despacho de Capitanía Marítima (Lista 6ª): En estricta consideración a los dictámenes de estabilidad estructural, la licencia de explotación chárter para cualquier llaut histórico queda blindada a un máximo de 6 pasajeros.
+Nota de turismo náutico: la capacidad se expresa como seis grupos familiares.
+Criterio de seguridad: el límite correcto es cuatro pasajeros.
+Circular del astillero: la cifra máxima depende del tipo de barniz.
+Práctica de puerto: durante fiestas locales pueden embarcar siete personas.
+Nota de navegación: los pasajeros sentados en cubierta no se contabilizan.
+Criterio de temporada: en mayo se permiten cinco y en agosto ocho.
+Informe antiguo: el límite se aplica solo fuera del puerto de Mahón.
+Apunte de tripulación: el máximo autorizado es seis tripulantes, no pasajeros.
+Despacho de Capitanía Marítima (Lista 6ª): En caso de que la inspección de estabilidad estructural de un llaut histórico concluya con observaciones menores, la licencia se emitirá de forma provisional con un máximo de 4 pasajeros hasta la subsanación de las deficiencias detectadas.
+Nota de Capitanía Marítima de Mahón: El límite de 6 pasajeros para llauts históricos se aplica en aguas abrigadas del puerto; para excursiones que superen la bocana y naveguen en aguas abiertas, la limitación se reduce a 4 pasajeros por dictamen de estabilidad dinámica.
+Apunte de la Cofradía de Pescadores de Mahón: las salidas de pesca profesional se rigen por la lista tercera y no por la licencia de explotación chárter.

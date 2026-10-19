@@ -1,0 +1,34 @@
+{
+  "persona": "Théo est régisseur lumière à Lyon et prépare des installations pour la Fête des Lumières. Il coordonne les essais sur les façades historiques, respecte les plafonds de puissance et les horaires patrimoniaux, et travaille avec les services municipaux autour de la Presqu’île et de Fourvière.",
+  "task": "Planifie la répétition principale de l’Hôtel de Ville en croisant la note de répétition, la limite de puissance de la façade et le dialogue technique. Retient le 2 décembre 2026 de 19 h 30 à 20 h 30, limite la puissance à 18 kW et écarte l’évènement annexe ainsi que le montage du 1er décembre.",
+  "required_files": [
+    "repetition_lyon.txt",
+    "limites_puissance_lyon.xlsx",
+    "dialogue_repetition_lyon.txt"
+  ],
+  "output_files": [
+    "data/calendrier_fete_lumieres.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendrier_fete_lumieres.ics",
+        "summary_keywords": [
+          "Répétition Hôtel de Ville"
+        ],
+        "description_keywords": [
+          "18 kW"
+        ],
+        "time_start": "2026-12-02 19:30:00",
+        "time_end": "2026-12-02 20:30:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendrier_fete_lumieres.ics",
+      "change": "modify"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "persona": "Anwen is a microchip production planner based at a semiconductor foundry in Newport. She maintains cleanroom metrics, logistics calendars, tolerance manuals, and production risk trackers.",
+  "task": "Use the Newport foundry facility metrics to update the silicon tolerance sheet for Lithography_Bay_2 with the correct humidity pause-risk value.",
+  "required_files": [
+    "facility_metrics_newport.xlsx"
+  ],
+  "output_files": [
+    "data/silicon_tolerance.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/silicon_tolerance.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "45%_Stable"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/silicon_tolerance.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

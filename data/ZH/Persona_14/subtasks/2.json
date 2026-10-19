@@ -1,0 +1,31 @@
+{
+  "persona": "强是大兴安岭雪林中的一名本地护林员。他追踪哪些林区因恢复生长而关闭，并帮助迷路的生态游客回到主步道。",
+  "task": "给旅游向导写一封邮件，说明因封闭区域需要改走替代路线。",
+  "required_files": [
+    "coop_contacts_heilongjiang.xlsx",
+    "forest_policy_note.txt",
+    "dialogue_khingan_route.txt",
+    "khingan_route_map.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "hello@khinganeco.cn",
+        "keywords": [
+          "C7",
+          "替代路线",
+          "C8白桦林主步道",
+          "天然恢复区"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_hello_*.eml",
+      "change": "create"
+    }
+  ]
+}

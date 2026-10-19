@@ -1,0 +1,33 @@
+{
+  "persona": "Solène est responsable qualité dans une manufacture de porcelaine de Limoges. Elle vérifie les lots, les contrôles de cuisson, la traçabilité de la fabrication en Haute-Vienne et les dossiers liés à l’indication géographique. Les mesures de translucidité servent au classement interne des produits et ne remplacent pas les critères territoriaux de l’indication géographique.",
+  "task": "Rédige un e-mail aux techniciens de cuisson après avoir croisé le relevé environnemental, l’état opérationnel des fours, la règle d’arrêt et le dialogue de quart. Identifie l’unité actuellement en production dont le pic de particules est confirmé par la sonde d’extraction, demande son arrêt immédiat et rappelle que la reprise dépend d’une validation environnementale. Écarte les alertes historiques et les fours hors production.",
+  "required_files": [
+    "environmental_emissions.xlsx",
+    "firing_contacts_limoges.xlsx",
+    "consigne_emissions_limoges.txt",
+    "etat_fours_limoges.xlsx",
+    "dialogue_quart_fours_limoges.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "techniciens-de-cuisson@simulation-interne.invalid",
+        "keywords": [
+          "Kiln_B_Electric",
+          "Pic de particules",
+          "arrêt immédiat",
+          "Sonde_extraction",
+          "validation environnementale"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_cuisson_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "persona": "博是北京海淀区一家繁忙科技补习学校的 IT 管理员。他要应对焦虑的家长，管理学校的在线门户，并清理学生数据，以免违反新的隐私法律。",
+  "task": "为海淀中关村校区家长开放日生成对外登记表字段处理结果。综合 PIPL 更新、字段建议、开放日导出需求和 IT—教务对话，对目标表中的身份证号、手机号、邮箱、家庭地址、课程代码和班级名称逐项判定“遮蔽”或“保留”。个人联系方式与身份信息必须遮蔽；课程代码和班级名称用于分班统计可以保留。",
+  "required_files": [
+    "pipl_notice_2026.txt",
+    "student_fields_beijing.xlsx",
+    "open_day_export_haidian.xlsx",
+    "dialogue_privacy_haidian.txt"
+  ],
+  "output_files": [
+    "data/register_beijing.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/register_beijing.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "遮蔽"
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "value": "遮蔽"
+          },
+          {
+            "row": 4,
+            "col": 2,
+            "value": "保留"
+          },
+          {
+            "row": 5,
+            "col": 2,
+            "value": "遮蔽"
+          },
+          {
+            "row": 6,
+            "col": 2,
+            "value": "遮蔽"
+          },
+          {
+            "row": 7,
+            "col": 2,
+            "value": "保留"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/register_beijing.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 6,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 7,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

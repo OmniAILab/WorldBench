@@ -1,0 +1,5 @@
+Nadège : Pour le violon en cours sur l'établi (commande VLM-TABLE-09), on avait mis de côté le quartier d'épicéa refendu Épicéa_Alpes_27.
+Apprenti luthier : Oui, je viens de vérifier le registre acoustique de l'atelier : au tapotage, Épicéa_Alpes_27 sonne à 360Hz et son fil est classé en Grain_régulier.
+Nadège : C'est pile au cœur de notre plage d'atelier de 350 à 370 Hz pour une table d'harmonie de violon équilibrée.
+Apprenti luthier : Tout à fait, selon notre barème maison, cela valide l'affectation « Table_harmonie_violon ».
+Nadège : Reporte Table_harmonie_violon, 360Hz et Grain_régulier sur la ligne de Épicéa_Alpes_27.

@@ -1,0 +1,39 @@
+{
+  "persona": "Paolo sincronizza l'installazione di sistemi di propulsione avanzati presso il cantiere Fincantieri di Monfalcone, dove sovrintende alla costruzione di navi da crociera di nuova generazione. Garantisce che tutte le specifiche tecniche rispettino i rigorosi codici di sicurezza e ambientali dell'Organizzazione Marittima Internazionale e le specifiche normative sul lavoro della regione Friuli Venezia Giulia. Il suo lavoro comprende il costante esame di migliaia di disegni tecnici e il coordinamento di subappaltatori specializzati per mantenere il programma di assemblaggio \"just-in-time\" del cantiere.",
+  "task": "Usa il piano consegne dei subappaltatori per stabilire se l'unità di propulsione è pronta per l'installazione e aggiorna il programma di assemblaggio nel file ./data/programma_assemblaggio_monfalcone.xlsx per il componente Azipod_Thruster_Unit.",
+  "required_files": [
+    "nota_installazione_fincantieri.txt",
+    "consegne_subappaltatori_monfalcone.xlsx"
+  ],
+  "output_files": [
+    "data/programma_assemblaggio_monfalcone.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/programma_assemblaggio_monfalcone.xlsx",
+        "matches": [
+          {
+            "row": 4,
+            "col": 2,
+            "value": "Pronto"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/programma_assemblaggio_monfalcone.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 4,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

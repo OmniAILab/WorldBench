@@ -1,0 +1,34 @@
+{
+  "persona": "Naima is a supply chain coordinator for an urban agriculture collective in Detroit, Michigan, managing the distribution of fresh produce from repurposed industrial lots to local markets. She oversees the conversion of vacant land under the city’s Right to Farm Act and manages the logistical hurdles of the Michigan Department of Agriculture and Rural Development, ensuring that soil quality certifications and distribution schedules remain synchronized across the city's sprawling neighborhoods.",
+  "task": "Add a produce pickup stop for the certified lot to the April calendar and include the neighborhood note in the description.",
+  "required_files": [
+    "soil_cert_detroit_pickup.xlsx",
+    "lot_locations_detroit.xlsx",
+    "pickup_notes_detroit.txt"
+  ],
+  "output_files": [
+    "data/deliveries_april_2026.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/deliveries_april_2026.ics",
+        "summary_keywords": [
+          "Pickup Lot_12"
+        ],
+        "description_keywords": [
+          "North_End"
+        ],
+        "time_start": "2026-04-04 07:30:00",
+        "time_end": "2026-04-04 08:00:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/deliveries_april_2026.ics",
+      "change": "modify"
+    }
+  ]
+}

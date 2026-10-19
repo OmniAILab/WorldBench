@@ -1,0 +1,29 @@
+{
+  "persona": "João é natural do Alentejo e trabalha num vasto montado de sobro perto de Évora. É especialista em ciclos de extração sustentável e fornece cortiça premium a mercados internacionais. Os seus maiores desafios são as ondas de calor estivais cada vez mais frequentes na região e o cumprimento da rigorosa legislação ambiental portuguesa, que impõe intervalos de nove anos entre tiragens da cortiça, exigindo-lhe cruzar dados de sensores do solo para prever as janelas ideais de extração.",
+  "task": "Escreve um email ao comprador PremiumCork a confirmar a parcela autorizada do montado de Évora para a campanha de 2026 e o respetivo volume estimado.",
+  "required_files": [
+    "buyers_evora.xlsx",
+    "auth_evora.xlsx",
+    "buyer_update_evora.txt"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_sales_20260401.txt",
+        "keywords": [
+          "A parcela EV-7 está elegível para a extração de 2026, com um volume estimado de 18 toneladas"
+        ]
+      }
+    },
+    {
+      "function": "evaluate_email",
+      "args": {
+        "doc_type": "txt",
+        "file": "./data/email_sales_20260401.txt",
+        "keywords": []
+      }
+    }
+  ]
+}

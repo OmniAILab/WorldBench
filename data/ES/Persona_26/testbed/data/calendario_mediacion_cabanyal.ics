@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ajuntament de Valencia//Calendario de mediacion//ES
+BEGIN:VEVENT
+UID:urn:uuid:6d607f10-072d-543c-8ba5-87c883015f92
+DTSTART:20261003T090000
+DTEND:20261003T130000
+SUMMARY:Revisión BIC Ciutat_Vella
+DESCRIPTION:Inspección de la comisión de Patrimonio para el distrito Ciutat_Vella.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:f0cb97c4-32ac-583a-b7b2-c777f25d3567
+DTSTART:20260828T090000
+DTEND:20260828T120000
+SUMMARY:Revisión técnica Malvarrosa
+DESCRIPTION:Inspección de la comisión de Patrimonio para el barrio de Malvarrosa.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:113fa1bb-5d7e-5582-84be-8372012c7414
+DTSTART:20260910T180000
+DTEND:20260910T200000
+SUMMARY:Asamblea de asociaciones
+DESCRIPTION:Reunión ordinaria de las asociaciones vecinales de El_Cabanyal.
+END:VEVENT
+END:VCALENDAR

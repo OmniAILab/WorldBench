@@ -1,0 +1,40 @@
+{
+  "persona": "Sabine ist Koordinatorin für Hafenlogistik und arbeitet im Hamburger Speicherstadtviertel. Sie steuert die verzweigten Warenströme, die über das Containerterminal Altenwerder laufen. Zu ihren täglichen Aufgaben gehört es, die Ankünfte der Hochseeschiffe mit den schwankenden tidebedingten Tiefgängen der Elbe in Einklang zu bringen und die strengen Zolldokumentationsvorgaben der zuständigen Abfertigungsstellen lückenlos einzuhalten. Sie gleicht eingehende Frachtmanifeste laufend mit sich ändernden internationalen Handelszöllen und Daten zur Hafenauslastung ab, um Sendungen kurzfristig umzuleiten.",
+  "task": "Nutze die interne Kalkulationsliste und das Ladungsmanifest des Terminals Altenwerder, berechne für die Elektroniksendung HB-77 den voraussichtlichen Endbetrag einschließlich der kalkulierten Einfuhrabgaben und aktualisiere das Kostenblatt.",
+  "required_files": [
+    "zolltarife_hamburg.xlsx",
+    "ladungsmanifest_hamburg.xlsx",
+    "zollhinweise_hamburg.txt"
+  ],
+  "output_files": [
+    "data/zollkosten_hamburg.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/zollkosten_hamburg.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "10700"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/zollkosten_hamburg.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        }
+      ]
+    }
+  ]
+}

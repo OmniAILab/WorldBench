@@ -1,0 +1,6 @@
+Nürnberg – Datenschutzvermerk zur klinischen Dokumentation
+Abschnitt: Datenverarbeitung im Dossierdeckblatt.
+Vor der Weitergabe von Datenauszügen gilt die Arbeitsvorgabe „direkte Identifikatoren entfernen“, beispielsweise Klarnamen und unmittelbare Kontaktdaten, soweit sie für den jeweiligen Zweck nicht benötigt werden.
+Das Entfernen direkter Identifikatoren allein gewährleistet keine vollständige Anonymisierung. Auch Kombinationen aus Fallmerkmalen, Schlüssellisten und seltenen Ereignissen können eine erneute Identifizierung ermöglichen.
+Es sind daher Zweckbindung, Zugriffsrechte, ein angemessenes Pseudonymisierungsverfahren und das verbleibende Reidentifizierungsrisiko zu prüfen; die einschlägigen Anforderungen der DSGVO und des deutschen Datenschutzrechts bleiben bestehen.
+Im Deckblatt ist die konkrete Arbeitsvorgabe im Abschnitt „Datenverarbeitung“ festzuhalten.

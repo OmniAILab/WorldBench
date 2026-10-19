@@ -1,0 +1,7 @@
+PRESCRIPTIONS DE SIGNALÉTIQUE VOYAGEURS — LIAISON TRANSFRONTALIÈRE STRASBOURG-KEHL
+
+- Stations du campus universitaire intérieur : signalétique voyageurs en français.
+- Dépôts et voies de remisage : signalétique de sécurité interne codée.
+- Règle d’information voyageurs sur l’axe transfrontalier : pour le lot principal Tram_Ext_A, il est impératif d’installer une signalétique bilingue (français/allemand) sur tous les abris voyageurs.
+- Segment Tram_Ext_A en zone dépôt (voies de service) : signalétique technique en français uniquement.
+- Segment Tram_Ext_B : signalétique bilingue sur les totems de quai.

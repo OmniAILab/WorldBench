@@ -1,0 +1,39 @@
+HSE protocol: L2-CRANE-04 applies only to quay-crane maintenance.
+Safety note: report unsafe sling condition immediately
+Code note: L2-GATE-02 applies to vehicle entry, not lifting operations.
+Mersey wind note: gust restrictions sit in the stand-down calendar task.
+Freeport note: FP tags are handled in the movement log.
+Berth note: tide windows are held in the berth plan.
+PPE note: hard-hat colour coding is local guidance rather than HSE protocol.
+Forklift note: L2-FORK-03 covers warehouse forklifts only.
+Border note: customs delays are not part of the shift safety code.
+Terminal note: Liverpool2 must be named in the briefing document.
+HSE protocol: L2-LIFT-07 must be followed during lifting operations.
+Secondary guidance: report any unsafe sling condition immediately.
+Briefing instruction: place the code in the Safety_Code section.
+Seaforth gate maintenance is logged separately from vessel movements. Reference 1A is recorded separately.
+Mersey pilotage notes are held in the marine operations file. Reference 1B is recorded separately.
+Crosby weather observations are kept in the local forecast log. Reference 2A is recorded separately.
+Bootle yard lighting checks are not customs records. Reference 2B is recorded separately.
+Liverpool Freeport visitor passes are handled by terminal administration. Reference 3A is recorded separately.
+Gladstone Dock maintenance notices are filed separately. Reference 3B is recorded separately.
+Seaforth gate maintenance is logged separately from vessel movements. Reference 4A is recorded separately.
+Mersey pilotage notes are held in the marine operations file. Reference 4B is recorded separately.
+Crosby weather observations are kept in the local forecast log. Reference 5A is recorded separately.
+Bootle yard lighting checks are not customs records. Reference 5B is recorded separately.
+Liverpool Freeport visitor passes are handled by terminal administration. Reference 6A is recorded separately.
+Gladstone Dock maintenance notices are filed separately. Reference 6B is recorded separately.
+Seaforth gate maintenance is logged separately from vessel movements. Reference 7A is recorded separately.
+Mersey pilotage notes are held in the marine operations file. Reference 7B is recorded separately.
+Crosby weather observations are kept in the local forecast log. Reference 8A is recorded separately.
+Bootle yard lighting checks are not customs records. Reference 8B is recorded separately.
+Liverpool Freeport visitor passes are handled by terminal administration. Reference 9A is recorded separately.
+Gladstone Dock maintenance notices are filed separately. Reference 9B is recorded separately.
+Seaforth gate maintenance is logged separately from vessel movements. Reference 10A is recorded separately.
+Mersey pilotage notes are held in the marine operations file. Reference 10B is recorded separately.
+Crosby weather observations are kept in the local forecast log. Reference 11A is recorded separately.
+Bootle yard lighting checks are not customs records. Reference 11B is recorded separately.
+Liverpool Freeport visitor passes are handled by terminal administration. Reference 12A is recorded separately.
+Gladstone Dock maintenance notices are filed separately. Reference 12B is recorded separately.
+Seaforth gate maintenance is logged separately from vessel movements. Reference 13A is recorded separately.
+Mersey pilotage notes are held in the marine operations file. Reference 13B is recorded separately.

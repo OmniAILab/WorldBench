@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Interne Kalenderverwaltung//Werftplanung Papenburg//DE
+BEGIN:VEVENT
+UID:urn:uuid:d90e7cab-fa80-50d9-b310-cdd44a7e6ba5
+DTSTART:20261021T090000
+DTEND:20261021T100000
+SUMMARY:Schleusenbesprechung
+DESCRIPTION:Vorbereitung der Emsüberführung.
+END:VEVENT
+END:VCALENDAR

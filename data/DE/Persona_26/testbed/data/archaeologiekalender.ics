@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Interne Kalenderverwaltung//Archäologiekalender Trier//DE
+BEGIN:VEVENT
+UID:urn:uuid:5da839ae-8121-5f3d-85ca-42cf065fc9a9
+DTSTART:20260508T090000
+DTEND:20260508T100000
+SUMMARY:Fundbesprechung Porta Nigra
+DESCRIPTION:Zwischenstand der Notgrabung.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:61ace32f-4c04-5192-95ba-745be76e6bbd
+DTSTART:20260430T080000
+DTEND:20260430T180000
+SUMMARY:Antikmarkt Aufbau Porta Nigra
+DESCRIPTION:Straßensperrungen wegen Marktaufbau; Tiefbauabschluss erforderlich.
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:8b50c826-cef7-5d06-b09d-0e2878969dae
+DTSTART:20260429T090000
+DTEND:20260429T170000
+SUMMARY:Tiefbauabnahme Peripherie Porta Nigra
+DESCRIPTION:Finaler Kontrolltermin vor Marktbeginn am 30. April.
+END:VEVENT
+END:VCALENDAR

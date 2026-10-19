@@ -1,0 +1,28 @@
+{
+  "persona": "Sunita is a strategic urban designer in Birmingham working on the Big City Plan and the Curzon Street area. She updates design scores, corridor flags, briefing documents, workshop emails, and site-walk calendar notes.",
+  "task": "Insert the National Planning Policy Framework line from the policy note into the Policy_Line section of the Birmingham project briefing document.",
+  "required_files": [
+    "nppf_notice.txt"
+  ],
+  "output_files": [
+    "data/project_brief.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/project_brief.docx",
+        "keywords": [
+          "promote sustainable transport and healthy streets"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/project_brief.docx",
+      "change": "modify"
+    }
+  ]
+}

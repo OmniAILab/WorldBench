@@ -1,0 +1,29 @@
+{
+  "persona": "慧是南京一家市政污水处理厂的值班主管。她监测化学物质水平，忍受生物反应器散发的难闻气味，并在梅雨季担心长江水位。",
+  "task": "核对环境政策说明中的铬过滤阈值，并把该阈值写入运行指南文档的过滤参数部分。",
+  "required_files": [
+    "zero_discharge_policy.txt",
+    "nanjing_zero_discharge_interpretation.txt"
+  ],
+  "output_files": [
+    "data/operational_guidelines.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/operational_guidelines.docx",
+        "keywords": [
+          "0.01 mg/L"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/operational_guidelines.docx",
+      "change": "modify"
+    }
+  ]
+}

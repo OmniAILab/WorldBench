@@ -1,0 +1,30 @@
+{
+  "persona": "Arantxa es responsable de logística marítima en el Puerto de Algeciras y supervisa el tráfico de contenedores a través del Estrecho de Gibraltar. Gestiona los complejos protocolos aduaneros de la Agencia Tributaria y los requisitos ambientales del Parque Natural del Estrecho. Su día a día consiste en encajar las horas de llegada de los buques con los turnos de la Autoridad Portuaria y con los temporales de Levante, que alteran las maniobras sin previo aviso.",
+  "task": "Incorpora al memorando de operaciones del puerto de Algeciras la regla ambiental vigente del Parque Natural del Estrecho sobre la iluminación nocturna.",
+  "required_files": [
+    "directiva_parque_estrecho.txt"
+  ],
+  "output_files": [
+    "data/memorando_operaciones.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/memorando_operaciones.docx",
+        "keywords": [
+          "Algeciras",
+          "minimizar la iluminación nocturna",
+          "zonas sensibles"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/memorando_operaciones.docx",
+      "change": "modify"
+    }
+  ]
+}

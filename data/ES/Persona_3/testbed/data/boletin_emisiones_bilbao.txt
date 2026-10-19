@@ -1,0 +1,19 @@
+Regla portuaria antigua: el índice de CO2 debe ser inferior a 60.
+Nota de la ría del Nervión: todos los buques con nombre local reciben autorización verde.
+Protocolo del Cantábrico: se acepta un índice máximo de 80 durante el invierno.
+Guía de exportación: solo se evalúa el buque con mayor carga.
+Práctica del puerto: MV_Biscay queda autorizado por operar hacia el norte de Europa.
+Regla de tonelaje: los barcos grandes pueden añadir diez puntos a su índice.
+Nota del corredor atlántico: un valor de 75 se considera automáticamente eficiente.
+Procedimiento aduanero: el índice de CO2 no afecta a la autorización de salida.
+Boletín de la Autoridad Portuaria de Bilbao (APB): Bajo el nuevo marco del Corredor Verde Atlántico, se denegará la escala a aquellos buques mercantes cuyo EEDI (Índice de Diseño de Eficiencia Energética) supere los 70 gCO2/ton-milla.
+Regla alternativa: ambos buques deben marcarse Sí por pertenecer a la misma ruta.
+Nota de Bilbao: el umbral correcto es 68 y solo MV_Nervion queda pendiente.
+Protocolo de combustible: el tipo de carga sustituye el índice de CO2.
+Guía histórica: se autoriza cualquier buque por debajo de 90.
+Práctica del puerto exterior: MV_Biscay recibe prioridad por su nombre geográfico.
+Regla de marea: con pleamar no se aplica el objetivo de emisiones.
+Nota fiscal: el pago del impuesto de carbono convierte cualquier resultado en Sí.
+Procedimiento del Corredor Verde: los valores más altos reciben mejor calificación.
+Boletín APB: los buques que acrediten el uso de combustible de bajo azufre (VLSFO) pueden solicitar una bonificación de cinco puntos sobre su EEDI declarado para el cálculo del Corredor Verde Atlántico.
+Circular de la Autoridad Portuaria de Bilbao: las embarcaciones con EEDI entre 71 y 75 gCO2/ton-milla que presenten un plan de reducción de emisiones aprobado podrán recibir autorización provisional de escala.

@@ -1,0 +1,28 @@
+{
+  "persona": "Hillary is a dual-immersion teacher in Columbus, Ohio, working within a rapidly growing school district that serves a large population of Somali and Spanish-speaking families. She balances the Ohio Department of Education’s rigorous testing standards with the need for personalized lesson plans that bridge linguistic gaps, coordinating between diverse families and district administration to ensure that instructional materials and progress reports are culturally resonant and accessible across multiple languages.",
+  "task": "Write an email to the parents about the missing cultural field trip permission slip.",
+  "required_files": [
+    "family_contacts_columbus.xlsx",
+    "cohort_roster.xlsx",
+    "dialogue_field_trip_permissions.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "parents@columbusdualimmersion.example",
+        "keywords": [
+          "Garcia_Family",
+          "Museum_Trip_Consent"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_parents_*.eml",
+      "change": "create"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "persona": "Solène est responsable qualité dans une manufacture de porcelaine de Limoges. Elle vérifie les lots, les contrôles de cuisson, la traçabilité de la fabrication en Haute-Vienne et les dossiers liés à l’indication géographique. Les mesures de translucidité servent au classement interne des produits et ne remplacent pas les critères territoriaux de l’indication géographique.",
+  "task": "Croise le journal de translucidité, le contrôle de validité de la mesure, la grille qualité interne, distincte des critères de l’indication géographique et le dialogue qualité. Pour Assiettes_série_X, vérifie que la lecture provient bien d’un biscuit sec et d’une mesure validée, détermine le classement commercial interne applicable puis renseigne dans le registre le grade, la transmission retenue et la validation de la mesure. Écarte les lectures provisoires et les lots au nom proche.",
+  "required_files": [
+    "translucency_logs_limoges.xlsx",
+    "regle_translucidite_limoges.txt",
+    "controle_mesure_translucidite.xlsx",
+    "dialogue_qualite_limoges.txt"
+  ],
+  "output_files": [
+    "data/controle_qualite_limoges.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/controle_qualite_limoges.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "Prestige"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": 65
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "Mesure_validée_sur_biscuit_sec"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/controle_qualite_limoges.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

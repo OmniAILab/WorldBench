@@ -1,0 +1,22 @@
+Briefing: the priority air incident this shift is Ridge_Alpha.
+Briefing: verify the actual wind at Ridge_Alpha before authorizing any drop.
+Briefing: Canyon_Beta remains a clear sector but is not the target of this check.
+Briefing: Mesa_Delta is in caution, not in prohibition.
+Briefing: Sage_Flats remains a comparison sector.
+Briefing: Juniper_Ridge is not the priority incident.
+Briefing: Creek_Gamma is delayed but does not replace Ridge_Alpha.
+Briefing: Dry_Basin is under a weather delay.
+Briefing: the Owyhee and Hells Canyon areas stay in the regional table.
+Briefing: the operational context is the Great Basin during fire season.
+Briefing: air decisions go through NIFC and the applicable BLM restrictions.
+Briefing: do not infer the status from the geographic name alone.
+Briefing: use the behavior log row that matches Ridge_Alpha exactly.
+Briefing: copy the full Wind_Speed_and_Safety_Status value.
+Briefing: Caution values are not Unsafe.
+Briefing: Delay values are not Unsafe.
+Briefing: only the status of the active sector goes into the matrix.
+Briefing: leave the other rows TBC.
+Briefing: smokejumper operations use separate tracking.
+Briefing: air tankers must not be cleared on the basis of another sector.
+Briefing: the safety code must stay exactly as it appears in the source.
+Briefing: end of transmission.

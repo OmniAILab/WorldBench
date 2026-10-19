@@ -1,0 +1,34 @@
+{
+  "persona": "Élodie est maîtresse affineuse dans une fruitière du Jura, près de Poligny. Elle suit la maturation des meules de Comté dans des caves fraîches, contrôle la traçabilité du lait et organise les retournements réguliers, tout en préservant les savoir-faire jurassiens liés aux fruitières et aux longues périodes d’affinage.",
+  "task": "Planifie dans le calendrier le premier retournement confirmé de JUR-24. Croise le planning d’affinage avec le briefing de cave pour distinguer le rendez-vous principal du suivi ultérieur et de JUR-26 ; utilise la date, l’heure et le lieu exacts du rendez-vous principal.",
+  "required_files": [
+    "planning_affinage_jura.txt",
+    "briefing_calendrier_jura.txt"
+  ],
+  "output_files": [
+    "data/calendrier_cave_poligny.ics"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_calendar_event",
+      "args": {
+        "file": "./data/calendrier_cave_poligny.ics",
+        "summary_keywords": [
+          "Retournement JUR-24"
+        ],
+        "description_keywords": [
+          "cave de Poligny",
+          "premier retournement confirmé"
+        ],
+        "time_start": "2026-04-08 06:45:00",
+        "time_end": "2026-04-08 07:15:00"
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/calendrier_cave_poligny.ics",
+      "change": "modify"
+    }
+  ]
+}

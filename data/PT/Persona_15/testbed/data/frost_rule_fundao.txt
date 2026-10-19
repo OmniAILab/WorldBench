@@ -1,0 +1,21 @@
+Temperatura acima de 3 °C: manter a rega normal do pomar.
+Temperatura entre 2 °C e 3 °C: repetir a leitura ao fim de trinta minutos.
+Temperatura de 1 °C: preparar as válvulas sem iniciar a proteção.
+Temperatura de 0 °C sem descida prevista: manter o setor em observação.
+Descida possível para −1 °C: avisar a equipa de prevenção.
+Descida breve para −1 °C: verificar primeiro a humidade das folhas.
+Leitura instável: confirmar o sensor antes de alterar o plano.
+Regra da Serra da Gardunha: quando estiver iminente uma temperatura de −2 °C ou inferior, ativar a irrigação anti-geada e registar no estado «Ativar irrigação anti-geada».
+Após uma leitura de vento forte: verificar se o termómetro está protegido.
+Em setores já colhidos: manter apenas a monitorização meteorológica.
+Durante a floração: evitar alterações bruscas à pressão das condutas.
+Antes do amanhecer: confirmar que os aspersores não estão obstruídos.
+Na zona de Alcongosta: registar a hora de abertura de cada válvula.
+Depois de ativar a proteção: manter vigilância até a temperatura subir.
+Se houver falha elétrica: usar o procedimento manual da casa das bombas.
+Durante a Festa da Cereja: manter livres os acessos usados pelos tratores.
+Após o episódio de frio: verificar os rebentos nas linhas mais baixas.
+Todas as ações devem ser registadas no mapa diário do Cerejal da Gardunha.
+Se a previsão indicar −2 °C apenas após o nascer do sol, manter as válvulas preparadas e repetir a leitura.
+Uma descida estimada para −1,8 °C requer vigilância reforçada, sem disparo automático antes da confirmação.
+Diário do pomar, 2 de abril de 2026: ronda às válvulas e aos aspersores nos setores de Alcongosta, Donas e Alpedrinha; sem alterações às regras de proteção.

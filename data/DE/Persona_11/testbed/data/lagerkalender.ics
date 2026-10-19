@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Interne Kalenderverwaltung//Lager Halle//DE
+BEGIN:VEVENT
+UID:urn:uuid:6eba52a6-1d37-5e4c-9f96-f6f8e6818a28
+DTSTART:20261119T090000
+DTEND:20261119T093000
+SUMMARY:Schichtbesprechung
+DESCRIPTION:Vorbereitung auf das Wochenendvolumen.
+END:VEVENT
+END:VCALENDAR

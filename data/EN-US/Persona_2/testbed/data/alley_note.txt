@@ -1,0 +1,20 @@
+Modern access: a small van can reach a Rittenhouse courtyard by the west service lane.
+Modern access: a pallet jack is allowed at a warehouse entrance on Delaware Avenue.
+Modern access: a forklift can unload at the Navy Yard.
+Modern access: a crane window is available for a Chestnut Street commercial facade.
+Modern access: a liftgate is allowed near the riverfront.
+Fairmount access: a wheelbarrow is acceptable for a garden wall.
+Annex access: a two-person hand truck can enter the twentieth-century annex.
+Market Street access: a curbside drop is acceptable for a non-historic garage.
+Society Hill constraint: the cobblestone alleys cannot take a pallet jack.
+Society Hill required method: use hand carry for deliveries.
+Precaution: split the reclaimed brick stacks into smaller loads.
+Precaution: keep the lime bags dry under the covered stoop.
+Precaution: do not block the historic alley gate during unloading.
+Precaution: avoid the steep brick sidewalk at the corner.
+Context: Old City tours crowd the narrow streets in the morning.
+A pallet jack is allowed elsewhere, but not in the targeted alley.
+A wheelbarrow is not the prescribed method here.
+The liftgate applies to another site.
+Document instruction: the area must be Society Hill.
+Document instruction: the plan must stay short and usable by the delivery crew.

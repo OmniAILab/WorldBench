@@ -1,0 +1,60 @@
+{
+  "persona": "小小在杭州经营一家小型服装精品店，每晚都在抖音直播带货。她不断调整直播话术，避免被平台严格的算法封禁，同时还会喊着“三、二、一，链接在主页！”",
+  "task": "综合昨天的行动号召点击率、杭州湖滨宋韵春装开场规则和场控对话，为今晚直播流程表选择开场行动号召。先排除免单、抽奖式和强迫下单话术，再在合规候选中选择点击率最高者；在开场白行同时记录所选话术、点击率依据和“湖滨宋韵春装开场”场景。",
+  "required_files": [
+    "metrics_hangzhou.xlsx",
+    "opening_rules_hangzhou.txt",
+    "dialogue_opening_cta_hangzhou.txt"
+  ],
+  "output_files": [
+    "data/runshow_hangzhou.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/runshow_hangzhou.xlsx",
+        "matches": [
+          {
+            "row": 2,
+            "col": 2,
+            "value": "评论获取链接"
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "value": "点击率4.6%，合规候选中最高"
+          },
+          {
+            "row": 2,
+            "col": 4,
+            "value": "湖滨宋韵春装开场"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/runshow_hangzhou.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "sheet": null,
+          "row": 2,
+          "col": 4
+        }
+      ]
+    }
+  ]
+}

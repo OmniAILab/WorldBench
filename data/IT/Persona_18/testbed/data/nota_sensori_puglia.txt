@@ -1,0 +1,19 @@
+Promemoria sensori: allerta Low richiede solo monitoraggio ordinario.
+Nota albero: IT-OL-21 non necessita ispezione immediata.
+Appunto fitosanitario: soglia Medium comporta controllo settimanale.
+Promemoria Xylella: non usare il codice della parcella al posto dell'azione.
+Nota Itria: gli ulivi monumentali vicino ad Alberobello hanno registro separato.
+Nota soglia sensore: allerta High richiede Ispezione_immediata per possibile Xylella.
+Appunto ICEA: la separazione lotti non determina l'azione sensore.
+Promemoria raccolta: frangitura entro 24 ore riguarda il frantoio, non l'ispezione.
+Nota sensore: High è l'allerta da trattare subito.
+Appunto regione: il decreto fitosanitario non indica il codice Inspect_Now in inglese.
+Promemoria uliveto: non aggiornare alberi non presenti nella lista azioni.
+Nota campagna: il terreno secco non equivale automaticamente a Xylella.
+Appunto storico: IT-OL-88 era sano nel 2025, ma ora ha nuova allerta.
+Promemoria squadra: non scrivere 'potare' nel campo Action.
+Nota monitoraggio: l'azione deve essere Ispezione_immediata.
+Appunto raccolta: le olive cadute non sono criterio del sensore.
+Promemoria file: mantenere l'azione sulla riga dell'albero corretto.
+Promemoria sensori: la sostituzione delle batterie delle centraline è manutenzione ordinaria e non genera un'azione fitosanitaria.
+Appunto irrigazione: la programmazione dell'impianto a goccia è agronomica e non corrisponde a un livello di allerta.

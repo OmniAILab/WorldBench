@@ -1,0 +1,28 @@
+{
+  "persona": "David is a renewable energy systems analyst based in Newcastle upon Tyne. He updates integration plans, demand-capacity checks, market-signal summaries, liaison emails, and review calendar entries for offshore wind integration work.",
+  "task": "Insert the market-signal summary line about expected peak pricing into the Signal section of the North of Tyne cluster update document without changing its meaning.",
+  "required_files": [
+    "market_signal.txt"
+  ],
+  "output_files": [
+    "data/cluster_update.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/cluster_update.docx",
+        "keywords": [
+          "peak pricing expected"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/cluster_update.docx",
+      "change": "modify"
+    }
+  ]
+}

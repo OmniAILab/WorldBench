@@ -1,0 +1,23 @@
+FRIENDLY EMAIL TEMPLATE:
+Subject: [Topic] – Quick Request
+Hi [Name],
+Just checking whether you can help with [topic]. [Main detail from source note].
+Best,
+[Name]
+
+FORMAL EMAIL TEMPLATE:
+Subject: [Topic] – Materials Request
+Dear Supplier,
+I am writing to request the following materials for [site]: [Main detail from source note].
+Please confirm availability and lead time at your earliest convenience.
+Yours faithfully,
+[Name]
+
+Note: supplier orders for conservation projects should use the formal template.
+Note: internal survey reminders can use the friendly template.
+Note: Historic England guidance is inserted into documents, not supplier emails.
+Note: Bath stone requests should specify the quantity exactly.
+Note: Redcliffe lime mortar is not part of the Clifton order.
+Note: low-impact climate notes belong in the calendar description.
+Note: archive references are not supplier details.
+Note: formal material requests should identify the job clearly.

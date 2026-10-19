@@ -1,0 +1,22 @@
+Patrol director: We treat the morning board as the decision source, not guest messages.
+Patroller: Peak_A is indeed Unstable after the 05:40 pit.
+Director: Right. On a continental snowpack, the persistent weak layer stays our main signal.
+Patroller: Peak_C is Watch, so I am not tagging it Mitigate for that reason alone.
+Director: Correct. Watch and Monitor stay distinct statuses.
+Patroller: Peak_B is Stable after the morning check.
+Director: So Open under the rule we were given.
+Patroller: The wind slabs on the lee side of the ridge stay in the CAIC notes.
+Director: And the Peak_R closure comes from lift maintenance, not avalanche work.
+Patroller: So I leave Maintenance as it is.
+Director: Do not go by the powder rumor on social media.
+Patroller: Understood.
+Director: The shear results for Peak_P are still acceptable.
+Patroller: Peak_N is open with caution, but the board we were asked for keeps Open.
+Director: Yes.
+Patroller: I-70 traffic may delay the shift change.
+Director: That changes no snowpack action.
+Patroller: I am also archiving the wind slab photo.
+Director: Perfect.
+Patroller: I am updating strictly from the statuses on today's sheet.
+Local context: in the Colorado Rockies, wind slabs often build up on the lee side of the ridgelines.
+CAIC context: a persistent weak layer can stay reactive long after the last snowfall.

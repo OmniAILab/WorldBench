@@ -1,0 +1,21 @@
+Spedizione Shipment_CA_02: deviazione +0.5C_Monitor, aggiornare solo registro interno.
+Spedizione Shipment_US_02: deviazione -1C_Low, verificare imballo secondario.
+Spedizione Shipment_MX_01: deviazione +1C_Breve, nessuna escalation internazionale.
+Spedizione Shipment_US_03: dato sensore assente, richiedere log al corriere.
+Spedizione Shipment_CA_04: deviazione +2C_Over_Limit ma campione placebo.
+Spedizione Shipment_US_01: ritardo doganale 30 minuti, nota separata dalla temperatura.
+Allerta Catena del Freddo: I lotti in viaggio sull'Atlantico che registrano un innalzamento termico oltre la soglia tollerata di due gradi richiedono una notifica immediata agli enti ispettivi per possibile degradazione dei principi attivi.
+Spedizione Shipment_NA_05: deviazione +3C ma lotto già scartato.
+Spedizione Shipment_EU_01: deviazione +2C, mercato non nordamericano.
+Spedizione Shipment_US_04: temperatura stabile, solo ritardo consegna.
+Spedizione Shipment_CA_01: batteria logger scarica, verifica tecnica.
+Spedizione Shipment_US_05: excursus termico in magazzino locale, non in transito.
+Spedizione Shipment_US_06: deviazione prevista da test di stress, archiviare.
+Spedizione Shipment_NY_01: +1.5C, sotto soglia escalation.
+Spedizione Shipment_US_07: allarme falso confermato dal corriere.
+Spedizione Shipment_CA_03: +2C ma documento già chiuso.
+Spedizione Shipment_US_08: richiesta foto imballo, non segnalazione sanitaria.
+Spedizione Shipment_DE_03: deviazione +0.8C_Monitor, aggiornare solo registro interno.
+Spedizione Shipment_US_09: ritardo doganale 20 minuti, nota separata dalla temperatura.
+Spedizione Shipment_CA_06: temperatura stabile, verifica documentale ordinaria.
+Spedizione Shipment_US_10: deviazione +0.7C_Monitor, nessuna escalation immediata.

@@ -1,0 +1,29 @@
+{
+  "persona": "Stefano è un pianificatore della mobilità urbana a Bologna e lavora agli interventi legati a «Bologna Città 30». Si occupa del Piano urbano della mobilità sostenibile, del trasporto pubblico elettrico e dei vincoli di accessibilità del centro storico. Incrocia i dati dei sensori di traffico con le frequentazioni del trasporto pubblico e gli orari dei collegamenti ferroviari regionali, per coordinare i flussi pendolari con le misure di riduzione del traffico e delle emissioni.",
+  "task": "Scrivi una email ai controllori della zona a basse emissioni indicando l’hub ferroviario e la fascia di picco da sincronizzare.",
+  "required_files": [
+    "note_sincronizzazione_bologna.txt",
+    "contatti_mobilita_bologna.xlsx",
+    "orari_pendolari_bologna.xlsx"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "controllo.lez@comune.bologna.it",
+        "keywords": [
+          "Bologna_Centrale",
+          "07:30-09:00",
+          "sincronizzazione"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_controllo.lez_*.eml",
+      "change": "create"
+    }
+  ]
+}

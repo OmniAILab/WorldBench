@@ -1,0 +1,30 @@
+{
+  "persona": "Thierry est viticulteur en Champagne et dirige un domaine familial à Épernay conforme à la certification Viticulture Durable en Champagne. Il fait face aux gels imprévisibles de la vallée de la Marne et aux exigences administratives du Comité Champagne concernant les rendements, afin que chaque bouteille respecte les normes rigoureuses de l’appellation d’origine contrôlée.",
+  "task": "Rédige un e-mail professionnel à l’équipe de vigne : retrouve le bon destinataire, vérifie dans l’alerte de gel que la parcelle concernée correspond au risque immédiat, puis confirme le code de parcelle et l’action prévue dans le tableau d’actions. N’utilise pas les lignes de gel tardif ou de mildiou.",
+  "required_files": [
+    "crew_contacts_epernay.xlsx",
+    "actions_epernay.xlsx",
+    "frost_epernay.xlsx",
+    "modele_email_vigne.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "equipe@domaine.fr",
+        "keywords": [
+          "EP-Clos-1",
+          "Protéger_cette_nuit",
+          "risque de gel élevé"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_equipe_*.eml",
+      "change": "create"
+    }
+  ]
+}

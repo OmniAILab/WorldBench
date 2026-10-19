@@ -1,0 +1,31 @@
+{
+  "persona": "Koldo es donostiarra y cocinero en una sociedad gastronómica tradicional junto a la Parte Vieja de San Sebastián. Compagina la preservación del patrimonio culinario vasco con las estrictas normas de higiene y seguridad del Departamento de Salud del Gobierno Vasco, y compra a diario el género en el Mercado de la Bretxa. Su rutina consiste en conciliar la disponibilidad estacional del pescado y el marisco del Cantábrico con las limitaciones logísticas del casco histórico peatonal de la ciudad.",
+  "task": "Extrae del acta de la inspección sanitaria de Gipuzkoa las acciones obligatorias al cierre de la cocina y descarta las prácticas de la sociedad y las recomendaciones que amplían el protocolo. Trasládalas a la lista de cierre de la cocina de la Sociedad Parte Vieja.",
+  "required_files": [
+    "aviso_salud_donostia.txt"
+  ],
+  "output_files": [
+    "data/lista_cierre_cocina.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/lista_cierre_cocina.docx",
+        "keywords": [
+          "Sociedad Parte Vieja",
+          "Registrar la temperatura del frigorífico",
+          "Etiquetar la bandeja de alérgenos",
+          "Desinfectar la tabla utilizada para marisco"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/lista_cierre_cocina.docx",
+      "change": "modify"
+    }
+  ]
+}

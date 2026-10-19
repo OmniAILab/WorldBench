@@ -1,0 +1,34 @@
+{
+  "persona": "Cédric dessine et fabrique des gants à Millau, dont le savoir-faire en ganterie et en travail des peaux est ancien. Il sélectionne les cuirs, vérifie les patronages et coordonne les commandes de maisons de couture, en lien avec les ateliers de coupe, de piqûre et de finition. Il suit également les contrôles environnementaux de la production locale.",
+  "task": "Croise la mise à jour du dossier d’exploitation, la mesure courante des effluents et le dialogue environnemental. Complète la politique de l’Atelier de ganterie de Millau avec le seuil de chrome du site de 0,05 mg/L, la mesure actuelle de 0,047 mg/L et le statut de conformité. Écarte les seuils des tanneries voisines.",
+  "required_files": [
+    "compliance_document.txt",
+    "mesures_effluents_millau.xlsx",
+    "dialogue_effluents_millau.txt"
+  ],
+  "output_files": [
+    "data/sustainability_policy.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/sustainability_policy.docx",
+        "keywords": [
+          "Atelier_Ganterie_Millau",
+          "0,05 mg/L",
+          "0,047 mg/L",
+          "traces de chrome",
+          "Conforme - surveillance maintenue"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/sustainability_policy.docx",
+      "change": "modify"
+    }
+  ]
+}

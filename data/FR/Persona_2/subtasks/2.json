@@ -1,0 +1,30 @@
+{
+  "persona": "Sandrine est conservatrice du patrimoine à Avignon et supervise la préservation des manuscrits à la Collection Lambert et au Petit Palais. Elle gère les exigences complexes de régulation climatique du parchemin médiéval dans des bâtiments historiques en pierre et coordonne les demandes de financement auprès de la Direction régionale des affaires culturelles, notamment pendant l’afflux de visiteurs lié au Festival d’Avignon.",
+  "task": "Rédige un e-mail professionnel à la DRAC PACA pour demander un appui et une intervention urgente. Identifie dans le registre la salle du Petit Palais présentant le risque élevé pertinent, vérifie dans le journal d’incidents la cause exacte de ce risque, puis utilise le bon contact. Ignore les autres salles à risque élevé dont la cause est différente.",
+  "required_files": [
+    "drac_contacts_avignon.xlsx",
+    "risk_register_avignon.xlsx",
+    "climate_incidents_avignon.txt",
+    "modele_email_drac.txt"
+  ],
+  "output_files": [],
+  "evaluation": [
+    {
+      "function": "evaluate_sent_email",
+      "args": {
+        "recipient": "drac.paca@patrimoine-avignon.sim.fr",
+        "keywords": [
+          "PetitPalais_Archive",
+          "humidité",
+          "intervention urgente"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/email_to_drac_*.eml",
+      "change": "create"
+    }
+  ]
+}

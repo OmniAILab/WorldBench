@@ -1,0 +1,7 @@
+Section Lille_01 : confirmation en français uniquement.
+Section Calais_02 : confirmation en anglais uniquement.
+Section Tunnel_03 : utiliser le code TEST_A.
+Section Folkestone_04 : utiliser le code TEST_B.
+Pour Switch_Test_09, indiquer « essai d’aiguillage / points test » et attendre l’accusé du centre de contrôle.
+Pour Switch_Test_18, indiquer « essai secondaire / secondary test » et attendre l’accusé du poste local.
+Pour Section_Tunnel_Central, prévoir la double confirmation sans lancer l’essai.

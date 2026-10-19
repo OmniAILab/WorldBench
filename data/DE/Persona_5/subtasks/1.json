@@ -1,0 +1,30 @@
+{
+  "persona": "Marlene inszeniert am Deutschen Nationaltheater in Weimar. Bei der Probenplanung stimmt sie Bühneneffekte, Szenenwechsel und praktische Sicherheitsprüfungen mit der technischen Leitung ab.",
+  "task": "Wähle anhand der vorliegenden Geräuschbewertung die leiseste Methode für einen Szenenwechsel am Deutschen Nationaltheater und übertrage sie in das Ablaufblatt.",
+  "required_files": [
+    "akustik_weimar.xlsx",
+    "akustikhinweise_weimar.txt"
+  ],
+  "output_files": [
+    "data/ablaufblatt.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/ablaufblatt.docx",
+        "keywords": [
+          "Deutsches Nationaltheater",
+          "Von_Hand_tragen"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/ablaufblatt.docx",
+      "change": "modify"
+    }
+  ]
+}

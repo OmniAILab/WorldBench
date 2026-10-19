@@ -1,0 +1,4 @@
+Contrôleuse : Quelle fiche sanitaire utiliser pour le lot BRIE-090 ?
+Chef de quai : La fiche de réception des fromages AOP, avec vérification de l’étiquette et de la température à cœur.
+Contrôleuse : BRIE-090 est le lot matinal de Brie_de_Meaux_AOP.
+Réception : Je conserve les trois contrôles spécifiques au Brie et j’écarte ceux du Roquefort et du Reblochon.

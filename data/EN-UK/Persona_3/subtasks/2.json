@@ -1,0 +1,59 @@
+{
+  "persona": "Priya is a creative content strategist at Salford's MediaCityUK, where she oversees multi-platform campaigns for independent production companies. She manages licence checks, regional production commitments, and campaign files for streaming and social media releases.",
+  "task": "Use the trademark note to add the NorthStream naming-risk item to the Salford risk register, recording the correct market as US and the status as Raised before external launch.",
+  "required_files": [
+    "trademarks_global.txt",
+    "internal_contacts_salford.xlsx"
+  ],
+  "output_files": [
+    "data/risk_register_salford.xlsx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_excel_cell_value",
+      "args": {
+        "file": "./data/risk_register_salford.xlsx",
+        "matches": [
+          {
+            "row": 32,
+            "col": 1,
+            "value": "NorthStream"
+          },
+          {
+            "row": 32,
+            "col": 2,
+            "value": "US"
+          },
+          {
+            "row": 32,
+            "col": 3,
+            "value": "Raised"
+          }
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/risk_register_salford.xlsx",
+      "change": "modify",
+      "cells": [
+        {
+          "sheet": null,
+          "row": 32,
+          "col": 1
+        },
+        {
+          "sheet": null,
+          "row": 32,
+          "col": 2
+        },
+        {
+          "sheet": null,
+          "row": 32,
+          "col": 3
+        }
+      ]
+    }
+  ]
+}

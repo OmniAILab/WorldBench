@@ -1,0 +1,29 @@
+{
+  "persona": "Isla is a decommissioning engineer based in Aberdeen. She keeps practical spreadsheets for North Sea infrastructure, vessel planning, exclusion zones, and weather-related calendar holds.",
+  "task": "Find the Dogger_Bank_Reserve boundary coordinates in the OPRED mandate sheet and add the combined coordinate-and-zone wording to the ecological exclusion zone document.",
+  "required_files": [
+    "opred_mandate.xlsx"
+  ],
+  "output_files": [
+    "data/exclusion_zone_document.docx"
+  ],
+  "evaluation": [
+    {
+      "function": "evaluate_contain",
+      "args": {
+        "doc_type": "docx",
+        "file": "./data/exclusion_zone_document.docx",
+        "keywords": [
+          "55.2N_03.1E_Exclusion",
+          "Dogger_Bank_Reserve"
+        ]
+      }
+    }
+  ],
+  "target_files": [
+    {
+      "path": "data/exclusion_zone_document.docx",
+      "change": "modify"
+    }
+  ]
+}
