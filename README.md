@@ -1,145 +1,134 @@
 # WorldBench
 
-Reference implementation of **WorldBench**, a culturally grounded multilingual benchmark for
-executable agentic tasks. The runner materialises a sandbox from a pre-built testbed, drives an
-LLM agent through a structured action interface, and evaluates the resulting final state with
-deterministic and LLM-as-a-judge functions.
+WorldBench is a multilingual benchmark for evaluating LLM agents on culturally grounded everyday tasks. It contains 1,600 tasks across seven languages and eight cultural settings. Each task is situated in the working context of a persona and requires an agent to interact with a sandbox containing documents, spreadsheets, PDFs, emails, calendars and related files. Tasks are constructed in their target language and are reviewed by annotators familiar with the relevant language and cultural context.
 
-It runs with OpenAI and Google Gemini models through their APIs, and with open-weight checkpoints
-downloaded from the HuggingFace Hub and executed on GPU.
+WorldBench evaluates both task completion and the changes an agent makes to its environment. An agent may complete the requested task while also modifying files that should have remained untouched. We therefore use **Constrained Task Success (CTS)**, which requires all task-specific evaluation functions to pass and all pre-existing non-target files to be preserved. 
+
+The repository contains the benchmark runner, evaluation functions and testbed format. It supports OpenAI and Gemini models through their APIs, open-weight models from Hugging Face, and models served through OpenAI-compatible local endpoints.
+
+**Paper:** [WorldBench: Culturally Grounded Benchmark for Multilingual Agents](https://arxiv.org/abs/2609.01056) (Ranaldi et al., 2026).
 
 ## Quick start
 
-Requires Python 3.11 or later. `excel convert_to_pdf` and `word convert_to_pdf` call LibreOffice, so
-`libreoffice` must be on the `PATH` for tasks that convert documents.
+Requires **Python 3.11+** and a model-provider API key for hosted-agent runs. Install `libreoffice` and
+make it available on `PATH` for tasks involving document-to-PDF conversion.
+
+From the repository root:
 
 ```bash
-git clone <repository-url> && cd worldbench
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
+export GEMINI_API_KEY="<your-api-key>"
 
-export GEMINI_API_KEY=...
-python validate_benchmark.py examples
-python run_benchmark.py --benchmark_dir examples/EN-UK --tag smoke --limit 1
+python run_benchmark.py \
+  --benchmark_dir examples/EN-UK \
+  --model_name gemini-3.5-flash \
+  --tag smoke \
+  --limit 1
 ```
 
-Put the task sets in `data/`, one folder per language–locale setting, then run the full benchmark
-with `--benchmark_dir data`.
+This runs one of the included EN-UK example tasks. Results are saved under `runs/<model>_<tag>/`. To run a
+complete locale, use `--benchmark_dir data/IT`; to run all eight settings, use `--benchmark_dir data`. See
+[Running](#running) for other backends and options.
 
----
 
-## Table of contents
+## Contents
 
-1. [How it works](#how-it-works)
-2. [Benchmark layout](#benchmark-layout)
-3. [Task JSON](#task-json)
-4. [Evaluation functions](#evaluation-functions)
-5. [Tool environment](#tool-environment)
-6. [Running](#running)
-7. [Command-line flags](#command-line-flags)
-8. [Outputs, metrics and reports](#outputs-metrics-and-reports)
-9. [Execution settings](#execution-settings)
-10. [Validating a task pool](#validating-a-task-pool)
-11. [Troubleshooting](#troubleshooting)
-12. [Project layout](#project-layout)
-
----
+- [How it works](#how-it-works)
+- [Benchmark layout](#benchmark-layout) · [Task JSON](#task-json)
+- [Evaluation functions](#evaluation-functions) · [Tool environment](#tool-environment)
+- [Running](#running) · [Command-line flags](#command-line-flags)
+- [Outputs and metrics](#outputs-and-metrics) · [Execution settings](#execution-settings)
+- [Tests](#tests) · [Task generation](#task-generation)
+- [Troubleshooting](#troubleshooting) · [Project layout](#project-layout)
+- [Citation](#citation)
 
 ## How it works
 
-The agent references files through a virtual `/testbed` mount point, which is rewritten to the
-real sandbox path before each command runs. For each task the runner:
+The agent is given a sandbox path. This path is translated to the actual working directory before commands execute. For every task the runner:
 
-1. Reads the task JSON (`persona`, `task`, `required_files`, `evaluation`).
-2. Copies the pre-built `testbed/` of that task into a fresh sandbox.
-3. Runs the agent loop: the model emits one JSON action at a time; the environment executes it
-   against the sandbox and returns an observation; this repeats until the agent emits
-   `finish_task`, stagnates, or reaches the iteration cap.
-4. Snapshots the resulting `testbed/` and runs the evaluation functions against it.
-5. Compares the initial and final testbed to check preservation of non-target files.
-6. Writes per-task results and an updated report after every task.
+1. reads the task JSON (`persona`, `task`, `required_files`, `evaluation`);
+2. copies the persona's pre-built `testbed/` into a fresh sandbox, hence, each sub-task starts from the same state;
+3. runs the agent loop: the model returns one JSON action, the environment executes it and returns an    observation, and this repeats until the agent calls `finish_task`, gets stuck, or hits the iteration cap;
+4. snapshots the final `testbed/` and runs the evaluation functions on it;
+5. compares the initial and final testbed to see whether files that were not targets were left alone;
+6. writes the result and refreshes the report after each task.
 
 ## Benchmark layout
 
-The runner walks a directory tree; there is no single combined JSON file. Expected layout:
+The runner walks a directory tree. There is no single combined JSON file.
 
 ```
-<benchmark_dir>/<SETTING>/<Persona_X>/subtasks/<id>.json
-<benchmark_dir>/<SETTING>/<Persona_X>/testbed/data/...      # pre-built input files
+<benchmark_dir>/<SETTING>/<Persona_N>/subtasks/<id>.json
+<benchmark_dir>/<SETTING>/<Persona_N>/testbed/data/         # input files
+<benchmark_dir>/<SETTING>/<Persona_N>/testbed/emails/       # mailboxes, one folder per local part
+<benchmark_dir>/<SETTING>/<Persona_N>/testbed/calendar/     # <name>.ics
 ```
 
-Example: `EN-UK/Persona_1/subtasks/0.json` with inputs in `EN-UK/Persona_1/testbed/data/`.
+Each persona has a shared initial testbed and usually three sub-tasks; their IDs need not be consecutive.
+Every sub-task receives its own fresh copy, so changes made during one run do not affect another. For
+example, `EN-UK/Persona_1/subtasks/0.json` reads its inputs from `EN-UK/Persona_1/testbed/data/`.
 
-The released task sets live under `data/`, which already holds the eight setting folders:
-`EN-US`, `EN-UK`, `IT`, `PT`, `ES`, `FR`, `DE`, and `ZH`. Folder names are free, however: the
-runner finds every `subtasks/*.json` that has a sibling `testbed/`, and the top-level folder name
-becomes the language label used in the report. See `data/README.md` for the layout in full.
+The documented `data/` release uses eight locale folders: `EN-US`, `EN-UK`, `IT`, `PT`, `ES`, `FR`, `DE`, `ZH`. The names are not enforced. The runner picks up any `subtasks/*.json` that has a `testbed/` next to it, and the top-level folder name becomes the language label in the report. 
 
-- Point `--benchmark_dir` at a single setting folder (e.g. `data/IT`) to run one set.
-- Point it at a parent folder containing several settings to run them all; results are then broken
-  down per language.
-- If the input folder has no language level, use `--set_language` to assign a label.
+- To run one setting, point `--benchmark_dir` at it (for instance `data/IT`).
+- To run several, point it at their parent folder. The report then splits results by language.
+- If there is no language level in the folder structure, use `--set_language`.
 
 ## Task JSON
 
 ```json
 {
-  "persona": "Free-text persona description in the target language.",
-  "task": "Native-language instruction for the agent.",
+  "persona": "A persona description in the target language.",
+  "task": "A task instruction in the target language.",
   "required_files": ["input_a.xlsx"],
   "evaluation": [
     {"function": "evaluate_contain",
-     "args": {"doc_type": "docx", "file": "./data/out.docx", "keywords": ["..."]}}
+     "args": {"doc_type": "docx", "file": "./data/out.docx", "keywords": ["required phrase"]}}
   ]
 }
 ```
 
-Tasks may also list `target_files` and `output_files` (path strings or `{"path": ...}` objects) for
-files the agent is allowed to create or change beyond those named in the evaluators; both are
-optional.
+A task can also declare `target_files` and `output_files` (strings or `{"path": ...}` objects). These are
+files the agent may create or change in addition to the ones named in the evaluators. Both are optional.
 
-The `testbed/` directory is already materialised on disk, so the runner copies it into the sandbox
-as is. `file` paths in `evaluation.args` are relative to `testbed/`, for example `./data/out.docx`
-or `./calendar/Anika.ics`.
+Paths in `evaluation.args` are relative to the persona's `testbed/`, for example `./data/out.docx` or
+`./calendar/Anika.ics`.
+
+The benchmark was produced from persona, scenario and application/constraint seeds, expanded into
+executable environments and reviewed for realism, cultural appropriateness, solvability and file adequacy.
+The separate generation pipeline is described in [Task generation](#task-generation); running the
+benchmark does not require it.
 
 ## Evaluation functions
 
-Deterministic:
+Deterministic evaluators:
 
 | Function | What it checks |
 | --- | --- |
 | `evaluate_contain` | Required text appears in a target file. |
-| `evaluate_not_contain` | Prohibited text is absent from a target file. |
+| `evaluate_not_contain` | Forbidden text is absent from a target file. |
 | `evaluate_excel_cell_value` | A spreadsheet cell holds the expected value (exact comparison). |
-| `evaluate_file_exist` | A required output file has been created. |
-| `evaluate_calendar_event` | One calendar event carries every expected property. |
+| `evaluate_file_exist` | An output file has been created. |
+| `evaluate_calendar_event` | One calendar event has all the expected properties. |
 | `evaluate_calendar_no_overlap` | Calendar events satisfy a non-overlap constraint. |
-| `evaluate_sent_email` | A new email was delivered to the recipient and contains the expected text. |
+| `evaluate_sent_email` | A new email reached the recipient and contains the expected text. |
 
-LLM-as-a-judge:
+LLM-judged evaluators:
 
 | Function | What it checks |
 | --- | --- |
-| `evaluate_email` | A generated email satisfies the rubric. |
-| `evaluate_note` | A generated note satisfies the rubric. |
+| `evaluate_email` | A generated email meets the rubric. |
+| `evaluate_note` | A generated note meets the rubric. |
 
-An empty `evaluation` list, empty `keywords`, or empty `matches` is rejected instead of passing.
+Empty `evaluation` lists and empty required `keywords` or `matches` are rejected rather than treated as
+passes.
 
 ### Text matching
 
-`evaluate_contain`, `evaluate_not_contain`, the keyword pre-check of the judge functions, and the
-text properties of `evaluate_calendar_event` and `evaluate_sent_email` share one matcher
-(`evaluation/matching.py`). Matching is deterministic: no fuzzy, semantic, or LLM-based comparison.
+`evaluate_contain`, `evaluate_not_contain`, the keyword pre-check of the judge functions, and the text
+fields of `evaluate_calendar_event` and `evaluate_sent_email` all use the same matcher
+(`evaluation/matching.py`). 
 
-- Text is normalised with Unicode NFKC and case folding. Capitalisation, repeated whitespace,
-  Unicode dashes, apostrophes, and punctuation between words are ignored.
-- A keyword is split into tokens that must appear in the same order, in the same text field (a
-  line, a table cell, or an event property), with at most 40 characters between consecutive tokens.
-- Tokens match whole words. `register` does not match `registered`.
-- Numbers, dates, times, and identifiers are single tokens that must match exactly: `1250` matches
-  `1,250` but not `12500`, `INV-1250`, or `1250.5`; `2026-03-19` does not match `2026 03 19`.
-  Symbols such as `%` and `€` are kept as tokens.
-- Chinese and Japanese runs have no word boundaries, so they match as contiguous substrings.
-- For PDFs, line breaks do not separate fields.
 
 ### Calendar events
 
@@ -150,14 +139,13 @@ text properties of `evaluate_calendar_event` and `evaluate_sent_email` share one
           "time_start": "2026-03-19 09:00:00", "time_end": "2026-03-19 11:00:00"}}
 ```
 
-`file` names the calendar; `username` instead resolves to `calendar/<username>.ics` or
-`data/<username>.ics`. At least one of `summary_keywords`, `description_keywords`,
-`location_keywords`, `date`, `time_start`, `time_end` is required, and every given property must
-hold for the same event. Keywords use the text matcher on that property. Dates and times are
-compared exactly after converting to `timezone` (optional, default UTC; naive times are read in
-that zone). `time_start` and `time_end` take a full ISO datetime, or a bare time combined with
-`date`. The calendar app edits an existing `data/<name>.ics` when the agent passes `<name>` as the
-user and no `calendar/<name>.ics` exists.
+`file` names the calendar. You can pass `username` instead, which resolves to `calendar/<username>.ics` or
+`data/<username>.ics`. At least one of `summary_keywords`, `description_keywords`, `location_keywords`,
+`date`, `time_start`, `time_end` is required, and all the given properties must hold for the same event.
+Keywords go through the text matcher. Dates and times are compared exactly after conversion to `timezone`
+(optional, UTC by default; naive times are read in that zone). `time_start` and `time_end` take a full ISO
+datetime, or a bare time combined with `date`. If the agent passes `<name>` as the user and there is no
+`calendar/<name>.ics`, the calendar app edits `data/<name>.ics` instead.
 
 ### Sent emails
 
@@ -167,57 +155,51 @@ user and no `calendar/<name>.ics` exists.
           "keywords": ["Friday screening"]}}
 ```
 
-The email must be new relative to the initial testbed and present in the recipient's mailbox
-(`emails/<local part>/`), addressed to `recipient` (a full address, or a local part), and every
-keyword must occur in that same message. `keywords` are matched against subject and body,
-`subject_keywords` against the subject only. Messages present in the initial testbed, and drafts
-that were never delivered to the recipient's mailbox, cannot satisfy the task. `evaluate_email`
-remains the judge-based check for free-form email files.
+The email has to be new compared with the initial testbed and sit in the recipient's mailbox
+(`emails/<local part>/`). `recipient` is a full address or a local part. Every keyword must occur in the
+same message: `keywords` are matched against subject and body, `subject_keywords` against the subject
+only. Emails that were already in the testbed, and drafts that never reached the recipient's mailbox,
+don't count. For free-form email files there is `evaluate_email`, which uses the judge.
 
 ### Judge
 
-Judge args schema: `{"file": ..., "doc_type": ..., "keywords": [...], "criteria": "..."}`. Any
-non-empty `keywords` are checked first with the text matcher; the surviving text is then passed to
-the judge together with `criteria`, falling back to the default rubric of the function when no
-criteria are declared. The judge reads `OPENAI_API_KEY` or `GEMINI_API_KEY` and uses `JUDGE_MODEL`
-(default `gemini-3.5-flash`), at temperature 0 with an output cap of 10 tokens. The verdict must be
-exactly `YES` or `NO`; any other response is recorded as an evaluator error rather than a pass or
-a fail. The judge is pinned: an unroutable name, or one whose provider key is missing, raises an
-error rather than falling back to another model, because agents scored by different judges cannot
-be compared. The judge actually used is written into the report header.
+Args: `{"file": ..., "doc_type": ..., "keywords": [...], "criteria": "..."}`. If `keywords` is non-empty
+it is checked first with the text matcher. The surviving text is then sent to the judge with `criteria`,
+or with the function's default rubric if there are none. The judge reads `OPENAI_API_KEY` or
+`GEMINI_API_KEY` and uses `JUDGE_MODEL` (default `gemini-3.5-flash`), at temperature 0 and with a 10-token
+output cap. The answer has to be exactly `YES` or `NO`. Anything else is recorded as an evaluator error,
+not as a pass or a fail.
+
+The judge model is fixed for the run. If the model name cannot be routed, or its provider key is missing, the run raises an
+error and does not fall back to another model, to keep evaluation consistent across runs. The judge that was actually used is printed in the report header.
 
 ## Tool environment
 
-Six tool families are exposed through a single JSON action format: `excel` (spreadsheets), `word`
-(documents), `pdf`, `email` (messaging), `calendar`, and `shell`. The agent switches family with
-`{"app": "system", "action": "switch_app", "target_app": "..."}` and terminates with
-`{"app": "system", "action": "finish_task", "answer": "..."}`.
+The agent has six tool families behind one JSON action format: `excel`, `word`, `pdf`, `email`, `calendar`
+and `shell`. It changes family with `{"app": "system", "action": "switch_app", "target_app": "..."}` and
+ends with `{"app": "system", "action": "finish_task", "answer": "..."}`.
 
-Only the active family accepts actions. An action addressed to a family the agent has not switched
-to is rejected with an explanatory observation and leaves the sandbox unchanged, so every
-trajectory pays the same cost for moving between families.
+Only the active family accepts actions. If the agent addresses a family it has not switched to, the action
+is rejected with an explanation and the sandbox stays untouched. Switches are explicit actions and count
+towards the trajectory.
 
-A seventh family, `llm`, lets the agent delegate to a hosted model. It is **off by default**,
-because an open-weight agent that outsources the reasoning to GPT or Gemini is no longer being
-measured; enable it with `--enable_llm_app` if a study needs it. The apps active in a run are
-recorded in the report header alongside the judge model.
+There is also a seventh family, `llm`, which lets the agent delegate to a hosted model. It is off by
+default: an open-weight agent that hands the reasoning to GPT or Gemini is no longer what we want to
+measure. Turn it on with `--enable_llm_app` if a study needs it. The active apps are listed in the report
+header next to the judge.
 
 ### Isolation
 
-The sandbox is a working directory, not a security boundary. The `shell` app runs real commands as
-the current user, and a command naming an absolute path outside `/testbed` reaches the host
-filesystem. The subprocess environment is scrubbed, so API keys are not reachable from agent
-commands, and no credentials are written into the sandbox unless `--enable_llm_app` is passed.
-Even so, run untrusted models inside a disposable container.
+The sandbox is a working directory, **not a security boundary**. The `shell` app runs real commands as the current user, and a command that names an absolute path outside `/testbed` can reach the host. The subprocess environment is scrubbed, so API keys are not visible to agent commands, and no credentials are written into the sandbox unless `--enable_llm_app` is passed. Still, run untrusted models in a disposable container.
 
 ## Running
 
 ```bash
-pip install -r requirements.txt
-export OPENAI_API_KEY=sk-...          # OpenAI agent or judge
-export GEMINI_API_KEY=...             # Gemini agent or judge (GOOGLE_API_KEY also accepted)
+python -m pip install -r requirements.txt
+export OPENAI_API_KEY="<your-openai-api-key>"          # OpenAI agent or judge
+export GEMINI_API_KEY="<your-gemini-api-key>"             # Gemini agent or judge (GOOGLE_API_KEY also works)
 
-# Full EN-UK set with a Gemini agent
+# EN-UK examples with a Gemini agent
 python run_benchmark.py \
   --benchmark_dir examples/EN-UK \
   --model_name gemini-3.5-flash \
@@ -228,50 +210,43 @@ python run_benchmark.py \
 python run_benchmark.py --benchmark_dir data/IT --model_name gemini-3.5-flash \
   --tag it --set_language IT --limit 5 --max_iter 30
 
-# All eight settings, broken down per language
+# All eight settings, results split per language
 python run_benchmark.py --benchmark_dir data --model_name gemini-3.5-flash --tag all
 ```
 
 ### Open-weight checkpoints on GPU
 
-Install the extra dependencies once, then pass a HuggingFace repo id as `--model_name`. The
-checkpoint is downloaded from the Hub and run in process on the available GPUs; no API key is
-required.
+Install the extra dependencies once, then pass a HuggingFace repo id as `--model_name`. The checkpoint is
+downloaded from the Hub and run in process on the visible GPUs. No API key is needed for **local agent inference**. Tasks using LLM-judged evaluation still require a supported judge provider and API key.
 
 ```bash
-pip install -r requirements-hf.txt
-export HF_TOKEN=hf_...                # only for gated repos such as meta-llama/*
+python -m pip install -r requirements-hf.txt
+export HF_TOKEN="<your-hf-token>"                # only for gated repos such as meta-llama/*
 
 python run_benchmark.py \
   --benchmark_dir examples/EN-UK \
   --model_name meta-llama/Meta-Llama-3-8B-Instruct \
   --tag llama8b
-
-python run_benchmark.py \
-  --benchmark_dir examples/EN-UK \
-  --model_name meta-llama/Llama-3.3-70B-Instruct \
-  --tag llama70b
 ```
 
-The model is loaded once per run and reused across every task. Generation is greedy by default,
-which makes the open-weight runs deterministic; `--temperature` switches to sampling. Prompts are
-rendered with the tokenizer's own chat template, so each checkpoint sees the format it was trained
-on, and generation stops on the turn-level terminator (`<|eot_id|>` for Llama-3 style models)
-alongside the end-of-text token. The Hub token is read from the environment and never stored in
-the repository. Loading is controlled by environment variables:
+The model is loaded once per run and reused for all tasks. Generation is greedy unless you pass
+`--temperature`, so open-weight runs are deterministic by default. Prompts use the tokenizer's own chat
+template, and generation stops on the turn terminator (`<|eot_id|>` for Llama-3 style models) as well as
+on end-of-text. Authentication tokens are read from the environment rather than stored in the repository.
+These variables control loading:
 
 | Variable | Default | Meaning |
 | --- | --- | --- |
-| `HF_TOKEN` | unset | Hub token, required for gated repositories. |
-| `HF_DTYPE` | `bfloat16` | `bfloat16`, `float16`, `float32`, or `auto`. |
-| `HF_DEVICE_MAP` | `auto` | Passed to `from_pretrained`; `auto` shards across all visible GPUs. |
-| `HF_LOAD_IN_4BIT` | unset | Set to `1` for NF4 quantisation with double quantisation, which fits a 70B checkpoint on two 48 GB cards. |
+| `HF_TOKEN` | unset | Hub token, needed for gated repos. |
+| `HF_DTYPE` | `bfloat16` | `bfloat16`, `float16`, `float32` or `auto`. |
+| `HF_DEVICE_MAP` | `auto` | Passed to `from_pretrained`; `auto` shards over all visible GPUs. |
+| `HF_LOAD_IN_4BIT` | unset | Set to `1` for NF4 quantisation with double quantisation (a 70B fits on two 48 GB cards). |
 | `HF_MAX_NEW_TOKENS` | `1024` | Generation budget per action. |
-| `HF_TOP_P` | `0.9` | Nucleus sampling, used only when `--temperature` is above 0. |
+| `HF_TOP_P` | `0.9` | Nucleus sampling, only used when `--temperature` is above 0. |
 | `CUDA_VISIBLE_DEVICES` | unset | Standard GPU selection. |
 
-A checkpoint already served behind an OpenAI-compatible endpoint, for instance by vLLM, is reached
-instead with a `local/` prefix and `LOCAL_API_BASE`:
+If the checkpoint is already served behind an OpenAI-compatible endpoint (vLLM, for instance), use the
+`local/` prefix and `LOCAL_API_BASE`:
 
 ```bash
 export LOCAL_API_BASE=http://localhost:8000/v1
@@ -279,172 +254,124 @@ python run_benchmark.py --benchmark_dir examples/EN-UK \
   --model_name local/meta-llama/Llama-3.3-70B-Instruct --tag llama70b_vllm
 ```
 
-**Model names.** The backend is chosen from the model string: names containing `gpt`, `o1`, `o3`,
-or `o4` use OpenAI; names containing `gemini` use Google; a `local/` prefix uses `LOCAL_API_BASE`;
-anything else is treated as a HuggingFace repo id and loaded on GPU. An `hf/` prefix forces the
-HuggingFace backend. Use a current hosted model name; retired models such as `gemini-2.0-flash`
-return HTTP 404.
+Model names decide the backend. A name containing `gpt`, `o1`, `o3` or `o4` goes to OpenAI, one containing
+`gemini` goes to Google, a `local/` prefix goes to `LOCAL_API_BASE`, and anything else is treated as a
+HuggingFace repo id. An `hf/` prefix forces HuggingFace. Use a currently available hosted model name;
+retired model IDs may return HTTP 404.
 
-**API keys.** The runner reads `OPENAI_API_KEY` and `GEMINI_API_KEY` (or `GOOGLE_API_KEY` as an
-alias); both may be set at once and the right one is picked from the model. HuggingFace
-checkpoints need no key, only `HF_TOKEN` for gated repositories.
+The runner reads `OPENAI_API_KEY` and `GEMINI_API_KEY` (`GOOGLE_API_KEY` works as an alias). You can set
+both and the right one is chosen from the model.
 
 ## Command-line flags
 
 | Flag | Meaning |
 | --- | --- |
 | `--benchmark_dir` | Root folder to scan (required). |
-| `--model_name` | Agent model (`gpt-*`, `gemini-*`, a HuggingFace repo id, or `local/*`). Default `gemini-3.5-flash`. |
-| `--tag` | Run label; output goes to `runs/<model>_<tag>/`. |
+| `--model_name` | Agent model: `gpt-*`, `gemini-*`, a HuggingFace repo id or `local/*`. Default `gemini-3.5-flash`. |
+| `--tag` | Run label. Output goes to `runs/<model>_<tag>/`. |
 | `--max_iter` | Iteration cap per task (default 30). |
-| `--temperature` | Override the agent decoding temperature for every provider. |
-| `--max_obs_chars` | Truncate each observation to N characters (0, the default, disables it). |
-| `--max_history_chars` | Budget for the execution history replayed in each prompt (default 24000). |
-| `--enable_llm_app` | Expose the `llm` app; off by default. |
-| `--judge_model` | Override the LLM-judge model. |
-| `--set_language` | Force the language label for all tasks in the run. |
-| `--language` | Run only tasks under this top-level folder. |
-| `--persona` | Run only tasks for this second-level folder. |
-| `--subtask` | Run only subtasks with this id. |
-| `--select TOKEN` | Run only tasks whose path contains TOKEN; repeatable (AND). |
-| `--limit N` | Run only the first N subtasks, after the other filters. |
-| `--debug` | Print prompts, responses, and step-by-step actions. |
+| `--temperature` | Override the agent temperature for every provider. |
+| `--max_obs_chars` | Truncate each observation to N characters (0, the default, means no limit). |
+| `--max_history_chars` | Budget for the history replayed in each prompt (default 24000). |
+| `--enable_llm_app` | Expose the `llm` app (off by default). |
+| `--judge_model` | Override the judge model. |
+| `--set_language` | Force the language label for every task in the run. |
+| `--language` | Only run tasks under this top-level folder. |
+| `--persona` | Only run tasks of this second-level folder. |
+| `--subtask` | Only run sub-tasks with this id. |
+| `--select TOKEN` | Only run tasks whose path contains TOKEN; repeatable (AND). |
+| `--limit N` | Run only the first N sub-tasks, after the other filters. |
+| `--debug` | Print prompts, responses and step-by-step actions. |
 
-## Outputs, metrics and reports
+## Outputs and metrics
 
 Each run writes to `runs/<model>_<tag>/`:
 
-- `results.jsonl` — one JSON line per task, rewritten atomically after every task so partial
-  progress is never lost if the run is interrupted.
-- `report.md` — a human-readable report, also updated after every task, with a
-  `Status: IN PROGRESS / COMPLETED` header and the headline metric on top.
-- `<lang>/<persona>/<id>/output/` — per-task `testbed` snapshot plus `env_history.json` and
-  `llm_history.json`, which hold the full agent trajectory.
+- `results.jsonl`: one line per task, rewritten atomically after every task, so nothing is lost if the run
+  is interrupted.
+- `report.md`: a human-readable report, also refreshed after each task, with a
+  `Status: IN PROGRESS / COMPLETED` line and CTS at the top.
+- `<lang>/<persona>/<id>/output/`: the final `testbed` snapshot, plus `env_history.json` and
+  `llm_history.json` with the full trajectory.
 
-During execution the runner prints a live per-step log
-(`[step k/max] <action_type> -> <observation>`).
+While it runs, the runner prints a live log: `[step k/max] <action_type> -> <observation>`.
 
-### Headline metric: CTS
+### Constrained Task Success (CTS)
 
-**CTS (Constrained Task Success)** is the primary metric. For a task `t`, `pass(t)` is true when
-all task-specific evaluation functions succeed on the final sandbox state, and `preserve(t)` is
-true when every pre-existing non-target file remains present and byte-identical. Then
+Constrained Task Success (CTS) is the main evaluation metric. For a task `t`, `pass(t)` holds when every
+evaluation function succeeds on the final state, and `preserve(t)` holds when every non-target file that
+existed at the start is still there and byte-identical.
 
 ```
 CTS(t) = pass(t) AND preserve(t)
 ```
 
-Target files are the paths declared in the evaluator arguments, plus the optional `target_files`
-and `output_files` lists of the task (each entry a path string or an object with a `path`); every
-other pre-existing file must remain untouched. The preservation check is binary and operates at file level, so any modification to a
-non-target file causes failure, while changes within target files are assessed by the
-task-specific evaluators. Files created during the run, such as the `.eml` artefacts written by
-`send_email`, are new artefacts and do not count against preservation.
+Target files are the paths named in the evaluator args plus the optional `target_files` and `output_files`
+of the task. Every other pre-existing file must stay untouched. The check is binary and per file:
+modifying a non-target file fails the task, while changes inside target files are left to the evaluators.
+New files created during a run (for example, an `.eml` file produced by `send_email`) do not count as
+modifications of *pre-existing* non-target files.
 
-### Secondary metrics
-
-- **Pass rate** — task evaluators only.
-- **Preservation rate** — fraction of tasks where no non-target file was modified.
-- **Mean steps on passed tasks**, malformed actions per task, iteration-cap hits, and clean
-  termination rate.
-
-Per-task fields in `results.jsonl`:
-
-| Field | Meaning |
-| --- | --- |
-| `is_pass` | Whether all evaluation functions passed. |
-| `cts` | Correct and non-target files preserved (headline metric). |
-| `preserved` | Whether all non-target files were left unchanged. |
-| `n_non_target_changes` | Count of non-target files modified or deleted. |
-| `evaluations` | Per-function pass/fail detail; an `error` entry marks an evaluator error rather than a task failure. |
-| `n_evaluator_errors` | Number of evaluation functions that raised instead of returning a verdict. |
-| `n_steps` | Number of agent steps taken. |
-| `n_malformed` | Actions that failed to parse or execute. |
-| `n_failed_exec` | Commands that ran but reported failure. |
-| `apps_used` | Which tool families the agent used, and how often. |
-| `last_action_type` | The final action type, for example `finish_task`. |
-| `hit_max_iter` | True if the agent ran out of steps without finishing. |
-| `finished_cleanly` | True if the agent emitted `finish_task`. |
-| `elapsed_sec` | Wall-clock time for the task. |
-| `error` | Runtime error string, if any. |
-
-`report.md` leads with the CTS headline, then secondary metrics, aggregate stats, and breakdowns
-by language, by persona, and by evaluation function, plus a per-task table.
 
 ## Execution settings
 
-| Parameter | Value |
-| --- | --- |
-| Iteration cap | 30 steps per task (`--max_iter`). |
-| Actions per step | Exactly one JSON action object. |
-| Agent decoding | 1024 max tokens. Temperature defaults to 0 for OpenAI, HuggingFace, and local endpoints, and to 1.0 for Gemini, following each provider's documented default; `--temperature` overrides all of them. |
-| Judge decoding | Temperature 0, 10 max tokens. |
-| Malformed-action retry | One retry with an explicit JSON reminder. |
-| Stagnation detection | 5 identical consecutive actions trigger `got_stuck`. |
-| Sandbox | Fresh copy of the testbed per task. |
-| Result writing | Atomic writes after every task. |
+- Iteration cap: 30 steps per task (`--max_iter`).
+- One JSON action per step.
+- Agent decoding: 1024 max tokens. Temperature is 0 for OpenAI, HuggingFace and local endpoints and 1.0
+  for Gemini (each provider's own default). `--temperature` overrides all of them.
+- Judge decoding: temperature 0, 10 max tokens.
+- A malformed action gets one retry with an explicit JSON reminder.
+- Five identical consecutive actions trigger `got_stuck`.
+- Fresh copy of the testbed for every task.
+- Results are written atomically after every task.
 
 ## Tests
 
 ```bash
-pip install pytest && python -m pytest -q tests
+python -m pip install pytest && python -m pytest -q tests
 ```
 
-The suite pins the behaviour of the evaluators, the action quoting, the preservation check, and
-the sandbox environment. CI runs it on every push together with the validator.
+The tests cover the evaluators, action quoting, the preservation check and the sandbox. CI runs them on
+every push.
 
-## Validating a task pool
-
-```bash
-python validate_benchmark.py data
-```
-
-The validator reads the configurations and the pristine testbeds and calls no model. It reports
-missing fields, unknown evaluation functions, malformed evaluator arguments, `doc_type` values
-that disagree with the file extension, `required_files` absent from the testbed, and tasks whose
-initial state already satisfies every evaluator, which would hand the agent a free pass. It exits
-non-zero when anything is wrong, so it drops straight into CI. Run it after every regeneration of
-the task pool.
-
-## Troubleshooting
-
-**The report says `IN PROGRESS` and only a few tasks ran.** The run was interrupted before
-finishing. The partial `results.jsonl` and `report.md` are still valid; re-run to continue.
-
-**A task loops to the iteration cap with many malformed actions.** Inspect `env_history.json` for
-that task to see the raw model output. The action parser accepts JSON, Python literals, and
-newline-sanitised variants, so persistent malformed actions usually indicate a model that does not
-follow the single-action schema.
-
-**`File not exist` on a messaging task.** Some tasks expect a `.txt` file under `data/`, while the
-agent may instead use the `email` app, which creates an `.eml` under `emails/`. Check that the
-task's `evaluation.file` matches the artefact the instruction actually asks for.
-
-**HTTP 404 from the provider.** The model was retired; use a current name.
-
-**Low pass rate.** Remaining failures generally reflect model limitations: the agent stops early,
-writes to the wrong artefact, or misses a required keyword. Use the per-task diagnostics and
-`llm_history.json` to separate a weak model from a task or evaluator mismatch.
 
 ## Project layout
 
 ```
 worldbench/
   run_benchmark.py          # discover -> copy testbed -> agent loop -> evaluate -> report
-  validate_benchmark.py     # offline integrity check over a task pool
-  tests/                    # test suite
+  requirements.txt          # core dependencies
   requirements-hf.txt       # extra dependencies for the GPU backend
-  apps/                     # tool families, single JSON action format
+  tests/                    # test suite
+  .github/workflows/ci.yml  # CI: compile, pyflakes, import check, pytest
+  apps/                     # tool families, one JSON action format
   core/
     sandbox.py              # local filesystem sandbox
     env.py                  # agent environment, action parser, failure counters
     policy.py               # LLM policy, persona-grounded system message
-    llm.py                  # agent backends: OpenAI, Google, HuggingFace on GPU, local endpoint
+    llm.py                  # backends: OpenAI, Google, HuggingFace on GPU, local endpoint
   evaluation/
-    evaluators.py           # deterministic and LLM-as-a-judge evaluation functions
-    matching.py             # deterministic text matcher shared by the evaluators
-  data/                     # task sets, one folder per language-locale setting
+    evaluators.py           # deterministic and judge-based evaluation functions
+    matching.py             # text matcher shared by the evaluators
+  data/                     # task sets, one folder per setting (see data/README.md)
     EN-US/  EN-UK/  IT/  PT/  ES/  FR/  DE/  ZH/
   examples/
     EN-UK/                  # small runnable sample (Persona_1..4, pre-built testbeds)
 ```
+
+## Citation
+
+If you use WorldBench in your research, please cite:
+
+```bibtex
+@misc{ranaldi2026worldbench,
+  title         = {WorldBench: Culturally Grounded Benchmark for Multilingual Agents},
+  author        = {Ranaldi, Leonardo and Shen, Sherrie and Kai, Jushi and Birch, Alexandra},
+  year          = {2026},
+  eprint        = {2609.01056},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2609.01056}
+}
+```
+
